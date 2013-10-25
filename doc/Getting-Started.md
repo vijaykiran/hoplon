@@ -252,8 +252,8 @@ line noise and eliminate redundant punctuation when the intent is clear.
 ### The Markup Is A Program
 
 This semantic equivalence suggests the possibility that HTML documents might be
-produced as the result of evaluating a program&mdash;a program written in HTML
-markup (or the equivalent s-expressions). This is what happens in a Hoplon page.
+produced by evaluating a program written in HTML markup (or equivalent
+s-expressions). This is what happens in a Hoplon page.
 
 This implementation provides a literal representation of HTML as code, and of
 code as HTML. This allows the use of macros in HTML documents, and seamless
