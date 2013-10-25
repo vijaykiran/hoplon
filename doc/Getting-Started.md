@@ -171,6 +171,7 @@ the native DOM Element and Text types:
 (.. (div (span "hello")) .-firstChild .-textContent)
 ;;=> "hello"
 
+;; An element with attributes.
 (div {:foo "bar"} "hello")
 ;;=> #<function HTMLDivElement() { [native code] }>
 
