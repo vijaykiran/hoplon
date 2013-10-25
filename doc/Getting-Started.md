@@ -134,8 +134,10 @@ of productivity.
 ### ClojureScript As HTML
 
 The equivalence of HTML and ClojureScript syntax is interesting and can be used
-to generate HTML, like [Hiccup][8] does. What Hoplon provides goes farther to
-include equivalent semantics, as well.
+to generate HTML, like [Hiccup][8] does. What Hoplon provides goes farther and
+includes semantic equivalence, as well. This is accomplished by the Hoplon
+ClojureScript runtime environment and its extensions to the JavaScript DOM
+objects.
 
 This implementation provides a literal representation of HTML as code, and of
 code as HTML. This allows the use of macros in HTML documents, and seamless
