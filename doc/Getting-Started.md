@@ -253,7 +253,7 @@ line noise and eliminate redundant punctuation when the intent is clear.
 
 This semantic equivalence suggests the possibility that HTML documents might be
 produced by evaluating a program written in HTML markup (or equivalent
-s-expressions). This is exactly what happens in a Hoplon page.
+s-expressions). This is exactly what happens in a Hoplon application.
 
 This implementation provides a literal representation of HTML as code, and of
 code as HTML. This allows the use of macros in HTML documents, and seamless
