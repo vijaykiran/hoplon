@@ -225,7 +225,6 @@ line noise and eliminate redundant punctuation when the intent is clear.
       (input :type "text" :id "last-name" :name "last-name")))
 
 ;; Or, equivalently,
-
 (div
   :id "main"
   :class "component-wrapper"
