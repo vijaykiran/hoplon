@@ -240,10 +240,10 @@ line noise and eliminate redundant punctuation when the intent is clear.
 ;; The composition semantic makes the representation quite flexible, e.g.
 ((div :id "main" :class "component-wrapper")
    ((form :action "foo.php")
-      (label :for "first-name" "First Name")
+      ((label :for "first-name") "First Name")
       (input :type "text" :id "first-name" :name "first-name")
       (br)
-      (label :for "last-name" "Last Name")
+      ((label :for "last-name") "Last Name")
       (input :type "text" :id "last-name" :name "last-name")))
 
 ;; etc, etc.
