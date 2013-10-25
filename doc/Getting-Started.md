@@ -215,16 +215,7 @@ line noise and eliminate redundant punctuation when the intent is clear.
 ;; An element with attributes. Key/value pairs may be provided inline.
 (div :foo "bar" "hello")
 
-;; Further combinations are possible (to accomodate editor indenting preferences, etc).
-((div :id "main" :class "component-wrapper")
-   ((form :action "foo.php")
-      (label :for "first-name" "First Name")
-      (input :type "text" :id "first-name" :name "first-name")
-      (br)
-      (label :for "last-name" "Last Name")
-      (input :type "text" :id "last-name" :name "last-name")))
-
-;; Or, equivalently,
+;; Further combinations are possible, preserving simple Scheme-like indentation.
 (div
   :id "main"
   :class "component-wrapper"
@@ -245,6 +236,15 @@ line noise and eliminate redundant punctuation when the intent is clear.
       :type "text"
       :id "last-name"
       :name "last-name")))
+
+;; The composition semantic makes the representation quite flexible, e.g.
+((div :id "main" :class "component-wrapper")
+   ((form :action "foo.php")
+      (label :for "first-name" "First Name")
+      (input :type "text" :id "first-name" :name "first-name")
+      (br)
+      (label :for "last-name" "Last Name")
+      (input :type "text" :id "last-name" :name "last-name")))
 
 ;; etc, etc.
 ```
