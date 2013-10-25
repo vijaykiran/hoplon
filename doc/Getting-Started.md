@@ -203,7 +203,50 @@ This is the "canonical" ClojureScript as HTML form&mdash;elements are lists
 enclosed in parentheses, with the tag name in function position, a map of
 attributes as the first argument, and a number of elements as the remaining
 arguments. The ClojureScript semantics can be relaxed a bit, though, to reduce
-line noise and eliminate redundant punctuation when the intention is unambiguous.
+line noise and eliminate redundant punctuation when the intent is clear.
+
+```clojure
+;; An element with no attributes or children. Attribute map may be omitted.
+(div)
+
+;; An element with a child who has a text node.
+(div (span "hello"))
+
+;; An element with attributes. Key/value pairs may be provided inline.
+(div :foo "bar" "hello")
+
+;; Further combinations are possible (to accomodate editor indenting preferences, etc).
+((div :id "main" :class "component-wrapper")
+   ((form :action "foo.php")
+      (label :for "first-name" "First Name")
+      (input :type "text" :id "first-name" :name "first-name")
+      (br)
+      (label :for "last-name" "Last Name")
+      (input :type "text" :id "last-name" :name "last-name")))
+
+(div
+  :id "main"
+  :class "component-wrapper"
+  (form
+    :action "foo.php"
+    (label
+      :for "first-name"
+      "First Name")
+    (input
+      :type "text"
+      :id "first-name"
+      :name "first-name")
+    (br)
+    (label
+      :for "last-name"
+      "Last Name")
+    (input
+      :type "text"
+      :id "last-name"
+      :name "last-name")))
+
+;; etc, etc.
+```
 
 This implementation provides a literal representation of HTML as code, and of
 code as HTML. This allows the use of macros in HTML documents, and seamless
