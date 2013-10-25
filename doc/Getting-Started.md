@@ -156,17 +156,17 @@ the the native DOM types:
 
 ```clojure
 ;; An element with no attributes or children.
-(div)
+(div {})
 ;;=> #<function HTMLDivElement() { [native code] }>
 
 ;; An element with a child who has a text node.
-(div (span "hello"))
+(div {} (span {} "hello"))
 ;;=> #<function HTMLDivElement() { [native code] }>
 
-(.-firstChild (div (span "hello")))
+(.-firstChild (div {} (span {} "hello")))
 ;;=> #<function HTMLSpanElement() { [native code] }>
 
-(.. (div (span "hello")) -firstChild -textContent)
+(.. (div {} (span {} "hello")) -firstChild -textContent)
 ;;=> "hello"
 
 ;; An element with attributes.
@@ -177,19 +177,19 @@ the the native DOM types:
 ;;=> "bar"
 
 ;; Further combinations are possible.
-(def myelem (div (p "line 1")))
+(def myelem (div {} (p {} "line 1")))
 ;;=> #'user/myelem
 
 (.. myelem -lastChild -textContent)
 ;;=> "line 1"
 
-(myelem (p "line 2"))
+(myelem {} (p {} "line 2"))
 ;;=> #<function HTMLDivElement() { [native code] }>
 
 (.. myelem -lastChild -textContent)
 ;;=> "line 2"
 
-(myelem {:foo "bar"} (p "line 3"))
+(myelem {:foo "bar"} (p {} "line 3"))
 ;;=> #<function HTMLDivElement() { [native code] }>
 
 (. myelem (getAttribute "foo"))
@@ -199,7 +199,11 @@ the the native DOM types:
 ;;=> "line 3"
 ```
 
-
+This is the "canonical" ClojureScript as HTML form&mdash;elements are lists
+enclosed in parentheses, with the tag name in function position, a map of
+attributes as the first argument, and a number of elements as the remaining
+arguments. The ClojureScript semantics can be relaxed a bit, though, to reduce
+line noise and eliminate redundant punctuation when the intention is unambiguous.
 
 This implementation provides a literal representation of HTML as code, and of
 code as HTML. This allows the use of macros in HTML documents, and seamless
