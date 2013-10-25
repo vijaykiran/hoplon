@@ -245,6 +245,8 @@ line noise and eliminate redundant punctuation when the intent is clear.
       (br)
       (label :for "last-name" "Last Name")
       (input :type "text" :id "last-name" :name "last-name")))
+
+;; etc, etc.
 ```
 
 This implementation provides a literal representation of HTML as code, and of
