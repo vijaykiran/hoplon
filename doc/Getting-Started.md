@@ -104,9 +104,9 @@ be _evaluated_ as ClojureScript in the browser.
 
 Since HTML markup is a tree structure it can be expressed as [s-expressions][2].
 For example, `<form><input><input></form>` is syntactically equivalent to the
-s-expression `(form input input)`. With that in mind, the Hello World example
-can be translated into s-expression syntax. (This is, in fact, the first pass
-when the file is compiled.)
+s-expression `(form (input) (input))`. With that in mind, the Hello World
+example can be translated into s-expression syntax. (This is, in fact, the first
+pass when the file is compiled.)
 
 ```clojure
 (page index.html)
@@ -131,45 +131,11 @@ HTML or ClojureScript syntax. This is an important point for designers
 and developers who rely on development tools to get the maximum level
 of productivity.
 
-### ClojureScript HTML Syntax Rules
+### ClojureScript As HTML
 
-* **Elements:** An element is represented as a list enclosed in parentheses.
-  * The first item in the list must be the element's **tag name**.
-  * The second item may be an **attribute map** with keyword keys if the
-    element has attribute nodes.
-  * The rest of the items are the element's **children** and may be text or
-    element nodes.
-  * Parentheses **may be omitted** around elements which have no children or
-    attributes.
-* **Text Nodes:** Text nodes are represented as strings or `($text "Value")`.
-* **Comment Nodes:** Comment nodes are represented as `($comment "the comment")`.
-* **Splicing:** The special form `spliced` acts like a combination of Clojure's
-  `unquote-splicing` and `apply` forms&mdash;children of the `spliced` form
-  are appended to its parent. For example, `(div (spliced (p "1") (p "2")))`
-  is equivalent to `(div (p "1") (p "2"))`.
-
-### HTML-As-ClojureScript-As-HTML
-
-The equivalence of HTML and s-expression syntax allows the representation
-of HTML documents as s-expressions, and the representation of ClojureScript
-s-expression source code as HTML documents, as shown above. The further
-step of adding HTML primitives to the ClojureScript environment in which
-the page is evaluated provides the semantics of HTML, as well.
-
-HTML primitives are implemented as ClojureScript text and element node types.
-Each of the [HTML5 elements][3] is defined, i.e. `a`, `div`, `span`, `p`, etc.
-The ClojureScript element node type has the following properties:
-
-* **They are self-evaluating.** There is no `render` function.
-* **They are immutable.** Operations on a node return a new node and do not
-  alter the original.
-* **They can be applied as functions.** Applying a HTML node to arguments
-  appends those arguments to the node as children, returning a new immutable
-  node.
-* **Attributes can be accessed via map functions.** Use `get`, `assoc`, etc. to
-  access element attributes.
-* **Children can be accessed via vector functions.** Use `nth`, `peek`, `into`,
-  etc. to access child nodes.
+The equivalence of HTML and ClojureScript syntax is interesting and can be used
+to generate HTML, like [Hiccup][8] does. What Hoplon provides goes farther to
+include equivalent semantics, as well.
 
 This implementation provides a literal representation of HTML as code, and of
 code as HTML. This allows the use of macros in HTML documents, and seamless
@@ -413,3 +379,4 @@ FIXME
 [5]: https://github.com/tailrecursion/hoplon/blob/master/src/tailrecursion/hoplon.cljs
 [6]: #thing-looper
 [7]: http://clojuredocs.org/clojure_core/clojure.core/munge
+[8]: https://github.com/weavejester/hiccup
