@@ -203,48 +203,54 @@ This is the "canonical" ClojureScript as HTML form&mdash;elements are lists
 enclosed in parentheses, with the tag name in function position, a map of
 attributes as the first argument, and a number of elements as the remaining
 arguments. The ClojureScript semantics can be relaxed a bit, though, to reduce
-line noise and eliminate redundant punctuation when the intent is clear.
+line noise and eliminate redundant punctuation when the intent is clear. The
+`html` macro transforms this more friendly format to the strict canonical form:
 
 ```clojure
 ;; An element with no attributes or children. Attribute map may be omitted.
-(div)
+(html (div))
 
-;; An element with a child who has a text node.
-(div (span "hello"))
+;; Parentheses can also be omitted when element has no attributes or children.
+(html div)
+
+;; An element with a child who has a text node and no attributes.
+(html (div (span "hello")))
 
 ;; An element with attributes. Key/value pairs may be provided inline.
-(div :foo "bar" "hello")
+(html (div :foo "bar" "hello"))
 
 ;; Further combinations are possible, preserving simple Scheme-like indentation.
-(div
-  :id "main"
-  :class "component-wrapper"
-  (form
-    :action "foo.php"
-    (label
-      :for "first-name"
-      "First Name")
-    (input
-      :type "text"
-      :id "first-name"
-      :name "first-name")
-    (br)
-    (label
-      :for "last-name"
-      "Last Name")
-    (input
-      :type "text"
-      :id "last-name"
-      :name "last-name")))
+(html
+  (div
+    :id "main"
+    :class "component-wrapper"
+    (form
+      :action "foo.php"
+      (label
+        :for "first-name"
+        "First Name")
+      (input
+        :type "text"
+        :id "first-name"
+        :name "first-name")
+      (br)
+      (label
+        :for "last-name"
+        "Last Name")
+      (input
+        :type "text"
+        :id "last-name"
+        :name "last-name"))))
 
 ;; The composition semantic makes the representation quite flexible, e.g.
-((div :id "main" :class "component-wrapper")
-   ((form :action "foo.php")
-      (label :for "first-name" "First Name")
-      (input :type "text" :id "first-name" :name "first-name")
-      (br)
-      (label :for "last-name" "Last Name")
-      (input :type "text" :id "last-name" :name "last-name")))
+(html
+  ((div :id "main" :class "component-wrapper")
+     ((form :action "foo.php")
+        (label :for "first-name" "First Name")
+        (input :type "text" :id "first-name" :name "first-name")
+        (br)
+        (label :for "last-name" "Last Name")
+        (input :type "text" :id "last-name" :name "last-name"))))
 
 ;; etc, etc.
 ```
