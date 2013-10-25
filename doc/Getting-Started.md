@@ -139,6 +139,45 @@ includes semantic equivalence, as well. This is accomplished by the Hoplon
 ClojureScript runtime environment and its extensions to the JavaScript DOM
 objects.
 
+In HTML there are three types of primitives
+
+* element nodes
+* text nodes
+* attribute nodes
+  * node name
+  * node value
+
+The syntax and semantics of HTML can be extended to ClojureScript by extending
+the native DOM Element and Text types:
+
+* ClojureScript strings are HTML text nodes
+* applying a native DOM element as a function with other elements as arguments
+  appends the arguments as children of the element and returns the element
+* applying a native DOM element to a ClojureScript map appends the map's keys
+  and values to the element as attribute node names and values
+
+```clojure
+;; An element with no attributes or children.
+(div)
+;;=> #<function HTMLDivElement() { [native code] }>
+
+;; An element with a child who has a text node.
+(div (span "hello"))
+;;=> #<function HTMLDivElement() { [native code] }>
+
+(.-firstChild (div (span "hello")))
+;;=> #<function HTMLSpanElement() { [native code] }>
+
+(.. (div (span "hello")) .-firstChild .-textContent)
+;;=> "hello"
+
+(div {:foo "bar"} "hello")
+;;=> #<function HTMLDivElement() { [native code] }>
+
+(. (div {:foo "bar"} "hello") (.getAttribute "foo"))
+;;=> "bar"
+```
+
 This implementation provides a literal representation of HTML as code, and of
 code as HTML. This allows the use of macros in HTML documents, and seamless
 templating as templates in this environment are simply functions that return
