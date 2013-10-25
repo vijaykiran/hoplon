@@ -219,8 +219,10 @@ line noise and eliminate redundant punctuation when the intent is clear. The
 ;; An element with attributes. Key/value pairs may be provided inline.
 (html (div :foo "bar" "hello"))
 
-;; Further combinations are possible, preserving simple Scheme-like indentation.
+;; Further combinations are possible, to accomodate taste and text editors
 (html
+
+  ;; Inline attributes with Scheme-like indenting
   (div
     :id "main"
     :class "component-wrapper"
@@ -240,10 +242,9 @@ line noise and eliminate redundant punctuation when the intent is clear. The
       (input
         :type "text"
         :id "last-name"
-        :name "last-name"))))
+        :name "last-name")))
 
-;; The composition semantic makes the representation quite flexible, e.g.
-(html
+  ;; The composition semantic makes the representation quite flexible, e.g.
   ((div :id "main" :class "component-wrapper")
      ((form :action "foo.php")
         (label :for "first-name" "First Name")
