@@ -224,6 +224,8 @@ line noise and eliminate redundant punctuation when the intent is clear.
       (label :for "last-name" "Last Name")
       (input :type "text" :id "last-name" :name "last-name")))
 
+;; Or, equivalently,
+
 (div
   :id "main"
   :class "component-wrapper"
