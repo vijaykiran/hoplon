@@ -144,11 +144,9 @@ In HTML there are three types of primitives
 * element nodes
 * text nodes
 * attribute nodes
-  * node name
-  * node value
 
 The syntax and semantics of HTML can be extended to ClojureScript by extending
-the native DOM Element and Text types:
+the the native DOM types such that the two are equivalent:
 
 * ClojureScript strings are HTML text nodes
 * applying a native DOM element as a function with other elements as arguments
@@ -168,16 +166,40 @@ the native DOM Element and Text types:
 (.-firstChild (div (span "hello")))
 ;;=> #<function HTMLSpanElement() { [native code] }>
 
-(.. (div (span "hello")) .-firstChild .-textContent)
+(.. (div (span "hello")) -firstChild -textContent)
 ;;=> "hello"
 
 ;; An element with attributes.
 (div {:foo "bar"} "hello")
 ;;=> #<function HTMLDivElement() { [native code] }>
 
-(. (div {:foo "bar"} "hello") (.getAttribute "foo"))
+(. (div {:foo "bar"} "hello") (getAttribute "foo"))
 ;;=> "bar"
+
+;; Further combinations are possible.
+(def myelem (div (p "line 1")))
+;;=> #'user/myelem
+
+(.. myelem -lastChild -textContent)
+;;=> "line 1"
+
+(myelem (p "line 2"))
+;;=> #<function HTMLDivElement() { [native code] }>
+
+(.. myelem -lastChild -textContent)
+;;=> "line 2"
+
+(myelem {:foo "bar"} (p "line 3"))
+;;=> #<function HTMLDivElement() { [native code] }>
+
+(. myelem (getAttribute "foo"))
+;;=> "bar"
+
+(.. myelem -lastChild -textContent)
+;;=> "line 3"
 ```
+
+
 
 This implementation provides a literal representation of HTML as code, and of
 code as HTML. This allows the use of macros in HTML documents, and seamless
