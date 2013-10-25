@@ -139,7 +139,7 @@ includes semantic equivalence, as well. This is accomplished by the Hoplon
 ClojureScript runtime environment and its extensions to the JavaScript DOM
 objects.
 
-In HTML there are three types of primitives
+In HTML there are three types of primitives:
 
 * element nodes
 * text nodes
