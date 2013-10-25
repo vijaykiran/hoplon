@@ -249,6 +249,12 @@ line noise and eliminate redundant punctuation when the intent is clear.
 ;; etc, etc.
 ```
 
+### The Markup Is A Program
+
+This semantic equivalence suggests the possibility that HTML documents might be
+produced as the result of a program&mdash;a program that is written using HTML
+syntax.
+
 This implementation provides a literal representation of HTML as code, and of
 code as HTML. This allows the use of macros in HTML documents, and seamless
 templating as templates in this environment are simply functions that return
