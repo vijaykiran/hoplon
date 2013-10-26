@@ -401,11 +401,10 @@ possible. Consider the following variation of an example seen above:
 ```
 
 This is more than mere syntactic sugar. Here is the full power of Lisp&mdash;a
-program that evaluates to an HTML document.
-
-This suggests the possibility of producing HTML documents by evaluating
-programs written in HTML markup (or equivalent s-expressions) _in the client_,
-which is exactly what happens when a page in a Hoplon application is loaded.
+program that evaluates to an HTML document. This suggests the possibility of
+producing HTML documents by evaluating programs written in HTML markup (or
+equivalent s-expressions) _in the client_, which is exactly what happens when a
+page in a Hoplon application is loaded.
 
 #### Hoplon Pages
 
