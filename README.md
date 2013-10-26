@@ -231,9 +231,8 @@ are presented in the next section, but to see what it looks like:
 In general, Hoplon programs can be represented equivalently in either HTML or
 ClojureScript syntax. The Hoplon compiler actually performs the conversion from
 HTML syntax to ClojureScript forms as the first pass when the source file is in
-HTML markup. This ability to consume both formats is an important point,
-however, for designers and developers who rely on development tools to maximize
-productivity, as these tools may require the regular HTML format.
+HTML markup. This ability to consume both formats is a nice affordance for
+designers and developers who rely on development tools to maximize productivity.
 
 #### ClojureScript As HTML
 
