@@ -255,6 +255,12 @@ by extending the the native DOM types:
 
 #### Canonical Form
 
+In the canonical ClojureScript as HTML form, elements are lists enclosed in
+parentheses: the tag name is in function position, a map of attributes is the
+first argument, and any remaining arguments are element or text nodes. Text
+nodes are created by the `$text` function which accepts a single string
+argument.
+
 ```clojure
 ;; An element with no attributes or children.
 (div {})
@@ -300,11 +306,7 @@ by extending the the native DOM types:
 ;;=> "line 3"
 ```
 
-This is the "canonical" ClojureScript as HTML form&mdash;elements are lists
-enclosed in parentheses, with the tag name in function position, a map of
-attributes as the first argument, and a number of elements as the remaining
-arguments. Text nodes are created by the `$text` function which accepts only
-a single string as its argument.
+#### With Syntactic Sugar
 
 Writing large HTML pages like this would be rather tedious. The ClojureScript
 semantics can be relaxed a bit, though, to reduce line noise and eliminate
@@ -312,8 +314,6 @@ redundant punctuation when the intent is clear. Hoplon provides a literal
 representation of HTML as code and vice versa, so it is possible to use macros
 to perform these kinds of syntax transformations. The `html` macro transforms
 this more friendly syntax to the strict canonical form:
-
-#### With Syntactic Sugar
 
 ```clojure
 (html
@@ -366,6 +366,8 @@ this more friendly syntax to the strict canonical form:
 
 ;; etc, etc.
 ```
+
+#### With Imagination
 
 You can write your own macro to do even stranger transformations. All it has to
 do is emit the canonical form and it'll plug right in. Consider the imaginary
