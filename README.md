@@ -455,6 +455,8 @@ page declaration
   namespaces.
 * may contain `:refer-clojure`, `:require` and/or `:require-macros` clauses.
 
+For example:
+
 ```clojure
 (page examples/lesson1/fractions.html
   ;;  ^ REQUIRED output file path
