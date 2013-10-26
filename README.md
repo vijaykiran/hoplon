@@ -105,7 +105,7 @@ Artifacts are published on [Clojars][4].
 * ~~[API Documentation][8]~~
 * [Design Document][9]
 
-# Getting Started
+## Getting Started
 
 Hoplon web application frontends are built from source files by the Hoplon
 compiler. The Hoplon compiler compiles source files with the `.html.hl` and
@@ -123,7 +123,7 @@ syntax the source file contains:
 * `.html.hl`: HTML markup syntax
 * `.cljs.hl`: [s-expression][12] syntax
 
-## Building a Hoplon Application
+### Building a Hoplon Application
 
 Hoplon applications are built using the [boot][11] build tool. The following
 `boot.edn` file is a good starting point:
@@ -152,7 +152,7 @@ $ boot hoplon
 $ boot watch hoplon
 ```
 
-### Compiler Source Directories
+#### Compiler Source Directories
 
 For the purposes of this document (as specified in the `boot.edn` file above)
 the project paths are organized as follows:
@@ -171,7 +171,7 @@ be organized in any way that makes sense for the project. Static files, of
 course, need to have a directory structure that mirrors the desired output
 directory structure.
 
-### Library And Package Management
+#### Library And Package Management
 
 Hoplon projects can depend on maven artifacts, specified in the `:dependencies`
 key of the project _boot.edn_ file. These jar files may contain any of the
@@ -186,7 +186,7 @@ following:
 Note that JavaScript dependency jar files must be prepared a certain way,
 described [here](#).
 
-## Hello World
+### Hello World
 
 The simplest example application looks almost exactly like a standard HTML web
 page, with the exception of an unfamiliar script tag containing a namespace
@@ -207,7 +207,7 @@ be _evaluated_ as ClojureScript in the browser.
 </html>
 ```
 
-## S-Expression Syntax
+### S-Expression Syntax
 
 Since HTML markup is a tree structure it can be expressed as [s-expressions][12].
 For example, `<form><input><input></form>` is syntactically equivalent to the
@@ -238,7 +238,7 @@ HTML or ClojureScript syntax. This is an important point for designers
 and developers who rely on development tools to get the maximum level
 of productivity.
 
-### ClojureScript As HTML
+#### ClojureScript As HTML
 
 The equivalence of HTML and ClojureScript syntax is interesting and can be used
 to generate HTML, like [Hiccup][18] does. What Hoplon provides goes farther and
@@ -372,7 +372,7 @@ This ability to transform the markup is powerful only because of the semantic
 and syntactic equivalence between HTML and ClojureScript in Hoplon. Hoplon
 provides a literal representation of HTML as code and vice versa.
 
-### The Markup Is A Program
+#### The Markup Is A Program
 
 This semantic equivalence suggests the possibility that HTML documents might be
 produced by evaluating a program written in HTML markup (or equivalent
@@ -434,7 +434,7 @@ easily represented in the other syntax if desired. Of course some care
 must be taken when using HTML syntax that tag names do not contain invalid
 characters, etc.
 
-### Page Declaration
+#### Page Declaration
 
 Each Hoplon source file must have a page declaration as its first form.
 
@@ -467,7 +467,7 @@ The page declaration
 * may contain `(:refer-clojure ...)`, `(:require ...)` and/or
   `(:require-macros ...)` clauses.
 
-## Functional Reactive Programming
+### Functional Reactive Programming
 
 An example of how macros can be used to advantage is the `with-frp` macro that
 ships with Hoplon. It ties the FRP reference type from [Javelin][14] to the DOM
@@ -500,7 +500,7 @@ text reflecting the number of times the user has clicked so far. Note that the
 paragraph's text updates _reactively_ according to a _formula_&mdash;responding
 automatically to the updated value of the `clicks` cell.
 
-### Reactive Attributes
+#### Reactive Attributes
 
 In the example above the DOM was wired up to the underlying [Javelin][14] cells
 via the `:on-click` and `:do-text` attributes on DOM elements. In general,
@@ -536,7 +536,7 @@ reactive attributes are divided into two categories: **input** and **output**.
 | `:do-focus-select [expr]` | Triggers the `focus` and `select` events on the element when the value of the formula `expr` changes to a truthy value. |
 | `:do-text [expr]`         | Sets the element's text to the value of `expr`. |
 
-### Thing Looper
+#### Thing Looper
 
 Most applications have some DOM structure that is repeated a number of times,
 once for each item in an array. This could be a list of to-do items which would
@@ -604,7 +604,7 @@ cause the `li` elements in the list to update as necessary, automatically.
 The list updates itself, with the first name in the list now reading
 "jones, bob" instead of "smith, bob".
 
-### The N-Things Problem
+#### The N-Things Problem
 
 FIXME
 
