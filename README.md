@@ -210,10 +210,12 @@ be _evaluated_ as ClojureScript in the browser.
 ### S-Expression Syntax
 
 Since HTML markup is a tree structure it can be expressed as
-[s-expressions][12].  For example, the HTML markup `<form><input><input></form>`
-is syntactically equivalent to the s-expression `(form (input) (input))`. With
-that in mind, the Hello World example can be translated into s-expression
-syntax. (This is, in fact, the first pass when the file is compiled.)
+[s-expressions][12].  For example, the HTML markup
+`<form><input><input></form>` is syntactically equivalent to the s-expression
+`(form (input) (input))`. With that in mind, the Hello World example can be
+translated into s-expression syntax. (This is, in fact, the first pass when the
+file is compiled.) The specific s-expression syntax rules are presented in the
+next section.
 
 ```clojure
 (page index.html)
@@ -224,19 +226,9 @@ syntax. (This is, in fact, the first pass when the file is compiled.)
     (h1 :id "main" :style "color:red" "Hello world")))
 ```
 
-Note that the script element has been removed in the sexp version. The script
-element in the HTML version serves simply to splice the lisp expressions it
-contains into the surrounding HTML markup. This is necessary when working in
-HTML markup because ClojureScript source code is not strictly s-expressions; it
-is made up of lists, maps, vectors, reader macros, etc., and names which are
-valid in ClojureScript may contain characters which would crash a sane HTML
-parser (the function `clj->js`, for example, which cannot be represented in
-HTML markup as `<clj->js/>`).
-
-In general, Hoplon programs can be represented equivalently in either
-HTML or ClojureScript syntax. This is an important point for designers
-and developers who rely on development tools to get the maximum level
-of productivity.
+In general, Hoplon programs can be represented equivalently in either HTML or
+ClojureScript syntax. This is an important point for designers and developers
+who rely on development tools to get the maximum level of productivity.
 
 #### ClojureScript As HTML
 
