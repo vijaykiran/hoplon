@@ -389,7 +389,7 @@ it is, at least):
   </div>)
 ```
 
-And we come full circle, thanks to the magic of macros.
+And we come full circle&mdash;the magic of macros.
 
 #### The Markup Is A Program
 
