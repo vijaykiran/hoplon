@@ -318,19 +318,16 @@ this more friendly syntax to the strict canonical form:
 ```clojure
 (html
 
-  ;; An element with no attributes. Attribute map may be omitted.
-  (div)
+  ;; Elements with no attributes. Attribute maps may be omitted.
+  (div (hl))
 
-  ;; Parentheses can also be omitted when element has no attributes or children.
-  div
+  ;; Parentheses can be omitted when element has no attributes or children.
+  (div hl)
 
   ;; Bare strings can be used in place of $text expressions.
   (div
     (p "Paragraph 1")
     (p "Paragraph 2"))
-
-  ;; An element with a child who has a text node and no attributes.
-  (div (span "hello"))
 
   ;; An element with attributes. Key/value pairs may be provided inline.
   (div :foo "bar" "hello")
