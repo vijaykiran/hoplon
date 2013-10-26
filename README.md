@@ -383,12 +383,13 @@ it is, at least):
 
 ```clojure
 (htmlish
-  (<div id="main" class="component">
-     (<h1 style="color:green"> "Hello, world!")
-     (<p> "This is a weird lil macro.")))
+  <div id="main" class="component">
+     <h1 style="color:green"> "Hello, world!" </h1>
+     <p> "This is a weird lil macro." </p>
+  </div>)
 ```
 
-The sky is the limit, pretty much.
+And we come full circle, thanks to the magic of macros.
 
 #### The Markup Is A Program
 
