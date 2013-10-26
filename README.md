@@ -227,7 +227,7 @@ are presented in the next section, but here it is:
 
 In general, Hoplon programs can be represented equivalently in either HTML or
 ClojureScript syntax. This is an important point for designers and developers
-who rely on development tools to get the maximum level of productivity.
+who rely on development tools to maximize productivity.
 
 #### ClojureScript As HTML
 
