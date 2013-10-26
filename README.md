@@ -313,7 +313,7 @@ arguments.
 
 The ClojureScript semantics can be relaxed a bit, though, to reduce line noise
 and eliminate redundant punctuation when the intent is clear. Hoplon provides
-a literal representation of HTML as code and vice versa, making it possible to
+a literal representation of HTML as code and vice versa, so it is possible to
 use macros to perform these kinds of syntax transformations. The `html` macro
 transforms this more friendly syntax to the strict canonical form:
 
