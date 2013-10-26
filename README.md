@@ -477,13 +477,13 @@ The page declaration
 * may contain `(:refer-clojure ...)`, `(:require ...)` and/or
   `(:require-macros ...)` clauses.
 
-### Functional Reactive Programming
+### Dataflow Programming
 
 An example of how macros can be used to advantage is the `with-frp` macro that
-ships with Hoplon. It ties the FRP reference type from [Javelin][14] to the DOM
-such that DOM elements update reactively when the underlying [Javelin][14] cells
-change and [Javelin][14] cells are updated in response to user input (events).
-Consider the following program:
+ships with Hoplon. It ties the `Cell` reference type from [Javelin][14] to the
+DOM such that DOM elements update reactively when the underlying [Javelin][14]
+cells change and [Javelin][14] cells are updated in response to user input
+(events).  Consider the following program:
 
 ```clojure
 (page examples/frp.html)
