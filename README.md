@@ -409,7 +409,7 @@ page in a Hoplon application is loaded.
 #### Hoplon Pages
 
 Web applications are necessarily organized into "pages". Each page is a single
-HTML file that resides on a server or, in the bad old days, is generated
+HTML file that resides on a server or, in the bad old days, was generated
 dynamically for each request. Hoplon applications are also organized this way.
 
 A simple page might look like this:
