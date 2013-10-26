@@ -477,7 +477,7 @@ The page declaration
 * may contain `(:refer-clojure ...)`, `(:require ...)` and/or
   `(:require-macros ...)` clauses.
 
-### Dataflow Programming
+### Dataflow/Reactive Programming
 
 An example of how macros can be used to advantage is the `with-frp` macro that
 ships with Hoplon. It ties the `Cell` reference type from [Javelin][14] to the
