@@ -262,6 +262,8 @@ by extending the the native DOM types:
 * the special `$text` function takes one argument (a string) and creates a text
   node with the string as its text content
 
+#### Canonical Form
+
 ```clojure
 ;; An element with no attributes or children.
 (div {})
@@ -319,6 +321,8 @@ redundant punctuation when the intent is clear. Hoplon provides a literal
 representation of HTML as code and vice versa, so it is possible to use macros
 to perform these kinds of syntax transformations. The `html` macro transforms
 this more friendly syntax to the strict canonical form:
+
+#### With Syntactic Sugar
 
 ```clojure
 (html
