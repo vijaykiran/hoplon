@@ -251,10 +251,11 @@ In HTML there are three types of primitives:
 The syntax and semantics of HTML can be added to the ClojureScript environment
 by extending the the native DOM types:
 
-* applying a native DOM element as a function with other elements as arguments
+* applying a native DOM element as a function with other nodes as arguments
   appends the arguments as children of the element and returns the element
 * applying a native DOM element to a ClojureScript map appends the map's keys
-  and values to the element as attribute node names and values
+  and values to the element as attribute node names and values, returning the
+  element
 * the special `$text` function takes one argument (a string) and creates a text
   node with the string as its text content
 
