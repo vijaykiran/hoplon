@@ -217,7 +217,7 @@ Since HTML markup is a tree structure it can be expressed as
 `<form><input><input></form>` is syntactically equivalent to the s-expression
 `(form (input) (input))`. With that in mind, the Hello World example can be
 translated into s-expression syntax. The formal rules of s-expr as HTML syntax
-are presented in the next section, but a typical example might look like this:
+are presented in the next section, but to see what it looks like:
 
 ```clojure
 (page index.html)
