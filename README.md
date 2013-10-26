@@ -386,11 +386,11 @@ And we come full circle&mdash;the magic of macros.
 
 ### The Markup Is A Program
 
-This ability to transform the markup is powerful because of the semantic
-and syntactic equivalence between HTML and ClojureScript in Hoplon. But
-syntactic sugar is most useful in combination with evaluation. When the
-markup forms expressions which are evaluated in the DOM, new forms are
-possible. Consider the following variation of an example seen above:
+This ability to transform the markup is powerful because of the syntactic
+equivalence between HTML and ClojureScript in Hoplon. But syntactic sugar is
+most useful in combination with the semantics of evaluation. When the markup
+forms expressions which are evaluated in the DOM, new forms are possible.
+Consider the following variation of an example seen above:
 
 ```clojure
 (html
