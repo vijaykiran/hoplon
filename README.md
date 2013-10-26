@@ -507,8 +507,8 @@ Consider the following program:
 
 Clicking on the "click me" button causes the paragraph element to update, its
 text reflecting the number of times the user has clicked so far. Note that the
-paragraph's text updates _reactively_ according to a _formula_&mdash;responding
-automatically to the updated value of the `clicks` cell.
+paragraph's text updates _reactively_ according to a _formula_&mdash;its text
+is updated automatically whenever the value in the `clicks` cell changes.
 
 #### Reactive Attributes
 
