@@ -446,7 +446,18 @@ page go.
 
 #### Page Declaration
 
-Each Hoplon source file must have a page declaration as its first form.
+Each Hoplon source file must have a page declaration as its first form. The
+page declaration
+
+* determines the path of the output file relative to the webserver document
+  root.
+* declares a ClojureScript namespace for the page (the namespace name is
+  obtained by [munging][17] the output file path).
+* automatically adds `(:require ...)` and `(:require-macros ...)` clauses to
+  refer all names and macros from the `tailrecursion.hoplon` and
+  `tailrecursion.javelin` namespaces.
+* may contain `(:refer-clojure ...)`, `(:require ...)` and/or
+  `(:require-macros ...)` clauses.
 
 ```clojure
 (page examples/lesson1/fractions.html
@@ -465,17 +476,6 @@ Each Hoplon source file must have a page declaration as its first form.
   (:require-macros
     [acme.super-transform :refer [uberdef]]))
 ```
-
-The page declaration
-* determines the path of the output file relative to the webserver document
-  root.
-* declares a ClojureScript namespace for the page (the namespace name is
-  obtained by [munging][17] the output file path).
-* automatically adds `(:require ...)` and `(:require-macros ...)` clauses to
-  refer all names and macros from the `tailrecursion.hoplon` and
-  `tailrecursion.javelin` namespaces.
-* may contain `(:refer-clojure ...)`, `(:require ...)` and/or
-  `(:require-macros ...)` clauses.
 
 ### Dataflow / Reactive Programming
 
