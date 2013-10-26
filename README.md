@@ -252,14 +252,15 @@ In HTML there are three types of primitives:
 * text nodes
 * attribute nodes
 
-The syntax and semantics of HTML can be extended to ClojureScript by extending
-the the native DOM types:
+The syntax and semantics of HTML can be added to the ClojureScript environment
+by extending the the native DOM types:
 
-* ClojureScript strings are HTML text nodes
 * applying a native DOM element as a function with other elements as arguments
   appends the arguments as children of the element and returns the element
 * applying a native DOM element to a ClojureScript map appends the map's keys
   and values to the element as attribute node names and values
+* applying a native DOM element as a function to a ClojureScript string appends
+  a text node to the element with the string as its text content. 
 
 ```clojure
 ;; An element with no attributes or children.
