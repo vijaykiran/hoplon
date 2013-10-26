@@ -391,7 +391,6 @@ possible. Consider the following variation of an example seen above:
 
 ```clojure
 (html
-
   ((div :id "main" :class "component-wrapper")
      ((form :action "foo.php")
         (label :for "first-name" "First Name")
