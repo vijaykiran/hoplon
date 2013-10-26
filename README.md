@@ -322,6 +322,9 @@ this more friendly syntax to the strict canonical form:
   (div)
 
   ;; Parentheses can also be omitted when element has no attributes or children.
+  div
+
+  ;; Bare strings can be used in place of $text expressions.
   (div
     (p "Paragraph 1")
     hr
