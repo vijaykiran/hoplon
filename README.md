@@ -209,11 +209,11 @@ be _evaluated_ as ClojureScript in the browser.
 
 ### S-Expression Syntax
 
-Since HTML markup is a tree structure it can be expressed as [s-expressions][12].
-For example, `<form><input><input></form>` is syntactically equivalent to the
-s-expression `(form (input) (input))`. With that in mind, the Hello World
-example can be translated into s-expression syntax. (This is, in fact, the first
-pass when the file is compiled.)
+Since HTML markup is a tree structure it can be expressed as
+[s-expressions][12].  For example, the HTML markup `<form><input><input></form>`
+is syntactically equivalent to the s-expression `(form (input) (input))`. With
+that in mind, the Hello World example can be translated into s-expression
+syntax. (This is, in fact, the first pass when the file is compiled.)
 
 ```clojure
 (page index.html)
