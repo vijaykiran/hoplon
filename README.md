@@ -376,6 +376,20 @@ this more friendly syntax to the strict canonical form:
 ;; etc, etc.
 ```
 
+You can write your own macro to do even stranger transformations. All it has to
+do is emit the canonical form and it'll plug right in. Consider the imaginary
+`htmlish` macro that performs the following transformation (we like how weird
+it is, at least):
+
+```clojure
+(htmlish
+  (<div id="main" class="component">
+     (<h1 style="color:green"> "Hello, world!")
+     (<p> "This is a weird lil macro.")))
+```
+
+The sky is the limit, pretty much.
+
 #### The Markup Is A Program
 
 This ability to transform the markup is powerful because of the semantic
