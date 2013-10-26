@@ -520,8 +520,6 @@ reactive attributes are divided into two categories: **input** and **output**.
   * start with the prefix `on-`.
   * connect DOM events (click, keypress, mouseover, etc.) to cell values via a
     callback function.
-  * are extended by calling the `#'tailrecursion.hoplon/add-event!` function.
-    Examples [here][15].
   
 ##### Output Attributes
   * start with the prefix `do-`.
@@ -533,7 +531,7 @@ reactive attributes are divided into two categories: **input** and **output**.
 | Attribute                 | Description |
 |---------------------------|-------------|
 | `:loop [looper i & args]` | See the [thing-looper][16] section below. |
-| `:on-<event> [callback]`  | Adds handler `callback` to be called when _event_ is triggered on the element. Supported events are: _change_, _click_, _dblclick_, _error_, _focus_, _focusin_, _focusout_, _hover_, _keydown_, _keypress_, _keyup_, _load_, _mousedown_, _mouseenter_, _mouseleave_, _mousemove_, _mouseout_, _mouseover_, _mouseup_, _ready_, _scroll_, _select_, _submit_, and _unload_. The callback must be a function of one argument: the browser event object. |
+| `:on-<event> [callback]`  | Adds handler `callback` to be called when _event_ is triggered on the element. All events are supported, including the standard ones: _change_, _click_, _dblclick_, _error_, _focus_, _focusin_, _focusout_, _hover_, _keydown_, _keypress_, _keyup_, _load_, _mousedown_, _mouseenter_, _mouseleave_, _mousemove_, _mouseout_, _mouseover_, _mouseup_, _ready_, _scroll_, _select_, _submit_, and _unload_. The callback must be a function of one argument: the browser event object. |
 | `:do-value [expr]`        | Sets the `value` of the element to the value of the formula `expr`. The special values `true` and `false` will check or uncheck checkboxes. |
 | `:do-attr [attr expr]`    | Sets the attribute `attr` to the value of the formula `expr`. The special values `true` and `false` add or remove the attribute. |
 | `:do-class [class expr]`  | Adds or removes the CSS class `class` depending on whether the value of the formula `expr` is truthy or falsy. |
