@@ -389,7 +389,7 @@ it is, at least):
 
 And we come full circle&mdash;the magic of macros.
 
-#### The Markup Is A Program
+### The Markup Is A Program
 
 This ability to transform the markup is powerful because of the semantic
 and syntactic equivalence between HTML and ClojureScript in Hoplon. But
