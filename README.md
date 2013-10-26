@@ -631,7 +631,7 @@ cause the `li` elements in the list to update as necessary, automatically.
 ```
 
 The list updates itself, with the first name in the list now reading
-"jones, bob" instead of "smith, bob".
+_"jones, bob"_ instead of _"smith, bob"_.
 
 #### The N-Things Problem
 
