@@ -309,12 +309,13 @@ the the native DOM types:
 This is the "canonical" ClojureScript as HTML form&mdash;elements are lists
 enclosed in parentheses, with the tag name in function position, a map of
 attributes as the first argument, and a number of elements as the remaining
-arguments. The ClojureScript semantics can be relaxed a bit, though, to reduce
-line noise and eliminate redundant punctuation when the intent is clear.
+arguments.
 
-Hoplon provides a literal representation of HTML as code and vice versa, making
-it possible to use macros to perform these kinds of syntax transformations. The
-`html` macro transforms this more friendly syntax to the strict canonical form:
+The ClojureScript semantics can be relaxed a bit, though, to reduce line noise
+and eliminate redundant punctuation when the intent is clear. Hoplon provides
+a literal representation of HTML as code and vice versa, making it possible to
+use macros to perform these kinds of syntax transformations. The `html` macro
+transforms this more friendly syntax to the strict canonical form:
 
 ```clojure
 (html
