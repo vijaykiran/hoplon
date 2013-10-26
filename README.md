@@ -453,11 +453,10 @@ page declaration
   root.
 * declares a ClojureScript namespace for the page (the namespace name is
   obtained by [munging][17] the output file path).
-* automatically adds `(:require ...)` and `(:require-macros ...)` clauses to
-  refer all names and macros from the `tailrecursion.hoplon` and
-  `tailrecursion.javelin` namespaces.
-* may contain `(:refer-clojure ...)`, `(:require ...)` and/or
-  `(:require-macros ...)` clauses.
+* automatically adds `:require` and `:require-macros` clauses to refer all
+  names and macros from the `tailrecursion.hoplon` and `tailrecursion.javelin`
+  namespaces.
+* may contain `:refer-clojure`, `:require` and/or `:require-macros` clauses.
 
 ```clojure
 (page examples/lesson1/fractions.html
