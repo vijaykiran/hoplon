@@ -191,7 +191,9 @@ described [here](#).
 The simplest example application looks almost exactly like a standard HTML web
 page, with the exception of an unfamiliar script tag containing a [page
 declaration][7]. This bit of code tells the Hoplon compiler where to put the
-output file it will produce.
+output file it will produce. The rest of the file is a normal web page, written
+in the normal HTML syntax. The compiled page, _index.html_, when viewed in the
+browser will be a page with a red heading of "Hello world", as one would expect. 
 
 ```html
 <script type="text/hoplon">
