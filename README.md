@@ -391,7 +391,7 @@ and syntactic equivalence between HTML and ClojureScript in Hoplon. But
 syntactic sugar is most useful in combination with evaluation.
 
 This suggests the possibility of producing HTML documents by evaluating
-programs written in HTML markup (or equivalent s-expressions). This is exactly
+programs written in HTML markup (or equivalent s-expressions), which is exactly
 what happens when a page in a Hoplon application is loaded in the browser.
 
 ```clojure
