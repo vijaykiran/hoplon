@@ -368,9 +368,8 @@ by the Hoplon compiler.
 #### With Imagination
 
 You can write your own macro to do even stranger transformations. All it has to
-do is emit the canonical form and it'll plug right in. Consider the imaginary
-`htmlish` macro that performs the following transformation (we like how weird
-it is, at least):
+do is emit the canonical form. Consider the imaginary `htmlish` macro that
+performs the following transformation (we like how weird it is, at least):
 
 ```clojure
 (htmlish
