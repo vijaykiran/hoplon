@@ -549,7 +549,8 @@ reactive attributes are divided into two categories: **input** and **output**.
 Most applications have some DOM structure that is repeated a number of times,
 once for each item in an array. This could be a list of to-do items which would
 be inserted into an ordered list, for example. The thing-looper mechanism is
-provided to accomplish this in a way that avoids coupling between data and DOM.
+provided to accomplish this in a way that avoids coupling between application
+state and DOM.
 
 For example:
 
