@@ -367,6 +367,11 @@ this more friendly syntax to the strict canonical form:
 ;; etc, etc.
 ```
 
+This transformation is automatically applied by the compiler to the last form
+on the page (the html document). The `html` macro is used mainly from inside
+functions that contain markup or from external libraries that aren't compiled
+by the Hoplon compiler.
+
 #### With Imagination
 
 You can write your own macro to do even stranger transformations. All it has to
