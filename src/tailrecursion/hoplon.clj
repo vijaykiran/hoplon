@@ -86,7 +86,22 @@
         drkw #(->> (partition 2 2 [] %) (drop-while kw1?) (mapcat identity))]
     (cond (map?     head) [tag (prep head) tail]
           (keyword? head) [tag (prep (into {} (mkkw args))) (drkw args)]
-          :else           [tag nil args])))
+          :else           [tag {} args])))
+
+(defn walk-loop [[looper & args] [tag attr [tpl :as kids]]]
+  (if-not looper
+    `(~tag ~attr ~@kids)
+    (let [cntnr `(~tag ~attr)
+          gsym? #(and (symbol? %) (= \# (last (name %))))
+          mksym (fn [& _] (gensym "hl-auto-"))
+          gsyms (into {} (map (juxt identity mksym) (filter gsym? args)))
+          sym*  '(str (gensym "hl-auto-")) 
+          args  (remove gsym? args)]
+      `(~looper
+         (fn [~@args]
+           (let [~@(interleave (vals gsyms) (repeat sym*))]
+             ~(postwalk #(get gsyms % %) tpl))) 
+         ~cntnr))))
 
 (defn walk-do [d form]
   (if-not d
@@ -97,26 +112,11 @@
          (tailrecursion.javelin/deref*
            (tailrecursion.javelin/cell= (doto f# ~@dos)))))))
 
-(defn walk-loop [[looper & args] [tag attr kids]]
-  (if-not looper
-    `(~tag ~@(when attr [attr]) ~@kids)
-    (let [cntnr `(~tag ~@(when-let [x attr] [x]))
-          gsym? #(and (symbol? %) (= \# (last (name %))))
-          mksym (fn [& _] (gensym "hl-auto-"))
-          gsyms (into {} (map (juxt identity mksym) (filter gsym? args)))
-          sym*  '(str (gensym "hl-auto-")) 
-          args  (remove gsym? args)]
-      `(~looper
-         (fn [~@args]
-           (let [~@(interleave (vals gsyms) (repeat sym*))]
-             ~(postwalk #(get gsyms % %) (first kids)))) 
-         ~cntnr))))
-
 (defn walk-list [form]
   (let [[tag attr kids] (parse-e form)
         [d l] ((juxt :do :loop) attr)
         attr (dissoc attr :do :loop)]
-    (-> [tag (when-not (empty? attr) attr) (map walk kids)]
+    (-> [tag attr (map walk kids)]
       ((partial walk-loop l))
       ((partial walk-do d)))))
 
@@ -124,26 +124,35 @@
   (let [parts (remove #(= "" %) (#'i/interpolate s))]
     (if (every? string? parts) s `(str ~@parts))))
 
-(defn walk-string [form]
-  (let [i (terpol8 form)]
+(defn walk-text [[_ text :as form]]
+  (let [i (terpol8 text)]
     (if-not (listy? i)
       form
-      `(let [t# (.createTextNode js/document)]
+      `(let [t# ~form]
          (tailrecursion.javelin/cell= (set! (.-nodeValue t#) ~i))
          t#))))
 
+(defn $text? [x] (or (= '$text x) (= 'tailrecursion.hoplon/$text x)))
+
 (defn walk [form]
-  (cond (listy? form) (walk-list form)
-        (string? form) (walk-string form)))
+  (cond ($text? (first form)) (walk-text form)
+        (listy? form)         (walk-list form)
+        :else                 form))
 
 (defn norm [form]
-  (if-not (listy? form)
-    form
-    (let [parse-node  #(parse-e % :prep? false)
-          [tag a  k]  (parse-node form)
-          [tag a* k*] (if (listy? tag) (parse-node (norm tag)) [tag nil nil])
-          [attr kids] [(merge a* a) (concat (map norm k*) (map norm k))]]
-      (concat (list tag) (when attr [attr]) kids))))
+  (cond
+    (string? form)
+      `($text ~form)
+    (symbol? form)
+      `(~form {})
+    (and (listy? form) ($text? (first form)))
+      form
+    (listy? form)
+      (let [parse-node  #(parse-e % :prep? false)
+            [tag a  k]  (parse-node form)
+            [tag a* k*] (if (listy? tag) (parse-node (norm tag)) [tag nil nil])
+            [attr kids] [(merge a* a) (concat (map norm k*) (map norm k))]]
+        `(~tag ~attr ~@kids))))
 
 (defmacro with-frp [& forms]
   `(spliced ~@(map (comp walk norm) forms)))

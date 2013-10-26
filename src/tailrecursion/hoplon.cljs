@@ -26,9 +26,6 @@
 
 ;; env ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(defn- unsplice [forms]
-  (mapcat #(if (vector? %) (unsplice %) [%]) forms))
-
 (def DIRECT-ATTRS
   {"cellpadding"  "cellPadding"
    "cellspacing"  "cellSpacing"
@@ -46,6 +43,27 @@
     ([this writer opts]
      (write-all writer "#<Text: " (.-nodeValue this) ">"))))
 
+(defn- unsplice [forms]
+  (mapcat #(if (vector? %) (unsplice %) [%]) forms))
+
+(defn add-attributes! [this attrs]
+  (doseq [[k v] attrs]
+    (let [k (name k)]
+      (if (= v false)
+        (.removeAttribute this k)
+        (let [v (if (= v true) k (str v))]
+          (cond (= k "style")              (set! (.-cssText (.-style this)) v)
+                (= k "class")              (set! (.-className this) v)
+                (= k   "for")              (set! (.-htmlFor this) v)
+                (contains? DIRECT-ATTRS k) (.setAttribute this (DIRECT-ATTRS k) v)
+                :else                      (aset this k v))))))
+  this)
+
+(defn add-children! [this kids]
+  (doseq [x (unsplice kids)]
+    (when (instance? js/Node x) (.appendChild this x)))
+  this)
+
 (extend-type js/Element
   IPrintWithWriter
   (-pr-writer
@@ -53,28 +71,10 @@
      (write-all writer "#<Element: " (.-tagName this) ">")))
   IFn
   (-invoke
-    ([this & [head & tail :as args]]
-     (when (seq args)
-       (let [kw1? (comp keyword? first)
-             mkkw #(->> (partition 2 %) (take-while kw1?) (map vec))
-             drkw #(->> (partition 2 2 [] %) (drop-while kw1?) (mapcat identity))
-             [attr kids] (cond (map?     head) [head tail]
-                               (keyword? head) [(into {} (mkkw args)) (drkw args)]
-                               :else           [{} args])]
-         (doseq [[k v] attr]
-           (when-not (= v false)
-             (let [k (name k)
-                   v (if (= v true) k (str v))]
-               (cond (= k "style")              (set! (.-cssText (.-style this)) v)
-                     (= k "class")              (set! (.-className this) v)
-                     (= k   "for")              (set! (.-htmlFor this) v)
-                     (contains? DIRECT-ATTRS k) (.setAttribute this (DIRECT-ATTRS k) v)
-                     :else                      (aset this k v)))))
-         (doseq [x (unsplice kids)]
-           (let [kid (cond (string? x)            (.createTextNode js/document x)
-                           (instance? js/Node x)  x)]
-             (when kid (.appendChild this kid)))))) 
-     this)))
+    ([this attrs & kids]
+     (doto this
+       (add-attributes! attrs)
+       (add-children! kids)))))
 
 (defn clone [this] this)
 
@@ -206,7 +206,7 @@
 (def video          (make-elem "video"))
 (def wbr            (make-elem "wbr"))
 
-(def spliced        vector)
+(def spliced        (fn [attr & kids] (vec kids)))
 (def $text          #(.createTextNode js/document %))
 (def $comment       #(.createComment js/document %))
 
@@ -370,17 +370,19 @@
   (let [p (vec (repeat n x))]
     #(let [z (- n (count %))] (if (pos? z) (into % (subvec p 0 z)) p))))
 
-(defn thing-looper [things n g & {:keys [reverse?]}] 
+(defn thing-looper [things n g & {:keys [reverse? done?]}] 
   (let [pad    (mkpad n nil)
         items  (fan-out (cell= (pad things)))]
     (fn [f container]
       (let [tpl #(apply f %1 (g things %1 %2))
             frg (.createDocumentFragment js/document)
             add #(timeout (fn [] (.appendChild frg (tpl %1 %2))) 0)]
+        (if (and done? @done?) (reset! done? false))
         (if (not reverse?)
           (doall (map-indexed add items))
           (loop [i (dec (count items)) items items]
             (add i (peek items))
             (when-not (zero? i) (recur (dec i) (pop items))))) 
         (timeout #(.appendChild container frg) 0)
+        (timeout #(if done? (reset! done? true)) 0)
         container))))
