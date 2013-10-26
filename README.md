@@ -318,8 +318,8 @@ this more friendly syntax to the strict canonical form:
 ```clojure
 (html
 
-  ;; An element with no attributes or children. Attribute map may be omitted.
-  (div)
+  ;; An element with no attributes. Attribute map may be omitted.
+  (div (span "foop"))
 
   ;; Parentheses can also be omitted when element has no attributes or children.
   div
