@@ -421,9 +421,10 @@ A typical page might look like this:
 (page examples/sexp.html)
 
 (defn fancyitem [heading body]
-  (li
-    (h2 heading)
-    (p body)))
+  (html
+    (li
+      (h2 heading)
+      (p body))))
     
 (html
   (head
