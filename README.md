@@ -369,15 +369,15 @@ transforms this more friendly syntax to the strict canonical form:
 ;; etc, etc.
 ```
 
-This ability to transform the markup is powerful only because of the semantic
-and syntactic equivalence between HTML and ClojureScript in Hoplon. Hoplon
-provides a literal representation of HTML as code and vice versa.
-
 #### The Markup Is A Program
 
-This semantic equivalence suggests the possibility that HTML documents might be
-produced by evaluating a program written in HTML markup (or equivalent
-s-expressions). This is exactly what happens in a Hoplon application.
+This ability to transform the markup is powerful because of the semantic
+and syntactic equivalence between HTML and ClojureScript in Hoplon. But
+syntactic sugar is most useful in combination with evaluation.
+
+This suggests the possibility of producing HTML documents by evaluating
+programs written in HTML markup (or equivalent s-expressions). This is exactly
+what happens when a page in a Hoplon application is loaded in the browser.
 
 ```clojure
 (page examples/sexp.html)
