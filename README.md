@@ -100,10 +100,10 @@ Artifacts are published on [Clojars][4].
 
 ### Documentation
 
-* [Getting Started][6]
-* ~~[Configuration][7]~~
-* ~~[API Documentation][8]~~
-* [Design Document][9]
+* [Getting Started][9]
+* ~~[Configuration][9]~~
+* ~~[API Documentation][9]~~
+* [Design Document][6]
 
 ## Getting Started
 
@@ -634,9 +634,8 @@ this license. You must not remove this notice, or any other, from this software.
 [3]: https://github.com/tailrecursion/cljson
 [4]: https://clojars.org/tailrecursion/hoplon
 [5]: https://github.com/tailrecursion/hoplon-demos
-[6]: https://github.com/tailrecursion/hoplon/blob/master/doc/Getting-Started.md
-[7]: https://github.com/tailrecursion/hoplon/blob/master/doc/Getting-Started.md
-[8]: https://github.com/tailrecursion/hoplon/blob/master/doc/Getting-Started.md
+[6]: doc/Design.md
+[9]: #getting-started
 
 [11]: https://github.com/tailrecursion/boot
 [12]: http://en.wikipedia.org/wiki/S-expression
