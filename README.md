@@ -259,8 +259,8 @@ by extending the the native DOM types:
   appends the arguments as children of the element and returns the element
 * applying a native DOM element to a ClojureScript map appends the map's keys
   and values to the element as attribute node names and values
-* applying a native DOM element as a function to a ClojureScript string appends
-  a text node to the element with the string as its text content. 
+* the special `$text` function takes one argument (a string) and creates a text
+  node with the string as its text content
 
 ```clojure
 ;; An element with no attributes or children.
@@ -268,36 +268,36 @@ by extending the the native DOM types:
 ;;=> #<function HTMLDivElement() { [native code] }>
 
 ;; An element with a child who has a text node.
-(div {} (span {} "hello"))
+(div {} (span {} ($text "hello")))
 ;;=> #<function HTMLDivElement() { [native code] }>
 
-(.-firstChild (div {} (span {} "hello")))
+(.-firstChild (div {} (span {} ($text "hello"))))
 ;;=> #<function HTMLSpanElement() { [native code] }>
 
-(.. (div {} (span {} "hello")) -firstChild -textContent)
+(.. (div {} (span {} ($text "hello"))) -firstChild -textContent)
 ;;=> "hello"
 
 ;; An element with attributes.
-(div {:foo "bar"} "hello")
+(div {:foo "bar"} ($text "hello"))
 ;;=> #<function HTMLDivElement() { [native code] }>
 
-(. (div {:foo "bar"} "hello") (getAttribute "foo"))
+(. (div {:foo "bar"} ($text "hello")) (getAttribute "foo"))
 ;;=> "bar"
 
 ;; Further combinations are possible.
-(def myelem (div {} (p {} "line 1")))
+(def myelem (div {} (p {} ($text "line 1"))))
 ;;=> #'user/myelem
 
 (.. myelem -lastChild -textContent)
 ;;=> "line 1"
 
-(myelem {} (p {} "line 2"))
+(myelem {} (p {} ($text "line 2")))
 ;;=> #<function HTMLDivElement() { [native code] }>
 
 (.. myelem -lastChild -textContent)
 ;;=> "line 2"
 
-(myelem {:foo "bar"} (p {} "line 3"))
+(myelem {:foo "bar"} (p {} ($text "line 3")))
 ;;=> #<function HTMLDivElement() { [native code] }>
 
 (. myelem (getAttribute "foo"))
@@ -310,13 +310,15 @@ by extending the the native DOM types:
 This is the "canonical" ClojureScript as HTML form&mdash;elements are lists
 enclosed in parentheses, with the tag name in function position, a map of
 attributes as the first argument, and a number of elements as the remaining
-arguments.
+arguments. Text nodes are created by the `$text` function which accepts only
+a single string as its argument.
 
-The ClojureScript semantics can be relaxed a bit, though, to reduce line noise
-and eliminate redundant punctuation when the intent is clear. Hoplon provides
-a literal representation of HTML as code and vice versa, so it is possible to
-use macros to perform these kinds of syntax transformations. The `html` macro
-transforms this more friendly syntax to the strict canonical form:
+Writing large HTML pages like this would be rather tedious. The ClojureScript
+semantics can be relaxed a bit, though, to reduce line noise and eliminate
+redundant punctuation when the intent is clear. Hoplon provides a literal
+representation of HTML as code and vice versa, so it is possible to use macros
+to perform these kinds of syntax transformations. The `html` macro transforms
+this more friendly syntax to the strict canonical form:
 
 ```clojure
 (html
