@@ -353,16 +353,7 @@ this more friendly syntax to the strict canonical form:
       (input
         :type "text"
         :id "last-name"
-        :name "last-name")))
-
-  ;; The composition semantic makes the representation quite flexible, e.g.
-  ((div :id "main" :class "component-wrapper")
-     ((form :action "foo.php")
-        (label :for "first-name" "First Name")
-        (input :type "text" :id "first-name" :name "first-name")
-        (br)
-        (label :for "last-name" "Last Name")
-        (input :type "text" :id "last-name" :name "last-name"))))
+        :name "last-name"))))
 
 ;; etc, etc.
 ```
@@ -393,7 +384,21 @@ And we come full circle&mdash;the magic of macros.
 
 This ability to transform the markup is powerful because of the semantic
 and syntactic equivalence between HTML and ClojureScript in Hoplon. But
-syntactic sugar is most useful in combination with evaluation.
+syntactic sugar is most useful in combination with evaluation. When the
+markup forms expressions which are evaluated in the DOM, new forms are
+possible. Consider the following variation of an example seen above:
+
+```clojure
+(html
+
+  ((div :id "main" :class "component-wrapper")
+     ((form :action "foo.php")
+        (label :for "first-name" "First Name")
+        (input :type "text" :id "first-name" :name "first-name")
+        (br)
+        (label :for "last-name" "Last Name")
+        (input :type "text" :id "last-name" :name "last-name"))))
+```
 
 This suggests the possibility of producing HTML documents by evaluating
 programs written in HTML markup (or equivalent s-expressions) _in the client_,
