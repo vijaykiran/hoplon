@@ -400,12 +400,20 @@ possible. Consider the following variation of an example seen above:
         (input :type "text" :id "last-name" :name "last-name"))))
 ```
 
-This is more than mere syntactic sugar. Here is the full power of a
-Lisp&mdash;a program that can be evaluated to produce a HTML document.
+This is more than mere syntactic sugar. Here is the full power of Lisp&mdash;a
+program that evaluates to an HTML document.
 
 This suggests the possibility of producing HTML documents by evaluating
 programs written in HTML markup (or equivalent s-expressions) _in the client_,
 which is exactly what happens when a page in a Hoplon application is loaded.
+
+#### Hoplon Pages
+
+Web applications are necessarily organized into "pages". Each page is a single
+HTML file that resides on a server or, in the bad old days, is generated
+dynamically for each request. Hoplon applications are also organized this way.
+
+A simple page might look like this:
 
 ```clojure
 (page examples/sexp.html)
@@ -425,43 +433,16 @@ which is exactly what happens when a page in a Hoplon application is loaded.
       (fancyitem (span "Item 2") (span "This is the second item.")))))
 ```
 
-As always, the same page can be represented as HTML markup:
+The page can be divided into three main parts, from top to bottom:
 
-```html
-<script type="text/hoplon">
-  (page example1/sexp.html)
-      
-  (defn fancyitem [heading body]
-    (li
-      (h2 heading)
-      (p body)))
-</script>
+* the page declaration
+* definitions and initialization code
+* the page markup
 
-<html>
-  <head>
-    <title>Hello Functions</title>
-  </head>
-  <body>
-    <h1>Hello Functions</h1>
-    <ul>
-      <fancyitem>
-        <span>Item 1</span>
-        <span>This is the first item.</span>  
-      </fancyitem>
-      <fancyitem>
-        <span>Item 2</span>
-        <span>This is the second item.</span>  
-      </fancyitem>
-    </ul>
-  </body>
-</html>
-```
-
-For brevity's sake the rest of the documentation will present examples as
-either HTML or s-expressions, with the implication that either can be
-easily represented in the other syntax if desired. Of course some care
-must be taken when using HTML syntax that tag names do not contain invalid
-characters, etc.
+The first form in the file must always be the page declaration, and the last
+form must always be the page markup. In between may be a number of ClojureScript
+expressions that might define vars needed elsewhere in the page, run setup or
+initialization code, etc.
 
 #### Page Declaration
 
