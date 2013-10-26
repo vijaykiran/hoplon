@@ -203,24 +203,29 @@ This is the "canonical" ClojureScript as HTML form&mdash;elements are lists
 enclosed in parentheses, with the tag name in function position, a map of
 attributes as the first argument, and a number of elements as the remaining
 arguments. The ClojureScript semantics can be relaxed a bit, though, to reduce
-line noise and eliminate redundant punctuation when the intent is clear. The
-`html` macro transforms this more friendly format to the strict canonical form:
+line noise and eliminate redundant punctuation when the intent is clear.
+
+Hoplon provides a literal representation of HTML as code and vice versa, making
+it possible to use macros to perform these kinds of syntax transformations. The
+`html` macro transforms this more friendly syntax to the strict canonical form:
 
 ```clojure
-;; An element with no attributes or children. Attribute map may be omitted.
-(html (div))
-
-;; Parentheses can also be omitted when element has no attributes or children.
-(html div)
-
-;; An element with a child who has a text node and no attributes.
-(html (div (span "hello")))
-
-;; An element with attributes. Key/value pairs may be provided inline.
-(html (div :foo "bar" "hello"))
-
-;; Further combinations are possible, to accomodate taste and text editors
 (html
+
+  ;; An element with no attributes or children. Attribute map may be omitted.
+  (div)
+
+  ;; Parentheses can also be omitted when element has no attributes or children.
+  (div
+    (p "Paragraph 1")
+    hr
+    (p "Paragraph 2"))
+
+  ;; An element with a child who has a text node and no attributes.
+  (div (span "hello"))
+
+  ;; An element with attributes. Key/value pairs may be provided inline.
+  (div :foo "bar" "hello")
 
   ;; Inline attributes with Scheme-like indenting
   (div
@@ -256,16 +261,15 @@ line noise and eliminate redundant punctuation when the intent is clear. The
 ;; etc, etc.
 ```
 
+This ability to transform the markup is powerful only because of the semantic
+and syntactic equivalence between HTML and ClojureScript in Hoplon. Hoplon
+provides a literal representation of HTML as code and vice versa.
+
 ### The Markup Is A Program
 
 This semantic equivalence suggests the possibility that HTML documents might be
 produced by evaluating a program written in HTML markup (or equivalent
 s-expressions). This is exactly what happens in a Hoplon application.
-
-This implementation provides a literal representation of HTML as code, and of
-code as HTML. This allows the use of macros in HTML documents, and seamless
-templating as templates in this environment are simply functions that return
-nodes.
 
 ```clojure
 (page examples/sexp.html)
