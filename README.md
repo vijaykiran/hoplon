@@ -327,7 +327,6 @@ this more friendly syntax to the strict canonical form:
   ;; Bare strings can be used in place of $text expressions.
   (div
     (p "Paragraph 1")
-    hr
     (p "Paragraph 2"))
 
   ;; An element with a child who has a text node and no attributes.
