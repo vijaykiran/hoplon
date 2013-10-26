@@ -189,10 +189,9 @@ described [here](#).
 ### Hello World
 
 The simplest example application looks almost exactly like a standard HTML web
-page, with the exception of an unfamiliar script tag containing a namespace
-declaration. All HTML source files in a Hoplon application must declare a
-namespace. This is because the HTML contained in the document body is going to
-be _evaluated_ as ClojureScript in the browser.
+page, with the exception of an unfamiliar script tag containing a [page
+declaration][7]. This bit of code tells the Hoplon compiler where to put the
+output file it will produce.
 
 ```html
 <script type="text/hoplon">
@@ -648,6 +647,7 @@ this license. You must not remove this notice, or any other, from this software.
 [4]: https://clojars.org/tailrecursion/hoplon
 [5]: https://github.com/tailrecursion/hoplon-demos
 [6]: doc/Design.md
+[7]: #page-declaration
 [9]: #getting-started
 
 [11]: https://github.com/tailrecursion/boot
