@@ -441,7 +441,8 @@ The page can be divided into three main parts, from top to bottom:
 The first form in the file must always be the page declaration, and the last
 form must always be the page markup. In between may be a number of ClojureScript
 expressions that might define vars needed elsewhere in the page, run setup or
-initialization code, etc.
+initialization code, talk to the server, or anything else required to make the
+page go.
 
 #### Page Declaration
 
