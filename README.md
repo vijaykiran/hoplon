@@ -213,9 +213,8 @@ Since HTML markup is a tree structure it can be expressed as
 [s-expressions][12].  For example, the HTML markup
 `<form><input><input></form>` is syntactically equivalent to the s-expression
 `(form (input) (input))`. With that in mind, the Hello World example can be
-translated into s-expression syntax. (This is, in fact, the first pass when the
-file is compiled.) The specific s-expression syntax rules are presented in the
-next section.
+translated into s-expression syntax. The rules of s-expression HTML syntax are
+described in the next section, but here it is:
 
 ```clojure
 (page index.html)
