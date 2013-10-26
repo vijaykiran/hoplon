@@ -476,6 +476,21 @@ page declaration
     [acme.super-transform :refer [uberdef]]))
 ```
 
+#### Definitions And Initialization
+
+Any ClojureScript expressions in the file between the page declaration and the
+page markup are evaluated when the page has loaded and the DOM is ready, but
+before the page markup is evaluated.
+
+#### Page Markup
+
+The last form in a Hoplon source file must always be the page markup. This is
+a HTML document with a `html` element containing exactly one `head` followed
+by one `body`. This markup is static and not evaluated, as such. Any markup
+inside the body, however, is evaluated as ClojureScript expressions when the
+page loads, and the result of this evaluation is appended into the page's
+empty `body`.
+
 ### Dataflow / Reactive Programming
 
 An example of how macros can be used to advantage is the `with-frp` macro that
