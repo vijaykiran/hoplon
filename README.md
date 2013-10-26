@@ -373,8 +373,8 @@ it is, at least):
 ```clojure
 (htmlish
   <div id="main" class="component">
-     <h1> "Hello, world!" </h1>
-     <p> "This is a weird lil macro." </p>
+    <h1> "Hello, world!" </h1>
+    <p> "This is a weird lil macro." </p>
   </div>)
 ```
 
