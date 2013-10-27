@@ -582,11 +582,9 @@ For example:
    {:first "joe" :last "blow"}])
 
 (def loop-people
-  (thing-looper
-    people
-    (fn [people i person]
-      [(cell= (:first person))
-       (cell= (:last person))])))
+  (thing-looper people 2 (fn [people i person]
+                           [(cell= (:first person))
+                            (cell= (:last person))])))
 
 (html
   (head

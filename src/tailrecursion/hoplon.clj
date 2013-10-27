@@ -140,19 +140,18 @@
         :else                 form))
 
 (defn norm [form]
-  (cond
-    (string? form)
-      `($text ~form)
-    (symbol? form)
-      `(~form {})
-    (and (listy? form) ($text? (first form)))
-      form
-    (listy? form)
-      (let [parse-node  #(parse-e % :prep? false)
-            [tag a  k]  (parse-node form)
-            [tag a* k*] (if (listy? tag) (parse-node (norm tag)) [tag nil nil])
-            [attr kids] [(merge a* a) (concat (map norm k*) (map norm k))]]
-        `(~tag ~attr ~@kids))))
+  (cond (string? form) `($text ~form)
+        (symbol? form) `(~form {})
+        (and (listy? form) ($text? (first form))) form
+        (listy? form)
+        (let [parse-node  #(parse-e % :prep? false)
+              [tag a  k]  (parse-node form)
+              [tag a* k*] (if (listy? tag) (parse-node (norm tag)) [tag nil nil])
+              [attr kids] [(merge a* a) (concat (map norm k*) (map norm k))]]
+          `(~tag ~attr ~@kids))))
+
+(defmacro html [& forms]
+  `(spliced ~@(map norm forms)))
 
 (defmacro with-frp [& forms]
   `(spliced ~@(map (comp walk norm) forms)))

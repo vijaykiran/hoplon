@@ -136,11 +136,9 @@
 (def h4             (make-elem "h4"))
 (def h5             (make-elem "h5"))
 (def h6             (make-elem "h6"))
-(def head           (make-elem "head"))
 (def header         (make-elem "header"))
 (def hgroup         (make-elem "hgroup"))
 (def hr             (make-elem "hr"))
-(def html           (make-elem "html"))
 (def i              (make-elem "i"))
 (def iframe         (make-elem "iframe"))
 (def img            (make-elem "img"))
@@ -371,8 +369,7 @@
     #(let [z (- n (count %))] (if (pos? z) (into % (subvec p 0 z)) p))))
 
 (defn thing-looper [things n g & {:keys [reverse? done?]}] 
-  (let [pad    (mkpad n nil)
-        items  (fan-out (cell= (pad things)))]
+  (let [items (fan-out (cell= ((mkpad n nil) things)))]
     (fn [f container]
       (let [tpl #(apply f %1 (g things %1 %2))
             frg (.createDocumentFragment js/document)
