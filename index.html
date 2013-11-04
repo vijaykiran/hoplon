@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="css/bootstrap.min.css" rel="stylesheet" media="screen"><link href="css/starter-template.css" rel="stylesheet" media="screen"><title>Bootstrap Test</title><meta name="description" content="Hoplon demo testing Twitter Bootstrap library design."><link rel="stylesheet" href="css/github.css" media="screen"></head><body><script type="text/javascript">var CLOSURE_NO_DEPS = true;</script><script type="text/javascript" src="main.js"></script><script type="text/javascript">tailrecursion.hoplon.app_pages.index.html.hoploninit();</script><div class="navbar navbar-inverse navbar-fixed-top" style="overflow-x: hidden; overflow-y: hidden; display: block; height: 0.9786597487660336px; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px; "><div class="container"><div class="navbar-header"><a shape="rect" class="navbar-brand" href="#/home/">Bootstrap Test</a></div><div class="collapse navbar-collapse"><ul class="nav navbar-nav"><li class="active"><a shape="rect" href="#/home/">Home</a></li><li><a shape="rect" href="#/about/">About</a></li><li><a shape="rect" href="#/contact/">Contact</a></li></ul></div></div></div><div class="container" style="display: block; "><div class="row"><div class="col-md-2"></div><div class="col-md-8"><div class="page-header"><h1>Hello World</h1></div><p>Hoplon is a set of libraries for making web pages.</p></div><div class="col-md-2"></div></div><div class="row"><div class="col-md-2"><p>This is what the code does.</p></div><div class="col-md-8"><div class="panel panel-default"><div class="panel-heading" id="/home/example1/">Example:</div><div class="panel-body">Foo bar.</div></div><div class="highlight"><pre><span class="nt">&lt;script</span> <span class="na">type=</span><span class="s">"text/hoplon"</span><span class="nt">&gt;</span>
+  (page index.html)
+  
+  (defn my-list [<span class="err">&amp;</span> items]
+    (div
+      :class "my-list"
+      (apply ul (map #(li (div :class "my-list-item" %)) items))))
+
+  (def clicks (cell 0))
+<span class="nt">&lt;/script&gt;</span>
+    
+<span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;title&gt;</span>example page<span class="nt">&lt;/title&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;h1&gt;</span>Hello, Hoplon<span class="nt">&lt;/h1&gt;</span>
+    
+    <span class="nt">&lt;my-list&gt;</span>
+      <span class="nt">&lt;span&gt;</span>first thing<span class="nt">&lt;/span&gt;</span>
+      <span class="nt">&lt;span&gt;</span>second thing<span class="nt">&lt;/span&gt;</span>
+    <span class="nt">&lt;/my-list&gt;</span>
+
+    <span class="nt">&lt;p&gt;&lt;text&gt;</span>You've clicked ~{clicks} times, so far.<span class="nt">&lt;/text&gt;&lt;/p&gt;</span>
+    <span class="nt">&lt;button</span> <span class="na">on-click=</span><span class="s">"{{ #(swap! clicks inc) }}"</span><span class="nt">&gt;</span>click me<span class="nt">&lt;/button&gt;</span>
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</pre></div></div><div class="col-md-2"><p>asdf</p></div></div></div><div class="container" style="display: none; "><h1>About</h1><p>This is the about content.</p></div><div class="container" style="display: none; "><h1>Contact</h1><p>This is the contact content.</p></div></body></html>
