@@ -12,13 +12,12 @@
     [tailrecursion.boot.task                :as t]
     [tailrecursion.boot.file                :as f]
     [tailrecursion.boot.deps                :as d]
-    [tailrecursion.hoplon.compiler.pprint   :as p]
     [clojure.pprint                         :refer [pprint]]
     [clojure.java.io                        :refer [file make-parents]]
     [clojure.java.shell                     :refer [sh]]
     [tailrecursion.boot.core                :refer [ignored? deftask mk! mkdir! add-sync!]]
     [tailrecursion.hoplon.compiler.compiler :refer [compile-string output-path-for as-forms]]
-    [tailrecursion.hoplon.compiler.tagsoup  :refer [pp-forms pedanticize]]))
+    [tailrecursion.hoplon.compiler.tagsoup  :refer [parse-page print-page pedanticize]]))
 
 (def renderjs 
   "
@@ -57,19 +56,19 @@ page.open(uri, function(status) {
                              (map #(.getPath %)) (map output-path-for))]
               (when (seq srcs) (println "Prerendering Hoplon HTML pages...")) 
               (doseq [path (map #(str public "/" %) srcs)]
-                (let [->frms #(-> % as-forms first pedanticize)
+                (let [->frms #(-> % parse-page pedanticize)
+                      empt?  #(= % '(meta {}))
                       forms1 (-> path slurp ->frms)
                       forms2 (-> "phantomjs" (sh rjs-path path) :out ->frms)
                       [_ att1 [_ hatt1 & head1] [_ batt1 & body1]] forms1
                       [html* att2 [head* hatt2 & head2] [body* batt2 & body2]] forms2
-                      empt?  #(= % '(meta {}))
                       att    (merge att1 att2)
                       hatt   (merge hatt1 hatt2)
                       head   (list* head* hatt (remove empt? (concat head1 head2))) 
                       batt   (merge batt1 batt2)
                       body   (list* body* batt (concat body1 body2)) 
                       merged (list html* att head body)]
-                  (spit path (pp-forms "html" merged))))))) 
+                  (spit path (print-page "html" merged))))))) 
         (continue event)))))
 
 (deftask hoplon
@@ -89,11 +88,13 @@ page.open(uri, function(status) {
     (add-sync! boot public [public-tmp])
     (swap! boot update-in [:src-paths] conj (.getPath cljs-tmp))
     (comp
-      #(fn [event]
-         (let [files (get-in event [:watch :time])]
-           (when (seq files) (println "Compiling Hoplon pages...") (flush)) 
-           (doseq [f files] (compile (slurp f) (.getPath f)))
-           (% event)))
+      (fn [continue]
+        (fn [event]
+          (let [files (->> (get-in event [:watch :time])
+                           (filter #(.endsWith (.getPath %) ".hl")))]
+            (when (seq files) (println "Compiling Hoplon pages...") (flush)) 
+            (doseq [f files] (compile (slurp f) (.getPath f)))
+            (continue event)))) 
       (t/cljs boot :output-to main-js :opts cljs-opts)
       (prerender boot public-tmp cljs-opts))))
 

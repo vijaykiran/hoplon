@@ -1,5 +1,12 @@
 # hoplon
 
+## 3.2.1
+
+*Sat Nov  2 13:52:11 EDT 2013*
+
+* add `:refer-hoplon` clause in namespace/page declaration in _.hl_ files to 
+  excelude names from the autogenereated `:refer` clauses
+
 ## 3.2.0
 
 *Fri Nov  1 15:46:57 EDT 2013*

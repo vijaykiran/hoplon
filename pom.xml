@@ -3,7 +3,7 @@
   <groupId>tailrecursion</groupId>
   <artifactId>hoplon</artifactId>
   <packaging>jar</packaging>
-  <version>3.1.0</version>
+  <version>3.2.1</version>
   <name>hoplon</name>
   <description>Hoplon web development environment.</description>
   <url>http://github.com/tailrecursion/hoplon</url>
@@ -16,7 +16,7 @@
   <scm>
     <connection>scm:git:git://github.com//.git</connection>
     <developerConnection>scm:git:ssh://git@github.com//.git</developerConnection>
-    <tag>eba0274e7a354b0c6104b582510e007db7bfee38</tag>
+    <tag>53fc2e95ad7b97ce3f689a09de4b9dbf456ef3b5</tag>
     <url>https://github.com//</url>
   </scm>
   <build>
@@ -77,14 +77,9 @@
       <version>0.1.1</version>
     </dependency>
     <dependency>
-      <groupId>org.codehaus.jsr166-mirror</groupId>
-      <artifactId>jsr166y</artifactId>
-      <version>1.7.0</version>
-    </dependency>
-    <dependency>
-      <groupId>fipp</groupId>
-      <artifactId>fipp</artifactId>
-      <version>0.4.1</version>
+      <groupId>hiccup</groupId>
+      <artifactId>hiccup</artifactId>
+      <version>1.0.4</version>
     </dependency>
     <dependency>
       <groupId>digest</groupId>
