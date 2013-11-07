@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="css/bootstrap.min.css" rel="stylesheet" media="screen"><link href="css/starter-template.css" rel="stylesheet" media="screen"><title>Bootstrap Test</title><meta name="description" content="Hoplon demo testing Twitter Bootstrap library design."></head><body><script type="text/javascript">var CLOSURE_NO_DEPS = true;</script><script type="text/javascript" src="main.js"></script><script type="text/javascript">tailrecursion.hoplon.app_pages.G__99056.hoploninit();</script><div class="navbar navbar-inverse navbar-fixed-top"><div class="container"><div class="navbar-header"><a shape="rect" class="navbar-brand" href="#/home/">Bootstrap Test</a></div><div class="collapse navbar-collapse"><ul class="nav navbar-nav"><li class="active"><a shape="rect" href="#/home/">Home</a></li><li><a shape="rect" href="#/getting-started/">Getting Started</a></li><li><a shape="rect" href="#/about/">About</a></li><li><a shape="rect" href="#/contact/">Contact</a></li></ul></div></div></div><div style="display: block; "><div class="jumbotron" style="background-color: rgb(255, 204, 51); "><div class="container"><h1>Hoplon</h1><p>A simpler way to program the web.</p><p><a shape="rect" class="btn btn-large btn-primary" href="#/getting-started/">Get started »</a></p></div></div><div class="container"><div class="row"><div class="col-md-4"><h2>Clojure, everywhere.</h2><p>Write everything in Clojure and ClojureScript, clientside and
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="css/bootstrap.min.css" rel="stylesheet" media="screen"><link href="css/starter-template.css" rel="stylesheet" media="screen"><title>Bootstrap Test</title><meta name="description" content="Hoplon demo testing Twitter Bootstrap library design."></head><body><script type="text/javascript">var CLOSURE_NO_DEPS = true;</script><script type="text/javascript" src="main.js"></script><script type="text/javascript">tailrecursion.hoplon.app_pages.G__238066.hoploninit();</script><div class="navbar navbar-inverse navbar-fixed-top"><div class="container"><div class="navbar-header"><a shape="rect" class="navbar-brand" href="#/home/">Bootstrap Test</a></div><div class="collapse navbar-collapse"><ul class="nav navbar-nav"><li class="active"><a shape="rect" href="#/home/">Home</a></li><li><a shape="rect" href="#/getting-started/">Getting Started</a></li><li><a shape="rect" href="#/about/">About</a></li><li><a shape="rect" href="#/contact/">Contact</a></li></ul></div></div></div><div style="display: block; "><div class="jumbotron" style="background-color: rgb(255, 204, 51); "><div class="container"><h1>Hoplon</h1><p>A simpler way to program the web.</p><p><a shape="rect" class="btn btn-large btn-primary" href="#/getting-started/">Get started »</a></p></div></div><div class="container"><div class="row"><div class="col-md-4"><h2>Clojure, everywhere.</h2><p>Write everything in Clojure and ClojureScript, clientside and
                serverside. Even the page markup is ClojureScript that is
                evaluated to produce the DOM. Pages can still be written using
                the familiar HTML syntax if desired.</p></div><div class="col-md-4"><h2>Simplicity on the client.</h2><p>Use a spreadsheet-like dataflow programming environment to
@@ -8,10 +8,63 @@
                “callback hell”.</p></div><div class="col-md-4"><h2>Simplicity on the server.</h2><p>Decouple business logic from HTTP-related concerns while
                satisfying complex, fine-grained authorization requirements
                with transparent, performant transfer of Clojure data between
-               server and client.</p></div></div><hr><div class="row"><div class="col-md-3"></div><div class="col-md-6"><h2>Spreadsheets <small>Client state made simple.</small></h2><p>Remember how awesome spreadsheets are? Business people around
-               the world get an anormous amount of useful programming done
-               every day, thanks to the simplicity of spreadsheets and dataflow
-               programming.</p></div><div class="col-md-3"></div></div><hr><footer style="padding-top: 30px; padding-right: 0px; padding-bottom: 30px; padding-left: 0px; ">Copyright 100</footer></div></div><div class="container" style="display: none; "><div class="row"><div class="col-md-2"></div><div class="col-md-8"><div class="page-header"><h1>Hello World</h1></div><p>Hoplon is a set of libraries for making web pages.</p></div><div class="col-md-2"></div></div><div class="row"><div class="col-md-2" style="text-align: right; "><p><b>This is what the code does.</b></p></div><div class="col-md-8"><div class="panel panel-default"><div class="panel-heading">Example:</div><div class="panel-body">Foo bar.</div></div><div class="highlight"><pre><span class="nt">&lt;script</span> <span class="na">type=</span><span class="s">"text/hoplon"</span><span class="nt">&gt;</span>
+               server and client.</p></div></div><hr><div class="row"><div class="col-md-6"><h2>Pages <small>The DOM as a program.</small></h2><p>Imagine a programming environment where variables cannot have
+               names. Instead they have “properties” and are stored in a
+               global tree structure. Then, whenever the program wants to access
+               a variable it must use “selectors” to walk this tree, find it by
+               matching property values, and obtain a reference that can be
+               used to manipulate it.</p><p>Insane, you say? Unfortunately, this is the state of affairs 
+               that confronts frontend developers every day.</p><p>A serious obstacle to achieving simplicity in frontend
+               development is the disconnect between the DOM and the
+               program that runs in the client to manipulate it. The DOM is a
+               completely separate entity that must be examined from outside,
+               using CSS selectors to find specific elements. Worse yet is the
+               syntactic and semantic disconnect between page markup and the
+               DOM programming interface. A program can combine DOM elements to
+               form “widgets” and give them names by which the program can
+               refer to them, but there is no literal representation for them
+               in markup, for instance.</p><p>Hoplon unifies the two, providing an environment where page
+               markup and DOM programming are interchangeable, syntactically
+               and semantically. In a Hoplon application the page document is
+               the result of evaluating a ClojureScript expression, not something
+               that is inserted into the page separately and then manipulated
+               from outside. The elements in the DOM are organically created
+               by the program, making it unnecessary to use selectors to find
+               them later, just like a regular computer program.</p></div><div class="col-md-6"><h2><small>Example:</small></h2><div class="highlight pre-scrollable"><pre><span class="p">(</span><span class="nf">page</span> <span class="s">"index.html"</span><span class="p">)</span>
+
+<span class="p">(</span><span class="kd">defn </span><span class="nv">list-widget</span> <span class="p">[</span><span class="nv">title</span> <span class="o">&amp;</span> <span class="nv">items</span><span class="p">]</span>
+  <span class="p">(</span><span class="nf">div</span>
+    <span class="ss">:class</span> <span class="s">"list-widget"</span>
+    <span class="p">(</span><span class="nf">title</span><span class="p">)</span>
+    <span class="p">(</span><span class="nf">apply</span>
+      <span class="p">(</span><span class="nf">ul</span> <span class="ss">:class</span> <span class="s">"list-widget"</span><span class="p">)</span>
+      <span class="p">(</span><span class="nb">map </span><span class="o">#</span><span class="p">(</span><span class="nf">li</span> <span class="ss">:class</span> <span class="s">"list-widget-item"</span> <span class="nv">%</span><span class="p">)</span> <span class="nv">items</span><span class="p">))))</span>
+
+<span class="p">(</span><span class="nf">html</span>
+  <span class="p">(</span><span class="nf">head</span><span class="p">)</span>
+  <span class="p">(</span><span class="nf">body</span>
+    <span class="p">(</span><span class="nf">list-widget</span>
+      <span class="p">(</span><span class="nf">p</span> <span class="s">"Item 1."</span><span class="p">)</span>
+      <span class="p">(</span><span class="nf">p</span> <span class="s">"Item 2."</span><span class="p">))))</span>
+</pre></div></div></div><hr><div class="row"><div class="col-md-6"><h2>Spreadsheets <small>Client state made simple.</small></h2><p>Remember how awesome spreadsheets are? The most accessible
+               programming environment ever devised, spreadsheets are great
+               because they provide a totally intuitive model for application
+               state, leaving the developer free to think in terms of values,
+               formulas, and the relationships between the two. Then, when the
+               underlying cells are set up, forms and charts are added and
+               linked to the cells to create user interfaces that manage their
+               own state, automatically.</p><p>Hoplon applies this crazy, futuristic technology to frontend
+               web development. Forgoing the clunky grid metaphor and names
+               like <em>A1</em> and <em>B27</em>, Hoplon provides a cell
+               reference type. These cells, like cells in a spreadsheet, are
+               either updated directly (input cells), or automatically in
+               accordance with a formula.</p></div><div class="col-md-6"><h2><small>Example:</small></h2><div class="highlight"><pre><span class="p">(</span><span class="nf">defc</span> <span class="nv">a</span> <span class="p">{</span><span class="ss">:a</span> <span class="mi">20</span><span class="p">})</span>              <span class="c1">;; define input cell</span>
+<span class="p">(</span><span class="nf">defc</span> <span class="nv">b</span> <span class="p">{</span><span class="ss">:b</span> <span class="mi">20</span><span class="p">})</span>              <span class="c1">;; define input cell</span>
+<span class="p">(</span><span class="nf">defc=</span> <span class="nv">c</span> <span class="p">(</span><span class="nb">+ </span><span class="p">(</span><span class="ss">:a</span> <span class="nv">a</span><span class="p">)</span> <span class="p">(</span><span class="ss">:b</span> <span class="nv">b</span><span class="p">)</span> <span class="mi">2</span><span class="p">))</span> <span class="c1">;; define formula cell</span>
+<span class="o">@</span><span class="nv">c</span>                            <span class="c1">;;=&gt; 42</span>
+<span class="p">(</span><span class="nf">swap!</span> <span class="nv">a</span> <span class="nv">update-in</span> <span class="p">[</span><span class="ss">:a</span><span class="p">]</span> <span class="nv">inc</span><span class="p">)</span>  <span class="c1">;; increment value in input cell</span>
+<span class="o">@</span><span class="nv">c</span>                            <span class="c1">;;=&gt; 43</span>
+</pre></div></div></div><hr><footer style="padding-top: 30px; padding-right: 0px; padding-bottom: 30px; padding-left: 0px; ">Copyright 100</footer></div></div><div class="container" style="display: none; "><div class="row"><div class="col-md-2"></div><div class="col-md-8"><div class="page-header"><h1>Hello World</h1></div><p>Hoplon is a set of libraries for making web pages.</p></div><div class="col-md-2"></div></div><div class="row"><div class="col-md-2" style="text-align: right; "><p><b>This is what the code does.</b></p></div><div class="col-md-8"><div class="panel panel-default"><div class="panel-heading">Example:</div><div class="panel-body">Foo bar.</div></div><div class="highlight"><pre><span class="nt">&lt;script</span> <span class="na">type=</span><span class="s">"text/hoplon"</span><span class="nt">&gt;</span>
   (page index.html)
   
   (defn my-list [<span class="err">&amp;</span> items]
