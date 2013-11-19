@@ -1,2 +1,138 @@
 <!DOCTYPE html>
-<html><head><meta charset="utf-8"></head><body><script type="text/javascript">var CLOSURE_NO_DEPS = true;</script><script type="text/javascript" src="main.js"></script><script type="text/javascript">tailrecursion.hoplon.app_pages.G__120257.hoploninit();</script></body></html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="css/bootstrap.min.css" rel="stylesheet" media="screen"><link href="css/starter-template.css" rel="stylesheet" media="screen"></head><body><script type="text/javascript">var CLOSURE_NO_DEPS = true;</script><script type="text/javascript" src="main.js"></script><script type="text/javascript">tailrecursion.hoplon.app_pages.G__8059.hoploninit();</script><div class="navbar navbar-inverse navbar-fixed-top"><div class="container"><div class="navbar-header"><a shape="rect" class="navbar-brand" href="#/home/">Bootstrap Test</a></div><div class="collapse navbar-collapse"><ul class="nav navbar-nav"><li class="active"><a shape="rect" href="#/home/">Home</a></li><li><a shape="rect" href="#/getting-started/">Getting Started</a></li><li><a shape="rect" href="#/about/">About</a></li><li><a shape="rect" href="#/contact/">Contact</a></li></ul></div></div></div><div style="display: block; "><div class="jumbotron" style="background-color:#ffcc33"><div class="container"><h1>Hoplon</h1><p>A simpler way to program the web.</p><p><a shape="rect" class="btn btn-large btn-primary" href="#/getting-started/">Get started »</a></p></div></div><div class="container"><div class="row"><div class="col-md-4"><h2>Clojure, everywhere.</h2><p>Write everything in Clojure and ClojureScript, clientside and
+               serverside. Even the page markup is ClojureScript that is
+               evaluated to produce the DOM. Pages can still be written using
+               the familiar HTML syntax if desired.</p></div><div class="col-md-4"><h2>Simplicity on the client.</h2><p>Use a spreadsheet-like dataflow programming environment to
+               manage client state. Develop basic content-oriented pages and
+               complex thick-client applications without descending into
+               “callback hell”.</p></div><div class="col-md-4"><h2>Simplicity on the server.</h2><p>Decouple business logic from HTTP-related concerns while
+               satisfying complex, fine-grained authorization requirements
+               with transparent, performant transfer of Clojure data between
+               server and client.</p></div></div><hr><div class="row"><div class="col-md-6"><h2>Spreadsheets <small>Client state made simple.</small></h2><p>Remember how awesome spreadsheets are? You never think about
+               state when you’re programming a spreadsheet. Instead, you focus
+               on values and the formulas that define the relationships between
+               them. When a new value is entered into a cell the rest of the 
+               spreadsheet updates itself as necessary to maintain the
+               correctness of the formulas.</p><p>After a spreadsheet is set up you can link its cells to charts
+               and forms to create a user interface that manages its own state,
+               automatically. User input flows from forms to input cells.
+               Formulas then recompute their values as necessary. These values
+               then flow to charts and graphs for the user to view.</p><p>Hoplon applies this crazy, futuristic technology to frontend
+               web development. Forgoing the clunky grid metaphor and names
+               like <em>A1</em> and <em>B27</em>, Hoplon provides a cell
+               reference type. These cells, like cells in a spreadsheet, are
+               either updated directly (input cells), or automatically in
+               accordance with a formula.</p><hr><h2>Charts and Forms <small>Stateless, automatic UI.</small></h2><p>The purpose of a program's user interface is to transmit input
+               from the user to the underlying state model and to present output
+               derived from the underlying state model to the user for viewing.</p><p>In a web application the user interface is derived from the page
+               markup. User input consists entirely of DOM events: <em>click</em>, <em>change</em>, etc. Output is presented to
+               the user by manipulating the properties of DOM elements: adding
+               or removing CSS classes, changing the content of text nodes, 
+               etc.</p><p>Hoplon provides bindings that can be used to link DOM elements
+               to the underlying state model in the same way that charts and
+               forms are linked to cells in a spreadsheet. Once the structure
+               of the DOM and the linkages between the DOM and cells are
+               defined, the user interface manages itself.</p><hr><h2>Page Markup <small>The DOM is a program.</small></h2><p>Imagine a programming environment in which variables cannot
+               have names. Instead they have “properties” and are stored in a
+               global tree structure. When the program wants to access a
+               variable it must walk the tree and find it by matching property
+               values. Everything is in the global scope, and everything is
+               mutable.</p><p>Insane, you say? Unfortunately, this is the state of affairs
+               confronting the frontend developer working with page markup.</p><p>The markup is the literal representation of the DOM. However,
+               it completely lacks the most basic affordances of a useful
+               programming language. For example, there is no way to refer to
+               DOM elements or objects that exist in the page’s JavaScript
+               environment in the markup, and there is no way to create 
+               reusable components that can be instantiated there.</p><p>The reason for this condition is that the markup is merely a
+               static, as-data specification. The evaluation model is
+               rudimentary––wholly unsuited to building layered component
+               hierarchies.</p><p>Hoplon addresses these issues by extending the DOM evaluation
+               model. Hoplon pages are ClojureScript programs that run in the
+               browser; the page markup is a ClojureScript expression. Tags in
+               the markup are DOM elements and nested elements are applied to
+               them as arguments (DOM elements implement the <em>IFn</em> protocol). The syntactic correspondence between HTML markup
+               and ClojureScript s-expressions facilitates writing page markup
+               in either format, so integration with pre-existing dev tools is
+               as straightforward as possible.</p><hr><h2>Components <small>First-class custom DOM elements.</small></h2><p>While there is no shortage of templating systems to create
+               blobs of DOM elements, there is no mechanism to create custom
+               elements that are composable in any meaningful way. And the
+               literal representation of these templates? Nothing. Forget about
+               it.</p><p>Hoplon provides facilities for creating real, first-class
+               components. That is to say, Hoplon components are first-class
+               citizens in the DOM world––they are, essentially, user-defined
+               custom DOM elements. They have a literal representation in the
+               page markup and they implement the semantics of HTML: setting
+               attributes and appending children.</p></div><div class="col-md-6"><h2><small>Examples</small></h2><ul class="list-group"><li class="list-group-item"><a shape="rect" style="display: none; "></a><h3 class="panel-title">BMI Calculator</h3><div style="display: block; "><h3 class="panel-title">BMI Calculator</h3><hr><p class="text-muted">The demo:</p><div class="panel panel-default"><div class="panel-body"><div><form enctype="application/x-www-form-urlencoded" method="get"><div class="form-group"><label>Height (180 cm)</label><input type="range" class="form-control" id="bmi-ht" min="0" max="250" value="180"></div><div class="form-group"><label>Weight (80.0 kg)</label><input type="range" class="form-control" id="bmi-wt" min="0" max="1500" value="800"></div><div class="form-group"><label>BMI 24.7 (normal)</label><input readonly="readonly" type="range" class="form-control" min="0" max="500" style="background-color: inherit; "></div></form></div></div></div><p class="text-muted">The cells:</p><div class="highlight"><pre><span class="p">(</span><span class="k">def </span><span class="nv">height</span> <span class="p">(</span><span class="nf">cell</span> <span class="mi">180</span><span class="p">))</span>
+<span class="p">(</span><span class="k">def </span><span class="nv">weight</span> <span class="p">(</span><span class="nf">cell</span> <span class="mi">80</span><span class="p">))</span>
+
+<span class="p">(</span><span class="k">def </span><span class="nv">bmi</span>
+  <span class="p">(</span><span class="nf">cell=</span>
+    <span class="p">(</span><span class="k">let </span><span class="p">[</span><span class="nv">ht</span>  <span class="p">(</span><span class="nb">/ </span><span class="nv">height</span> <span class="mi">100</span><span class="p">)</span>
+          <span class="nv">bmi</span> <span class="p">(</span><span class="nb">/ </span><span class="nv">wt</span> <span class="p">(</span><span class="nb">* </span><span class="nv">ht</span> <span class="nv">ht</span><span class="p">))]</span>
+      <span class="p">(</span><span class="nb">cond </span><span class="p">(</span><span class="nb">&lt; </span><span class="nv">bmi</span> <span class="mf">18.5</span><span class="p">)</span> <span class="p">[</span><span class="nv">bmi</span> <span class="s">"underweight"</span>  <span class="s">"orange"</span><span class="p">]</span>
+            <span class="p">(</span><span class="nb">&lt; </span><span class="nv">bmi</span> <span class="mf">25.0</span><span class="p">)</span> <span class="p">[</span><span class="nv">bmi</span> <span class="s">"normal"</span>      <span class="s">"inherit"</span><span class="p">]</span>
+            <span class="p">(</span><span class="nb">&lt; </span><span class="nv">bmi</span> <span class="mf">30.0</span><span class="p">)</span> <span class="p">[</span><span class="nv">bmi</span> <span class="s">"overweight"</span>   <span class="s">"orange"</span><span class="p">]</span>
+            <span class="ss">:else</span>        <span class="p">[</span><span class="nv">bmi</span> <span class="s">"obese"</span>           <span class="s">"red"</span><span class="p">]))))</span>
+</pre></div><p class="text-muted">The user interface:</p><div class="highlight"><pre><span class="p">(</span><span class="nf">form</span>
+  <span class="p">(</span><span class="nf">label</span> <span class="p">(</span><span class="nf">text</span> <span class="s">"Height (~{height} cm)"</span><span class="p">))</span>
+  <span class="p">(</span><span class="nf">input</span>
+    <span class="ss">:id</span> <span class="s">"bmi-h"</span>
+    <span class="ss">:value</span> <span class="o">@</span><span class="nv">height</span>
+    <span class="ss">:on-change</span> <span class="o">#</span><span class="p">(</span><span class="nf">reset!</span> <span class="nv">height</span> <span class="p">(</span><span class="nf">val-id</span> <span class="s">"bmi-h"</span><span class="p">)))</span>
+
+  <span class="p">(</span><span class="nf">label</span> <span class="p">(</span><span class="nf">text</span> <span class="s">"Weight (~{weight} kg)"</span><span class="p">))</span>
+  <span class="p">(</span><span class="nf">input</span>
+    <span class="ss">:id</span> <span class="s">"bmi-w"</span>
+    <span class="ss">:value</span> <span class="o">@</span><span class="nv">weight</span>
+    <span class="ss">:on-change</span> <span class="o">#</span><span class="p">(</span><span class="nf">reset!</span> <span class="nv">weight</span> <span class="p">(</span><span class="nf">val-id</span> <span class="s">"bmi-w"</span><span class="p">)))</span>
+
+  <span class="p">(</span><span class="nf">label</span> <span class="p">(</span><span class="nf">text</span> <span class="s">"BMI ~(first bmi) (~(second bmi))"</span><span class="p">))</span>
+  <span class="p">(</span><span class="nf">input</span>
+    <span class="ss">:do-value</span> <span class="p">(</span><span class="nf">cell=</span> <span class="p">(</span><span class="nb">first </span><span class="nv">bmi</span><span class="p">))</span>
+    <span class="ss">:do-css</span> <span class="p">(</span><span class="nf">cell=</span> <span class="p">{</span><span class="ss">:background-color</span> <span class="p">(</span><span class="nb">nth </span><span class="nv">bmi</span> <span class="mi">2</span><span class="p">)})))</span>
+</pre></div></div></li><li class="list-group-item"><a shape="rect" class="topfix"></a><a shape="rect" style="display: inline; "></a><h3 class="panel-title">List Component</h3><div style="display: none; "><h3 class="panel-title">List Component</h3><hr><p class="text-muted">The demo:</p><div class="panel panel-default"><div class="panel-body"><div><p>See the list component below.</p><hr><div class="my-list"><b>Items:</b><ul><li><span>item one</span></li><li><span>item two</span></li><li><span>item three</span></li></ul></div></div></div></div><p class="text-muted">The component constructor:</p><div class="highlight"><pre><span class="p">(</span><span class="nf">defelem</span> <span class="nv">my-list</span> <span class="p">[</span><span class="nv">attrs</span> <span class="nv">children</span><span class="p">]</span>
+  <span class="p">(</span><span class="k">let </span><span class="p">[</span><span class="nv">head</span> <span class="p">(</span><span class="nf">b</span><span class="p">)</span>
+        <span class="nv">body</span> <span class="p">(</span><span class="nf">ul</span><span class="p">)</span>
+        <span class="nv">this</span> <span class="p">(</span><span class="nf">div</span> <span class="ss">:class</span> <span class="s">"my-list"</span> <span class="p">(</span><span class="nf">head</span><span class="p">)</span> <span class="p">(</span><span class="nf">body</span><span class="p">))]</span>
+    <span class="p">(</span><span class="nf">on-append!</span> <span class="nv">this</span>
+      <span class="p">(</span><span class="k">fn </span><span class="p">[{</span><span class="ss">:keys</span> <span class="p">[</span><span class="nv">title</span><span class="p">]</span> <span class="ss">:as</span> <span class="nv">attrs</span><span class="p">}</span> <span class="nv">children</span><span class="p">]</span>
+        <span class="p">(</span><span class="nb">when </span><span class="nv">title</span> <span class="p">(</span><span class="nf">do!</span> <span class="nv">head</span> <span class="ss">:text</span> <span class="nv">title</span><span class="p">))</span>
+        <span class="p">(</span><span class="nf">add-attributes!</span> <span class="nv">this</span> <span class="p">(</span><span class="nb">dissoc </span><span class="nv">attrs</span> <span class="ss">:title</span><span class="p">))</span>
+        <span class="p">(</span><span class="nb">apply </span><span class="nv">body</span> <span class="p">(</span><span class="nb">map </span><span class="nv">li</span> <span class="nv">children</span><span class="p">))))</span>
+    <span class="p">(</span><span class="nb">apply </span><span class="nv">this</span> <span class="nv">attrs</span> <span class="nv">children</span><span class="p">)))</span>
+</pre></div><p class="text-muted">The page markup:</p><div class="highlight"><pre><span class="p">(</span><span class="nf">div</span>
+  <span class="p">(</span><span class="nf">p</span> <span class="s">"See the list component below."</span><span class="p">)</span>
+  <span class="p">(</span><span class="nf">hr</span><span class="p">)</span>
+  <span class="p">(</span><span class="nf">my-list</span>
+    <span class="ss">:title</span> <span class="s">"Items:"</span>
+    <span class="p">(</span><span class="nf">span</span> <span class="s">"item one"</span><span class="p">)</span>
+    <span class="p">(</span><span class="nf">span</span> <span class="s">"item two"</span><span class="p">)</span>
+    <span class="p">(</span><span class="nf">span</span> <span class="s">"item three"</span><span class="p">)))</span>
+</pre></div></div></li></ul></div></div><hr><footer style="padding:30px 0px;">Copyright 100</footer></div></div><div class="container" style="display: none; "><div class="row"><div class="col-md-2"></div><div class="col-md-8"><div class="page-header"><h1>Hello World</h1></div><p>Hoplon is a set of libraries for making web pages.</p></div><div class="col-md-2"></div></div><div class="row"><div class="col-md-2" style="text-align:right"><p><b>This is what the code does.</b></p></div><div class="col-md-8"><div class="panel panel-default"><div class="panel-heading">Example:</div><div class="panel-body">Foo bar.</div></div><div class="highlight"><pre><span class="nt">&lt;script</span> <span class="na">type=</span><span class="s">"text/hoplon"</span><span class="nt">&gt;</span>
+  (page index.html)
+  
+  (defn my-list [<span class="err">&amp;</span> items]
+    (div
+      :class "my-list"
+      (apply ul (map #(li (div :class "my-list-item" %)) items))))
+
+  (def clicks (cell 0))
+<span class="nt">&lt;/script&gt;</span>
+    
+<span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;title&gt;</span>example page<span class="nt">&lt;/title&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;h1&gt;</span>Hello, Hoplon<span class="nt">&lt;/h1&gt;</span>
+    
+    <span class="nt">&lt;my-list&gt;</span>
+      <span class="nt">&lt;span&gt;</span>first thing<span class="nt">&lt;/span&gt;</span>
+      <span class="nt">&lt;span&gt;</span>second thing<span class="nt">&lt;/span&gt;</span>
+    <span class="nt">&lt;/my-list&gt;</span>
+
+    <span class="nt">&lt;p&gt;&lt;text&gt;</span>You've clicked ~{clicks} times, so far.<span class="nt">&lt;/text&gt;&lt;/p&gt;</span>
+    <span class="nt">&lt;button</span> <span class="na">on-click=</span><span class="s">"{{ #(swap! clicks inc) }}"</span><span class="nt">&gt;</span>click me<span class="nt">&lt;/button&gt;</span>
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</pre></div><hr><footer style="padding:30px 0px;">Copyright 100</footer></div><div class="col-md-2"><p>asdf</p></div></div></div><div class="container" style="display: none; "><h1>About</h1><p>This is the about content.</p></div><div class="container" style="display: none; "><h1>Contact</h1><p>This is the contact content.</p></div></body></html>
