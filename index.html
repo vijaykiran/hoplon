@@ -40,17 +40,20 @@
                elements that are composable in any meaningful way. Consider
                the situation where a template engine binds a DOM template to
                some data and returns the filled-in DOM subtree. What happens
-               when you call <code>appendChild</code> on that DOM element? The child is appended to the outermost
-               element in the filled template, but this is probably not what
-               is wanted.</p><p>Hoplon provides facilities for creating real, first-class
+               when you append a child to that DOM element? The child gets
+               appended to the outermost element in the filled template, which
+               is probably not useful at all.</p><p>Hoplon provides facilities for creating real, first-class
                components. That is to say, Hoplon components are first-class
                citizens in the DOM world––they are, essentially, user-defined
                custom DOM elements. They have a literal representation in the
                page markup and they implement the semantics of HTML: setting
                attributes and appending children. When a child is appended to
-               a Hoplon component, either in HTML markup or programmatically
-               using <code>appendChild</code> on the DOM object itself, the child is appended to the correct
-               inner element.</p><h2>Spreadsheets <small>Client state made simple.</small></h2><p>Remember how awesome spreadsheets are? You never think about
+               a Hoplon component or an attribute is set, either in HTML markup
+               or programmatically, the component's implementation is used
+               instead of the built-in DOM one. In this way components can be
+               built by composing simpler components and those may be used as
+               a basis for even more complex components, without running into
+               the limitations of template composition.</p><h2>Spreadsheets <small>Client state made simple.</small></h2><p>Remember how awesome spreadsheets are? You never think about
                state when you’re programming a spreadsheet. Instead, you focus
                on values and the formulas that define the relationships between
                them. When a new value is entered into a cell the rest of the 
@@ -147,4 +150,4 @@
     <span class="nt">&lt;button</span> <span class="na">on-click=</span><span class="s">"{{ #(swap! clicks inc) }}"</span><span class="nt">&gt;</span>click me<span class="nt">&lt;/button&gt;</span>
   <span class="nt">&lt;/body&gt;</span>
 <span class="nt">&lt;/html&gt;</span>
-</pre></div><hr><footer style="padding:30px 0px;">Copyright 100</footer></div><div class="col-md-2"><p>asdf</p></div></div></div><div class="container" style="display: none; "><h1>About</h1><p>This is the about content.</p></div><div class="container" style="display: none; "><h1>Contact</h1><p>This is the contact content.</p></div><script type="text/javascript">var CLOSURE_NO_DEPS = true;</script><script type="text/javascript" src="main.js"></script><script type="text/javascript">tailrecursion.hoplon.app_pages.G__71393.hoploninit();</script></body></html>
+</pre></div><hr><footer style="padding:30px 0px;">Copyright 100</footer></div><div class="col-md-2"><p>asdf</p></div></div></div><div class="container" style="display: none; "><h1>About</h1><p>This is the about content.</p></div><div class="container" style="display: none; "><h1>Contact</h1><p>This is the contact content.</p></div><script type="text/javascript">var CLOSURE_NO_DEPS = true;</script><script type="text/javascript" src="main.js"></script><script type="text/javascript">tailrecursion.hoplon.app_pages.G__77099.hoploninit();</script></body></html>
