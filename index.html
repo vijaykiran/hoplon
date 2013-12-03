@@ -8,7 +8,49 @@
                “callback hell”.</p></div><div class="col-md-4"><h2>Simplicity on the server.</h2><p>Decouple business logic from HTTP-related concerns while
                satisfying complex, fine-grained authorization requirements
                with transparent, performant transfer of Clojure data between
-               server and client.</p></div></div><hr><div class="row"><div class="col-md-6"><h2>Spreadsheets <small>Client state made simple.</small></h2><p>Remember how awesome spreadsheets are? You never think about
+               server and client.</p></div></div><hr><div class="row"><div class="col-md-6"><h2>Overview <small>Hoplon in a nutshell.</small></h2><p>Hoplon provides a number of libraries promoting a simpler
+               model for web applications. The project can be divided into
+               three main components: the HTML evaluator, the clientside state
+               machine, and a serverside RPC server. These components can be
+               used together as a full stack, or individually to solve a
+               specific problem as a part of another stack.</p><hr><h2>HTML Evaluator <small>Page markup is a program.</small></h2><p>Web applications are not simply documents. Users must be able
+               to interact with them and they must interact with backend
+               systems. Web application user interfaces share some of the
+               properties of documents, though. UIs are built by composing
+               elements in a document tree using HTML markup. However, without
+               JavaScript this tree cannot actually interact with the user, at
+               all.</p><p>The incidental complexity of web application UI development
+               comes at the boundary between the DOM and the JavaScript
+               environment. There is a fundamental disconnect between the
+               literal representation of the DOM (the HTML markup) and the
+               dynamic environment (the JavaScript VM). The page markup is
+               evaluated and the resulting DOM is accessible from JavaScript,
+               but it's a one-way linkage; the markup has no mechanism by which
+               it can refer to objects other than built-in primitives (i.e. <em>div</em>, <em>span</em>, etc). The browser's HTML evaluator does not include any means
+               of abstraction whatsoever, so there is no literal representation
+               for composite forms.</p><p>Hoplon provides a HTML evaluator that closes the loop, unifying
+               the page markup and the JavaScript environment. Page markup,
+               expressed using either the standard HTML5 syntax or Clojure
+               sexps, is evaluated as ClojureScript and the result becomes the
+               DOM for the page. HTML tags are simply ClojureScript vars. Of
+               course, Hoplon ships with all of the standard HTML5 primitives
+               but the evaluation model facilitates the use of custom compound
+               elements defined in the environment, too.</p><hr><h2>Components <small>First-class custom DOM elements.</small></h2><p>While there is no shortage of templating systems to create
+               blobs of DOM elements, there is no mechanism to create custom
+               elements that are composable in any meaningful way. Consider
+               the situation where a template engine binds a DOM template to
+               some data and returns the filled-in DOM subtree. What happens
+               when you call <code>appendChild</code> on that DOM element? The child is appended to the outermost
+               element in the filled template, but this is probably not what
+               is wanted.</p><p>Hoplon provides facilities for creating real, first-class
+               components. That is to say, Hoplon components are first-class
+               citizens in the DOM world––they are, essentially, user-defined
+               custom DOM elements. They have a literal representation in the
+               page markup and they implement the semantics of HTML: setting
+               attributes and appending children. When a child is appended to
+               a Hoplon component, either in HTML markup or programmatically
+               using <code>appendChild</code> on the DOM object itself, the child is appended to the correct
+               inner element.</p><h2>Spreadsheets <small>Client state made simple.</small></h2><p>Remember how awesome spreadsheets are? You never think about
                state when you’re programming a spreadsheet. Instead, you focus
                on values and the formulas that define the relationships between
                them. When a new value is entered into a cell the rest of the 
@@ -32,37 +74,7 @@
                to the underlying state model in the same way that charts and
                forms are linked to cells in a spreadsheet. Once the structure
                of the DOM and the linkages between the DOM and cells are
-               defined, the user interface manages itself.</p><hr><h2>Page Markup <small>The DOM is a program.</small></h2><p>Imagine a programming environment in which variables cannot
-               have names. Instead they have “properties” and are stored in a
-               global tree structure. When the program wants to access a
-               variable it must walk the tree and find it by matching property
-               values. Everything is in the global scope, and everything is
-               mutable.</p><p>Insane, you say? Unfortunately, this is the state of affairs
-               confronting the frontend developer working with page markup.</p><p>The markup is the literal representation of the DOM. However,
-               it completely lacks the most basic affordances of a useful
-               programming language. For example, there is no way to refer to
-               DOM elements or objects that exist in the page’s JavaScript
-               environment in the markup, and there is no way to create 
-               reusable components that can be instantiated there.</p><p>The reason for this condition is that the markup is merely a
-               static, as-data specification. The evaluation model is
-               rudimentary––wholly unsuited to building layered component
-               hierarchies.</p><p>Hoplon addresses these issues by extending the DOM evaluation
-               model. Hoplon pages are ClojureScript programs that run in the
-               browser; the page markup is a ClojureScript expression. Tags in
-               the markup are DOM elements and nested elements are applied to
-               them as arguments (DOM elements implement the <em>IFn</em> protocol). The syntactic correspondence between HTML markup
-               and ClojureScript s-expressions facilitates writing page markup
-               in either format, so integration with pre-existing dev tools is
-               as straightforward as possible.</p><hr><h2>Components <small>First-class custom DOM elements.</small></h2><p>While there is no shortage of templating systems to create
-               blobs of DOM elements, there is no mechanism to create custom
-               elements that are composable in any meaningful way. And the
-               literal representation of these templates? Nothing. Forget about
-               it.</p><p>Hoplon provides facilities for creating real, first-class
-               components. That is to say, Hoplon components are first-class
-               citizens in the DOM world––they are, essentially, user-defined
-               custom DOM elements. They have a literal representation in the
-               page markup and they implement the semantics of HTML: setting
-               attributes and appending children.</p></div><div class="col-md-6"><h2><small>Examples</small></h2><ul class="list-group"><li class="list-group-item"><a shape="rect" style="display: none; "></a><h3 class="panel-title">BMI Calculator</h3><div style="display: block; "><h3 class="panel-title">BMI Calculator</h3><hr><p class="text-muted">The demo:</p><div class="panel panel-default"><div class="panel-body"><div><form enctype="application/x-www-form-urlencoded" method="get"><div class="form-group"><label>Height (180 cm)</label><input type="range" class="form-control" id="bmi-ht" min="0" max="250" value="180"></div><div class="form-group"><label>Weight (80.0 kg)</label><input type="range" class="form-control" id="bmi-wt" min="0" max="1500" value="800"></div><div class="form-group"><label>BMI 24.7 (normal)</label><input readonly="readonly" type="range" class="form-control" min="0" max="500" style="background-color: inherit; "></div></form></div></div></div><p class="text-muted">The cells:</p><div class="highlight"><pre><span class="p">(</span><span class="k">def </span><span class="nv">height</span> <span class="p">(</span><span class="nf">cell</span> <span class="mi">180</span><span class="p">))</span>
+               defined, the user interface manages itself.</p><hr></div><div class="col-md-6"><h2><small>Examples</small></h2><ul class="list-group"><li class="list-group-item"><a shape="rect" style="display: none; "></a><h3 class="panel-title">BMI Calculator</h3><div style="display: block; "><h3 class="panel-title">BMI Calculator</h3><hr><p class="text-muted">The demo:</p><div class="panel panel-default"><div class="panel-body"><div><form enctype="application/x-www-form-urlencoded" method="get"><div class="form-group"><label>Height (180 cm)</label><input type="range" class="form-control" id="bmi-ht" min="0" max="250" value="180"></div><div class="form-group"><label>Weight (80.0 kg)</label><input type="range" class="form-control" id="bmi-wt" min="0" max="1500" value="800"></div><div class="form-group"><label>BMI 24.7 (normal)</label><input readonly="readonly" type="range" class="form-control" min="0" max="500" style="background-color: inherit; "></div></form></div></div></div><p class="text-muted">The cells:</p><div class="highlight"><pre><span class="p">(</span><span class="k">def </span><span class="nv">height</span> <span class="p">(</span><span class="nf">cell</span> <span class="mi">180</span><span class="p">))</span>
 <span class="p">(</span><span class="k">def </span><span class="nv">weight</span> <span class="p">(</span><span class="nf">cell</span> <span class="mi">80</span><span class="p">))</span>
 
 <span class="p">(</span><span class="k">def </span><span class="nv">bmi</span>
@@ -135,4 +147,4 @@
     <span class="nt">&lt;button</span> <span class="na">on-click=</span><span class="s">"{{ #(swap! clicks inc) }}"</span><span class="nt">&gt;</span>click me<span class="nt">&lt;/button&gt;</span>
   <span class="nt">&lt;/body&gt;</span>
 <span class="nt">&lt;/html&gt;</span>
-</pre></div><hr><footer style="padding:30px 0px;">Copyright 100</footer></div><div class="col-md-2"><p>asdf</p></div></div></div><div class="container" style="display: none; "><h1>About</h1><p>This is the about content.</p></div><div class="container" style="display: none; "><h1>Contact</h1><p>This is the contact content.</p></div><script type="text/javascript">var CLOSURE_NO_DEPS = true;</script><script type="text/javascript" src="main.js"></script><script type="text/javascript">tailrecursion.hoplon.app_pages.G__8078.hoploninit();</script></body></html>
+</pre></div><hr><footer style="padding:30px 0px;">Copyright 100</footer></div><div class="col-md-2"><p>asdf</p></div></div></div><div class="container" style="display: none; "><h1>About</h1><p>This is the about content.</p></div><div class="container" style="display: none; "><h1>Contact</h1><p>This is the contact content.</p></div><script type="text/javascript">var CLOSURE_NO_DEPS = true;</script><script type="text/javascript" src="main.js"></script><script type="text/javascript">tailrecursion.hoplon.app_pages.G__71393.hoploninit();</script></body></html>
