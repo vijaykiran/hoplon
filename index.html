@@ -148,7 +148,17 @@
   <span class="p">(</span><span class="nf">input</span>
     <span class="ss">:do-value</span> <span class="p">(</span><span class="nf">cell=</span> <span class="p">(</span><span class="nb">first </span><span class="nv">bmi</span><span class="p">))</span>
     <span class="ss">:do-css</span> <span class="p">(</span><span class="nf">cell=</span> <span class="p">{</span><span class="ss">:background-color</span> <span class="p">(</span><span class="nb">nth </span><span class="nv">bmi</span> <span class="mi">2</span><span class="p">)})))</span>
-</pre></div></div></div><div class="list-group-item"><a shape="rect" class="topfix"></a><a shape="rect" style="display: inline; "></a><h3 class="panel-title">List Component</h3><div style="display: none; "><h3 class="panel-title">List Component</h3><hr><p class="text-muted">The demo:</p><div class="panel panel-default"><div class="panel-body"><div><p>See the list component below.</p><hr><div class="my-list"><b>Items:</b><ul><li><span>item one</span></li><li><span>item two</span></li><li><span>item three</span></li></ul></div></div></div></div><p class="text-muted">The component constructor:</p><div class="highlight"><pre><span class="c1">;; Define custom element &lt;my-list&gt;.</span>
+</pre></div></div></div><div class="list-group-item"><a shape="rect" class="topfix"></a><a shape="rect" style="display: inline; "></a><h3 class="panel-title">List Component</h3><div style="display: none; "><h3 class="panel-title">List Component</h3><hr><p>This is an example of a custom element, or component. The <em>on-append!</em> function is used to provide the implementation for
+                     appending children and setting attributes. This ensures 
+                     that children are, in this case, properly wrapped in list
+                     item elements and appended to the inner unordered list
+                     instead of to the outermost element. A special <em>title</em> attribute is also implemented here that sets the text of
+                     the inner bold element.</p><p>By implementing the HTML semantic this component becomes
+                     a first-class DOM element. It can be used in page markup
+                     and it can be passed around without any need for the
+                     recipient to understand its internal structure. It can be
+                     combined with other elements at any level to create more
+                     complex components.</p><p class="text-muted">The demo:</p><div class="panel panel-default"><div class="panel-body"><div><p>See the list component below.</p><hr><div class="my-list"><b>Items:</b><ul><li><span>item one</span></li><li><span>item two</span></li><li><span>item three</span></li></ul></div></div></div></div><p class="text-muted">The component constructor:</p><div class="highlight"><pre><span class="c1">;; Define custom element &lt;my-list&gt;.</span>
 <span class="p">(</span><span class="nf">defelem</span> <span class="nv">my-list</span> <span class="p">[</span><span class="nv">attrs</span> <span class="nv">children</span><span class="p">]</span>
   <span class="p">(</span><span class="k">let </span><span class="p">[</span><span class="nv">head</span> <span class="p">(</span><span class="nf">b</span><span class="p">)</span>  <span class="c1">; Obtain references to inner</span>
         <span class="nv">body</span> <span class="p">(</span><span class="nf">ul</span><span class="p">)</span> <span class="c1">; container elements.</span>
@@ -200,4 +210,4 @@
     <span class="nt">&lt;button</span> <span class="na">on-click=</span><span class="s">"{{ #(swap! clicks inc) }}"</span><span class="nt">&gt;</span>click me<span class="nt">&lt;/button&gt;</span>
   <span class="nt">&lt;/body&gt;</span>
 <span class="nt">&lt;/html&gt;</span>
-</pre></div><hr><footer style="padding:30px 0px;">Copyright 100</footer></div><div class="col-md-2"><p>asdf</p></div></div></div><div class="container" style="display: none; "><h1>About</h1><p>This is the about content.</p></div><div class="container" style="display: none; "><h1>Contact</h1><p>This is the contact content.</p></div><script type="text/javascript">var CLOSURE_NO_DEPS = true;</script><script type="text/javascript" src="main.js"></script><script type="text/javascript">tailrecursion.hoplon.app_pages.G__304757.hoploninit();</script></body></html>
+</pre></div><hr><footer style="padding:30px 0px;">Copyright 100</footer></div><div class="col-md-2"><p>asdf</p></div></div></div><div class="container" style="display: none; "><h1>About</h1><p>This is the about content.</p></div><div class="container" style="display: none; "><h1>Contact</h1><p>This is the contact content.</p></div><script type="text/javascript">var CLOSURE_NO_DEPS = true;</script><script type="text/javascript" src="main.js"></script><script type="text/javascript">tailrecursion.hoplon.app_pages.G__323468.hoploninit();</script></body></html>
