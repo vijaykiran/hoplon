@@ -19,13 +19,18 @@
                spreadsheet-like dataflow programs and wiring them to the DOM,
                and ClojureScript and Clojure libraries for RPC interaction
                between client and server.</p><p>The source code for Hoplon is hosted on <a shape="rect" href="https://github.com/tailrecursion/hoplon" target="_blank">GitHub</a> and Maven artifacts are deployed to <a shape="rect" href="https://clojars.org/tailrecursion/hoplon" target="_blank">Clojars</a>. Contributions of code, feedback, feature requests, etc. are
-               welcome. Please read the <a shape="rect" style="text-decoration:line-through;" href="javascript:void(0)">Contributors</a> page for more information.</p><h2>HTML Evaluator <small>Page markup is a program.</small></h2><p>Web applications are not simply documents. Users must be able
-               to interact with them and they must interact with backend
-               systems. Web application user interfaces share some of the
-               properties of documents, though. UIs are built by composing
-               elements in a document tree using HTML markup. However, without
-               JavaScript this tree cannot actually interact with the user, at
-               all.</p><p>The incidental complexity of web application UI development
+               welcome. Please read the <a shape="rect" style="text-decoration:line-through;" href="javascript:void(0)">Contributors</a> page for more information.</p><h2>Web Apps <small>Applications, not documents.</small></h2><p>Web applications are not documents. Users need to be able to
+               interact with them. They contain state. Through them the user
+               communicates with backend systems to have some effect on the
+               real world. Of course they're composed of HTML, CSS, etc., but
+               any resemblance to trees of HTML documents is incidental;
+               conflating the two leads to an explosion of needless complexity.</p><p>Hoplon web apps are organized like applications. The Hoplon
+               compiler produces artifacts, not documents. These artifacts are
+               equivalent to JAR files in Maven–their coordinates being the
+               URL on which they're deployed. The compilation unit is the page,
+               which produces a single compiled HTML file. This HTML file loads
+               a compiled JavaScript file that is shared among all pages in the
+               project.</p><h2>HTML Evaluator <small>Page markup is a program.</small></h2><p>The incidental complexity of web application UI development
                comes at the boundary between the DOM and the JavaScript
                environment. There is a fundamental disconnect between the
                literal representation of the DOM (the HTML markup) and the
@@ -220,4 +225,4 @@
     <span class="nt">&lt;button</span> <span class="na">on-click=</span><span class="s">"{{ #(swap! clicks inc) }}"</span><span class="nt">&gt;</span>click me<span class="nt">&lt;/button&gt;</span>
   <span class="nt">&lt;/body&gt;</span>
 <span class="nt">&lt;/html&gt;</span>
-</pre></div><hr><footer style="padding:30px 0px;">Copyright 100</footer></div><div class="col-md-2"><p>asdf</p></div></div></div><script type="text/javascript">var CLOSURE_NO_DEPS = true;</script><script type="text/javascript" src="main.js"></script><script type="text/javascript">tailrecursion.hoplon.app_pages.G__81883.hoploninit();</script></body></html>
+</pre></div><hr><footer style="padding:30px 0px;">Copyright 100</footer></div><div class="col-md-2"><p>asdf</p></div></div></div><script type="text/javascript">var CLOSURE_NO_DEPS = true;</script><script type="text/javascript" src="main.js"></script><script type="text/javascript">tailrecursion.hoplon.app_pages.G__113797.hoploninit();</script></body></html>
