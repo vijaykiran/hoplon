@@ -35,7 +35,11 @@
                DOM for the page. HTML tags are simply ClojureScript vars. Of
                course, Hoplon ships with all of the standard HTML5 primitives
                but the evaluation model facilitates the use of custom compound
-               elements defined in the environment, too.</p><h2>Components <small>First-class custom DOM elements.</small></h2><p>While there is no shortage of templating systems to create
+               elements defined in the environment, too.</p><p>The unification of HTML and ClojureScript syntax, semantics,
+               and namespace in the HTML evaluator facilitates the use of
+               macros in markup.  This makes it possible to write powerful
+               looping and control structures for use in the page's HTML markup
+               itself, bringing the power and expressiveness of Lisp to HTML.</p><h2>Components <small>First-class custom DOM elements.</small></h2><p>While there is no shortage of templating systems to create
                blobs of DOM elements, there is no mechanism to create custom
                elements that are composable in any meaningful way. Consider
                the situation where a template engine binds a DOM template to
@@ -210,4 +214,4 @@
     <span class="nt">&lt;button</span> <span class="na">on-click=</span><span class="s">"{{ #(swap! clicks inc) }}"</span><span class="nt">&gt;</span>click me<span class="nt">&lt;/button&gt;</span>
   <span class="nt">&lt;/body&gt;</span>
 <span class="nt">&lt;/html&gt;</span>
-</pre></div><hr><footer style="padding:30px 0px;">Copyright 100</footer></div><div class="col-md-2"><p>asdf</p></div></div></div><script type="text/javascript">var CLOSURE_NO_DEPS = true;</script><script type="text/javascript" src="main.js"></script><script type="text/javascript">tailrecursion.hoplon.app_pages.G__47652.hoploninit();</script></body></html>
+</pre></div><hr><footer style="padding:30px 0px;">Copyright 100</footer></div><div class="col-md-2"><p>asdf</p></div></div></div><script type="text/javascript">var CLOSURE_NO_DEPS = true;</script><script type="text/javascript" src="main.js"></script><script type="text/javascript">tailrecursion.hoplon.app_pages.G__53760.hoploninit();</script></body></html>
