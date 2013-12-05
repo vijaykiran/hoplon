@@ -27,14 +27,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .pin-left {
   position: fixed;
-  top: 55px;
+  top: 51px;
   left: 0px;
   z-index: 9999;
 }
 
 .pin-right {
   position: fixed;
-  top: 55px;
+  top: 51px;
   right: 0px;
   z-index: 9999;
 }
