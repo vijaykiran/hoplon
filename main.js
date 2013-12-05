@@ -27443,9 +27443,9 @@ bootstrap.glyph.mkglyph = function mkglyph(img) {
 };
 bootstrap.glyph.star = function() {
   var star__delegate = function(args__7067__auto__) {
-    var vec__436485 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
-    var attr = cljs.core.nth.call(null, vec__436485, 0, null);
-    var kids = cljs.core.nth.call(null, vec__436485, 1, null);
+    var vec__439761 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
+    var attr = cljs.core.nth.call(null, vec__439761, 0, null);
+    var kids = cljs.core.nth.call(null, vec__439761, 1, null);
     return bootstrap.glyph.mkglyph.call(null, "star")
   };
   var star = function(var_args) {
@@ -27456,8 +27456,8 @@ bootstrap.glyph.star = function() {
     return star__delegate.call(this, args__7067__auto__)
   };
   star.cljs$lang$maxFixedArity = 0;
-  star.cljs$lang$applyTo = function(arglist__436486) {
-    var args__7067__auto__ = cljs.core.seq(arglist__436486);
+  star.cljs$lang$applyTo = function(arglist__439762) {
+    var args__7067__auto__ = cljs.core.seq(arglist__439762);
     return star__delegate(args__7067__auto__)
   };
   star.cljs$core$IFn$_invoke$arity$variadic = star__delegate;
@@ -27465,9 +27465,9 @@ bootstrap.glyph.star = function() {
 }();
 bootstrap.glyph.cloud_download = function() {
   var cloud_download__delegate = function(args__7067__auto__) {
-    var vec__436488 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
-    var attr = cljs.core.nth.call(null, vec__436488, 0, null);
-    var kids = cljs.core.nth.call(null, vec__436488, 1, null);
+    var vec__439764 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
+    var attr = cljs.core.nth.call(null, vec__439764, 0, null);
+    var kids = cljs.core.nth.call(null, vec__439764, 1, null);
     return bootstrap.glyph.mkglyph.call(null, "cloud-download")
   };
   var cloud_download = function(var_args) {
@@ -27478,8 +27478,8 @@ bootstrap.glyph.cloud_download = function() {
     return cloud_download__delegate.call(this, args__7067__auto__)
   };
   cloud_download.cljs$lang$maxFixedArity = 0;
-  cloud_download.cljs$lang$applyTo = function(arglist__436489) {
-    var args__7067__auto__ = cljs.core.seq(arglist__436489);
+  cloud_download.cljs$lang$applyTo = function(arglist__439765) {
+    var args__7067__auto__ = cljs.core.seq(arglist__439765);
     return cloud_download__delegate(args__7067__auto__)
   };
   cloud_download.cljs$core$IFn$_invoke$arity$variadic = cloud_download__delegate;
@@ -27487,9 +27487,9 @@ bootstrap.glyph.cloud_download = function() {
 }();
 bootstrap.glyph.cloud_upload = function() {
   var cloud_upload__delegate = function(args__7067__auto__) {
-    var vec__436491 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
-    var attr = cljs.core.nth.call(null, vec__436491, 0, null);
-    var kids = cljs.core.nth.call(null, vec__436491, 1, null);
+    var vec__439767 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
+    var attr = cljs.core.nth.call(null, vec__439767, 0, null);
+    var kids = cljs.core.nth.call(null, vec__439767, 1, null);
     return bootstrap.glyph.mkglyph.call(null, "cloud-upload")
   };
   var cloud_upload = function(var_args) {
@@ -27500,8 +27500,8 @@ bootstrap.glyph.cloud_upload = function() {
     return cloud_upload__delegate.call(this, args__7067__auto__)
   };
   cloud_upload.cljs$lang$maxFixedArity = 0;
-  cloud_upload.cljs$lang$applyTo = function(arglist__436492) {
-    var args__7067__auto__ = cljs.core.seq(arglist__436492);
+  cloud_upload.cljs$lang$applyTo = function(arglist__439768) {
+    var args__7067__auto__ = cljs.core.seq(arglist__439768);
     return cloud_upload__delegate(args__7067__auto__)
   };
   cloud_upload.cljs$core$IFn$_invoke$arity$variadic = cloud_upload__delegate;
@@ -27515,9 +27515,9 @@ goog.require("tailrecursion.hoplon");
 goog.require("tailrecursion.javelin");
 bootstrap.grid.row = function() {
   var row__delegate = function(args__7067__auto__) {
-    var vec__436494 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
-    var attr = cljs.core.nth.call(null, vec__436494, 0, null);
-    var kids = cljs.core.nth.call(null, vec__436494, 1, null);
+    var vec__439770 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
+    var attr = cljs.core.nth.call(null, vec__439770, 0, null);
+    var kids = cljs.core.nth.call(null, vec__439770, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "row"), attr, kids)
   };
   var row = function(var_args) {
@@ -27528,8 +27528,8 @@ bootstrap.grid.row = function() {
     return row__delegate.call(this, args__7067__auto__)
   };
   row.cljs$lang$maxFixedArity = 0;
-  row.cljs$lang$applyTo = function(arglist__436495) {
-    var args__7067__auto__ = cljs.core.seq(arglist__436495);
+  row.cljs$lang$applyTo = function(arglist__439771) {
+    var args__7067__auto__ = cljs.core.seq(arglist__439771);
     return row__delegate(args__7067__auto__)
   };
   row.cljs$core$IFn$_invoke$arity$variadic = row__delegate;
@@ -27537,9 +27537,9 @@ bootstrap.grid.row = function() {
 }();
 bootstrap.grid.col1 = function() {
   var col1__delegate = function(args__7067__auto__) {
-    var vec__436497 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
-    var attr = cljs.core.nth.call(null, vec__436497, 0, null);
-    var kids = cljs.core.nth.call(null, vec__436497, 1, null);
+    var vec__439773 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
+    var attr = cljs.core.nth.call(null, vec__439773, 0, null);
+    var kids = cljs.core.nth.call(null, vec__439773, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "col-md-1"), attr, kids)
   };
   var col1 = function(var_args) {
@@ -27550,8 +27550,8 @@ bootstrap.grid.col1 = function() {
     return col1__delegate.call(this, args__7067__auto__)
   };
   col1.cljs$lang$maxFixedArity = 0;
-  col1.cljs$lang$applyTo = function(arglist__436498) {
-    var args__7067__auto__ = cljs.core.seq(arglist__436498);
+  col1.cljs$lang$applyTo = function(arglist__439774) {
+    var args__7067__auto__ = cljs.core.seq(arglist__439774);
     return col1__delegate(args__7067__auto__)
   };
   col1.cljs$core$IFn$_invoke$arity$variadic = col1__delegate;
@@ -27559,9 +27559,9 @@ bootstrap.grid.col1 = function() {
 }();
 bootstrap.grid.col2 = function() {
   var col2__delegate = function(args__7067__auto__) {
-    var vec__436500 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
-    var attr = cljs.core.nth.call(null, vec__436500, 0, null);
-    var kids = cljs.core.nth.call(null, vec__436500, 1, null);
+    var vec__439776 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
+    var attr = cljs.core.nth.call(null, vec__439776, 0, null);
+    var kids = cljs.core.nth.call(null, vec__439776, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "col-md-2"), attr, kids)
   };
   var col2 = function(var_args) {
@@ -27572,8 +27572,8 @@ bootstrap.grid.col2 = function() {
     return col2__delegate.call(this, args__7067__auto__)
   };
   col2.cljs$lang$maxFixedArity = 0;
-  col2.cljs$lang$applyTo = function(arglist__436501) {
-    var args__7067__auto__ = cljs.core.seq(arglist__436501);
+  col2.cljs$lang$applyTo = function(arglist__439777) {
+    var args__7067__auto__ = cljs.core.seq(arglist__439777);
     return col2__delegate(args__7067__auto__)
   };
   col2.cljs$core$IFn$_invoke$arity$variadic = col2__delegate;
@@ -27581,9 +27581,9 @@ bootstrap.grid.col2 = function() {
 }();
 bootstrap.grid.col3 = function() {
   var col3__delegate = function(args__7067__auto__) {
-    var vec__436503 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
-    var attr = cljs.core.nth.call(null, vec__436503, 0, null);
-    var kids = cljs.core.nth.call(null, vec__436503, 1, null);
+    var vec__439779 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
+    var attr = cljs.core.nth.call(null, vec__439779, 0, null);
+    var kids = cljs.core.nth.call(null, vec__439779, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "col-md-3"), attr, kids)
   };
   var col3 = function(var_args) {
@@ -27594,8 +27594,8 @@ bootstrap.grid.col3 = function() {
     return col3__delegate.call(this, args__7067__auto__)
   };
   col3.cljs$lang$maxFixedArity = 0;
-  col3.cljs$lang$applyTo = function(arglist__436504) {
-    var args__7067__auto__ = cljs.core.seq(arglist__436504);
+  col3.cljs$lang$applyTo = function(arglist__439780) {
+    var args__7067__auto__ = cljs.core.seq(arglist__439780);
     return col3__delegate(args__7067__auto__)
   };
   col3.cljs$core$IFn$_invoke$arity$variadic = col3__delegate;
@@ -27603,9 +27603,9 @@ bootstrap.grid.col3 = function() {
 }();
 bootstrap.grid.col4 = function() {
   var col4__delegate = function(args__7067__auto__) {
-    var vec__436506 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
-    var attr = cljs.core.nth.call(null, vec__436506, 0, null);
-    var kids = cljs.core.nth.call(null, vec__436506, 1, null);
+    var vec__439782 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
+    var attr = cljs.core.nth.call(null, vec__439782, 0, null);
+    var kids = cljs.core.nth.call(null, vec__439782, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "col-md-4"), attr, kids)
   };
   var col4 = function(var_args) {
@@ -27616,8 +27616,8 @@ bootstrap.grid.col4 = function() {
     return col4__delegate.call(this, args__7067__auto__)
   };
   col4.cljs$lang$maxFixedArity = 0;
-  col4.cljs$lang$applyTo = function(arglist__436507) {
-    var args__7067__auto__ = cljs.core.seq(arglist__436507);
+  col4.cljs$lang$applyTo = function(arglist__439783) {
+    var args__7067__auto__ = cljs.core.seq(arglist__439783);
     return col4__delegate(args__7067__auto__)
   };
   col4.cljs$core$IFn$_invoke$arity$variadic = col4__delegate;
@@ -27625,9 +27625,9 @@ bootstrap.grid.col4 = function() {
 }();
 bootstrap.grid.col5 = function() {
   var col5__delegate = function(args__7067__auto__) {
-    var vec__436509 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
-    var attr = cljs.core.nth.call(null, vec__436509, 0, null);
-    var kids = cljs.core.nth.call(null, vec__436509, 1, null);
+    var vec__439785 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
+    var attr = cljs.core.nth.call(null, vec__439785, 0, null);
+    var kids = cljs.core.nth.call(null, vec__439785, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "col-md-5"), attr, kids)
   };
   var col5 = function(var_args) {
@@ -27638,8 +27638,8 @@ bootstrap.grid.col5 = function() {
     return col5__delegate.call(this, args__7067__auto__)
   };
   col5.cljs$lang$maxFixedArity = 0;
-  col5.cljs$lang$applyTo = function(arglist__436510) {
-    var args__7067__auto__ = cljs.core.seq(arglist__436510);
+  col5.cljs$lang$applyTo = function(arglist__439786) {
+    var args__7067__auto__ = cljs.core.seq(arglist__439786);
     return col5__delegate(args__7067__auto__)
   };
   col5.cljs$core$IFn$_invoke$arity$variadic = col5__delegate;
@@ -27647,9 +27647,9 @@ bootstrap.grid.col5 = function() {
 }();
 bootstrap.grid.col6 = function() {
   var col6__delegate = function(args__7067__auto__) {
-    var vec__436512 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
-    var attr = cljs.core.nth.call(null, vec__436512, 0, null);
-    var kids = cljs.core.nth.call(null, vec__436512, 1, null);
+    var vec__439788 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
+    var attr = cljs.core.nth.call(null, vec__439788, 0, null);
+    var kids = cljs.core.nth.call(null, vec__439788, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "col-md-6"), attr, kids)
   };
   var col6 = function(var_args) {
@@ -27660,8 +27660,8 @@ bootstrap.grid.col6 = function() {
     return col6__delegate.call(this, args__7067__auto__)
   };
   col6.cljs$lang$maxFixedArity = 0;
-  col6.cljs$lang$applyTo = function(arglist__436513) {
-    var args__7067__auto__ = cljs.core.seq(arglist__436513);
+  col6.cljs$lang$applyTo = function(arglist__439789) {
+    var args__7067__auto__ = cljs.core.seq(arglist__439789);
     return col6__delegate(args__7067__auto__)
   };
   col6.cljs$core$IFn$_invoke$arity$variadic = col6__delegate;
@@ -27669,9 +27669,9 @@ bootstrap.grid.col6 = function() {
 }();
 bootstrap.grid.col7 = function() {
   var col7__delegate = function(args__7067__auto__) {
-    var vec__436515 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
-    var attr = cljs.core.nth.call(null, vec__436515, 0, null);
-    var kids = cljs.core.nth.call(null, vec__436515, 1, null);
+    var vec__439791 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
+    var attr = cljs.core.nth.call(null, vec__439791, 0, null);
+    var kids = cljs.core.nth.call(null, vec__439791, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "col-md-7"), attr, kids)
   };
   var col7 = function(var_args) {
@@ -27682,8 +27682,8 @@ bootstrap.grid.col7 = function() {
     return col7__delegate.call(this, args__7067__auto__)
   };
   col7.cljs$lang$maxFixedArity = 0;
-  col7.cljs$lang$applyTo = function(arglist__436516) {
-    var args__7067__auto__ = cljs.core.seq(arglist__436516);
+  col7.cljs$lang$applyTo = function(arglist__439792) {
+    var args__7067__auto__ = cljs.core.seq(arglist__439792);
     return col7__delegate(args__7067__auto__)
   };
   col7.cljs$core$IFn$_invoke$arity$variadic = col7__delegate;
@@ -27691,9 +27691,9 @@ bootstrap.grid.col7 = function() {
 }();
 bootstrap.grid.col8 = function() {
   var col8__delegate = function(args__7067__auto__) {
-    var vec__436518 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
-    var attr = cljs.core.nth.call(null, vec__436518, 0, null);
-    var kids = cljs.core.nth.call(null, vec__436518, 1, null);
+    var vec__439794 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
+    var attr = cljs.core.nth.call(null, vec__439794, 0, null);
+    var kids = cljs.core.nth.call(null, vec__439794, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "col-md-8"), attr, kids)
   };
   var col8 = function(var_args) {
@@ -27704,8 +27704,8 @@ bootstrap.grid.col8 = function() {
     return col8__delegate.call(this, args__7067__auto__)
   };
   col8.cljs$lang$maxFixedArity = 0;
-  col8.cljs$lang$applyTo = function(arglist__436519) {
-    var args__7067__auto__ = cljs.core.seq(arglist__436519);
+  col8.cljs$lang$applyTo = function(arglist__439795) {
+    var args__7067__auto__ = cljs.core.seq(arglist__439795);
     return col8__delegate(args__7067__auto__)
   };
   col8.cljs$core$IFn$_invoke$arity$variadic = col8__delegate;
@@ -27713,9 +27713,9 @@ bootstrap.grid.col8 = function() {
 }();
 bootstrap.grid.col9 = function() {
   var col9__delegate = function(args__7067__auto__) {
-    var vec__436521 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
-    var attr = cljs.core.nth.call(null, vec__436521, 0, null);
-    var kids = cljs.core.nth.call(null, vec__436521, 1, null);
+    var vec__439797 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
+    var attr = cljs.core.nth.call(null, vec__439797, 0, null);
+    var kids = cljs.core.nth.call(null, vec__439797, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "col-md-9"), attr, kids)
   };
   var col9 = function(var_args) {
@@ -27726,8 +27726,8 @@ bootstrap.grid.col9 = function() {
     return col9__delegate.call(this, args__7067__auto__)
   };
   col9.cljs$lang$maxFixedArity = 0;
-  col9.cljs$lang$applyTo = function(arglist__436522) {
-    var args__7067__auto__ = cljs.core.seq(arglist__436522);
+  col9.cljs$lang$applyTo = function(arglist__439798) {
+    var args__7067__auto__ = cljs.core.seq(arglist__439798);
     return col9__delegate(args__7067__auto__)
   };
   col9.cljs$core$IFn$_invoke$arity$variadic = col9__delegate;
@@ -27735,9 +27735,9 @@ bootstrap.grid.col9 = function() {
 }();
 bootstrap.grid.col10 = function() {
   var col10__delegate = function(args__7067__auto__) {
-    var vec__436524 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
-    var attr = cljs.core.nth.call(null, vec__436524, 0, null);
-    var kids = cljs.core.nth.call(null, vec__436524, 1, null);
+    var vec__439800 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
+    var attr = cljs.core.nth.call(null, vec__439800, 0, null);
+    var kids = cljs.core.nth.call(null, vec__439800, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "col-md-10"), attr, kids)
   };
   var col10 = function(var_args) {
@@ -27748,8 +27748,8 @@ bootstrap.grid.col10 = function() {
     return col10__delegate.call(this, args__7067__auto__)
   };
   col10.cljs$lang$maxFixedArity = 0;
-  col10.cljs$lang$applyTo = function(arglist__436525) {
-    var args__7067__auto__ = cljs.core.seq(arglist__436525);
+  col10.cljs$lang$applyTo = function(arglist__439801) {
+    var args__7067__auto__ = cljs.core.seq(arglist__439801);
     return col10__delegate(args__7067__auto__)
   };
   col10.cljs$core$IFn$_invoke$arity$variadic = col10__delegate;
@@ -27757,9 +27757,9 @@ bootstrap.grid.col10 = function() {
 }();
 bootstrap.grid.col11 = function() {
   var col11__delegate = function(args__7067__auto__) {
-    var vec__436527 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
-    var attr = cljs.core.nth.call(null, vec__436527, 0, null);
-    var kids = cljs.core.nth.call(null, vec__436527, 1, null);
+    var vec__439803 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
+    var attr = cljs.core.nth.call(null, vec__439803, 0, null);
+    var kids = cljs.core.nth.call(null, vec__439803, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "col-md-11"), attr, kids)
   };
   var col11 = function(var_args) {
@@ -27770,8 +27770,8 @@ bootstrap.grid.col11 = function() {
     return col11__delegate.call(this, args__7067__auto__)
   };
   col11.cljs$lang$maxFixedArity = 0;
-  col11.cljs$lang$applyTo = function(arglist__436528) {
-    var args__7067__auto__ = cljs.core.seq(arglist__436528);
+  col11.cljs$lang$applyTo = function(arglist__439804) {
+    var args__7067__auto__ = cljs.core.seq(arglist__439804);
     return col11__delegate(args__7067__auto__)
   };
   col11.cljs$core$IFn$_invoke$arity$variadic = col11__delegate;
@@ -27779,9 +27779,9 @@ bootstrap.grid.col11 = function() {
 }();
 bootstrap.grid.col12 = function() {
   var col12__delegate = function(args__7067__auto__) {
-    var vec__436530 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
-    var attr = cljs.core.nth.call(null, vec__436530, 0, null);
-    var kids = cljs.core.nth.call(null, vec__436530, 1, null);
+    var vec__439806 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
+    var attr = cljs.core.nth.call(null, vec__439806, 0, null);
+    var kids = cljs.core.nth.call(null, vec__439806, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "col-md-12"), attr, kids)
   };
   var col12 = function(var_args) {
@@ -27792,8 +27792,8 @@ bootstrap.grid.col12 = function() {
     return col12__delegate.call(this, args__7067__auto__)
   };
   col12.cljs$lang$maxFixedArity = 0;
-  col12.cljs$lang$applyTo = function(arglist__436531) {
-    var args__7067__auto__ = cljs.core.seq(arglist__436531);
+  col12.cljs$lang$applyTo = function(arglist__439807) {
+    var args__7067__auto__ = cljs.core.seq(arglist__439807);
     return col12__delegate(args__7067__auto__)
   };
   col12.cljs$core$IFn$_invoke$arity$variadic = col12__delegate;
@@ -27808,9 +27808,9 @@ goog.require("tailrecursion.javelin");
 bootstrap.meta.meta = tailrecursion.hoplon.html_meta;
 bootstrap.meta.viewport = function() {
   var viewport__delegate = function(args__7067__auto__) {
-    var vec__436545 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
-    var attr = cljs.core.nth.call(null, vec__436545, 0, null);
-    var kids = cljs.core.nth.call(null, vec__436545, 1, null);
+    var vec__439821 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
+    var attr = cljs.core.nth.call(null, vec__439821, 0, null);
+    var kids = cljs.core.nth.call(null, vec__439821, 1, null);
     return bootstrap.meta.meta.call(null, new cljs.core.Keyword(null, "name", "name", 1017277949), "viewport", new cljs.core.Keyword(null, "content", "content", 1965434859), cljs.core.first.call(null, kids))
   };
   var viewport = function(var_args) {
@@ -27821,8 +27821,8 @@ bootstrap.meta.viewport = function() {
     return viewport__delegate.call(this, args__7067__auto__)
   };
   viewport.cljs$lang$maxFixedArity = 0;
-  viewport.cljs$lang$applyTo = function(arglist__436546) {
-    var args__7067__auto__ = cljs.core.seq(arglist__436546);
+  viewport.cljs$lang$applyTo = function(arglist__439822) {
+    var args__7067__auto__ = cljs.core.seq(arglist__439822);
     return viewport__delegate(args__7067__auto__)
   };
   viewport.cljs$core$IFn$_invoke$arity$variadic = viewport__delegate;
@@ -27830,9 +27830,9 @@ bootstrap.meta.viewport = function() {
 }();
 bootstrap.meta.description = function() {
   var description__delegate = function(args__7067__auto__) {
-    var vec__436548 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
-    var attr = cljs.core.nth.call(null, vec__436548, 0, null);
-    var kids = cljs.core.nth.call(null, vec__436548, 1, null);
+    var vec__439824 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
+    var attr = cljs.core.nth.call(null, vec__439824, 0, null);
+    var kids = cljs.core.nth.call(null, vec__439824, 1, null);
     return bootstrap.meta.meta.call(null, new cljs.core.Keyword(null, "name", "name", 1017277949), "description", new cljs.core.Keyword(null, "content", "content", 1965434859), cljs.core.first.call(null, kids))
   };
   var description = function(var_args) {
@@ -27843,8 +27843,8 @@ bootstrap.meta.description = function() {
     return description__delegate.call(this, args__7067__auto__)
   };
   description.cljs$lang$maxFixedArity = 0;
-  description.cljs$lang$applyTo = function(arglist__436549) {
-    var args__7067__auto__ = cljs.core.seq(arglist__436549);
+  description.cljs$lang$applyTo = function(arglist__439825) {
+    var args__7067__auto__ = cljs.core.seq(arglist__439825);
     return description__delegate(args__7067__auto__)
   };
   description.cljs$core$IFn$_invoke$arity$variadic = description__delegate;
@@ -27864,9 +27864,9 @@ bootstrap.core.setup = function setup() {
 };
 bootstrap.core.container = function() {
   var container__delegate = function(args__7067__auto__) {
-    var vec__436479 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
-    var attr = cljs.core.nth.call(null, vec__436479, 0, null);
-    var kids = cljs.core.nth.call(null, vec__436479, 1, null);
+    var vec__439755 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
+    var attr = cljs.core.nth.call(null, vec__439755, 0, null);
+    var kids = cljs.core.nth.call(null, vec__439755, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "container"), attr, kids)
   };
   var container = function(var_args) {
@@ -27877,8 +27877,8 @@ bootstrap.core.container = function() {
     return container__delegate.call(this, args__7067__auto__)
   };
   container.cljs$lang$maxFixedArity = 0;
-  container.cljs$lang$applyTo = function(arglist__436480) {
-    var args__7067__auto__ = cljs.core.seq(arglist__436480);
+  container.cljs$lang$applyTo = function(arglist__439756) {
+    var args__7067__auto__ = cljs.core.seq(arglist__439756);
     return container__delegate(args__7067__auto__)
   };
   container.cljs$core$IFn$_invoke$arity$variadic = container__delegate;
@@ -27886,9 +27886,9 @@ bootstrap.core.container = function() {
 }();
 bootstrap.core.jumbotron = function() {
   var jumbotron__delegate = function(args__7067__auto__) {
-    var vec__436482 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
-    var attr = cljs.core.nth.call(null, vec__436482, 0, null);
-    var kids = cljs.core.nth.call(null, vec__436482, 1, null);
+    var vec__439758 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
+    var attr = cljs.core.nth.call(null, vec__439758, 0, null);
+    var kids = cljs.core.nth.call(null, vec__439758, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "jumbotron", new cljs.core.Keyword(null, "style", "style", 1123684643), "background-color:#ffcc33"), attr, kids)
   };
   var jumbotron = function(var_args) {
@@ -27899,8 +27899,8 @@ bootstrap.core.jumbotron = function() {
     return jumbotron__delegate.call(this, args__7067__auto__)
   };
   jumbotron.cljs$lang$maxFixedArity = 0;
-  jumbotron.cljs$lang$applyTo = function(arglist__436483) {
-    var args__7067__auto__ = cljs.core.seq(arglist__436483);
+  jumbotron.cljs$lang$applyTo = function(arglist__439759) {
+    var args__7067__auto__ = cljs.core.seq(arglist__439759);
     return jumbotron__delegate(args__7067__auto__)
   };
   jumbotron.cljs$core$IFn$_invoke$arity$variadic = jumbotron__delegate;
@@ -27927,9 +27927,9 @@ bootstrap.navbar.active_QMARK_ = function active_QMARK_(link, route) {
 };
 bootstrap.navbar.inverse = function() {
   var inverse__delegate = function(args__7067__auto__) {
-    var vec__436551 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
-    var attr = cljs.core.nth.call(null, vec__436551, 0, null);
-    var kids = cljs.core.nth.call(null, vec__436551, 1, null);
+    var vec__439827 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
+    var attr = cljs.core.nth.call(null, vec__439827, 0, null);
+    var kids = cljs.core.nth.call(null, vec__439827, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "navbar navbar-inverse"), attr, kids)
   };
   var inverse = function(var_args) {
@@ -27940,8 +27940,8 @@ bootstrap.navbar.inverse = function() {
     return inverse__delegate.call(this, args__7067__auto__)
   };
   inverse.cljs$lang$maxFixedArity = 0;
-  inverse.cljs$lang$applyTo = function(arglist__436552) {
-    var args__7067__auto__ = cljs.core.seq(arglist__436552);
+  inverse.cljs$lang$applyTo = function(arglist__439828) {
+    var args__7067__auto__ = cljs.core.seq(arglist__439828);
     return inverse__delegate(args__7067__auto__)
   };
   inverse.cljs$core$IFn$_invoke$arity$variadic = inverse__delegate;
@@ -27949,9 +27949,9 @@ bootstrap.navbar.inverse = function() {
 }();
 bootstrap.navbar.header = function() {
   var header__delegate = function(args__7067__auto__) {
-    var vec__436554 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
-    var attr = cljs.core.nth.call(null, vec__436554, 0, null);
-    var kids = cljs.core.nth.call(null, vec__436554, 1, null);
+    var vec__439830 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
+    var attr = cljs.core.nth.call(null, vec__439830, 0, null);
+    var kids = cljs.core.nth.call(null, vec__439830, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "navbar-header"), attr, kids)
   };
   var header = function(var_args) {
@@ -27962,8 +27962,8 @@ bootstrap.navbar.header = function() {
     return header__delegate.call(this, args__7067__auto__)
   };
   header.cljs$lang$maxFixedArity = 0;
-  header.cljs$lang$applyTo = function(arglist__436555) {
-    var args__7067__auto__ = cljs.core.seq(arglist__436555);
+  header.cljs$lang$applyTo = function(arglist__439831) {
+    var args__7067__auto__ = cljs.core.seq(arglist__439831);
     return header__delegate(args__7067__auto__)
   };
   header.cljs$core$IFn$_invoke$arity$variadic = header__delegate;
@@ -27971,9 +27971,9 @@ bootstrap.navbar.header = function() {
 }();
 bootstrap.navbar.collapse = function() {
   var collapse__delegate = function(args__7067__auto__) {
-    var vec__436557 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
-    var attr = cljs.core.nth.call(null, vec__436557, 0, null);
-    var kids = cljs.core.nth.call(null, vec__436557, 1, null);
+    var vec__439833 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
+    var attr = cljs.core.nth.call(null, vec__439833, 0, null);
+    var kids = cljs.core.nth.call(null, vec__439833, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "collapse navbar-collapse"), attr, kids)
   };
   var collapse = function(var_args) {
@@ -27984,8 +27984,8 @@ bootstrap.navbar.collapse = function() {
     return collapse__delegate.call(this, args__7067__auto__)
   };
   collapse.cljs$lang$maxFixedArity = 0;
-  collapse.cljs$lang$applyTo = function(arglist__436558) {
-    var args__7067__auto__ = cljs.core.seq(arglist__436558);
+  collapse.cljs$lang$applyTo = function(arglist__439834) {
+    var args__7067__auto__ = cljs.core.seq(arglist__439834);
     return collapse__delegate(args__7067__auto__)
   };
   collapse.cljs$core$IFn$_invoke$arity$variadic = collapse__delegate;
@@ -27993,9 +27993,9 @@ bootstrap.navbar.collapse = function() {
 }();
 bootstrap.navbar.nav = function() {
   var nav__delegate = function(args__7067__auto__) {
-    var vec__436560 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
-    var attr = cljs.core.nth.call(null, vec__436560, 0, null);
-    var kids = cljs.core.nth.call(null, vec__436560, 1, null);
+    var vec__439836 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
+    var attr = cljs.core.nth.call(null, vec__439836, 0, null);
+    var kids = cljs.core.nth.call(null, vec__439836, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.ul.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "nav navbar-nav"), attr, kids)
   };
   var nav = function(var_args) {
@@ -28006,8 +28006,8 @@ bootstrap.navbar.nav = function() {
     return nav__delegate.call(this, args__7067__auto__)
   };
   nav.cljs$lang$maxFixedArity = 0;
-  nav.cljs$lang$applyTo = function(arglist__436561) {
-    var args__7067__auto__ = cljs.core.seq(arglist__436561);
+  nav.cljs$lang$applyTo = function(arglist__439837) {
+    var args__7067__auto__ = cljs.core.seq(arglist__439837);
     return nav__delegate(args__7067__auto__)
   };
   nav.cljs$core$IFn$_invoke$arity$variadic = nav__delegate;
@@ -28015,9 +28015,9 @@ bootstrap.navbar.nav = function() {
 }();
 bootstrap.navbar.brand = function() {
   var brand__delegate = function(args__7067__auto__) {
-    var vec__436563 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
-    var attr = cljs.core.nth.call(null, vec__436563, 0, null);
-    var kids = cljs.core.nth.call(null, vec__436563, 1, null);
+    var vec__439839 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
+    var attr = cljs.core.nth.call(null, vec__439839, 0, null);
+    var kids = cljs.core.nth.call(null, vec__439839, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.a.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "navbar-brand"), attr, kids)
   };
   var brand = function(var_args) {
@@ -28028,8 +28028,8 @@ bootstrap.navbar.brand = function() {
     return brand__delegate.call(this, args__7067__auto__)
   };
   brand.cljs$lang$maxFixedArity = 0;
-  brand.cljs$lang$applyTo = function(arglist__436564) {
-    var args__7067__auto__ = cljs.core.seq(arglist__436564);
+  brand.cljs$lang$applyTo = function(arglist__439840) {
+    var args__7067__auto__ = cljs.core.seq(arglist__439840);
     return brand__delegate(args__7067__auto__)
   };
   brand.cljs$core$IFn$_invoke$arity$variadic = brand__delegate;
@@ -28038,10 +28038,10 @@ bootstrap.navbar.brand = function() {
 bootstrap.navbar.fixed_top = function() {
   var fixed_top__delegate = function(route, title_text, links) {
     return bootstrap.navbar.inverse.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "navbar-fixed-top").call(null, bootstrap.core.container.call(null, bootstrap.navbar.header.call(null, bootstrap.navbar.brand.call(null, new cljs.core.Keyword(null, "href", "href", 1017115293), bootstrap.navbar.get_hash.call(null, cljs.core.first.call(null, links)), title_text)), bootstrap.navbar.collapse.call(null, cljs.core.apply.call(null, bootstrap.navbar.nav.call(null), cljs.core.map.call(null, 
-    function(p1__436313_SHARP_) {
-      return tailrecursion.hoplon.li.call(null, new cljs.core.Keyword(null, "do-class", "do-class", 4607961384), tailrecursion.javelin.lift.call(null, function(G__436570, G__436568, G__436569) {
-        return cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "active", "active", 3885920888), G__436568.call(null, G__436569, G__436570)], true)
-      }).call(null, route, bootstrap.navbar.active_QMARK_, p1__436313_SHARP_), p1__436313_SHARP_)
+    function(p1__439589_SHARP_) {
+      return tailrecursion.hoplon.li.call(null, new cljs.core.Keyword(null, "do-class", "do-class", 4607961384), tailrecursion.javelin.lift.call(null, function(G__439846, G__439844, G__439845) {
+        return cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "active", "active", 3885920888), G__439844.call(null, G__439845, G__439846)], true)
+      }).call(null, route, bootstrap.navbar.active_QMARK_, p1__439589_SHARP_), p1__439589_SHARP_)
     }, links)))))
   };
   var fixed_top = function(route, title_text, var_args) {
@@ -28052,11 +28052,11 @@ bootstrap.navbar.fixed_top = function() {
     return fixed_top__delegate.call(this, route, title_text, links)
   };
   fixed_top.cljs$lang$maxFixedArity = 2;
-  fixed_top.cljs$lang$applyTo = function(arglist__436571) {
-    var route = cljs.core.first(arglist__436571);
-    arglist__436571 = cljs.core.next(arglist__436571);
-    var title_text = cljs.core.first(arglist__436571);
-    var links = cljs.core.rest(arglist__436571);
+  fixed_top.cljs$lang$applyTo = function(arglist__439847) {
+    var route = cljs.core.first(arglist__439847);
+    arglist__439847 = cljs.core.next(arglist__439847);
+    var title_text = cljs.core.first(arglist__439847);
+    var links = cljs.core.rest(arglist__439847);
     return fixed_top__delegate(route, title_text, links)
   };
   fixed_top.cljs$core$IFn$_invoke$arity$variadic = fixed_top__delegate;
@@ -28078,12 +28078,12 @@ bootstrap.page.navbar_fixed_top = function() {
   var navbar_fixed_top__delegate = function(route, title_text, description, kvs) {
     return cljs.core.into.call(null, cljs.core.PersistentVector.fromArray([function() {
       return tailrecursion.hoplon.spliced.call(null, bootstrap.core.setup.call(null), tailrecursion.hoplon.title.call(null, title_text), bootstrap.meta.description.call(null, description))
-    }, cljs.core.apply.call(null, bootstrap.navbar.fixed_top, route, title_text, cljs.core.map.call(null, cljs.core.first, kvs))], true), cljs.core.map.call(null, function(p__436577) {
-      var vec__436578 = p__436577;
-      var l = cljs.core.nth.call(null, vec__436578, 0, null);
-      var c = cljs.core.nth.call(null, vec__436578, 1, null);
-      return c.call(null, new cljs.core.Keyword(null, "do-toggle", "do-toggle", 1250159176), tailrecursion.javelin.lift.call(null, function(G__436581, G__436580, G__436579) {
-        return G__436579.call(null, G__436580, G__436581)
+    }, cljs.core.apply.call(null, bootstrap.navbar.fixed_top, route, title_text, cljs.core.map.call(null, cljs.core.first, kvs))], true), cljs.core.map.call(null, function(p__439853) {
+      var vec__439854 = p__439853;
+      var l = cljs.core.nth.call(null, vec__439854, 0, null);
+      var c = cljs.core.nth.call(null, vec__439854, 1, null);
+      return c.call(null, new cljs.core.Keyword(null, "do-toggle", "do-toggle", 1250159176), tailrecursion.javelin.lift.call(null, function(G__439857, G__439856, G__439855) {
+        return G__439855.call(null, G__439856, G__439857)
       }).call(null, route, l, bootstrap.navbar.active_QMARK_))
     }, kvs))
   };
@@ -28095,13 +28095,13 @@ bootstrap.page.navbar_fixed_top = function() {
     return navbar_fixed_top__delegate.call(this, route, title_text, description, kvs)
   };
   navbar_fixed_top.cljs$lang$maxFixedArity = 3;
-  navbar_fixed_top.cljs$lang$applyTo = function(arglist__436582) {
-    var route = cljs.core.first(arglist__436582);
-    arglist__436582 = cljs.core.next(arglist__436582);
-    var title_text = cljs.core.first(arglist__436582);
-    arglist__436582 = cljs.core.next(arglist__436582);
-    var description = cljs.core.first(arglist__436582);
-    var kvs = cljs.core.rest(arglist__436582);
+  navbar_fixed_top.cljs$lang$applyTo = function(arglist__439858) {
+    var route = cljs.core.first(arglist__439858);
+    arglist__439858 = cljs.core.next(arglist__439858);
+    var title_text = cljs.core.first(arglist__439858);
+    arglist__439858 = cljs.core.next(arglist__439858);
+    var description = cljs.core.first(arglist__439858);
+    var kvs = cljs.core.rest(arglist__439858);
     return navbar_fixed_top__delegate(route, title_text, description, kvs)
   };
   navbar_fixed_top.cljs$core$IFn$_invoke$arity$variadic = navbar_fixed_top__delegate;
@@ -28109,9 +28109,9 @@ bootstrap.page.navbar_fixed_top = function() {
 }();
 bootstrap.page.header = function() {
   var header__delegate = function(args__7067__auto__) {
-    var vec__436584 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
-    var attr = cljs.core.nth.call(null, vec__436584, 0, null);
-    var kids = cljs.core.nth.call(null, vec__436584, 1, null);
+    var vec__439860 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
+    var attr = cljs.core.nth.call(null, vec__439860, 0, null);
+    var kids = cljs.core.nth.call(null, vec__439860, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "page-header"), attr, kids)
   };
   var header = function(var_args) {
@@ -28122,8 +28122,8 @@ bootstrap.page.header = function() {
     return header__delegate.call(this, args__7067__auto__)
   };
   header.cljs$lang$maxFixedArity = 0;
-  header.cljs$lang$applyTo = function(arglist__436585) {
-    var args__7067__auto__ = cljs.core.seq(arglist__436585);
+  header.cljs$lang$applyTo = function(arglist__439861) {
+    var args__7067__auto__ = cljs.core.seq(arglist__439861);
     return header__delegate(args__7067__auto__)
   };
   header.cljs$core$IFn$_invoke$arity$variadic = header__delegate;
@@ -28296,9 +28296,9 @@ goog.require("tailrecursion.hoplon");
 goog.require("tailrecursion.javelin");
 bootstrap.button.group = function() {
   var group__delegate = function(args__7067__auto__) {
-    var vec__436467 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
-    var attr = cljs.core.nth.call(null, vec__436467, 0, null);
-    var kids = cljs.core.nth.call(null, vec__436467, 1, null);
+    var vec__439743 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
+    var attr = cljs.core.nth.call(null, vec__439743, 0, null);
+    var kids = cljs.core.nth.call(null, vec__439743, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "btn-group"), attr, kids)
   };
   var group = function(var_args) {
@@ -28309,8 +28309,8 @@ bootstrap.button.group = function() {
     return group__delegate.call(this, args__7067__auto__)
   };
   group.cljs$lang$maxFixedArity = 0;
-  group.cljs$lang$applyTo = function(arglist__436468) {
-    var args__7067__auto__ = cljs.core.seq(arglist__436468);
+  group.cljs$lang$applyTo = function(arglist__439744) {
+    var args__7067__auto__ = cljs.core.seq(arglist__439744);
     return group__delegate(args__7067__auto__)
   };
   group.cljs$core$IFn$_invoke$arity$variadic = group__delegate;
@@ -28318,9 +28318,9 @@ bootstrap.button.group = function() {
 }();
 bootstrap.button.default$ = function() {
   var default$__delegate = function(args__7067__auto__) {
-    var vec__436470 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
-    var attr = cljs.core.nth.call(null, vec__436470, 0, null);
-    var kids = cljs.core.nth.call(null, vec__436470, 1, null);
+    var vec__439746 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
+    var attr = cljs.core.nth.call(null, vec__439746, 0, null);
+    var kids = cljs.core.nth.call(null, vec__439746, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.button.call(null, new cljs.core.Keyword(null, "type", "type", 1017479852), "button", new cljs.core.Keyword(null, "class", "class", 1108647146), "btn btn-default"), attr, kids)
   };
   var default$ = function(var_args) {
@@ -28331,8 +28331,8 @@ bootstrap.button.default$ = function() {
     return default$__delegate.call(this, args__7067__auto__)
   };
   default$.cljs$lang$maxFixedArity = 0;
-  default$.cljs$lang$applyTo = function(arglist__436471) {
-    var args__7067__auto__ = cljs.core.seq(arglist__436471);
+  default$.cljs$lang$applyTo = function(arglist__439747) {
+    var args__7067__auto__ = cljs.core.seq(arglist__439747);
     return default$__delegate(args__7067__auto__)
   };
   default$.cljs$core$IFn$_invoke$arity$variadic = default$__delegate;
@@ -28340,9 +28340,9 @@ bootstrap.button.default$ = function() {
 }();
 bootstrap.button.start = function() {
   var start__delegate = function(args__7067__auto__) {
-    var vec__436473 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
-    var attr = cljs.core.nth.call(null, vec__436473, 0, null);
-    var kids = cljs.core.nth.call(null, vec__436473, 1, null);
+    var vec__439749 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
+    var attr = cljs.core.nth.call(null, vec__439749, 0, null);
+    var kids = cljs.core.nth.call(null, vec__439749, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.a.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "btn btn-large btn-primary"), attr, kids)
   };
   var start = function(var_args) {
@@ -28353,8 +28353,8 @@ bootstrap.button.start = function() {
     return start__delegate.call(this, args__7067__auto__)
   };
   start.cljs$lang$maxFixedArity = 0;
-  start.cljs$lang$applyTo = function(arglist__436474) {
-    var args__7067__auto__ = cljs.core.seq(arglist__436474);
+  start.cljs$lang$applyTo = function(arglist__439750) {
+    var args__7067__auto__ = cljs.core.seq(arglist__439750);
     return start__delegate(args__7067__auto__)
   };
   start.cljs$core$IFn$_invoke$arity$variadic = start__delegate;
@@ -28362,9 +28362,9 @@ bootstrap.button.start = function() {
 }();
 bootstrap.button.more = function() {
   var more__delegate = function(args__7067__auto__) {
-    var vec__436476 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
-    var attr = cljs.core.nth.call(null, vec__436476, 0, null);
-    var kids = cljs.core.nth.call(null, vec__436476, 1, null);
+    var vec__439752 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
+    var attr = cljs.core.nth.call(null, vec__439752, 0, null);
+    var kids = cljs.core.nth.call(null, vec__439752, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.a.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "btn btn-primary"), attr, kids)
   };
   var more = function(var_args) {
@@ -28375,8 +28375,8 @@ bootstrap.button.more = function() {
     return more__delegate.call(this, args__7067__auto__)
   };
   more.cljs$lang$maxFixedArity = 0;
-  more.cljs$lang$applyTo = function(arglist__436477) {
-    var args__7067__auto__ = cljs.core.seq(arglist__436477);
+  more.cljs$lang$applyTo = function(arglist__439753) {
+    var args__7067__auto__ = cljs.core.seq(arglist__439753);
     return more__delegate(args__7067__auto__)
   };
   more.cljs$core$IFn$_invoke$arity$variadic = more__delegate;
@@ -28390,9 +28390,9 @@ goog.require("tailrecursion.hoplon");
 goog.require("tailrecursion.javelin");
 bootstrap.list.group = function() {
   var group__delegate = function(args__7067__auto__) {
-    var vec__436533 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
-    var attr = cljs.core.nth.call(null, vec__436533, 0, null);
-    var kids = cljs.core.nth.call(null, vec__436533, 1, null);
+    var vec__439809 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
+    var attr = cljs.core.nth.call(null, vec__439809, 0, null);
+    var kids = cljs.core.nth.call(null, vec__439809, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.ul.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "list-group"), attr, kids)
   };
   var group = function(var_args) {
@@ -28403,8 +28403,8 @@ bootstrap.list.group = function() {
     return group__delegate.call(this, args__7067__auto__)
   };
   group.cljs$lang$maxFixedArity = 0;
-  group.cljs$lang$applyTo = function(arglist__436534) {
-    var args__7067__auto__ = cljs.core.seq(arglist__436534);
+  group.cljs$lang$applyTo = function(arglist__439810) {
+    var args__7067__auto__ = cljs.core.seq(arglist__439810);
     return group__delegate(args__7067__auto__)
   };
   group.cljs$core$IFn$_invoke$arity$variadic = group__delegate;
@@ -28412,9 +28412,9 @@ bootstrap.list.group = function() {
 }();
 bootstrap.list.item = function() {
   var item__delegate = function(args__7067__auto__) {
-    var vec__436536 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
-    var attr = cljs.core.nth.call(null, vec__436536, 0, null);
-    var kids = cljs.core.nth.call(null, vec__436536, 1, null);
+    var vec__439812 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
+    var attr = cljs.core.nth.call(null, vec__439812, 0, null);
+    var kids = cljs.core.nth.call(null, vec__439812, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.li.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "list-group-item"), attr, kids)
   };
   var item = function(var_args) {
@@ -28425,8 +28425,8 @@ bootstrap.list.item = function() {
     return item__delegate.call(this, args__7067__auto__)
   };
   item.cljs$lang$maxFixedArity = 0;
-  item.cljs$lang$applyTo = function(arglist__436537) {
-    var args__7067__auto__ = cljs.core.seq(arglist__436537);
+  item.cljs$lang$applyTo = function(arglist__439813) {
+    var args__7067__auto__ = cljs.core.seq(arglist__439813);
     return item__delegate(args__7067__auto__)
   };
   item.cljs$core$IFn$_invoke$arity$variadic = item__delegate;
@@ -28434,9 +28434,9 @@ bootstrap.list.item = function() {
 }();
 bootstrap.list.divgroup = function() {
   var divgroup__delegate = function(args__7067__auto__) {
-    var vec__436539 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
-    var attr = cljs.core.nth.call(null, vec__436539, 0, null);
-    var kids = cljs.core.nth.call(null, vec__436539, 1, null);
+    var vec__439815 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
+    var attr = cljs.core.nth.call(null, vec__439815, 0, null);
+    var kids = cljs.core.nth.call(null, vec__439815, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "list-group"), attr, kids)
   };
   var divgroup = function(var_args) {
@@ -28447,8 +28447,8 @@ bootstrap.list.divgroup = function() {
     return divgroup__delegate.call(this, args__7067__auto__)
   };
   divgroup.cljs$lang$maxFixedArity = 0;
-  divgroup.cljs$lang$applyTo = function(arglist__436540) {
-    var args__7067__auto__ = cljs.core.seq(arglist__436540);
+  divgroup.cljs$lang$applyTo = function(arglist__439816) {
+    var args__7067__auto__ = cljs.core.seq(arglist__439816);
     return divgroup__delegate(args__7067__auto__)
   };
   divgroup.cljs$core$IFn$_invoke$arity$variadic = divgroup__delegate;
@@ -28456,9 +28456,9 @@ bootstrap.list.divgroup = function() {
 }();
 bootstrap.list.divitem = function() {
   var divitem__delegate = function(args__7067__auto__) {
-    var vec__436542 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
-    var attr = cljs.core.nth.call(null, vec__436542, 0, null);
-    var kids = cljs.core.nth.call(null, vec__436542, 1, null);
+    var vec__439818 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
+    var attr = cljs.core.nth.call(null, vec__439818, 0, null);
+    var kids = cljs.core.nth.call(null, vec__439818, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "list-group-item"), attr, kids)
   };
   var divitem = function(var_args) {
@@ -28469,8 +28469,8 @@ bootstrap.list.divitem = function() {
     return divitem__delegate.call(this, args__7067__auto__)
   };
   divitem.cljs$lang$maxFixedArity = 0;
-  divitem.cljs$lang$applyTo = function(arglist__436543) {
-    var args__7067__auto__ = cljs.core.seq(arglist__436543);
+  divitem.cljs$lang$applyTo = function(arglist__439819) {
+    var args__7067__auto__ = cljs.core.seq(arglist__439819);
     return divitem__delegate(args__7067__auto__)
   };
   divitem.cljs$core$IFn$_invoke$arity$variadic = divitem__delegate;
@@ -28484,9 +28484,9 @@ goog.require("tailrecursion.hoplon");
 goog.require("tailrecursion.javelin");
 bootstrap.panel.default$ = function() {
   var default$__delegate = function(args__7067__auto__) {
-    var vec__436587 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
-    var attr = cljs.core.nth.call(null, vec__436587, 0, null);
-    var kids = cljs.core.nth.call(null, vec__436587, 1, null);
+    var vec__439863 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
+    var attr = cljs.core.nth.call(null, vec__439863, 0, null);
+    var kids = cljs.core.nth.call(null, vec__439863, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "panel panel-default"), attr, kids)
   };
   var default$ = function(var_args) {
@@ -28497,8 +28497,8 @@ bootstrap.panel.default$ = function() {
     return default$__delegate.call(this, args__7067__auto__)
   };
   default$.cljs$lang$maxFixedArity = 0;
-  default$.cljs$lang$applyTo = function(arglist__436588) {
-    var args__7067__auto__ = cljs.core.seq(arglist__436588);
+  default$.cljs$lang$applyTo = function(arglist__439864) {
+    var args__7067__auto__ = cljs.core.seq(arglist__439864);
     return default$__delegate(args__7067__auto__)
   };
   default$.cljs$core$IFn$_invoke$arity$variadic = default$__delegate;
@@ -28506,9 +28506,9 @@ bootstrap.panel.default$ = function() {
 }();
 bootstrap.panel.info = function() {
   var info__delegate = function(args__7067__auto__) {
-    var vec__436590 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
-    var attr = cljs.core.nth.call(null, vec__436590, 0, null);
-    var kids = cljs.core.nth.call(null, vec__436590, 1, null);
+    var vec__439866 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
+    var attr = cljs.core.nth.call(null, vec__439866, 0, null);
+    var kids = cljs.core.nth.call(null, vec__439866, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "panel panel-info"), attr, kids)
   };
   var info = function(var_args) {
@@ -28519,8 +28519,8 @@ bootstrap.panel.info = function() {
     return info__delegate.call(this, args__7067__auto__)
   };
   info.cljs$lang$maxFixedArity = 0;
-  info.cljs$lang$applyTo = function(arglist__436591) {
-    var args__7067__auto__ = cljs.core.seq(arglist__436591);
+  info.cljs$lang$applyTo = function(arglist__439867) {
+    var args__7067__auto__ = cljs.core.seq(arglist__439867);
     return info__delegate(args__7067__auto__)
   };
   info.cljs$core$IFn$_invoke$arity$variadic = info__delegate;
@@ -28528,9 +28528,9 @@ bootstrap.panel.info = function() {
 }();
 bootstrap.panel.body = function() {
   var body__delegate = function(args__7067__auto__) {
-    var vec__436593 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
-    var attr = cljs.core.nth.call(null, vec__436593, 0, null);
-    var kids = cljs.core.nth.call(null, vec__436593, 1, null);
+    var vec__439869 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
+    var attr = cljs.core.nth.call(null, vec__439869, 0, null);
+    var kids = cljs.core.nth.call(null, vec__439869, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "panel-body"), attr, kids)
   };
   var body = function(var_args) {
@@ -28541,8 +28541,8 @@ bootstrap.panel.body = function() {
     return body__delegate.call(this, args__7067__auto__)
   };
   body.cljs$lang$maxFixedArity = 0;
-  body.cljs$lang$applyTo = function(arglist__436594) {
-    var args__7067__auto__ = cljs.core.seq(arglist__436594);
+  body.cljs$lang$applyTo = function(arglist__439870) {
+    var args__7067__auto__ = cljs.core.seq(arglist__439870);
     return body__delegate(args__7067__auto__)
   };
   body.cljs$core$IFn$_invoke$arity$variadic = body__delegate;
@@ -28550,9 +28550,9 @@ bootstrap.panel.body = function() {
 }();
 bootstrap.panel.heading = function() {
   var heading__delegate = function(args__7067__auto__) {
-    var vec__436596 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
-    var attr = cljs.core.nth.call(null, vec__436596, 0, null);
-    var kids = cljs.core.nth.call(null, vec__436596, 1, null);
+    var vec__439872 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
+    var attr = cljs.core.nth.call(null, vec__439872, 0, null);
+    var kids = cljs.core.nth.call(null, vec__439872, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "panel-heading"), attr, kids)
   };
   var heading = function(var_args) {
@@ -28563,8 +28563,8 @@ bootstrap.panel.heading = function() {
     return heading__delegate.call(this, args__7067__auto__)
   };
   heading.cljs$lang$maxFixedArity = 0;
-  heading.cljs$lang$applyTo = function(arglist__436597) {
-    var args__7067__auto__ = cljs.core.seq(arglist__436597);
+  heading.cljs$lang$applyTo = function(arglist__439873) {
+    var args__7067__auto__ = cljs.core.seq(arglist__439873);
     return heading__delegate(args__7067__auto__)
   };
   heading.cljs$core$IFn$_invoke$arity$variadic = heading__delegate;
@@ -28572,9 +28572,9 @@ bootstrap.panel.heading = function() {
 }();
 bootstrap.panel.title = function() {
   var title__delegate = function(args__7067__auto__) {
-    var vec__436599 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
-    var attr = cljs.core.nth.call(null, vec__436599, 0, null);
-    var kids = cljs.core.nth.call(null, vec__436599, 1, null);
+    var vec__439875 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
+    var attr = cljs.core.nth.call(null, vec__439875, 0, null);
+    var kids = cljs.core.nth.call(null, vec__439875, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.h3.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "panel-title"), attr, kids)
   };
   var title = function(var_args) {
@@ -28585,14 +28585,14 @@ bootstrap.panel.title = function() {
     return title__delegate.call(this, args__7067__auto__)
   };
   title.cljs$lang$maxFixedArity = 0;
-  title.cljs$lang$applyTo = function(arglist__436600) {
-    var args__7067__auto__ = cljs.core.seq(arglist__436600);
+  title.cljs$lang$applyTo = function(arglist__439876) {
+    var args__7067__auto__ = cljs.core.seq(arglist__439876);
     return title__delegate(args__7067__auto__)
   };
   title.cljs$core$IFn$_invoke$arity$variadic = title__delegate;
   return title
 }();
-goog.provide("tailrecursion.hoplon.app_pages.G__435072");
+goog.provide("tailrecursion.hoplon.app_pages.G__438348");
 goog.require("cljs.core");
 goog.require("tailrecursion.javelin");
 goog.require("tailrecursion.hoplon");
@@ -28620,32 +28620,32 @@ goog.require("bootstrap.meta");
 goog.require("bootstrap.core");
 goog.require("bootstrap.meta");
 goog.require("bootstrap.core");
-tailrecursion.hoplon.app_pages.G__435072.hoploninit = function hoploninit() {
-  tailrecursion.hoplon.app_pages.G__435072.route = tailrecursion.hoplon.util.route_cell.call(null, 10, "#/home/");
-  tailrecursion.hoplon.app_pages.G__435072.vec__436638 = bootstrap.page.navbar_fixed_top.call(null, tailrecursion.hoplon.app_pages.G__435072.route, "Hoplon", "Hoplon", cljs.core.PersistentVector.fromArray([tailrecursion.hoplon.a.call(null, new cljs.core.Keyword(null, "href", "href", 1017115293), "#/home/", "Home"), tailrecursion.hoplon.div.call(null)], true), cljs.core.PersistentVector.fromArray([tailrecursion.hoplon.a.call(null, new cljs.core.Keyword(null, "href", "href", 1017115293), "#/getting-started/", 
+tailrecursion.hoplon.app_pages.G__438348.hoploninit = function hoploninit() {
+  tailrecursion.hoplon.app_pages.G__438348.route = tailrecursion.hoplon.util.route_cell.call(null, 10, "#/home/");
+  tailrecursion.hoplon.app_pages.G__438348.vec__439914 = bootstrap.page.navbar_fixed_top.call(null, tailrecursion.hoplon.app_pages.G__438348.route, "Hoplon", "Hoplon", cljs.core.PersistentVector.fromArray([tailrecursion.hoplon.a.call(null, new cljs.core.Keyword(null, "href", "href", 1017115293), "#/home/", "Home"), tailrecursion.hoplon.div.call(null)], true), cljs.core.PersistentVector.fromArray([tailrecursion.hoplon.a.call(null, new cljs.core.Keyword(null, "href", "href", 1017115293), "#/getting-started/", 
   "Getting Started"), bootstrap.core.container.call(null)], true), cljs.core.PersistentVector.fromArray([tailrecursion.hoplon.a.call(null, new cljs.core.Keyword(null, "href", "href", 1017115293), "#/about/", "About"), bootstrap.core.container.call(null)], true), cljs.core.PersistentVector.fromArray([tailrecursion.hoplon.a.call(null, new cljs.core.Keyword(null, "href", "href", 1017115293), "#/contact/", "Contact"), bootstrap.core.container.call(null)], true));
-  tailrecursion.hoplon.app_pages.G__435072.page_setup = cljs.core.nth.call(null, tailrecursion.hoplon.app_pages.G__435072.vec__436638, 0, null);
-  tailrecursion.hoplon.app_pages.G__435072.nav_bar = cljs.core.nth.call(null, tailrecursion.hoplon.app_pages.G__435072.vec__436638, 1, null);
-  tailrecursion.hoplon.app_pages.G__435072.content_home = cljs.core.nth.call(null, tailrecursion.hoplon.app_pages.G__435072.vec__436638, 2, null);
-  tailrecursion.hoplon.app_pages.G__435072.content_getting_started = cljs.core.nth.call(null, tailrecursion.hoplon.app_pages.G__435072.vec__436638, 3, null);
-  tailrecursion.hoplon.app_pages.G__435072.content_about = cljs.core.nth.call(null, tailrecursion.hoplon.app_pages.G__435072.vec__436638, 4, null);
-  tailrecursion.hoplon.app_pages.G__435072.content_contact = cljs.core.nth.call(null, tailrecursion.hoplon.app_pages.G__435072.vec__436638, 5, null);
-  tailrecursion.hoplon.app_pages.G__435072.example = tailrecursion.javelin.cell.call(null, 1);
-  tailrecursion.hoplon.app_pages.G__435072.bmi_height = tailrecursion.javelin.cell.call(null, 180);
-  tailrecursion.hoplon.app_pages.G__435072.bmi_weight = tailrecursion.javelin.cell.call(null, 800);
-  tailrecursion.hoplon.app_pages.G__435072.my_list = function() {
+  tailrecursion.hoplon.app_pages.G__438348.page_setup = cljs.core.nth.call(null, tailrecursion.hoplon.app_pages.G__438348.vec__439914, 0, null);
+  tailrecursion.hoplon.app_pages.G__438348.nav_bar = cljs.core.nth.call(null, tailrecursion.hoplon.app_pages.G__438348.vec__439914, 1, null);
+  tailrecursion.hoplon.app_pages.G__438348.content_home = cljs.core.nth.call(null, tailrecursion.hoplon.app_pages.G__438348.vec__439914, 2, null);
+  tailrecursion.hoplon.app_pages.G__438348.content_getting_started = cljs.core.nth.call(null, tailrecursion.hoplon.app_pages.G__438348.vec__439914, 3, null);
+  tailrecursion.hoplon.app_pages.G__438348.content_about = cljs.core.nth.call(null, tailrecursion.hoplon.app_pages.G__438348.vec__439914, 4, null);
+  tailrecursion.hoplon.app_pages.G__438348.content_contact = cljs.core.nth.call(null, tailrecursion.hoplon.app_pages.G__438348.vec__439914, 5, null);
+  tailrecursion.hoplon.app_pages.G__438348.example = tailrecursion.javelin.cell.call(null, 1);
+  tailrecursion.hoplon.app_pages.G__438348.bmi_height = tailrecursion.javelin.cell.call(null, 180);
+  tailrecursion.hoplon.app_pages.G__438348.bmi_weight = tailrecursion.javelin.cell.call(null, 800);
+  tailrecursion.hoplon.app_pages.G__438348.my_list = function() {
     var my_list__delegate = function(args__7067__auto__) {
-      var vec__436642 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
-      var attrs = cljs.core.nth.call(null, vec__436642, 0, null);
-      var children = cljs.core.nth.call(null, vec__436642, 1, null);
+      var vec__439918 = tailrecursion.hoplon.parse_args.call(null, args__7067__auto__);
+      var attrs = cljs.core.nth.call(null, vec__439918, 0, null);
+      var children = cljs.core.nth.call(null, vec__439918, 1, null);
       var heading = tailrecursion.hoplon.b.call(null);
       var body = tailrecursion.hoplon.ul.call(null);
       var widget = tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "my-list", heading.call(null), body.call(null));
-      tailrecursion.hoplon.on_append_BANG_.call(null, widget, function(p__436643, children__$1) {
-        var map__436644 = p__436643;
-        var map__436644__$1 = cljs.core.seq_QMARK_.call(null, map__436644) ? cljs.core.apply.call(null, cljs.core.hash_map, map__436644) : map__436644;
-        var attrs__$1 = map__436644__$1;
-        var title = cljs.core.get.call(null, map__436644__$1, new cljs.core.Keyword(null, "title", "title", 1124275658));
+      tailrecursion.hoplon.on_append_BANG_.call(null, widget, function(p__439919, children__$1) {
+        var map__439920 = p__439919;
+        var map__439920__$1 = cljs.core.seq_QMARK_.call(null, map__439920) ? cljs.core.apply.call(null, cljs.core.hash_map, map__439920) : map__439920;
+        var attrs__$1 = map__439920__$1;
+        var title = cljs.core.get.call(null, map__439920__$1, new cljs.core.Keyword(null, "title", "title", 1124275658));
         if(cljs.core.truth_(title)) {
           tailrecursion.hoplon.do_BANG_.call(null, heading, new cljs.core.Keyword(null, "text", "text", 1017460895), title)
         }else {
@@ -28663,26 +28663,26 @@ tailrecursion.hoplon.app_pages.G__435072.hoploninit = function hoploninit() {
       return my_list__delegate.call(this, args__7067__auto__)
     };
     my_list.cljs$lang$maxFixedArity = 0;
-    my_list.cljs$lang$applyTo = function(arglist__436675) {
-      var args__7067__auto__ = cljs.core.seq(arglist__436675);
+    my_list.cljs$lang$applyTo = function(arglist__439951) {
+      var args__7067__auto__ = cljs.core.seq(arglist__439951);
       return my_list__delegate(args__7067__auto__)
     };
     my_list.cljs$core$IFn$_invoke$arity$variadic = my_list__delegate;
     return my_list
   }();
-  tailrecursion.hoplon.app_pages.G__435072.bmi = tailrecursion.javelin.lift.call(null, function(G__436646, G__436645) {
-    var h = G__436645 / 100;
-    var w = G__436646 / 10;
+  tailrecursion.hoplon.app_pages.G__438348.bmi = tailrecursion.javelin.lift.call(null, function(G__439922, G__439921) {
+    var h = G__439921 / 100;
+    var w = G__439922 / 10;
     return w / (h * h)
-  }).call(null, tailrecursion.hoplon.app_pages.G__435072.bmi_weight, tailrecursion.hoplon.app_pages.G__435072.bmi_height);
-  tailrecursion.hoplon.app_pages.G__435072.bmi_msg = tailrecursion.javelin.lift.call(null, function(G__436647) {
-    if(cljs.core.truth_(G__436647 < 18.5)) {
+  }).call(null, tailrecursion.hoplon.app_pages.G__438348.bmi_weight, tailrecursion.hoplon.app_pages.G__438348.bmi_height);
+  tailrecursion.hoplon.app_pages.G__438348.bmi_msg = tailrecursion.javelin.lift.call(null, function(G__439923) {
+    if(cljs.core.truth_(G__439923 < 18.5)) {
       return cljs.core.PersistentVector.fromArray(["underweight", "orange"], true)
     }else {
-      if(cljs.core.truth_(G__436647 < 25)) {
+      if(cljs.core.truth_(G__439923 < 25)) {
         return cljs.core.PersistentVector.fromArray(["normal", "inherit"], true)
       }else {
-        if(cljs.core.truth_(G__436647 < 30)) {
+        if(cljs.core.truth_(G__439923 < 30)) {
           return cljs.core.PersistentVector.fromArray(["overweight", "orange"], true)
         }else {
           if(new cljs.core.Keyword(null, "else", "else", 1017020587)) {
@@ -28693,190 +28693,190 @@ tailrecursion.hoplon.app_pages.G__435072.hoploninit = function hoploninit() {
         }
       }
     }
-  }).call(null, tailrecursion.hoplon.app_pages.G__435072.bmi);
+  }).call(null, tailrecursion.hoplon.app_pages.G__438348.bmi);
   return tailrecursion.hoplon.init.call(null, cljs.core.PersistentVector.fromArray([function() {
-    var G__435073 = tailrecursion.hoplon.app_pages.G__435072.nav_bar.call(null);
-    return G__435073
+    var G__438349 = tailrecursion.hoplon.app_pages.G__438348.nav_bar.call(null);
+    return G__438349
   }(), function() {
-    var G__435074 = tailrecursion.hoplon.app_pages.G__435072.content_home.call(null);
-    var G__435075 = bootstrap.core.jumbotron.call(null);
-    var G__435076 = bootstrap.core.container.call(null);
-    var G__435077 = tailrecursion.hoplon.h1.call(null, "Hoplon");
-    var ___7644__auto__ = G__435076.call(null, G__435077);
-    var G__435078 = tailrecursion.hoplon.p.call(null, "A simpler way to program the web.");
-    var ___7644__auto____$1 = G__435076.call(null, G__435078);
-    var G__435079 = tailrecursion.hoplon.p.call(null);
-    var G__435080 = bootstrap.button.start.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "href", "href", 1017115293), "#/getting-started/"], true), "Get started \u00bb");
-    var ___7644__auto____$2 = G__435079.call(null, G__435080);
-    var ___7646__auto__ = G__435076.call(null, G__435079);
-    var ___7646__auto____$1 = G__435075.call(null, G__435076);
-    var ___7646__auto____$2 = G__435074.call(null, G__435075);
-    var G__435081 = bootstrap.core.container.call(null);
-    var G__435082 = bootstrap.grid.row.call(null);
-    var G__435083 = bootstrap.grid.col4.call(null);
-    var G__435084 = tailrecursion.hoplon.h2.call(null, "Clojure, everywhere.");
-    var ___7644__auto____$3 = G__435083.call(null, G__435084);
-    var G__435085 = tailrecursion.hoplon.p.call(null, "Write everything in Clojure and ClojureScript, clientside and\n               serverside. Even the page markup is ClojureScript that is\n               evaluated to produce the DOM. Pages can still be written using\n               the familiar HTML syntax if desired.");
-    var ___7644__auto____$4 = G__435083.call(null, G__435085);
-    var ___7646__auto____$3 = G__435082.call(null, G__435083);
-    var G__435086 = bootstrap.grid.col4.call(null);
-    var G__435087 = tailrecursion.hoplon.h2.call(null, "Simplicity on the client.");
-    var ___7644__auto____$5 = G__435086.call(null, G__435087);
-    var G__435088 = tailrecursion.hoplon.p.call(null, "Use a spreadsheet-like dataflow programming environment to\n               manage client state. Develop basic content-oriented pages and\n               complex thick-client applications without descending into\n               \u201ccallback hell\u201d.");
-    var ___7644__auto____$6 = G__435086.call(null, G__435088);
-    var ___7646__auto____$4 = G__435082.call(null, G__435086);
-    var G__435089 = bootstrap.grid.col4.call(null);
-    var G__435090 = tailrecursion.hoplon.h2.call(null, "Simplicity on the server.");
-    var ___7644__auto____$7 = G__435089.call(null, G__435090);
-    var G__435091 = tailrecursion.hoplon.p.call(null, "Decouple business logic from HTTP-related concerns while\n               satisfying complex, fine-grained authorization requirements\n               with transparent, performant transfer of Clojure data between\n               server and client.");
-    var ___7644__auto____$8 = G__435089.call(null, G__435091);
-    var ___7646__auto____$5 = G__435082.call(null, G__435089);
-    var ___7646__auto____$6 = G__435081.call(null, G__435082);
-    var G__435092 = tailrecursion.hoplon.hr.call(null);
-    var ___7644__auto____$9 = G__435081.call(null, G__435092);
-    var G__435093 = bootstrap.grid.row.call(null);
-    var G__435094 = bootstrap.grid.col6.call(null);
-    var G__435095 = tailrecursion.hoplon.h2.call(null);
-    var ___7643__auto__ = G__435095.call(null, "Overview ");
-    var G__435097 = tailrecursion.hoplon.small.call(null, "Hoplon in a nutshell.");
-    var ___7644__auto____$10 = G__435095.call(null, G__435097);
-    var ___7646__auto____$7 = G__435094.call(null, G__435095);
-    var G__435098 = tailrecursion.hoplon.p.call(null, "Hoplon provides a number of libraries promoting a simpler\n               model for web applications. The project can be divided into\n               three main components: the HTML evaluator, the clientside state\n               machine, and a serverside RPC server. These components can be\n               used together as a full stack, or individually to solve a\n               specific problem as a part of another stack.");
-    var ___7644__auto____$11 = G__435094.call(null, G__435098);
-    var G__435099 = tailrecursion.hoplon.h2.call(null);
-    var ___7643__auto____$1 = G__435099.call(null, "HTML Evaluator ");
-    var G__435101 = tailrecursion.hoplon.small.call(null, "Page markup is a program.");
-    var ___7644__auto____$12 = G__435099.call(null, G__435101);
-    var ___7646__auto____$8 = G__435094.call(null, G__435099);
-    var G__435102 = tailrecursion.hoplon.p.call(null, "Web applications are not simply documents. Users must be able\n               to interact with them and they must interact with backend\n               systems. Web application user interfaces share some of the\n               properties of documents, though. UIs are built by composing\n               elements in a document tree using HTML markup. However, without\n               JavaScript this tree cannot actually interact with the user, at\n               all.");
-    var ___7644__auto____$13 = G__435094.call(null, G__435102);
-    var G__435146 = tailrecursion.hoplon.p.call(null);
-    var ___7643__auto____$2 = G__435146.call(null, "The incidental complexity of web application UI development\n               comes at the boundary between the DOM and the JavaScript\n               environment. There is a fundamental disconnect between the\n               literal representation of the DOM (the HTML markup) and the\n               dynamic environment (the JavaScript VM). The page markup is\n               evaluated and the resulting DOM is accessible from JavaScript,\n               but it's a one-way linkage; the markup has no mechanism by which\n               it can refer to objects other than built-in primitives (i.e. ");
-    var G__435148 = tailrecursion.hoplon.em.call(null, "div");
-    var ___7644__auto____$14 = G__435146.call(null, G__435148);
-    var ___7643__auto____$3 = G__435146.call(null, ", ");
-    var G__435150 = tailrecursion.hoplon.em.call(null, "span");
-    var ___7644__auto____$15 = G__435146.call(null, G__435150);
-    var ___7643__auto____$4 = G__435146.call(null, ", etc). The browser's HTML evaluator does not include any means\n               of abstraction whatsoever, so there is no literal representation\n               for composite forms.");
-    var ___7646__auto____$9 = G__435094.call(null, G__435146);
-    var G__435151 = tailrecursion.hoplon.p.call(null, "Hoplon provides a HTML evaluator that closes the loop, unifying\n               the page markup and the JavaScript environment. Page markup,\n               expressed using either the standard HTML5 syntax or Clojure\n               sexps, is evaluated as ClojureScript and the result becomes the\n               DOM for the page. HTML tags are simply ClojureScript vars. Of\n               course, Hoplon ships with all of the standard HTML5 primitives\n               but the evaluation model facilitates the use of custom compound\n               elements defined in the environment, too.");
-    var ___7644__auto____$16 = G__435094.call(null, G__435151);
-    var G__435153 = tailrecursion.hoplon.h2.call(null);
-    var ___7643__auto____$5 = G__435153.call(null, "Components ");
-    var G__435155 = tailrecursion.hoplon.small.call(null, "First-class custom DOM elements.");
-    var ___7644__auto____$17 = G__435153.call(null, G__435155);
-    var ___7646__auto____$10 = G__435094.call(null, G__435153);
-    var G__435156 = tailrecursion.hoplon.p.call(null, "While there is no shortage of templating systems to create\n               blobs of DOM elements, there is no mechanism to create custom\n               elements that are composable in any meaningful way. Consider\n               the situation where a template engine binds a DOM template to\n               some data and returns the filled-in DOM subtree. What happens\n               when you append a child to that DOM element? The child gets\n               appended to the outermost element in the filled template, which\n               is probably not useful at all.");
-    var ___7644__auto____$18 = G__435094.call(null, G__435156);
-    var G__435157 = tailrecursion.hoplon.p.call(null, "Hoplon provides facilities for creating real, first-class\n               components. That is to say, Hoplon components are first-class\n               citizens in the DOM world\u2013\u2013they are, essentially, user-defined\n               custom DOM elements. They have a literal representation in the\n               page markup and they implement the semantics of HTML: setting\n               attributes and appending children. When a child is appended to\n               a Hoplon component or an attribute is set, either in HTML markup\n               or programmatically, the component's implementation is used\n               instead of the built-in DOM one. In this way components can be\n               built by composing simpler components and those may be used as\n               a basis for even more complex components, without running into\n               the limitations of template composition.");
-    var ___7644__auto____$19 = G__435094.call(null, G__435157);
-    var G__435158 = tailrecursion.hoplon.h2.call(null);
-    var ___7643__auto____$6 = G__435158.call(null, "Spreadsheets ");
-    var G__435160 = tailrecursion.hoplon.small.call(null, "Client state made simple.");
-    var ___7644__auto____$20 = G__435158.call(null, G__435160);
-    var ___7646__auto____$11 = G__435094.call(null, G__435158);
-    var G__435161 = tailrecursion.hoplon.p.call(null, "Remember how awesome spreadsheets are? You never think about\n               state when you\u2019re programming a spreadsheet. Instead, you focus\n               on values and the formulas that define the relationships between\n               them. When a new value is entered into a cell the rest of the \n               spreadsheet updates itself as necessary to maintain the\n               correctness of the formulas.");
-    var ___7644__auto____$21 = G__435094.call(null, G__435161);
-    var G__435162 = tailrecursion.hoplon.p.call(null, "After a spreadsheet is set up you can link its cells to charts\n               and forms to create a user interface that manages its own state,\n               automatically. User input flows from forms to input cells.\n               Formulas then recompute their values as necessary. These values\n               then flow to charts and graphs for the user to view.");
-    var ___7644__auto____$22 = G__435094.call(null, G__435162);
-    var G__435163 = tailrecursion.hoplon.p.call(null);
-    var ___7643__auto____$7 = G__435163.call(null, "Hoplon applies this crazy, futuristic technology to frontend\n               web development. Forgoing the clunky grid metaphor and names\n               like ");
-    var G__435165 = tailrecursion.hoplon.em.call(null, "A1");
-    var ___7644__auto____$23 = G__435163.call(null, G__435165);
-    var ___7643__auto____$8 = G__435163.call(null, " and ");
-    var G__435167 = tailrecursion.hoplon.em.call(null, "B27");
-    var ___7644__auto____$24 = G__435163.call(null, G__435167);
-    var ___7643__auto____$9 = G__435163.call(null, ", Hoplon provides a cell\n               reference type. These cells, like cells in a spreadsheet, are\n               either updated directly (input cells), or automatically in\n               accordance with a formula.");
-    var ___7646__auto____$12 = G__435094.call(null, G__435163);
-    var G__435168 = tailrecursion.hoplon.h2.call(null);
-    var ___7643__auto____$10 = G__435168.call(null, "Charts and Forms ");
-    var G__435170 = tailrecursion.hoplon.small.call(null, "Stateless, automatic UI.");
-    var ___7644__auto____$25 = G__435168.call(null, G__435170);
-    var ___7646__auto____$13 = G__435094.call(null, G__435168);
-    var G__435172 = tailrecursion.hoplon.p.call(null, "The purpose of a program's user interface is to transmit input\n               from the user to the underlying state model and to present output\n               derived from the underlying state model to the user for viewing.");
-    var ___7644__auto____$26 = G__435094.call(null, G__435172);
-    var G__435173 = tailrecursion.hoplon.p.call(null);
-    var ___7643__auto____$11 = G__435173.call(null, "In a web application the user interface is derived from the page\n               markup. User input consists entirely of DOM events: ");
-    var G__435175 = tailrecursion.hoplon.em.call(null, "click");
-    var ___7644__auto____$27 = G__435173.call(null, G__435175);
-    var ___7643__auto____$12 = G__435173.call(null, ", ");
-    var G__435177 = tailrecursion.hoplon.em.call(null, "change");
-    var ___7644__auto____$28 = G__435173.call(null, G__435177);
-    var ___7643__auto____$13 = G__435173.call(null, ", etc. Output is presented to\n               the user by manipulating the properties of DOM elements: adding\n               or removing CSS classes, changing the content of text nodes, \n               etc.");
-    var ___7646__auto____$14 = G__435094.call(null, G__435173);
-    var G__435178 = tailrecursion.hoplon.p.call(null, "Hoplon provides bindings that can be used to link DOM elements\n               to the underlying state model in the same way that charts and\n               forms are linked to cells in a spreadsheet. Once the structure\n               of the DOM and the linkages between the DOM and cells are\n               defined, the user interface manages itself.");
-    var ___7644__auto____$29 = G__435094.call(null, G__435178);
-    var ___7646__auto____$15 = G__435093.call(null, G__435094);
-    var G__435103 = bootstrap.grid.col6.call(null);
-    var G__435104 = tailrecursion.hoplon.h2.call(null);
-    var G__435105 = tailrecursion.hoplon.small.call(null, "Screencast");
-    var ___7644__auto____$30 = G__435104.call(null, G__435105);
-    var ___7646__auto____$16 = G__435103.call(null, G__435104);
-    var G__435106 = bootstrap.panel.default$.call(null);
-    var G__435107 = bootstrap.panel.body.call(null);
-    var G__435108 = tailrecursion.hoplon.iframe.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "center-block", new cljs.core.Keyword(null, "width", "width", 1127031096), "480", new cljs.core.Keyword(null, "height", "height", 4087841945), "360", new cljs.core.Keyword(null, "src", "src", 1014018390), "//www.youtube-nocookie.com/embed/jXxOb4HRIT8", new cljs.core.Keyword(null, "frameborder", "frameborder", 1299352395), "0", new cljs.core.Keyword(null, 
+    var G__438350 = tailrecursion.hoplon.app_pages.G__438348.content_home.call(null);
+    var G__438351 = bootstrap.core.jumbotron.call(null);
+    var G__438352 = bootstrap.core.container.call(null);
+    var G__438353 = tailrecursion.hoplon.h1.call(null, "Hoplon");
+    var ___7644__auto__ = G__438352.call(null, G__438353);
+    var G__438354 = tailrecursion.hoplon.p.call(null, "A simpler way to program the web.");
+    var ___7644__auto____$1 = G__438352.call(null, G__438354);
+    var G__438355 = tailrecursion.hoplon.p.call(null);
+    var G__438356 = bootstrap.button.start.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "href", "href", 1017115293), "#/getting-started/"], true), "Get started \u00bb");
+    var ___7644__auto____$2 = G__438355.call(null, G__438356);
+    var ___7646__auto__ = G__438352.call(null, G__438355);
+    var ___7646__auto____$1 = G__438351.call(null, G__438352);
+    var ___7646__auto____$2 = G__438350.call(null, G__438351);
+    var G__438357 = bootstrap.core.container.call(null);
+    var G__438358 = bootstrap.grid.row.call(null);
+    var G__438359 = bootstrap.grid.col4.call(null);
+    var G__438360 = tailrecursion.hoplon.h2.call(null, "Clojure, everywhere.");
+    var ___7644__auto____$3 = G__438359.call(null, G__438360);
+    var G__438361 = tailrecursion.hoplon.p.call(null, "Write everything in Clojure and ClojureScript, clientside and\n               serverside. Even the page markup is ClojureScript that is\n               evaluated to produce the DOM. Pages can still be written using\n               the familiar HTML syntax if desired.");
+    var ___7644__auto____$4 = G__438359.call(null, G__438361);
+    var ___7646__auto____$3 = G__438358.call(null, G__438359);
+    var G__438362 = bootstrap.grid.col4.call(null);
+    var G__438363 = tailrecursion.hoplon.h2.call(null, "Simplicity on the client.");
+    var ___7644__auto____$5 = G__438362.call(null, G__438363);
+    var G__438364 = tailrecursion.hoplon.p.call(null, "Use a spreadsheet-like dataflow programming environment to\n               manage client state. Develop basic content-oriented pages and\n               complex thick-client applications without descending into\n               \u201ccallback hell\u201d.");
+    var ___7644__auto____$6 = G__438362.call(null, G__438364);
+    var ___7646__auto____$4 = G__438358.call(null, G__438362);
+    var G__438365 = bootstrap.grid.col4.call(null);
+    var G__438366 = tailrecursion.hoplon.h2.call(null, "Simplicity on the server.");
+    var ___7644__auto____$7 = G__438365.call(null, G__438366);
+    var G__438367 = tailrecursion.hoplon.p.call(null, "Decouple business logic from HTTP-related concerns while\n               satisfying complex, fine-grained authorization requirements\n               with transparent, performant transfer of Clojure data between\n               server and client.");
+    var ___7644__auto____$8 = G__438365.call(null, G__438367);
+    var ___7646__auto____$5 = G__438358.call(null, G__438365);
+    var ___7646__auto____$6 = G__438357.call(null, G__438358);
+    var G__438368 = tailrecursion.hoplon.hr.call(null);
+    var ___7644__auto____$9 = G__438357.call(null, G__438368);
+    var G__438369 = bootstrap.grid.row.call(null);
+    var G__438370 = bootstrap.grid.col6.call(null);
+    var G__438371 = tailrecursion.hoplon.h2.call(null);
+    var ___7643__auto__ = G__438371.call(null, "Overview ");
+    var G__438373 = tailrecursion.hoplon.small.call(null, "Hoplon in a nutshell.");
+    var ___7644__auto____$10 = G__438371.call(null, G__438373);
+    var ___7646__auto____$7 = G__438370.call(null, G__438371);
+    var G__438374 = tailrecursion.hoplon.p.call(null, "Hoplon provides a number of libraries promoting a simpler\n               model for web applications. The project can be divided into\n               three main components: the HTML evaluator, the clientside state\n               machine, and a serverside RPC server. These components can be\n               used together as a full stack, or individually to solve a\n               specific problem as a part of another stack.");
+    var ___7644__auto____$11 = G__438370.call(null, G__438374);
+    var G__438375 = tailrecursion.hoplon.h2.call(null);
+    var ___7643__auto____$1 = G__438375.call(null, "HTML Evaluator ");
+    var G__438377 = tailrecursion.hoplon.small.call(null, "Page markup is a program.");
+    var ___7644__auto____$12 = G__438375.call(null, G__438377);
+    var ___7646__auto____$8 = G__438370.call(null, G__438375);
+    var G__438378 = tailrecursion.hoplon.p.call(null, "Web applications are not simply documents. Users must be able\n               to interact with them and they must interact with backend\n               systems. Web application user interfaces share some of the\n               properties of documents, though. UIs are built by composing\n               elements in a document tree using HTML markup. However, without\n               JavaScript this tree cannot actually interact with the user, at\n               all.");
+    var ___7644__auto____$13 = G__438370.call(null, G__438378);
+    var G__438422 = tailrecursion.hoplon.p.call(null);
+    var ___7643__auto____$2 = G__438422.call(null, "The incidental complexity of web application UI development\n               comes at the boundary between the DOM and the JavaScript\n               environment. There is a fundamental disconnect between the\n               literal representation of the DOM (the HTML markup) and the\n               dynamic environment (the JavaScript VM). The page markup is\n               evaluated and the resulting DOM is accessible from JavaScript,\n               but it's a one-way linkage; the markup has no mechanism by which\n               it can refer to objects other than built-in primitives (i.e. ");
+    var G__438424 = tailrecursion.hoplon.em.call(null, "div");
+    var ___7644__auto____$14 = G__438422.call(null, G__438424);
+    var ___7643__auto____$3 = G__438422.call(null, ", ");
+    var G__438426 = tailrecursion.hoplon.em.call(null, "span");
+    var ___7644__auto____$15 = G__438422.call(null, G__438426);
+    var ___7643__auto____$4 = G__438422.call(null, ", etc). The browser's HTML evaluator does not include any means\n               of abstraction whatsoever, so there is no literal representation\n               for composite forms.");
+    var ___7646__auto____$9 = G__438370.call(null, G__438422);
+    var G__438427 = tailrecursion.hoplon.p.call(null, "Hoplon provides a HTML evaluator that closes the loop, unifying\n               the page markup and the JavaScript environment. Page markup,\n               expressed using either the standard HTML5 syntax or Clojure\n               sexps, is evaluated as ClojureScript and the result becomes the\n               DOM for the page. HTML tags are simply ClojureScript vars. Of\n               course, Hoplon ships with all of the standard HTML5 primitives\n               but the evaluation model facilitates the use of custom compound\n               elements defined in the environment, too.");
+    var ___7644__auto____$16 = G__438370.call(null, G__438427);
+    var G__438429 = tailrecursion.hoplon.h2.call(null);
+    var ___7643__auto____$5 = G__438429.call(null, "Components ");
+    var G__438431 = tailrecursion.hoplon.small.call(null, "First-class custom DOM elements.");
+    var ___7644__auto____$17 = G__438429.call(null, G__438431);
+    var ___7646__auto____$10 = G__438370.call(null, G__438429);
+    var G__438432 = tailrecursion.hoplon.p.call(null, "While there is no shortage of templating systems to create\n               blobs of DOM elements, there is no mechanism to create custom\n               elements that are composable in any meaningful way. Consider\n               the situation where a template engine binds a DOM template to\n               some data and returns the filled-in DOM subtree. What happens\n               when you append a child to that DOM element? The child gets\n               appended to the outermost element in the filled template, which\n               is probably not useful at all.");
+    var ___7644__auto____$18 = G__438370.call(null, G__438432);
+    var G__438433 = tailrecursion.hoplon.p.call(null, "Hoplon provides facilities for creating real, first-class\n               components. That is to say, Hoplon components are first-class\n               citizens in the DOM world\u2013\u2013they are, essentially, user-defined\n               custom DOM elements. They have a literal representation in the\n               page markup and they implement the semantics of HTML: setting\n               attributes and appending children. When a child is appended to\n               a Hoplon component or an attribute is set, either in HTML markup\n               or programmatically, the component's implementation is used\n               instead of the built-in DOM one. In this way components can be\n               built by composing simpler components and those may be used as\n               a basis for even more complex components, without running into\n               the limitations of template composition.");
+    var ___7644__auto____$19 = G__438370.call(null, G__438433);
+    var G__438434 = tailrecursion.hoplon.h2.call(null);
+    var ___7643__auto____$6 = G__438434.call(null, "Spreadsheets ");
+    var G__438436 = tailrecursion.hoplon.small.call(null, "Client state made simple.");
+    var ___7644__auto____$20 = G__438434.call(null, G__438436);
+    var ___7646__auto____$11 = G__438370.call(null, G__438434);
+    var G__438437 = tailrecursion.hoplon.p.call(null, "Remember how awesome spreadsheets are? You never think about\n               state when you\u2019re programming a spreadsheet. Instead, you focus\n               on values and the formulas that define the relationships between\n               them. When a new value is entered into a cell the rest of the \n               spreadsheet updates itself as necessary to maintain the\n               correctness of the formulas.");
+    var ___7644__auto____$21 = G__438370.call(null, G__438437);
+    var G__438438 = tailrecursion.hoplon.p.call(null, "After a spreadsheet is set up you can link its cells to charts\n               and forms to create a user interface that manages its own state,\n               automatically. User input flows from forms to input cells.\n               Formulas then recompute their values as necessary. These values\n               then flow to charts and graphs for the user to view.");
+    var ___7644__auto____$22 = G__438370.call(null, G__438438);
+    var G__438439 = tailrecursion.hoplon.p.call(null);
+    var ___7643__auto____$7 = G__438439.call(null, "Hoplon applies this crazy, futuristic technology to frontend\n               web development. Forgoing the clunky grid metaphor and names\n               like ");
+    var G__438441 = tailrecursion.hoplon.em.call(null, "A1");
+    var ___7644__auto____$23 = G__438439.call(null, G__438441);
+    var ___7643__auto____$8 = G__438439.call(null, " and ");
+    var G__438443 = tailrecursion.hoplon.em.call(null, "B27");
+    var ___7644__auto____$24 = G__438439.call(null, G__438443);
+    var ___7643__auto____$9 = G__438439.call(null, ", Hoplon provides a cell\n               reference type. These cells, like cells in a spreadsheet, are\n               either updated directly (input cells), or automatically in\n               accordance with a formula.");
+    var ___7646__auto____$12 = G__438370.call(null, G__438439);
+    var G__438444 = tailrecursion.hoplon.h2.call(null);
+    var ___7643__auto____$10 = G__438444.call(null, "Charts and Forms ");
+    var G__438446 = tailrecursion.hoplon.small.call(null, "Stateless, automatic UI.");
+    var ___7644__auto____$25 = G__438444.call(null, G__438446);
+    var ___7646__auto____$13 = G__438370.call(null, G__438444);
+    var G__438448 = tailrecursion.hoplon.p.call(null, "The purpose of a program's user interface is to transmit input\n               from the user to the underlying state model and to present output\n               derived from the underlying state model to the user for viewing.");
+    var ___7644__auto____$26 = G__438370.call(null, G__438448);
+    var G__438449 = tailrecursion.hoplon.p.call(null);
+    var ___7643__auto____$11 = G__438449.call(null, "In a web application the user interface is derived from the page\n               markup. User input consists entirely of DOM events: ");
+    var G__438451 = tailrecursion.hoplon.em.call(null, "click");
+    var ___7644__auto____$27 = G__438449.call(null, G__438451);
+    var ___7643__auto____$12 = G__438449.call(null, ", ");
+    var G__438453 = tailrecursion.hoplon.em.call(null, "change");
+    var ___7644__auto____$28 = G__438449.call(null, G__438453);
+    var ___7643__auto____$13 = G__438449.call(null, ", etc. Output is presented to\n               the user by manipulating the properties of DOM elements: adding\n               or removing CSS classes, changing the content of text nodes, \n               etc.");
+    var ___7646__auto____$14 = G__438370.call(null, G__438449);
+    var G__438454 = tailrecursion.hoplon.p.call(null, "Hoplon provides bindings that can be used to link DOM elements\n               to the underlying state model in the same way that charts and\n               forms are linked to cells in a spreadsheet. Once the structure\n               of the DOM and the linkages between the DOM and cells are\n               defined, the user interface manages itself.");
+    var ___7644__auto____$29 = G__438370.call(null, G__438454);
+    var ___7646__auto____$15 = G__438369.call(null, G__438370);
+    var G__438379 = bootstrap.grid.col6.call(null);
+    var G__438380 = tailrecursion.hoplon.h2.call(null);
+    var G__438381 = tailrecursion.hoplon.small.call(null, "Screencast");
+    var ___7644__auto____$30 = G__438380.call(null, G__438381);
+    var ___7646__auto____$16 = G__438379.call(null, G__438380);
+    var G__438382 = bootstrap.panel.default$.call(null);
+    var G__438383 = bootstrap.panel.body.call(null);
+    var G__438384 = tailrecursion.hoplon.iframe.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "center-block", new cljs.core.Keyword(null, "width", "width", 1127031096), "523", new cljs.core.Keyword(null, "height", "height", 4087841945), "392", new cljs.core.Keyword(null, "src", "src", 1014018390), "//www.youtube-nocookie.com/embed/jXxOb4HRIT8", new cljs.core.Keyword(null, "frameborder", "frameborder", 1299352395), "0", new cljs.core.Keyword(null, 
     "allowfullscreen", "allowfullscreen", 3293530934), true], true));
-    var ___7644__auto____$31 = G__435107.call(null, G__435108);
-    var ___7646__auto____$17 = G__435106.call(null, G__435107);
-    var ___7646__auto____$18 = G__435103.call(null, G__435106);
-    var G__435109 = tailrecursion.hoplon.h2.call(null);
-    var G__435110 = tailrecursion.hoplon.small.call(null, "Examples");
-    var ___7644__auto____$32 = G__435109.call(null, G__435110);
-    var ___7646__auto____$19 = G__435103.call(null, G__435109);
-    var G__435111 = bootstrap.list.divgroup.call(null);
-    var G__435112 = bootstrap.list.divitem.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "on-click", "on-click", 1416542092), function(G__435074, G__435075, G__435076, G__435077, ___7644__auto__, G__435078, ___7644__auto____$1, G__435079, G__435080, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__435081, G__435082, G__435083, G__435084, ___7644__auto____$3, G__435085, ___7644__auto____$4, ___7646__auto____$3, G__435086, G__435087, 
-    ___7644__auto____$5, G__435088, ___7644__auto____$6, ___7646__auto____$4, G__435089, G__435090, ___7644__auto____$7, G__435091, ___7644__auto____$8, ___7646__auto____$5, ___7646__auto____$6, G__435092, ___7644__auto____$9, G__435093, G__435094, G__435095, ___7643__auto__, G__435097, ___7644__auto____$10, ___7646__auto____$7, G__435098, ___7644__auto____$11, G__435099, ___7643__auto____$1, G__435101, ___7644__auto____$12, ___7646__auto____$8, G__435102, ___7644__auto____$13, G__435146, ___7643__auto____$2, 
-    G__435148, ___7644__auto____$14, ___7643__auto____$3, G__435150, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__435151, ___7644__auto____$16, G__435153, ___7643__auto____$5, G__435155, ___7644__auto____$17, ___7646__auto____$10, G__435156, ___7644__auto____$18, G__435157, ___7644__auto____$19, G__435158, ___7643__auto____$6, G__435160, ___7644__auto____$20, ___7646__auto____$11, G__435161, ___7644__auto____$21, G__435162, ___7644__auto____$22, G__435163, ___7643__auto____$7, 
-    G__435165, ___7644__auto____$23, ___7643__auto____$8, G__435167, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__435168, ___7643__auto____$10, G__435170, ___7644__auto____$25, ___7646__auto____$13, G__435172, ___7644__auto____$26, G__435173, ___7643__auto____$11, G__435175, ___7644__auto____$27, ___7643__auto____$12, G__435177, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__435178, ___7644__auto____$29, ___7646__auto____$15, G__435103, G__435104, G__435105, 
-    ___7644__auto____$30, ___7646__auto____$16, G__435106, G__435107, G__435108, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__435109, G__435110, ___7644__auto____$32, ___7646__auto____$19, G__435111) {
+    var ___7644__auto____$31 = G__438383.call(null, G__438384);
+    var ___7646__auto____$17 = G__438382.call(null, G__438383);
+    var ___7646__auto____$18 = G__438379.call(null, G__438382);
+    var G__438385 = tailrecursion.hoplon.h2.call(null);
+    var G__438386 = tailrecursion.hoplon.small.call(null, "Examples");
+    var ___7644__auto____$32 = G__438385.call(null, G__438386);
+    var ___7646__auto____$19 = G__438379.call(null, G__438385);
+    var G__438387 = bootstrap.list.divgroup.call(null);
+    var G__438388 = bootstrap.list.divitem.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "on-click", "on-click", 1416542092), function(G__438350, G__438351, G__438352, G__438353, ___7644__auto__, G__438354, ___7644__auto____$1, G__438355, G__438356, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__438357, G__438358, G__438359, G__438360, ___7644__auto____$3, G__438361, ___7644__auto____$4, ___7646__auto____$3, G__438362, G__438363, 
+    ___7644__auto____$5, G__438364, ___7644__auto____$6, ___7646__auto____$4, G__438365, G__438366, ___7644__auto____$7, G__438367, ___7644__auto____$8, ___7646__auto____$5, ___7646__auto____$6, G__438368, ___7644__auto____$9, G__438369, G__438370, G__438371, ___7643__auto__, G__438373, ___7644__auto____$10, ___7646__auto____$7, G__438374, ___7644__auto____$11, G__438375, ___7643__auto____$1, G__438377, ___7644__auto____$12, ___7646__auto____$8, G__438378, ___7644__auto____$13, G__438422, ___7643__auto____$2, 
+    G__438424, ___7644__auto____$14, ___7643__auto____$3, G__438426, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__438427, ___7644__auto____$16, G__438429, ___7643__auto____$5, G__438431, ___7644__auto____$17, ___7646__auto____$10, G__438432, ___7644__auto____$18, G__438433, ___7644__auto____$19, G__438434, ___7643__auto____$6, G__438436, ___7644__auto____$20, ___7646__auto____$11, G__438437, ___7644__auto____$21, G__438438, ___7644__auto____$22, G__438439, ___7643__auto____$7, 
+    G__438441, ___7644__auto____$23, ___7643__auto____$8, G__438443, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__438444, ___7643__auto____$10, G__438446, ___7644__auto____$25, ___7646__auto____$13, G__438448, ___7644__auto____$26, G__438449, ___7643__auto____$11, G__438451, ___7644__auto____$27, ___7643__auto____$12, G__438453, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__438454, ___7644__auto____$29, ___7646__auto____$15, G__438379, G__438380, G__438381, 
+    ___7644__auto____$30, ___7646__auto____$16, G__438382, G__438383, G__438384, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__438385, G__438386, ___7644__auto____$32, ___7646__auto____$19, G__438387) {
       return function() {
-        return cljs.core.reset_BANG_.call(null, tailrecursion.hoplon.app_pages.G__435072.example, 1)
+        return cljs.core.reset_BANG_.call(null, tailrecursion.hoplon.app_pages.G__438348.example, 1)
       }
-    }(G__435074, G__435075, G__435076, G__435077, ___7644__auto__, G__435078, ___7644__auto____$1, G__435079, G__435080, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__435081, G__435082, G__435083, G__435084, ___7644__auto____$3, G__435085, ___7644__auto____$4, ___7646__auto____$3, G__435086, G__435087, ___7644__auto____$5, G__435088, ___7644__auto____$6, ___7646__auto____$4, G__435089, G__435090, ___7644__auto____$7, G__435091, ___7644__auto____$8, ___7646__auto____$5, 
-    ___7646__auto____$6, G__435092, ___7644__auto____$9, G__435093, G__435094, G__435095, ___7643__auto__, G__435097, ___7644__auto____$10, ___7646__auto____$7, G__435098, ___7644__auto____$11, G__435099, ___7643__auto____$1, G__435101, ___7644__auto____$12, ___7646__auto____$8, G__435102, ___7644__auto____$13, G__435146, ___7643__auto____$2, G__435148, ___7644__auto____$14, ___7643__auto____$3, G__435150, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__435151, ___7644__auto____$16, 
-    G__435153, ___7643__auto____$5, G__435155, ___7644__auto____$17, ___7646__auto____$10, G__435156, ___7644__auto____$18, G__435157, ___7644__auto____$19, G__435158, ___7643__auto____$6, G__435160, ___7644__auto____$20, ___7646__auto____$11, G__435161, ___7644__auto____$21, G__435162, ___7644__auto____$22, G__435163, ___7643__auto____$7, G__435165, ___7644__auto____$23, ___7643__auto____$8, G__435167, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__435168, ___7643__auto____$10, 
-    G__435170, ___7644__auto____$25, ___7646__auto____$13, G__435172, ___7644__auto____$26, G__435173, ___7643__auto____$11, G__435175, ___7644__auto____$27, ___7643__auto____$12, G__435177, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__435178, ___7644__auto____$29, ___7646__auto____$15, G__435103, G__435104, G__435105, ___7644__auto____$30, ___7646__auto____$16, G__435106, G__435107, G__435108, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__435109, G__435110, 
-    ___7644__auto____$32, ___7646__auto____$19, G__435111)], true));
-    var G__435113 = tailrecursion.hoplon.a.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "do-toggle", "do-toggle", 1250159176), tailrecursion.javelin.lift.call(null, function(G__435074, G__435075, G__435076, G__435077, ___7644__auto__, G__435078, ___7644__auto____$1, G__435079, G__435080, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__435081, G__435082, G__435083, G__435084, ___7644__auto____$3, G__435085, ___7644__auto____$4, ___7646__auto____$3, 
-    G__435086, G__435087, ___7644__auto____$5, G__435088, ___7644__auto____$6, ___7646__auto____$4, G__435089, G__435090, ___7644__auto____$7, G__435091, ___7644__auto____$8, ___7646__auto____$5, ___7646__auto____$6, G__435092, ___7644__auto____$9, G__435093, G__435094, G__435095, ___7643__auto__, G__435097, ___7644__auto____$10, ___7646__auto____$7, G__435098, ___7644__auto____$11, G__435099, ___7643__auto____$1, G__435101, ___7644__auto____$12, ___7646__auto____$8, G__435102, ___7644__auto____$13, 
-    G__435146, ___7643__auto____$2, G__435148, ___7644__auto____$14, ___7643__auto____$3, G__435150, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__435151, ___7644__auto____$16, G__435153, ___7643__auto____$5, G__435155, ___7644__auto____$17, ___7646__auto____$10, G__435156, ___7644__auto____$18, G__435157, ___7644__auto____$19, G__435158, ___7643__auto____$6, G__435160, ___7644__auto____$20, ___7646__auto____$11, G__435161, ___7644__auto____$21, G__435162, ___7644__auto____$22, 
-    G__435163, ___7643__auto____$7, G__435165, ___7644__auto____$23, ___7643__auto____$8, G__435167, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__435168, ___7643__auto____$10, G__435170, ___7644__auto____$25, ___7646__auto____$13, G__435172, ___7644__auto____$26, G__435173, ___7643__auto____$11, G__435175, ___7644__auto____$27, ___7643__auto____$12, G__435177, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__435178, ___7644__auto____$29, ___7646__auto____$15, 
-    G__435103, G__435104, G__435105, ___7644__auto____$30, ___7646__auto____$16, G__435106, G__435107, G__435108, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__435109, G__435110, ___7644__auto____$32, ___7646__auto____$19, G__435111, G__435112) {
-      return function(G__436648, G__436649) {
-        return G__436648.call(null, G__436649, 1)
+    }(G__438350, G__438351, G__438352, G__438353, ___7644__auto__, G__438354, ___7644__auto____$1, G__438355, G__438356, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__438357, G__438358, G__438359, G__438360, ___7644__auto____$3, G__438361, ___7644__auto____$4, ___7646__auto____$3, G__438362, G__438363, ___7644__auto____$5, G__438364, ___7644__auto____$6, ___7646__auto____$4, G__438365, G__438366, ___7644__auto____$7, G__438367, ___7644__auto____$8, ___7646__auto____$5, 
+    ___7646__auto____$6, G__438368, ___7644__auto____$9, G__438369, G__438370, G__438371, ___7643__auto__, G__438373, ___7644__auto____$10, ___7646__auto____$7, G__438374, ___7644__auto____$11, G__438375, ___7643__auto____$1, G__438377, ___7644__auto____$12, ___7646__auto____$8, G__438378, ___7644__auto____$13, G__438422, ___7643__auto____$2, G__438424, ___7644__auto____$14, ___7643__auto____$3, G__438426, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__438427, ___7644__auto____$16, 
+    G__438429, ___7643__auto____$5, G__438431, ___7644__auto____$17, ___7646__auto____$10, G__438432, ___7644__auto____$18, G__438433, ___7644__auto____$19, G__438434, ___7643__auto____$6, G__438436, ___7644__auto____$20, ___7646__auto____$11, G__438437, ___7644__auto____$21, G__438438, ___7644__auto____$22, G__438439, ___7643__auto____$7, G__438441, ___7644__auto____$23, ___7643__auto____$8, G__438443, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__438444, ___7643__auto____$10, 
+    G__438446, ___7644__auto____$25, ___7646__auto____$13, G__438448, ___7644__auto____$26, G__438449, ___7643__auto____$11, G__438451, ___7644__auto____$27, ___7643__auto____$12, G__438453, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__438454, ___7644__auto____$29, ___7646__auto____$15, G__438379, G__438380, G__438381, ___7644__auto____$30, ___7646__auto____$16, G__438382, G__438383, G__438384, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__438385, G__438386, 
+    ___7644__auto____$32, ___7646__auto____$19, G__438387)], true));
+    var G__438389 = tailrecursion.hoplon.a.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "do-toggle", "do-toggle", 1250159176), tailrecursion.javelin.lift.call(null, function(G__438350, G__438351, G__438352, G__438353, ___7644__auto__, G__438354, ___7644__auto____$1, G__438355, G__438356, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__438357, G__438358, G__438359, G__438360, ___7644__auto____$3, G__438361, ___7644__auto____$4, ___7646__auto____$3, 
+    G__438362, G__438363, ___7644__auto____$5, G__438364, ___7644__auto____$6, ___7646__auto____$4, G__438365, G__438366, ___7644__auto____$7, G__438367, ___7644__auto____$8, ___7646__auto____$5, ___7646__auto____$6, G__438368, ___7644__auto____$9, G__438369, G__438370, G__438371, ___7643__auto__, G__438373, ___7644__auto____$10, ___7646__auto____$7, G__438374, ___7644__auto____$11, G__438375, ___7643__auto____$1, G__438377, ___7644__auto____$12, ___7646__auto____$8, G__438378, ___7644__auto____$13, 
+    G__438422, ___7643__auto____$2, G__438424, ___7644__auto____$14, ___7643__auto____$3, G__438426, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__438427, ___7644__auto____$16, G__438429, ___7643__auto____$5, G__438431, ___7644__auto____$17, ___7646__auto____$10, G__438432, ___7644__auto____$18, G__438433, ___7644__auto____$19, G__438434, ___7643__auto____$6, G__438436, ___7644__auto____$20, ___7646__auto____$11, G__438437, ___7644__auto____$21, G__438438, ___7644__auto____$22, 
+    G__438439, ___7643__auto____$7, G__438441, ___7644__auto____$23, ___7643__auto____$8, G__438443, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__438444, ___7643__auto____$10, G__438446, ___7644__auto____$25, ___7646__auto____$13, G__438448, ___7644__auto____$26, G__438449, ___7643__auto____$11, G__438451, ___7644__auto____$27, ___7643__auto____$12, G__438453, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__438454, ___7644__auto____$29, ___7646__auto____$15, 
+    G__438379, G__438380, G__438381, ___7644__auto____$30, ___7646__auto____$16, G__438382, G__438383, G__438384, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__438385, G__438386, ___7644__auto____$32, ___7646__auto____$19, G__438387, G__438388) {
+      return function(G__439924, G__439925) {
+        return G__439924.call(null, G__439925, 1)
       }
-    }(G__435074, G__435075, G__435076, G__435077, ___7644__auto__, G__435078, ___7644__auto____$1, G__435079, G__435080, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__435081, G__435082, G__435083, G__435084, ___7644__auto____$3, G__435085, ___7644__auto____$4, ___7646__auto____$3, G__435086, G__435087, ___7644__auto____$5, G__435088, ___7644__auto____$6, ___7646__auto____$4, G__435089, G__435090, ___7644__auto____$7, G__435091, ___7644__auto____$8, ___7646__auto____$5, 
-    ___7646__auto____$6, G__435092, ___7644__auto____$9, G__435093, G__435094, G__435095, ___7643__auto__, G__435097, ___7644__auto____$10, ___7646__auto____$7, G__435098, ___7644__auto____$11, G__435099, ___7643__auto____$1, G__435101, ___7644__auto____$12, ___7646__auto____$8, G__435102, ___7644__auto____$13, G__435146, ___7643__auto____$2, G__435148, ___7644__auto____$14, ___7643__auto____$3, G__435150, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__435151, ___7644__auto____$16, 
-    G__435153, ___7643__auto____$5, G__435155, ___7644__auto____$17, ___7646__auto____$10, G__435156, ___7644__auto____$18, G__435157, ___7644__auto____$19, G__435158, ___7643__auto____$6, G__435160, ___7644__auto____$20, ___7646__auto____$11, G__435161, ___7644__auto____$21, G__435162, ___7644__auto____$22, G__435163, ___7643__auto____$7, G__435165, ___7644__auto____$23, ___7643__auto____$8, G__435167, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__435168, ___7643__auto____$10, 
-    G__435170, ___7644__auto____$25, ___7646__auto____$13, G__435172, ___7644__auto____$26, G__435173, ___7643__auto____$11, G__435175, ___7644__auto____$27, ___7643__auto____$12, G__435177, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__435178, ___7644__auto____$29, ___7646__auto____$15, G__435103, G__435104, G__435105, ___7644__auto____$30, ___7646__auto____$16, G__435106, G__435107, G__435108, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__435109, G__435110, 
-    ___7644__auto____$32, ___7646__auto____$19, G__435111, G__435112)).call(null, cljs.core.not_EQ_, tailrecursion.hoplon.app_pages.G__435072.example)], true));
-    var G__435114 = tailrecursion.hoplon.h3.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "panel-title"], true), "Typical Page");
-    var ___7644__auto____$33 = G__435113.call(null, G__435114);
-    var ___7646__auto____$20 = G__435112.call(null, G__435113);
-    var G__435115 = tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "do-toggle", "do-toggle", 1250159176), tailrecursion.javelin.lift.call(null, function(G__435074, G__435075, G__435076, G__435077, ___7644__auto__, G__435078, ___7644__auto____$1, G__435079, G__435080, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__435081, G__435082, G__435083, G__435084, ___7644__auto____$3, G__435085, ___7644__auto____$4, 
-    ___7646__auto____$3, G__435086, G__435087, ___7644__auto____$5, G__435088, ___7644__auto____$6, ___7646__auto____$4, G__435089, G__435090, ___7644__auto____$7, G__435091, ___7644__auto____$8, ___7646__auto____$5, ___7646__auto____$6, G__435092, ___7644__auto____$9, G__435093, G__435094, G__435095, ___7643__auto__, G__435097, ___7644__auto____$10, ___7646__auto____$7, G__435098, ___7644__auto____$11, G__435099, ___7643__auto____$1, G__435101, ___7644__auto____$12, ___7646__auto____$8, G__435102, 
-    ___7644__auto____$13, G__435146, ___7643__auto____$2, G__435148, ___7644__auto____$14, ___7643__auto____$3, G__435150, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__435151, ___7644__auto____$16, G__435153, ___7643__auto____$5, G__435155, ___7644__auto____$17, ___7646__auto____$10, G__435156, ___7644__auto____$18, G__435157, ___7644__auto____$19, G__435158, ___7643__auto____$6, G__435160, ___7644__auto____$20, ___7646__auto____$11, G__435161, ___7644__auto____$21, G__435162, 
-    ___7644__auto____$22, G__435163, ___7643__auto____$7, G__435165, ___7644__auto____$23, ___7643__auto____$8, G__435167, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__435168, ___7643__auto____$10, G__435170, ___7644__auto____$25, ___7646__auto____$13, G__435172, ___7644__auto____$26, G__435173, ___7643__auto____$11, G__435175, ___7644__auto____$27, ___7643__auto____$12, G__435177, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__435178, ___7644__auto____$29, 
-    ___7646__auto____$15, G__435103, G__435104, G__435105, ___7644__auto____$30, ___7646__auto____$16, G__435106, G__435107, G__435108, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__435109, G__435110, ___7644__auto____$32, ___7646__auto____$19, G__435111, G__435112, G__435113, G__435114, ___7644__auto____$33, ___7646__auto____$20) {
-      return function(G__436650, G__436651) {
-        return G__436650.call(null, G__436651, 1)
+    }(G__438350, G__438351, G__438352, G__438353, ___7644__auto__, G__438354, ___7644__auto____$1, G__438355, G__438356, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__438357, G__438358, G__438359, G__438360, ___7644__auto____$3, G__438361, ___7644__auto____$4, ___7646__auto____$3, G__438362, G__438363, ___7644__auto____$5, G__438364, ___7644__auto____$6, ___7646__auto____$4, G__438365, G__438366, ___7644__auto____$7, G__438367, ___7644__auto____$8, ___7646__auto____$5, 
+    ___7646__auto____$6, G__438368, ___7644__auto____$9, G__438369, G__438370, G__438371, ___7643__auto__, G__438373, ___7644__auto____$10, ___7646__auto____$7, G__438374, ___7644__auto____$11, G__438375, ___7643__auto____$1, G__438377, ___7644__auto____$12, ___7646__auto____$8, G__438378, ___7644__auto____$13, G__438422, ___7643__auto____$2, G__438424, ___7644__auto____$14, ___7643__auto____$3, G__438426, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__438427, ___7644__auto____$16, 
+    G__438429, ___7643__auto____$5, G__438431, ___7644__auto____$17, ___7646__auto____$10, G__438432, ___7644__auto____$18, G__438433, ___7644__auto____$19, G__438434, ___7643__auto____$6, G__438436, ___7644__auto____$20, ___7646__auto____$11, G__438437, ___7644__auto____$21, G__438438, ___7644__auto____$22, G__438439, ___7643__auto____$7, G__438441, ___7644__auto____$23, ___7643__auto____$8, G__438443, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__438444, ___7643__auto____$10, 
+    G__438446, ___7644__auto____$25, ___7646__auto____$13, G__438448, ___7644__auto____$26, G__438449, ___7643__auto____$11, G__438451, ___7644__auto____$27, ___7643__auto____$12, G__438453, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__438454, ___7644__auto____$29, ___7646__auto____$15, G__438379, G__438380, G__438381, ___7644__auto____$30, ___7646__auto____$16, G__438382, G__438383, G__438384, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__438385, G__438386, 
+    ___7644__auto____$32, ___7646__auto____$19, G__438387, G__438388)).call(null, cljs.core.not_EQ_, tailrecursion.hoplon.app_pages.G__438348.example)], true));
+    var G__438390 = tailrecursion.hoplon.h3.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "panel-title"], true), "Typical Page");
+    var ___7644__auto____$33 = G__438389.call(null, G__438390);
+    var ___7646__auto____$20 = G__438388.call(null, G__438389);
+    var G__438391 = tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "do-toggle", "do-toggle", 1250159176), tailrecursion.javelin.lift.call(null, function(G__438350, G__438351, G__438352, G__438353, ___7644__auto__, G__438354, ___7644__auto____$1, G__438355, G__438356, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__438357, G__438358, G__438359, G__438360, ___7644__auto____$3, G__438361, ___7644__auto____$4, 
+    ___7646__auto____$3, G__438362, G__438363, ___7644__auto____$5, G__438364, ___7644__auto____$6, ___7646__auto____$4, G__438365, G__438366, ___7644__auto____$7, G__438367, ___7644__auto____$8, ___7646__auto____$5, ___7646__auto____$6, G__438368, ___7644__auto____$9, G__438369, G__438370, G__438371, ___7643__auto__, G__438373, ___7644__auto____$10, ___7646__auto____$7, G__438374, ___7644__auto____$11, G__438375, ___7643__auto____$1, G__438377, ___7644__auto____$12, ___7646__auto____$8, G__438378, 
+    ___7644__auto____$13, G__438422, ___7643__auto____$2, G__438424, ___7644__auto____$14, ___7643__auto____$3, G__438426, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__438427, ___7644__auto____$16, G__438429, ___7643__auto____$5, G__438431, ___7644__auto____$17, ___7646__auto____$10, G__438432, ___7644__auto____$18, G__438433, ___7644__auto____$19, G__438434, ___7643__auto____$6, G__438436, ___7644__auto____$20, ___7646__auto____$11, G__438437, ___7644__auto____$21, G__438438, 
+    ___7644__auto____$22, G__438439, ___7643__auto____$7, G__438441, ___7644__auto____$23, ___7643__auto____$8, G__438443, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__438444, ___7643__auto____$10, G__438446, ___7644__auto____$25, ___7646__auto____$13, G__438448, ___7644__auto____$26, G__438449, ___7643__auto____$11, G__438451, ___7644__auto____$27, ___7643__auto____$12, G__438453, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__438454, ___7644__auto____$29, 
+    ___7646__auto____$15, G__438379, G__438380, G__438381, ___7644__auto____$30, ___7646__auto____$16, G__438382, G__438383, G__438384, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__438385, G__438386, ___7644__auto____$32, ___7646__auto____$19, G__438387, G__438388, G__438389, G__438390, ___7644__auto____$33, ___7646__auto____$20) {
+      return function(G__439926, G__439927) {
+        return G__439926.call(null, G__439927, 1)
       }
-    }(G__435074, G__435075, G__435076, G__435077, ___7644__auto__, G__435078, ___7644__auto____$1, G__435079, G__435080, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__435081, G__435082, G__435083, G__435084, ___7644__auto____$3, G__435085, ___7644__auto____$4, ___7646__auto____$3, G__435086, G__435087, ___7644__auto____$5, G__435088, ___7644__auto____$6, ___7646__auto____$4, G__435089, G__435090, ___7644__auto____$7, G__435091, ___7644__auto____$8, ___7646__auto____$5, 
-    ___7646__auto____$6, G__435092, ___7644__auto____$9, G__435093, G__435094, G__435095, ___7643__auto__, G__435097, ___7644__auto____$10, ___7646__auto____$7, G__435098, ___7644__auto____$11, G__435099, ___7643__auto____$1, G__435101, ___7644__auto____$12, ___7646__auto____$8, G__435102, ___7644__auto____$13, G__435146, ___7643__auto____$2, G__435148, ___7644__auto____$14, ___7643__auto____$3, G__435150, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__435151, ___7644__auto____$16, 
-    G__435153, ___7643__auto____$5, G__435155, ___7644__auto____$17, ___7646__auto____$10, G__435156, ___7644__auto____$18, G__435157, ___7644__auto____$19, G__435158, ___7643__auto____$6, G__435160, ___7644__auto____$20, ___7646__auto____$11, G__435161, ___7644__auto____$21, G__435162, ___7644__auto____$22, G__435163, ___7643__auto____$7, G__435165, ___7644__auto____$23, ___7643__auto____$8, G__435167, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__435168, ___7643__auto____$10, 
-    G__435170, ___7644__auto____$25, ___7646__auto____$13, G__435172, ___7644__auto____$26, G__435173, ___7643__auto____$11, G__435175, ___7644__auto____$27, ___7643__auto____$12, G__435177, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__435178, ___7644__auto____$29, ___7646__auto____$15, G__435103, G__435104, G__435105, ___7644__auto____$30, ___7646__auto____$16, G__435106, G__435107, G__435108, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__435109, G__435110, 
-    ___7644__auto____$32, ___7646__auto____$19, G__435111, G__435112, G__435113, G__435114, ___7644__auto____$33, ___7646__auto____$20)).call(null, cljs.core._EQ_, tailrecursion.hoplon.app_pages.G__435072.example)], true));
-    var G__435116 = tailrecursion.hoplon.h3.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "panel-title"], true), "Typical Page");
-    var ___7644__auto____$34 = G__435115.call(null, G__435116);
-    var G__435117 = tailrecursion.hoplon.hr.call(null);
-    var ___7644__auto____$35 = G__435115.call(null, G__435117);
-    var G__435118 = tailrecursion.hoplon.p.call(null, "The page can be coded in either ClojureScript or HTML\n                     syntax. The compiler can parse either one. It's easy to\n                     add a preprocessing step to parse HAML, etc. if desired.\n                     HTML is usually more verbose and noisy than ClojureScript,\n                     so most examples in this document will be using the latter\n                     syntax.");
-    var ___7644__auto____$36 = G__435115.call(null, G__435118);
-    var G__435119 = tailrecursion.hoplon.hr.call(null);
-    var ___7644__auto____$37 = G__435115.call(null, G__435119);
-    var G__435180 = tailrecursion.hoplon.p.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "text-muted"], true), "Using ClojureScript syntax:");
-    var ___7644__auto____$38 = G__435115.call(null, G__435180);
-    var G__435181 = tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "highlight"], true), tailrecursion.hoplon.pre.call(null, tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), 
+    }(G__438350, G__438351, G__438352, G__438353, ___7644__auto__, G__438354, ___7644__auto____$1, G__438355, G__438356, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__438357, G__438358, G__438359, G__438360, ___7644__auto____$3, G__438361, ___7644__auto____$4, ___7646__auto____$3, G__438362, G__438363, ___7644__auto____$5, G__438364, ___7644__auto____$6, ___7646__auto____$4, G__438365, G__438366, ___7644__auto____$7, G__438367, ___7644__auto____$8, ___7646__auto____$5, 
+    ___7646__auto____$6, G__438368, ___7644__auto____$9, G__438369, G__438370, G__438371, ___7643__auto__, G__438373, ___7644__auto____$10, ___7646__auto____$7, G__438374, ___7644__auto____$11, G__438375, ___7643__auto____$1, G__438377, ___7644__auto____$12, ___7646__auto____$8, G__438378, ___7644__auto____$13, G__438422, ___7643__auto____$2, G__438424, ___7644__auto____$14, ___7643__auto____$3, G__438426, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__438427, ___7644__auto____$16, 
+    G__438429, ___7643__auto____$5, G__438431, ___7644__auto____$17, ___7646__auto____$10, G__438432, ___7644__auto____$18, G__438433, ___7644__auto____$19, G__438434, ___7643__auto____$6, G__438436, ___7644__auto____$20, ___7646__auto____$11, G__438437, ___7644__auto____$21, G__438438, ___7644__auto____$22, G__438439, ___7643__auto____$7, G__438441, ___7644__auto____$23, ___7643__auto____$8, G__438443, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__438444, ___7643__auto____$10, 
+    G__438446, ___7644__auto____$25, ___7646__auto____$13, G__438448, ___7644__auto____$26, G__438449, ___7643__auto____$11, G__438451, ___7644__auto____$27, ___7643__auto____$12, G__438453, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__438454, ___7644__auto____$29, ___7646__auto____$15, G__438379, G__438380, G__438381, ___7644__auto____$30, ___7646__auto____$16, G__438382, G__438383, G__438384, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__438385, G__438386, 
+    ___7644__auto____$32, ___7646__auto____$19, G__438387, G__438388, G__438389, G__438390, ___7644__auto____$33, ___7646__auto____$20)).call(null, cljs.core._EQ_, tailrecursion.hoplon.app_pages.G__438348.example)], true));
+    var G__438392 = tailrecursion.hoplon.h3.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "panel-title"], true), "Typical Page");
+    var ___7644__auto____$34 = G__438391.call(null, G__438392);
+    var G__438393 = tailrecursion.hoplon.hr.call(null);
+    var ___7644__auto____$35 = G__438391.call(null, G__438393);
+    var G__438394 = tailrecursion.hoplon.p.call(null, "The page can be coded in either ClojureScript or HTML\n                     syntax. The compiler can parse either one. It's easy to\n                     add a preprocessing step to parse HAML, etc. if desired.\n                     HTML is usually more verbose and noisy than ClojureScript,\n                     so most examples in this document will be using the latter\n                     syntax.");
+    var ___7644__auto____$36 = G__438391.call(null, G__438394);
+    var G__438395 = tailrecursion.hoplon.hr.call(null);
+    var ___7644__auto____$37 = G__438391.call(null, G__438395);
+    var G__438456 = tailrecursion.hoplon.p.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "text-muted"], true), "Using ClojureScript syntax:");
+    var ___7644__auto____$38 = G__438391.call(null, G__438456);
+    var G__438457 = tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "highlight"], true), tailrecursion.hoplon.pre.call(null, tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), 
     "nf"], true), "page"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "s"], true), '"foo/bar.html"'), "\n  ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "ss"], 
     true), ":require"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "["), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nv"], true), "my.lib"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "ss"], true), ":as"), 
     " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nv"], true), "lib"), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "]))"), "\n\n", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, 
@@ -28894,10 +28894,10 @@ tailrecursion.hoplon.app_pages.G__435072.hoploninit = function hoploninit() {
     "class", 1108647146), "o"], true), "#"), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nf"], true), "swap!"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), 
     "nv"], true), "clicks"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nv"], true), "inc"), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), ")"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "s"], true), 
     '"Click me!"'), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), ")))"), "\n"));
-    var ___7644__auto____$39 = G__435115.call(null, G__435181);
-    var G__435182 = tailrecursion.hoplon.p.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "text-muted"], true), "Using HTML syntax:");
-    var ___7644__auto____$40 = G__435115.call(null, G__435182);
-    var G__435183 = tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "highlight"], true), tailrecursion.hoplon.pre.call(null, tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nt"], true), "\x3cscript"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 
+    var ___7644__auto____$39 = G__438391.call(null, G__438457);
+    var G__438458 = tailrecursion.hoplon.p.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "text-muted"], true), "Using HTML syntax:");
+    var ___7644__auto____$40 = G__438391.call(null, G__438458);
+    var G__438459 = tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "highlight"], true), tailrecursion.hoplon.pre.call(null, tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nt"], true), "\x3cscript"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 
     1108647146), "na"], true), "type\x3d"), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "s"], true), '"text/hoplon"'), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nt"], true), "\x3e"), '\n  (page "foo/bar.html"\n    (:require [my.lib :as lib]))\n\n  (defc clicks 0)\n', tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
     "class", "class", 1108647146), "nt"], true), "\x3c/script\x3e"), "\n\n", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nt"], true), "\x3chtml\x3e"), "\n  ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nt"], true), "\x3chead\x3e"), "\n    ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
     "class", "class", 1108647146), "nt"], true), "\x3ctitle\x3e"), "Hello World", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nt"], true), "\x3c/title\x3e"), "\n    ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nt"], true), "\x3clink"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
@@ -28908,245 +28908,245 @@ tailrecursion.hoplon.app_pages.G__435072.hoploninit = function hoploninit() {
     "nt"], true), "\x3cbutton"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "na"], true), "on-click\x3d"), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "s"], true), '"{{ #(swap! clicks inc) }}"'), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 
     1108647146), "nt"], true), "\x3e"), "\n      Click me!\n    ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nt"], true), "\x3c/button\x3e"), "\n  ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nt"], true), "\x3c/body\x3e"), "\n", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
     "class", "class", 1108647146), "nt"], true), "\x3c/html\x3e"), "\n"));
-    var ___7644__auto____$41 = G__435115.call(null, G__435183);
-    var ___7646__auto____$21 = G__435112.call(null, G__435115);
-    var ___7646__auto____$22 = G__435111.call(null, G__435112);
-    var G__435120 = bootstrap.list.divitem.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "on-click", "on-click", 1416542092), function(G__435074, G__435075, G__435076, G__435077, ___7644__auto__, G__435078, ___7644__auto____$1, G__435079, G__435080, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__435081, G__435082, G__435083, G__435084, ___7644__auto____$3, G__435085, ___7644__auto____$4, ___7646__auto____$3, G__435086, G__435087, 
-    ___7644__auto____$5, G__435088, ___7644__auto____$6, ___7646__auto____$4, G__435089, G__435090, ___7644__auto____$7, G__435091, ___7644__auto____$8, ___7646__auto____$5, ___7646__auto____$6, G__435092, ___7644__auto____$9, G__435093, G__435094, G__435095, ___7643__auto__, G__435097, ___7644__auto____$10, ___7646__auto____$7, G__435098, ___7644__auto____$11, G__435099, ___7643__auto____$1, G__435101, ___7644__auto____$12, ___7646__auto____$8, G__435102, ___7644__auto____$13, G__435146, ___7643__auto____$2, 
-    G__435148, ___7644__auto____$14, ___7643__auto____$3, G__435150, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__435151, ___7644__auto____$16, G__435153, ___7643__auto____$5, G__435155, ___7644__auto____$17, ___7646__auto____$10, G__435156, ___7644__auto____$18, G__435157, ___7644__auto____$19, G__435158, ___7643__auto____$6, G__435160, ___7644__auto____$20, ___7646__auto____$11, G__435161, ___7644__auto____$21, G__435162, ___7644__auto____$22, G__435163, ___7643__auto____$7, 
-    G__435165, ___7644__auto____$23, ___7643__auto____$8, G__435167, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__435168, ___7643__auto____$10, G__435170, ___7644__auto____$25, ___7646__auto____$13, G__435172, ___7644__auto____$26, G__435173, ___7643__auto____$11, G__435175, ___7644__auto____$27, ___7643__auto____$12, G__435177, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__435178, ___7644__auto____$29, ___7646__auto____$15, G__435103, G__435104, G__435105, 
-    ___7644__auto____$30, ___7646__auto____$16, G__435106, G__435107, G__435108, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__435109, G__435110, ___7644__auto____$32, ___7646__auto____$19, G__435111, G__435112, G__435113, G__435114, ___7644__auto____$33, ___7646__auto____$20, G__435115, G__435116, ___7644__auto____$34, G__435117, ___7644__auto____$35, G__435118, ___7644__auto____$36, G__435119, ___7644__auto____$37, G__435180, ___7644__auto____$38, G__435181, ___7644__auto____$39, 
-    G__435182, ___7644__auto____$40, G__435183, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22) {
+    var ___7644__auto____$41 = G__438391.call(null, G__438459);
+    var ___7646__auto____$21 = G__438388.call(null, G__438391);
+    var ___7646__auto____$22 = G__438387.call(null, G__438388);
+    var G__438396 = bootstrap.list.divitem.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "on-click", "on-click", 1416542092), function(G__438350, G__438351, G__438352, G__438353, ___7644__auto__, G__438354, ___7644__auto____$1, G__438355, G__438356, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__438357, G__438358, G__438359, G__438360, ___7644__auto____$3, G__438361, ___7644__auto____$4, ___7646__auto____$3, G__438362, G__438363, 
+    ___7644__auto____$5, G__438364, ___7644__auto____$6, ___7646__auto____$4, G__438365, G__438366, ___7644__auto____$7, G__438367, ___7644__auto____$8, ___7646__auto____$5, ___7646__auto____$6, G__438368, ___7644__auto____$9, G__438369, G__438370, G__438371, ___7643__auto__, G__438373, ___7644__auto____$10, ___7646__auto____$7, G__438374, ___7644__auto____$11, G__438375, ___7643__auto____$1, G__438377, ___7644__auto____$12, ___7646__auto____$8, G__438378, ___7644__auto____$13, G__438422, ___7643__auto____$2, 
+    G__438424, ___7644__auto____$14, ___7643__auto____$3, G__438426, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__438427, ___7644__auto____$16, G__438429, ___7643__auto____$5, G__438431, ___7644__auto____$17, ___7646__auto____$10, G__438432, ___7644__auto____$18, G__438433, ___7644__auto____$19, G__438434, ___7643__auto____$6, G__438436, ___7644__auto____$20, ___7646__auto____$11, G__438437, ___7644__auto____$21, G__438438, ___7644__auto____$22, G__438439, ___7643__auto____$7, 
+    G__438441, ___7644__auto____$23, ___7643__auto____$8, G__438443, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__438444, ___7643__auto____$10, G__438446, ___7644__auto____$25, ___7646__auto____$13, G__438448, ___7644__auto____$26, G__438449, ___7643__auto____$11, G__438451, ___7644__auto____$27, ___7643__auto____$12, G__438453, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__438454, ___7644__auto____$29, ___7646__auto____$15, G__438379, G__438380, G__438381, 
+    ___7644__auto____$30, ___7646__auto____$16, G__438382, G__438383, G__438384, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__438385, G__438386, ___7644__auto____$32, ___7646__auto____$19, G__438387, G__438388, G__438389, G__438390, ___7644__auto____$33, ___7646__auto____$20, G__438391, G__438392, ___7644__auto____$34, G__438393, ___7644__auto____$35, G__438394, ___7644__auto____$36, G__438395, ___7644__auto____$37, G__438456, ___7644__auto____$38, G__438457, ___7644__auto____$39, 
+    G__438458, ___7644__auto____$40, G__438459, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22) {
       return function() {
-        return cljs.core.reset_BANG_.call(null, tailrecursion.hoplon.app_pages.G__435072.example, 2)
+        return cljs.core.reset_BANG_.call(null, tailrecursion.hoplon.app_pages.G__438348.example, 2)
       }
-    }(G__435074, G__435075, G__435076, G__435077, ___7644__auto__, G__435078, ___7644__auto____$1, G__435079, G__435080, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__435081, G__435082, G__435083, G__435084, ___7644__auto____$3, G__435085, ___7644__auto____$4, ___7646__auto____$3, G__435086, G__435087, ___7644__auto____$5, G__435088, ___7644__auto____$6, ___7646__auto____$4, G__435089, G__435090, ___7644__auto____$7, G__435091, ___7644__auto____$8, ___7646__auto____$5, 
-    ___7646__auto____$6, G__435092, ___7644__auto____$9, G__435093, G__435094, G__435095, ___7643__auto__, G__435097, ___7644__auto____$10, ___7646__auto____$7, G__435098, ___7644__auto____$11, G__435099, ___7643__auto____$1, G__435101, ___7644__auto____$12, ___7646__auto____$8, G__435102, ___7644__auto____$13, G__435146, ___7643__auto____$2, G__435148, ___7644__auto____$14, ___7643__auto____$3, G__435150, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__435151, ___7644__auto____$16, 
-    G__435153, ___7643__auto____$5, G__435155, ___7644__auto____$17, ___7646__auto____$10, G__435156, ___7644__auto____$18, G__435157, ___7644__auto____$19, G__435158, ___7643__auto____$6, G__435160, ___7644__auto____$20, ___7646__auto____$11, G__435161, ___7644__auto____$21, G__435162, ___7644__auto____$22, G__435163, ___7643__auto____$7, G__435165, ___7644__auto____$23, ___7643__auto____$8, G__435167, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__435168, ___7643__auto____$10, 
-    G__435170, ___7644__auto____$25, ___7646__auto____$13, G__435172, ___7644__auto____$26, G__435173, ___7643__auto____$11, G__435175, ___7644__auto____$27, ___7643__auto____$12, G__435177, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__435178, ___7644__auto____$29, ___7646__auto____$15, G__435103, G__435104, G__435105, ___7644__auto____$30, ___7646__auto____$16, G__435106, G__435107, G__435108, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__435109, G__435110, 
-    ___7644__auto____$32, ___7646__auto____$19, G__435111, G__435112, G__435113, G__435114, ___7644__auto____$33, ___7646__auto____$20, G__435115, G__435116, ___7644__auto____$34, G__435117, ___7644__auto____$35, G__435118, ___7644__auto____$36, G__435119, ___7644__auto____$37, G__435180, ___7644__auto____$38, G__435181, ___7644__auto____$39, G__435182, ___7644__auto____$40, G__435183, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22)], true));
-    var G__435121 = tailrecursion.hoplon.a.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "topfix", new cljs.core.Keyword(null, "do-scroll-to", "do-scroll-to", 3603706411), tailrecursion.javelin.lift.call(null, function(G__435074, G__435075, G__435076, G__435077, ___7644__auto__, G__435078, ___7644__auto____$1, G__435079, G__435080, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__435081, G__435082, G__435083, 
-    G__435084, ___7644__auto____$3, G__435085, ___7644__auto____$4, ___7646__auto____$3, G__435086, G__435087, ___7644__auto____$5, G__435088, ___7644__auto____$6, ___7646__auto____$4, G__435089, G__435090, ___7644__auto____$7, G__435091, ___7644__auto____$8, ___7646__auto____$5, ___7646__auto____$6, G__435092, ___7644__auto____$9, G__435093, G__435094, G__435095, ___7643__auto__, G__435097, ___7644__auto____$10, ___7646__auto____$7, G__435098, ___7644__auto____$11, G__435099, ___7643__auto____$1, 
-    G__435101, ___7644__auto____$12, ___7646__auto____$8, G__435102, ___7644__auto____$13, G__435146, ___7643__auto____$2, G__435148, ___7644__auto____$14, ___7643__auto____$3, G__435150, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__435151, ___7644__auto____$16, G__435153, ___7643__auto____$5, G__435155, ___7644__auto____$17, ___7646__auto____$10, G__435156, ___7644__auto____$18, G__435157, ___7644__auto____$19, G__435158, ___7643__auto____$6, G__435160, ___7644__auto____$20, 
-    ___7646__auto____$11, G__435161, ___7644__auto____$21, G__435162, ___7644__auto____$22, G__435163, ___7643__auto____$7, G__435165, ___7644__auto____$23, ___7643__auto____$8, G__435167, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__435168, ___7643__auto____$10, G__435170, ___7644__auto____$25, ___7646__auto____$13, G__435172, ___7644__auto____$26, G__435173, ___7643__auto____$11, G__435175, ___7644__auto____$27, ___7643__auto____$12, G__435177, ___7644__auto____$28, ___7643__auto____$13, 
-    ___7646__auto____$14, G__435178, ___7644__auto____$29, ___7646__auto____$15, G__435103, G__435104, G__435105, ___7644__auto____$30, ___7646__auto____$16, G__435106, G__435107, G__435108, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__435109, G__435110, ___7644__auto____$32, ___7646__auto____$19, G__435111, G__435112, G__435113, G__435114, ___7644__auto____$33, ___7646__auto____$20, G__435115, G__435116, ___7644__auto____$34, G__435117, ___7644__auto____$35, G__435118, ___7644__auto____$36, 
-    G__435119, ___7644__auto____$37, G__435180, ___7644__auto____$38, G__435181, ___7644__auto____$39, G__435182, ___7644__auto____$40, G__435183, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__435120) {
-      return function(G__436652, G__436653) {
-        return G__436652.call(null, G__436653, 2)
+    }(G__438350, G__438351, G__438352, G__438353, ___7644__auto__, G__438354, ___7644__auto____$1, G__438355, G__438356, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__438357, G__438358, G__438359, G__438360, ___7644__auto____$3, G__438361, ___7644__auto____$4, ___7646__auto____$3, G__438362, G__438363, ___7644__auto____$5, G__438364, ___7644__auto____$6, ___7646__auto____$4, G__438365, G__438366, ___7644__auto____$7, G__438367, ___7644__auto____$8, ___7646__auto____$5, 
+    ___7646__auto____$6, G__438368, ___7644__auto____$9, G__438369, G__438370, G__438371, ___7643__auto__, G__438373, ___7644__auto____$10, ___7646__auto____$7, G__438374, ___7644__auto____$11, G__438375, ___7643__auto____$1, G__438377, ___7644__auto____$12, ___7646__auto____$8, G__438378, ___7644__auto____$13, G__438422, ___7643__auto____$2, G__438424, ___7644__auto____$14, ___7643__auto____$3, G__438426, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__438427, ___7644__auto____$16, 
+    G__438429, ___7643__auto____$5, G__438431, ___7644__auto____$17, ___7646__auto____$10, G__438432, ___7644__auto____$18, G__438433, ___7644__auto____$19, G__438434, ___7643__auto____$6, G__438436, ___7644__auto____$20, ___7646__auto____$11, G__438437, ___7644__auto____$21, G__438438, ___7644__auto____$22, G__438439, ___7643__auto____$7, G__438441, ___7644__auto____$23, ___7643__auto____$8, G__438443, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__438444, ___7643__auto____$10, 
+    G__438446, ___7644__auto____$25, ___7646__auto____$13, G__438448, ___7644__auto____$26, G__438449, ___7643__auto____$11, G__438451, ___7644__auto____$27, ___7643__auto____$12, G__438453, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__438454, ___7644__auto____$29, ___7646__auto____$15, G__438379, G__438380, G__438381, ___7644__auto____$30, ___7646__auto____$16, G__438382, G__438383, G__438384, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__438385, G__438386, 
+    ___7644__auto____$32, ___7646__auto____$19, G__438387, G__438388, G__438389, G__438390, ___7644__auto____$33, ___7646__auto____$20, G__438391, G__438392, ___7644__auto____$34, G__438393, ___7644__auto____$35, G__438394, ___7644__auto____$36, G__438395, ___7644__auto____$37, G__438456, ___7644__auto____$38, G__438457, ___7644__auto____$39, G__438458, ___7644__auto____$40, G__438459, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22)], true));
+    var G__438397 = tailrecursion.hoplon.a.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "topfix", new cljs.core.Keyword(null, "do-scroll-to", "do-scroll-to", 3603706411), tailrecursion.javelin.lift.call(null, function(G__438350, G__438351, G__438352, G__438353, ___7644__auto__, G__438354, ___7644__auto____$1, G__438355, G__438356, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__438357, G__438358, G__438359, 
+    G__438360, ___7644__auto____$3, G__438361, ___7644__auto____$4, ___7646__auto____$3, G__438362, G__438363, ___7644__auto____$5, G__438364, ___7644__auto____$6, ___7646__auto____$4, G__438365, G__438366, ___7644__auto____$7, G__438367, ___7644__auto____$8, ___7646__auto____$5, ___7646__auto____$6, G__438368, ___7644__auto____$9, G__438369, G__438370, G__438371, ___7643__auto__, G__438373, ___7644__auto____$10, ___7646__auto____$7, G__438374, ___7644__auto____$11, G__438375, ___7643__auto____$1, 
+    G__438377, ___7644__auto____$12, ___7646__auto____$8, G__438378, ___7644__auto____$13, G__438422, ___7643__auto____$2, G__438424, ___7644__auto____$14, ___7643__auto____$3, G__438426, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__438427, ___7644__auto____$16, G__438429, ___7643__auto____$5, G__438431, ___7644__auto____$17, ___7646__auto____$10, G__438432, ___7644__auto____$18, G__438433, ___7644__auto____$19, G__438434, ___7643__auto____$6, G__438436, ___7644__auto____$20, 
+    ___7646__auto____$11, G__438437, ___7644__auto____$21, G__438438, ___7644__auto____$22, G__438439, ___7643__auto____$7, G__438441, ___7644__auto____$23, ___7643__auto____$8, G__438443, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__438444, ___7643__auto____$10, G__438446, ___7644__auto____$25, ___7646__auto____$13, G__438448, ___7644__auto____$26, G__438449, ___7643__auto____$11, G__438451, ___7644__auto____$27, ___7643__auto____$12, G__438453, ___7644__auto____$28, ___7643__auto____$13, 
+    ___7646__auto____$14, G__438454, ___7644__auto____$29, ___7646__auto____$15, G__438379, G__438380, G__438381, ___7644__auto____$30, ___7646__auto____$16, G__438382, G__438383, G__438384, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__438385, G__438386, ___7644__auto____$32, ___7646__auto____$19, G__438387, G__438388, G__438389, G__438390, ___7644__auto____$33, ___7646__auto____$20, G__438391, G__438392, ___7644__auto____$34, G__438393, ___7644__auto____$35, G__438394, ___7644__auto____$36, 
+    G__438395, ___7644__auto____$37, G__438456, ___7644__auto____$38, G__438457, ___7644__auto____$39, G__438458, ___7644__auto____$40, G__438459, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__438396) {
+      return function(G__439928, G__439929) {
+        return G__439928.call(null, G__439929, 2)
       }
-    }(G__435074, G__435075, G__435076, G__435077, ___7644__auto__, G__435078, ___7644__auto____$1, G__435079, G__435080, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__435081, G__435082, G__435083, G__435084, ___7644__auto____$3, G__435085, ___7644__auto____$4, ___7646__auto____$3, G__435086, G__435087, ___7644__auto____$5, G__435088, ___7644__auto____$6, ___7646__auto____$4, G__435089, G__435090, ___7644__auto____$7, G__435091, ___7644__auto____$8, ___7646__auto____$5, 
-    ___7646__auto____$6, G__435092, ___7644__auto____$9, G__435093, G__435094, G__435095, ___7643__auto__, G__435097, ___7644__auto____$10, ___7646__auto____$7, G__435098, ___7644__auto____$11, G__435099, ___7643__auto____$1, G__435101, ___7644__auto____$12, ___7646__auto____$8, G__435102, ___7644__auto____$13, G__435146, ___7643__auto____$2, G__435148, ___7644__auto____$14, ___7643__auto____$3, G__435150, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__435151, ___7644__auto____$16, 
-    G__435153, ___7643__auto____$5, G__435155, ___7644__auto____$17, ___7646__auto____$10, G__435156, ___7644__auto____$18, G__435157, ___7644__auto____$19, G__435158, ___7643__auto____$6, G__435160, ___7644__auto____$20, ___7646__auto____$11, G__435161, ___7644__auto____$21, G__435162, ___7644__auto____$22, G__435163, ___7643__auto____$7, G__435165, ___7644__auto____$23, ___7643__auto____$8, G__435167, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__435168, ___7643__auto____$10, 
-    G__435170, ___7644__auto____$25, ___7646__auto____$13, G__435172, ___7644__auto____$26, G__435173, ___7643__auto____$11, G__435175, ___7644__auto____$27, ___7643__auto____$12, G__435177, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__435178, ___7644__auto____$29, ___7646__auto____$15, G__435103, G__435104, G__435105, ___7644__auto____$30, ___7646__auto____$16, G__435106, G__435107, G__435108, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__435109, G__435110, 
-    ___7644__auto____$32, ___7646__auto____$19, G__435111, G__435112, G__435113, G__435114, ___7644__auto____$33, ___7646__auto____$20, G__435115, G__435116, ___7644__auto____$34, G__435117, ___7644__auto____$35, G__435118, ___7644__auto____$36, G__435119, ___7644__auto____$37, G__435180, ___7644__auto____$38, G__435181, ___7644__auto____$39, G__435182, ___7644__auto____$40, G__435183, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__435120)).call(null, cljs.core._EQ_, tailrecursion.hoplon.app_pages.G__435072.example)], 
+    }(G__438350, G__438351, G__438352, G__438353, ___7644__auto__, G__438354, ___7644__auto____$1, G__438355, G__438356, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__438357, G__438358, G__438359, G__438360, ___7644__auto____$3, G__438361, ___7644__auto____$4, ___7646__auto____$3, G__438362, G__438363, ___7644__auto____$5, G__438364, ___7644__auto____$6, ___7646__auto____$4, G__438365, G__438366, ___7644__auto____$7, G__438367, ___7644__auto____$8, ___7646__auto____$5, 
+    ___7646__auto____$6, G__438368, ___7644__auto____$9, G__438369, G__438370, G__438371, ___7643__auto__, G__438373, ___7644__auto____$10, ___7646__auto____$7, G__438374, ___7644__auto____$11, G__438375, ___7643__auto____$1, G__438377, ___7644__auto____$12, ___7646__auto____$8, G__438378, ___7644__auto____$13, G__438422, ___7643__auto____$2, G__438424, ___7644__auto____$14, ___7643__auto____$3, G__438426, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__438427, ___7644__auto____$16, 
+    G__438429, ___7643__auto____$5, G__438431, ___7644__auto____$17, ___7646__auto____$10, G__438432, ___7644__auto____$18, G__438433, ___7644__auto____$19, G__438434, ___7643__auto____$6, G__438436, ___7644__auto____$20, ___7646__auto____$11, G__438437, ___7644__auto____$21, G__438438, ___7644__auto____$22, G__438439, ___7643__auto____$7, G__438441, ___7644__auto____$23, ___7643__auto____$8, G__438443, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__438444, ___7643__auto____$10, 
+    G__438446, ___7644__auto____$25, ___7646__auto____$13, G__438448, ___7644__auto____$26, G__438449, ___7643__auto____$11, G__438451, ___7644__auto____$27, ___7643__auto____$12, G__438453, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__438454, ___7644__auto____$29, ___7646__auto____$15, G__438379, G__438380, G__438381, ___7644__auto____$30, ___7646__auto____$16, G__438382, G__438383, G__438384, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__438385, G__438386, 
+    ___7644__auto____$32, ___7646__auto____$19, G__438387, G__438388, G__438389, G__438390, ___7644__auto____$33, ___7646__auto____$20, G__438391, G__438392, ___7644__auto____$34, G__438393, ___7644__auto____$35, G__438394, ___7644__auto____$36, G__438395, ___7644__auto____$37, G__438456, ___7644__auto____$38, G__438457, ___7644__auto____$39, G__438458, ___7644__auto____$40, G__438459, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__438396)).call(null, cljs.core._EQ_, tailrecursion.hoplon.app_pages.G__438348.example)], 
     true));
-    var ___7644__auto____$42 = G__435120.call(null, G__435121);
-    var G__435122 = tailrecursion.hoplon.a.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "do-toggle", "do-toggle", 1250159176), tailrecursion.javelin.lift.call(null, function(G__435074, G__435075, G__435076, G__435077, ___7644__auto__, G__435078, ___7644__auto____$1, G__435079, G__435080, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__435081, G__435082, G__435083, G__435084, ___7644__auto____$3, G__435085, ___7644__auto____$4, ___7646__auto____$3, 
-    G__435086, G__435087, ___7644__auto____$5, G__435088, ___7644__auto____$6, ___7646__auto____$4, G__435089, G__435090, ___7644__auto____$7, G__435091, ___7644__auto____$8, ___7646__auto____$5, ___7646__auto____$6, G__435092, ___7644__auto____$9, G__435093, G__435094, G__435095, ___7643__auto__, G__435097, ___7644__auto____$10, ___7646__auto____$7, G__435098, ___7644__auto____$11, G__435099, ___7643__auto____$1, G__435101, ___7644__auto____$12, ___7646__auto____$8, G__435102, ___7644__auto____$13, 
-    G__435146, ___7643__auto____$2, G__435148, ___7644__auto____$14, ___7643__auto____$3, G__435150, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__435151, ___7644__auto____$16, G__435153, ___7643__auto____$5, G__435155, ___7644__auto____$17, ___7646__auto____$10, G__435156, ___7644__auto____$18, G__435157, ___7644__auto____$19, G__435158, ___7643__auto____$6, G__435160, ___7644__auto____$20, ___7646__auto____$11, G__435161, ___7644__auto____$21, G__435162, ___7644__auto____$22, 
-    G__435163, ___7643__auto____$7, G__435165, ___7644__auto____$23, ___7643__auto____$8, G__435167, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__435168, ___7643__auto____$10, G__435170, ___7644__auto____$25, ___7646__auto____$13, G__435172, ___7644__auto____$26, G__435173, ___7643__auto____$11, G__435175, ___7644__auto____$27, ___7643__auto____$12, G__435177, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__435178, ___7644__auto____$29, ___7646__auto____$15, 
-    G__435103, G__435104, G__435105, ___7644__auto____$30, ___7646__auto____$16, G__435106, G__435107, G__435108, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__435109, G__435110, ___7644__auto____$32, ___7646__auto____$19, G__435111, G__435112, G__435113, G__435114, ___7644__auto____$33, ___7646__auto____$20, G__435115, G__435116, ___7644__auto____$34, G__435117, ___7644__auto____$35, G__435118, ___7644__auto____$36, G__435119, ___7644__auto____$37, G__435180, ___7644__auto____$38, 
-    G__435181, ___7644__auto____$39, G__435182, ___7644__auto____$40, G__435183, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__435120, G__435121, ___7644__auto____$42) {
-      return function(G__436654, G__436655) {
-        return G__436654.call(null, G__436655, 2)
+    var ___7644__auto____$42 = G__438396.call(null, G__438397);
+    var G__438398 = tailrecursion.hoplon.a.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "do-toggle", "do-toggle", 1250159176), tailrecursion.javelin.lift.call(null, function(G__438350, G__438351, G__438352, G__438353, ___7644__auto__, G__438354, ___7644__auto____$1, G__438355, G__438356, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__438357, G__438358, G__438359, G__438360, ___7644__auto____$3, G__438361, ___7644__auto____$4, ___7646__auto____$3, 
+    G__438362, G__438363, ___7644__auto____$5, G__438364, ___7644__auto____$6, ___7646__auto____$4, G__438365, G__438366, ___7644__auto____$7, G__438367, ___7644__auto____$8, ___7646__auto____$5, ___7646__auto____$6, G__438368, ___7644__auto____$9, G__438369, G__438370, G__438371, ___7643__auto__, G__438373, ___7644__auto____$10, ___7646__auto____$7, G__438374, ___7644__auto____$11, G__438375, ___7643__auto____$1, G__438377, ___7644__auto____$12, ___7646__auto____$8, G__438378, ___7644__auto____$13, 
+    G__438422, ___7643__auto____$2, G__438424, ___7644__auto____$14, ___7643__auto____$3, G__438426, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__438427, ___7644__auto____$16, G__438429, ___7643__auto____$5, G__438431, ___7644__auto____$17, ___7646__auto____$10, G__438432, ___7644__auto____$18, G__438433, ___7644__auto____$19, G__438434, ___7643__auto____$6, G__438436, ___7644__auto____$20, ___7646__auto____$11, G__438437, ___7644__auto____$21, G__438438, ___7644__auto____$22, 
+    G__438439, ___7643__auto____$7, G__438441, ___7644__auto____$23, ___7643__auto____$8, G__438443, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__438444, ___7643__auto____$10, G__438446, ___7644__auto____$25, ___7646__auto____$13, G__438448, ___7644__auto____$26, G__438449, ___7643__auto____$11, G__438451, ___7644__auto____$27, ___7643__auto____$12, G__438453, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__438454, ___7644__auto____$29, ___7646__auto____$15, 
+    G__438379, G__438380, G__438381, ___7644__auto____$30, ___7646__auto____$16, G__438382, G__438383, G__438384, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__438385, G__438386, ___7644__auto____$32, ___7646__auto____$19, G__438387, G__438388, G__438389, G__438390, ___7644__auto____$33, ___7646__auto____$20, G__438391, G__438392, ___7644__auto____$34, G__438393, ___7644__auto____$35, G__438394, ___7644__auto____$36, G__438395, ___7644__auto____$37, G__438456, ___7644__auto____$38, 
+    G__438457, ___7644__auto____$39, G__438458, ___7644__auto____$40, G__438459, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__438396, G__438397, ___7644__auto____$42) {
+      return function(G__439930, G__439931) {
+        return G__439930.call(null, G__439931, 2)
       }
-    }(G__435074, G__435075, G__435076, G__435077, ___7644__auto__, G__435078, ___7644__auto____$1, G__435079, G__435080, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__435081, G__435082, G__435083, G__435084, ___7644__auto____$3, G__435085, ___7644__auto____$4, ___7646__auto____$3, G__435086, G__435087, ___7644__auto____$5, G__435088, ___7644__auto____$6, ___7646__auto____$4, G__435089, G__435090, ___7644__auto____$7, G__435091, ___7644__auto____$8, ___7646__auto____$5, 
-    ___7646__auto____$6, G__435092, ___7644__auto____$9, G__435093, G__435094, G__435095, ___7643__auto__, G__435097, ___7644__auto____$10, ___7646__auto____$7, G__435098, ___7644__auto____$11, G__435099, ___7643__auto____$1, G__435101, ___7644__auto____$12, ___7646__auto____$8, G__435102, ___7644__auto____$13, G__435146, ___7643__auto____$2, G__435148, ___7644__auto____$14, ___7643__auto____$3, G__435150, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__435151, ___7644__auto____$16, 
-    G__435153, ___7643__auto____$5, G__435155, ___7644__auto____$17, ___7646__auto____$10, G__435156, ___7644__auto____$18, G__435157, ___7644__auto____$19, G__435158, ___7643__auto____$6, G__435160, ___7644__auto____$20, ___7646__auto____$11, G__435161, ___7644__auto____$21, G__435162, ___7644__auto____$22, G__435163, ___7643__auto____$7, G__435165, ___7644__auto____$23, ___7643__auto____$8, G__435167, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__435168, ___7643__auto____$10, 
-    G__435170, ___7644__auto____$25, ___7646__auto____$13, G__435172, ___7644__auto____$26, G__435173, ___7643__auto____$11, G__435175, ___7644__auto____$27, ___7643__auto____$12, G__435177, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__435178, ___7644__auto____$29, ___7646__auto____$15, G__435103, G__435104, G__435105, ___7644__auto____$30, ___7646__auto____$16, G__435106, G__435107, G__435108, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__435109, G__435110, 
-    ___7644__auto____$32, ___7646__auto____$19, G__435111, G__435112, G__435113, G__435114, ___7644__auto____$33, ___7646__auto____$20, G__435115, G__435116, ___7644__auto____$34, G__435117, ___7644__auto____$35, G__435118, ___7644__auto____$36, G__435119, ___7644__auto____$37, G__435180, ___7644__auto____$38, G__435181, ___7644__auto____$39, G__435182, ___7644__auto____$40, G__435183, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__435120, G__435121, ___7644__auto____$42)).call(null, 
-    cljs.core.not_EQ_, tailrecursion.hoplon.app_pages.G__435072.example)], true));
-    var G__435123 = tailrecursion.hoplon.h3.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "panel-title"], true), "BMI Calculator");
-    var ___7644__auto____$43 = G__435122.call(null, G__435123);
-    var ___7646__auto____$23 = G__435120.call(null, G__435122);
-    var G__435124 = tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "do-toggle", "do-toggle", 1250159176), tailrecursion.javelin.lift.call(null, function(G__435074, G__435075, G__435076, G__435077, ___7644__auto__, G__435078, ___7644__auto____$1, G__435079, G__435080, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__435081, G__435082, G__435083, G__435084, ___7644__auto____$3, G__435085, ___7644__auto____$4, 
-    ___7646__auto____$3, G__435086, G__435087, ___7644__auto____$5, G__435088, ___7644__auto____$6, ___7646__auto____$4, G__435089, G__435090, ___7644__auto____$7, G__435091, ___7644__auto____$8, ___7646__auto____$5, ___7646__auto____$6, G__435092, ___7644__auto____$9, G__435093, G__435094, G__435095, ___7643__auto__, G__435097, ___7644__auto____$10, ___7646__auto____$7, G__435098, ___7644__auto____$11, G__435099, ___7643__auto____$1, G__435101, ___7644__auto____$12, ___7646__auto____$8, G__435102, 
-    ___7644__auto____$13, G__435146, ___7643__auto____$2, G__435148, ___7644__auto____$14, ___7643__auto____$3, G__435150, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__435151, ___7644__auto____$16, G__435153, ___7643__auto____$5, G__435155, ___7644__auto____$17, ___7646__auto____$10, G__435156, ___7644__auto____$18, G__435157, ___7644__auto____$19, G__435158, ___7643__auto____$6, G__435160, ___7644__auto____$20, ___7646__auto____$11, G__435161, ___7644__auto____$21, G__435162, 
-    ___7644__auto____$22, G__435163, ___7643__auto____$7, G__435165, ___7644__auto____$23, ___7643__auto____$8, G__435167, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__435168, ___7643__auto____$10, G__435170, ___7644__auto____$25, ___7646__auto____$13, G__435172, ___7644__auto____$26, G__435173, ___7643__auto____$11, G__435175, ___7644__auto____$27, ___7643__auto____$12, G__435177, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__435178, ___7644__auto____$29, 
-    ___7646__auto____$15, G__435103, G__435104, G__435105, ___7644__auto____$30, ___7646__auto____$16, G__435106, G__435107, G__435108, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__435109, G__435110, ___7644__auto____$32, ___7646__auto____$19, G__435111, G__435112, G__435113, G__435114, ___7644__auto____$33, ___7646__auto____$20, G__435115, G__435116, ___7644__auto____$34, G__435117, ___7644__auto____$35, G__435118, ___7644__auto____$36, G__435119, ___7644__auto____$37, G__435180, 
-    ___7644__auto____$38, G__435181, ___7644__auto____$39, G__435182, ___7644__auto____$40, G__435183, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__435120, G__435121, ___7644__auto____$42, G__435122, G__435123, ___7644__auto____$43, ___7646__auto____$23) {
-      return function(G__436656, G__436657) {
-        return G__436656.call(null, G__436657, 2)
+    }(G__438350, G__438351, G__438352, G__438353, ___7644__auto__, G__438354, ___7644__auto____$1, G__438355, G__438356, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__438357, G__438358, G__438359, G__438360, ___7644__auto____$3, G__438361, ___7644__auto____$4, ___7646__auto____$3, G__438362, G__438363, ___7644__auto____$5, G__438364, ___7644__auto____$6, ___7646__auto____$4, G__438365, G__438366, ___7644__auto____$7, G__438367, ___7644__auto____$8, ___7646__auto____$5, 
+    ___7646__auto____$6, G__438368, ___7644__auto____$9, G__438369, G__438370, G__438371, ___7643__auto__, G__438373, ___7644__auto____$10, ___7646__auto____$7, G__438374, ___7644__auto____$11, G__438375, ___7643__auto____$1, G__438377, ___7644__auto____$12, ___7646__auto____$8, G__438378, ___7644__auto____$13, G__438422, ___7643__auto____$2, G__438424, ___7644__auto____$14, ___7643__auto____$3, G__438426, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__438427, ___7644__auto____$16, 
+    G__438429, ___7643__auto____$5, G__438431, ___7644__auto____$17, ___7646__auto____$10, G__438432, ___7644__auto____$18, G__438433, ___7644__auto____$19, G__438434, ___7643__auto____$6, G__438436, ___7644__auto____$20, ___7646__auto____$11, G__438437, ___7644__auto____$21, G__438438, ___7644__auto____$22, G__438439, ___7643__auto____$7, G__438441, ___7644__auto____$23, ___7643__auto____$8, G__438443, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__438444, ___7643__auto____$10, 
+    G__438446, ___7644__auto____$25, ___7646__auto____$13, G__438448, ___7644__auto____$26, G__438449, ___7643__auto____$11, G__438451, ___7644__auto____$27, ___7643__auto____$12, G__438453, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__438454, ___7644__auto____$29, ___7646__auto____$15, G__438379, G__438380, G__438381, ___7644__auto____$30, ___7646__auto____$16, G__438382, G__438383, G__438384, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__438385, G__438386, 
+    ___7644__auto____$32, ___7646__auto____$19, G__438387, G__438388, G__438389, G__438390, ___7644__auto____$33, ___7646__auto____$20, G__438391, G__438392, ___7644__auto____$34, G__438393, ___7644__auto____$35, G__438394, ___7644__auto____$36, G__438395, ___7644__auto____$37, G__438456, ___7644__auto____$38, G__438457, ___7644__auto____$39, G__438458, ___7644__auto____$40, G__438459, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__438396, G__438397, ___7644__auto____$42)).call(null, 
+    cljs.core.not_EQ_, tailrecursion.hoplon.app_pages.G__438348.example)], true));
+    var G__438399 = tailrecursion.hoplon.h3.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "panel-title"], true), "BMI Calculator");
+    var ___7644__auto____$43 = G__438398.call(null, G__438399);
+    var ___7646__auto____$23 = G__438396.call(null, G__438398);
+    var G__438400 = tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "do-toggle", "do-toggle", 1250159176), tailrecursion.javelin.lift.call(null, function(G__438350, G__438351, G__438352, G__438353, ___7644__auto__, G__438354, ___7644__auto____$1, G__438355, G__438356, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__438357, G__438358, G__438359, G__438360, ___7644__auto____$3, G__438361, ___7644__auto____$4, 
+    ___7646__auto____$3, G__438362, G__438363, ___7644__auto____$5, G__438364, ___7644__auto____$6, ___7646__auto____$4, G__438365, G__438366, ___7644__auto____$7, G__438367, ___7644__auto____$8, ___7646__auto____$5, ___7646__auto____$6, G__438368, ___7644__auto____$9, G__438369, G__438370, G__438371, ___7643__auto__, G__438373, ___7644__auto____$10, ___7646__auto____$7, G__438374, ___7644__auto____$11, G__438375, ___7643__auto____$1, G__438377, ___7644__auto____$12, ___7646__auto____$8, G__438378, 
+    ___7644__auto____$13, G__438422, ___7643__auto____$2, G__438424, ___7644__auto____$14, ___7643__auto____$3, G__438426, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__438427, ___7644__auto____$16, G__438429, ___7643__auto____$5, G__438431, ___7644__auto____$17, ___7646__auto____$10, G__438432, ___7644__auto____$18, G__438433, ___7644__auto____$19, G__438434, ___7643__auto____$6, G__438436, ___7644__auto____$20, ___7646__auto____$11, G__438437, ___7644__auto____$21, G__438438, 
+    ___7644__auto____$22, G__438439, ___7643__auto____$7, G__438441, ___7644__auto____$23, ___7643__auto____$8, G__438443, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__438444, ___7643__auto____$10, G__438446, ___7644__auto____$25, ___7646__auto____$13, G__438448, ___7644__auto____$26, G__438449, ___7643__auto____$11, G__438451, ___7644__auto____$27, ___7643__auto____$12, G__438453, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__438454, ___7644__auto____$29, 
+    ___7646__auto____$15, G__438379, G__438380, G__438381, ___7644__auto____$30, ___7646__auto____$16, G__438382, G__438383, G__438384, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__438385, G__438386, ___7644__auto____$32, ___7646__auto____$19, G__438387, G__438388, G__438389, G__438390, ___7644__auto____$33, ___7646__auto____$20, G__438391, G__438392, ___7644__auto____$34, G__438393, ___7644__auto____$35, G__438394, ___7644__auto____$36, G__438395, ___7644__auto____$37, G__438456, 
+    ___7644__auto____$38, G__438457, ___7644__auto____$39, G__438458, ___7644__auto____$40, G__438459, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__438396, G__438397, ___7644__auto____$42, G__438398, G__438399, ___7644__auto____$43, ___7646__auto____$23) {
+      return function(G__439932, G__439933) {
+        return G__439932.call(null, G__439933, 2)
       }
-    }(G__435074, G__435075, G__435076, G__435077, ___7644__auto__, G__435078, ___7644__auto____$1, G__435079, G__435080, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__435081, G__435082, G__435083, G__435084, ___7644__auto____$3, G__435085, ___7644__auto____$4, ___7646__auto____$3, G__435086, G__435087, ___7644__auto____$5, G__435088, ___7644__auto____$6, ___7646__auto____$4, G__435089, G__435090, ___7644__auto____$7, G__435091, ___7644__auto____$8, ___7646__auto____$5, 
-    ___7646__auto____$6, G__435092, ___7644__auto____$9, G__435093, G__435094, G__435095, ___7643__auto__, G__435097, ___7644__auto____$10, ___7646__auto____$7, G__435098, ___7644__auto____$11, G__435099, ___7643__auto____$1, G__435101, ___7644__auto____$12, ___7646__auto____$8, G__435102, ___7644__auto____$13, G__435146, ___7643__auto____$2, G__435148, ___7644__auto____$14, ___7643__auto____$3, G__435150, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__435151, ___7644__auto____$16, 
-    G__435153, ___7643__auto____$5, G__435155, ___7644__auto____$17, ___7646__auto____$10, G__435156, ___7644__auto____$18, G__435157, ___7644__auto____$19, G__435158, ___7643__auto____$6, G__435160, ___7644__auto____$20, ___7646__auto____$11, G__435161, ___7644__auto____$21, G__435162, ___7644__auto____$22, G__435163, ___7643__auto____$7, G__435165, ___7644__auto____$23, ___7643__auto____$8, G__435167, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__435168, ___7643__auto____$10, 
-    G__435170, ___7644__auto____$25, ___7646__auto____$13, G__435172, ___7644__auto____$26, G__435173, ___7643__auto____$11, G__435175, ___7644__auto____$27, ___7643__auto____$12, G__435177, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__435178, ___7644__auto____$29, ___7646__auto____$15, G__435103, G__435104, G__435105, ___7644__auto____$30, ___7646__auto____$16, G__435106, G__435107, G__435108, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__435109, G__435110, 
-    ___7644__auto____$32, ___7646__auto____$19, G__435111, G__435112, G__435113, G__435114, ___7644__auto____$33, ___7646__auto____$20, G__435115, G__435116, ___7644__auto____$34, G__435117, ___7644__auto____$35, G__435118, ___7644__auto____$36, G__435119, ___7644__auto____$37, G__435180, ___7644__auto____$38, G__435181, ___7644__auto____$39, G__435182, ___7644__auto____$40, G__435183, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__435120, G__435121, ___7644__auto____$42, G__435122, 
-    G__435123, ___7644__auto____$43, ___7646__auto____$23)).call(null, cljs.core._EQ_, tailrecursion.hoplon.app_pages.G__435072.example)], true));
-    var G__435125 = tailrecursion.hoplon.h3.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "panel-title"], true), "BMI Calculator");
-    var ___7644__auto____$44 = G__435124.call(null, G__435125);
-    var G__435126 = tailrecursion.hoplon.hr.call(null);
-    var ___7644__auto____$45 = G__435124.call(null, G__435126);
-    var G__435127 = tailrecursion.hoplon.p.call(null);
-    var ___7643__auto____$14 = G__435127.call(null, "This is an example of a spreadsheet-like application.\n                     The application's state is contained in ");
-    var G__435129 = tailrecursion.hoplon.em.call(null, "cells");
-    var ___7644__auto____$46 = G__435127.call(null, G__435129);
-    var ___7643__auto____$15 = G__435127.call(null, " which are wired up to the DOM. DOM events cause changes\n                     to the underlying cells and formula cells in turn cause\n                     changes to the DOM.");
-    var ___7646__auto____$24 = G__435124.call(null, G__435127);
-    var G__435131 = tailrecursion.hoplon.hr.call(null);
-    var ___7644__auto____$47 = G__435124.call(null, G__435131);
-    var G__435184 = tailrecursion.hoplon.p.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "text-muted"], true), "The demo:");
-    var ___7644__auto____$48 = G__435124.call(null, G__435184);
-    var G__435185 = bootstrap.panel.default$.call(null);
-    var G__435186 = bootstrap.panel.body.call(null);
-    var G__435187 = tailrecursion.hoplon.div.call(null);
-    var G__435188 = tailrecursion.hoplon.form.call(null);
-    var G__435189 = tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "form-group"], true));
-    var G__435190 = tailrecursion.hoplon.label.call(null);
-    var G__435191 = function() {
+    }(G__438350, G__438351, G__438352, G__438353, ___7644__auto__, G__438354, ___7644__auto____$1, G__438355, G__438356, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__438357, G__438358, G__438359, G__438360, ___7644__auto____$3, G__438361, ___7644__auto____$4, ___7646__auto____$3, G__438362, G__438363, ___7644__auto____$5, G__438364, ___7644__auto____$6, ___7646__auto____$4, G__438365, G__438366, ___7644__auto____$7, G__438367, ___7644__auto____$8, ___7646__auto____$5, 
+    ___7646__auto____$6, G__438368, ___7644__auto____$9, G__438369, G__438370, G__438371, ___7643__auto__, G__438373, ___7644__auto____$10, ___7646__auto____$7, G__438374, ___7644__auto____$11, G__438375, ___7643__auto____$1, G__438377, ___7644__auto____$12, ___7646__auto____$8, G__438378, ___7644__auto____$13, G__438422, ___7643__auto____$2, G__438424, ___7644__auto____$14, ___7643__auto____$3, G__438426, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__438427, ___7644__auto____$16, 
+    G__438429, ___7643__auto____$5, G__438431, ___7644__auto____$17, ___7646__auto____$10, G__438432, ___7644__auto____$18, G__438433, ___7644__auto____$19, G__438434, ___7643__auto____$6, G__438436, ___7644__auto____$20, ___7646__auto____$11, G__438437, ___7644__auto____$21, G__438438, ___7644__auto____$22, G__438439, ___7643__auto____$7, G__438441, ___7644__auto____$23, ___7643__auto____$8, G__438443, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__438444, ___7643__auto____$10, 
+    G__438446, ___7644__auto____$25, ___7646__auto____$13, G__438448, ___7644__auto____$26, G__438449, ___7643__auto____$11, G__438451, ___7644__auto____$27, ___7643__auto____$12, G__438453, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__438454, ___7644__auto____$29, ___7646__auto____$15, G__438379, G__438380, G__438381, ___7644__auto____$30, ___7646__auto____$16, G__438382, G__438383, G__438384, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__438385, G__438386, 
+    ___7644__auto____$32, ___7646__auto____$19, G__438387, G__438388, G__438389, G__438390, ___7644__auto____$33, ___7646__auto____$20, G__438391, G__438392, ___7644__auto____$34, G__438393, ___7644__auto____$35, G__438394, ___7644__auto____$36, G__438395, ___7644__auto____$37, G__438456, ___7644__auto____$38, G__438457, ___7644__auto____$39, G__438458, ___7644__auto____$40, G__438459, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__438396, G__438397, ___7644__auto____$42, G__438398, 
+    G__438399, ___7644__auto____$43, ___7646__auto____$23)).call(null, cljs.core._EQ_, tailrecursion.hoplon.app_pages.G__438348.example)], true));
+    var G__438401 = tailrecursion.hoplon.h3.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "panel-title"], true), "BMI Calculator");
+    var ___7644__auto____$44 = G__438400.call(null, G__438401);
+    var G__438402 = tailrecursion.hoplon.hr.call(null);
+    var ___7644__auto____$45 = G__438400.call(null, G__438402);
+    var G__438403 = tailrecursion.hoplon.p.call(null);
+    var ___7643__auto____$14 = G__438403.call(null, "This is an example of a spreadsheet-like application.\n                     The application's state is contained in ");
+    var G__438405 = tailrecursion.hoplon.em.call(null, "cells");
+    var ___7644__auto____$46 = G__438403.call(null, G__438405);
+    var ___7643__auto____$15 = G__438403.call(null, " which are wired up to the DOM. DOM events cause changes\n                     to the underlying cells and formula cells in turn cause\n                     changes to the DOM.");
+    var ___7646__auto____$24 = G__438400.call(null, G__438403);
+    var G__438407 = tailrecursion.hoplon.hr.call(null);
+    var ___7644__auto____$47 = G__438400.call(null, G__438407);
+    var G__438460 = tailrecursion.hoplon.p.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "text-muted"], true), "The demo:");
+    var ___7644__auto____$48 = G__438400.call(null, G__438460);
+    var G__438461 = bootstrap.panel.default$.call(null);
+    var G__438462 = bootstrap.panel.body.call(null);
+    var G__438463 = tailrecursion.hoplon.div.call(null);
+    var G__438464 = tailrecursion.hoplon.form.call(null);
+    var G__438465 = tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "form-group"], true));
+    var G__438466 = tailrecursion.hoplon.label.call(null);
+    var G__438467 = function() {
       var t__7094__auto__ = document.createTextNode("");
-      tailrecursion.javelin.lift.call(null, function(t__7094__auto__, G__435074, G__435075, G__435076, G__435077, ___7644__auto__, G__435078, ___7644__auto____$1, G__435079, G__435080, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__435081, G__435082, G__435083, G__435084, ___7644__auto____$3, G__435085, ___7644__auto____$4, ___7646__auto____$3, G__435086, G__435087, ___7644__auto____$5, G__435088, ___7644__auto____$6, ___7646__auto____$4, G__435089, G__435090, 
-      ___7644__auto____$7, G__435091, ___7644__auto____$8, ___7646__auto____$5, ___7646__auto____$6, G__435092, ___7644__auto____$9, G__435093, G__435094, G__435095, ___7643__auto__, G__435097, ___7644__auto____$10, ___7646__auto____$7, G__435098, ___7644__auto____$11, G__435099, ___7643__auto____$1, G__435101, ___7644__auto____$12, ___7646__auto____$8, G__435102, ___7644__auto____$13, G__435146, ___7643__auto____$2, G__435148, ___7644__auto____$14, ___7643__auto____$3, G__435150, ___7644__auto____$15, 
-      ___7643__auto____$4, ___7646__auto____$9, G__435151, ___7644__auto____$16, G__435153, ___7643__auto____$5, G__435155, ___7644__auto____$17, ___7646__auto____$10, G__435156, ___7644__auto____$18, G__435157, ___7644__auto____$19, G__435158, ___7643__auto____$6, G__435160, ___7644__auto____$20, ___7646__auto____$11, G__435161, ___7644__auto____$21, G__435162, ___7644__auto____$22, G__435163, ___7643__auto____$7, G__435165, ___7644__auto____$23, ___7643__auto____$8, G__435167, ___7644__auto____$24, 
-      ___7643__auto____$9, ___7646__auto____$12, G__435168, ___7643__auto____$10, G__435170, ___7644__auto____$25, ___7646__auto____$13, G__435172, ___7644__auto____$26, G__435173, ___7643__auto____$11, G__435175, ___7644__auto____$27, ___7643__auto____$12, G__435177, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__435178, ___7644__auto____$29, ___7646__auto____$15, G__435103, G__435104, G__435105, ___7644__auto____$30, ___7646__auto____$16, G__435106, G__435107, G__435108, ___7644__auto____$31, 
-      ___7646__auto____$17, ___7646__auto____$18, G__435109, G__435110, ___7644__auto____$32, ___7646__auto____$19, G__435111, G__435112, G__435113, G__435114, ___7644__auto____$33, ___7646__auto____$20, G__435115, G__435116, ___7644__auto____$34, G__435117, ___7644__auto____$35, G__435118, ___7644__auto____$36, G__435119, ___7644__auto____$37, G__435180, ___7644__auto____$38, G__435181, ___7644__auto____$39, G__435182, ___7644__auto____$40, G__435183, ___7644__auto____$41, ___7646__auto____$21, 
-      ___7646__auto____$22, G__435120, G__435121, ___7644__auto____$42, G__435122, G__435123, ___7644__auto____$43, ___7646__auto____$23, G__435124, G__435125, ___7644__auto____$44, G__435126, ___7644__auto____$45, G__435127, ___7643__auto____$14, G__435129, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__435131, ___7644__auto____$47, G__435184, ___7644__auto____$48, G__435185, G__435186, G__435187, G__435188, G__435189, G__435190) {
-        return function(G__436658, G__436659) {
-          return G__436658.nodeValue = [cljs.core.str("Height ("), cljs.core.str(G__436659), cljs.core.str(" cm)")].join("")
+      tailrecursion.javelin.lift.call(null, function(t__7094__auto__, G__438350, G__438351, G__438352, G__438353, ___7644__auto__, G__438354, ___7644__auto____$1, G__438355, G__438356, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__438357, G__438358, G__438359, G__438360, ___7644__auto____$3, G__438361, ___7644__auto____$4, ___7646__auto____$3, G__438362, G__438363, ___7644__auto____$5, G__438364, ___7644__auto____$6, ___7646__auto____$4, G__438365, G__438366, 
+      ___7644__auto____$7, G__438367, ___7644__auto____$8, ___7646__auto____$5, ___7646__auto____$6, G__438368, ___7644__auto____$9, G__438369, G__438370, G__438371, ___7643__auto__, G__438373, ___7644__auto____$10, ___7646__auto____$7, G__438374, ___7644__auto____$11, G__438375, ___7643__auto____$1, G__438377, ___7644__auto____$12, ___7646__auto____$8, G__438378, ___7644__auto____$13, G__438422, ___7643__auto____$2, G__438424, ___7644__auto____$14, ___7643__auto____$3, G__438426, ___7644__auto____$15, 
+      ___7643__auto____$4, ___7646__auto____$9, G__438427, ___7644__auto____$16, G__438429, ___7643__auto____$5, G__438431, ___7644__auto____$17, ___7646__auto____$10, G__438432, ___7644__auto____$18, G__438433, ___7644__auto____$19, G__438434, ___7643__auto____$6, G__438436, ___7644__auto____$20, ___7646__auto____$11, G__438437, ___7644__auto____$21, G__438438, ___7644__auto____$22, G__438439, ___7643__auto____$7, G__438441, ___7644__auto____$23, ___7643__auto____$8, G__438443, ___7644__auto____$24, 
+      ___7643__auto____$9, ___7646__auto____$12, G__438444, ___7643__auto____$10, G__438446, ___7644__auto____$25, ___7646__auto____$13, G__438448, ___7644__auto____$26, G__438449, ___7643__auto____$11, G__438451, ___7644__auto____$27, ___7643__auto____$12, G__438453, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__438454, ___7644__auto____$29, ___7646__auto____$15, G__438379, G__438380, G__438381, ___7644__auto____$30, ___7646__auto____$16, G__438382, G__438383, G__438384, ___7644__auto____$31, 
+      ___7646__auto____$17, ___7646__auto____$18, G__438385, G__438386, ___7644__auto____$32, ___7646__auto____$19, G__438387, G__438388, G__438389, G__438390, ___7644__auto____$33, ___7646__auto____$20, G__438391, G__438392, ___7644__auto____$34, G__438393, ___7644__auto____$35, G__438394, ___7644__auto____$36, G__438395, ___7644__auto____$37, G__438456, ___7644__auto____$38, G__438457, ___7644__auto____$39, G__438458, ___7644__auto____$40, G__438459, ___7644__auto____$41, ___7646__auto____$21, 
+      ___7646__auto____$22, G__438396, G__438397, ___7644__auto____$42, G__438398, G__438399, ___7644__auto____$43, ___7646__auto____$23, G__438400, G__438401, ___7644__auto____$44, G__438402, ___7644__auto____$45, G__438403, ___7643__auto____$14, G__438405, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__438407, ___7644__auto____$47, G__438460, ___7644__auto____$48, G__438461, G__438462, G__438463, G__438464, G__438465, G__438466) {
+        return function(G__439934, G__439935) {
+          return G__439934.nodeValue = [cljs.core.str("Height ("), cljs.core.str(G__439935), cljs.core.str(" cm)")].join("")
         }
-      }(t__7094__auto__, G__435074, G__435075, G__435076, G__435077, ___7644__auto__, G__435078, ___7644__auto____$1, G__435079, G__435080, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__435081, G__435082, G__435083, G__435084, ___7644__auto____$3, G__435085, ___7644__auto____$4, ___7646__auto____$3, G__435086, G__435087, ___7644__auto____$5, G__435088, ___7644__auto____$6, ___7646__auto____$4, G__435089, G__435090, ___7644__auto____$7, G__435091, ___7644__auto____$8, 
-      ___7646__auto____$5, ___7646__auto____$6, G__435092, ___7644__auto____$9, G__435093, G__435094, G__435095, ___7643__auto__, G__435097, ___7644__auto____$10, ___7646__auto____$7, G__435098, ___7644__auto____$11, G__435099, ___7643__auto____$1, G__435101, ___7644__auto____$12, ___7646__auto____$8, G__435102, ___7644__auto____$13, G__435146, ___7643__auto____$2, G__435148, ___7644__auto____$14, ___7643__auto____$3, G__435150, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__435151, 
-      ___7644__auto____$16, G__435153, ___7643__auto____$5, G__435155, ___7644__auto____$17, ___7646__auto____$10, G__435156, ___7644__auto____$18, G__435157, ___7644__auto____$19, G__435158, ___7643__auto____$6, G__435160, ___7644__auto____$20, ___7646__auto____$11, G__435161, ___7644__auto____$21, G__435162, ___7644__auto____$22, G__435163, ___7643__auto____$7, G__435165, ___7644__auto____$23, ___7643__auto____$8, G__435167, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__435168, 
-      ___7643__auto____$10, G__435170, ___7644__auto____$25, ___7646__auto____$13, G__435172, ___7644__auto____$26, G__435173, ___7643__auto____$11, G__435175, ___7644__auto____$27, ___7643__auto____$12, G__435177, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__435178, ___7644__auto____$29, ___7646__auto____$15, G__435103, G__435104, G__435105, ___7644__auto____$30, ___7646__auto____$16, G__435106, G__435107, G__435108, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, 
-      G__435109, G__435110, ___7644__auto____$32, ___7646__auto____$19, G__435111, G__435112, G__435113, G__435114, ___7644__auto____$33, ___7646__auto____$20, G__435115, G__435116, ___7644__auto____$34, G__435117, ___7644__auto____$35, G__435118, ___7644__auto____$36, G__435119, ___7644__auto____$37, G__435180, ___7644__auto____$38, G__435181, ___7644__auto____$39, G__435182, ___7644__auto____$40, G__435183, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__435120, G__435121, 
-      ___7644__auto____$42, G__435122, G__435123, ___7644__auto____$43, ___7646__auto____$23, G__435124, G__435125, ___7644__auto____$44, G__435126, ___7644__auto____$45, G__435127, ___7643__auto____$14, G__435129, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__435131, ___7644__auto____$47, G__435184, ___7644__auto____$48, G__435185, G__435186, G__435187, G__435188, G__435189, G__435190)).call(null, t__7094__auto__, tailrecursion.hoplon.app_pages.G__435072.bmi_height);
+      }(t__7094__auto__, G__438350, G__438351, G__438352, G__438353, ___7644__auto__, G__438354, ___7644__auto____$1, G__438355, G__438356, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__438357, G__438358, G__438359, G__438360, ___7644__auto____$3, G__438361, ___7644__auto____$4, ___7646__auto____$3, G__438362, G__438363, ___7644__auto____$5, G__438364, ___7644__auto____$6, ___7646__auto____$4, G__438365, G__438366, ___7644__auto____$7, G__438367, ___7644__auto____$8, 
+      ___7646__auto____$5, ___7646__auto____$6, G__438368, ___7644__auto____$9, G__438369, G__438370, G__438371, ___7643__auto__, G__438373, ___7644__auto____$10, ___7646__auto____$7, G__438374, ___7644__auto____$11, G__438375, ___7643__auto____$1, G__438377, ___7644__auto____$12, ___7646__auto____$8, G__438378, ___7644__auto____$13, G__438422, ___7643__auto____$2, G__438424, ___7644__auto____$14, ___7643__auto____$3, G__438426, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__438427, 
+      ___7644__auto____$16, G__438429, ___7643__auto____$5, G__438431, ___7644__auto____$17, ___7646__auto____$10, G__438432, ___7644__auto____$18, G__438433, ___7644__auto____$19, G__438434, ___7643__auto____$6, G__438436, ___7644__auto____$20, ___7646__auto____$11, G__438437, ___7644__auto____$21, G__438438, ___7644__auto____$22, G__438439, ___7643__auto____$7, G__438441, ___7644__auto____$23, ___7643__auto____$8, G__438443, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__438444, 
+      ___7643__auto____$10, G__438446, ___7644__auto____$25, ___7646__auto____$13, G__438448, ___7644__auto____$26, G__438449, ___7643__auto____$11, G__438451, ___7644__auto____$27, ___7643__auto____$12, G__438453, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__438454, ___7644__auto____$29, ___7646__auto____$15, G__438379, G__438380, G__438381, ___7644__auto____$30, ___7646__auto____$16, G__438382, G__438383, G__438384, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, 
+      G__438385, G__438386, ___7644__auto____$32, ___7646__auto____$19, G__438387, G__438388, G__438389, G__438390, ___7644__auto____$33, ___7646__auto____$20, G__438391, G__438392, ___7644__auto____$34, G__438393, ___7644__auto____$35, G__438394, ___7644__auto____$36, G__438395, ___7644__auto____$37, G__438456, ___7644__auto____$38, G__438457, ___7644__auto____$39, G__438458, ___7644__auto____$40, G__438459, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__438396, G__438397, 
+      ___7644__auto____$42, G__438398, G__438399, ___7644__auto____$43, ___7646__auto____$23, G__438400, G__438401, ___7644__auto____$44, G__438402, ___7644__auto____$45, G__438403, ___7643__auto____$14, G__438405, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__438407, ___7644__auto____$47, G__438460, ___7644__auto____$48, G__438461, G__438462, G__438463, G__438464, G__438465, G__438466)).call(null, t__7094__auto__, tailrecursion.hoplon.app_pages.G__438348.bmi_height);
       return t__7094__auto__
     }();
-    var ___7644__auto____$49 = G__435190.call(null, G__435191);
-    var ___7646__auto____$25 = G__435189.call(null, G__435190);
-    var G__435192 = tailrecursion.hoplon.input.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "on-change", "on-change", 606853840), function(G__435074, G__435075, G__435076, G__435077, ___7644__auto__, G__435078, ___7644__auto____$1, G__435079, G__435080, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__435081, G__435082, G__435083, G__435084, ___7644__auto____$3, G__435085, ___7644__auto____$4, ___7646__auto____$3, G__435086, G__435087, 
-    ___7644__auto____$5, G__435088, ___7644__auto____$6, ___7646__auto____$4, G__435089, G__435090, ___7644__auto____$7, G__435091, ___7644__auto____$8, ___7646__auto____$5, ___7646__auto____$6, G__435092, ___7644__auto____$9, G__435093, G__435094, G__435095, ___7643__auto__, G__435097, ___7644__auto____$10, ___7646__auto____$7, G__435098, ___7644__auto____$11, G__435099, ___7643__auto____$1, G__435101, ___7644__auto____$12, ___7646__auto____$8, G__435102, ___7644__auto____$13, G__435146, ___7643__auto____$2, 
-    G__435148, ___7644__auto____$14, ___7643__auto____$3, G__435150, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__435151, ___7644__auto____$16, G__435153, ___7643__auto____$5, G__435155, ___7644__auto____$17, ___7646__auto____$10, G__435156, ___7644__auto____$18, G__435157, ___7644__auto____$19, G__435158, ___7643__auto____$6, G__435160, ___7644__auto____$20, ___7646__auto____$11, G__435161, ___7644__auto____$21, G__435162, ___7644__auto____$22, G__435163, ___7643__auto____$7, 
-    G__435165, ___7644__auto____$23, ___7643__auto____$8, G__435167, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__435168, ___7643__auto____$10, G__435170, ___7644__auto____$25, ___7646__auto____$13, G__435172, ___7644__auto____$26, G__435173, ___7643__auto____$11, G__435175, ___7644__auto____$27, ___7643__auto____$12, G__435177, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__435178, ___7644__auto____$29, ___7646__auto____$15, G__435103, G__435104, G__435105, 
-    ___7644__auto____$30, ___7646__auto____$16, G__435106, G__435107, G__435108, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__435109, G__435110, ___7644__auto____$32, ___7646__auto____$19, G__435111, G__435112, G__435113, G__435114, ___7644__auto____$33, ___7646__auto____$20, G__435115, G__435116, ___7644__auto____$34, G__435117, ___7644__auto____$35, G__435118, ___7644__auto____$36, G__435119, ___7644__auto____$37, G__435180, ___7644__auto____$38, G__435181, ___7644__auto____$39, 
-    G__435182, ___7644__auto____$40, G__435183, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__435120, G__435121, ___7644__auto____$42, G__435122, G__435123, ___7644__auto____$43, ___7646__auto____$23, G__435124, G__435125, ___7644__auto____$44, G__435126, ___7644__auto____$45, G__435127, ___7643__auto____$14, G__435129, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__435131, ___7644__auto____$47, G__435184, ___7644__auto____$48, G__435185, G__435186, G__435187, 
-    G__435188, G__435189, G__435190, G__435191, ___7644__auto____$49, ___7646__auto____$25) {
+    var ___7644__auto____$49 = G__438466.call(null, G__438467);
+    var ___7646__auto____$25 = G__438465.call(null, G__438466);
+    var G__438468 = tailrecursion.hoplon.input.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "on-change", "on-change", 606853840), function(G__438350, G__438351, G__438352, G__438353, ___7644__auto__, G__438354, ___7644__auto____$1, G__438355, G__438356, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__438357, G__438358, G__438359, G__438360, ___7644__auto____$3, G__438361, ___7644__auto____$4, ___7646__auto____$3, G__438362, G__438363, 
+    ___7644__auto____$5, G__438364, ___7644__auto____$6, ___7646__auto____$4, G__438365, G__438366, ___7644__auto____$7, G__438367, ___7644__auto____$8, ___7646__auto____$5, ___7646__auto____$6, G__438368, ___7644__auto____$9, G__438369, G__438370, G__438371, ___7643__auto__, G__438373, ___7644__auto____$10, ___7646__auto____$7, G__438374, ___7644__auto____$11, G__438375, ___7643__auto____$1, G__438377, ___7644__auto____$12, ___7646__auto____$8, G__438378, ___7644__auto____$13, G__438422, ___7643__auto____$2, 
+    G__438424, ___7644__auto____$14, ___7643__auto____$3, G__438426, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__438427, ___7644__auto____$16, G__438429, ___7643__auto____$5, G__438431, ___7644__auto____$17, ___7646__auto____$10, G__438432, ___7644__auto____$18, G__438433, ___7644__auto____$19, G__438434, ___7643__auto____$6, G__438436, ___7644__auto____$20, ___7646__auto____$11, G__438437, ___7644__auto____$21, G__438438, ___7644__auto____$22, G__438439, ___7643__auto____$7, 
+    G__438441, ___7644__auto____$23, ___7643__auto____$8, G__438443, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__438444, ___7643__auto____$10, G__438446, ___7644__auto____$25, ___7646__auto____$13, G__438448, ___7644__auto____$26, G__438449, ___7643__auto____$11, G__438451, ___7644__auto____$27, ___7643__auto____$12, G__438453, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__438454, ___7644__auto____$29, ___7646__auto____$15, G__438379, G__438380, G__438381, 
+    ___7644__auto____$30, ___7646__auto____$16, G__438382, G__438383, G__438384, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__438385, G__438386, ___7644__auto____$32, ___7646__auto____$19, G__438387, G__438388, G__438389, G__438390, ___7644__auto____$33, ___7646__auto____$20, G__438391, G__438392, ___7644__auto____$34, G__438393, ___7644__auto____$35, G__438394, ___7644__auto____$36, G__438395, ___7644__auto____$37, G__438456, ___7644__auto____$38, G__438457, ___7644__auto____$39, 
+    G__438458, ___7644__auto____$40, G__438459, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__438396, G__438397, ___7644__auto____$42, G__438398, G__438399, ___7644__auto____$43, ___7646__auto____$23, G__438400, G__438401, ___7644__auto____$44, G__438402, ___7644__auto____$45, G__438403, ___7643__auto____$14, G__438405, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__438407, ___7644__auto____$47, G__438460, ___7644__auto____$48, G__438461, G__438462, G__438463, 
+    G__438464, G__438465, G__438466, G__438467, ___7644__auto____$49, ___7646__auto____$25) {
       return function() {
-        return cljs.core.reset_BANG_.call(null, tailrecursion.hoplon.app_pages.G__435072.bmi_height, tailrecursion.hoplon.val_id.call(null, "bmi-ht"))
+        return cljs.core.reset_BANG_.call(null, tailrecursion.hoplon.app_pages.G__438348.bmi_height, tailrecursion.hoplon.val_id.call(null, "bmi-ht"))
       }
-    }(G__435074, G__435075, G__435076, G__435077, ___7644__auto__, G__435078, ___7644__auto____$1, G__435079, G__435080, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__435081, G__435082, G__435083, G__435084, ___7644__auto____$3, G__435085, ___7644__auto____$4, ___7646__auto____$3, G__435086, G__435087, ___7644__auto____$5, G__435088, ___7644__auto____$6, ___7646__auto____$4, G__435089, G__435090, ___7644__auto____$7, G__435091, ___7644__auto____$8, ___7646__auto____$5, 
-    ___7646__auto____$6, G__435092, ___7644__auto____$9, G__435093, G__435094, G__435095, ___7643__auto__, G__435097, ___7644__auto____$10, ___7646__auto____$7, G__435098, ___7644__auto____$11, G__435099, ___7643__auto____$1, G__435101, ___7644__auto____$12, ___7646__auto____$8, G__435102, ___7644__auto____$13, G__435146, ___7643__auto____$2, G__435148, ___7644__auto____$14, ___7643__auto____$3, G__435150, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__435151, ___7644__auto____$16, 
-    G__435153, ___7643__auto____$5, G__435155, ___7644__auto____$17, ___7646__auto____$10, G__435156, ___7644__auto____$18, G__435157, ___7644__auto____$19, G__435158, ___7643__auto____$6, G__435160, ___7644__auto____$20, ___7646__auto____$11, G__435161, ___7644__auto____$21, G__435162, ___7644__auto____$22, G__435163, ___7643__auto____$7, G__435165, ___7644__auto____$23, ___7643__auto____$8, G__435167, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__435168, ___7643__auto____$10, 
-    G__435170, ___7644__auto____$25, ___7646__auto____$13, G__435172, ___7644__auto____$26, G__435173, ___7643__auto____$11, G__435175, ___7644__auto____$27, ___7643__auto____$12, G__435177, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__435178, ___7644__auto____$29, ___7646__auto____$15, G__435103, G__435104, G__435105, ___7644__auto____$30, ___7646__auto____$16, G__435106, G__435107, G__435108, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__435109, G__435110, 
-    ___7644__auto____$32, ___7646__auto____$19, G__435111, G__435112, G__435113, G__435114, ___7644__auto____$33, ___7646__auto____$20, G__435115, G__435116, ___7644__auto____$34, G__435117, ___7644__auto____$35, G__435118, ___7644__auto____$36, G__435119, ___7644__auto____$37, G__435180, ___7644__auto____$38, G__435181, ___7644__auto____$39, G__435182, ___7644__auto____$40, G__435183, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__435120, G__435121, ___7644__auto____$42, G__435122, 
-    G__435123, ___7644__auto____$43, ___7646__auto____$23, G__435124, G__435125, ___7644__auto____$44, G__435126, ___7644__auto____$45, G__435127, ___7643__auto____$14, G__435129, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__435131, ___7644__auto____$47, G__435184, ___7644__auto____$48, G__435185, G__435186, G__435187, G__435188, G__435189, G__435190, G__435191, ___7644__auto____$49, ___7646__auto____$25), new cljs.core.Keyword(null, "id", "id", 1013907597), "bmi-ht", new cljs.core.Keyword(null, 
-    "class", "class", 1108647146), "form-control", new cljs.core.Keyword(null, "type", "type", 1017479852), "range", new cljs.core.Keyword(null, "min", "min", 1014012356), 0, new cljs.core.Keyword(null, "max", "max", 1014012118), 250, new cljs.core.Keyword(null, "value", "value", 1125876963), cljs.core.deref.call(null, tailrecursion.hoplon.app_pages.G__435072.bmi_height)], true));
-    var ___7644__auto____$50 = G__435189.call(null, G__435192);
-    var ___7646__auto____$26 = G__435188.call(null, G__435189);
-    var G__435193 = tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "form-group"], true));
-    var G__435194 = tailrecursion.hoplon.label.call(null);
-    var G__435195 = function() {
+    }(G__438350, G__438351, G__438352, G__438353, ___7644__auto__, G__438354, ___7644__auto____$1, G__438355, G__438356, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__438357, G__438358, G__438359, G__438360, ___7644__auto____$3, G__438361, ___7644__auto____$4, ___7646__auto____$3, G__438362, G__438363, ___7644__auto____$5, G__438364, ___7644__auto____$6, ___7646__auto____$4, G__438365, G__438366, ___7644__auto____$7, G__438367, ___7644__auto____$8, ___7646__auto____$5, 
+    ___7646__auto____$6, G__438368, ___7644__auto____$9, G__438369, G__438370, G__438371, ___7643__auto__, G__438373, ___7644__auto____$10, ___7646__auto____$7, G__438374, ___7644__auto____$11, G__438375, ___7643__auto____$1, G__438377, ___7644__auto____$12, ___7646__auto____$8, G__438378, ___7644__auto____$13, G__438422, ___7643__auto____$2, G__438424, ___7644__auto____$14, ___7643__auto____$3, G__438426, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__438427, ___7644__auto____$16, 
+    G__438429, ___7643__auto____$5, G__438431, ___7644__auto____$17, ___7646__auto____$10, G__438432, ___7644__auto____$18, G__438433, ___7644__auto____$19, G__438434, ___7643__auto____$6, G__438436, ___7644__auto____$20, ___7646__auto____$11, G__438437, ___7644__auto____$21, G__438438, ___7644__auto____$22, G__438439, ___7643__auto____$7, G__438441, ___7644__auto____$23, ___7643__auto____$8, G__438443, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__438444, ___7643__auto____$10, 
+    G__438446, ___7644__auto____$25, ___7646__auto____$13, G__438448, ___7644__auto____$26, G__438449, ___7643__auto____$11, G__438451, ___7644__auto____$27, ___7643__auto____$12, G__438453, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__438454, ___7644__auto____$29, ___7646__auto____$15, G__438379, G__438380, G__438381, ___7644__auto____$30, ___7646__auto____$16, G__438382, G__438383, G__438384, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__438385, G__438386, 
+    ___7644__auto____$32, ___7646__auto____$19, G__438387, G__438388, G__438389, G__438390, ___7644__auto____$33, ___7646__auto____$20, G__438391, G__438392, ___7644__auto____$34, G__438393, ___7644__auto____$35, G__438394, ___7644__auto____$36, G__438395, ___7644__auto____$37, G__438456, ___7644__auto____$38, G__438457, ___7644__auto____$39, G__438458, ___7644__auto____$40, G__438459, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__438396, G__438397, ___7644__auto____$42, G__438398, 
+    G__438399, ___7644__auto____$43, ___7646__auto____$23, G__438400, G__438401, ___7644__auto____$44, G__438402, ___7644__auto____$45, G__438403, ___7643__auto____$14, G__438405, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__438407, ___7644__auto____$47, G__438460, ___7644__auto____$48, G__438461, G__438462, G__438463, G__438464, G__438465, G__438466, G__438467, ___7644__auto____$49, ___7646__auto____$25), new cljs.core.Keyword(null, "id", "id", 1013907597), "bmi-ht", new cljs.core.Keyword(null, 
+    "class", "class", 1108647146), "form-control", new cljs.core.Keyword(null, "type", "type", 1017479852), "range", new cljs.core.Keyword(null, "min", "min", 1014012356), 0, new cljs.core.Keyword(null, "max", "max", 1014012118), 250, new cljs.core.Keyword(null, "value", "value", 1125876963), cljs.core.deref.call(null, tailrecursion.hoplon.app_pages.G__438348.bmi_height)], true));
+    var ___7644__auto____$50 = G__438465.call(null, G__438468);
+    var ___7646__auto____$26 = G__438464.call(null, G__438465);
+    var G__438469 = tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "form-group"], true));
+    var G__438470 = tailrecursion.hoplon.label.call(null);
+    var G__438471 = function() {
       var t__7094__auto__ = document.createTextNode("");
-      tailrecursion.javelin.lift.call(null, function(t__7094__auto__, G__435074, G__435075, G__435076, G__435077, ___7644__auto__, G__435078, ___7644__auto____$1, G__435079, G__435080, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__435081, G__435082, G__435083, G__435084, ___7644__auto____$3, G__435085, ___7644__auto____$4, ___7646__auto____$3, G__435086, G__435087, ___7644__auto____$5, G__435088, ___7644__auto____$6, ___7646__auto____$4, G__435089, G__435090, 
-      ___7644__auto____$7, G__435091, ___7644__auto____$8, ___7646__auto____$5, ___7646__auto____$6, G__435092, ___7644__auto____$9, G__435093, G__435094, G__435095, ___7643__auto__, G__435097, ___7644__auto____$10, ___7646__auto____$7, G__435098, ___7644__auto____$11, G__435099, ___7643__auto____$1, G__435101, ___7644__auto____$12, ___7646__auto____$8, G__435102, ___7644__auto____$13, G__435146, ___7643__auto____$2, G__435148, ___7644__auto____$14, ___7643__auto____$3, G__435150, ___7644__auto____$15, 
-      ___7643__auto____$4, ___7646__auto____$9, G__435151, ___7644__auto____$16, G__435153, ___7643__auto____$5, G__435155, ___7644__auto____$17, ___7646__auto____$10, G__435156, ___7644__auto____$18, G__435157, ___7644__auto____$19, G__435158, ___7643__auto____$6, G__435160, ___7644__auto____$20, ___7646__auto____$11, G__435161, ___7644__auto____$21, G__435162, ___7644__auto____$22, G__435163, ___7643__auto____$7, G__435165, ___7644__auto____$23, ___7643__auto____$8, G__435167, ___7644__auto____$24, 
-      ___7643__auto____$9, ___7646__auto____$12, G__435168, ___7643__auto____$10, G__435170, ___7644__auto____$25, ___7646__auto____$13, G__435172, ___7644__auto____$26, G__435173, ___7643__auto____$11, G__435175, ___7644__auto____$27, ___7643__auto____$12, G__435177, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__435178, ___7644__auto____$29, ___7646__auto____$15, G__435103, G__435104, G__435105, ___7644__auto____$30, ___7646__auto____$16, G__435106, G__435107, G__435108, ___7644__auto____$31, 
-      ___7646__auto____$17, ___7646__auto____$18, G__435109, G__435110, ___7644__auto____$32, ___7646__auto____$19, G__435111, G__435112, G__435113, G__435114, ___7644__auto____$33, ___7646__auto____$20, G__435115, G__435116, ___7644__auto____$34, G__435117, ___7644__auto____$35, G__435118, ___7644__auto____$36, G__435119, ___7644__auto____$37, G__435180, ___7644__auto____$38, G__435181, ___7644__auto____$39, G__435182, ___7644__auto____$40, G__435183, ___7644__auto____$41, ___7646__auto____$21, 
-      ___7646__auto____$22, G__435120, G__435121, ___7644__auto____$42, G__435122, G__435123, ___7644__auto____$43, ___7646__auto____$23, G__435124, G__435125, ___7644__auto____$44, G__435126, ___7644__auto____$45, G__435127, ___7643__auto____$14, G__435129, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__435131, ___7644__auto____$47, G__435184, ___7644__auto____$48, G__435185, G__435186, G__435187, G__435188, G__435189, G__435190, G__435191, ___7644__auto____$49, ___7646__auto____$25, 
-      G__435192, ___7644__auto____$50, ___7646__auto____$26, G__435193, G__435194) {
-        return function(G__436661, G__436660) {
-          return G__436660.nodeValue = [cljs.core.str("Weight ("), cljs.core.str((G__436661 / 10).toFixed(1)), cljs.core.str(" kg)")].join("")
+      tailrecursion.javelin.lift.call(null, function(t__7094__auto__, G__438350, G__438351, G__438352, G__438353, ___7644__auto__, G__438354, ___7644__auto____$1, G__438355, G__438356, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__438357, G__438358, G__438359, G__438360, ___7644__auto____$3, G__438361, ___7644__auto____$4, ___7646__auto____$3, G__438362, G__438363, ___7644__auto____$5, G__438364, ___7644__auto____$6, ___7646__auto____$4, G__438365, G__438366, 
+      ___7644__auto____$7, G__438367, ___7644__auto____$8, ___7646__auto____$5, ___7646__auto____$6, G__438368, ___7644__auto____$9, G__438369, G__438370, G__438371, ___7643__auto__, G__438373, ___7644__auto____$10, ___7646__auto____$7, G__438374, ___7644__auto____$11, G__438375, ___7643__auto____$1, G__438377, ___7644__auto____$12, ___7646__auto____$8, G__438378, ___7644__auto____$13, G__438422, ___7643__auto____$2, G__438424, ___7644__auto____$14, ___7643__auto____$3, G__438426, ___7644__auto____$15, 
+      ___7643__auto____$4, ___7646__auto____$9, G__438427, ___7644__auto____$16, G__438429, ___7643__auto____$5, G__438431, ___7644__auto____$17, ___7646__auto____$10, G__438432, ___7644__auto____$18, G__438433, ___7644__auto____$19, G__438434, ___7643__auto____$6, G__438436, ___7644__auto____$20, ___7646__auto____$11, G__438437, ___7644__auto____$21, G__438438, ___7644__auto____$22, G__438439, ___7643__auto____$7, G__438441, ___7644__auto____$23, ___7643__auto____$8, G__438443, ___7644__auto____$24, 
+      ___7643__auto____$9, ___7646__auto____$12, G__438444, ___7643__auto____$10, G__438446, ___7644__auto____$25, ___7646__auto____$13, G__438448, ___7644__auto____$26, G__438449, ___7643__auto____$11, G__438451, ___7644__auto____$27, ___7643__auto____$12, G__438453, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__438454, ___7644__auto____$29, ___7646__auto____$15, G__438379, G__438380, G__438381, ___7644__auto____$30, ___7646__auto____$16, G__438382, G__438383, G__438384, ___7644__auto____$31, 
+      ___7646__auto____$17, ___7646__auto____$18, G__438385, G__438386, ___7644__auto____$32, ___7646__auto____$19, G__438387, G__438388, G__438389, G__438390, ___7644__auto____$33, ___7646__auto____$20, G__438391, G__438392, ___7644__auto____$34, G__438393, ___7644__auto____$35, G__438394, ___7644__auto____$36, G__438395, ___7644__auto____$37, G__438456, ___7644__auto____$38, G__438457, ___7644__auto____$39, G__438458, ___7644__auto____$40, G__438459, ___7644__auto____$41, ___7646__auto____$21, 
+      ___7646__auto____$22, G__438396, G__438397, ___7644__auto____$42, G__438398, G__438399, ___7644__auto____$43, ___7646__auto____$23, G__438400, G__438401, ___7644__auto____$44, G__438402, ___7644__auto____$45, G__438403, ___7643__auto____$14, G__438405, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__438407, ___7644__auto____$47, G__438460, ___7644__auto____$48, G__438461, G__438462, G__438463, G__438464, G__438465, G__438466, G__438467, ___7644__auto____$49, ___7646__auto____$25, 
+      G__438468, ___7644__auto____$50, ___7646__auto____$26, G__438469, G__438470) {
+        return function(G__439937, G__439936) {
+          return G__439936.nodeValue = [cljs.core.str("Weight ("), cljs.core.str((G__439937 / 10).toFixed(1)), cljs.core.str(" kg)")].join("")
         }
-      }(t__7094__auto__, G__435074, G__435075, G__435076, G__435077, ___7644__auto__, G__435078, ___7644__auto____$1, G__435079, G__435080, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__435081, G__435082, G__435083, G__435084, ___7644__auto____$3, G__435085, ___7644__auto____$4, ___7646__auto____$3, G__435086, G__435087, ___7644__auto____$5, G__435088, ___7644__auto____$6, ___7646__auto____$4, G__435089, G__435090, ___7644__auto____$7, G__435091, ___7644__auto____$8, 
-      ___7646__auto____$5, ___7646__auto____$6, G__435092, ___7644__auto____$9, G__435093, G__435094, G__435095, ___7643__auto__, G__435097, ___7644__auto____$10, ___7646__auto____$7, G__435098, ___7644__auto____$11, G__435099, ___7643__auto____$1, G__435101, ___7644__auto____$12, ___7646__auto____$8, G__435102, ___7644__auto____$13, G__435146, ___7643__auto____$2, G__435148, ___7644__auto____$14, ___7643__auto____$3, G__435150, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__435151, 
-      ___7644__auto____$16, G__435153, ___7643__auto____$5, G__435155, ___7644__auto____$17, ___7646__auto____$10, G__435156, ___7644__auto____$18, G__435157, ___7644__auto____$19, G__435158, ___7643__auto____$6, G__435160, ___7644__auto____$20, ___7646__auto____$11, G__435161, ___7644__auto____$21, G__435162, ___7644__auto____$22, G__435163, ___7643__auto____$7, G__435165, ___7644__auto____$23, ___7643__auto____$8, G__435167, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__435168, 
-      ___7643__auto____$10, G__435170, ___7644__auto____$25, ___7646__auto____$13, G__435172, ___7644__auto____$26, G__435173, ___7643__auto____$11, G__435175, ___7644__auto____$27, ___7643__auto____$12, G__435177, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__435178, ___7644__auto____$29, ___7646__auto____$15, G__435103, G__435104, G__435105, ___7644__auto____$30, ___7646__auto____$16, G__435106, G__435107, G__435108, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, 
-      G__435109, G__435110, ___7644__auto____$32, ___7646__auto____$19, G__435111, G__435112, G__435113, G__435114, ___7644__auto____$33, ___7646__auto____$20, G__435115, G__435116, ___7644__auto____$34, G__435117, ___7644__auto____$35, G__435118, ___7644__auto____$36, G__435119, ___7644__auto____$37, G__435180, ___7644__auto____$38, G__435181, ___7644__auto____$39, G__435182, ___7644__auto____$40, G__435183, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__435120, G__435121, 
-      ___7644__auto____$42, G__435122, G__435123, ___7644__auto____$43, ___7646__auto____$23, G__435124, G__435125, ___7644__auto____$44, G__435126, ___7644__auto____$45, G__435127, ___7643__auto____$14, G__435129, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__435131, ___7644__auto____$47, G__435184, ___7644__auto____$48, G__435185, G__435186, G__435187, G__435188, G__435189, G__435190, G__435191, ___7644__auto____$49, ___7646__auto____$25, G__435192, ___7644__auto____$50, 
-      ___7646__auto____$26, G__435193, G__435194)).call(null, tailrecursion.hoplon.app_pages.G__435072.bmi_weight, t__7094__auto__);
+      }(t__7094__auto__, G__438350, G__438351, G__438352, G__438353, ___7644__auto__, G__438354, ___7644__auto____$1, G__438355, G__438356, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__438357, G__438358, G__438359, G__438360, ___7644__auto____$3, G__438361, ___7644__auto____$4, ___7646__auto____$3, G__438362, G__438363, ___7644__auto____$5, G__438364, ___7644__auto____$6, ___7646__auto____$4, G__438365, G__438366, ___7644__auto____$7, G__438367, ___7644__auto____$8, 
+      ___7646__auto____$5, ___7646__auto____$6, G__438368, ___7644__auto____$9, G__438369, G__438370, G__438371, ___7643__auto__, G__438373, ___7644__auto____$10, ___7646__auto____$7, G__438374, ___7644__auto____$11, G__438375, ___7643__auto____$1, G__438377, ___7644__auto____$12, ___7646__auto____$8, G__438378, ___7644__auto____$13, G__438422, ___7643__auto____$2, G__438424, ___7644__auto____$14, ___7643__auto____$3, G__438426, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__438427, 
+      ___7644__auto____$16, G__438429, ___7643__auto____$5, G__438431, ___7644__auto____$17, ___7646__auto____$10, G__438432, ___7644__auto____$18, G__438433, ___7644__auto____$19, G__438434, ___7643__auto____$6, G__438436, ___7644__auto____$20, ___7646__auto____$11, G__438437, ___7644__auto____$21, G__438438, ___7644__auto____$22, G__438439, ___7643__auto____$7, G__438441, ___7644__auto____$23, ___7643__auto____$8, G__438443, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__438444, 
+      ___7643__auto____$10, G__438446, ___7644__auto____$25, ___7646__auto____$13, G__438448, ___7644__auto____$26, G__438449, ___7643__auto____$11, G__438451, ___7644__auto____$27, ___7643__auto____$12, G__438453, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__438454, ___7644__auto____$29, ___7646__auto____$15, G__438379, G__438380, G__438381, ___7644__auto____$30, ___7646__auto____$16, G__438382, G__438383, G__438384, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, 
+      G__438385, G__438386, ___7644__auto____$32, ___7646__auto____$19, G__438387, G__438388, G__438389, G__438390, ___7644__auto____$33, ___7646__auto____$20, G__438391, G__438392, ___7644__auto____$34, G__438393, ___7644__auto____$35, G__438394, ___7644__auto____$36, G__438395, ___7644__auto____$37, G__438456, ___7644__auto____$38, G__438457, ___7644__auto____$39, G__438458, ___7644__auto____$40, G__438459, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__438396, G__438397, 
+      ___7644__auto____$42, G__438398, G__438399, ___7644__auto____$43, ___7646__auto____$23, G__438400, G__438401, ___7644__auto____$44, G__438402, ___7644__auto____$45, G__438403, ___7643__auto____$14, G__438405, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__438407, ___7644__auto____$47, G__438460, ___7644__auto____$48, G__438461, G__438462, G__438463, G__438464, G__438465, G__438466, G__438467, ___7644__auto____$49, ___7646__auto____$25, G__438468, ___7644__auto____$50, 
+      ___7646__auto____$26, G__438469, G__438470)).call(null, tailrecursion.hoplon.app_pages.G__438348.bmi_weight, t__7094__auto__);
       return t__7094__auto__
     }();
-    var ___7644__auto____$51 = G__435194.call(null, G__435195);
-    var ___7646__auto____$27 = G__435193.call(null, G__435194);
-    var G__435196 = tailrecursion.hoplon.input.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "on-change", "on-change", 606853840), function(G__435074, G__435075, G__435076, G__435077, ___7644__auto__, G__435078, ___7644__auto____$1, G__435079, G__435080, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__435081, G__435082, G__435083, G__435084, ___7644__auto____$3, G__435085, ___7644__auto____$4, ___7646__auto____$3, G__435086, G__435087, 
-    ___7644__auto____$5, G__435088, ___7644__auto____$6, ___7646__auto____$4, G__435089, G__435090, ___7644__auto____$7, G__435091, ___7644__auto____$8, ___7646__auto____$5, ___7646__auto____$6, G__435092, ___7644__auto____$9, G__435093, G__435094, G__435095, ___7643__auto__, G__435097, ___7644__auto____$10, ___7646__auto____$7, G__435098, ___7644__auto____$11, G__435099, ___7643__auto____$1, G__435101, ___7644__auto____$12, ___7646__auto____$8, G__435102, ___7644__auto____$13, G__435146, ___7643__auto____$2, 
-    G__435148, ___7644__auto____$14, ___7643__auto____$3, G__435150, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__435151, ___7644__auto____$16, G__435153, ___7643__auto____$5, G__435155, ___7644__auto____$17, ___7646__auto____$10, G__435156, ___7644__auto____$18, G__435157, ___7644__auto____$19, G__435158, ___7643__auto____$6, G__435160, ___7644__auto____$20, ___7646__auto____$11, G__435161, ___7644__auto____$21, G__435162, ___7644__auto____$22, G__435163, ___7643__auto____$7, 
-    G__435165, ___7644__auto____$23, ___7643__auto____$8, G__435167, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__435168, ___7643__auto____$10, G__435170, ___7644__auto____$25, ___7646__auto____$13, G__435172, ___7644__auto____$26, G__435173, ___7643__auto____$11, G__435175, ___7644__auto____$27, ___7643__auto____$12, G__435177, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__435178, ___7644__auto____$29, ___7646__auto____$15, G__435103, G__435104, G__435105, 
-    ___7644__auto____$30, ___7646__auto____$16, G__435106, G__435107, G__435108, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__435109, G__435110, ___7644__auto____$32, ___7646__auto____$19, G__435111, G__435112, G__435113, G__435114, ___7644__auto____$33, ___7646__auto____$20, G__435115, G__435116, ___7644__auto____$34, G__435117, ___7644__auto____$35, G__435118, ___7644__auto____$36, G__435119, ___7644__auto____$37, G__435180, ___7644__auto____$38, G__435181, ___7644__auto____$39, 
-    G__435182, ___7644__auto____$40, G__435183, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__435120, G__435121, ___7644__auto____$42, G__435122, G__435123, ___7644__auto____$43, ___7646__auto____$23, G__435124, G__435125, ___7644__auto____$44, G__435126, ___7644__auto____$45, G__435127, ___7643__auto____$14, G__435129, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__435131, ___7644__auto____$47, G__435184, ___7644__auto____$48, G__435185, G__435186, G__435187, 
-    G__435188, G__435189, G__435190, G__435191, ___7644__auto____$49, ___7646__auto____$25, G__435192, ___7644__auto____$50, ___7646__auto____$26, G__435193, G__435194, G__435195, ___7644__auto____$51, ___7646__auto____$27) {
+    var ___7644__auto____$51 = G__438470.call(null, G__438471);
+    var ___7646__auto____$27 = G__438469.call(null, G__438470);
+    var G__438472 = tailrecursion.hoplon.input.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "on-change", "on-change", 606853840), function(G__438350, G__438351, G__438352, G__438353, ___7644__auto__, G__438354, ___7644__auto____$1, G__438355, G__438356, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__438357, G__438358, G__438359, G__438360, ___7644__auto____$3, G__438361, ___7644__auto____$4, ___7646__auto____$3, G__438362, G__438363, 
+    ___7644__auto____$5, G__438364, ___7644__auto____$6, ___7646__auto____$4, G__438365, G__438366, ___7644__auto____$7, G__438367, ___7644__auto____$8, ___7646__auto____$5, ___7646__auto____$6, G__438368, ___7644__auto____$9, G__438369, G__438370, G__438371, ___7643__auto__, G__438373, ___7644__auto____$10, ___7646__auto____$7, G__438374, ___7644__auto____$11, G__438375, ___7643__auto____$1, G__438377, ___7644__auto____$12, ___7646__auto____$8, G__438378, ___7644__auto____$13, G__438422, ___7643__auto____$2, 
+    G__438424, ___7644__auto____$14, ___7643__auto____$3, G__438426, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__438427, ___7644__auto____$16, G__438429, ___7643__auto____$5, G__438431, ___7644__auto____$17, ___7646__auto____$10, G__438432, ___7644__auto____$18, G__438433, ___7644__auto____$19, G__438434, ___7643__auto____$6, G__438436, ___7644__auto____$20, ___7646__auto____$11, G__438437, ___7644__auto____$21, G__438438, ___7644__auto____$22, G__438439, ___7643__auto____$7, 
+    G__438441, ___7644__auto____$23, ___7643__auto____$8, G__438443, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__438444, ___7643__auto____$10, G__438446, ___7644__auto____$25, ___7646__auto____$13, G__438448, ___7644__auto____$26, G__438449, ___7643__auto____$11, G__438451, ___7644__auto____$27, ___7643__auto____$12, G__438453, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__438454, ___7644__auto____$29, ___7646__auto____$15, G__438379, G__438380, G__438381, 
+    ___7644__auto____$30, ___7646__auto____$16, G__438382, G__438383, G__438384, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__438385, G__438386, ___7644__auto____$32, ___7646__auto____$19, G__438387, G__438388, G__438389, G__438390, ___7644__auto____$33, ___7646__auto____$20, G__438391, G__438392, ___7644__auto____$34, G__438393, ___7644__auto____$35, G__438394, ___7644__auto____$36, G__438395, ___7644__auto____$37, G__438456, ___7644__auto____$38, G__438457, ___7644__auto____$39, 
+    G__438458, ___7644__auto____$40, G__438459, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__438396, G__438397, ___7644__auto____$42, G__438398, G__438399, ___7644__auto____$43, ___7646__auto____$23, G__438400, G__438401, ___7644__auto____$44, G__438402, ___7644__auto____$45, G__438403, ___7643__auto____$14, G__438405, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__438407, ___7644__auto____$47, G__438460, ___7644__auto____$48, G__438461, G__438462, G__438463, 
+    G__438464, G__438465, G__438466, G__438467, ___7644__auto____$49, ___7646__auto____$25, G__438468, ___7644__auto____$50, ___7646__auto____$26, G__438469, G__438470, G__438471, ___7644__auto____$51, ___7646__auto____$27) {
       return function() {
-        return cljs.core.reset_BANG_.call(null, tailrecursion.hoplon.app_pages.G__435072.bmi_weight, tailrecursion.hoplon.val_id.call(null, "bmi-wt"))
+        return cljs.core.reset_BANG_.call(null, tailrecursion.hoplon.app_pages.G__438348.bmi_weight, tailrecursion.hoplon.val_id.call(null, "bmi-wt"))
       }
-    }(G__435074, G__435075, G__435076, G__435077, ___7644__auto__, G__435078, ___7644__auto____$1, G__435079, G__435080, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__435081, G__435082, G__435083, G__435084, ___7644__auto____$3, G__435085, ___7644__auto____$4, ___7646__auto____$3, G__435086, G__435087, ___7644__auto____$5, G__435088, ___7644__auto____$6, ___7646__auto____$4, G__435089, G__435090, ___7644__auto____$7, G__435091, ___7644__auto____$8, ___7646__auto____$5, 
-    ___7646__auto____$6, G__435092, ___7644__auto____$9, G__435093, G__435094, G__435095, ___7643__auto__, G__435097, ___7644__auto____$10, ___7646__auto____$7, G__435098, ___7644__auto____$11, G__435099, ___7643__auto____$1, G__435101, ___7644__auto____$12, ___7646__auto____$8, G__435102, ___7644__auto____$13, G__435146, ___7643__auto____$2, G__435148, ___7644__auto____$14, ___7643__auto____$3, G__435150, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__435151, ___7644__auto____$16, 
-    G__435153, ___7643__auto____$5, G__435155, ___7644__auto____$17, ___7646__auto____$10, G__435156, ___7644__auto____$18, G__435157, ___7644__auto____$19, G__435158, ___7643__auto____$6, G__435160, ___7644__auto____$20, ___7646__auto____$11, G__435161, ___7644__auto____$21, G__435162, ___7644__auto____$22, G__435163, ___7643__auto____$7, G__435165, ___7644__auto____$23, ___7643__auto____$8, G__435167, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__435168, ___7643__auto____$10, 
-    G__435170, ___7644__auto____$25, ___7646__auto____$13, G__435172, ___7644__auto____$26, G__435173, ___7643__auto____$11, G__435175, ___7644__auto____$27, ___7643__auto____$12, G__435177, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__435178, ___7644__auto____$29, ___7646__auto____$15, G__435103, G__435104, G__435105, ___7644__auto____$30, ___7646__auto____$16, G__435106, G__435107, G__435108, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__435109, G__435110, 
-    ___7644__auto____$32, ___7646__auto____$19, G__435111, G__435112, G__435113, G__435114, ___7644__auto____$33, ___7646__auto____$20, G__435115, G__435116, ___7644__auto____$34, G__435117, ___7644__auto____$35, G__435118, ___7644__auto____$36, G__435119, ___7644__auto____$37, G__435180, ___7644__auto____$38, G__435181, ___7644__auto____$39, G__435182, ___7644__auto____$40, G__435183, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__435120, G__435121, ___7644__auto____$42, G__435122, 
-    G__435123, ___7644__auto____$43, ___7646__auto____$23, G__435124, G__435125, ___7644__auto____$44, G__435126, ___7644__auto____$45, G__435127, ___7643__auto____$14, G__435129, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__435131, ___7644__auto____$47, G__435184, ___7644__auto____$48, G__435185, G__435186, G__435187, G__435188, G__435189, G__435190, G__435191, ___7644__auto____$49, ___7646__auto____$25, G__435192, ___7644__auto____$50, ___7646__auto____$26, G__435193, G__435194, 
-    G__435195, ___7644__auto____$51, ___7646__auto____$27), new cljs.core.Keyword(null, "id", "id", 1013907597), "bmi-wt", new cljs.core.Keyword(null, "class", "class", 1108647146), "form-control", new cljs.core.Keyword(null, "type", "type", 1017479852), "range", new cljs.core.Keyword(null, "min", "min", 1014012356), 0, new cljs.core.Keyword(null, "max", "max", 1014012118), 1500, new cljs.core.Keyword(null, "value", "value", 1125876963), cljs.core.deref.call(null, tailrecursion.hoplon.app_pages.G__435072.bmi_weight)], 
+    }(G__438350, G__438351, G__438352, G__438353, ___7644__auto__, G__438354, ___7644__auto____$1, G__438355, G__438356, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__438357, G__438358, G__438359, G__438360, ___7644__auto____$3, G__438361, ___7644__auto____$4, ___7646__auto____$3, G__438362, G__438363, ___7644__auto____$5, G__438364, ___7644__auto____$6, ___7646__auto____$4, G__438365, G__438366, ___7644__auto____$7, G__438367, ___7644__auto____$8, ___7646__auto____$5, 
+    ___7646__auto____$6, G__438368, ___7644__auto____$9, G__438369, G__438370, G__438371, ___7643__auto__, G__438373, ___7644__auto____$10, ___7646__auto____$7, G__438374, ___7644__auto____$11, G__438375, ___7643__auto____$1, G__438377, ___7644__auto____$12, ___7646__auto____$8, G__438378, ___7644__auto____$13, G__438422, ___7643__auto____$2, G__438424, ___7644__auto____$14, ___7643__auto____$3, G__438426, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__438427, ___7644__auto____$16, 
+    G__438429, ___7643__auto____$5, G__438431, ___7644__auto____$17, ___7646__auto____$10, G__438432, ___7644__auto____$18, G__438433, ___7644__auto____$19, G__438434, ___7643__auto____$6, G__438436, ___7644__auto____$20, ___7646__auto____$11, G__438437, ___7644__auto____$21, G__438438, ___7644__auto____$22, G__438439, ___7643__auto____$7, G__438441, ___7644__auto____$23, ___7643__auto____$8, G__438443, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__438444, ___7643__auto____$10, 
+    G__438446, ___7644__auto____$25, ___7646__auto____$13, G__438448, ___7644__auto____$26, G__438449, ___7643__auto____$11, G__438451, ___7644__auto____$27, ___7643__auto____$12, G__438453, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__438454, ___7644__auto____$29, ___7646__auto____$15, G__438379, G__438380, G__438381, ___7644__auto____$30, ___7646__auto____$16, G__438382, G__438383, G__438384, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__438385, G__438386, 
+    ___7644__auto____$32, ___7646__auto____$19, G__438387, G__438388, G__438389, G__438390, ___7644__auto____$33, ___7646__auto____$20, G__438391, G__438392, ___7644__auto____$34, G__438393, ___7644__auto____$35, G__438394, ___7644__auto____$36, G__438395, ___7644__auto____$37, G__438456, ___7644__auto____$38, G__438457, ___7644__auto____$39, G__438458, ___7644__auto____$40, G__438459, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__438396, G__438397, ___7644__auto____$42, G__438398, 
+    G__438399, ___7644__auto____$43, ___7646__auto____$23, G__438400, G__438401, ___7644__auto____$44, G__438402, ___7644__auto____$45, G__438403, ___7643__auto____$14, G__438405, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__438407, ___7644__auto____$47, G__438460, ___7644__auto____$48, G__438461, G__438462, G__438463, G__438464, G__438465, G__438466, G__438467, ___7644__auto____$49, ___7646__auto____$25, G__438468, ___7644__auto____$50, ___7646__auto____$26, G__438469, G__438470, 
+    G__438471, ___7644__auto____$51, ___7646__auto____$27), new cljs.core.Keyword(null, "id", "id", 1013907597), "bmi-wt", new cljs.core.Keyword(null, "class", "class", 1108647146), "form-control", new cljs.core.Keyword(null, "type", "type", 1017479852), "range", new cljs.core.Keyword(null, "min", "min", 1014012356), 0, new cljs.core.Keyword(null, "max", "max", 1014012118), 1500, new cljs.core.Keyword(null, "value", "value", 1125876963), cljs.core.deref.call(null, tailrecursion.hoplon.app_pages.G__438348.bmi_weight)], 
     true));
-    var ___7644__auto____$52 = G__435193.call(null, G__435196);
-    var ___7646__auto____$28 = G__435188.call(null, G__435193);
-    var G__435197 = tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "form-group"], true));
-    var G__435198 = tailrecursion.hoplon.label.call(null);
-    var G__435199 = function() {
+    var ___7644__auto____$52 = G__438469.call(null, G__438472);
+    var ___7646__auto____$28 = G__438464.call(null, G__438469);
+    var G__438473 = tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "form-group"], true));
+    var G__438474 = tailrecursion.hoplon.label.call(null);
+    var G__438475 = function() {
       var t__7094__auto__ = document.createTextNode("");
-      tailrecursion.javelin.lift.call(null, function(t__7094__auto__, G__435074, G__435075, G__435076, G__435077, ___7644__auto__, G__435078, ___7644__auto____$1, G__435079, G__435080, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__435081, G__435082, G__435083, G__435084, ___7644__auto____$3, G__435085, ___7644__auto____$4, ___7646__auto____$3, G__435086, G__435087, ___7644__auto____$5, G__435088, ___7644__auto____$6, ___7646__auto____$4, G__435089, G__435090, 
-      ___7644__auto____$7, G__435091, ___7644__auto____$8, ___7646__auto____$5, ___7646__auto____$6, G__435092, ___7644__auto____$9, G__435093, G__435094, G__435095, ___7643__auto__, G__435097, ___7644__auto____$10, ___7646__auto____$7, G__435098, ___7644__auto____$11, G__435099, ___7643__auto____$1, G__435101, ___7644__auto____$12, ___7646__auto____$8, G__435102, ___7644__auto____$13, G__435146, ___7643__auto____$2, G__435148, ___7644__auto____$14, ___7643__auto____$3, G__435150, ___7644__auto____$15, 
-      ___7643__auto____$4, ___7646__auto____$9, G__435151, ___7644__auto____$16, G__435153, ___7643__auto____$5, G__435155, ___7644__auto____$17, ___7646__auto____$10, G__435156, ___7644__auto____$18, G__435157, ___7644__auto____$19, G__435158, ___7643__auto____$6, G__435160, ___7644__auto____$20, ___7646__auto____$11, G__435161, ___7644__auto____$21, G__435162, ___7644__auto____$22, G__435163, ___7643__auto____$7, G__435165, ___7644__auto____$23, ___7643__auto____$8, G__435167, ___7644__auto____$24, 
-      ___7643__auto____$9, ___7646__auto____$12, G__435168, ___7643__auto____$10, G__435170, ___7644__auto____$25, ___7646__auto____$13, G__435172, ___7644__auto____$26, G__435173, ___7643__auto____$11, G__435175, ___7644__auto____$27, ___7643__auto____$12, G__435177, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__435178, ___7644__auto____$29, ___7646__auto____$15, G__435103, G__435104, G__435105, ___7644__auto____$30, ___7646__auto____$16, G__435106, G__435107, G__435108, ___7644__auto____$31, 
-      ___7646__auto____$17, ___7646__auto____$18, G__435109, G__435110, ___7644__auto____$32, ___7646__auto____$19, G__435111, G__435112, G__435113, G__435114, ___7644__auto____$33, ___7646__auto____$20, G__435115, G__435116, ___7644__auto____$34, G__435117, ___7644__auto____$35, G__435118, ___7644__auto____$36, G__435119, ___7644__auto____$37, G__435180, ___7644__auto____$38, G__435181, ___7644__auto____$39, G__435182, ___7644__auto____$40, G__435183, ___7644__auto____$41, ___7646__auto____$21, 
-      ___7646__auto____$22, G__435120, G__435121, ___7644__auto____$42, G__435122, G__435123, ___7644__auto____$43, ___7646__auto____$23, G__435124, G__435125, ___7644__auto____$44, G__435126, ___7644__auto____$45, G__435127, ___7643__auto____$14, G__435129, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__435131, ___7644__auto____$47, G__435184, ___7644__auto____$48, G__435185, G__435186, G__435187, G__435188, G__435189, G__435190, G__435191, ___7644__auto____$49, ___7646__auto____$25, 
-      G__435192, ___7644__auto____$50, ___7646__auto____$26, G__435193, G__435194, G__435195, ___7644__auto____$51, ___7646__auto____$27, G__435196, ___7644__auto____$52, ___7646__auto____$28, G__435197, G__435198) {
-        return function(G__436663, G__436662, G__436664, G__436665) {
-          return G__436662.nodeValue = [cljs.core.str("BMI "), cljs.core.str(G__436663.toFixed(1)), cljs.core.str(" ("), cljs.core.str(G__436664.call(null, G__436665)), cljs.core.str(")")].join("")
+      tailrecursion.javelin.lift.call(null, function(t__7094__auto__, G__438350, G__438351, G__438352, G__438353, ___7644__auto__, G__438354, ___7644__auto____$1, G__438355, G__438356, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__438357, G__438358, G__438359, G__438360, ___7644__auto____$3, G__438361, ___7644__auto____$4, ___7646__auto____$3, G__438362, G__438363, ___7644__auto____$5, G__438364, ___7644__auto____$6, ___7646__auto____$4, G__438365, G__438366, 
+      ___7644__auto____$7, G__438367, ___7644__auto____$8, ___7646__auto____$5, ___7646__auto____$6, G__438368, ___7644__auto____$9, G__438369, G__438370, G__438371, ___7643__auto__, G__438373, ___7644__auto____$10, ___7646__auto____$7, G__438374, ___7644__auto____$11, G__438375, ___7643__auto____$1, G__438377, ___7644__auto____$12, ___7646__auto____$8, G__438378, ___7644__auto____$13, G__438422, ___7643__auto____$2, G__438424, ___7644__auto____$14, ___7643__auto____$3, G__438426, ___7644__auto____$15, 
+      ___7643__auto____$4, ___7646__auto____$9, G__438427, ___7644__auto____$16, G__438429, ___7643__auto____$5, G__438431, ___7644__auto____$17, ___7646__auto____$10, G__438432, ___7644__auto____$18, G__438433, ___7644__auto____$19, G__438434, ___7643__auto____$6, G__438436, ___7644__auto____$20, ___7646__auto____$11, G__438437, ___7644__auto____$21, G__438438, ___7644__auto____$22, G__438439, ___7643__auto____$7, G__438441, ___7644__auto____$23, ___7643__auto____$8, G__438443, ___7644__auto____$24, 
+      ___7643__auto____$9, ___7646__auto____$12, G__438444, ___7643__auto____$10, G__438446, ___7644__auto____$25, ___7646__auto____$13, G__438448, ___7644__auto____$26, G__438449, ___7643__auto____$11, G__438451, ___7644__auto____$27, ___7643__auto____$12, G__438453, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__438454, ___7644__auto____$29, ___7646__auto____$15, G__438379, G__438380, G__438381, ___7644__auto____$30, ___7646__auto____$16, G__438382, G__438383, G__438384, ___7644__auto____$31, 
+      ___7646__auto____$17, ___7646__auto____$18, G__438385, G__438386, ___7644__auto____$32, ___7646__auto____$19, G__438387, G__438388, G__438389, G__438390, ___7644__auto____$33, ___7646__auto____$20, G__438391, G__438392, ___7644__auto____$34, G__438393, ___7644__auto____$35, G__438394, ___7644__auto____$36, G__438395, ___7644__auto____$37, G__438456, ___7644__auto____$38, G__438457, ___7644__auto____$39, G__438458, ___7644__auto____$40, G__438459, ___7644__auto____$41, ___7646__auto____$21, 
+      ___7646__auto____$22, G__438396, G__438397, ___7644__auto____$42, G__438398, G__438399, ___7644__auto____$43, ___7646__auto____$23, G__438400, G__438401, ___7644__auto____$44, G__438402, ___7644__auto____$45, G__438403, ___7643__auto____$14, G__438405, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__438407, ___7644__auto____$47, G__438460, ___7644__auto____$48, G__438461, G__438462, G__438463, G__438464, G__438465, G__438466, G__438467, ___7644__auto____$49, ___7646__auto____$25, 
+      G__438468, ___7644__auto____$50, ___7646__auto____$26, G__438469, G__438470, G__438471, ___7644__auto____$51, ___7646__auto____$27, G__438472, ___7644__auto____$52, ___7646__auto____$28, G__438473, G__438474) {
+        return function(G__439939, G__439938, G__439940, G__439941) {
+          return G__439938.nodeValue = [cljs.core.str("BMI "), cljs.core.str(G__439939.toFixed(1)), cljs.core.str(" ("), cljs.core.str(G__439940.call(null, G__439941)), cljs.core.str(")")].join("")
         }
-      }(t__7094__auto__, G__435074, G__435075, G__435076, G__435077, ___7644__auto__, G__435078, ___7644__auto____$1, G__435079, G__435080, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__435081, G__435082, G__435083, G__435084, ___7644__auto____$3, G__435085, ___7644__auto____$4, ___7646__auto____$3, G__435086, G__435087, ___7644__auto____$5, G__435088, ___7644__auto____$6, ___7646__auto____$4, G__435089, G__435090, ___7644__auto____$7, G__435091, ___7644__auto____$8, 
-      ___7646__auto____$5, ___7646__auto____$6, G__435092, ___7644__auto____$9, G__435093, G__435094, G__435095, ___7643__auto__, G__435097, ___7644__auto____$10, ___7646__auto____$7, G__435098, ___7644__auto____$11, G__435099, ___7643__auto____$1, G__435101, ___7644__auto____$12, ___7646__auto____$8, G__435102, ___7644__auto____$13, G__435146, ___7643__auto____$2, G__435148, ___7644__auto____$14, ___7643__auto____$3, G__435150, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__435151, 
-      ___7644__auto____$16, G__435153, ___7643__auto____$5, G__435155, ___7644__auto____$17, ___7646__auto____$10, G__435156, ___7644__auto____$18, G__435157, ___7644__auto____$19, G__435158, ___7643__auto____$6, G__435160, ___7644__auto____$20, ___7646__auto____$11, G__435161, ___7644__auto____$21, G__435162, ___7644__auto____$22, G__435163, ___7643__auto____$7, G__435165, ___7644__auto____$23, ___7643__auto____$8, G__435167, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__435168, 
-      ___7643__auto____$10, G__435170, ___7644__auto____$25, ___7646__auto____$13, G__435172, ___7644__auto____$26, G__435173, ___7643__auto____$11, G__435175, ___7644__auto____$27, ___7643__auto____$12, G__435177, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__435178, ___7644__auto____$29, ___7646__auto____$15, G__435103, G__435104, G__435105, ___7644__auto____$30, ___7646__auto____$16, G__435106, G__435107, G__435108, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, 
-      G__435109, G__435110, ___7644__auto____$32, ___7646__auto____$19, G__435111, G__435112, G__435113, G__435114, ___7644__auto____$33, ___7646__auto____$20, G__435115, G__435116, ___7644__auto____$34, G__435117, ___7644__auto____$35, G__435118, ___7644__auto____$36, G__435119, ___7644__auto____$37, G__435180, ___7644__auto____$38, G__435181, ___7644__auto____$39, G__435182, ___7644__auto____$40, G__435183, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__435120, G__435121, 
-      ___7644__auto____$42, G__435122, G__435123, ___7644__auto____$43, ___7646__auto____$23, G__435124, G__435125, ___7644__auto____$44, G__435126, ___7644__auto____$45, G__435127, ___7643__auto____$14, G__435129, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__435131, ___7644__auto____$47, G__435184, ___7644__auto____$48, G__435185, G__435186, G__435187, G__435188, G__435189, G__435190, G__435191, ___7644__auto____$49, ___7646__auto____$25, G__435192, ___7644__auto____$50, 
-      ___7646__auto____$26, G__435193, G__435194, G__435195, ___7644__auto____$51, ___7646__auto____$27, G__435196, ___7644__auto____$52, ___7646__auto____$28, G__435197, G__435198)).call(null, tailrecursion.hoplon.app_pages.G__435072.bmi, t__7094__auto__, cljs.core.first, tailrecursion.hoplon.app_pages.G__435072.bmi_msg);
+      }(t__7094__auto__, G__438350, G__438351, G__438352, G__438353, ___7644__auto__, G__438354, ___7644__auto____$1, G__438355, G__438356, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__438357, G__438358, G__438359, G__438360, ___7644__auto____$3, G__438361, ___7644__auto____$4, ___7646__auto____$3, G__438362, G__438363, ___7644__auto____$5, G__438364, ___7644__auto____$6, ___7646__auto____$4, G__438365, G__438366, ___7644__auto____$7, G__438367, ___7644__auto____$8, 
+      ___7646__auto____$5, ___7646__auto____$6, G__438368, ___7644__auto____$9, G__438369, G__438370, G__438371, ___7643__auto__, G__438373, ___7644__auto____$10, ___7646__auto____$7, G__438374, ___7644__auto____$11, G__438375, ___7643__auto____$1, G__438377, ___7644__auto____$12, ___7646__auto____$8, G__438378, ___7644__auto____$13, G__438422, ___7643__auto____$2, G__438424, ___7644__auto____$14, ___7643__auto____$3, G__438426, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__438427, 
+      ___7644__auto____$16, G__438429, ___7643__auto____$5, G__438431, ___7644__auto____$17, ___7646__auto____$10, G__438432, ___7644__auto____$18, G__438433, ___7644__auto____$19, G__438434, ___7643__auto____$6, G__438436, ___7644__auto____$20, ___7646__auto____$11, G__438437, ___7644__auto____$21, G__438438, ___7644__auto____$22, G__438439, ___7643__auto____$7, G__438441, ___7644__auto____$23, ___7643__auto____$8, G__438443, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__438444, 
+      ___7643__auto____$10, G__438446, ___7644__auto____$25, ___7646__auto____$13, G__438448, ___7644__auto____$26, G__438449, ___7643__auto____$11, G__438451, ___7644__auto____$27, ___7643__auto____$12, G__438453, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__438454, ___7644__auto____$29, ___7646__auto____$15, G__438379, G__438380, G__438381, ___7644__auto____$30, ___7646__auto____$16, G__438382, G__438383, G__438384, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, 
+      G__438385, G__438386, ___7644__auto____$32, ___7646__auto____$19, G__438387, G__438388, G__438389, G__438390, ___7644__auto____$33, ___7646__auto____$20, G__438391, G__438392, ___7644__auto____$34, G__438393, ___7644__auto____$35, G__438394, ___7644__auto____$36, G__438395, ___7644__auto____$37, G__438456, ___7644__auto____$38, G__438457, ___7644__auto____$39, G__438458, ___7644__auto____$40, G__438459, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__438396, G__438397, 
+      ___7644__auto____$42, G__438398, G__438399, ___7644__auto____$43, ___7646__auto____$23, G__438400, G__438401, ___7644__auto____$44, G__438402, ___7644__auto____$45, G__438403, ___7643__auto____$14, G__438405, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__438407, ___7644__auto____$47, G__438460, ___7644__auto____$48, G__438461, G__438462, G__438463, G__438464, G__438465, G__438466, G__438467, ___7644__auto____$49, ___7646__auto____$25, G__438468, ___7644__auto____$50, 
+      ___7646__auto____$26, G__438469, G__438470, G__438471, ___7644__auto____$51, ___7646__auto____$27, G__438472, ___7644__auto____$52, ___7646__auto____$28, G__438473, G__438474)).call(null, tailrecursion.hoplon.app_pages.G__438348.bmi, t__7094__auto__, cljs.core.first, tailrecursion.hoplon.app_pages.G__438348.bmi_msg);
       return t__7094__auto__
     }();
-    var ___7644__auto____$53 = G__435198.call(null, G__435199);
-    var ___7646__auto____$29 = G__435197.call(null, G__435198);
-    var G__435200 = tailrecursion.hoplon.input.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "do-css", "do-css", 3980769587), tailrecursion.javelin.lift.call(null, function(G__435074, G__435075, G__435076, G__435077, ___7644__auto__, G__435078, ___7644__auto____$1, G__435079, G__435080, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__435081, G__435082, G__435083, G__435084, ___7644__auto____$3, G__435085, ___7644__auto____$4, ___7646__auto____$3, 
-    G__435086, G__435087, ___7644__auto____$5, G__435088, ___7644__auto____$6, ___7646__auto____$4, G__435089, G__435090, ___7644__auto____$7, G__435091, ___7644__auto____$8, ___7646__auto____$5, ___7646__auto____$6, G__435092, ___7644__auto____$9, G__435093, G__435094, G__435095, ___7643__auto__, G__435097, ___7644__auto____$10, ___7646__auto____$7, G__435098, ___7644__auto____$11, G__435099, ___7643__auto____$1, G__435101, ___7644__auto____$12, ___7646__auto____$8, G__435102, ___7644__auto____$13, 
-    G__435146, ___7643__auto____$2, G__435148, ___7644__auto____$14, ___7643__auto____$3, G__435150, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__435151, ___7644__auto____$16, G__435153, ___7643__auto____$5, G__435155, ___7644__auto____$17, ___7646__auto____$10, G__435156, ___7644__auto____$18, G__435157, ___7644__auto____$19, G__435158, ___7643__auto____$6, G__435160, ___7644__auto____$20, ___7646__auto____$11, G__435161, ___7644__auto____$21, G__435162, ___7644__auto____$22, 
-    G__435163, ___7643__auto____$7, G__435165, ___7644__auto____$23, ___7643__auto____$8, G__435167, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__435168, ___7643__auto____$10, G__435170, ___7644__auto____$25, ___7646__auto____$13, G__435172, ___7644__auto____$26, G__435173, ___7643__auto____$11, G__435175, ___7644__auto____$27, ___7643__auto____$12, G__435177, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__435178, ___7644__auto____$29, ___7646__auto____$15, 
-    G__435103, G__435104, G__435105, ___7644__auto____$30, ___7646__auto____$16, G__435106, G__435107, G__435108, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__435109, G__435110, ___7644__auto____$32, ___7646__auto____$19, G__435111, G__435112, G__435113, G__435114, ___7644__auto____$33, ___7646__auto____$20, G__435115, G__435116, ___7644__auto____$34, G__435117, ___7644__auto____$35, G__435118, ___7644__auto____$36, G__435119, ___7644__auto____$37, G__435180, ___7644__auto____$38, 
-    G__435181, ___7644__auto____$39, G__435182, ___7644__auto____$40, G__435183, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__435120, G__435121, ___7644__auto____$42, G__435122, G__435123, ___7644__auto____$43, ___7646__auto____$23, G__435124, G__435125, ___7644__auto____$44, G__435126, ___7644__auto____$45, G__435127, ___7643__auto____$14, G__435129, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__435131, ___7644__auto____$47, G__435184, ___7644__auto____$48, 
-    G__435185, G__435186, G__435187, G__435188, G__435189, G__435190, G__435191, ___7644__auto____$49, ___7646__auto____$25, G__435192, ___7644__auto____$50, ___7646__auto____$26, G__435193, G__435194, G__435195, ___7644__auto____$51, ___7646__auto____$27, G__435196, ___7644__auto____$52, ___7646__auto____$28, G__435197, G__435198, G__435199, ___7644__auto____$53, ___7646__auto____$29) {
-      return function(G__436666, G__436667) {
-        return cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "background-color", "background-color", 1619226998), G__436666.call(null, G__436667)], true)
+    var ___7644__auto____$53 = G__438474.call(null, G__438475);
+    var ___7646__auto____$29 = G__438473.call(null, G__438474);
+    var G__438476 = tailrecursion.hoplon.input.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "do-css", "do-css", 3980769587), tailrecursion.javelin.lift.call(null, function(G__438350, G__438351, G__438352, G__438353, ___7644__auto__, G__438354, ___7644__auto____$1, G__438355, G__438356, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__438357, G__438358, G__438359, G__438360, ___7644__auto____$3, G__438361, ___7644__auto____$4, ___7646__auto____$3, 
+    G__438362, G__438363, ___7644__auto____$5, G__438364, ___7644__auto____$6, ___7646__auto____$4, G__438365, G__438366, ___7644__auto____$7, G__438367, ___7644__auto____$8, ___7646__auto____$5, ___7646__auto____$6, G__438368, ___7644__auto____$9, G__438369, G__438370, G__438371, ___7643__auto__, G__438373, ___7644__auto____$10, ___7646__auto____$7, G__438374, ___7644__auto____$11, G__438375, ___7643__auto____$1, G__438377, ___7644__auto____$12, ___7646__auto____$8, G__438378, ___7644__auto____$13, 
+    G__438422, ___7643__auto____$2, G__438424, ___7644__auto____$14, ___7643__auto____$3, G__438426, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__438427, ___7644__auto____$16, G__438429, ___7643__auto____$5, G__438431, ___7644__auto____$17, ___7646__auto____$10, G__438432, ___7644__auto____$18, G__438433, ___7644__auto____$19, G__438434, ___7643__auto____$6, G__438436, ___7644__auto____$20, ___7646__auto____$11, G__438437, ___7644__auto____$21, G__438438, ___7644__auto____$22, 
+    G__438439, ___7643__auto____$7, G__438441, ___7644__auto____$23, ___7643__auto____$8, G__438443, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__438444, ___7643__auto____$10, G__438446, ___7644__auto____$25, ___7646__auto____$13, G__438448, ___7644__auto____$26, G__438449, ___7643__auto____$11, G__438451, ___7644__auto____$27, ___7643__auto____$12, G__438453, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__438454, ___7644__auto____$29, ___7646__auto____$15, 
+    G__438379, G__438380, G__438381, ___7644__auto____$30, ___7646__auto____$16, G__438382, G__438383, G__438384, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__438385, G__438386, ___7644__auto____$32, ___7646__auto____$19, G__438387, G__438388, G__438389, G__438390, ___7644__auto____$33, ___7646__auto____$20, G__438391, G__438392, ___7644__auto____$34, G__438393, ___7644__auto____$35, G__438394, ___7644__auto____$36, G__438395, ___7644__auto____$37, G__438456, ___7644__auto____$38, 
+    G__438457, ___7644__auto____$39, G__438458, ___7644__auto____$40, G__438459, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__438396, G__438397, ___7644__auto____$42, G__438398, G__438399, ___7644__auto____$43, ___7646__auto____$23, G__438400, G__438401, ___7644__auto____$44, G__438402, ___7644__auto____$45, G__438403, ___7643__auto____$14, G__438405, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__438407, ___7644__auto____$47, G__438460, ___7644__auto____$48, 
+    G__438461, G__438462, G__438463, G__438464, G__438465, G__438466, G__438467, ___7644__auto____$49, ___7646__auto____$25, G__438468, ___7644__auto____$50, ___7646__auto____$26, G__438469, G__438470, G__438471, ___7644__auto____$51, ___7646__auto____$27, G__438472, ___7644__auto____$52, ___7646__auto____$28, G__438473, G__438474, G__438475, ___7644__auto____$53, ___7646__auto____$29) {
+      return function(G__439942, G__439943) {
+        return cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "background-color", "background-color", 1619226998), G__439942.call(null, G__439943)], true)
       }
-    }(G__435074, G__435075, G__435076, G__435077, ___7644__auto__, G__435078, ___7644__auto____$1, G__435079, G__435080, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__435081, G__435082, G__435083, G__435084, ___7644__auto____$3, G__435085, ___7644__auto____$4, ___7646__auto____$3, G__435086, G__435087, ___7644__auto____$5, G__435088, ___7644__auto____$6, ___7646__auto____$4, G__435089, G__435090, ___7644__auto____$7, G__435091, ___7644__auto____$8, ___7646__auto____$5, 
-    ___7646__auto____$6, G__435092, ___7644__auto____$9, G__435093, G__435094, G__435095, ___7643__auto__, G__435097, ___7644__auto____$10, ___7646__auto____$7, G__435098, ___7644__auto____$11, G__435099, ___7643__auto____$1, G__435101, ___7644__auto____$12, ___7646__auto____$8, G__435102, ___7644__auto____$13, G__435146, ___7643__auto____$2, G__435148, ___7644__auto____$14, ___7643__auto____$3, G__435150, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__435151, ___7644__auto____$16, 
-    G__435153, ___7643__auto____$5, G__435155, ___7644__auto____$17, ___7646__auto____$10, G__435156, ___7644__auto____$18, G__435157, ___7644__auto____$19, G__435158, ___7643__auto____$6, G__435160, ___7644__auto____$20, ___7646__auto____$11, G__435161, ___7644__auto____$21, G__435162, ___7644__auto____$22, G__435163, ___7643__auto____$7, G__435165, ___7644__auto____$23, ___7643__auto____$8, G__435167, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__435168, ___7643__auto____$10, 
-    G__435170, ___7644__auto____$25, ___7646__auto____$13, G__435172, ___7644__auto____$26, G__435173, ___7643__auto____$11, G__435175, ___7644__auto____$27, ___7643__auto____$12, G__435177, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__435178, ___7644__auto____$29, ___7646__auto____$15, G__435103, G__435104, G__435105, ___7644__auto____$30, ___7646__auto____$16, G__435106, G__435107, G__435108, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__435109, G__435110, 
-    ___7644__auto____$32, ___7646__auto____$19, G__435111, G__435112, G__435113, G__435114, ___7644__auto____$33, ___7646__auto____$20, G__435115, G__435116, ___7644__auto____$34, G__435117, ___7644__auto____$35, G__435118, ___7644__auto____$36, G__435119, ___7644__auto____$37, G__435180, ___7644__auto____$38, G__435181, ___7644__auto____$39, G__435182, ___7644__auto____$40, G__435183, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__435120, G__435121, ___7644__auto____$42, G__435122, 
-    G__435123, ___7644__auto____$43, ___7646__auto____$23, G__435124, G__435125, ___7644__auto____$44, G__435126, ___7644__auto____$45, G__435127, ___7643__auto____$14, G__435129, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__435131, ___7644__auto____$47, G__435184, ___7644__auto____$48, G__435185, G__435186, G__435187, G__435188, G__435189, G__435190, G__435191, ___7644__auto____$49, ___7646__auto____$25, G__435192, ___7644__auto____$50, ___7646__auto____$26, G__435193, G__435194, 
-    G__435195, ___7644__auto____$51, ___7646__auto____$27, G__435196, ___7644__auto____$52, ___7646__auto____$28, G__435197, G__435198, G__435199, ___7644__auto____$53, ___7646__auto____$29)).call(null, cljs.core.second, tailrecursion.hoplon.app_pages.G__435072.bmi_msg), new cljs.core.Keyword(null, "readonly", "readonly", 4442141108), true, new cljs.core.Keyword(null, "class", "class", 1108647146), "form-control", new cljs.core.Keyword(null, "type", "type", 1017479852), "range", new cljs.core.Keyword(null, 
-    "min", "min", 1014012356), 0, new cljs.core.Keyword(null, "max", "max", 1014012118), 500, new cljs.core.Keyword(null, "do-value", "do-value", 4625191201), tailrecursion.javelin.lift.call(null, function(G__435074, G__435075, G__435076, G__435077, ___7644__auto__, G__435078, ___7644__auto____$1, G__435079, G__435080, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__435081, G__435082, G__435083, G__435084, ___7644__auto____$3, G__435085, ___7644__auto____$4, ___7646__auto____$3, 
-    G__435086, G__435087, ___7644__auto____$5, G__435088, ___7644__auto____$6, ___7646__auto____$4, G__435089, G__435090, ___7644__auto____$7, G__435091, ___7644__auto____$8, ___7646__auto____$5, ___7646__auto____$6, G__435092, ___7644__auto____$9, G__435093, G__435094, G__435095, ___7643__auto__, G__435097, ___7644__auto____$10, ___7646__auto____$7, G__435098, ___7644__auto____$11, G__435099, ___7643__auto____$1, G__435101, ___7644__auto____$12, ___7646__auto____$8, G__435102, ___7644__auto____$13, 
-    G__435146, ___7643__auto____$2, G__435148, ___7644__auto____$14, ___7643__auto____$3, G__435150, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__435151, ___7644__auto____$16, G__435153, ___7643__auto____$5, G__435155, ___7644__auto____$17, ___7646__auto____$10, G__435156, ___7644__auto____$18, G__435157, ___7644__auto____$19, G__435158, ___7643__auto____$6, G__435160, ___7644__auto____$20, ___7646__auto____$11, G__435161, ___7644__auto____$21, G__435162, ___7644__auto____$22, 
-    G__435163, ___7643__auto____$7, G__435165, ___7644__auto____$23, ___7643__auto____$8, G__435167, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__435168, ___7643__auto____$10, G__435170, ___7644__auto____$25, ___7646__auto____$13, G__435172, ___7644__auto____$26, G__435173, ___7643__auto____$11, G__435175, ___7644__auto____$27, ___7643__auto____$12, G__435177, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__435178, ___7644__auto____$29, ___7646__auto____$15, 
-    G__435103, G__435104, G__435105, ___7644__auto____$30, ___7646__auto____$16, G__435106, G__435107, G__435108, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__435109, G__435110, ___7644__auto____$32, ___7646__auto____$19, G__435111, G__435112, G__435113, G__435114, ___7644__auto____$33, ___7646__auto____$20, G__435115, G__435116, ___7644__auto____$34, G__435117, ___7644__auto____$35, G__435118, ___7644__auto____$36, G__435119, ___7644__auto____$37, G__435180, ___7644__auto____$38, 
-    G__435181, ___7644__auto____$39, G__435182, ___7644__auto____$40, G__435183, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__435120, G__435121, ___7644__auto____$42, G__435122, G__435123, ___7644__auto____$43, ___7646__auto____$23, G__435124, G__435125, ___7644__auto____$44, G__435126, ___7644__auto____$45, G__435127, ___7643__auto____$14, G__435129, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__435131, ___7644__auto____$47, G__435184, ___7644__auto____$48, 
-    G__435185, G__435186, G__435187, G__435188, G__435189, G__435190, G__435191, ___7644__auto____$49, ___7646__auto____$25, G__435192, ___7644__auto____$50, ___7646__auto____$26, G__435193, G__435194, G__435195, ___7644__auto____$51, ___7646__auto____$27, G__435196, ___7644__auto____$52, ___7646__auto____$28, G__435197, G__435198, G__435199, ___7644__auto____$53, ___7646__auto____$29) {
-      return function(G__436668) {
-        return G__436668 * 10
+    }(G__438350, G__438351, G__438352, G__438353, ___7644__auto__, G__438354, ___7644__auto____$1, G__438355, G__438356, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__438357, G__438358, G__438359, G__438360, ___7644__auto____$3, G__438361, ___7644__auto____$4, ___7646__auto____$3, G__438362, G__438363, ___7644__auto____$5, G__438364, ___7644__auto____$6, ___7646__auto____$4, G__438365, G__438366, ___7644__auto____$7, G__438367, ___7644__auto____$8, ___7646__auto____$5, 
+    ___7646__auto____$6, G__438368, ___7644__auto____$9, G__438369, G__438370, G__438371, ___7643__auto__, G__438373, ___7644__auto____$10, ___7646__auto____$7, G__438374, ___7644__auto____$11, G__438375, ___7643__auto____$1, G__438377, ___7644__auto____$12, ___7646__auto____$8, G__438378, ___7644__auto____$13, G__438422, ___7643__auto____$2, G__438424, ___7644__auto____$14, ___7643__auto____$3, G__438426, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__438427, ___7644__auto____$16, 
+    G__438429, ___7643__auto____$5, G__438431, ___7644__auto____$17, ___7646__auto____$10, G__438432, ___7644__auto____$18, G__438433, ___7644__auto____$19, G__438434, ___7643__auto____$6, G__438436, ___7644__auto____$20, ___7646__auto____$11, G__438437, ___7644__auto____$21, G__438438, ___7644__auto____$22, G__438439, ___7643__auto____$7, G__438441, ___7644__auto____$23, ___7643__auto____$8, G__438443, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__438444, ___7643__auto____$10, 
+    G__438446, ___7644__auto____$25, ___7646__auto____$13, G__438448, ___7644__auto____$26, G__438449, ___7643__auto____$11, G__438451, ___7644__auto____$27, ___7643__auto____$12, G__438453, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__438454, ___7644__auto____$29, ___7646__auto____$15, G__438379, G__438380, G__438381, ___7644__auto____$30, ___7646__auto____$16, G__438382, G__438383, G__438384, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__438385, G__438386, 
+    ___7644__auto____$32, ___7646__auto____$19, G__438387, G__438388, G__438389, G__438390, ___7644__auto____$33, ___7646__auto____$20, G__438391, G__438392, ___7644__auto____$34, G__438393, ___7644__auto____$35, G__438394, ___7644__auto____$36, G__438395, ___7644__auto____$37, G__438456, ___7644__auto____$38, G__438457, ___7644__auto____$39, G__438458, ___7644__auto____$40, G__438459, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__438396, G__438397, ___7644__auto____$42, G__438398, 
+    G__438399, ___7644__auto____$43, ___7646__auto____$23, G__438400, G__438401, ___7644__auto____$44, G__438402, ___7644__auto____$45, G__438403, ___7643__auto____$14, G__438405, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__438407, ___7644__auto____$47, G__438460, ___7644__auto____$48, G__438461, G__438462, G__438463, G__438464, G__438465, G__438466, G__438467, ___7644__auto____$49, ___7646__auto____$25, G__438468, ___7644__auto____$50, ___7646__auto____$26, G__438469, G__438470, 
+    G__438471, ___7644__auto____$51, ___7646__auto____$27, G__438472, ___7644__auto____$52, ___7646__auto____$28, G__438473, G__438474, G__438475, ___7644__auto____$53, ___7646__auto____$29)).call(null, cljs.core.second, tailrecursion.hoplon.app_pages.G__438348.bmi_msg), new cljs.core.Keyword(null, "readonly", "readonly", 4442141108), true, new cljs.core.Keyword(null, "class", "class", 1108647146), "form-control", new cljs.core.Keyword(null, "type", "type", 1017479852), "range", new cljs.core.Keyword(null, 
+    "min", "min", 1014012356), 0, new cljs.core.Keyword(null, "max", "max", 1014012118), 500, new cljs.core.Keyword(null, "do-value", "do-value", 4625191201), tailrecursion.javelin.lift.call(null, function(G__438350, G__438351, G__438352, G__438353, ___7644__auto__, G__438354, ___7644__auto____$1, G__438355, G__438356, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__438357, G__438358, G__438359, G__438360, ___7644__auto____$3, G__438361, ___7644__auto____$4, ___7646__auto____$3, 
+    G__438362, G__438363, ___7644__auto____$5, G__438364, ___7644__auto____$6, ___7646__auto____$4, G__438365, G__438366, ___7644__auto____$7, G__438367, ___7644__auto____$8, ___7646__auto____$5, ___7646__auto____$6, G__438368, ___7644__auto____$9, G__438369, G__438370, G__438371, ___7643__auto__, G__438373, ___7644__auto____$10, ___7646__auto____$7, G__438374, ___7644__auto____$11, G__438375, ___7643__auto____$1, G__438377, ___7644__auto____$12, ___7646__auto____$8, G__438378, ___7644__auto____$13, 
+    G__438422, ___7643__auto____$2, G__438424, ___7644__auto____$14, ___7643__auto____$3, G__438426, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__438427, ___7644__auto____$16, G__438429, ___7643__auto____$5, G__438431, ___7644__auto____$17, ___7646__auto____$10, G__438432, ___7644__auto____$18, G__438433, ___7644__auto____$19, G__438434, ___7643__auto____$6, G__438436, ___7644__auto____$20, ___7646__auto____$11, G__438437, ___7644__auto____$21, G__438438, ___7644__auto____$22, 
+    G__438439, ___7643__auto____$7, G__438441, ___7644__auto____$23, ___7643__auto____$8, G__438443, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__438444, ___7643__auto____$10, G__438446, ___7644__auto____$25, ___7646__auto____$13, G__438448, ___7644__auto____$26, G__438449, ___7643__auto____$11, G__438451, ___7644__auto____$27, ___7643__auto____$12, G__438453, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__438454, ___7644__auto____$29, ___7646__auto____$15, 
+    G__438379, G__438380, G__438381, ___7644__auto____$30, ___7646__auto____$16, G__438382, G__438383, G__438384, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__438385, G__438386, ___7644__auto____$32, ___7646__auto____$19, G__438387, G__438388, G__438389, G__438390, ___7644__auto____$33, ___7646__auto____$20, G__438391, G__438392, ___7644__auto____$34, G__438393, ___7644__auto____$35, G__438394, ___7644__auto____$36, G__438395, ___7644__auto____$37, G__438456, ___7644__auto____$38, 
+    G__438457, ___7644__auto____$39, G__438458, ___7644__auto____$40, G__438459, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__438396, G__438397, ___7644__auto____$42, G__438398, G__438399, ___7644__auto____$43, ___7646__auto____$23, G__438400, G__438401, ___7644__auto____$44, G__438402, ___7644__auto____$45, G__438403, ___7643__auto____$14, G__438405, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__438407, ___7644__auto____$47, G__438460, ___7644__auto____$48, 
+    G__438461, G__438462, G__438463, G__438464, G__438465, G__438466, G__438467, ___7644__auto____$49, ___7646__auto____$25, G__438468, ___7644__auto____$50, ___7646__auto____$26, G__438469, G__438470, G__438471, ___7644__auto____$51, ___7646__auto____$27, G__438472, ___7644__auto____$52, ___7646__auto____$28, G__438473, G__438474, G__438475, ___7644__auto____$53, ___7646__auto____$29) {
+      return function(G__439944) {
+        return G__439944 * 10
       }
-    }(G__435074, G__435075, G__435076, G__435077, ___7644__auto__, G__435078, ___7644__auto____$1, G__435079, G__435080, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__435081, G__435082, G__435083, G__435084, ___7644__auto____$3, G__435085, ___7644__auto____$4, ___7646__auto____$3, G__435086, G__435087, ___7644__auto____$5, G__435088, ___7644__auto____$6, ___7646__auto____$4, G__435089, G__435090, ___7644__auto____$7, G__435091, ___7644__auto____$8, ___7646__auto____$5, 
-    ___7646__auto____$6, G__435092, ___7644__auto____$9, G__435093, G__435094, G__435095, ___7643__auto__, G__435097, ___7644__auto____$10, ___7646__auto____$7, G__435098, ___7644__auto____$11, G__435099, ___7643__auto____$1, G__435101, ___7644__auto____$12, ___7646__auto____$8, G__435102, ___7644__auto____$13, G__435146, ___7643__auto____$2, G__435148, ___7644__auto____$14, ___7643__auto____$3, G__435150, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__435151, ___7644__auto____$16, 
-    G__435153, ___7643__auto____$5, G__435155, ___7644__auto____$17, ___7646__auto____$10, G__435156, ___7644__auto____$18, G__435157, ___7644__auto____$19, G__435158, ___7643__auto____$6, G__435160, ___7644__auto____$20, ___7646__auto____$11, G__435161, ___7644__auto____$21, G__435162, ___7644__auto____$22, G__435163, ___7643__auto____$7, G__435165, ___7644__auto____$23, ___7643__auto____$8, G__435167, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__435168, ___7643__auto____$10, 
-    G__435170, ___7644__auto____$25, ___7646__auto____$13, G__435172, ___7644__auto____$26, G__435173, ___7643__auto____$11, G__435175, ___7644__auto____$27, ___7643__auto____$12, G__435177, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__435178, ___7644__auto____$29, ___7646__auto____$15, G__435103, G__435104, G__435105, ___7644__auto____$30, ___7646__auto____$16, G__435106, G__435107, G__435108, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__435109, G__435110, 
-    ___7644__auto____$32, ___7646__auto____$19, G__435111, G__435112, G__435113, G__435114, ___7644__auto____$33, ___7646__auto____$20, G__435115, G__435116, ___7644__auto____$34, G__435117, ___7644__auto____$35, G__435118, ___7644__auto____$36, G__435119, ___7644__auto____$37, G__435180, ___7644__auto____$38, G__435181, ___7644__auto____$39, G__435182, ___7644__auto____$40, G__435183, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__435120, G__435121, ___7644__auto____$42, G__435122, 
-    G__435123, ___7644__auto____$43, ___7646__auto____$23, G__435124, G__435125, ___7644__auto____$44, G__435126, ___7644__auto____$45, G__435127, ___7643__auto____$14, G__435129, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__435131, ___7644__auto____$47, G__435184, ___7644__auto____$48, G__435185, G__435186, G__435187, G__435188, G__435189, G__435190, G__435191, ___7644__auto____$49, ___7646__auto____$25, G__435192, ___7644__auto____$50, ___7646__auto____$26, G__435193, G__435194, 
-    G__435195, ___7644__auto____$51, ___7646__auto____$27, G__435196, ___7644__auto____$52, ___7646__auto____$28, G__435197, G__435198, G__435199, ___7644__auto____$53, ___7646__auto____$29)).call(null, tailrecursion.hoplon.app_pages.G__435072.bmi)], true));
-    var ___7644__auto____$54 = G__435197.call(null, G__435200);
-    var ___7646__auto____$30 = G__435188.call(null, G__435197);
-    var ___7646__auto____$31 = G__435187.call(null, G__435188);
-    var ___7646__auto____$32 = G__435186.call(null, G__435187);
-    var ___7646__auto____$33 = G__435185.call(null, G__435186);
-    var ___7646__auto____$34 = G__435124.call(null, G__435185);
-    var G__435201 = tailrecursion.hoplon.p.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "text-muted"], true), "The cells:");
-    var ___7644__auto____$55 = G__435124.call(null, G__435201);
-    var G__435202 = tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "highlight"], true), tailrecursion.hoplon.pre.call(null, tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), 
+    }(G__438350, G__438351, G__438352, G__438353, ___7644__auto__, G__438354, ___7644__auto____$1, G__438355, G__438356, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__438357, G__438358, G__438359, G__438360, ___7644__auto____$3, G__438361, ___7644__auto____$4, ___7646__auto____$3, G__438362, G__438363, ___7644__auto____$5, G__438364, ___7644__auto____$6, ___7646__auto____$4, G__438365, G__438366, ___7644__auto____$7, G__438367, ___7644__auto____$8, ___7646__auto____$5, 
+    ___7646__auto____$6, G__438368, ___7644__auto____$9, G__438369, G__438370, G__438371, ___7643__auto__, G__438373, ___7644__auto____$10, ___7646__auto____$7, G__438374, ___7644__auto____$11, G__438375, ___7643__auto____$1, G__438377, ___7644__auto____$12, ___7646__auto____$8, G__438378, ___7644__auto____$13, G__438422, ___7643__auto____$2, G__438424, ___7644__auto____$14, ___7643__auto____$3, G__438426, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__438427, ___7644__auto____$16, 
+    G__438429, ___7643__auto____$5, G__438431, ___7644__auto____$17, ___7646__auto____$10, G__438432, ___7644__auto____$18, G__438433, ___7644__auto____$19, G__438434, ___7643__auto____$6, G__438436, ___7644__auto____$20, ___7646__auto____$11, G__438437, ___7644__auto____$21, G__438438, ___7644__auto____$22, G__438439, ___7643__auto____$7, G__438441, ___7644__auto____$23, ___7643__auto____$8, G__438443, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__438444, ___7643__auto____$10, 
+    G__438446, ___7644__auto____$25, ___7646__auto____$13, G__438448, ___7644__auto____$26, G__438449, ___7643__auto____$11, G__438451, ___7644__auto____$27, ___7643__auto____$12, G__438453, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__438454, ___7644__auto____$29, ___7646__auto____$15, G__438379, G__438380, G__438381, ___7644__auto____$30, ___7646__auto____$16, G__438382, G__438383, G__438384, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__438385, G__438386, 
+    ___7644__auto____$32, ___7646__auto____$19, G__438387, G__438388, G__438389, G__438390, ___7644__auto____$33, ___7646__auto____$20, G__438391, G__438392, ___7644__auto____$34, G__438393, ___7644__auto____$35, G__438394, ___7644__auto____$36, G__438395, ___7644__auto____$37, G__438456, ___7644__auto____$38, G__438457, ___7644__auto____$39, G__438458, ___7644__auto____$40, G__438459, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__438396, G__438397, ___7644__auto____$42, G__438398, 
+    G__438399, ___7644__auto____$43, ___7646__auto____$23, G__438400, G__438401, ___7644__auto____$44, G__438402, ___7644__auto____$45, G__438403, ___7643__auto____$14, G__438405, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__438407, ___7644__auto____$47, G__438460, ___7644__auto____$48, G__438461, G__438462, G__438463, G__438464, G__438465, G__438466, G__438467, ___7644__auto____$49, ___7646__auto____$25, G__438468, ___7644__auto____$50, ___7646__auto____$26, G__438469, G__438470, 
+    G__438471, ___7644__auto____$51, ___7646__auto____$27, G__438472, ___7644__auto____$52, ___7646__auto____$28, G__438473, G__438474, G__438475, ___7644__auto____$53, ___7646__auto____$29)).call(null, tailrecursion.hoplon.app_pages.G__438348.bmi)], true));
+    var ___7644__auto____$54 = G__438473.call(null, G__438476);
+    var ___7646__auto____$30 = G__438464.call(null, G__438473);
+    var ___7646__auto____$31 = G__438463.call(null, G__438464);
+    var ___7646__auto____$32 = G__438462.call(null, G__438463);
+    var ___7646__auto____$33 = G__438461.call(null, G__438462);
+    var ___7646__auto____$34 = G__438400.call(null, G__438461);
+    var G__438477 = tailrecursion.hoplon.p.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "text-muted"], true), "The cells:");
+    var ___7644__auto____$55 = G__438400.call(null, G__438477);
+    var G__438478 = tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "highlight"], true), tailrecursion.hoplon.pre.call(null, tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), 
     "k"], true), "def "), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nv"], true), "height"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nf"], true), "cell"), 
     " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "mi"], true), "180"), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "))"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "c1"], true), "; height in cm"), "\n", 
     tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "k"], true), "def "), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nv"], true), "weight"), " ", tailrecursion.hoplon.span.call(null, 
@@ -29172,10 +29172,10 @@ tailrecursion.hoplon.app_pages.G__435072.hoploninit = function hoploninit() {
     "class", "class", 1108647146), "s"], true), '"orange"'), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "]"), "\n            ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "ss"], true), ":else"), "        ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
     "class", "class", 1108647146), "p"], true), "["), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nv"], true), "bmi"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "s"], true), '"obese"'), "           ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", 
     "class", 1108647146), "s"], true), '"red"'), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "]))))"), "\n"));
-    var ___7644__auto____$56 = G__435124.call(null, G__435202);
-    var G__435203 = tailrecursion.hoplon.p.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "text-muted"], true), "The user interface:");
-    var ___7644__auto____$57 = G__435124.call(null, G__435203);
-    var G__435204 = tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "highlight"], true), tailrecursion.hoplon.pre.call(null, tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "c1"], true), ';; Some details related to \x3cinput type\x3d"range"\x3e'), "\n", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
+    var ___7644__auto____$56 = G__438400.call(null, G__438478);
+    var G__438479 = tailrecursion.hoplon.p.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "text-muted"], true), "The user interface:");
+    var ___7644__auto____$57 = G__438400.call(null, G__438479);
+    var G__438480 = tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "highlight"], true), tailrecursion.hoplon.pre.call(null, tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "c1"], true), ';; Some details related to \x3cinput type\x3d"range"\x3e'), "\n", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
     "class", "class", 1108647146), "c1"], true), ";; have been omitted for clarity."), "\n", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nf"], true), "form"), "\n  ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
     "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nf"], true), "label"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), 
     "nf"], true), "text"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "s"], true), '"Height (~{height} cm)"'), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "))"), "\n  ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), 
@@ -29199,129 +29199,129 @@ tailrecursion.hoplon.app_pages.G__435072.hoploninit = function hoploninit() {
     cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nf"], true), "cell\x3d"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "{"), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
     "class", "class", 1108647146), "ss"], true), ":background-color"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nb"], true), "nth "), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", 
     "class", 1108647146), "nv"], true), "bmi"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "mi"], true), "2"), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), ")})))"), "\n"));
-    var ___7644__auto____$58 = G__435124.call(null, G__435204);
-    var ___7646__auto____$35 = G__435120.call(null, G__435124);
-    var ___7646__auto____$36 = G__435111.call(null, G__435120);
-    var G__435132 = bootstrap.list.divitem.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "on-click", "on-click", 1416542092), function(G__435074, G__435075, G__435076, G__435077, ___7644__auto__, G__435078, ___7644__auto____$1, G__435079, G__435080, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__435081, G__435082, G__435083, G__435084, ___7644__auto____$3, G__435085, ___7644__auto____$4, ___7646__auto____$3, G__435086, G__435087, 
-    ___7644__auto____$5, G__435088, ___7644__auto____$6, ___7646__auto____$4, G__435089, G__435090, ___7644__auto____$7, G__435091, ___7644__auto____$8, ___7646__auto____$5, ___7646__auto____$6, G__435092, ___7644__auto____$9, G__435093, G__435094, G__435095, ___7643__auto__, G__435097, ___7644__auto____$10, ___7646__auto____$7, G__435098, ___7644__auto____$11, G__435099, ___7643__auto____$1, G__435101, ___7644__auto____$12, ___7646__auto____$8, G__435102, ___7644__auto____$13, G__435146, ___7643__auto____$2, 
-    G__435148, ___7644__auto____$14, ___7643__auto____$3, G__435150, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__435151, ___7644__auto____$16, G__435153, ___7643__auto____$5, G__435155, ___7644__auto____$17, ___7646__auto____$10, G__435156, ___7644__auto____$18, G__435157, ___7644__auto____$19, G__435158, ___7643__auto____$6, G__435160, ___7644__auto____$20, ___7646__auto____$11, G__435161, ___7644__auto____$21, G__435162, ___7644__auto____$22, G__435163, ___7643__auto____$7, 
-    G__435165, ___7644__auto____$23, ___7643__auto____$8, G__435167, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__435168, ___7643__auto____$10, G__435170, ___7644__auto____$25, ___7646__auto____$13, G__435172, ___7644__auto____$26, G__435173, ___7643__auto____$11, G__435175, ___7644__auto____$27, ___7643__auto____$12, G__435177, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__435178, ___7644__auto____$29, ___7646__auto____$15, G__435103, G__435104, G__435105, 
-    ___7644__auto____$30, ___7646__auto____$16, G__435106, G__435107, G__435108, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__435109, G__435110, ___7644__auto____$32, ___7646__auto____$19, G__435111, G__435112, G__435113, G__435114, ___7644__auto____$33, ___7646__auto____$20, G__435115, G__435116, ___7644__auto____$34, G__435117, ___7644__auto____$35, G__435118, ___7644__auto____$36, G__435119, ___7644__auto____$37, G__435180, ___7644__auto____$38, G__435181, ___7644__auto____$39, 
-    G__435182, ___7644__auto____$40, G__435183, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__435120, G__435121, ___7644__auto____$42, G__435122, G__435123, ___7644__auto____$43, ___7646__auto____$23, G__435124, G__435125, ___7644__auto____$44, G__435126, ___7644__auto____$45, G__435127, ___7643__auto____$14, G__435129, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__435131, ___7644__auto____$47, G__435184, ___7644__auto____$48, G__435185, G__435186, G__435187, 
-    G__435188, G__435189, G__435190, G__435191, ___7644__auto____$49, ___7646__auto____$25, G__435192, ___7644__auto____$50, ___7646__auto____$26, G__435193, G__435194, G__435195, ___7644__auto____$51, ___7646__auto____$27, G__435196, ___7644__auto____$52, ___7646__auto____$28, G__435197, G__435198, G__435199, ___7644__auto____$53, ___7646__auto____$29, G__435200, ___7644__auto____$54, ___7646__auto____$30, ___7646__auto____$31, ___7646__auto____$32, ___7646__auto____$33, ___7646__auto____$34, G__435201, 
-    ___7644__auto____$55, G__435202, ___7644__auto____$56, G__435203, ___7644__auto____$57, G__435204, ___7644__auto____$58, ___7646__auto____$35, ___7646__auto____$36) {
+    var ___7644__auto____$58 = G__438400.call(null, G__438480);
+    var ___7646__auto____$35 = G__438396.call(null, G__438400);
+    var ___7646__auto____$36 = G__438387.call(null, G__438396);
+    var G__438408 = bootstrap.list.divitem.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "on-click", "on-click", 1416542092), function(G__438350, G__438351, G__438352, G__438353, ___7644__auto__, G__438354, ___7644__auto____$1, G__438355, G__438356, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__438357, G__438358, G__438359, G__438360, ___7644__auto____$3, G__438361, ___7644__auto____$4, ___7646__auto____$3, G__438362, G__438363, 
+    ___7644__auto____$5, G__438364, ___7644__auto____$6, ___7646__auto____$4, G__438365, G__438366, ___7644__auto____$7, G__438367, ___7644__auto____$8, ___7646__auto____$5, ___7646__auto____$6, G__438368, ___7644__auto____$9, G__438369, G__438370, G__438371, ___7643__auto__, G__438373, ___7644__auto____$10, ___7646__auto____$7, G__438374, ___7644__auto____$11, G__438375, ___7643__auto____$1, G__438377, ___7644__auto____$12, ___7646__auto____$8, G__438378, ___7644__auto____$13, G__438422, ___7643__auto____$2, 
+    G__438424, ___7644__auto____$14, ___7643__auto____$3, G__438426, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__438427, ___7644__auto____$16, G__438429, ___7643__auto____$5, G__438431, ___7644__auto____$17, ___7646__auto____$10, G__438432, ___7644__auto____$18, G__438433, ___7644__auto____$19, G__438434, ___7643__auto____$6, G__438436, ___7644__auto____$20, ___7646__auto____$11, G__438437, ___7644__auto____$21, G__438438, ___7644__auto____$22, G__438439, ___7643__auto____$7, 
+    G__438441, ___7644__auto____$23, ___7643__auto____$8, G__438443, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__438444, ___7643__auto____$10, G__438446, ___7644__auto____$25, ___7646__auto____$13, G__438448, ___7644__auto____$26, G__438449, ___7643__auto____$11, G__438451, ___7644__auto____$27, ___7643__auto____$12, G__438453, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__438454, ___7644__auto____$29, ___7646__auto____$15, G__438379, G__438380, G__438381, 
+    ___7644__auto____$30, ___7646__auto____$16, G__438382, G__438383, G__438384, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__438385, G__438386, ___7644__auto____$32, ___7646__auto____$19, G__438387, G__438388, G__438389, G__438390, ___7644__auto____$33, ___7646__auto____$20, G__438391, G__438392, ___7644__auto____$34, G__438393, ___7644__auto____$35, G__438394, ___7644__auto____$36, G__438395, ___7644__auto____$37, G__438456, ___7644__auto____$38, G__438457, ___7644__auto____$39, 
+    G__438458, ___7644__auto____$40, G__438459, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__438396, G__438397, ___7644__auto____$42, G__438398, G__438399, ___7644__auto____$43, ___7646__auto____$23, G__438400, G__438401, ___7644__auto____$44, G__438402, ___7644__auto____$45, G__438403, ___7643__auto____$14, G__438405, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__438407, ___7644__auto____$47, G__438460, ___7644__auto____$48, G__438461, G__438462, G__438463, 
+    G__438464, G__438465, G__438466, G__438467, ___7644__auto____$49, ___7646__auto____$25, G__438468, ___7644__auto____$50, ___7646__auto____$26, G__438469, G__438470, G__438471, ___7644__auto____$51, ___7646__auto____$27, G__438472, ___7644__auto____$52, ___7646__auto____$28, G__438473, G__438474, G__438475, ___7644__auto____$53, ___7646__auto____$29, G__438476, ___7644__auto____$54, ___7646__auto____$30, ___7646__auto____$31, ___7646__auto____$32, ___7646__auto____$33, ___7646__auto____$34, G__438477, 
+    ___7644__auto____$55, G__438478, ___7644__auto____$56, G__438479, ___7644__auto____$57, G__438480, ___7644__auto____$58, ___7646__auto____$35, ___7646__auto____$36) {
       return function() {
-        return cljs.core.reset_BANG_.call(null, tailrecursion.hoplon.app_pages.G__435072.example, 3)
+        return cljs.core.reset_BANG_.call(null, tailrecursion.hoplon.app_pages.G__438348.example, 3)
       }
-    }(G__435074, G__435075, G__435076, G__435077, ___7644__auto__, G__435078, ___7644__auto____$1, G__435079, G__435080, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__435081, G__435082, G__435083, G__435084, ___7644__auto____$3, G__435085, ___7644__auto____$4, ___7646__auto____$3, G__435086, G__435087, ___7644__auto____$5, G__435088, ___7644__auto____$6, ___7646__auto____$4, G__435089, G__435090, ___7644__auto____$7, G__435091, ___7644__auto____$8, ___7646__auto____$5, 
-    ___7646__auto____$6, G__435092, ___7644__auto____$9, G__435093, G__435094, G__435095, ___7643__auto__, G__435097, ___7644__auto____$10, ___7646__auto____$7, G__435098, ___7644__auto____$11, G__435099, ___7643__auto____$1, G__435101, ___7644__auto____$12, ___7646__auto____$8, G__435102, ___7644__auto____$13, G__435146, ___7643__auto____$2, G__435148, ___7644__auto____$14, ___7643__auto____$3, G__435150, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__435151, ___7644__auto____$16, 
-    G__435153, ___7643__auto____$5, G__435155, ___7644__auto____$17, ___7646__auto____$10, G__435156, ___7644__auto____$18, G__435157, ___7644__auto____$19, G__435158, ___7643__auto____$6, G__435160, ___7644__auto____$20, ___7646__auto____$11, G__435161, ___7644__auto____$21, G__435162, ___7644__auto____$22, G__435163, ___7643__auto____$7, G__435165, ___7644__auto____$23, ___7643__auto____$8, G__435167, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__435168, ___7643__auto____$10, 
-    G__435170, ___7644__auto____$25, ___7646__auto____$13, G__435172, ___7644__auto____$26, G__435173, ___7643__auto____$11, G__435175, ___7644__auto____$27, ___7643__auto____$12, G__435177, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__435178, ___7644__auto____$29, ___7646__auto____$15, G__435103, G__435104, G__435105, ___7644__auto____$30, ___7646__auto____$16, G__435106, G__435107, G__435108, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__435109, G__435110, 
-    ___7644__auto____$32, ___7646__auto____$19, G__435111, G__435112, G__435113, G__435114, ___7644__auto____$33, ___7646__auto____$20, G__435115, G__435116, ___7644__auto____$34, G__435117, ___7644__auto____$35, G__435118, ___7644__auto____$36, G__435119, ___7644__auto____$37, G__435180, ___7644__auto____$38, G__435181, ___7644__auto____$39, G__435182, ___7644__auto____$40, G__435183, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__435120, G__435121, ___7644__auto____$42, G__435122, 
-    G__435123, ___7644__auto____$43, ___7646__auto____$23, G__435124, G__435125, ___7644__auto____$44, G__435126, ___7644__auto____$45, G__435127, ___7643__auto____$14, G__435129, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__435131, ___7644__auto____$47, G__435184, ___7644__auto____$48, G__435185, G__435186, G__435187, G__435188, G__435189, G__435190, G__435191, ___7644__auto____$49, ___7646__auto____$25, G__435192, ___7644__auto____$50, ___7646__auto____$26, G__435193, G__435194, 
-    G__435195, ___7644__auto____$51, ___7646__auto____$27, G__435196, ___7644__auto____$52, ___7646__auto____$28, G__435197, G__435198, G__435199, ___7644__auto____$53, ___7646__auto____$29, G__435200, ___7644__auto____$54, ___7646__auto____$30, ___7646__auto____$31, ___7646__auto____$32, ___7646__auto____$33, ___7646__auto____$34, G__435201, ___7644__auto____$55, G__435202, ___7644__auto____$56, G__435203, ___7644__auto____$57, G__435204, ___7644__auto____$58, ___7646__auto____$35, ___7646__auto____$36)], 
+    }(G__438350, G__438351, G__438352, G__438353, ___7644__auto__, G__438354, ___7644__auto____$1, G__438355, G__438356, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__438357, G__438358, G__438359, G__438360, ___7644__auto____$3, G__438361, ___7644__auto____$4, ___7646__auto____$3, G__438362, G__438363, ___7644__auto____$5, G__438364, ___7644__auto____$6, ___7646__auto____$4, G__438365, G__438366, ___7644__auto____$7, G__438367, ___7644__auto____$8, ___7646__auto____$5, 
+    ___7646__auto____$6, G__438368, ___7644__auto____$9, G__438369, G__438370, G__438371, ___7643__auto__, G__438373, ___7644__auto____$10, ___7646__auto____$7, G__438374, ___7644__auto____$11, G__438375, ___7643__auto____$1, G__438377, ___7644__auto____$12, ___7646__auto____$8, G__438378, ___7644__auto____$13, G__438422, ___7643__auto____$2, G__438424, ___7644__auto____$14, ___7643__auto____$3, G__438426, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__438427, ___7644__auto____$16, 
+    G__438429, ___7643__auto____$5, G__438431, ___7644__auto____$17, ___7646__auto____$10, G__438432, ___7644__auto____$18, G__438433, ___7644__auto____$19, G__438434, ___7643__auto____$6, G__438436, ___7644__auto____$20, ___7646__auto____$11, G__438437, ___7644__auto____$21, G__438438, ___7644__auto____$22, G__438439, ___7643__auto____$7, G__438441, ___7644__auto____$23, ___7643__auto____$8, G__438443, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__438444, ___7643__auto____$10, 
+    G__438446, ___7644__auto____$25, ___7646__auto____$13, G__438448, ___7644__auto____$26, G__438449, ___7643__auto____$11, G__438451, ___7644__auto____$27, ___7643__auto____$12, G__438453, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__438454, ___7644__auto____$29, ___7646__auto____$15, G__438379, G__438380, G__438381, ___7644__auto____$30, ___7646__auto____$16, G__438382, G__438383, G__438384, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__438385, G__438386, 
+    ___7644__auto____$32, ___7646__auto____$19, G__438387, G__438388, G__438389, G__438390, ___7644__auto____$33, ___7646__auto____$20, G__438391, G__438392, ___7644__auto____$34, G__438393, ___7644__auto____$35, G__438394, ___7644__auto____$36, G__438395, ___7644__auto____$37, G__438456, ___7644__auto____$38, G__438457, ___7644__auto____$39, G__438458, ___7644__auto____$40, G__438459, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__438396, G__438397, ___7644__auto____$42, G__438398, 
+    G__438399, ___7644__auto____$43, ___7646__auto____$23, G__438400, G__438401, ___7644__auto____$44, G__438402, ___7644__auto____$45, G__438403, ___7643__auto____$14, G__438405, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__438407, ___7644__auto____$47, G__438460, ___7644__auto____$48, G__438461, G__438462, G__438463, G__438464, G__438465, G__438466, G__438467, ___7644__auto____$49, ___7646__auto____$25, G__438468, ___7644__auto____$50, ___7646__auto____$26, G__438469, G__438470, 
+    G__438471, ___7644__auto____$51, ___7646__auto____$27, G__438472, ___7644__auto____$52, ___7646__auto____$28, G__438473, G__438474, G__438475, ___7644__auto____$53, ___7646__auto____$29, G__438476, ___7644__auto____$54, ___7646__auto____$30, ___7646__auto____$31, ___7646__auto____$32, ___7646__auto____$33, ___7646__auto____$34, G__438477, ___7644__auto____$55, G__438478, ___7644__auto____$56, G__438479, ___7644__auto____$57, G__438480, ___7644__auto____$58, ___7646__auto____$35, ___7646__auto____$36)], 
     true));
-    var G__435133 = tailrecursion.hoplon.a.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "topfix", new cljs.core.Keyword(null, "do-scroll-to", "do-scroll-to", 3603706411), tailrecursion.javelin.lift.call(null, function(G__435074, G__435075, G__435076, G__435077, ___7644__auto__, G__435078, ___7644__auto____$1, G__435079, G__435080, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__435081, G__435082, G__435083, 
-    G__435084, ___7644__auto____$3, G__435085, ___7644__auto____$4, ___7646__auto____$3, G__435086, G__435087, ___7644__auto____$5, G__435088, ___7644__auto____$6, ___7646__auto____$4, G__435089, G__435090, ___7644__auto____$7, G__435091, ___7644__auto____$8, ___7646__auto____$5, ___7646__auto____$6, G__435092, ___7644__auto____$9, G__435093, G__435094, G__435095, ___7643__auto__, G__435097, ___7644__auto____$10, ___7646__auto____$7, G__435098, ___7644__auto____$11, G__435099, ___7643__auto____$1, 
-    G__435101, ___7644__auto____$12, ___7646__auto____$8, G__435102, ___7644__auto____$13, G__435146, ___7643__auto____$2, G__435148, ___7644__auto____$14, ___7643__auto____$3, G__435150, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__435151, ___7644__auto____$16, G__435153, ___7643__auto____$5, G__435155, ___7644__auto____$17, ___7646__auto____$10, G__435156, ___7644__auto____$18, G__435157, ___7644__auto____$19, G__435158, ___7643__auto____$6, G__435160, ___7644__auto____$20, 
-    ___7646__auto____$11, G__435161, ___7644__auto____$21, G__435162, ___7644__auto____$22, G__435163, ___7643__auto____$7, G__435165, ___7644__auto____$23, ___7643__auto____$8, G__435167, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__435168, ___7643__auto____$10, G__435170, ___7644__auto____$25, ___7646__auto____$13, G__435172, ___7644__auto____$26, G__435173, ___7643__auto____$11, G__435175, ___7644__auto____$27, ___7643__auto____$12, G__435177, ___7644__auto____$28, ___7643__auto____$13, 
-    ___7646__auto____$14, G__435178, ___7644__auto____$29, ___7646__auto____$15, G__435103, G__435104, G__435105, ___7644__auto____$30, ___7646__auto____$16, G__435106, G__435107, G__435108, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__435109, G__435110, ___7644__auto____$32, ___7646__auto____$19, G__435111, G__435112, G__435113, G__435114, ___7644__auto____$33, ___7646__auto____$20, G__435115, G__435116, ___7644__auto____$34, G__435117, ___7644__auto____$35, G__435118, ___7644__auto____$36, 
-    G__435119, ___7644__auto____$37, G__435180, ___7644__auto____$38, G__435181, ___7644__auto____$39, G__435182, ___7644__auto____$40, G__435183, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__435120, G__435121, ___7644__auto____$42, G__435122, G__435123, ___7644__auto____$43, ___7646__auto____$23, G__435124, G__435125, ___7644__auto____$44, G__435126, ___7644__auto____$45, G__435127, ___7643__auto____$14, G__435129, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, 
-    G__435131, ___7644__auto____$47, G__435184, ___7644__auto____$48, G__435185, G__435186, G__435187, G__435188, G__435189, G__435190, G__435191, ___7644__auto____$49, ___7646__auto____$25, G__435192, ___7644__auto____$50, ___7646__auto____$26, G__435193, G__435194, G__435195, ___7644__auto____$51, ___7646__auto____$27, G__435196, ___7644__auto____$52, ___7646__auto____$28, G__435197, G__435198, G__435199, ___7644__auto____$53, ___7646__auto____$29, G__435200, ___7644__auto____$54, ___7646__auto____$30, 
-    ___7646__auto____$31, ___7646__auto____$32, ___7646__auto____$33, ___7646__auto____$34, G__435201, ___7644__auto____$55, G__435202, ___7644__auto____$56, G__435203, ___7644__auto____$57, G__435204, ___7644__auto____$58, ___7646__auto____$35, ___7646__auto____$36, G__435132) {
-      return function(G__436669, G__436670) {
-        return G__436669.call(null, G__436670, 3)
+    var G__438409 = tailrecursion.hoplon.a.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "topfix", new cljs.core.Keyword(null, "do-scroll-to", "do-scroll-to", 3603706411), tailrecursion.javelin.lift.call(null, function(G__438350, G__438351, G__438352, G__438353, ___7644__auto__, G__438354, ___7644__auto____$1, G__438355, G__438356, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__438357, G__438358, G__438359, 
+    G__438360, ___7644__auto____$3, G__438361, ___7644__auto____$4, ___7646__auto____$3, G__438362, G__438363, ___7644__auto____$5, G__438364, ___7644__auto____$6, ___7646__auto____$4, G__438365, G__438366, ___7644__auto____$7, G__438367, ___7644__auto____$8, ___7646__auto____$5, ___7646__auto____$6, G__438368, ___7644__auto____$9, G__438369, G__438370, G__438371, ___7643__auto__, G__438373, ___7644__auto____$10, ___7646__auto____$7, G__438374, ___7644__auto____$11, G__438375, ___7643__auto____$1, 
+    G__438377, ___7644__auto____$12, ___7646__auto____$8, G__438378, ___7644__auto____$13, G__438422, ___7643__auto____$2, G__438424, ___7644__auto____$14, ___7643__auto____$3, G__438426, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__438427, ___7644__auto____$16, G__438429, ___7643__auto____$5, G__438431, ___7644__auto____$17, ___7646__auto____$10, G__438432, ___7644__auto____$18, G__438433, ___7644__auto____$19, G__438434, ___7643__auto____$6, G__438436, ___7644__auto____$20, 
+    ___7646__auto____$11, G__438437, ___7644__auto____$21, G__438438, ___7644__auto____$22, G__438439, ___7643__auto____$7, G__438441, ___7644__auto____$23, ___7643__auto____$8, G__438443, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__438444, ___7643__auto____$10, G__438446, ___7644__auto____$25, ___7646__auto____$13, G__438448, ___7644__auto____$26, G__438449, ___7643__auto____$11, G__438451, ___7644__auto____$27, ___7643__auto____$12, G__438453, ___7644__auto____$28, ___7643__auto____$13, 
+    ___7646__auto____$14, G__438454, ___7644__auto____$29, ___7646__auto____$15, G__438379, G__438380, G__438381, ___7644__auto____$30, ___7646__auto____$16, G__438382, G__438383, G__438384, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__438385, G__438386, ___7644__auto____$32, ___7646__auto____$19, G__438387, G__438388, G__438389, G__438390, ___7644__auto____$33, ___7646__auto____$20, G__438391, G__438392, ___7644__auto____$34, G__438393, ___7644__auto____$35, G__438394, ___7644__auto____$36, 
+    G__438395, ___7644__auto____$37, G__438456, ___7644__auto____$38, G__438457, ___7644__auto____$39, G__438458, ___7644__auto____$40, G__438459, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__438396, G__438397, ___7644__auto____$42, G__438398, G__438399, ___7644__auto____$43, ___7646__auto____$23, G__438400, G__438401, ___7644__auto____$44, G__438402, ___7644__auto____$45, G__438403, ___7643__auto____$14, G__438405, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, 
+    G__438407, ___7644__auto____$47, G__438460, ___7644__auto____$48, G__438461, G__438462, G__438463, G__438464, G__438465, G__438466, G__438467, ___7644__auto____$49, ___7646__auto____$25, G__438468, ___7644__auto____$50, ___7646__auto____$26, G__438469, G__438470, G__438471, ___7644__auto____$51, ___7646__auto____$27, G__438472, ___7644__auto____$52, ___7646__auto____$28, G__438473, G__438474, G__438475, ___7644__auto____$53, ___7646__auto____$29, G__438476, ___7644__auto____$54, ___7646__auto____$30, 
+    ___7646__auto____$31, ___7646__auto____$32, ___7646__auto____$33, ___7646__auto____$34, G__438477, ___7644__auto____$55, G__438478, ___7644__auto____$56, G__438479, ___7644__auto____$57, G__438480, ___7644__auto____$58, ___7646__auto____$35, ___7646__auto____$36, G__438408) {
+      return function(G__439945, G__439946) {
+        return G__439945.call(null, G__439946, 3)
       }
-    }(G__435074, G__435075, G__435076, G__435077, ___7644__auto__, G__435078, ___7644__auto____$1, G__435079, G__435080, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__435081, G__435082, G__435083, G__435084, ___7644__auto____$3, G__435085, ___7644__auto____$4, ___7646__auto____$3, G__435086, G__435087, ___7644__auto____$5, G__435088, ___7644__auto____$6, ___7646__auto____$4, G__435089, G__435090, ___7644__auto____$7, G__435091, ___7644__auto____$8, ___7646__auto____$5, 
-    ___7646__auto____$6, G__435092, ___7644__auto____$9, G__435093, G__435094, G__435095, ___7643__auto__, G__435097, ___7644__auto____$10, ___7646__auto____$7, G__435098, ___7644__auto____$11, G__435099, ___7643__auto____$1, G__435101, ___7644__auto____$12, ___7646__auto____$8, G__435102, ___7644__auto____$13, G__435146, ___7643__auto____$2, G__435148, ___7644__auto____$14, ___7643__auto____$3, G__435150, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__435151, ___7644__auto____$16, 
-    G__435153, ___7643__auto____$5, G__435155, ___7644__auto____$17, ___7646__auto____$10, G__435156, ___7644__auto____$18, G__435157, ___7644__auto____$19, G__435158, ___7643__auto____$6, G__435160, ___7644__auto____$20, ___7646__auto____$11, G__435161, ___7644__auto____$21, G__435162, ___7644__auto____$22, G__435163, ___7643__auto____$7, G__435165, ___7644__auto____$23, ___7643__auto____$8, G__435167, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__435168, ___7643__auto____$10, 
-    G__435170, ___7644__auto____$25, ___7646__auto____$13, G__435172, ___7644__auto____$26, G__435173, ___7643__auto____$11, G__435175, ___7644__auto____$27, ___7643__auto____$12, G__435177, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__435178, ___7644__auto____$29, ___7646__auto____$15, G__435103, G__435104, G__435105, ___7644__auto____$30, ___7646__auto____$16, G__435106, G__435107, G__435108, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__435109, G__435110, 
-    ___7644__auto____$32, ___7646__auto____$19, G__435111, G__435112, G__435113, G__435114, ___7644__auto____$33, ___7646__auto____$20, G__435115, G__435116, ___7644__auto____$34, G__435117, ___7644__auto____$35, G__435118, ___7644__auto____$36, G__435119, ___7644__auto____$37, G__435180, ___7644__auto____$38, G__435181, ___7644__auto____$39, G__435182, ___7644__auto____$40, G__435183, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__435120, G__435121, ___7644__auto____$42, G__435122, 
-    G__435123, ___7644__auto____$43, ___7646__auto____$23, G__435124, G__435125, ___7644__auto____$44, G__435126, ___7644__auto____$45, G__435127, ___7643__auto____$14, G__435129, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__435131, ___7644__auto____$47, G__435184, ___7644__auto____$48, G__435185, G__435186, G__435187, G__435188, G__435189, G__435190, G__435191, ___7644__auto____$49, ___7646__auto____$25, G__435192, ___7644__auto____$50, ___7646__auto____$26, G__435193, G__435194, 
-    G__435195, ___7644__auto____$51, ___7646__auto____$27, G__435196, ___7644__auto____$52, ___7646__auto____$28, G__435197, G__435198, G__435199, ___7644__auto____$53, ___7646__auto____$29, G__435200, ___7644__auto____$54, ___7646__auto____$30, ___7646__auto____$31, ___7646__auto____$32, ___7646__auto____$33, ___7646__auto____$34, G__435201, ___7644__auto____$55, G__435202, ___7644__auto____$56, G__435203, ___7644__auto____$57, G__435204, ___7644__auto____$58, ___7646__auto____$35, ___7646__auto____$36, 
-    G__435132)).call(null, cljs.core._EQ_, tailrecursion.hoplon.app_pages.G__435072.example)], true));
-    var ___7644__auto____$59 = G__435132.call(null, G__435133);
-    var G__435134 = tailrecursion.hoplon.a.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "do-toggle", "do-toggle", 1250159176), tailrecursion.javelin.lift.call(null, function(G__435074, G__435075, G__435076, G__435077, ___7644__auto__, G__435078, ___7644__auto____$1, G__435079, G__435080, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__435081, G__435082, G__435083, G__435084, ___7644__auto____$3, G__435085, ___7644__auto____$4, ___7646__auto____$3, 
-    G__435086, G__435087, ___7644__auto____$5, G__435088, ___7644__auto____$6, ___7646__auto____$4, G__435089, G__435090, ___7644__auto____$7, G__435091, ___7644__auto____$8, ___7646__auto____$5, ___7646__auto____$6, G__435092, ___7644__auto____$9, G__435093, G__435094, G__435095, ___7643__auto__, G__435097, ___7644__auto____$10, ___7646__auto____$7, G__435098, ___7644__auto____$11, G__435099, ___7643__auto____$1, G__435101, ___7644__auto____$12, ___7646__auto____$8, G__435102, ___7644__auto____$13, 
-    G__435146, ___7643__auto____$2, G__435148, ___7644__auto____$14, ___7643__auto____$3, G__435150, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__435151, ___7644__auto____$16, G__435153, ___7643__auto____$5, G__435155, ___7644__auto____$17, ___7646__auto____$10, G__435156, ___7644__auto____$18, G__435157, ___7644__auto____$19, G__435158, ___7643__auto____$6, G__435160, ___7644__auto____$20, ___7646__auto____$11, G__435161, ___7644__auto____$21, G__435162, ___7644__auto____$22, 
-    G__435163, ___7643__auto____$7, G__435165, ___7644__auto____$23, ___7643__auto____$8, G__435167, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__435168, ___7643__auto____$10, G__435170, ___7644__auto____$25, ___7646__auto____$13, G__435172, ___7644__auto____$26, G__435173, ___7643__auto____$11, G__435175, ___7644__auto____$27, ___7643__auto____$12, G__435177, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__435178, ___7644__auto____$29, ___7646__auto____$15, 
-    G__435103, G__435104, G__435105, ___7644__auto____$30, ___7646__auto____$16, G__435106, G__435107, G__435108, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__435109, G__435110, ___7644__auto____$32, ___7646__auto____$19, G__435111, G__435112, G__435113, G__435114, ___7644__auto____$33, ___7646__auto____$20, G__435115, G__435116, ___7644__auto____$34, G__435117, ___7644__auto____$35, G__435118, ___7644__auto____$36, G__435119, ___7644__auto____$37, G__435180, ___7644__auto____$38, 
-    G__435181, ___7644__auto____$39, G__435182, ___7644__auto____$40, G__435183, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__435120, G__435121, ___7644__auto____$42, G__435122, G__435123, ___7644__auto____$43, ___7646__auto____$23, G__435124, G__435125, ___7644__auto____$44, G__435126, ___7644__auto____$45, G__435127, ___7643__auto____$14, G__435129, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__435131, ___7644__auto____$47, G__435184, ___7644__auto____$48, 
-    G__435185, G__435186, G__435187, G__435188, G__435189, G__435190, G__435191, ___7644__auto____$49, ___7646__auto____$25, G__435192, ___7644__auto____$50, ___7646__auto____$26, G__435193, G__435194, G__435195, ___7644__auto____$51, ___7646__auto____$27, G__435196, ___7644__auto____$52, ___7646__auto____$28, G__435197, G__435198, G__435199, ___7644__auto____$53, ___7646__auto____$29, G__435200, ___7644__auto____$54, ___7646__auto____$30, ___7646__auto____$31, ___7646__auto____$32, ___7646__auto____$33, 
-    ___7646__auto____$34, G__435201, ___7644__auto____$55, G__435202, ___7644__auto____$56, G__435203, ___7644__auto____$57, G__435204, ___7644__auto____$58, ___7646__auto____$35, ___7646__auto____$36, G__435132, G__435133, ___7644__auto____$59) {
-      return function(G__436671, G__436672) {
-        return G__436671.call(null, G__436672, 3)
+    }(G__438350, G__438351, G__438352, G__438353, ___7644__auto__, G__438354, ___7644__auto____$1, G__438355, G__438356, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__438357, G__438358, G__438359, G__438360, ___7644__auto____$3, G__438361, ___7644__auto____$4, ___7646__auto____$3, G__438362, G__438363, ___7644__auto____$5, G__438364, ___7644__auto____$6, ___7646__auto____$4, G__438365, G__438366, ___7644__auto____$7, G__438367, ___7644__auto____$8, ___7646__auto____$5, 
+    ___7646__auto____$6, G__438368, ___7644__auto____$9, G__438369, G__438370, G__438371, ___7643__auto__, G__438373, ___7644__auto____$10, ___7646__auto____$7, G__438374, ___7644__auto____$11, G__438375, ___7643__auto____$1, G__438377, ___7644__auto____$12, ___7646__auto____$8, G__438378, ___7644__auto____$13, G__438422, ___7643__auto____$2, G__438424, ___7644__auto____$14, ___7643__auto____$3, G__438426, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__438427, ___7644__auto____$16, 
+    G__438429, ___7643__auto____$5, G__438431, ___7644__auto____$17, ___7646__auto____$10, G__438432, ___7644__auto____$18, G__438433, ___7644__auto____$19, G__438434, ___7643__auto____$6, G__438436, ___7644__auto____$20, ___7646__auto____$11, G__438437, ___7644__auto____$21, G__438438, ___7644__auto____$22, G__438439, ___7643__auto____$7, G__438441, ___7644__auto____$23, ___7643__auto____$8, G__438443, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__438444, ___7643__auto____$10, 
+    G__438446, ___7644__auto____$25, ___7646__auto____$13, G__438448, ___7644__auto____$26, G__438449, ___7643__auto____$11, G__438451, ___7644__auto____$27, ___7643__auto____$12, G__438453, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__438454, ___7644__auto____$29, ___7646__auto____$15, G__438379, G__438380, G__438381, ___7644__auto____$30, ___7646__auto____$16, G__438382, G__438383, G__438384, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__438385, G__438386, 
+    ___7644__auto____$32, ___7646__auto____$19, G__438387, G__438388, G__438389, G__438390, ___7644__auto____$33, ___7646__auto____$20, G__438391, G__438392, ___7644__auto____$34, G__438393, ___7644__auto____$35, G__438394, ___7644__auto____$36, G__438395, ___7644__auto____$37, G__438456, ___7644__auto____$38, G__438457, ___7644__auto____$39, G__438458, ___7644__auto____$40, G__438459, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__438396, G__438397, ___7644__auto____$42, G__438398, 
+    G__438399, ___7644__auto____$43, ___7646__auto____$23, G__438400, G__438401, ___7644__auto____$44, G__438402, ___7644__auto____$45, G__438403, ___7643__auto____$14, G__438405, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__438407, ___7644__auto____$47, G__438460, ___7644__auto____$48, G__438461, G__438462, G__438463, G__438464, G__438465, G__438466, G__438467, ___7644__auto____$49, ___7646__auto____$25, G__438468, ___7644__auto____$50, ___7646__auto____$26, G__438469, G__438470, 
+    G__438471, ___7644__auto____$51, ___7646__auto____$27, G__438472, ___7644__auto____$52, ___7646__auto____$28, G__438473, G__438474, G__438475, ___7644__auto____$53, ___7646__auto____$29, G__438476, ___7644__auto____$54, ___7646__auto____$30, ___7646__auto____$31, ___7646__auto____$32, ___7646__auto____$33, ___7646__auto____$34, G__438477, ___7644__auto____$55, G__438478, ___7644__auto____$56, G__438479, ___7644__auto____$57, G__438480, ___7644__auto____$58, ___7646__auto____$35, ___7646__auto____$36, 
+    G__438408)).call(null, cljs.core._EQ_, tailrecursion.hoplon.app_pages.G__438348.example)], true));
+    var ___7644__auto____$59 = G__438408.call(null, G__438409);
+    var G__438410 = tailrecursion.hoplon.a.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "do-toggle", "do-toggle", 1250159176), tailrecursion.javelin.lift.call(null, function(G__438350, G__438351, G__438352, G__438353, ___7644__auto__, G__438354, ___7644__auto____$1, G__438355, G__438356, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__438357, G__438358, G__438359, G__438360, ___7644__auto____$3, G__438361, ___7644__auto____$4, ___7646__auto____$3, 
+    G__438362, G__438363, ___7644__auto____$5, G__438364, ___7644__auto____$6, ___7646__auto____$4, G__438365, G__438366, ___7644__auto____$7, G__438367, ___7644__auto____$8, ___7646__auto____$5, ___7646__auto____$6, G__438368, ___7644__auto____$9, G__438369, G__438370, G__438371, ___7643__auto__, G__438373, ___7644__auto____$10, ___7646__auto____$7, G__438374, ___7644__auto____$11, G__438375, ___7643__auto____$1, G__438377, ___7644__auto____$12, ___7646__auto____$8, G__438378, ___7644__auto____$13, 
+    G__438422, ___7643__auto____$2, G__438424, ___7644__auto____$14, ___7643__auto____$3, G__438426, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__438427, ___7644__auto____$16, G__438429, ___7643__auto____$5, G__438431, ___7644__auto____$17, ___7646__auto____$10, G__438432, ___7644__auto____$18, G__438433, ___7644__auto____$19, G__438434, ___7643__auto____$6, G__438436, ___7644__auto____$20, ___7646__auto____$11, G__438437, ___7644__auto____$21, G__438438, ___7644__auto____$22, 
+    G__438439, ___7643__auto____$7, G__438441, ___7644__auto____$23, ___7643__auto____$8, G__438443, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__438444, ___7643__auto____$10, G__438446, ___7644__auto____$25, ___7646__auto____$13, G__438448, ___7644__auto____$26, G__438449, ___7643__auto____$11, G__438451, ___7644__auto____$27, ___7643__auto____$12, G__438453, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__438454, ___7644__auto____$29, ___7646__auto____$15, 
+    G__438379, G__438380, G__438381, ___7644__auto____$30, ___7646__auto____$16, G__438382, G__438383, G__438384, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__438385, G__438386, ___7644__auto____$32, ___7646__auto____$19, G__438387, G__438388, G__438389, G__438390, ___7644__auto____$33, ___7646__auto____$20, G__438391, G__438392, ___7644__auto____$34, G__438393, ___7644__auto____$35, G__438394, ___7644__auto____$36, G__438395, ___7644__auto____$37, G__438456, ___7644__auto____$38, 
+    G__438457, ___7644__auto____$39, G__438458, ___7644__auto____$40, G__438459, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__438396, G__438397, ___7644__auto____$42, G__438398, G__438399, ___7644__auto____$43, ___7646__auto____$23, G__438400, G__438401, ___7644__auto____$44, G__438402, ___7644__auto____$45, G__438403, ___7643__auto____$14, G__438405, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__438407, ___7644__auto____$47, G__438460, ___7644__auto____$48, 
+    G__438461, G__438462, G__438463, G__438464, G__438465, G__438466, G__438467, ___7644__auto____$49, ___7646__auto____$25, G__438468, ___7644__auto____$50, ___7646__auto____$26, G__438469, G__438470, G__438471, ___7644__auto____$51, ___7646__auto____$27, G__438472, ___7644__auto____$52, ___7646__auto____$28, G__438473, G__438474, G__438475, ___7644__auto____$53, ___7646__auto____$29, G__438476, ___7644__auto____$54, ___7646__auto____$30, ___7646__auto____$31, ___7646__auto____$32, ___7646__auto____$33, 
+    ___7646__auto____$34, G__438477, ___7644__auto____$55, G__438478, ___7644__auto____$56, G__438479, ___7644__auto____$57, G__438480, ___7644__auto____$58, ___7646__auto____$35, ___7646__auto____$36, G__438408, G__438409, ___7644__auto____$59) {
+      return function(G__439947, G__439948) {
+        return G__439947.call(null, G__439948, 3)
       }
-    }(G__435074, G__435075, G__435076, G__435077, ___7644__auto__, G__435078, ___7644__auto____$1, G__435079, G__435080, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__435081, G__435082, G__435083, G__435084, ___7644__auto____$3, G__435085, ___7644__auto____$4, ___7646__auto____$3, G__435086, G__435087, ___7644__auto____$5, G__435088, ___7644__auto____$6, ___7646__auto____$4, G__435089, G__435090, ___7644__auto____$7, G__435091, ___7644__auto____$8, ___7646__auto____$5, 
-    ___7646__auto____$6, G__435092, ___7644__auto____$9, G__435093, G__435094, G__435095, ___7643__auto__, G__435097, ___7644__auto____$10, ___7646__auto____$7, G__435098, ___7644__auto____$11, G__435099, ___7643__auto____$1, G__435101, ___7644__auto____$12, ___7646__auto____$8, G__435102, ___7644__auto____$13, G__435146, ___7643__auto____$2, G__435148, ___7644__auto____$14, ___7643__auto____$3, G__435150, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__435151, ___7644__auto____$16, 
-    G__435153, ___7643__auto____$5, G__435155, ___7644__auto____$17, ___7646__auto____$10, G__435156, ___7644__auto____$18, G__435157, ___7644__auto____$19, G__435158, ___7643__auto____$6, G__435160, ___7644__auto____$20, ___7646__auto____$11, G__435161, ___7644__auto____$21, G__435162, ___7644__auto____$22, G__435163, ___7643__auto____$7, G__435165, ___7644__auto____$23, ___7643__auto____$8, G__435167, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__435168, ___7643__auto____$10, 
-    G__435170, ___7644__auto____$25, ___7646__auto____$13, G__435172, ___7644__auto____$26, G__435173, ___7643__auto____$11, G__435175, ___7644__auto____$27, ___7643__auto____$12, G__435177, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__435178, ___7644__auto____$29, ___7646__auto____$15, G__435103, G__435104, G__435105, ___7644__auto____$30, ___7646__auto____$16, G__435106, G__435107, G__435108, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__435109, G__435110, 
-    ___7644__auto____$32, ___7646__auto____$19, G__435111, G__435112, G__435113, G__435114, ___7644__auto____$33, ___7646__auto____$20, G__435115, G__435116, ___7644__auto____$34, G__435117, ___7644__auto____$35, G__435118, ___7644__auto____$36, G__435119, ___7644__auto____$37, G__435180, ___7644__auto____$38, G__435181, ___7644__auto____$39, G__435182, ___7644__auto____$40, G__435183, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__435120, G__435121, ___7644__auto____$42, G__435122, 
-    G__435123, ___7644__auto____$43, ___7646__auto____$23, G__435124, G__435125, ___7644__auto____$44, G__435126, ___7644__auto____$45, G__435127, ___7643__auto____$14, G__435129, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__435131, ___7644__auto____$47, G__435184, ___7644__auto____$48, G__435185, G__435186, G__435187, G__435188, G__435189, G__435190, G__435191, ___7644__auto____$49, ___7646__auto____$25, G__435192, ___7644__auto____$50, ___7646__auto____$26, G__435193, G__435194, 
-    G__435195, ___7644__auto____$51, ___7646__auto____$27, G__435196, ___7644__auto____$52, ___7646__auto____$28, G__435197, G__435198, G__435199, ___7644__auto____$53, ___7646__auto____$29, G__435200, ___7644__auto____$54, ___7646__auto____$30, ___7646__auto____$31, ___7646__auto____$32, ___7646__auto____$33, ___7646__auto____$34, G__435201, ___7644__auto____$55, G__435202, ___7644__auto____$56, G__435203, ___7644__auto____$57, G__435204, ___7644__auto____$58, ___7646__auto____$35, ___7646__auto____$36, 
-    G__435132, G__435133, ___7644__auto____$59)).call(null, cljs.core.not_EQ_, tailrecursion.hoplon.app_pages.G__435072.example)], true));
-    var G__435135 = tailrecursion.hoplon.h3.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "panel-title"], true), "List Component");
-    var ___7644__auto____$60 = G__435134.call(null, G__435135);
-    var ___7646__auto____$37 = G__435132.call(null, G__435134);
-    var G__435136 = tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "do-toggle", "do-toggle", 1250159176), tailrecursion.javelin.lift.call(null, function(G__435074, G__435075, G__435076, G__435077, ___7644__auto__, G__435078, ___7644__auto____$1, G__435079, G__435080, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__435081, G__435082, G__435083, G__435084, ___7644__auto____$3, G__435085, ___7644__auto____$4, 
-    ___7646__auto____$3, G__435086, G__435087, ___7644__auto____$5, G__435088, ___7644__auto____$6, ___7646__auto____$4, G__435089, G__435090, ___7644__auto____$7, G__435091, ___7644__auto____$8, ___7646__auto____$5, ___7646__auto____$6, G__435092, ___7644__auto____$9, G__435093, G__435094, G__435095, ___7643__auto__, G__435097, ___7644__auto____$10, ___7646__auto____$7, G__435098, ___7644__auto____$11, G__435099, ___7643__auto____$1, G__435101, ___7644__auto____$12, ___7646__auto____$8, G__435102, 
-    ___7644__auto____$13, G__435146, ___7643__auto____$2, G__435148, ___7644__auto____$14, ___7643__auto____$3, G__435150, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__435151, ___7644__auto____$16, G__435153, ___7643__auto____$5, G__435155, ___7644__auto____$17, ___7646__auto____$10, G__435156, ___7644__auto____$18, G__435157, ___7644__auto____$19, G__435158, ___7643__auto____$6, G__435160, ___7644__auto____$20, ___7646__auto____$11, G__435161, ___7644__auto____$21, G__435162, 
-    ___7644__auto____$22, G__435163, ___7643__auto____$7, G__435165, ___7644__auto____$23, ___7643__auto____$8, G__435167, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__435168, ___7643__auto____$10, G__435170, ___7644__auto____$25, ___7646__auto____$13, G__435172, ___7644__auto____$26, G__435173, ___7643__auto____$11, G__435175, ___7644__auto____$27, ___7643__auto____$12, G__435177, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__435178, ___7644__auto____$29, 
-    ___7646__auto____$15, G__435103, G__435104, G__435105, ___7644__auto____$30, ___7646__auto____$16, G__435106, G__435107, G__435108, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__435109, G__435110, ___7644__auto____$32, ___7646__auto____$19, G__435111, G__435112, G__435113, G__435114, ___7644__auto____$33, ___7646__auto____$20, G__435115, G__435116, ___7644__auto____$34, G__435117, ___7644__auto____$35, G__435118, ___7644__auto____$36, G__435119, ___7644__auto____$37, G__435180, 
-    ___7644__auto____$38, G__435181, ___7644__auto____$39, G__435182, ___7644__auto____$40, G__435183, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__435120, G__435121, ___7644__auto____$42, G__435122, G__435123, ___7644__auto____$43, ___7646__auto____$23, G__435124, G__435125, ___7644__auto____$44, G__435126, ___7644__auto____$45, G__435127, ___7643__auto____$14, G__435129, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__435131, ___7644__auto____$47, G__435184, 
-    ___7644__auto____$48, G__435185, G__435186, G__435187, G__435188, G__435189, G__435190, G__435191, ___7644__auto____$49, ___7646__auto____$25, G__435192, ___7644__auto____$50, ___7646__auto____$26, G__435193, G__435194, G__435195, ___7644__auto____$51, ___7646__auto____$27, G__435196, ___7644__auto____$52, ___7646__auto____$28, G__435197, G__435198, G__435199, ___7644__auto____$53, ___7646__auto____$29, G__435200, ___7644__auto____$54, ___7646__auto____$30, ___7646__auto____$31, ___7646__auto____$32, 
-    ___7646__auto____$33, ___7646__auto____$34, G__435201, ___7644__auto____$55, G__435202, ___7644__auto____$56, G__435203, ___7644__auto____$57, G__435204, ___7644__auto____$58, ___7646__auto____$35, ___7646__auto____$36, G__435132, G__435133, ___7644__auto____$59, G__435134, G__435135, ___7644__auto____$60, ___7646__auto____$37) {
-      return function(G__436673, G__436674) {
-        return G__436673.call(null, G__436674, 3)
+    }(G__438350, G__438351, G__438352, G__438353, ___7644__auto__, G__438354, ___7644__auto____$1, G__438355, G__438356, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__438357, G__438358, G__438359, G__438360, ___7644__auto____$3, G__438361, ___7644__auto____$4, ___7646__auto____$3, G__438362, G__438363, ___7644__auto____$5, G__438364, ___7644__auto____$6, ___7646__auto____$4, G__438365, G__438366, ___7644__auto____$7, G__438367, ___7644__auto____$8, ___7646__auto____$5, 
+    ___7646__auto____$6, G__438368, ___7644__auto____$9, G__438369, G__438370, G__438371, ___7643__auto__, G__438373, ___7644__auto____$10, ___7646__auto____$7, G__438374, ___7644__auto____$11, G__438375, ___7643__auto____$1, G__438377, ___7644__auto____$12, ___7646__auto____$8, G__438378, ___7644__auto____$13, G__438422, ___7643__auto____$2, G__438424, ___7644__auto____$14, ___7643__auto____$3, G__438426, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__438427, ___7644__auto____$16, 
+    G__438429, ___7643__auto____$5, G__438431, ___7644__auto____$17, ___7646__auto____$10, G__438432, ___7644__auto____$18, G__438433, ___7644__auto____$19, G__438434, ___7643__auto____$6, G__438436, ___7644__auto____$20, ___7646__auto____$11, G__438437, ___7644__auto____$21, G__438438, ___7644__auto____$22, G__438439, ___7643__auto____$7, G__438441, ___7644__auto____$23, ___7643__auto____$8, G__438443, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__438444, ___7643__auto____$10, 
+    G__438446, ___7644__auto____$25, ___7646__auto____$13, G__438448, ___7644__auto____$26, G__438449, ___7643__auto____$11, G__438451, ___7644__auto____$27, ___7643__auto____$12, G__438453, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__438454, ___7644__auto____$29, ___7646__auto____$15, G__438379, G__438380, G__438381, ___7644__auto____$30, ___7646__auto____$16, G__438382, G__438383, G__438384, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__438385, G__438386, 
+    ___7644__auto____$32, ___7646__auto____$19, G__438387, G__438388, G__438389, G__438390, ___7644__auto____$33, ___7646__auto____$20, G__438391, G__438392, ___7644__auto____$34, G__438393, ___7644__auto____$35, G__438394, ___7644__auto____$36, G__438395, ___7644__auto____$37, G__438456, ___7644__auto____$38, G__438457, ___7644__auto____$39, G__438458, ___7644__auto____$40, G__438459, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__438396, G__438397, ___7644__auto____$42, G__438398, 
+    G__438399, ___7644__auto____$43, ___7646__auto____$23, G__438400, G__438401, ___7644__auto____$44, G__438402, ___7644__auto____$45, G__438403, ___7643__auto____$14, G__438405, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__438407, ___7644__auto____$47, G__438460, ___7644__auto____$48, G__438461, G__438462, G__438463, G__438464, G__438465, G__438466, G__438467, ___7644__auto____$49, ___7646__auto____$25, G__438468, ___7644__auto____$50, ___7646__auto____$26, G__438469, G__438470, 
+    G__438471, ___7644__auto____$51, ___7646__auto____$27, G__438472, ___7644__auto____$52, ___7646__auto____$28, G__438473, G__438474, G__438475, ___7644__auto____$53, ___7646__auto____$29, G__438476, ___7644__auto____$54, ___7646__auto____$30, ___7646__auto____$31, ___7646__auto____$32, ___7646__auto____$33, ___7646__auto____$34, G__438477, ___7644__auto____$55, G__438478, ___7644__auto____$56, G__438479, ___7644__auto____$57, G__438480, ___7644__auto____$58, ___7646__auto____$35, ___7646__auto____$36, 
+    G__438408, G__438409, ___7644__auto____$59)).call(null, cljs.core.not_EQ_, tailrecursion.hoplon.app_pages.G__438348.example)], true));
+    var G__438411 = tailrecursion.hoplon.h3.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "panel-title"], true), "List Component");
+    var ___7644__auto____$60 = G__438410.call(null, G__438411);
+    var ___7646__auto____$37 = G__438408.call(null, G__438410);
+    var G__438412 = tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "do-toggle", "do-toggle", 1250159176), tailrecursion.javelin.lift.call(null, function(G__438350, G__438351, G__438352, G__438353, ___7644__auto__, G__438354, ___7644__auto____$1, G__438355, G__438356, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__438357, G__438358, G__438359, G__438360, ___7644__auto____$3, G__438361, ___7644__auto____$4, 
+    ___7646__auto____$3, G__438362, G__438363, ___7644__auto____$5, G__438364, ___7644__auto____$6, ___7646__auto____$4, G__438365, G__438366, ___7644__auto____$7, G__438367, ___7644__auto____$8, ___7646__auto____$5, ___7646__auto____$6, G__438368, ___7644__auto____$9, G__438369, G__438370, G__438371, ___7643__auto__, G__438373, ___7644__auto____$10, ___7646__auto____$7, G__438374, ___7644__auto____$11, G__438375, ___7643__auto____$1, G__438377, ___7644__auto____$12, ___7646__auto____$8, G__438378, 
+    ___7644__auto____$13, G__438422, ___7643__auto____$2, G__438424, ___7644__auto____$14, ___7643__auto____$3, G__438426, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__438427, ___7644__auto____$16, G__438429, ___7643__auto____$5, G__438431, ___7644__auto____$17, ___7646__auto____$10, G__438432, ___7644__auto____$18, G__438433, ___7644__auto____$19, G__438434, ___7643__auto____$6, G__438436, ___7644__auto____$20, ___7646__auto____$11, G__438437, ___7644__auto____$21, G__438438, 
+    ___7644__auto____$22, G__438439, ___7643__auto____$7, G__438441, ___7644__auto____$23, ___7643__auto____$8, G__438443, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__438444, ___7643__auto____$10, G__438446, ___7644__auto____$25, ___7646__auto____$13, G__438448, ___7644__auto____$26, G__438449, ___7643__auto____$11, G__438451, ___7644__auto____$27, ___7643__auto____$12, G__438453, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__438454, ___7644__auto____$29, 
+    ___7646__auto____$15, G__438379, G__438380, G__438381, ___7644__auto____$30, ___7646__auto____$16, G__438382, G__438383, G__438384, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__438385, G__438386, ___7644__auto____$32, ___7646__auto____$19, G__438387, G__438388, G__438389, G__438390, ___7644__auto____$33, ___7646__auto____$20, G__438391, G__438392, ___7644__auto____$34, G__438393, ___7644__auto____$35, G__438394, ___7644__auto____$36, G__438395, ___7644__auto____$37, G__438456, 
+    ___7644__auto____$38, G__438457, ___7644__auto____$39, G__438458, ___7644__auto____$40, G__438459, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__438396, G__438397, ___7644__auto____$42, G__438398, G__438399, ___7644__auto____$43, ___7646__auto____$23, G__438400, G__438401, ___7644__auto____$44, G__438402, ___7644__auto____$45, G__438403, ___7643__auto____$14, G__438405, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__438407, ___7644__auto____$47, G__438460, 
+    ___7644__auto____$48, G__438461, G__438462, G__438463, G__438464, G__438465, G__438466, G__438467, ___7644__auto____$49, ___7646__auto____$25, G__438468, ___7644__auto____$50, ___7646__auto____$26, G__438469, G__438470, G__438471, ___7644__auto____$51, ___7646__auto____$27, G__438472, ___7644__auto____$52, ___7646__auto____$28, G__438473, G__438474, G__438475, ___7644__auto____$53, ___7646__auto____$29, G__438476, ___7644__auto____$54, ___7646__auto____$30, ___7646__auto____$31, ___7646__auto____$32, 
+    ___7646__auto____$33, ___7646__auto____$34, G__438477, ___7644__auto____$55, G__438478, ___7644__auto____$56, G__438479, ___7644__auto____$57, G__438480, ___7644__auto____$58, ___7646__auto____$35, ___7646__auto____$36, G__438408, G__438409, ___7644__auto____$59, G__438410, G__438411, ___7644__auto____$60, ___7646__auto____$37) {
+      return function(G__439949, G__439950) {
+        return G__439949.call(null, G__439950, 3)
       }
-    }(G__435074, G__435075, G__435076, G__435077, ___7644__auto__, G__435078, ___7644__auto____$1, G__435079, G__435080, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__435081, G__435082, G__435083, G__435084, ___7644__auto____$3, G__435085, ___7644__auto____$4, ___7646__auto____$3, G__435086, G__435087, ___7644__auto____$5, G__435088, ___7644__auto____$6, ___7646__auto____$4, G__435089, G__435090, ___7644__auto____$7, G__435091, ___7644__auto____$8, ___7646__auto____$5, 
-    ___7646__auto____$6, G__435092, ___7644__auto____$9, G__435093, G__435094, G__435095, ___7643__auto__, G__435097, ___7644__auto____$10, ___7646__auto____$7, G__435098, ___7644__auto____$11, G__435099, ___7643__auto____$1, G__435101, ___7644__auto____$12, ___7646__auto____$8, G__435102, ___7644__auto____$13, G__435146, ___7643__auto____$2, G__435148, ___7644__auto____$14, ___7643__auto____$3, G__435150, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__435151, ___7644__auto____$16, 
-    G__435153, ___7643__auto____$5, G__435155, ___7644__auto____$17, ___7646__auto____$10, G__435156, ___7644__auto____$18, G__435157, ___7644__auto____$19, G__435158, ___7643__auto____$6, G__435160, ___7644__auto____$20, ___7646__auto____$11, G__435161, ___7644__auto____$21, G__435162, ___7644__auto____$22, G__435163, ___7643__auto____$7, G__435165, ___7644__auto____$23, ___7643__auto____$8, G__435167, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__435168, ___7643__auto____$10, 
-    G__435170, ___7644__auto____$25, ___7646__auto____$13, G__435172, ___7644__auto____$26, G__435173, ___7643__auto____$11, G__435175, ___7644__auto____$27, ___7643__auto____$12, G__435177, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__435178, ___7644__auto____$29, ___7646__auto____$15, G__435103, G__435104, G__435105, ___7644__auto____$30, ___7646__auto____$16, G__435106, G__435107, G__435108, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__435109, G__435110, 
-    ___7644__auto____$32, ___7646__auto____$19, G__435111, G__435112, G__435113, G__435114, ___7644__auto____$33, ___7646__auto____$20, G__435115, G__435116, ___7644__auto____$34, G__435117, ___7644__auto____$35, G__435118, ___7644__auto____$36, G__435119, ___7644__auto____$37, G__435180, ___7644__auto____$38, G__435181, ___7644__auto____$39, G__435182, ___7644__auto____$40, G__435183, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__435120, G__435121, ___7644__auto____$42, G__435122, 
-    G__435123, ___7644__auto____$43, ___7646__auto____$23, G__435124, G__435125, ___7644__auto____$44, G__435126, ___7644__auto____$45, G__435127, ___7643__auto____$14, G__435129, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__435131, ___7644__auto____$47, G__435184, ___7644__auto____$48, G__435185, G__435186, G__435187, G__435188, G__435189, G__435190, G__435191, ___7644__auto____$49, ___7646__auto____$25, G__435192, ___7644__auto____$50, ___7646__auto____$26, G__435193, G__435194, 
-    G__435195, ___7644__auto____$51, ___7646__auto____$27, G__435196, ___7644__auto____$52, ___7646__auto____$28, G__435197, G__435198, G__435199, ___7644__auto____$53, ___7646__auto____$29, G__435200, ___7644__auto____$54, ___7646__auto____$30, ___7646__auto____$31, ___7646__auto____$32, ___7646__auto____$33, ___7646__auto____$34, G__435201, ___7644__auto____$55, G__435202, ___7644__auto____$56, G__435203, ___7644__auto____$57, G__435204, ___7644__auto____$58, ___7646__auto____$35, ___7646__auto____$36, 
-    G__435132, G__435133, ___7644__auto____$59, G__435134, G__435135, ___7644__auto____$60, ___7646__auto____$37)).call(null, cljs.core._EQ_, tailrecursion.hoplon.app_pages.G__435072.example)], true));
-    var G__435137 = tailrecursion.hoplon.h3.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "panel-title"], true), "List Component");
-    var ___7644__auto____$61 = G__435136.call(null, G__435137);
-    var G__435138 = tailrecursion.hoplon.hr.call(null);
-    var ___7644__auto____$62 = G__435136.call(null, G__435138);
-    var G__435139 = tailrecursion.hoplon.p.call(null);
-    var ___7643__auto____$16 = G__435139.call(null, "This is an example of a custom element, or component. The ");
-    var G__435141 = tailrecursion.hoplon.em.call(null, "on-append!");
-    var ___7644__auto____$63 = G__435139.call(null, G__435141);
-    var ___7643__auto____$17 = G__435139.call(null, " function is used to provide the implementation for\n                     appending children and setting attributes. This ensures \n                     that children are, in this case, properly wrapped in list\n                     item elements and appended to the inner unordered list\n                     instead of to the outermost element. A special ");
-    var G__435143 = tailrecursion.hoplon.em.call(null, "title");
-    var ___7644__auto____$64 = G__435139.call(null, G__435143);
-    var ___7643__auto____$18 = G__435139.call(null, " attribute is also implemented here that sets the text of\n                     the inner bold element.");
-    var ___7646__auto____$38 = G__435136.call(null, G__435139);
-    var G__435144 = tailrecursion.hoplon.p.call(null, "By implementing the HTML semantic this component becomes\n                     a first-class DOM element. It can be used in page markup\n                     and it can be passed around without any need for the\n                     recipient to understand its internal structure. It can be\n                     combined with other elements at any level to create more\n                     complex components.");
-    var ___7644__auto____$65 = G__435136.call(null, G__435144);
-    var G__435206 = tailrecursion.hoplon.hr.call(null);
-    var ___7644__auto____$66 = G__435136.call(null, G__435206);
-    var G__435207 = tailrecursion.hoplon.p.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "text-muted"], true), "The demo:");
-    var ___7644__auto____$67 = G__435136.call(null, G__435207);
-    var G__435208 = bootstrap.panel.default$.call(null);
-    var G__435209 = bootstrap.panel.body.call(null);
-    var G__435210 = tailrecursion.hoplon.div.call(null);
-    var G__435211 = tailrecursion.hoplon.p.call(null, "See the list component below.");
-    var ___7644__auto____$68 = G__435210.call(null, G__435211);
-    var G__435212 = tailrecursion.hoplon.hr.call(null);
-    var ___7644__auto____$69 = G__435210.call(null, G__435212);
-    var G__435213 = tailrecursion.hoplon.app_pages.G__435072.my_list.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "title", "title", 1124275658), "Items:"], true));
-    var G__435214 = tailrecursion.hoplon.span.call(null, "item one");
-    var ___7644__auto____$70 = G__435213.call(null, G__435214);
-    var G__435215 = tailrecursion.hoplon.span.call(null, "item two");
-    var ___7644__auto____$71 = G__435213.call(null, G__435215);
-    var G__435216 = tailrecursion.hoplon.span.call(null, "item three");
-    var ___7644__auto____$72 = G__435213.call(null, G__435216);
-    var ___7646__auto____$39 = G__435210.call(null, G__435213);
-    var ___7646__auto____$40 = G__435209.call(null, G__435210);
-    var ___7646__auto____$41 = G__435208.call(null, G__435209);
-    var ___7646__auto____$42 = G__435136.call(null, G__435208);
-    var G__435217 = tailrecursion.hoplon.p.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "text-muted"], true), "The component constructor:");
-    var ___7644__auto____$73 = G__435136.call(null, G__435217);
-    var G__435218 = tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "highlight"], true), tailrecursion.hoplon.pre.call(null, tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "c1"], true), ";; Define custom element \x3cmy-list\x3e."), "\n", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
+    }(G__438350, G__438351, G__438352, G__438353, ___7644__auto__, G__438354, ___7644__auto____$1, G__438355, G__438356, ___7644__auto____$2, ___7646__auto__, ___7646__auto____$1, ___7646__auto____$2, G__438357, G__438358, G__438359, G__438360, ___7644__auto____$3, G__438361, ___7644__auto____$4, ___7646__auto____$3, G__438362, G__438363, ___7644__auto____$5, G__438364, ___7644__auto____$6, ___7646__auto____$4, G__438365, G__438366, ___7644__auto____$7, G__438367, ___7644__auto____$8, ___7646__auto____$5, 
+    ___7646__auto____$6, G__438368, ___7644__auto____$9, G__438369, G__438370, G__438371, ___7643__auto__, G__438373, ___7644__auto____$10, ___7646__auto____$7, G__438374, ___7644__auto____$11, G__438375, ___7643__auto____$1, G__438377, ___7644__auto____$12, ___7646__auto____$8, G__438378, ___7644__auto____$13, G__438422, ___7643__auto____$2, G__438424, ___7644__auto____$14, ___7643__auto____$3, G__438426, ___7644__auto____$15, ___7643__auto____$4, ___7646__auto____$9, G__438427, ___7644__auto____$16, 
+    G__438429, ___7643__auto____$5, G__438431, ___7644__auto____$17, ___7646__auto____$10, G__438432, ___7644__auto____$18, G__438433, ___7644__auto____$19, G__438434, ___7643__auto____$6, G__438436, ___7644__auto____$20, ___7646__auto____$11, G__438437, ___7644__auto____$21, G__438438, ___7644__auto____$22, G__438439, ___7643__auto____$7, G__438441, ___7644__auto____$23, ___7643__auto____$8, G__438443, ___7644__auto____$24, ___7643__auto____$9, ___7646__auto____$12, G__438444, ___7643__auto____$10, 
+    G__438446, ___7644__auto____$25, ___7646__auto____$13, G__438448, ___7644__auto____$26, G__438449, ___7643__auto____$11, G__438451, ___7644__auto____$27, ___7643__auto____$12, G__438453, ___7644__auto____$28, ___7643__auto____$13, ___7646__auto____$14, G__438454, ___7644__auto____$29, ___7646__auto____$15, G__438379, G__438380, G__438381, ___7644__auto____$30, ___7646__auto____$16, G__438382, G__438383, G__438384, ___7644__auto____$31, ___7646__auto____$17, ___7646__auto____$18, G__438385, G__438386, 
+    ___7644__auto____$32, ___7646__auto____$19, G__438387, G__438388, G__438389, G__438390, ___7644__auto____$33, ___7646__auto____$20, G__438391, G__438392, ___7644__auto____$34, G__438393, ___7644__auto____$35, G__438394, ___7644__auto____$36, G__438395, ___7644__auto____$37, G__438456, ___7644__auto____$38, G__438457, ___7644__auto____$39, G__438458, ___7644__auto____$40, G__438459, ___7644__auto____$41, ___7646__auto____$21, ___7646__auto____$22, G__438396, G__438397, ___7644__auto____$42, G__438398, 
+    G__438399, ___7644__auto____$43, ___7646__auto____$23, G__438400, G__438401, ___7644__auto____$44, G__438402, ___7644__auto____$45, G__438403, ___7643__auto____$14, G__438405, ___7644__auto____$46, ___7643__auto____$15, ___7646__auto____$24, G__438407, ___7644__auto____$47, G__438460, ___7644__auto____$48, G__438461, G__438462, G__438463, G__438464, G__438465, G__438466, G__438467, ___7644__auto____$49, ___7646__auto____$25, G__438468, ___7644__auto____$50, ___7646__auto____$26, G__438469, G__438470, 
+    G__438471, ___7644__auto____$51, ___7646__auto____$27, G__438472, ___7644__auto____$52, ___7646__auto____$28, G__438473, G__438474, G__438475, ___7644__auto____$53, ___7646__auto____$29, G__438476, ___7644__auto____$54, ___7646__auto____$30, ___7646__auto____$31, ___7646__auto____$32, ___7646__auto____$33, ___7646__auto____$34, G__438477, ___7644__auto____$55, G__438478, ___7644__auto____$56, G__438479, ___7644__auto____$57, G__438480, ___7644__auto____$58, ___7646__auto____$35, ___7646__auto____$36, 
+    G__438408, G__438409, ___7644__auto____$59, G__438410, G__438411, ___7644__auto____$60, ___7646__auto____$37)).call(null, cljs.core._EQ_, tailrecursion.hoplon.app_pages.G__438348.example)], true));
+    var G__438413 = tailrecursion.hoplon.h3.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "panel-title"], true), "List Component");
+    var ___7644__auto____$61 = G__438412.call(null, G__438413);
+    var G__438414 = tailrecursion.hoplon.hr.call(null);
+    var ___7644__auto____$62 = G__438412.call(null, G__438414);
+    var G__438415 = tailrecursion.hoplon.p.call(null);
+    var ___7643__auto____$16 = G__438415.call(null, "This is an example of a custom element, or component. The ");
+    var G__438417 = tailrecursion.hoplon.em.call(null, "on-append!");
+    var ___7644__auto____$63 = G__438415.call(null, G__438417);
+    var ___7643__auto____$17 = G__438415.call(null, " function is used to provide the implementation for\n                     appending children and setting attributes. This ensures \n                     that children are, in this case, properly wrapped in list\n                     item elements and appended to the inner unordered list\n                     instead of to the outermost element. A special ");
+    var G__438419 = tailrecursion.hoplon.em.call(null, "title");
+    var ___7644__auto____$64 = G__438415.call(null, G__438419);
+    var ___7643__auto____$18 = G__438415.call(null, " attribute is also implemented here that sets the text of\n                     the inner bold element.");
+    var ___7646__auto____$38 = G__438412.call(null, G__438415);
+    var G__438420 = tailrecursion.hoplon.p.call(null, "By implementing the HTML semantic this component becomes\n                     a first-class DOM element. It can be used in page markup\n                     and it can be passed around without any need for the\n                     recipient to understand its internal structure. It can be\n                     combined with other elements at any level to create more\n                     complex components.");
+    var ___7644__auto____$65 = G__438412.call(null, G__438420);
+    var G__438482 = tailrecursion.hoplon.hr.call(null);
+    var ___7644__auto____$66 = G__438412.call(null, G__438482);
+    var G__438483 = tailrecursion.hoplon.p.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "text-muted"], true), "The demo:");
+    var ___7644__auto____$67 = G__438412.call(null, G__438483);
+    var G__438484 = bootstrap.panel.default$.call(null);
+    var G__438485 = bootstrap.panel.body.call(null);
+    var G__438486 = tailrecursion.hoplon.div.call(null);
+    var G__438487 = tailrecursion.hoplon.p.call(null, "See the list component below.");
+    var ___7644__auto____$68 = G__438486.call(null, G__438487);
+    var G__438488 = tailrecursion.hoplon.hr.call(null);
+    var ___7644__auto____$69 = G__438486.call(null, G__438488);
+    var G__438489 = tailrecursion.hoplon.app_pages.G__438348.my_list.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "title", "title", 1124275658), "Items:"], true));
+    var G__438490 = tailrecursion.hoplon.span.call(null, "item one");
+    var ___7644__auto____$70 = G__438489.call(null, G__438490);
+    var G__438491 = tailrecursion.hoplon.span.call(null, "item two");
+    var ___7644__auto____$71 = G__438489.call(null, G__438491);
+    var G__438492 = tailrecursion.hoplon.span.call(null, "item three");
+    var ___7644__auto____$72 = G__438489.call(null, G__438492);
+    var ___7646__auto____$39 = G__438486.call(null, G__438489);
+    var ___7646__auto____$40 = G__438485.call(null, G__438486);
+    var ___7646__auto____$41 = G__438484.call(null, G__438485);
+    var ___7646__auto____$42 = G__438412.call(null, G__438484);
+    var G__438493 = tailrecursion.hoplon.p.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "text-muted"], true), "The component constructor:");
+    var ___7644__auto____$73 = G__438412.call(null, G__438493);
+    var G__438494 = tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "highlight"], true), tailrecursion.hoplon.pre.call(null, tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "c1"], true), ";; Define custom element \x3cmy-list\x3e."), "\n", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
     "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nf"], true), "defelem"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nv"], true), "my-list"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", 
     "class", 1108647146), "p"], true), "["), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nv"], true), "attrs"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nv"], true), "children"), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), 
     "p"], true), "]"), "\n  ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "k"], true), "let "), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "["), tailrecursion.hoplon.span.call(null, 
@@ -29349,10 +29349,10 @@ tailrecursion.hoplon.app_pages.G__435072.hoploninit = function hoploninit() {
     "children"), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "))))"), "\n    ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "c1"], true), ";; Initialize element."), "\n    ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), 
     "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nb"], true), "apply "), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nv"], true), "this"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nv"], true), "attrs"), 
     " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nv"], true), "children"), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), ")))"), "\n"));
-    var ___7644__auto____$74 = G__435136.call(null, G__435218);
-    var G__435219 = tailrecursion.hoplon.p.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "text-muted"], true), "The page markup:");
-    var ___7644__auto____$75 = G__435136.call(null, G__435219);
-    var G__435220 = tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "highlight"], true), tailrecursion.hoplon.pre.call(null, tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), 
+    var ___7644__auto____$74 = G__438412.call(null, G__438494);
+    var G__438495 = tailrecursion.hoplon.p.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "text-muted"], true), "The page markup:");
+    var ___7644__auto____$75 = G__438412.call(null, G__438495);
+    var G__438496 = tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "highlight"], true), tailrecursion.hoplon.pre.call(null, tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), 
     "nf"], true), "div"), "\n  ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nf"], true), "p"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "s"], true), '"See the list component below."'), 
     tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), ")"), "\n  ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nf"], true), "hr"), tailrecursion.hoplon.span.call(null, 
     cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), ")"), "\n  ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nf"], true), "my-list"), "\n    ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
@@ -29361,49 +29361,49 @@ tailrecursion.hoplon.app_pages.G__435072.hoploninit = function hoploninit() {
     1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nf"], true), "span"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "s"], true), '"item two"'), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], 
     true), ")"), "\n    ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nf"], true), "span"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "s"], true), '"item three"'), 
     tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), ")))"), "\n"));
-    var ___7644__auto____$76 = G__435136.call(null, G__435220);
-    var ___7646__auto____$43 = G__435132.call(null, G__435136);
-    var ___7646__auto____$44 = G__435111.call(null, G__435132);
-    var ___7646__auto____$45 = G__435103.call(null, G__435111);
-    var ___7646__auto____$46 = G__435093.call(null, G__435103);
-    var ___7646__auto____$47 = G__435081.call(null, G__435093);
-    var G__435145 = tailrecursion.hoplon.hr.call(null);
-    var ___7644__auto____$77 = G__435081.call(null, G__435145);
-    var G__435221 = tailrecursion.hoplon.footer.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "style", "style", 1123684643), "padding:30px 0px;"], true), "Copyright 100");
-    var ___7644__auto____$78 = G__435081.call(null, G__435221);
-    var ___7646__auto____$48 = G__435074.call(null, G__435081);
-    return G__435074
+    var ___7644__auto____$76 = G__438412.call(null, G__438496);
+    var ___7646__auto____$43 = G__438408.call(null, G__438412);
+    var ___7646__auto____$44 = G__438387.call(null, G__438408);
+    var ___7646__auto____$45 = G__438379.call(null, G__438387);
+    var ___7646__auto____$46 = G__438369.call(null, G__438379);
+    var ___7646__auto____$47 = G__438357.call(null, G__438369);
+    var G__438421 = tailrecursion.hoplon.hr.call(null);
+    var ___7644__auto____$77 = G__438357.call(null, G__438421);
+    var G__438497 = tailrecursion.hoplon.footer.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "style", "style", 1123684643), "padding:30px 0px;"], true), "Copyright 100");
+    var ___7644__auto____$78 = G__438357.call(null, G__438497);
+    var ___7646__auto____$48 = G__438350.call(null, G__438357);
+    return G__438350
   }(), function() {
-    var G__435222 = tailrecursion.hoplon.app_pages.G__435072.content_getting_started.call(null);
-    var G__435223 = bootstrap.grid.row.call(null);
-    var G__435224 = bootstrap.grid.col2.call(null);
-    var ___7644__auto__ = G__435223.call(null, G__435224);
-    var G__435225 = bootstrap.grid.col8.call(null);
-    var G__435226 = tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "page-header"], true));
-    var G__435227 = tailrecursion.hoplon.h1.call(null, "Hello World");
-    var ___7644__auto____$1 = G__435226.call(null, G__435227);
-    var ___7646__auto__ = G__435225.call(null, G__435226);
-    var G__435228 = tailrecursion.hoplon.p.call(null, "Hoplon is a set of libraries for making web pages.");
-    var ___7644__auto____$2 = G__435225.call(null, G__435228);
-    var ___7646__auto____$1 = G__435223.call(null, G__435225);
-    var G__435229 = bootstrap.grid.col2.call(null);
-    var ___7644__auto____$3 = G__435223.call(null, G__435229);
-    var ___7646__auto____$2 = G__435222.call(null, G__435223);
-    var G__435230 = bootstrap.grid.row.call(null);
-    var G__435231 = bootstrap.grid.col2.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "style", "style", 1123684643), "text-align:right"], true));
-    var G__435232 = tailrecursion.hoplon.p.call(null);
-    var G__435233 = tailrecursion.hoplon.b.call(null, "This is what the code does.");
-    var ___7644__auto____$4 = G__435232.call(null, G__435233);
-    var ___7646__auto____$3 = G__435231.call(null, G__435232);
-    var ___7646__auto____$4 = G__435230.call(null, G__435231);
-    var G__435234 = bootstrap.grid.col8.call(null);
-    var G__435235 = tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "panel panel-default"], true));
-    var G__435236 = tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "panel-heading"], true), "Example:");
-    var ___7644__auto____$5 = G__435235.call(null, G__435236);
-    var G__435237 = tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "panel-body"], true), "Foo bar.");
-    var ___7644__auto____$6 = G__435235.call(null, G__435237);
-    var ___7646__auto____$5 = G__435234.call(null, G__435235);
-    var G__435238 = tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "highlight"], true), tailrecursion.hoplon.pre.call(null, tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nt"], true), "\x3cscript"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 
+    var G__438498 = tailrecursion.hoplon.app_pages.G__438348.content_getting_started.call(null);
+    var G__438499 = bootstrap.grid.row.call(null);
+    var G__438500 = bootstrap.grid.col2.call(null);
+    var ___7644__auto__ = G__438499.call(null, G__438500);
+    var G__438501 = bootstrap.grid.col8.call(null);
+    var G__438502 = tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "page-header"], true));
+    var G__438503 = tailrecursion.hoplon.h1.call(null, "Hello World");
+    var ___7644__auto____$1 = G__438502.call(null, G__438503);
+    var ___7646__auto__ = G__438501.call(null, G__438502);
+    var G__438504 = tailrecursion.hoplon.p.call(null, "Hoplon is a set of libraries for making web pages.");
+    var ___7644__auto____$2 = G__438501.call(null, G__438504);
+    var ___7646__auto____$1 = G__438499.call(null, G__438501);
+    var G__438505 = bootstrap.grid.col2.call(null);
+    var ___7644__auto____$3 = G__438499.call(null, G__438505);
+    var ___7646__auto____$2 = G__438498.call(null, G__438499);
+    var G__438506 = bootstrap.grid.row.call(null);
+    var G__438507 = bootstrap.grid.col2.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "style", "style", 1123684643), "text-align:right"], true));
+    var G__438508 = tailrecursion.hoplon.p.call(null);
+    var G__438509 = tailrecursion.hoplon.b.call(null, "This is what the code does.");
+    var ___7644__auto____$4 = G__438508.call(null, G__438509);
+    var ___7646__auto____$3 = G__438507.call(null, G__438508);
+    var ___7646__auto____$4 = G__438506.call(null, G__438507);
+    var G__438510 = bootstrap.grid.col8.call(null);
+    var G__438511 = tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "panel panel-default"], true));
+    var G__438512 = tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "panel-heading"], true), "Example:");
+    var ___7644__auto____$5 = G__438511.call(null, G__438512);
+    var G__438513 = tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "panel-body"], true), "Foo bar.");
+    var ___7644__auto____$6 = G__438511.call(null, G__438513);
+    var ___7646__auto____$5 = G__438510.call(null, G__438511);
+    var G__438514 = tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "highlight"], true), tailrecursion.hoplon.pre.call(null, tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nt"], true), "\x3cscript"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 
     1108647146), "na"], true), "type\x3d"), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "s"], true), '"text/hoplon"'), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nt"], true), "\x3e"), "\n  (page index.html)\n  \n  (defn my-list [", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
     "class", "class", 1108647146), "err"], true), "\x26"), ' items]\n    (div\n      :class "my-list"\n      (apply ul (map #(li (div :class "my-list-item" %)) items))))\n\n  (def clicks (cell 0))\n', tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nt"], true), "\x3c/script\x3e"), "\n    \n", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 
     1108647146), "nt"], true), "\x3chtml\x3e"), "\n  ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nt"], true), "\x3chead\x3e"), "\n    ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nt"], true), "\x3ctitle\x3e"), "example page", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
@@ -29414,32 +29414,32 @@ tailrecursion.hoplon.app_pages.G__435072.hoploninit = function hoploninit() {
     cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nt"], true), "\x3c/text\x3e\x3c/p\x3e"), "\n    ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nt"], true), "\x3cbutton"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "na"], true), "on-click\x3d"), tailrecursion.hoplon.span.call(null, 
     cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "s"], true), '"{{ #(swap! clicks inc) }}"'), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nt"], true), "\x3e"), "click me", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nt"], true), "\x3c/button\x3e"), "\n  ", tailrecursion.hoplon.span.call(null, 
     cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nt"], true), "\x3c/body\x3e"), "\n", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nt"], true), "\x3c/html\x3e"), "\n"));
-    var ___7644__auto____$7 = G__435234.call(null, G__435238);
-    var G__435239 = tailrecursion.hoplon.hr.call(null);
-    var ___7644__auto____$8 = G__435234.call(null, G__435239);
-    var G__435240 = tailrecursion.hoplon.footer.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "style", "style", 1123684643), "padding:30px 0px;"], true), "Copyright 100");
-    var ___7644__auto____$9 = G__435234.call(null, G__435240);
-    var ___7646__auto____$6 = G__435230.call(null, G__435234);
-    var G__435241 = bootstrap.grid.col2.call(null);
-    var G__435242 = tailrecursion.hoplon.p.call(null, "asdf");
-    var ___7644__auto____$10 = G__435241.call(null, G__435242);
-    var ___7646__auto____$7 = G__435230.call(null, G__435241);
-    var ___7646__auto____$8 = G__435222.call(null, G__435230);
-    return G__435222
+    var ___7644__auto____$7 = G__438510.call(null, G__438514);
+    var G__438515 = tailrecursion.hoplon.hr.call(null);
+    var ___7644__auto____$8 = G__438510.call(null, G__438515);
+    var G__438516 = tailrecursion.hoplon.footer.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "style", "style", 1123684643), "padding:30px 0px;"], true), "Copyright 100");
+    var ___7644__auto____$9 = G__438510.call(null, G__438516);
+    var ___7646__auto____$6 = G__438506.call(null, G__438510);
+    var G__438517 = bootstrap.grid.col2.call(null);
+    var G__438518 = tailrecursion.hoplon.p.call(null, "asdf");
+    var ___7644__auto____$10 = G__438517.call(null, G__438518);
+    var ___7646__auto____$7 = G__438506.call(null, G__438517);
+    var ___7646__auto____$8 = G__438498.call(null, G__438506);
+    return G__438498
   }(), function() {
-    var G__435243 = tailrecursion.hoplon.app_pages.G__435072.content_about.call(null);
-    var G__435244 = tailrecursion.hoplon.h1.call(null, "About");
-    var ___7644__auto__ = G__435243.call(null, G__435244);
-    var G__435245 = tailrecursion.hoplon.p.call(null, "This is the about content.");
-    var ___7644__auto____$1 = G__435243.call(null, G__435245);
-    return G__435243
+    var G__438519 = tailrecursion.hoplon.app_pages.G__438348.content_about.call(null);
+    var G__438520 = tailrecursion.hoplon.h1.call(null, "About");
+    var ___7644__auto__ = G__438519.call(null, G__438520);
+    var G__438521 = tailrecursion.hoplon.p.call(null, "This is the about content.");
+    var ___7644__auto____$1 = G__438519.call(null, G__438521);
+    return G__438519
   }(), function() {
-    var G__435246 = tailrecursion.hoplon.app_pages.G__435072.content_contact.call(null);
-    var G__435247 = tailrecursion.hoplon.h1.call(null, "Contact");
-    var ___7644__auto__ = G__435246.call(null, G__435247);
-    var G__435248 = tailrecursion.hoplon.p.call(null, "This is the contact content.");
-    var ___7644__auto____$1 = G__435246.call(null, G__435248);
-    return G__435246
+    var G__438522 = tailrecursion.hoplon.app_pages.G__438348.content_contact.call(null);
+    var G__438523 = tailrecursion.hoplon.h1.call(null, "Contact");
+    var ___7644__auto__ = G__438522.call(null, G__438523);
+    var G__438524 = tailrecursion.hoplon.p.call(null, "This is the contact content.");
+    var ___7644__auto____$1 = G__438522.call(null, G__438524);
+    return G__438522
   }()], true))
 };
-goog.exportSymbol("tailrecursion.hoplon.app_pages.G__435072.hoploninit", tailrecursion.hoplon.app_pages.G__435072.hoploninit);
+goog.exportSymbol("tailrecursion.hoplon.app_pages.G__438348.hoploninit", tailrecursion.hoplon.app_pages.G__438348.hoploninit);
