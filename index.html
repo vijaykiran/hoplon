@@ -37,31 +37,34 @@
                UI development is to be found. There is a fundamental disconnect
                between the literal representation of the DOM (the HTML markup)
                and the dynamic environment (the JavaScript VM). The page markup
-               is evaluated and the resulting DOM is accessible from JavaScript,
-               but it's a one-way linkage; the markup has no mechanism by which
-               it can refer to objects other than built-in primitives (i.e. <em>div</em>, <em>span</em>, etc). The browser's HTML evaluator does not include a means
-               of abstraction, so there is no literal representation for
-               composite forms.</p><p>Hoplon provides a HTML evaluator that closes the loop, unifying
+               is evaluated by the browser and the resulting DOM is then
+               accessible from JavaScript, but it's a one-way linkage–there is
+               no way to refer to objects created dynamically in the JavaScript
+               environment from the markup. The browser's HTML evaluation model
+               lacks a means of abstraction, preventing the development of new
+               elements by composition.</p><p>Hoplon provides a HTML evaluator that closes the loop, unifying
                the page markup and the JavaScript environment. Page markup,
-               expressed using either the standard HTML5 syntax or Clojure
-               sexps, is evaluated as ClojureScript and the result becomes the
-               DOM for the page. HTML tags are simply ClojureScript vars. Of
-               course, Hoplon ships with all of the standard HTML5 primitives
-               but the evaluation model facilitates the use of custom compound
-               elements defined in the environment, too.</p><p>The unification of HTML and ClojureScript syntax, semantics,
-               and namespace in the HTML evaluator facilitates the use of
-               macros in markup.  This makes it possible to write powerful
-               looping and control structures for use in the page's HTML markup
-               itself, bringing the power and expressiveness of Lisp to HTML.</p><h2>Components <small>First-class custom DOM elements.</small></h2><p>While there is no shortage of templating systems to create
+               expressed in either the standard HTML5 syntax or Clojure sexps,
+               is evaluated as ClojureScript and the result becomes the DOM for
+               the page. HTML tags are simply ClojureScript vars. Of course,
+               Hoplon ships with all of the standard HTML5 primitives but the
+               evaluation model now facilitates the use of custom compound
+               elements defined in the environment, too.</p><p>Additionally, the unification of HTML and ClojureScript syntax,
+               semantics, and namespace in the HTML evaluator facilitates the
+               use of macros in markup.  This makes it possible to write
+               powerful looping and control structures for use in the page's
+               HTML markup itself, bringing the power and expressiveness of
+               Lisp to HTML.</p><h2>Components <small>First-class custom DOM elements.</small></h2><p>While there is no shortage of templating systems to create
                blobs of DOM elements, there is no mechanism to create custom
                elements that are composable in any meaningful way. Consider
                the situation where a template engine binds a DOM template to
                some data and returns the filled-in DOM subtree. What happens
-               when you append a child to that DOM element? The child gets
-               appended to the outermost element in the filled template, which
-               is probably not useful at all.</p><p>Hoplon provides facilities for creating real, first-class
+               when you append a child to, or set an attribute on that DOM
+               element? The child gets appended to, or attribute set on the
+               outermost element of the filled template, generally not what is
+               required for the composition semantic.</p><p>Hoplon provides facilities for creating real, first-class
                components. That is to say, Hoplon components are first-class
-               citizens in the DOM world––they are, essentially, user-defined
+               citizens in the DOM world–they are, essentially, user-defined
                custom DOM elements. They have a literal representation in the
                page markup and they implement the semantics of HTML: setting
                attributes and appending children. When a child is appended to
@@ -227,4 +230,4 @@
     <span class="nt">&lt;button</span> <span class="na">on-click=</span><span class="s">"{{ #(swap! clicks inc) }}"</span><span class="nt">&gt;</span>click me<span class="nt">&lt;/button&gt;</span>
   <span class="nt">&lt;/body&gt;</span>
 <span class="nt">&lt;/html&gt;</span>
-</pre></div><hr><footer style="padding:30px 0px;">Copyright 100</footer></div><div class="col-md-2"><p>asdf</p></div></div></div><script type="text/javascript">var CLOSURE_NO_DEPS = true;</script><script type="text/javascript" src="main.js"></script><script type="text/javascript">tailrecursion.hoplon.app_pages.G__173436.hoploninit();</script></body></html>
+</pre></div><hr><footer style="padding:30px 0px;">Copyright 100</footer></div><div class="col-md-2"><p>asdf</p></div></div></div><script type="text/javascript">var CLOSURE_NO_DEPS = true;</script><script type="text/javascript" src="main.js"></script><script type="text/javascript">tailrecursion.hoplon.app_pages.G__244350.hoploninit();</script></body></html>
