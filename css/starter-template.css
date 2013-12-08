@@ -25,10 +25,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Bree Serif', serif;
 }
 
-.panel-body > div.highlight:last-child > pre {
-  margin-bottom: 0;
-}
-
 .nojs-error {
   position: fixed;
   top: 0px;
