@@ -30215,9 +30215,9 @@ bootstrap.glyph.mkglyph = function mkglyph(img) {
 };
 bootstrap.glyph.star = function() {
   var star__delegate = function(args__7949__auto__) {
-    var vec__275738 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275738, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275738, 1, null);
+    var vec__281974 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__281974, 0, null);
+    var kids = cljs.core.nth.call(null, vec__281974, 1, null);
     return bootstrap.glyph.mkglyph.call(null, "star")
   };
   var star = function(var_args) {
@@ -30228,8 +30228,8 @@ bootstrap.glyph.star = function() {
     return star__delegate.call(this, args__7949__auto__)
   };
   star.cljs$lang$maxFixedArity = 0;
-  star.cljs$lang$applyTo = function(arglist__275739) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275739);
+  star.cljs$lang$applyTo = function(arglist__281975) {
+    var args__7949__auto__ = cljs.core.seq(arglist__281975);
     return star__delegate(args__7949__auto__)
   };
   star.cljs$core$IFn$_invoke$arity$variadic = star__delegate;
@@ -30237,9 +30237,9 @@ bootstrap.glyph.star = function() {
 }();
 bootstrap.glyph.cloud_download = function() {
   var cloud_download__delegate = function(args__7949__auto__) {
-    var vec__275741 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275741, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275741, 1, null);
+    var vec__281977 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__281977, 0, null);
+    var kids = cljs.core.nth.call(null, vec__281977, 1, null);
     return bootstrap.glyph.mkglyph.call(null, "cloud-download")
   };
   var cloud_download = function(var_args) {
@@ -30250,8 +30250,8 @@ bootstrap.glyph.cloud_download = function() {
     return cloud_download__delegate.call(this, args__7949__auto__)
   };
   cloud_download.cljs$lang$maxFixedArity = 0;
-  cloud_download.cljs$lang$applyTo = function(arglist__275742) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275742);
+  cloud_download.cljs$lang$applyTo = function(arglist__281978) {
+    var args__7949__auto__ = cljs.core.seq(arglist__281978);
     return cloud_download__delegate(args__7949__auto__)
   };
   cloud_download.cljs$core$IFn$_invoke$arity$variadic = cloud_download__delegate;
@@ -30259,9 +30259,9 @@ bootstrap.glyph.cloud_download = function() {
 }();
 bootstrap.glyph.cloud_upload = function() {
   var cloud_upload__delegate = function(args__7949__auto__) {
-    var vec__275744 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275744, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275744, 1, null);
+    var vec__281980 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__281980, 0, null);
+    var kids = cljs.core.nth.call(null, vec__281980, 1, null);
     return bootstrap.glyph.mkglyph.call(null, "cloud-upload")
   };
   var cloud_upload = function(var_args) {
@@ -30272,8 +30272,8 @@ bootstrap.glyph.cloud_upload = function() {
     return cloud_upload__delegate.call(this, args__7949__auto__)
   };
   cloud_upload.cljs$lang$maxFixedArity = 0;
-  cloud_upload.cljs$lang$applyTo = function(arglist__275745) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275745);
+  cloud_upload.cljs$lang$applyTo = function(arglist__281981) {
+    var args__7949__auto__ = cljs.core.seq(arglist__281981);
     return cloud_upload__delegate(args__7949__auto__)
   };
   cloud_upload.cljs$core$IFn$_invoke$arity$variadic = cloud_upload__delegate;
@@ -30281,9 +30281,9 @@ bootstrap.glyph.cloud_upload = function() {
 }();
 bootstrap.glyph.pushpin = function() {
   var pushpin__delegate = function(args__7949__auto__) {
-    var vec__275747 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275747, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275747, 1, null);
+    var vec__281983 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__281983, 0, null);
+    var kids = cljs.core.nth.call(null, vec__281983, 1, null);
     return bootstrap.glyph.mkglyph.call(null, "pushpin")
   };
   var pushpin = function(var_args) {
@@ -30294,8 +30294,8 @@ bootstrap.glyph.pushpin = function() {
     return pushpin__delegate.call(this, args__7949__auto__)
   };
   pushpin.cljs$lang$maxFixedArity = 0;
-  pushpin.cljs$lang$applyTo = function(arglist__275748) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275748);
+  pushpin.cljs$lang$applyTo = function(arglist__281984) {
+    var args__7949__auto__ = cljs.core.seq(arglist__281984);
     return pushpin__delegate(args__7949__auto__)
   };
   pushpin.cljs$core$IFn$_invoke$arity$variadic = pushpin__delegate;
@@ -30303,9 +30303,9 @@ bootstrap.glyph.pushpin = function() {
 }();
 bootstrap.glyph.resize_horiz = function() {
   var resize_horiz__delegate = function(args__7949__auto__) {
-    var vec__275750 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275750, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275750, 1, null);
+    var vec__281986 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__281986, 0, null);
+    var kids = cljs.core.nth.call(null, vec__281986, 1, null);
     return bootstrap.glyph.mkglyph.call(null, "resize-horizontal")
   };
   var resize_horiz = function(var_args) {
@@ -30316,8 +30316,8 @@ bootstrap.glyph.resize_horiz = function() {
     return resize_horiz__delegate.call(this, args__7949__auto__)
   };
   resize_horiz.cljs$lang$maxFixedArity = 0;
-  resize_horiz.cljs$lang$applyTo = function(arglist__275751) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275751);
+  resize_horiz.cljs$lang$applyTo = function(arglist__281987) {
+    var args__7949__auto__ = cljs.core.seq(arglist__281987);
     return resize_horiz__delegate(args__7949__auto__)
   };
   resize_horiz.cljs$core$IFn$_invoke$arity$variadic = resize_horiz__delegate;
@@ -30331,9 +30331,9 @@ goog.require("tailrecursion.hoplon");
 goog.require("tailrecursion.javelin");
 bootstrap.grid.row = function() {
   var row__delegate = function(args__7949__auto__) {
-    var vec__275753 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275753, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275753, 1, null);
+    var vec__281989 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__281989, 0, null);
+    var kids = cljs.core.nth.call(null, vec__281989, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "row"), attr, kids)
   };
   var row = function(var_args) {
@@ -30344,8 +30344,8 @@ bootstrap.grid.row = function() {
     return row__delegate.call(this, args__7949__auto__)
   };
   row.cljs$lang$maxFixedArity = 0;
-  row.cljs$lang$applyTo = function(arglist__275754) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275754);
+  row.cljs$lang$applyTo = function(arglist__281990) {
+    var args__7949__auto__ = cljs.core.seq(arglist__281990);
     return row__delegate(args__7949__auto__)
   };
   row.cljs$core$IFn$_invoke$arity$variadic = row__delegate;
@@ -30353,9 +30353,9 @@ bootstrap.grid.row = function() {
 }();
 bootstrap.grid.col1 = function() {
   var col1__delegate = function(args__7949__auto__) {
-    var vec__275756 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275756, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275756, 1, null);
+    var vec__281992 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__281992, 0, null);
+    var kids = cljs.core.nth.call(null, vec__281992, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "col-md-1"), attr, kids)
   };
   var col1 = function(var_args) {
@@ -30366,8 +30366,8 @@ bootstrap.grid.col1 = function() {
     return col1__delegate.call(this, args__7949__auto__)
   };
   col1.cljs$lang$maxFixedArity = 0;
-  col1.cljs$lang$applyTo = function(arglist__275757) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275757);
+  col1.cljs$lang$applyTo = function(arglist__281993) {
+    var args__7949__auto__ = cljs.core.seq(arglist__281993);
     return col1__delegate(args__7949__auto__)
   };
   col1.cljs$core$IFn$_invoke$arity$variadic = col1__delegate;
@@ -30375,9 +30375,9 @@ bootstrap.grid.col1 = function() {
 }();
 bootstrap.grid.col2 = function() {
   var col2__delegate = function(args__7949__auto__) {
-    var vec__275759 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275759, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275759, 1, null);
+    var vec__281995 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__281995, 0, null);
+    var kids = cljs.core.nth.call(null, vec__281995, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "col-md-2"), attr, kids)
   };
   var col2 = function(var_args) {
@@ -30388,8 +30388,8 @@ bootstrap.grid.col2 = function() {
     return col2__delegate.call(this, args__7949__auto__)
   };
   col2.cljs$lang$maxFixedArity = 0;
-  col2.cljs$lang$applyTo = function(arglist__275760) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275760);
+  col2.cljs$lang$applyTo = function(arglist__281996) {
+    var args__7949__auto__ = cljs.core.seq(arglist__281996);
     return col2__delegate(args__7949__auto__)
   };
   col2.cljs$core$IFn$_invoke$arity$variadic = col2__delegate;
@@ -30397,9 +30397,9 @@ bootstrap.grid.col2 = function() {
 }();
 bootstrap.grid.col3 = function() {
   var col3__delegate = function(args__7949__auto__) {
-    var vec__275762 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275762, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275762, 1, null);
+    var vec__281998 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__281998, 0, null);
+    var kids = cljs.core.nth.call(null, vec__281998, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "col-md-3"), attr, kids)
   };
   var col3 = function(var_args) {
@@ -30410,8 +30410,8 @@ bootstrap.grid.col3 = function() {
     return col3__delegate.call(this, args__7949__auto__)
   };
   col3.cljs$lang$maxFixedArity = 0;
-  col3.cljs$lang$applyTo = function(arglist__275763) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275763);
+  col3.cljs$lang$applyTo = function(arglist__281999) {
+    var args__7949__auto__ = cljs.core.seq(arglist__281999);
     return col3__delegate(args__7949__auto__)
   };
   col3.cljs$core$IFn$_invoke$arity$variadic = col3__delegate;
@@ -30419,9 +30419,9 @@ bootstrap.grid.col3 = function() {
 }();
 bootstrap.grid.col4 = function() {
   var col4__delegate = function(args__7949__auto__) {
-    var vec__275765 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275765, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275765, 1, null);
+    var vec__282001 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__282001, 0, null);
+    var kids = cljs.core.nth.call(null, vec__282001, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "col-md-4"), attr, kids)
   };
   var col4 = function(var_args) {
@@ -30432,8 +30432,8 @@ bootstrap.grid.col4 = function() {
     return col4__delegate.call(this, args__7949__auto__)
   };
   col4.cljs$lang$maxFixedArity = 0;
-  col4.cljs$lang$applyTo = function(arglist__275766) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275766);
+  col4.cljs$lang$applyTo = function(arglist__282002) {
+    var args__7949__auto__ = cljs.core.seq(arglist__282002);
     return col4__delegate(args__7949__auto__)
   };
   col4.cljs$core$IFn$_invoke$arity$variadic = col4__delegate;
@@ -30441,9 +30441,9 @@ bootstrap.grid.col4 = function() {
 }();
 bootstrap.grid.col5 = function() {
   var col5__delegate = function(args__7949__auto__) {
-    var vec__275768 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275768, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275768, 1, null);
+    var vec__282004 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__282004, 0, null);
+    var kids = cljs.core.nth.call(null, vec__282004, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "col-md-5"), attr, kids)
   };
   var col5 = function(var_args) {
@@ -30454,8 +30454,8 @@ bootstrap.grid.col5 = function() {
     return col5__delegate.call(this, args__7949__auto__)
   };
   col5.cljs$lang$maxFixedArity = 0;
-  col5.cljs$lang$applyTo = function(arglist__275769) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275769);
+  col5.cljs$lang$applyTo = function(arglist__282005) {
+    var args__7949__auto__ = cljs.core.seq(arglist__282005);
     return col5__delegate(args__7949__auto__)
   };
   col5.cljs$core$IFn$_invoke$arity$variadic = col5__delegate;
@@ -30463,9 +30463,9 @@ bootstrap.grid.col5 = function() {
 }();
 bootstrap.grid.col6 = function() {
   var col6__delegate = function(args__7949__auto__) {
-    var vec__275771 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275771, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275771, 1, null);
+    var vec__282007 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__282007, 0, null);
+    var kids = cljs.core.nth.call(null, vec__282007, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "col-md-6"), attr, kids)
   };
   var col6 = function(var_args) {
@@ -30476,8 +30476,8 @@ bootstrap.grid.col6 = function() {
     return col6__delegate.call(this, args__7949__auto__)
   };
   col6.cljs$lang$maxFixedArity = 0;
-  col6.cljs$lang$applyTo = function(arglist__275772) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275772);
+  col6.cljs$lang$applyTo = function(arglist__282008) {
+    var args__7949__auto__ = cljs.core.seq(arglist__282008);
     return col6__delegate(args__7949__auto__)
   };
   col6.cljs$core$IFn$_invoke$arity$variadic = col6__delegate;
@@ -30485,9 +30485,9 @@ bootstrap.grid.col6 = function() {
 }();
 bootstrap.grid.col7 = function() {
   var col7__delegate = function(args__7949__auto__) {
-    var vec__275774 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275774, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275774, 1, null);
+    var vec__282010 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__282010, 0, null);
+    var kids = cljs.core.nth.call(null, vec__282010, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "col-md-7"), attr, kids)
   };
   var col7 = function(var_args) {
@@ -30498,8 +30498,8 @@ bootstrap.grid.col7 = function() {
     return col7__delegate.call(this, args__7949__auto__)
   };
   col7.cljs$lang$maxFixedArity = 0;
-  col7.cljs$lang$applyTo = function(arglist__275775) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275775);
+  col7.cljs$lang$applyTo = function(arglist__282011) {
+    var args__7949__auto__ = cljs.core.seq(arglist__282011);
     return col7__delegate(args__7949__auto__)
   };
   col7.cljs$core$IFn$_invoke$arity$variadic = col7__delegate;
@@ -30507,9 +30507,9 @@ bootstrap.grid.col7 = function() {
 }();
 bootstrap.grid.col8 = function() {
   var col8__delegate = function(args__7949__auto__) {
-    var vec__275777 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275777, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275777, 1, null);
+    var vec__282013 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__282013, 0, null);
+    var kids = cljs.core.nth.call(null, vec__282013, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "col-md-8"), attr, kids)
   };
   var col8 = function(var_args) {
@@ -30520,8 +30520,8 @@ bootstrap.grid.col8 = function() {
     return col8__delegate.call(this, args__7949__auto__)
   };
   col8.cljs$lang$maxFixedArity = 0;
-  col8.cljs$lang$applyTo = function(arglist__275778) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275778);
+  col8.cljs$lang$applyTo = function(arglist__282014) {
+    var args__7949__auto__ = cljs.core.seq(arglist__282014);
     return col8__delegate(args__7949__auto__)
   };
   col8.cljs$core$IFn$_invoke$arity$variadic = col8__delegate;
@@ -30529,9 +30529,9 @@ bootstrap.grid.col8 = function() {
 }();
 bootstrap.grid.col9 = function() {
   var col9__delegate = function(args__7949__auto__) {
-    var vec__275780 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275780, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275780, 1, null);
+    var vec__282016 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__282016, 0, null);
+    var kids = cljs.core.nth.call(null, vec__282016, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "col-md-9"), attr, kids)
   };
   var col9 = function(var_args) {
@@ -30542,8 +30542,8 @@ bootstrap.grid.col9 = function() {
     return col9__delegate.call(this, args__7949__auto__)
   };
   col9.cljs$lang$maxFixedArity = 0;
-  col9.cljs$lang$applyTo = function(arglist__275781) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275781);
+  col9.cljs$lang$applyTo = function(arglist__282017) {
+    var args__7949__auto__ = cljs.core.seq(arglist__282017);
     return col9__delegate(args__7949__auto__)
   };
   col9.cljs$core$IFn$_invoke$arity$variadic = col9__delegate;
@@ -30551,9 +30551,9 @@ bootstrap.grid.col9 = function() {
 }();
 bootstrap.grid.col10 = function() {
   var col10__delegate = function(args__7949__auto__) {
-    var vec__275783 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275783, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275783, 1, null);
+    var vec__282019 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__282019, 0, null);
+    var kids = cljs.core.nth.call(null, vec__282019, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "col-md-10"), attr, kids)
   };
   var col10 = function(var_args) {
@@ -30564,8 +30564,8 @@ bootstrap.grid.col10 = function() {
     return col10__delegate.call(this, args__7949__auto__)
   };
   col10.cljs$lang$maxFixedArity = 0;
-  col10.cljs$lang$applyTo = function(arglist__275784) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275784);
+  col10.cljs$lang$applyTo = function(arglist__282020) {
+    var args__7949__auto__ = cljs.core.seq(arglist__282020);
     return col10__delegate(args__7949__auto__)
   };
   col10.cljs$core$IFn$_invoke$arity$variadic = col10__delegate;
@@ -30573,9 +30573,9 @@ bootstrap.grid.col10 = function() {
 }();
 bootstrap.grid.col11 = function() {
   var col11__delegate = function(args__7949__auto__) {
-    var vec__275786 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275786, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275786, 1, null);
+    var vec__282022 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__282022, 0, null);
+    var kids = cljs.core.nth.call(null, vec__282022, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "col-md-11"), attr, kids)
   };
   var col11 = function(var_args) {
@@ -30586,8 +30586,8 @@ bootstrap.grid.col11 = function() {
     return col11__delegate.call(this, args__7949__auto__)
   };
   col11.cljs$lang$maxFixedArity = 0;
-  col11.cljs$lang$applyTo = function(arglist__275787) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275787);
+  col11.cljs$lang$applyTo = function(arglist__282023) {
+    var args__7949__auto__ = cljs.core.seq(arglist__282023);
     return col11__delegate(args__7949__auto__)
   };
   col11.cljs$core$IFn$_invoke$arity$variadic = col11__delegate;
@@ -30595,9 +30595,9 @@ bootstrap.grid.col11 = function() {
 }();
 bootstrap.grid.col12 = function() {
   var col12__delegate = function(args__7949__auto__) {
-    var vec__275789 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275789, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275789, 1, null);
+    var vec__282025 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__282025, 0, null);
+    var kids = cljs.core.nth.call(null, vec__282025, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "col-md-12"), attr, kids)
   };
   var col12 = function(var_args) {
@@ -30608,8 +30608,8 @@ bootstrap.grid.col12 = function() {
     return col12__delegate.call(this, args__7949__auto__)
   };
   col12.cljs$lang$maxFixedArity = 0;
-  col12.cljs$lang$applyTo = function(arglist__275790) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275790);
+  col12.cljs$lang$applyTo = function(arglist__282026) {
+    var args__7949__auto__ = cljs.core.seq(arglist__282026);
     return col12__delegate(args__7949__auto__)
   };
   col12.cljs$core$IFn$_invoke$arity$variadic = col12__delegate;
@@ -30624,9 +30624,9 @@ goog.require("tailrecursion.javelin");
 bootstrap.meta.meta = tailrecursion.hoplon.html_meta;
 bootstrap.meta.viewport = function() {
   var viewport__delegate = function(args__7949__auto__) {
-    var vec__275804 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275804, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275804, 1, null);
+    var vec__282040 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__282040, 0, null);
+    var kids = cljs.core.nth.call(null, vec__282040, 1, null);
     return bootstrap.meta.meta.call(null, new cljs.core.Keyword(null, "name", "name", 1017277949), "viewport", new cljs.core.Keyword(null, "content", "content", 1965434859), cljs.core.first.call(null, kids))
   };
   var viewport = function(var_args) {
@@ -30637,8 +30637,8 @@ bootstrap.meta.viewport = function() {
     return viewport__delegate.call(this, args__7949__auto__)
   };
   viewport.cljs$lang$maxFixedArity = 0;
-  viewport.cljs$lang$applyTo = function(arglist__275805) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275805);
+  viewport.cljs$lang$applyTo = function(arglist__282041) {
+    var args__7949__auto__ = cljs.core.seq(arglist__282041);
     return viewport__delegate(args__7949__auto__)
   };
   viewport.cljs$core$IFn$_invoke$arity$variadic = viewport__delegate;
@@ -30646,9 +30646,9 @@ bootstrap.meta.viewport = function() {
 }();
 bootstrap.meta.description = function() {
   var description__delegate = function(args__7949__auto__) {
-    var vec__275807 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275807, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275807, 1, null);
+    var vec__282043 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__282043, 0, null);
+    var kids = cljs.core.nth.call(null, vec__282043, 1, null);
     return bootstrap.meta.meta.call(null, new cljs.core.Keyword(null, "name", "name", 1017277949), "description", new cljs.core.Keyword(null, "content", "content", 1965434859), cljs.core.first.call(null, kids))
   };
   var description = function(var_args) {
@@ -30659,8 +30659,8 @@ bootstrap.meta.description = function() {
     return description__delegate.call(this, args__7949__auto__)
   };
   description.cljs$lang$maxFixedArity = 0;
-  description.cljs$lang$applyTo = function(arglist__275808) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275808);
+  description.cljs$lang$applyTo = function(arglist__282044) {
+    var args__7949__auto__ = cljs.core.seq(arglist__282044);
     return description__delegate(args__7949__auto__)
   };
   description.cljs$core$IFn$_invoke$arity$variadic = description__delegate;
@@ -30680,9 +30680,9 @@ bootstrap.core.setup = function setup() {
 };
 bootstrap.core.container = function() {
   var container__delegate = function(args__7949__auto__) {
-    var vec__275732 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275732, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275732, 1, null);
+    var vec__281968 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__281968, 0, null);
+    var kids = cljs.core.nth.call(null, vec__281968, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "container"), attr, kids)
   };
   var container = function(var_args) {
@@ -30693,8 +30693,8 @@ bootstrap.core.container = function() {
     return container__delegate.call(this, args__7949__auto__)
   };
   container.cljs$lang$maxFixedArity = 0;
-  container.cljs$lang$applyTo = function(arglist__275733) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275733);
+  container.cljs$lang$applyTo = function(arglist__281969) {
+    var args__7949__auto__ = cljs.core.seq(arglist__281969);
     return container__delegate(args__7949__auto__)
   };
   container.cljs$core$IFn$_invoke$arity$variadic = container__delegate;
@@ -30702,9 +30702,9 @@ bootstrap.core.container = function() {
 }();
 bootstrap.core.jumbotron = function() {
   var jumbotron__delegate = function(args__7949__auto__) {
-    var vec__275735 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275735, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275735, 1, null);
+    var vec__281971 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__281971, 0, null);
+    var kids = cljs.core.nth.call(null, vec__281971, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "jumbotron", new cljs.core.Keyword(null, "style", "style", 1123684643), "background-color:#ffcc33"), attr, kids)
   };
   var jumbotron = function(var_args) {
@@ -30715,8 +30715,8 @@ bootstrap.core.jumbotron = function() {
     return jumbotron__delegate.call(this, args__7949__auto__)
   };
   jumbotron.cljs$lang$maxFixedArity = 0;
-  jumbotron.cljs$lang$applyTo = function(arglist__275736) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275736);
+  jumbotron.cljs$lang$applyTo = function(arglist__281972) {
+    var args__7949__auto__ = cljs.core.seq(arglist__281972);
     return jumbotron__delegate(args__7949__auto__)
   };
   jumbotron.cljs$core$IFn$_invoke$arity$variadic = jumbotron__delegate;
@@ -30743,9 +30743,9 @@ bootstrap.navbar.active_QMARK_ = function active_QMARK_(link, route) {
 };
 bootstrap.navbar.inverse = function() {
   var inverse__delegate = function(args__7949__auto__) {
-    var vec__275810 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275810, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275810, 1, null);
+    var vec__282046 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__282046, 0, null);
+    var kids = cljs.core.nth.call(null, vec__282046, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "navbar navbar-inverse"), attr, kids)
   };
   var inverse = function(var_args) {
@@ -30756,8 +30756,8 @@ bootstrap.navbar.inverse = function() {
     return inverse__delegate.call(this, args__7949__auto__)
   };
   inverse.cljs$lang$maxFixedArity = 0;
-  inverse.cljs$lang$applyTo = function(arglist__275811) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275811);
+  inverse.cljs$lang$applyTo = function(arglist__282047) {
+    var args__7949__auto__ = cljs.core.seq(arglist__282047);
     return inverse__delegate(args__7949__auto__)
   };
   inverse.cljs$core$IFn$_invoke$arity$variadic = inverse__delegate;
@@ -30765,9 +30765,9 @@ bootstrap.navbar.inverse = function() {
 }();
 bootstrap.navbar.header = function() {
   var header__delegate = function(args__7949__auto__) {
-    var vec__275813 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275813, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275813, 1, null);
+    var vec__282049 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__282049, 0, null);
+    var kids = cljs.core.nth.call(null, vec__282049, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "navbar-header"), attr, kids)
   };
   var header = function(var_args) {
@@ -30778,8 +30778,8 @@ bootstrap.navbar.header = function() {
     return header__delegate.call(this, args__7949__auto__)
   };
   header.cljs$lang$maxFixedArity = 0;
-  header.cljs$lang$applyTo = function(arglist__275814) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275814);
+  header.cljs$lang$applyTo = function(arglist__282050) {
+    var args__7949__auto__ = cljs.core.seq(arglist__282050);
     return header__delegate(args__7949__auto__)
   };
   header.cljs$core$IFn$_invoke$arity$variadic = header__delegate;
@@ -30787,9 +30787,9 @@ bootstrap.navbar.header = function() {
 }();
 bootstrap.navbar.collapse = function() {
   var collapse__delegate = function(args__7949__auto__) {
-    var vec__275816 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275816, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275816, 1, null);
+    var vec__282052 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__282052, 0, null);
+    var kids = cljs.core.nth.call(null, vec__282052, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "collapse navbar-collapse"), attr, kids)
   };
   var collapse = function(var_args) {
@@ -30800,8 +30800,8 @@ bootstrap.navbar.collapse = function() {
     return collapse__delegate.call(this, args__7949__auto__)
   };
   collapse.cljs$lang$maxFixedArity = 0;
-  collapse.cljs$lang$applyTo = function(arglist__275817) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275817);
+  collapse.cljs$lang$applyTo = function(arglist__282053) {
+    var args__7949__auto__ = cljs.core.seq(arglist__282053);
     return collapse__delegate(args__7949__auto__)
   };
   collapse.cljs$core$IFn$_invoke$arity$variadic = collapse__delegate;
@@ -30809,9 +30809,9 @@ bootstrap.navbar.collapse = function() {
 }();
 bootstrap.navbar.nav = function() {
   var nav__delegate = function(args__7949__auto__) {
-    var vec__275819 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275819, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275819, 1, null);
+    var vec__282055 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__282055, 0, null);
+    var kids = cljs.core.nth.call(null, vec__282055, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.ul.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "nav navbar-nav"), attr, kids)
   };
   var nav = function(var_args) {
@@ -30822,8 +30822,8 @@ bootstrap.navbar.nav = function() {
     return nav__delegate.call(this, args__7949__auto__)
   };
   nav.cljs$lang$maxFixedArity = 0;
-  nav.cljs$lang$applyTo = function(arglist__275820) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275820);
+  nav.cljs$lang$applyTo = function(arglist__282056) {
+    var args__7949__auto__ = cljs.core.seq(arglist__282056);
     return nav__delegate(args__7949__auto__)
   };
   nav.cljs$core$IFn$_invoke$arity$variadic = nav__delegate;
@@ -30831,9 +30831,9 @@ bootstrap.navbar.nav = function() {
 }();
 bootstrap.navbar.brand = function() {
   var brand__delegate = function(args__7949__auto__) {
-    var vec__275822 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275822, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275822, 1, null);
+    var vec__282058 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__282058, 0, null);
+    var kids = cljs.core.nth.call(null, vec__282058, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.a.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "navbar-brand"), attr, kids)
   };
   var brand = function(var_args) {
@@ -30844,8 +30844,8 @@ bootstrap.navbar.brand = function() {
     return brand__delegate.call(this, args__7949__auto__)
   };
   brand.cljs$lang$maxFixedArity = 0;
-  brand.cljs$lang$applyTo = function(arglist__275823) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275823);
+  brand.cljs$lang$applyTo = function(arglist__282059) {
+    var args__7949__auto__ = cljs.core.seq(arglist__282059);
     return brand__delegate(args__7949__auto__)
   };
   brand.cljs$core$IFn$_invoke$arity$variadic = brand__delegate;
@@ -30854,10 +30854,10 @@ bootstrap.navbar.brand = function() {
 bootstrap.navbar.fixed_top = function() {
   var fixed_top__delegate = function(route, title_text, links) {
     return bootstrap.navbar.inverse.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "navbar-fixed-top").call(null, bootstrap.core.container.call(null, bootstrap.navbar.header.call(null, bootstrap.navbar.brand.call(null, new cljs.core.Keyword(null, "href", "href", 1017115293), bootstrap.navbar.get_hash.call(null, cljs.core.first.call(null, links)), title_text)), bootstrap.navbar.collapse.call(null, cljs.core.apply.call(null, bootstrap.navbar.nav.call(null), cljs.core.map.call(null, 
-    function(p1__275553_SHARP_) {
-      return tailrecursion.hoplon.li.call(null, new cljs.core.Keyword(null, "do-class", "do-class", 4607961384), tailrecursion.javelin.lift.call(null, function(G__275829, G__275828, G__275827) {
-        return cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "active", "active", 3885920888), G__275827.call(null, G__275828, G__275829)], true)
-      }).call(null, route, p1__275553_SHARP_, bootstrap.navbar.active_QMARK_), p1__275553_SHARP_)
+    function(p1__281789_SHARP_) {
+      return tailrecursion.hoplon.li.call(null, new cljs.core.Keyword(null, "do-class", "do-class", 4607961384), tailrecursion.javelin.lift.call(null, function(G__282065, G__282063, G__282064) {
+        return cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "active", "active", 3885920888), G__282063.call(null, G__282064, G__282065)], true)
+      }).call(null, route, bootstrap.navbar.active_QMARK_, p1__281789_SHARP_), p1__281789_SHARP_)
     }, links)))))
   };
   var fixed_top = function(route, title_text, var_args) {
@@ -30868,11 +30868,11 @@ bootstrap.navbar.fixed_top = function() {
     return fixed_top__delegate.call(this, route, title_text, links)
   };
   fixed_top.cljs$lang$maxFixedArity = 2;
-  fixed_top.cljs$lang$applyTo = function(arglist__275830) {
-    var route = cljs.core.first(arglist__275830);
-    arglist__275830 = cljs.core.next(arglist__275830);
-    var title_text = cljs.core.first(arglist__275830);
-    var links = cljs.core.rest(arglist__275830);
+  fixed_top.cljs$lang$applyTo = function(arglist__282066) {
+    var route = cljs.core.first(arglist__282066);
+    arglist__282066 = cljs.core.next(arglist__282066);
+    var title_text = cljs.core.first(arglist__282066);
+    var links = cljs.core.rest(arglist__282066);
     return fixed_top__delegate(route, title_text, links)
   };
   fixed_top.cljs$core$IFn$_invoke$arity$variadic = fixed_top__delegate;
@@ -30894,12 +30894,12 @@ bootstrap.page.navbar_fixed_top = function() {
   var navbar_fixed_top__delegate = function(route, title_text, description, kvs) {
     return cljs.core.into.call(null, cljs.core.PersistentVector.fromArray([function() {
       return tailrecursion.hoplon.spliced.call(null, bootstrap.core.setup.call(null), tailrecursion.hoplon.title.call(null, title_text), bootstrap.meta.description.call(null, description))
-    }, cljs.core.apply.call(null, bootstrap.navbar.fixed_top, route, title_text, cljs.core.map.call(null, cljs.core.first, kvs))], true), cljs.core.map.call(null, function(p__275836) {
-      var vec__275837 = p__275836;
-      var l = cljs.core.nth.call(null, vec__275837, 0, null);
-      var c = cljs.core.nth.call(null, vec__275837, 1, null);
-      return c.call(null, new cljs.core.Keyword(null, "do-toggle", "do-toggle", 1250159176), tailrecursion.javelin.lift.call(null, function(G__275840, G__275839, G__275838) {
-        return G__275838.call(null, G__275839, G__275840)
+    }, cljs.core.apply.call(null, bootstrap.navbar.fixed_top, route, title_text, cljs.core.map.call(null, cljs.core.first, kvs))], true), cljs.core.map.call(null, function(p__282072) {
+      var vec__282073 = p__282072;
+      var l = cljs.core.nth.call(null, vec__282073, 0, null);
+      var c = cljs.core.nth.call(null, vec__282073, 1, null);
+      return c.call(null, new cljs.core.Keyword(null, "do-toggle", "do-toggle", 1250159176), tailrecursion.javelin.lift.call(null, function(G__282076, G__282075, G__282074) {
+        return G__282074.call(null, G__282075, G__282076)
       }).call(null, route, l, bootstrap.navbar.active_QMARK_))
     }, kvs))
   };
@@ -30911,13 +30911,13 @@ bootstrap.page.navbar_fixed_top = function() {
     return navbar_fixed_top__delegate.call(this, route, title_text, description, kvs)
   };
   navbar_fixed_top.cljs$lang$maxFixedArity = 3;
-  navbar_fixed_top.cljs$lang$applyTo = function(arglist__275841) {
-    var route = cljs.core.first(arglist__275841);
-    arglist__275841 = cljs.core.next(arglist__275841);
-    var title_text = cljs.core.first(arglist__275841);
-    arglist__275841 = cljs.core.next(arglist__275841);
-    var description = cljs.core.first(arglist__275841);
-    var kvs = cljs.core.rest(arglist__275841);
+  navbar_fixed_top.cljs$lang$applyTo = function(arglist__282077) {
+    var route = cljs.core.first(arglist__282077);
+    arglist__282077 = cljs.core.next(arglist__282077);
+    var title_text = cljs.core.first(arglist__282077);
+    arglist__282077 = cljs.core.next(arglist__282077);
+    var description = cljs.core.first(arglist__282077);
+    var kvs = cljs.core.rest(arglist__282077);
     return navbar_fixed_top__delegate(route, title_text, description, kvs)
   };
   navbar_fixed_top.cljs$core$IFn$_invoke$arity$variadic = navbar_fixed_top__delegate;
@@ -30925,9 +30925,9 @@ bootstrap.page.navbar_fixed_top = function() {
 }();
 bootstrap.page.header = function() {
   var header__delegate = function(args__7949__auto__) {
-    var vec__275843 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275843, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275843, 1, null);
+    var vec__282079 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__282079, 0, null);
+    var kids = cljs.core.nth.call(null, vec__282079, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "page-header"), attr, kids)
   };
   var header = function(var_args) {
@@ -30938,8 +30938,8 @@ bootstrap.page.header = function() {
     return header__delegate.call(this, args__7949__auto__)
   };
   header.cljs$lang$maxFixedArity = 0;
-  header.cljs$lang$applyTo = function(arglist__275844) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275844);
+  header.cljs$lang$applyTo = function(arglist__282080) {
+    var args__7949__auto__ = cljs.core.seq(arglist__282080);
     return header__delegate(args__7949__auto__)
   };
   header.cljs$core$IFn$_invoke$arity$variadic = header__delegate;
@@ -31112,9 +31112,9 @@ goog.require("tailrecursion.hoplon");
 goog.require("tailrecursion.javelin");
 bootstrap.button.group = function() {
   var group__delegate = function(args__7949__auto__) {
-    var vec__275714 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275714, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275714, 1, null);
+    var vec__281950 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__281950, 0, null);
+    var kids = cljs.core.nth.call(null, vec__281950, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "btn-group"), attr, kids)
   };
   var group = function(var_args) {
@@ -31125,8 +31125,8 @@ bootstrap.button.group = function() {
     return group__delegate.call(this, args__7949__auto__)
   };
   group.cljs$lang$maxFixedArity = 0;
-  group.cljs$lang$applyTo = function(arglist__275715) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275715);
+  group.cljs$lang$applyTo = function(arglist__281951) {
+    var args__7949__auto__ = cljs.core.seq(arglist__281951);
     return group__delegate(args__7949__auto__)
   };
   group.cljs$core$IFn$_invoke$arity$variadic = group__delegate;
@@ -31134,9 +31134,9 @@ bootstrap.button.group = function() {
 }();
 bootstrap.button.default$ = function() {
   var default$__delegate = function(args__7949__auto__) {
-    var vec__275717 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275717, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275717, 1, null);
+    var vec__281953 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__281953, 0, null);
+    var kids = cljs.core.nth.call(null, vec__281953, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.button.call(null, new cljs.core.Keyword(null, "type", "type", 1017479852), "button", new cljs.core.Keyword(null, "class", "class", 1108647146), "btn btn-default"), attr, kids)
   };
   var default$ = function(var_args) {
@@ -31147,8 +31147,8 @@ bootstrap.button.default$ = function() {
     return default$__delegate.call(this, args__7949__auto__)
   };
   default$.cljs$lang$maxFixedArity = 0;
-  default$.cljs$lang$applyTo = function(arglist__275718) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275718);
+  default$.cljs$lang$applyTo = function(arglist__281954) {
+    var args__7949__auto__ = cljs.core.seq(arglist__281954);
     return default$__delegate(args__7949__auto__)
   };
   default$.cljs$core$IFn$_invoke$arity$variadic = default$__delegate;
@@ -31156,9 +31156,9 @@ bootstrap.button.default$ = function() {
 }();
 bootstrap.button.small = function() {
   var small__delegate = function(args__7949__auto__) {
-    var vec__275720 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275720, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275720, 1, null);
+    var vec__281956 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__281956, 0, null);
+    var kids = cljs.core.nth.call(null, vec__281956, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.button.call(null, new cljs.core.Keyword(null, "type", "type", 1017479852), "button", new cljs.core.Keyword(null, "class", "class", 1108647146), "btn btn-default btn-sm"), attr, kids)
   };
   var small = function(var_args) {
@@ -31169,8 +31169,8 @@ bootstrap.button.small = function() {
     return small__delegate.call(this, args__7949__auto__)
   };
   small.cljs$lang$maxFixedArity = 0;
-  small.cljs$lang$applyTo = function(arglist__275721) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275721);
+  small.cljs$lang$applyTo = function(arglist__281957) {
+    var args__7949__auto__ = cljs.core.seq(arglist__281957);
     return small__delegate(args__7949__auto__)
   };
   small.cljs$core$IFn$_invoke$arity$variadic = small__delegate;
@@ -31178,9 +31178,9 @@ bootstrap.button.small = function() {
 }();
 bootstrap.button.xsmall = function() {
   var xsmall__delegate = function(args__7949__auto__) {
-    var vec__275723 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275723, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275723, 1, null);
+    var vec__281959 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__281959, 0, null);
+    var kids = cljs.core.nth.call(null, vec__281959, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.button.call(null, new cljs.core.Keyword(null, "type", "type", 1017479852), "button", new cljs.core.Keyword(null, "class", "class", 1108647146), "btn btn-default btn-xs"), attr, kids)
   };
   var xsmall = function(var_args) {
@@ -31191,8 +31191,8 @@ bootstrap.button.xsmall = function() {
     return xsmall__delegate.call(this, args__7949__auto__)
   };
   xsmall.cljs$lang$maxFixedArity = 0;
-  xsmall.cljs$lang$applyTo = function(arglist__275724) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275724);
+  xsmall.cljs$lang$applyTo = function(arglist__281960) {
+    var args__7949__auto__ = cljs.core.seq(arglist__281960);
     return xsmall__delegate(args__7949__auto__)
   };
   xsmall.cljs$core$IFn$_invoke$arity$variadic = xsmall__delegate;
@@ -31200,9 +31200,9 @@ bootstrap.button.xsmall = function() {
 }();
 bootstrap.button.start = function() {
   var start__delegate = function(args__7949__auto__) {
-    var vec__275726 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275726, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275726, 1, null);
+    var vec__281962 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__281962, 0, null);
+    var kids = cljs.core.nth.call(null, vec__281962, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.a.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "btn btn-large btn-primary"), attr, kids)
   };
   var start = function(var_args) {
@@ -31213,8 +31213,8 @@ bootstrap.button.start = function() {
     return start__delegate.call(this, args__7949__auto__)
   };
   start.cljs$lang$maxFixedArity = 0;
-  start.cljs$lang$applyTo = function(arglist__275727) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275727);
+  start.cljs$lang$applyTo = function(arglist__281963) {
+    var args__7949__auto__ = cljs.core.seq(arglist__281963);
     return start__delegate(args__7949__auto__)
   };
   start.cljs$core$IFn$_invoke$arity$variadic = start__delegate;
@@ -31222,9 +31222,9 @@ bootstrap.button.start = function() {
 }();
 bootstrap.button.more = function() {
   var more__delegate = function(args__7949__auto__) {
-    var vec__275729 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275729, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275729, 1, null);
+    var vec__281965 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__281965, 0, null);
+    var kids = cljs.core.nth.call(null, vec__281965, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.a.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "btn btn-primary"), attr, kids)
   };
   var more = function(var_args) {
@@ -31235,8 +31235,8 @@ bootstrap.button.more = function() {
     return more__delegate.call(this, args__7949__auto__)
   };
   more.cljs$lang$maxFixedArity = 0;
-  more.cljs$lang$applyTo = function(arglist__275730) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275730);
+  more.cljs$lang$applyTo = function(arglist__281966) {
+    var args__7949__auto__ = cljs.core.seq(arglist__281966);
     return more__delegate(args__7949__auto__)
   };
   more.cljs$core$IFn$_invoke$arity$variadic = more__delegate;
@@ -31250,9 +31250,9 @@ goog.require("tailrecursion.hoplon");
 goog.require("tailrecursion.javelin");
 bootstrap.list.group = function() {
   var group__delegate = function(args__7949__auto__) {
-    var vec__275792 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275792, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275792, 1, null);
+    var vec__282028 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__282028, 0, null);
+    var kids = cljs.core.nth.call(null, vec__282028, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.ul.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "list-group"), attr, kids)
   };
   var group = function(var_args) {
@@ -31263,8 +31263,8 @@ bootstrap.list.group = function() {
     return group__delegate.call(this, args__7949__auto__)
   };
   group.cljs$lang$maxFixedArity = 0;
-  group.cljs$lang$applyTo = function(arglist__275793) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275793);
+  group.cljs$lang$applyTo = function(arglist__282029) {
+    var args__7949__auto__ = cljs.core.seq(arglist__282029);
     return group__delegate(args__7949__auto__)
   };
   group.cljs$core$IFn$_invoke$arity$variadic = group__delegate;
@@ -31272,9 +31272,9 @@ bootstrap.list.group = function() {
 }();
 bootstrap.list.item = function() {
   var item__delegate = function(args__7949__auto__) {
-    var vec__275795 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275795, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275795, 1, null);
+    var vec__282031 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__282031, 0, null);
+    var kids = cljs.core.nth.call(null, vec__282031, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.li.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "list-group-item"), attr, kids)
   };
   var item = function(var_args) {
@@ -31285,8 +31285,8 @@ bootstrap.list.item = function() {
     return item__delegate.call(this, args__7949__auto__)
   };
   item.cljs$lang$maxFixedArity = 0;
-  item.cljs$lang$applyTo = function(arglist__275796) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275796);
+  item.cljs$lang$applyTo = function(arglist__282032) {
+    var args__7949__auto__ = cljs.core.seq(arglist__282032);
     return item__delegate(args__7949__auto__)
   };
   item.cljs$core$IFn$_invoke$arity$variadic = item__delegate;
@@ -31294,9 +31294,9 @@ bootstrap.list.item = function() {
 }();
 bootstrap.list.divgroup = function() {
   var divgroup__delegate = function(args__7949__auto__) {
-    var vec__275798 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275798, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275798, 1, null);
+    var vec__282034 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__282034, 0, null);
+    var kids = cljs.core.nth.call(null, vec__282034, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "list-group"), attr, kids)
   };
   var divgroup = function(var_args) {
@@ -31307,8 +31307,8 @@ bootstrap.list.divgroup = function() {
     return divgroup__delegate.call(this, args__7949__auto__)
   };
   divgroup.cljs$lang$maxFixedArity = 0;
-  divgroup.cljs$lang$applyTo = function(arglist__275799) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275799);
+  divgroup.cljs$lang$applyTo = function(arglist__282035) {
+    var args__7949__auto__ = cljs.core.seq(arglist__282035);
     return divgroup__delegate(args__7949__auto__)
   };
   divgroup.cljs$core$IFn$_invoke$arity$variadic = divgroup__delegate;
@@ -31316,9 +31316,9 @@ bootstrap.list.divgroup = function() {
 }();
 bootstrap.list.divitem = function() {
   var divitem__delegate = function(args__7949__auto__) {
-    var vec__275801 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275801, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275801, 1, null);
+    var vec__282037 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__282037, 0, null);
+    var kids = cljs.core.nth.call(null, vec__282037, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "list-group-item"), attr, kids)
   };
   var divitem = function(var_args) {
@@ -31329,8 +31329,8 @@ bootstrap.list.divitem = function() {
     return divitem__delegate.call(this, args__7949__auto__)
   };
   divitem.cljs$lang$maxFixedArity = 0;
-  divitem.cljs$lang$applyTo = function(arglist__275802) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275802);
+  divitem.cljs$lang$applyTo = function(arglist__282038) {
+    var args__7949__auto__ = cljs.core.seq(arglist__282038);
     return divitem__delegate(args__7949__auto__)
   };
   divitem.cljs$core$IFn$_invoke$arity$variadic = divitem__delegate;
@@ -31344,9 +31344,9 @@ goog.require("tailrecursion.hoplon");
 goog.require("tailrecursion.javelin");
 bootstrap.panel.default$ = function() {
   var default$__delegate = function(args__7949__auto__) {
-    var vec__275846 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275846, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275846, 1, null);
+    var vec__282082 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__282082, 0, null);
+    var kids = cljs.core.nth.call(null, vec__282082, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "panel panel-default"), attr, kids)
   };
   var default$ = function(var_args) {
@@ -31357,8 +31357,8 @@ bootstrap.panel.default$ = function() {
     return default$__delegate.call(this, args__7949__auto__)
   };
   default$.cljs$lang$maxFixedArity = 0;
-  default$.cljs$lang$applyTo = function(arglist__275847) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275847);
+  default$.cljs$lang$applyTo = function(arglist__282083) {
+    var args__7949__auto__ = cljs.core.seq(arglist__282083);
     return default$__delegate(args__7949__auto__)
   };
   default$.cljs$core$IFn$_invoke$arity$variadic = default$__delegate;
@@ -31366,9 +31366,9 @@ bootstrap.panel.default$ = function() {
 }();
 bootstrap.panel.info = function() {
   var info__delegate = function(args__7949__auto__) {
-    var vec__275849 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275849, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275849, 1, null);
+    var vec__282085 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__282085, 0, null);
+    var kids = cljs.core.nth.call(null, vec__282085, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "panel panel-info"), attr, kids)
   };
   var info = function(var_args) {
@@ -31379,8 +31379,8 @@ bootstrap.panel.info = function() {
     return info__delegate.call(this, args__7949__auto__)
   };
   info.cljs$lang$maxFixedArity = 0;
-  info.cljs$lang$applyTo = function(arglist__275850) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275850);
+  info.cljs$lang$applyTo = function(arglist__282086) {
+    var args__7949__auto__ = cljs.core.seq(arglist__282086);
     return info__delegate(args__7949__auto__)
   };
   info.cljs$core$IFn$_invoke$arity$variadic = info__delegate;
@@ -31388,9 +31388,9 @@ bootstrap.panel.info = function() {
 }();
 bootstrap.panel.body = function() {
   var body__delegate = function(args__7949__auto__) {
-    var vec__275852 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275852, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275852, 1, null);
+    var vec__282088 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__282088, 0, null);
+    var kids = cljs.core.nth.call(null, vec__282088, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "panel-body"), attr, kids)
   };
   var body = function(var_args) {
@@ -31401,8 +31401,8 @@ bootstrap.panel.body = function() {
     return body__delegate.call(this, args__7949__auto__)
   };
   body.cljs$lang$maxFixedArity = 0;
-  body.cljs$lang$applyTo = function(arglist__275853) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275853);
+  body.cljs$lang$applyTo = function(arglist__282089) {
+    var args__7949__auto__ = cljs.core.seq(arglist__282089);
     return body__delegate(args__7949__auto__)
   };
   body.cljs$core$IFn$_invoke$arity$variadic = body__delegate;
@@ -31410,9 +31410,9 @@ bootstrap.panel.body = function() {
 }();
 bootstrap.panel.heading = function() {
   var heading__delegate = function(args__7949__auto__) {
-    var vec__275855 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275855, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275855, 1, null);
+    var vec__282091 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__282091, 0, null);
+    var kids = cljs.core.nth.call(null, vec__282091, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "panel-heading"), attr, kids)
   };
   var heading = function(var_args) {
@@ -31423,8 +31423,8 @@ bootstrap.panel.heading = function() {
     return heading__delegate.call(this, args__7949__auto__)
   };
   heading.cljs$lang$maxFixedArity = 0;
-  heading.cljs$lang$applyTo = function(arglist__275856) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275856);
+  heading.cljs$lang$applyTo = function(arglist__282092) {
+    var args__7949__auto__ = cljs.core.seq(arglist__282092);
     return heading__delegate(args__7949__auto__)
   };
   heading.cljs$core$IFn$_invoke$arity$variadic = heading__delegate;
@@ -31432,9 +31432,9 @@ bootstrap.panel.heading = function() {
 }();
 bootstrap.panel.title = function() {
   var title__delegate = function(args__7949__auto__) {
-    var vec__275858 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-    var attr = cljs.core.nth.call(null, vec__275858, 0, null);
-    var kids = cljs.core.nth.call(null, vec__275858, 1, null);
+    var vec__282094 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+    var attr = cljs.core.nth.call(null, vec__282094, 0, null);
+    var kids = cljs.core.nth.call(null, vec__282094, 1, null);
     return cljs.core.apply.call(null, tailrecursion.hoplon.h3.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "panel-title"), attr, kids)
   };
   var title = function(var_args) {
@@ -31445,14 +31445,14 @@ bootstrap.panel.title = function() {
     return title__delegate.call(this, args__7949__auto__)
   };
   title.cljs$lang$maxFixedArity = 0;
-  title.cljs$lang$applyTo = function(arglist__275859) {
-    var args__7949__auto__ = cljs.core.seq(arglist__275859);
+  title.cljs$lang$applyTo = function(arglist__282095) {
+    var args__7949__auto__ = cljs.core.seq(arglist__282095);
     return title__delegate(args__7949__auto__)
   };
   title.cljs$core$IFn$_invoke$arity$variadic = title__delegate;
   return title
 }();
-goog.provide("tailrecursion.hoplon.app_pages.G__274439");
+goog.provide("tailrecursion.hoplon.app_pages.G__280675");
 goog.require("cljs.core");
 goog.require("tailrecursion.javelin");
 goog.require("tailrecursion.hoplon");
@@ -31480,35 +31480,35 @@ goog.require("bootstrap.meta");
 goog.require("bootstrap.core");
 goog.require("bootstrap.meta");
 goog.require("bootstrap.core");
-tailrecursion.hoplon.app_pages.G__274439.hoploninit = function hoploninit() {
-  tailrecursion.hoplon.app_pages.G__274439.route = tailrecursion.hoplon.util.route_cell.call(null, 10, "#/home/");
-  tailrecursion.hoplon.app_pages.G__274439.hoplon_url = "https://github.com/tailrecursion/hoplon";
-  tailrecursion.hoplon.app_pages.G__274439.boot_url = "https://github.com/tailrecursion/boot";
-  tailrecursion.hoplon.app_pages.G__274439.hoplon_clojars_url = "https://clojars.org/tailrecursion/hoplon";
-  tailrecursion.hoplon.app_pages.G__274439.vec__276119 = bootstrap.page.navbar_fixed_top.call(null, tailrecursion.hoplon.app_pages.G__274439.route, "Hoplon", "Hoplon", cljs.core.PersistentVector.fromArray([tailrecursion.hoplon.a.call(null, new cljs.core.Keyword(null, "href", "href", 1017115293), "#/home/", "Home"), tailrecursion.hoplon.div.call(null)], true), cljs.core.PersistentVector.fromArray([tailrecursion.hoplon.a.call(null, new cljs.core.Keyword(null, "href", "href", 1017115293), "#/getting-started/", 
-  "Getting Started"), bootstrap.core.container.call(null)], true), cljs.core.PersistentVector.fromArray([tailrecursion.hoplon.a.call(null, new cljs.core.Keyword(null, "href", "href", 1017115293), tailrecursion.hoplon.app_pages.G__274439.hoplon_url, new cljs.core.Keyword(null, "target", "target", 4427965699), "_blank", "GitHub"), bootstrap.core.container.call(null)], true));
-  tailrecursion.hoplon.app_pages.G__274439.page_setup = cljs.core.nth.call(null, tailrecursion.hoplon.app_pages.G__274439.vec__276119, 0, null);
-  tailrecursion.hoplon.app_pages.G__274439.nav_bar = cljs.core.nth.call(null, tailrecursion.hoplon.app_pages.G__274439.vec__276119, 1, null);
-  tailrecursion.hoplon.app_pages.G__274439.content_home = cljs.core.nth.call(null, tailrecursion.hoplon.app_pages.G__274439.vec__276119, 2, null);
-  tailrecursion.hoplon.app_pages.G__274439.content_getting_started = cljs.core.nth.call(null, tailrecursion.hoplon.app_pages.G__274439.vec__276119, 3, null);
-  tailrecursion.hoplon.app_pages.G__274439.content_about = cljs.core.nth.call(null, tailrecursion.hoplon.app_pages.G__274439.vec__276119, 4, null);
-  tailrecursion.hoplon.app_pages.G__274439.content_contact = cljs.core.nth.call(null, tailrecursion.hoplon.app_pages.G__274439.vec__276119, 5, null);
-  tailrecursion.hoplon.app_pages.G__274439.example = tailrecursion.javelin.cell.call(null, 1);
-  tailrecursion.hoplon.app_pages.G__274439.bmi_height = tailrecursion.javelin.cell.call(null, 180);
-  tailrecursion.hoplon.app_pages.G__274439.bmi_weight = tailrecursion.javelin.cell.call(null, 800);
-  tailrecursion.hoplon.app_pages.G__274439.my_list = function() {
+tailrecursion.hoplon.app_pages.G__280675.hoploninit = function hoploninit() {
+  tailrecursion.hoplon.app_pages.G__280675.route = tailrecursion.hoplon.util.route_cell.call(null, 10, "#/home/");
+  tailrecursion.hoplon.app_pages.G__280675.hoplon_url = "https://github.com/tailrecursion/hoplon";
+  tailrecursion.hoplon.app_pages.G__280675.boot_url = "https://github.com/tailrecursion/boot";
+  tailrecursion.hoplon.app_pages.G__280675.hoplon_clojars_url = "https://clojars.org/tailrecursion/hoplon";
+  tailrecursion.hoplon.app_pages.G__280675.vec__282358 = bootstrap.page.navbar_fixed_top.call(null, tailrecursion.hoplon.app_pages.G__280675.route, "Hoplon", "Hoplon", cljs.core.PersistentVector.fromArray([tailrecursion.hoplon.a.call(null, new cljs.core.Keyword(null, "href", "href", 1017115293), "#/home/", "Home"), tailrecursion.hoplon.div.call(null)], true), cljs.core.PersistentVector.fromArray([tailrecursion.hoplon.a.call(null, new cljs.core.Keyword(null, "href", "href", 1017115293), "#/getting-started/", 
+  "Getting Started"), bootstrap.core.container.call(null)], true), cljs.core.PersistentVector.fromArray([tailrecursion.hoplon.a.call(null, new cljs.core.Keyword(null, "href", "href", 1017115293), tailrecursion.hoplon.app_pages.G__280675.hoplon_url, new cljs.core.Keyword(null, "target", "target", 4427965699), "_blank", "GitHub"), bootstrap.core.container.call(null)], true));
+  tailrecursion.hoplon.app_pages.G__280675.page_setup = cljs.core.nth.call(null, tailrecursion.hoplon.app_pages.G__280675.vec__282358, 0, null);
+  tailrecursion.hoplon.app_pages.G__280675.nav_bar = cljs.core.nth.call(null, tailrecursion.hoplon.app_pages.G__280675.vec__282358, 1, null);
+  tailrecursion.hoplon.app_pages.G__280675.content_home = cljs.core.nth.call(null, tailrecursion.hoplon.app_pages.G__280675.vec__282358, 2, null);
+  tailrecursion.hoplon.app_pages.G__280675.content_getting_started = cljs.core.nth.call(null, tailrecursion.hoplon.app_pages.G__280675.vec__282358, 3, null);
+  tailrecursion.hoplon.app_pages.G__280675.content_about = cljs.core.nth.call(null, tailrecursion.hoplon.app_pages.G__280675.vec__282358, 4, null);
+  tailrecursion.hoplon.app_pages.G__280675.content_contact = cljs.core.nth.call(null, tailrecursion.hoplon.app_pages.G__280675.vec__282358, 5, null);
+  tailrecursion.hoplon.app_pages.G__280675.example = tailrecursion.javelin.cell.call(null, 1);
+  tailrecursion.hoplon.app_pages.G__280675.bmi_height = tailrecursion.javelin.cell.call(null, 180);
+  tailrecursion.hoplon.app_pages.G__280675.bmi_weight = tailrecursion.javelin.cell.call(null, 800);
+  tailrecursion.hoplon.app_pages.G__280675.my_list = function() {
     var my_list__delegate = function(args__7949__auto__) {
-      var vec__276123 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
-      var attrs = cljs.core.nth.call(null, vec__276123, 0, null);
-      var children = cljs.core.nth.call(null, vec__276123, 1, null);
+      var vec__282362 = tailrecursion.hoplon.parse_args.call(null, args__7949__auto__);
+      var attrs = cljs.core.nth.call(null, vec__282362, 0, null);
+      var children = cljs.core.nth.call(null, vec__282362, 1, null);
       var heading = tailrecursion.hoplon.b.call(null);
       var body = tailrecursion.hoplon.ul.call(null);
       var widget = tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "my-list", heading.call(null), body.call(null));
-      tailrecursion.hoplon.on_append_BANG_.call(null, widget, function(p__276124, children__$1) {
-        var map__276125 = p__276124;
-        var map__276125__$1 = cljs.core.seq_QMARK_.call(null, map__276125) ? cljs.core.apply.call(null, cljs.core.hash_map, map__276125) : map__276125;
-        var attrs__$1 = map__276125__$1;
-        var title = cljs.core.get.call(null, map__276125__$1, new cljs.core.Keyword(null, "title", "title", 1124275658));
+      tailrecursion.hoplon.on_append_BANG_.call(null, widget, function(p__282363, children__$1) {
+        var map__282364 = p__282363;
+        var map__282364__$1 = cljs.core.seq_QMARK_.call(null, map__282364) ? cljs.core.apply.call(null, cljs.core.hash_map, map__282364) : map__282364;
+        var attrs__$1 = map__282364__$1;
+        var title = cljs.core.get.call(null, map__282364__$1, new cljs.core.Keyword(null, "title", "title", 1124275658));
         if(cljs.core.truth_(title)) {
           tailrecursion.hoplon.do_BANG_.call(null, heading, new cljs.core.Keyword(null, "text", "text", 1017460895), title)
         }else {
@@ -31526,26 +31526,26 @@ tailrecursion.hoplon.app_pages.G__274439.hoploninit = function hoploninit() {
       return my_list__delegate.call(this, args__7949__auto__)
     };
     my_list.cljs$lang$maxFixedArity = 0;
-    my_list.cljs$lang$applyTo = function(arglist__276378) {
-      var args__7949__auto__ = cljs.core.seq(arglist__276378);
+    my_list.cljs$lang$applyTo = function(arglist__282620) {
+      var args__7949__auto__ = cljs.core.seq(arglist__282620);
       return my_list__delegate(args__7949__auto__)
     };
     my_list.cljs$core$IFn$_invoke$arity$variadic = my_list__delegate;
     return my_list
   }();
-  tailrecursion.hoplon.app_pages.G__274439.bmi = tailrecursion.javelin.lift.call(null, function(G__276127, G__276126) {
-    var h = G__276126 / 100;
-    var w = G__276127 / 10;
+  tailrecursion.hoplon.app_pages.G__280675.bmi = tailrecursion.javelin.lift.call(null, function(G__282366, G__282365) {
+    var h = G__282365 / 100;
+    var w = G__282366 / 10;
     return w / (h * h)
-  }).call(null, tailrecursion.hoplon.app_pages.G__274439.bmi_weight, tailrecursion.hoplon.app_pages.G__274439.bmi_height);
-  tailrecursion.hoplon.app_pages.G__274439.bmi_msg = tailrecursion.javelin.lift.call(null, function(G__276128) {
-    if(cljs.core.truth_(G__276128 < 18.5)) {
+  }).call(null, tailrecursion.hoplon.app_pages.G__280675.bmi_weight, tailrecursion.hoplon.app_pages.G__280675.bmi_height);
+  tailrecursion.hoplon.app_pages.G__280675.bmi_msg = tailrecursion.javelin.lift.call(null, function(G__282367) {
+    if(cljs.core.truth_(G__282367 < 18.5)) {
       return cljs.core.PersistentVector.fromArray(["underweight", "orange"], true)
     }else {
-      if(cljs.core.truth_(G__276128 < 25)) {
+      if(cljs.core.truth_(G__282367 < 25)) {
         return cljs.core.PersistentVector.fromArray(["normal", "inherit"], true)
       }else {
-        if(cljs.core.truth_(G__276128 < 30)) {
+        if(cljs.core.truth_(G__282367 < 30)) {
           return cljs.core.PersistentVector.fromArray(["overweight", "orange"], true)
         }else {
           if(new cljs.core.Keyword(null, "else", "else", 1017020587)) {
@@ -31556,110 +31556,110 @@ tailrecursion.hoplon.app_pages.G__274439.hoploninit = function hoploninit() {
         }
       }
     }
-  }).call(null, tailrecursion.hoplon.app_pages.G__274439.bmi);
-  tailrecursion.hoplon.app_pages.G__274439.video_dims = cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "width", "width", 1127031096), 523, new cljs.core.Keyword(null, "height", "height", 4087841945), 392], true);
-  tailrecursion.hoplon.app_pages.G__274439.video_url = "//www.youtube-nocookie.com/embed/XQu8TTBmGhA";
-  tailrecursion.hoplon.app_pages.G__274439.video_thumb_url = "http://img.youtube.com/vi/XQu8TTBmGhA/0.jpg";
-  tailrecursion.hoplon.app_pages.G__274439.hyphenate_BANG_ = function hyphenate_BANG_() {
+  }).call(null, tailrecursion.hoplon.app_pages.G__280675.bmi);
+  tailrecursion.hoplon.app_pages.G__280675.video_dims = cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "width", "width", 1127031096), 523, new cljs.core.Keyword(null, "height", "height", 4087841945), 392], true);
+  tailrecursion.hoplon.app_pages.G__280675.video_url = "//www.youtube-nocookie.com/embed/XQu8TTBmGhA";
+  tailrecursion.hoplon.app_pages.G__280675.video_thumb_url = "http://img.youtube.com/vi/XQu8TTBmGhA/0.jpg";
+  tailrecursion.hoplon.app_pages.G__280675.hyphenate_BANG_ = function hyphenate_BANG_() {
     jQuery("p").addClass("hyphenate").css("text-align", "justify");
     return Hyphenator.run()
   };
   tailrecursion.hoplon.add_initfn_BANG_.call(null, function() {
-    return tailrecursion.hoplon.app_pages.G__274439.hyphenate_BANG_.call(null)
+    return tailrecursion.hoplon.app_pages.G__280675.hyphenate_BANG_.call(null)
   });
   return tailrecursion.hoplon.init.call(null, cljs.core.PersistentVector.fromArray([function() {
-    var G__276129 = tailrecursion.hoplon.app_pages.G__274439.nav_bar.call(null);
-    return G__276129
+    var G__282368 = tailrecursion.hoplon.app_pages.G__280675.nav_bar.call(null);
+    return G__282368
   }(), function() {
-    var G__276131 = tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "nojs-error", "This page uses JavaScript but it looks like you have it turned off.");
-    var G__276130 = tailrecursion.hoplon.noscript.call(null, G__276131);
-    return G__276130
+    var G__282370 = tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "nojs-error", "This page uses JavaScript but it looks like you have it turned off.");
+    var G__282369 = tailrecursion.hoplon.noscript.call(null, G__282370);
+    return G__282369
   }(), function() {
-    var G__276135 = tailrecursion.hoplon.h1.call(null, "Hoplon");
-    var G__276136 = tailrecursion.hoplon.p.call(null, "A simpler way to program the web.");
-    var G__276138 = bootstrap.button.start.call(null, new cljs.core.Keyword(null, "href", "href", 1017115293), "#/getting-started/", "Get started \u00bb");
-    var G__276137 = tailrecursion.hoplon.p.call(null, G__276138);
-    var G__276134 = bootstrap.core.container.call(null, G__276135, G__276136, G__276137);
-    var G__276133 = bootstrap.core.jumbotron.call(null, G__276134);
-    var G__276142 = tailrecursion.hoplon.h2.call(null, "Clojure, everywhere.");
-    var G__276143 = tailrecursion.hoplon.p.call(null, "Write everything in Clojure and ClojureScript, clientside and\n               serverside. Even the page markup is ClojureScript that is\n               evaluated to produce the DOM. Pages can still be written using\n               the familiar HTML syntax if desired.");
-    var G__276141 = bootstrap.grid.col4.call(null, G__276142, G__276143);
-    var G__276145 = tailrecursion.hoplon.h2.call(null, "Simplicity on the client.");
-    var G__276146 = tailrecursion.hoplon.p.call(null, "Use a spreadsheet-like dataflow programming environment to\n               manage client state. Develop basic content-oriented pages and\n               complex thick-client applications without descending into\n               \u201ccallback hell\u201d.");
-    var G__276144 = bootstrap.grid.col4.call(null, G__276145, G__276146);
-    var G__276148 = tailrecursion.hoplon.h2.call(null, "Simplicity on the server.");
-    var G__276149 = tailrecursion.hoplon.p.call(null, "Decouple business logic from HTTP-related concerns while\n               satisfying complex, fine-grained authorization requirements\n               with transparent, performant transfer of Clojure data between\n               server and client.");
-    var G__276147 = bootstrap.grid.col4.call(null, G__276148, G__276149);
-    var G__276140 = bootstrap.grid.row.call(null, G__276141, G__276144, G__276147);
-    var G__276150 = tailrecursion.hoplon.hr.call(null);
-    var G__276154 = tailrecursion.hoplon.small.call(null, "Hoplon in a nutshell.");
-    var G__276153 = tailrecursion.hoplon.h2.call(null, "Overview ", G__276154);
-    var G__276155 = tailrecursion.hoplon.p.call(null, "Hoplon provides a number of libraries promoting a simpler\n               model for web applications. The project can be divided into\n               three main components: the HTML evaluator, the clientside state\n               machine, and serverside RPC middleware. These components can be\n               used together as a full stack, or individually as a part of\n               another stack.");
-    var G__276157 = tailrecursion.hoplon.a.call(null, new cljs.core.Keyword(null, "href", "href", 1017115293), tailrecursion.hoplon.app_pages.G__274439.boot_url, new cljs.core.Keyword(null, "target", "target", 4427965699), "_blank", "boot");
-    var G__276156 = tailrecursion.hoplon.p.call(null, "More concretely, Hoplon ships with a compiler for compiling\n               Hoplon pages into HTML and JavaScript (implemented as a build \n               task for the ", G__276157, " build tool), ClojureScript libraries for creating\n               spreadsheet-like dataflow programs and wiring them to the DOM,\n               and ClojureScript and Clojure libraries for RPC interaction\n               between client and server.");
-    var G__276159 = tailrecursion.hoplon.a.call(null, new cljs.core.Keyword(null, "href", "href", 1017115293), tailrecursion.hoplon.app_pages.G__274439.hoplon_url, new cljs.core.Keyword(null, "target", "target", 4427965699), "_blank", "GitHub");
-    var G__276160 = tailrecursion.hoplon.a.call(null, new cljs.core.Keyword(null, "href", "href", 1017115293), tailrecursion.hoplon.app_pages.G__274439.hoplon_clojars_url, new cljs.core.Keyword(null, "target", "target", 4427965699), "_blank", "Clojars");
-    var G__276187 = tailrecursion.hoplon.a.call(null, new cljs.core.Keyword(null, "style", "style", 1123684643), "text-decoration:line-through;", new cljs.core.Keyword(null, "href", "href", 1017115293), "javascript:void(0)", "Contributors");
-    var G__276158 = tailrecursion.hoplon.p.call(null, "The source code for Hoplon is hosted on ", G__276159, " and Maven artifacts are deployed to ", G__276160, ". Contributions of code, feedback, feature requests, etc. are\n               welcome. Please read the ", G__276187, " page for more information.");
-    var G__276186 = tailrecursion.hoplon.small.call(null, "Applications, not documents.");
-    var G__276185 = tailrecursion.hoplon.h2.call(null, "Web Apps ", G__276186);
-    var G__276188 = tailrecursion.hoplon.p.call(null, "Web applications are not documents. Users need to be able to\n               interact with them. They contain state. Through them the user\n               communicates with backend systems to have some effect on the\n               real world. Of course they're composed of HTML, CSS, etc., but\n               any resemblance to trees of HTML documents is incidental;\n               conflating the two leads to an explosion of needless complexity.");
-    var G__276190 = tailrecursion.hoplon.em.call(null, "main.js");
-    var G__276189 = tailrecursion.hoplon.p.call(null, "Hoplon web apps are organized like applications. The Hoplon\n               compiler produces artifacts, not documents. These artifacts are\n               equivalent to JAR files in Maven\u2013their coordinates being the\n               URL on which they're deployed. The compilation unit is the page,\n               which produces a single compiled HTML file. This HTML file loads\n               a compiled JavaScript file, ", G__276190, ", a dependency shared by all pages in the project.");
-    var G__276192 = tailrecursion.hoplon.small.call(null, "Page markup is a program.");
-    var G__276191 = tailrecursion.hoplon.h2.call(null, "HTML Evaluator ", G__276192);
-    var G__276193 = tailrecursion.hoplon.p.call(null, "Web application user interfaces are specified as trees of\n               nested elements in HTML markup, but this document-like\n               appearance is misleading. Without JavaScript this markup cannot\n               provide the dynamic behavior that web applications require.");
-    var G__276194 = tailrecursion.hoplon.p.call(null, "It is at the boundary between the DOM and the JavaScript\n               environment that the incindental complexities of web application\n               UI development are found. There is a fundamental disconnect\n               between the literal representation of the DOM (the HTML markup)\n               and the dynamic environment (the JavaScript VM). The page markup\n               is evaluated by the browser and the resulting DOM is then\n               accessible from JavaScript, but it's a one-way linkage\u2013there is\n               no way to refer to objects created dynamically in the JavaScript\n               environment from the markup. The browser's HTML evaluation model\n               lacks a means of abstraction, preventing the development of new\n               elements by composition.");
-    var G__276195 = tailrecursion.hoplon.p.call(null, "Hoplon provides a HTML evaluator that closes the loop, unifying\n               the page markup and the JavaScript environment. Page markup,\n               expressed in either the standard HTML5 syntax or Clojure sexps,\n               is evaluated as ClojureScript and the result becomes the DOM for\n               the page. HTML tags are simply ClojureScript vars. Of course,\n               Hoplon ships with all of the standard HTML5 primitives but the\n               evaluation model now facilitates the use of custom compound\n               elements defined in the environment, too.");
-    var G__276196 = tailrecursion.hoplon.p.call(null, "Additionally, the unification of HTML and ClojureScript syntax,\n               semantics, and namespace in the HTML evaluator facilitates the\n               use of macros in markup.  This makes it possible to write\n               powerful looping and control structures for use in the page's\n               HTML markup itself, bringing the power and expressiveness of\n               Lisp to HTML.");
-    var G__276198 = tailrecursion.hoplon.small.call(null, "First-class custom DOM elements.");
-    var G__276197 = tailrecursion.hoplon.h2.call(null, "Components ", G__276198);
-    var G__276199 = tailrecursion.hoplon.p.call(null, "While there is no shortage of templating systems to create\n               blobs of DOM elements, there is no mechanism to create custom\n               elements that are composable in any meaningful way. Consider\n               the situation where a template engine binds a DOM template to\n               some data and returns the filled-in DOM subtree. What happens\n               when you append a child to, or set an attribute on that DOM\n               element? The child gets appended to, or attribute set on the\n               outermost element of the filled template, generally not what is\n               required for the composition semantic.");
-    var G__276200 = tailrecursion.hoplon.p.call(null, "Hoplon provides facilities for creating real, first-class\n               components. That is to say, Hoplon components are first-class\n               citizens in the DOM world\u2013they are, essentially, user-defined\n               custom DOM elements. They have a literal representation in the\n               page markup and they implement the semantics of HTML: setting\n               attributes and appending children. When a child is appended to\n               a Hoplon component or an attribute is set, either in HTML markup\n               or programmatically, the component's implementation is used\n               instead of the built-in DOM one. In this way components can be\n               built by composing simpler components and those may be used as\n               a basis for even more complex components, without running into\n               the limitations of template composition.");
-    var G__276202 = tailrecursion.hoplon.small.call(null, "Client state made simple.");
-    var G__276201 = tailrecursion.hoplon.h2.call(null, "Spreadsheets ", G__276202);
-    var G__276203 = tailrecursion.hoplon.p.call(null, "Remember how awesome spreadsheets are? You never think about\n               state when you\u2019re programming a spreadsheet. Instead, you focus\n               on values and the formulas that define the relationships between\n               them. When a new value is entered into a cell the rest of the \n               spreadsheet updates itself as necessary to maintain the\n               correctness of the formulas.");
-    var G__276204 = tailrecursion.hoplon.p.call(null, "After a spreadsheet is set up you can link its cells to charts\n               and forms to create a user interface that manages its own state,\n               automatically. User input flows from forms to input cells.\n               Formulas then recompute their values as necessary. These values\n               then flow to charts and graphs for the user to view.");
-    var G__276206 = tailrecursion.hoplon.em.call(null, "A1");
-    var G__276207 = tailrecursion.hoplon.em.call(null, "B27");
-    var G__276205 = tailrecursion.hoplon.p.call(null, "Hoplon applies this crazy, futuristic technology to frontend\n               web development. Forgoing the clunky grid metaphor and names\n               like ", G__276206, " and ", G__276207, ", Hoplon provides a cell\n               reference type. These cells, like cells in a spreadsheet, are\n               either updated directly (input cells), or automatically in\n               accordance with a formula.");
-    var G__276209 = tailrecursion.hoplon.small.call(null, "Stateless, automatic UI.");
-    var G__276208 = tailrecursion.hoplon.h2.call(null, "Charts and Forms ", G__276209);
-    var G__276210 = tailrecursion.hoplon.p.call(null, "The purpose of a program's user interface is to transmit input\n               from the user to the underlying state model and to present output\n               derived from the underlying state model to the user for viewing.");
-    var G__276212 = tailrecursion.hoplon.em.call(null, "click");
-    var G__276213 = tailrecursion.hoplon.em.call(null, "change");
-    var G__276211 = tailrecursion.hoplon.p.call(null, "In a web application the user interface is derived from the page\n               markup. User input consists entirely of DOM events: ", G__276212, ", ", G__276213, ", etc. Output is presented to\n               the user by manipulating the properties of DOM elements: adding\n               or removing CSS classes, changing the content of text nodes, \n               etc.");
-    var G__276214 = tailrecursion.hoplon.p.call(null, "Hoplon provides bindings that can be used to link DOM elements\n               to the underlying state model in the same way that charts and\n               forms are linked to cells in a spreadsheet. Once the structure\n               of the DOM and the linkages between the DOM and cells are\n               defined, the user interface manages itself.");
-    var G__276152 = bootstrap.grid.col6.call(null, G__276153, G__276155, G__276156, G__276158, G__276185, G__276188, G__276189, G__276191, G__276193, G__276194, G__276195, G__276196, G__276197, G__276199, G__276200, G__276201, G__276203, G__276204, G__276205, G__276208, G__276210, G__276211, G__276214);
-    var G__276163 = tailrecursion.hoplon.small.call(null, "Screencast");
-    var G__276162 = tailrecursion.hoplon.h2.call(null, G__276163);
-    var G__276166 = tailrecursion.hoplon.iframe.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "center-block", new cljs.core.Keyword(null, "width", "width", 1127031096), (new cljs.core.Keyword(null, "width", "width", 1127031096)).call(null, tailrecursion.hoplon.app_pages.G__274439.video_dims), new cljs.core.Keyword(null, "height", "height", 4087841945), (new cljs.core.Keyword(null, "height", "height", 4087841945)).call(null, tailrecursion.hoplon.app_pages.G__274439.video_dims), 
-    new cljs.core.Keyword(null, "src", "src", 1014018390), tailrecursion.hoplon.app_pages.G__274439.video_url, new cljs.core.Keyword(null, "frameborder", "frameborder", 1299352395), "0", new cljs.core.Keyword(null, "allowfullscreen", "allowfullscreen", 3293530934), true);
-    var G__276165 = bootstrap.panel.body.call(null, G__276166);
-    var G__276164 = bootstrap.panel.default$.call(null, G__276165);
-    var G__276168 = tailrecursion.hoplon.small.call(null, "Examples");
-    var G__276167 = tailrecursion.hoplon.h2.call(null, G__276168);
-    var G__276172 = bootstrap.panel.title.call(null, "Typical Page");
-    var G__276171 = tailrecursion.hoplon.a.call(null, new cljs.core.Keyword(null, "do-toggle", "do-toggle", 1250159176), tailrecursion.javelin.lift.call(null, function(G__276135, G__276136, G__276138, G__276137, G__276134, G__276133, G__276142, G__276143, G__276141, G__276145, G__276146, G__276144, G__276148, G__276149, G__276147, G__276140, G__276150, G__276154, G__276153, G__276155, G__276157, G__276156, G__276159, G__276160, G__276187, G__276158, G__276186, G__276185, G__276188, G__276190, G__276189, 
-    G__276192, G__276191, G__276193, G__276194, G__276195, G__276196, G__276198, G__276197, G__276199, G__276200, G__276202, G__276201, G__276203, G__276204, G__276206, G__276207, G__276205, G__276209, G__276208, G__276210, G__276212, G__276213, G__276211, G__276214, G__276152, G__276163, G__276162, G__276166, G__276165, G__276164, G__276168, G__276167, G__276172) {
-      return function(G__276265, G__276266) {
-        return G__276265.call(null, G__276266, 1)
+    var G__282374 = tailrecursion.hoplon.h1.call(null, "Hoplon");
+    var G__282375 = tailrecursion.hoplon.p.call(null, "A simpler way to program the web.");
+    var G__282377 = bootstrap.button.start.call(null, new cljs.core.Keyword(null, "href", "href", 1017115293), "#/getting-started/", "Get started \u00bb");
+    var G__282376 = tailrecursion.hoplon.p.call(null, G__282377);
+    var G__282373 = bootstrap.core.container.call(null, G__282374, G__282375, G__282376);
+    var G__282372 = bootstrap.core.jumbotron.call(null, G__282373);
+    var G__282381 = tailrecursion.hoplon.h2.call(null, "Clojure, everywhere.");
+    var G__282382 = tailrecursion.hoplon.p.call(null, "Write everything in Clojure and ClojureScript, clientside and\n               serverside. Even the page markup is ClojureScript that is\n               evaluated to produce the DOM. Pages can still be written using\n               the familiar HTML syntax if desired.");
+    var G__282380 = bootstrap.grid.col4.call(null, G__282381, G__282382);
+    var G__282384 = tailrecursion.hoplon.h2.call(null, "Simplicity on the client.");
+    var G__282385 = tailrecursion.hoplon.p.call(null, "Use a spreadsheet-like dataflow programming environment to\n               manage client state. Develop basic content-oriented pages and\n               complex thick-client applications without descending into\n               \u201ccallback hell\u201d.");
+    var G__282383 = bootstrap.grid.col4.call(null, G__282384, G__282385);
+    var G__282387 = tailrecursion.hoplon.h2.call(null, "Simplicity on the server.");
+    var G__282388 = tailrecursion.hoplon.p.call(null, "Decouple business logic from HTTP-related concerns while\n               satisfying complex, fine-grained authorization requirements\n               with transparent, performant transfer of Clojure data between\n               server and client.");
+    var G__282386 = bootstrap.grid.col4.call(null, G__282387, G__282388);
+    var G__282379 = bootstrap.grid.row.call(null, G__282380, G__282383, G__282386);
+    var G__282389 = tailrecursion.hoplon.hr.call(null);
+    var G__282393 = tailrecursion.hoplon.small.call(null, "Hoplon in a nutshell.");
+    var G__282392 = tailrecursion.hoplon.h2.call(null, "Overview ", G__282393);
+    var G__282394 = tailrecursion.hoplon.p.call(null, "Hoplon provides a number of libraries promoting a simpler\n               model for web applications. The project can be divided into\n               three main components: the HTML evaluator, the clientside state\n               machine, and serverside RPC middleware. These components can be\n               used together as a full stack, or individually as a part of\n               another stack.");
+    var G__282396 = tailrecursion.hoplon.a.call(null, new cljs.core.Keyword(null, "href", "href", 1017115293), tailrecursion.hoplon.app_pages.G__280675.boot_url, new cljs.core.Keyword(null, "target", "target", 4427965699), "_blank", "boot");
+    var G__282395 = tailrecursion.hoplon.p.call(null, "More concretely, Hoplon ships with a compiler for compiling\n               Hoplon pages into HTML and JavaScript (implemented as a build \n               task for the ", G__282396, " build tool), ClojureScript libraries for creating\n               spreadsheet-like dataflow programs and wiring them to the DOM,\n               and ClojureScript and Clojure libraries for RPC interaction\n               between client and server.");
+    var G__282398 = tailrecursion.hoplon.a.call(null, new cljs.core.Keyword(null, "href", "href", 1017115293), tailrecursion.hoplon.app_pages.G__280675.hoplon_url, new cljs.core.Keyword(null, "target", "target", 4427965699), "_blank", "GitHub");
+    var G__282399 = tailrecursion.hoplon.a.call(null, new cljs.core.Keyword(null, "href", "href", 1017115293), tailrecursion.hoplon.app_pages.G__280675.hoplon_clojars_url, new cljs.core.Keyword(null, "target", "target", 4427965699), "_blank", "Clojars");
+    var G__282426 = tailrecursion.hoplon.a.call(null, new cljs.core.Keyword(null, "style", "style", 1123684643), "text-decoration:line-through;", new cljs.core.Keyword(null, "href", "href", 1017115293), "javascript:void(0)", "Contributors");
+    var G__282397 = tailrecursion.hoplon.p.call(null, "The source code for Hoplon is hosted on ", G__282398, " and Maven artifacts are deployed to ", G__282399, ". Contributions of code, feedback, feature requests, etc. are\n               welcome. Please read the ", G__282426, " page for more information.");
+    var G__282425 = tailrecursion.hoplon.small.call(null, "Applications, not documents.");
+    var G__282424 = tailrecursion.hoplon.h2.call(null, "Web Apps ", G__282425);
+    var G__282427 = tailrecursion.hoplon.p.call(null, "Web applications are not documents. Users need to be able to\n               interact with them. They contain state. Through them the user\n               communicates with backend systems to have some effect on the\n               real world. Of course they're composed of HTML, CSS, etc., but\n               any resemblance to trees of HTML documents is incidental;\n               conflating the two leads to an explosion of needless complexity.");
+    var G__282429 = tailrecursion.hoplon.em.call(null, "main.js");
+    var G__282428 = tailrecursion.hoplon.p.call(null, "Hoplon web apps are organized like applications. The Hoplon\n               compiler produces artifacts, not documents. These artifacts are\n               equivalent to JAR files in Maven\u2013their coordinates being the\n               URL on which they're deployed. The compilation unit is the page,\n               which produces a single compiled HTML file. This HTML file loads\n               a compiled JavaScript file, ", G__282429, ", a dependency shared by all pages in the project.");
+    var G__282431 = tailrecursion.hoplon.small.call(null, "Page markup is a program.");
+    var G__282430 = tailrecursion.hoplon.h2.call(null, "HTML Evaluator ", G__282431);
+    var G__282432 = tailrecursion.hoplon.p.call(null, "Web application user interfaces are specified as trees of\n               nested elements in HTML markup, but this document-like\n               appearance is misleading. Without JavaScript this markup cannot\n               provide the dynamic behavior that web applications require.");
+    var G__282433 = tailrecursion.hoplon.p.call(null, "It is at the boundary between the DOM and the JavaScript\n               environment that the incindental complexities of web application\n               UI development are found. There is a fundamental disconnect\n               between the literal representation of the DOM (the HTML markup)\n               and the dynamic environment (the JavaScript VM). The page markup\n               is evaluated by the browser and the resulting DOM is then\n               accessible from JavaScript, but it's a one-way linkage\u2013there is\n               no way to refer to objects created dynamically in the JavaScript\n               environment from the markup. The browser's HTML evaluation model\n               lacks a means of abstraction, preventing the development of new\n               elements by composition.");
+    var G__282434 = tailrecursion.hoplon.p.call(null, "Hoplon provides a HTML evaluator that closes the loop, unifying\n               the page markup and the JavaScript environment. Page markup,\n               expressed in either the standard HTML5 syntax or Clojure sexps,\n               is evaluated as ClojureScript and the result becomes the DOM for\n               the page. HTML tags are simply ClojureScript vars. Of course,\n               Hoplon ships with all of the standard HTML5 primitives but the\n               evaluation model now facilitates the use of custom compound\n               elements defined in the environment, too.");
+    var G__282435 = tailrecursion.hoplon.p.call(null, "Additionally, the unification of HTML and ClojureScript syntax,\n               semantics, and namespace in the HTML evaluator facilitates the\n               use of macros in markup.  This makes it possible to write\n               powerful looping and control structures for use in the page's\n               HTML markup itself, bringing the power and expressiveness of\n               Lisp to HTML.");
+    var G__282437 = tailrecursion.hoplon.small.call(null, "First-class custom DOM elements.");
+    var G__282436 = tailrecursion.hoplon.h2.call(null, "Components ", G__282437);
+    var G__282438 = tailrecursion.hoplon.p.call(null, "While there is no shortage of templating systems to create\n               blobs of DOM elements, there is no mechanism to create custom\n               elements that are composable in any meaningful way. Consider\n               the situation where a template engine binds a DOM template to\n               some data and returns the filled-in DOM subtree. What happens\n               when you append a child to, or set an attribute on that DOM\n               element? The child gets appended to, or attribute set on the\n               outermost element of the filled template, generally not what is\n               required for the composition semantic.");
+    var G__282439 = tailrecursion.hoplon.p.call(null, "Hoplon provides facilities for creating real, first-class\n               components. That is to say, Hoplon components are first-class\n               citizens in the DOM world\u2013they are, essentially, user-defined\n               custom DOM elements. They have a literal representation in the\n               page markup and they implement the semantics of HTML: setting\n               attributes and appending children. When a child is appended to\n               a Hoplon component or an attribute is set, either in HTML markup\n               or programmatically, the component's implementation is used\n               instead of the built-in DOM one. In this way components can be\n               built by composing simpler components and those may be used as\n               a basis for even more complex components, without running into\n               the limitations of template composition.");
+    var G__282441 = tailrecursion.hoplon.small.call(null, "Client state made simple.");
+    var G__282440 = tailrecursion.hoplon.h2.call(null, "Spreadsheets ", G__282441);
+    var G__282442 = tailrecursion.hoplon.p.call(null, "Remember how awesome spreadsheets are? You never think about\n               state when you\u2019re programming a spreadsheet. Instead, you focus\n               on values and the formulas that define the relationships between\n               them. When a new value is entered into a cell the rest of the \n               spreadsheet updates itself as necessary to maintain the\n               correctness of the formulas.");
+    var G__282443 = tailrecursion.hoplon.p.call(null, "After a spreadsheet is set up you can link its cells to charts\n               and forms to create a user interface that manages its own state,\n               automatically. User input flows from forms to input cells.\n               Formulas then recompute their values as necessary. These values\n               then flow to charts and graphs for the user to view.");
+    var G__282445 = tailrecursion.hoplon.em.call(null, "A1");
+    var G__282446 = tailrecursion.hoplon.em.call(null, "B27");
+    var G__282444 = tailrecursion.hoplon.p.call(null, "Hoplon applies this crazy, futuristic technology to frontend\n               web development. Forgoing the clunky grid metaphor and names\n               like ", G__282445, " and ", G__282446, ", Hoplon provides a cell\n               reference type. These cells, like cells in a spreadsheet, are\n               either updated directly (input cells), or automatically in\n               accordance with a formula.");
+    var G__282448 = tailrecursion.hoplon.small.call(null, "Stateless, automatic UI.");
+    var G__282447 = tailrecursion.hoplon.h2.call(null, "Charts and Forms ", G__282448);
+    var G__282449 = tailrecursion.hoplon.p.call(null, "The purpose of a program's user interface is to transmit input\n               from the user to the underlying state model and to present output\n               derived from the underlying state model to the user for viewing.");
+    var G__282451 = tailrecursion.hoplon.em.call(null, "click");
+    var G__282452 = tailrecursion.hoplon.em.call(null, "change");
+    var G__282450 = tailrecursion.hoplon.p.call(null, "In a web application the user interface is derived from the page\n               markup. User input consists entirely of DOM events: ", G__282451, ", ", G__282452, ", etc. Output is presented to\n               the user by manipulating the properties of DOM elements: adding\n               or removing CSS classes, changing the content of text nodes, \n               etc.");
+    var G__282453 = tailrecursion.hoplon.p.call(null, "Hoplon provides bindings that can be used to link DOM elements\n               to the underlying state model in the same way that charts and\n               forms are linked to cells in a spreadsheet. Once the structure\n               of the DOM and the linkages between the DOM and cells are\n               defined, the user interface manages itself.");
+    var G__282391 = bootstrap.grid.col6.call(null, G__282392, G__282394, G__282395, G__282397, G__282424, G__282427, G__282428, G__282430, G__282432, G__282433, G__282434, G__282435, G__282436, G__282438, G__282439, G__282440, G__282442, G__282443, G__282444, G__282447, G__282449, G__282450, G__282453);
+    var G__282402 = tailrecursion.hoplon.small.call(null, "Screencast");
+    var G__282401 = tailrecursion.hoplon.h2.call(null, G__282402);
+    var G__282405 = tailrecursion.hoplon.iframe.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "center-block", new cljs.core.Keyword(null, "width", "width", 1127031096), (new cljs.core.Keyword(null, "width", "width", 1127031096)).call(null, tailrecursion.hoplon.app_pages.G__280675.video_dims), new cljs.core.Keyword(null, "height", "height", 4087841945), (new cljs.core.Keyword(null, "height", "height", 4087841945)).call(null, tailrecursion.hoplon.app_pages.G__280675.video_dims), 
+    new cljs.core.Keyword(null, "src", "src", 1014018390), tailrecursion.hoplon.app_pages.G__280675.video_url, new cljs.core.Keyword(null, "frameborder", "frameborder", 1299352395), "0", new cljs.core.Keyword(null, "allowfullscreen", "allowfullscreen", 3293530934), true);
+    var G__282404 = bootstrap.panel.body.call(null, G__282405);
+    var G__282403 = bootstrap.panel.default$.call(null, G__282404);
+    var G__282407 = tailrecursion.hoplon.small.call(null, "Examples");
+    var G__282406 = tailrecursion.hoplon.h2.call(null, G__282407);
+    var G__282411 = bootstrap.panel.title.call(null, "Typical Page");
+    var G__282410 = tailrecursion.hoplon.a.call(null, new cljs.core.Keyword(null, "do-toggle", "do-toggle", 1250159176), tailrecursion.javelin.lift.call(null, function(G__282374, G__282375, G__282377, G__282376, G__282373, G__282372, G__282381, G__282382, G__282380, G__282384, G__282385, G__282383, G__282387, G__282388, G__282386, G__282379, G__282389, G__282393, G__282392, G__282394, G__282396, G__282395, G__282398, G__282399, G__282426, G__282397, G__282425, G__282424, G__282427, G__282429, G__282428, 
+    G__282431, G__282430, G__282432, G__282433, G__282434, G__282435, G__282437, G__282436, G__282438, G__282439, G__282441, G__282440, G__282442, G__282443, G__282445, G__282446, G__282444, G__282448, G__282447, G__282449, G__282451, G__282452, G__282450, G__282453, G__282391, G__282402, G__282401, G__282405, G__282404, G__282403, G__282407, G__282406, G__282411) {
+      return function(G__282504, G__282505) {
+        return G__282504.call(null, G__282505, 1)
       }
-    }(G__276135, G__276136, G__276138, G__276137, G__276134, G__276133, G__276142, G__276143, G__276141, G__276145, G__276146, G__276144, G__276148, G__276149, G__276147, G__276140, G__276150, G__276154, G__276153, G__276155, G__276157, G__276156, G__276159, G__276160, G__276187, G__276158, G__276186, G__276185, G__276188, G__276190, G__276189, G__276192, G__276191, G__276193, G__276194, G__276195, G__276196, G__276198, G__276197, G__276199, G__276200, G__276202, G__276201, G__276203, G__276204, 
-    G__276206, G__276207, G__276205, G__276209, G__276208, G__276210, G__276212, G__276213, G__276211, G__276214, G__276152, G__276163, G__276162, G__276166, G__276165, G__276164, G__276168, G__276167, G__276172)).call(null, cljs.core.not_EQ_, tailrecursion.hoplon.app_pages.G__274439.example), G__276172);
-    var G__276174 = bootstrap.panel.title.call(null, "Typical Page");
-    var G__276175 = tailrecursion.hoplon.hr.call(null);
-    var G__276215 = tailrecursion.hoplon.p.call(null, "The page can be coded in either ClojureScript or HTML\n                     syntax. The compiler can parse either one. It's easy to\n                     add a preprocessing step to parse HAML, etc. if desired.\n                     HTML is usually more verbose and noisy than ClojureScript,\n                     so most examples in this document will be using the latter\n                     syntax.");
-    var G__276216 = tailrecursion.hoplon.hr.call(null);
-    var G__276217 = tailrecursion.hoplon.p.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "text-muted", "Using ClojureScript syntax:");
-    var G__276218 = tailrecursion.hoplon.p.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "text-muted", "Using HTML syntax:");
-    var G__276173 = tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "do-toggle", "do-toggle", 1250159176), tailrecursion.javelin.lift.call(null, function(G__276135, G__276136, G__276138, G__276137, G__276134, G__276133, G__276142, G__276143, G__276141, G__276145, G__276146, G__276144, G__276148, G__276149, G__276147, G__276140, G__276150, G__276154, G__276153, G__276155, G__276157, G__276156, G__276159, G__276160, G__276187, G__276158, G__276186, G__276185, G__276188, G__276190, G__276189, 
-    G__276192, G__276191, G__276193, G__276194, G__276195, G__276196, G__276198, G__276197, G__276199, G__276200, G__276202, G__276201, G__276203, G__276204, G__276206, G__276207, G__276205, G__276209, G__276208, G__276210, G__276212, G__276213, G__276211, G__276214, G__276152, G__276163, G__276162, G__276166, G__276165, G__276164, G__276168, G__276167, G__276172, G__276171, G__276174, G__276175, G__276215, G__276216, G__276217, G__276218) {
-      return function(G__276267, G__276268) {
-        return G__276267.call(null, G__276268, 1)
+    }(G__282374, G__282375, G__282377, G__282376, G__282373, G__282372, G__282381, G__282382, G__282380, G__282384, G__282385, G__282383, G__282387, G__282388, G__282386, G__282379, G__282389, G__282393, G__282392, G__282394, G__282396, G__282395, G__282398, G__282399, G__282426, G__282397, G__282425, G__282424, G__282427, G__282429, G__282428, G__282431, G__282430, G__282432, G__282433, G__282434, G__282435, G__282437, G__282436, G__282438, G__282439, G__282441, G__282440, G__282442, G__282443, 
+    G__282445, G__282446, G__282444, G__282448, G__282447, G__282449, G__282451, G__282452, G__282450, G__282453, G__282391, G__282402, G__282401, G__282405, G__282404, G__282403, G__282407, G__282406, G__282411)).call(null, cljs.core.not_EQ_, tailrecursion.hoplon.app_pages.G__280675.example), G__282411);
+    var G__282413 = bootstrap.panel.title.call(null, "Typical Page");
+    var G__282414 = tailrecursion.hoplon.hr.call(null);
+    var G__282454 = tailrecursion.hoplon.p.call(null, "The page can be coded in either ClojureScript or HTML\n                     syntax. The compiler can parse either one. It's easy to\n                     add a preprocessing step to parse HAML, etc. if desired.\n                     HTML is usually more verbose and noisy than ClojureScript,\n                     so most examples in this document will be using the latter\n                     syntax.");
+    var G__282455 = tailrecursion.hoplon.hr.call(null);
+    var G__282456 = tailrecursion.hoplon.p.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "text-muted", "Using ClojureScript syntax:");
+    var G__282457 = tailrecursion.hoplon.p.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "text-muted", "Using HTML syntax:");
+    var G__282412 = tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "do-toggle", "do-toggle", 1250159176), tailrecursion.javelin.lift.call(null, function(G__282374, G__282375, G__282377, G__282376, G__282373, G__282372, G__282381, G__282382, G__282380, G__282384, G__282385, G__282383, G__282387, G__282388, G__282386, G__282379, G__282389, G__282393, G__282392, G__282394, G__282396, G__282395, G__282398, G__282399, G__282426, G__282397, G__282425, G__282424, G__282427, G__282429, G__282428, 
+    G__282431, G__282430, G__282432, G__282433, G__282434, G__282435, G__282437, G__282436, G__282438, G__282439, G__282441, G__282440, G__282442, G__282443, G__282445, G__282446, G__282444, G__282448, G__282447, G__282449, G__282451, G__282452, G__282450, G__282453, G__282391, G__282402, G__282401, G__282405, G__282404, G__282403, G__282407, G__282406, G__282411, G__282410, G__282413, G__282414, G__282454, G__282455, G__282456, G__282457) {
+      return function(G__282506, G__282507) {
+        return G__282506.call(null, G__282507, 1)
       }
-    }(G__276135, G__276136, G__276138, G__276137, G__276134, G__276133, G__276142, G__276143, G__276141, G__276145, G__276146, G__276144, G__276148, G__276149, G__276147, G__276140, G__276150, G__276154, G__276153, G__276155, G__276157, G__276156, G__276159, G__276160, G__276187, G__276158, G__276186, G__276185, G__276188, G__276190, G__276189, G__276192, G__276191, G__276193, G__276194, G__276195, G__276196, G__276198, G__276197, G__276199, G__276200, G__276202, G__276201, G__276203, G__276204, 
-    G__276206, G__276207, G__276205, G__276209, G__276208, G__276210, G__276212, G__276213, G__276211, G__276214, G__276152, G__276163, G__276162, G__276166, G__276165, G__276164, G__276168, G__276167, G__276172, G__276171, G__276174, G__276175, G__276215, G__276216, G__276217, G__276218)).call(null, cljs.core._EQ_, tailrecursion.hoplon.app_pages.G__274439.example), G__276174, G__276175, G__276215, G__276216, G__276217, tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
+    }(G__282374, G__282375, G__282377, G__282376, G__282373, G__282372, G__282381, G__282382, G__282380, G__282384, G__282385, G__282383, G__282387, G__282388, G__282386, G__282379, G__282389, G__282393, G__282392, G__282394, G__282396, G__282395, G__282398, G__282399, G__282426, G__282397, G__282425, G__282424, G__282427, G__282429, G__282428, G__282431, G__282430, G__282432, G__282433, G__282434, G__282435, G__282437, G__282436, G__282438, G__282439, G__282441, G__282440, G__282442, G__282443, 
+    G__282445, G__282446, G__282444, G__282448, G__282447, G__282449, G__282451, G__282452, G__282450, G__282453, G__282391, G__282402, G__282401, G__282405, G__282404, G__282403, G__282407, G__282406, G__282411, G__282410, G__282413, G__282414, G__282454, G__282455, G__282456, G__282457)).call(null, cljs.core._EQ_, tailrecursion.hoplon.app_pages.G__280675.example), G__282413, G__282414, G__282454, G__282455, G__282456, tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
     "class", "class", 1108647146), "highlight"], true), tailrecursion.hoplon.pre.call(null, tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nf"], true), "page"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
     "class", "class", 1108647146), "s"], true), '"foo/bar.html"'), "\n  ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "ss"], true), ":require"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
     "class", "class", 1108647146), "p"], true), "["), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nv"], true), "my.lib"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "ss"], true), ":as"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 
@@ -31677,7 +31677,7 @@ tailrecursion.hoplon.app_pages.G__274439.hoploninit = function hoploninit() {
     "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nf"], true), "button"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "ss"], true), ":on-click"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "o"], true), "#"), tailrecursion.hoplon.span.call(null, 
     cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nf"], true), "swap!"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nv"], true), "clicks"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
     "class", "class", 1108647146), "nv"], true), "inc"), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), ")"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "s"], true), '"Click me!"'), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 
-    1108647146), "p"], true), ")))"), "\n")), G__276218, tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "highlight"], true), tailrecursion.hoplon.pre.call(null, tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nt"], true), "\x3cscript"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
+    1108647146), "p"], true), ")))"), "\n")), G__282457, tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "highlight"], true), tailrecursion.hoplon.pre.call(null, tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nt"], true), "\x3cscript"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
     "class", "class", 1108647146), "na"], true), "type\x3d"), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "s"], true), '"text/hoplon"'), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nt"], true), "\x3e"), '\n  (page "foo/bar.html"\n    (:require [my.lib :as lib]))\n\n  (defc clicks 0)\n', tailrecursion.hoplon.span.call(null, 
     cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nt"], true), "\x3c/script\x3e"), "\n\n", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nt"], true), "\x3chtml\x3e"), "\n  ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nt"], true), "\x3chead\x3e"), "\n    ", tailrecursion.hoplon.span.call(null, 
     cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nt"], true), "\x3ctitle\x3e"), "Hello World", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nt"], true), "\x3c/title\x3e"), "\n    ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nt"], true), "\x3clink"), " ", tailrecursion.hoplon.span.call(null, 
@@ -31688,127 +31688,127 @@ tailrecursion.hoplon.app_pages.G__274439.hoploninit = function hoploninit() {
     "nt"], true), "\x3cbutton"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "na"], true), "on-click\x3d"), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "s"], true), '"{{ #(swap! clicks inc) }}"'), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 
     1108647146), "nt"], true), "\x3e"), "\n      Click me!\n    ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nt"], true), "\x3c/button\x3e"), "\n  ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nt"], true), "\x3c/body\x3e"), "\n", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
     "class", "class", 1108647146), "nt"], true), "\x3c/html\x3e"), "\n")));
-    var G__276170 = bootstrap.list.divitem.call(null, new cljs.core.Keyword(null, "on-click", "on-click", 1416542092), function(G__276135, G__276136, G__276138, G__276137, G__276134, G__276133, G__276142, G__276143, G__276141, G__276145, G__276146, G__276144, G__276148, G__276149, G__276147, G__276140, G__276150, G__276154, G__276153, G__276155, G__276157, G__276156, G__276159, G__276160, G__276187, G__276158, G__276186, G__276185, G__276188, G__276190, G__276189, G__276192, G__276191, G__276193, 
-    G__276194, G__276195, G__276196, G__276198, G__276197, G__276199, G__276200, G__276202, G__276201, G__276203, G__276204, G__276206, G__276207, G__276205, G__276209, G__276208, G__276210, G__276212, G__276213, G__276211, G__276214, G__276152, G__276163, G__276162, G__276166, G__276165, G__276164, G__276168, G__276167, G__276172, G__276171, G__276174, G__276175, G__276215, G__276216, G__276217, G__276218, G__276173) {
+    var G__282409 = bootstrap.list.divitem.call(null, new cljs.core.Keyword(null, "on-click", "on-click", 1416542092), function(G__282374, G__282375, G__282377, G__282376, G__282373, G__282372, G__282381, G__282382, G__282380, G__282384, G__282385, G__282383, G__282387, G__282388, G__282386, G__282379, G__282389, G__282393, G__282392, G__282394, G__282396, G__282395, G__282398, G__282399, G__282426, G__282397, G__282425, G__282424, G__282427, G__282429, G__282428, G__282431, G__282430, G__282432, 
+    G__282433, G__282434, G__282435, G__282437, G__282436, G__282438, G__282439, G__282441, G__282440, G__282442, G__282443, G__282445, G__282446, G__282444, G__282448, G__282447, G__282449, G__282451, G__282452, G__282450, G__282453, G__282391, G__282402, G__282401, G__282405, G__282404, G__282403, G__282407, G__282406, G__282411, G__282410, G__282413, G__282414, G__282454, G__282455, G__282456, G__282457, G__282412) {
       return function() {
-        return cljs.core.reset_BANG_.call(null, tailrecursion.hoplon.app_pages.G__274439.example, 1)
+        return cljs.core.reset_BANG_.call(null, tailrecursion.hoplon.app_pages.G__280675.example, 1)
       }
-    }(G__276135, G__276136, G__276138, G__276137, G__276134, G__276133, G__276142, G__276143, G__276141, G__276145, G__276146, G__276144, G__276148, G__276149, G__276147, G__276140, G__276150, G__276154, G__276153, G__276155, G__276157, G__276156, G__276159, G__276160, G__276187, G__276158, G__276186, G__276185, G__276188, G__276190, G__276189, G__276192, G__276191, G__276193, G__276194, G__276195, G__276196, G__276198, G__276197, G__276199, G__276200, G__276202, G__276201, G__276203, G__276204, 
-    G__276206, G__276207, G__276205, G__276209, G__276208, G__276210, G__276212, G__276213, G__276211, G__276214, G__276152, G__276163, G__276162, G__276166, G__276165, G__276164, G__276168, G__276167, G__276172, G__276171, G__276174, G__276175, G__276215, G__276216, G__276217, G__276218, G__276173), G__276171, G__276173);
-    var G__276177 = tailrecursion.hoplon.a.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "topfix", new cljs.core.Keyword(null, "do-scroll-to", "do-scroll-to", 3603706411), tailrecursion.javelin.lift.call(null, function(G__276135, G__276136, G__276138, G__276137, G__276134, G__276133, G__276142, G__276143, G__276141, G__276145, G__276146, G__276144, G__276148, G__276149, G__276147, G__276140, G__276150, G__276154, G__276153, G__276155, G__276157, G__276156, G__276159, G__276160, 
-    G__276187, G__276158, G__276186, G__276185, G__276188, G__276190, G__276189, G__276192, G__276191, G__276193, G__276194, G__276195, G__276196, G__276198, G__276197, G__276199, G__276200, G__276202, G__276201, G__276203, G__276204, G__276206, G__276207, G__276205, G__276209, G__276208, G__276210, G__276212, G__276213, G__276211, G__276214, G__276152, G__276163, G__276162, G__276166, G__276165, G__276164, G__276168, G__276167, G__276172, G__276171, G__276174, G__276175, G__276215, G__276216, G__276217, 
-    G__276218, G__276173, G__276170) {
-      return function(G__276269, G__276270) {
-        return G__276269.call(null, G__276270, 2)
+    }(G__282374, G__282375, G__282377, G__282376, G__282373, G__282372, G__282381, G__282382, G__282380, G__282384, G__282385, G__282383, G__282387, G__282388, G__282386, G__282379, G__282389, G__282393, G__282392, G__282394, G__282396, G__282395, G__282398, G__282399, G__282426, G__282397, G__282425, G__282424, G__282427, G__282429, G__282428, G__282431, G__282430, G__282432, G__282433, G__282434, G__282435, G__282437, G__282436, G__282438, G__282439, G__282441, G__282440, G__282442, G__282443, 
+    G__282445, G__282446, G__282444, G__282448, G__282447, G__282449, G__282451, G__282452, G__282450, G__282453, G__282391, G__282402, G__282401, G__282405, G__282404, G__282403, G__282407, G__282406, G__282411, G__282410, G__282413, G__282414, G__282454, G__282455, G__282456, G__282457, G__282412), G__282410, G__282412);
+    var G__282416 = tailrecursion.hoplon.a.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "topfix", new cljs.core.Keyword(null, "do-scroll-to", "do-scroll-to", 3603706411), tailrecursion.javelin.lift.call(null, function(G__282374, G__282375, G__282377, G__282376, G__282373, G__282372, G__282381, G__282382, G__282380, G__282384, G__282385, G__282383, G__282387, G__282388, G__282386, G__282379, G__282389, G__282393, G__282392, G__282394, G__282396, G__282395, G__282398, G__282399, 
+    G__282426, G__282397, G__282425, G__282424, G__282427, G__282429, G__282428, G__282431, G__282430, G__282432, G__282433, G__282434, G__282435, G__282437, G__282436, G__282438, G__282439, G__282441, G__282440, G__282442, G__282443, G__282445, G__282446, G__282444, G__282448, G__282447, G__282449, G__282451, G__282452, G__282450, G__282453, G__282391, G__282402, G__282401, G__282405, G__282404, G__282403, G__282407, G__282406, G__282411, G__282410, G__282413, G__282414, G__282454, G__282455, G__282456, 
+    G__282457, G__282412, G__282409) {
+      return function(G__282508, G__282509) {
+        return G__282508.call(null, G__282509, 2)
       }
-    }(G__276135, G__276136, G__276138, G__276137, G__276134, G__276133, G__276142, G__276143, G__276141, G__276145, G__276146, G__276144, G__276148, G__276149, G__276147, G__276140, G__276150, G__276154, G__276153, G__276155, G__276157, G__276156, G__276159, G__276160, G__276187, G__276158, G__276186, G__276185, G__276188, G__276190, G__276189, G__276192, G__276191, G__276193, G__276194, G__276195, G__276196, G__276198, G__276197, G__276199, G__276200, G__276202, G__276201, G__276203, G__276204, 
-    G__276206, G__276207, G__276205, G__276209, G__276208, G__276210, G__276212, G__276213, G__276211, G__276214, G__276152, G__276163, G__276162, G__276166, G__276165, G__276164, G__276168, G__276167, G__276172, G__276171, G__276174, G__276175, G__276215, G__276216, G__276217, G__276218, G__276173, G__276170)).call(null, cljs.core._EQ_, tailrecursion.hoplon.app_pages.G__274439.example));
-    var G__276179 = bootstrap.panel.title.call(null, "BMI Calculator");
-    var G__276178 = tailrecursion.hoplon.a.call(null, new cljs.core.Keyword(null, "do-toggle", "do-toggle", 1250159176), tailrecursion.javelin.lift.call(null, function(G__276135, G__276136, G__276138, G__276137, G__276134, G__276133, G__276142, G__276143, G__276141, G__276145, G__276146, G__276144, G__276148, G__276149, G__276147, G__276140, G__276150, G__276154, G__276153, G__276155, G__276157, G__276156, G__276159, G__276160, G__276187, G__276158, G__276186, G__276185, G__276188, G__276190, G__276189, 
-    G__276192, G__276191, G__276193, G__276194, G__276195, G__276196, G__276198, G__276197, G__276199, G__276200, G__276202, G__276201, G__276203, G__276204, G__276206, G__276207, G__276205, G__276209, G__276208, G__276210, G__276212, G__276213, G__276211, G__276214, G__276152, G__276163, G__276162, G__276166, G__276165, G__276164, G__276168, G__276167, G__276172, G__276171, G__276174, G__276175, G__276215, G__276216, G__276217, G__276218, G__276173, G__276170, G__276177, G__276179) {
-      return function(G__276271, G__276272) {
-        return G__276271.call(null, G__276272, 2)
+    }(G__282374, G__282375, G__282377, G__282376, G__282373, G__282372, G__282381, G__282382, G__282380, G__282384, G__282385, G__282383, G__282387, G__282388, G__282386, G__282379, G__282389, G__282393, G__282392, G__282394, G__282396, G__282395, G__282398, G__282399, G__282426, G__282397, G__282425, G__282424, G__282427, G__282429, G__282428, G__282431, G__282430, G__282432, G__282433, G__282434, G__282435, G__282437, G__282436, G__282438, G__282439, G__282441, G__282440, G__282442, G__282443, 
+    G__282445, G__282446, G__282444, G__282448, G__282447, G__282449, G__282451, G__282452, G__282450, G__282453, G__282391, G__282402, G__282401, G__282405, G__282404, G__282403, G__282407, G__282406, G__282411, G__282410, G__282413, G__282414, G__282454, G__282455, G__282456, G__282457, G__282412, G__282409)).call(null, cljs.core._EQ_, tailrecursion.hoplon.app_pages.G__280675.example));
+    var G__282418 = bootstrap.panel.title.call(null, "BMI Calculator");
+    var G__282417 = tailrecursion.hoplon.a.call(null, new cljs.core.Keyword(null, "do-toggle", "do-toggle", 1250159176), tailrecursion.javelin.lift.call(null, function(G__282374, G__282375, G__282377, G__282376, G__282373, G__282372, G__282381, G__282382, G__282380, G__282384, G__282385, G__282383, G__282387, G__282388, G__282386, G__282379, G__282389, G__282393, G__282392, G__282394, G__282396, G__282395, G__282398, G__282399, G__282426, G__282397, G__282425, G__282424, G__282427, G__282429, G__282428, 
+    G__282431, G__282430, G__282432, G__282433, G__282434, G__282435, G__282437, G__282436, G__282438, G__282439, G__282441, G__282440, G__282442, G__282443, G__282445, G__282446, G__282444, G__282448, G__282447, G__282449, G__282451, G__282452, G__282450, G__282453, G__282391, G__282402, G__282401, G__282405, G__282404, G__282403, G__282407, G__282406, G__282411, G__282410, G__282413, G__282414, G__282454, G__282455, G__282456, G__282457, G__282412, G__282409, G__282416, G__282418) {
+      return function(G__282510, G__282511) {
+        return G__282510.call(null, G__282511, 2)
       }
-    }(G__276135, G__276136, G__276138, G__276137, G__276134, G__276133, G__276142, G__276143, G__276141, G__276145, G__276146, G__276144, G__276148, G__276149, G__276147, G__276140, G__276150, G__276154, G__276153, G__276155, G__276157, G__276156, G__276159, G__276160, G__276187, G__276158, G__276186, G__276185, G__276188, G__276190, G__276189, G__276192, G__276191, G__276193, G__276194, G__276195, G__276196, G__276198, G__276197, G__276199, G__276200, G__276202, G__276201, G__276203, G__276204, 
-    G__276206, G__276207, G__276205, G__276209, G__276208, G__276210, G__276212, G__276213, G__276211, G__276214, G__276152, G__276163, G__276162, G__276166, G__276165, G__276164, G__276168, G__276167, G__276172, G__276171, G__276174, G__276175, G__276215, G__276216, G__276217, G__276218, G__276173, G__276170, G__276177, G__276179)).call(null, cljs.core.not_EQ_, tailrecursion.hoplon.app_pages.G__274439.example), G__276179);
-    var G__276220 = bootstrap.panel.title.call(null, "BMI Calculator");
-    var G__276221 = tailrecursion.hoplon.hr.call(null);
-    var G__276223 = tailrecursion.hoplon.em.call(null, "cells");
-    var G__276222 = tailrecursion.hoplon.p.call(null, "This is an example of a spreadsheet-like application.\n                     The application's state is contained in ", G__276223, " which are wired up to the DOM. DOM events cause changes\n                     to the underlying cells and formula cells in turn cause\n                     changes to the DOM.");
-    var G__276224 = tailrecursion.hoplon.hr.call(null);
-    var G__276225 = tailrecursion.hoplon.p.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "text-muted", "The demo:");
-    var G__276231 = tailrecursion.hoplon.label.call(null, function() {
+    }(G__282374, G__282375, G__282377, G__282376, G__282373, G__282372, G__282381, G__282382, G__282380, G__282384, G__282385, G__282383, G__282387, G__282388, G__282386, G__282379, G__282389, G__282393, G__282392, G__282394, G__282396, G__282395, G__282398, G__282399, G__282426, G__282397, G__282425, G__282424, G__282427, G__282429, G__282428, G__282431, G__282430, G__282432, G__282433, G__282434, G__282435, G__282437, G__282436, G__282438, G__282439, G__282441, G__282440, G__282442, G__282443, 
+    G__282445, G__282446, G__282444, G__282448, G__282447, G__282449, G__282451, G__282452, G__282450, G__282453, G__282391, G__282402, G__282401, G__282405, G__282404, G__282403, G__282407, G__282406, G__282411, G__282410, G__282413, G__282414, G__282454, G__282455, G__282456, G__282457, G__282412, G__282409, G__282416, G__282418)).call(null, cljs.core.not_EQ_, tailrecursion.hoplon.app_pages.G__280675.example), G__282418);
+    var G__282459 = bootstrap.panel.title.call(null, "BMI Calculator");
+    var G__282460 = tailrecursion.hoplon.hr.call(null);
+    var G__282462 = tailrecursion.hoplon.em.call(null, "cells");
+    var G__282461 = tailrecursion.hoplon.p.call(null, "This is an example of a spreadsheet-like application.\n                     The application's state is contained in ", G__282462, " which are wired up to the DOM. DOM events cause changes\n                     to the underlying cells and formula cells in turn cause\n                     changes to the DOM.");
+    var G__282463 = tailrecursion.hoplon.hr.call(null);
+    var G__282464 = tailrecursion.hoplon.p.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "text-muted", "The demo:");
+    var G__282470 = tailrecursion.hoplon.label.call(null, function() {
       var t__7976__auto__ = document.createTextNode("");
-      tailrecursion.javelin.lift.call(null, function(t__7976__auto__, G__276135, G__276136, G__276138, G__276137, G__276134, G__276133, G__276142, G__276143, G__276141, G__276145, G__276146, G__276144, G__276148, G__276149, G__276147, G__276140, G__276150, G__276154, G__276153, G__276155, G__276157, G__276156, G__276159, G__276160, G__276187, G__276158, G__276186, G__276185, G__276188, G__276190, G__276189, G__276192, G__276191, G__276193, G__276194, G__276195, G__276196, G__276198, G__276197, G__276199, 
-      G__276200, G__276202, G__276201, G__276203, G__276204, G__276206, G__276207, G__276205, G__276209, G__276208, G__276210, G__276212, G__276213, G__276211, G__276214, G__276152, G__276163, G__276162, G__276166, G__276165, G__276164, G__276168, G__276167, G__276172, G__276171, G__276174, G__276175, G__276215, G__276216, G__276217, G__276218, G__276173, G__276170, G__276177, G__276179, G__276178, G__276220, G__276221, G__276223, G__276222, G__276224, G__276225) {
-        return function(G__276273, G__276274) {
-          return G__276273.nodeValue = [cljs.core.str("Height ("), cljs.core.str(G__276274), cljs.core.str(" cm)")].join("")
+      tailrecursion.javelin.lift.call(null, function(t__7976__auto__, G__282374, G__282375, G__282377, G__282376, G__282373, G__282372, G__282381, G__282382, G__282380, G__282384, G__282385, G__282383, G__282387, G__282388, G__282386, G__282379, G__282389, G__282393, G__282392, G__282394, G__282396, G__282395, G__282398, G__282399, G__282426, G__282397, G__282425, G__282424, G__282427, G__282429, G__282428, G__282431, G__282430, G__282432, G__282433, G__282434, G__282435, G__282437, G__282436, G__282438, 
+      G__282439, G__282441, G__282440, G__282442, G__282443, G__282445, G__282446, G__282444, G__282448, G__282447, G__282449, G__282451, G__282452, G__282450, G__282453, G__282391, G__282402, G__282401, G__282405, G__282404, G__282403, G__282407, G__282406, G__282411, G__282410, G__282413, G__282414, G__282454, G__282455, G__282456, G__282457, G__282412, G__282409, G__282416, G__282418, G__282417, G__282459, G__282460, G__282462, G__282461, G__282463, G__282464) {
+        return function(G__282512, G__282513) {
+          return G__282512.nodeValue = [cljs.core.str("Height ("), cljs.core.str(G__282513), cljs.core.str(" cm)")].join("")
         }
-      }(t__7976__auto__, G__276135, G__276136, G__276138, G__276137, G__276134, G__276133, G__276142, G__276143, G__276141, G__276145, G__276146, G__276144, G__276148, G__276149, G__276147, G__276140, G__276150, G__276154, G__276153, G__276155, G__276157, G__276156, G__276159, G__276160, G__276187, G__276158, G__276186, G__276185, G__276188, G__276190, G__276189, G__276192, G__276191, G__276193, G__276194, G__276195, G__276196, G__276198, G__276197, G__276199, G__276200, G__276202, G__276201, G__276203, 
-      G__276204, G__276206, G__276207, G__276205, G__276209, G__276208, G__276210, G__276212, G__276213, G__276211, G__276214, G__276152, G__276163, G__276162, G__276166, G__276165, G__276164, G__276168, G__276167, G__276172, G__276171, G__276174, G__276175, G__276215, G__276216, G__276217, G__276218, G__276173, G__276170, G__276177, G__276179, G__276178, G__276220, G__276221, G__276223, G__276222, G__276224, G__276225)).call(null, t__7976__auto__, tailrecursion.hoplon.app_pages.G__274439.bmi_height);
+      }(t__7976__auto__, G__282374, G__282375, G__282377, G__282376, G__282373, G__282372, G__282381, G__282382, G__282380, G__282384, G__282385, G__282383, G__282387, G__282388, G__282386, G__282379, G__282389, G__282393, G__282392, G__282394, G__282396, G__282395, G__282398, G__282399, G__282426, G__282397, G__282425, G__282424, G__282427, G__282429, G__282428, G__282431, G__282430, G__282432, G__282433, G__282434, G__282435, G__282437, G__282436, G__282438, G__282439, G__282441, G__282440, G__282442, 
+      G__282443, G__282445, G__282446, G__282444, G__282448, G__282447, G__282449, G__282451, G__282452, G__282450, G__282453, G__282391, G__282402, G__282401, G__282405, G__282404, G__282403, G__282407, G__282406, G__282411, G__282410, G__282413, G__282414, G__282454, G__282455, G__282456, G__282457, G__282412, G__282409, G__282416, G__282418, G__282417, G__282459, G__282460, G__282462, G__282461, G__282463, G__282464)).call(null, t__7976__auto__, tailrecursion.hoplon.app_pages.G__280675.bmi_height);
       return t__7976__auto__
     }());
-    var G__276240 = cljs.core.deref.call(null, tailrecursion.hoplon.app_pages.G__274439.bmi_height);
-    var G__276232 = tailrecursion.hoplon.input.call(null, new cljs.core.Keyword(null, "on-change", "on-change", 606853840), function(G__276135, G__276136, G__276138, G__276137, G__276134, G__276133, G__276142, G__276143, G__276141, G__276145, G__276146, G__276144, G__276148, G__276149, G__276147, G__276140, G__276150, G__276154, G__276153, G__276155, G__276157, G__276156, G__276159, G__276160, G__276187, G__276158, G__276186, G__276185, G__276188, G__276190, G__276189, G__276192, G__276191, G__276193, 
-    G__276194, G__276195, G__276196, G__276198, G__276197, G__276199, G__276200, G__276202, G__276201, G__276203, G__276204, G__276206, G__276207, G__276205, G__276209, G__276208, G__276210, G__276212, G__276213, G__276211, G__276214, G__276152, G__276163, G__276162, G__276166, G__276165, G__276164, G__276168, G__276167, G__276172, G__276171, G__276174, G__276175, G__276215, G__276216, G__276217, G__276218, G__276173, G__276170, G__276177, G__276179, G__276178, G__276220, G__276221, G__276223, G__276222, 
-    G__276224, G__276225, G__276231, G__276240) {
+    var G__282479 = cljs.core.deref.call(null, tailrecursion.hoplon.app_pages.G__280675.bmi_height);
+    var G__282471 = tailrecursion.hoplon.input.call(null, new cljs.core.Keyword(null, "on-change", "on-change", 606853840), function(G__282374, G__282375, G__282377, G__282376, G__282373, G__282372, G__282381, G__282382, G__282380, G__282384, G__282385, G__282383, G__282387, G__282388, G__282386, G__282379, G__282389, G__282393, G__282392, G__282394, G__282396, G__282395, G__282398, G__282399, G__282426, G__282397, G__282425, G__282424, G__282427, G__282429, G__282428, G__282431, G__282430, G__282432, 
+    G__282433, G__282434, G__282435, G__282437, G__282436, G__282438, G__282439, G__282441, G__282440, G__282442, G__282443, G__282445, G__282446, G__282444, G__282448, G__282447, G__282449, G__282451, G__282452, G__282450, G__282453, G__282391, G__282402, G__282401, G__282405, G__282404, G__282403, G__282407, G__282406, G__282411, G__282410, G__282413, G__282414, G__282454, G__282455, G__282456, G__282457, G__282412, G__282409, G__282416, G__282418, G__282417, G__282459, G__282460, G__282462, G__282461, 
+    G__282463, G__282464, G__282470, G__282479) {
       return function() {
-        return cljs.core.reset_BANG_.call(null, tailrecursion.hoplon.app_pages.G__274439.bmi_height, tailrecursion.hoplon.val_id.call(null, "bmi-ht"))
+        return cljs.core.reset_BANG_.call(null, tailrecursion.hoplon.app_pages.G__280675.bmi_height, tailrecursion.hoplon.val_id.call(null, "bmi-ht"))
       }
-    }(G__276135, G__276136, G__276138, G__276137, G__276134, G__276133, G__276142, G__276143, G__276141, G__276145, G__276146, G__276144, G__276148, G__276149, G__276147, G__276140, G__276150, G__276154, G__276153, G__276155, G__276157, G__276156, G__276159, G__276160, G__276187, G__276158, G__276186, G__276185, G__276188, G__276190, G__276189, G__276192, G__276191, G__276193, G__276194, G__276195, G__276196, G__276198, G__276197, G__276199, G__276200, G__276202, G__276201, G__276203, G__276204, 
-    G__276206, G__276207, G__276205, G__276209, G__276208, G__276210, G__276212, G__276213, G__276211, G__276214, G__276152, G__276163, G__276162, G__276166, G__276165, G__276164, G__276168, G__276167, G__276172, G__276171, G__276174, G__276175, G__276215, G__276216, G__276217, G__276218, G__276173, G__276170, G__276177, G__276179, G__276178, G__276220, G__276221, G__276223, G__276222, G__276224, G__276225, G__276231, G__276240), new cljs.core.Keyword(null, "id", "id", 1013907597), "bmi-ht", new cljs.core.Keyword(null, 
-    "class", "class", 1108647146), "form-control", new cljs.core.Keyword(null, "type", "type", 1017479852), "range", new cljs.core.Keyword(null, "min", "min", 1014012356), 0, new cljs.core.Keyword(null, "max", "max", 1014012118), 250, new cljs.core.Keyword(null, "value", "value", 1125876963), G__276240);
-    var G__276230 = tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "form-group", G__276231, G__276232);
-    var G__276234 = tailrecursion.hoplon.label.call(null, function() {
+    }(G__282374, G__282375, G__282377, G__282376, G__282373, G__282372, G__282381, G__282382, G__282380, G__282384, G__282385, G__282383, G__282387, G__282388, G__282386, G__282379, G__282389, G__282393, G__282392, G__282394, G__282396, G__282395, G__282398, G__282399, G__282426, G__282397, G__282425, G__282424, G__282427, G__282429, G__282428, G__282431, G__282430, G__282432, G__282433, G__282434, G__282435, G__282437, G__282436, G__282438, G__282439, G__282441, G__282440, G__282442, G__282443, 
+    G__282445, G__282446, G__282444, G__282448, G__282447, G__282449, G__282451, G__282452, G__282450, G__282453, G__282391, G__282402, G__282401, G__282405, G__282404, G__282403, G__282407, G__282406, G__282411, G__282410, G__282413, G__282414, G__282454, G__282455, G__282456, G__282457, G__282412, G__282409, G__282416, G__282418, G__282417, G__282459, G__282460, G__282462, G__282461, G__282463, G__282464, G__282470, G__282479), new cljs.core.Keyword(null, "id", "id", 1013907597), "bmi-ht", new cljs.core.Keyword(null, 
+    "class", "class", 1108647146), "form-control", new cljs.core.Keyword(null, "type", "type", 1017479852), "range", new cljs.core.Keyword(null, "min", "min", 1014012356), 0, new cljs.core.Keyword(null, "max", "max", 1014012118), 250, new cljs.core.Keyword(null, "value", "value", 1125876963), G__282479);
+    var G__282469 = tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "form-group", G__282470, G__282471);
+    var G__282473 = tailrecursion.hoplon.label.call(null, function() {
       var t__7976__auto__ = document.createTextNode("");
-      tailrecursion.javelin.lift.call(null, function(t__7976__auto__, G__276135, G__276136, G__276138, G__276137, G__276134, G__276133, G__276142, G__276143, G__276141, G__276145, G__276146, G__276144, G__276148, G__276149, G__276147, G__276140, G__276150, G__276154, G__276153, G__276155, G__276157, G__276156, G__276159, G__276160, G__276187, G__276158, G__276186, G__276185, G__276188, G__276190, G__276189, G__276192, G__276191, G__276193, G__276194, G__276195, G__276196, G__276198, G__276197, G__276199, 
-      G__276200, G__276202, G__276201, G__276203, G__276204, G__276206, G__276207, G__276205, G__276209, G__276208, G__276210, G__276212, G__276213, G__276211, G__276214, G__276152, G__276163, G__276162, G__276166, G__276165, G__276164, G__276168, G__276167, G__276172, G__276171, G__276174, G__276175, G__276215, G__276216, G__276217, G__276218, G__276173, G__276170, G__276177, G__276179, G__276178, G__276220, G__276221, G__276223, G__276222, G__276224, G__276225, G__276231, G__276240, G__276232, 
-      G__276230) {
-        return function(G__276276, G__276275) {
-          return G__276275.nodeValue = [cljs.core.str("Weight ("), cljs.core.str((G__276276 / 10).toFixed(1)), cljs.core.str(" kg)")].join("")
+      tailrecursion.javelin.lift.call(null, function(t__7976__auto__, G__282374, G__282375, G__282377, G__282376, G__282373, G__282372, G__282381, G__282382, G__282380, G__282384, G__282385, G__282383, G__282387, G__282388, G__282386, G__282379, G__282389, G__282393, G__282392, G__282394, G__282396, G__282395, G__282398, G__282399, G__282426, G__282397, G__282425, G__282424, G__282427, G__282429, G__282428, G__282431, G__282430, G__282432, G__282433, G__282434, G__282435, G__282437, G__282436, G__282438, 
+      G__282439, G__282441, G__282440, G__282442, G__282443, G__282445, G__282446, G__282444, G__282448, G__282447, G__282449, G__282451, G__282452, G__282450, G__282453, G__282391, G__282402, G__282401, G__282405, G__282404, G__282403, G__282407, G__282406, G__282411, G__282410, G__282413, G__282414, G__282454, G__282455, G__282456, G__282457, G__282412, G__282409, G__282416, G__282418, G__282417, G__282459, G__282460, G__282462, G__282461, G__282463, G__282464, G__282470, G__282479, G__282471, 
+      G__282469) {
+        return function(G__282515, G__282514) {
+          return G__282514.nodeValue = [cljs.core.str("Weight ("), cljs.core.str((G__282515 / 10).toFixed(1)), cljs.core.str(" kg)")].join("")
         }
-      }(t__7976__auto__, G__276135, G__276136, G__276138, G__276137, G__276134, G__276133, G__276142, G__276143, G__276141, G__276145, G__276146, G__276144, G__276148, G__276149, G__276147, G__276140, G__276150, G__276154, G__276153, G__276155, G__276157, G__276156, G__276159, G__276160, G__276187, G__276158, G__276186, G__276185, G__276188, G__276190, G__276189, G__276192, G__276191, G__276193, G__276194, G__276195, G__276196, G__276198, G__276197, G__276199, G__276200, G__276202, G__276201, G__276203, 
-      G__276204, G__276206, G__276207, G__276205, G__276209, G__276208, G__276210, G__276212, G__276213, G__276211, G__276214, G__276152, G__276163, G__276162, G__276166, G__276165, G__276164, G__276168, G__276167, G__276172, G__276171, G__276174, G__276175, G__276215, G__276216, G__276217, G__276218, G__276173, G__276170, G__276177, G__276179, G__276178, G__276220, G__276221, G__276223, G__276222, G__276224, G__276225, G__276231, G__276240, G__276232, G__276230)).call(null, tailrecursion.hoplon.app_pages.G__274439.bmi_weight, 
+      }(t__7976__auto__, G__282374, G__282375, G__282377, G__282376, G__282373, G__282372, G__282381, G__282382, G__282380, G__282384, G__282385, G__282383, G__282387, G__282388, G__282386, G__282379, G__282389, G__282393, G__282392, G__282394, G__282396, G__282395, G__282398, G__282399, G__282426, G__282397, G__282425, G__282424, G__282427, G__282429, G__282428, G__282431, G__282430, G__282432, G__282433, G__282434, G__282435, G__282437, G__282436, G__282438, G__282439, G__282441, G__282440, G__282442, 
+      G__282443, G__282445, G__282446, G__282444, G__282448, G__282447, G__282449, G__282451, G__282452, G__282450, G__282453, G__282391, G__282402, G__282401, G__282405, G__282404, G__282403, G__282407, G__282406, G__282411, G__282410, G__282413, G__282414, G__282454, G__282455, G__282456, G__282457, G__282412, G__282409, G__282416, G__282418, G__282417, G__282459, G__282460, G__282462, G__282461, G__282463, G__282464, G__282470, G__282479, G__282471, G__282469)).call(null, tailrecursion.hoplon.app_pages.G__280675.bmi_weight, 
       t__7976__auto__);
       return t__7976__auto__
     }());
-    var G__276241 = cljs.core.deref.call(null, tailrecursion.hoplon.app_pages.G__274439.bmi_weight);
-    var G__276235 = tailrecursion.hoplon.input.call(null, new cljs.core.Keyword(null, "on-change", "on-change", 606853840), function(G__276135, G__276136, G__276138, G__276137, G__276134, G__276133, G__276142, G__276143, G__276141, G__276145, G__276146, G__276144, G__276148, G__276149, G__276147, G__276140, G__276150, G__276154, G__276153, G__276155, G__276157, G__276156, G__276159, G__276160, G__276187, G__276158, G__276186, G__276185, G__276188, G__276190, G__276189, G__276192, G__276191, G__276193, 
-    G__276194, G__276195, G__276196, G__276198, G__276197, G__276199, G__276200, G__276202, G__276201, G__276203, G__276204, G__276206, G__276207, G__276205, G__276209, G__276208, G__276210, G__276212, G__276213, G__276211, G__276214, G__276152, G__276163, G__276162, G__276166, G__276165, G__276164, G__276168, G__276167, G__276172, G__276171, G__276174, G__276175, G__276215, G__276216, G__276217, G__276218, G__276173, G__276170, G__276177, G__276179, G__276178, G__276220, G__276221, G__276223, G__276222, 
-    G__276224, G__276225, G__276231, G__276240, G__276232, G__276230, G__276234, G__276241) {
+    var G__282480 = cljs.core.deref.call(null, tailrecursion.hoplon.app_pages.G__280675.bmi_weight);
+    var G__282474 = tailrecursion.hoplon.input.call(null, new cljs.core.Keyword(null, "on-change", "on-change", 606853840), function(G__282374, G__282375, G__282377, G__282376, G__282373, G__282372, G__282381, G__282382, G__282380, G__282384, G__282385, G__282383, G__282387, G__282388, G__282386, G__282379, G__282389, G__282393, G__282392, G__282394, G__282396, G__282395, G__282398, G__282399, G__282426, G__282397, G__282425, G__282424, G__282427, G__282429, G__282428, G__282431, G__282430, G__282432, 
+    G__282433, G__282434, G__282435, G__282437, G__282436, G__282438, G__282439, G__282441, G__282440, G__282442, G__282443, G__282445, G__282446, G__282444, G__282448, G__282447, G__282449, G__282451, G__282452, G__282450, G__282453, G__282391, G__282402, G__282401, G__282405, G__282404, G__282403, G__282407, G__282406, G__282411, G__282410, G__282413, G__282414, G__282454, G__282455, G__282456, G__282457, G__282412, G__282409, G__282416, G__282418, G__282417, G__282459, G__282460, G__282462, G__282461, 
+    G__282463, G__282464, G__282470, G__282479, G__282471, G__282469, G__282473, G__282480) {
       return function() {
-        return cljs.core.reset_BANG_.call(null, tailrecursion.hoplon.app_pages.G__274439.bmi_weight, tailrecursion.hoplon.val_id.call(null, "bmi-wt"))
+        return cljs.core.reset_BANG_.call(null, tailrecursion.hoplon.app_pages.G__280675.bmi_weight, tailrecursion.hoplon.val_id.call(null, "bmi-wt"))
       }
-    }(G__276135, G__276136, G__276138, G__276137, G__276134, G__276133, G__276142, G__276143, G__276141, G__276145, G__276146, G__276144, G__276148, G__276149, G__276147, G__276140, G__276150, G__276154, G__276153, G__276155, G__276157, G__276156, G__276159, G__276160, G__276187, G__276158, G__276186, G__276185, G__276188, G__276190, G__276189, G__276192, G__276191, G__276193, G__276194, G__276195, G__276196, G__276198, G__276197, G__276199, G__276200, G__276202, G__276201, G__276203, G__276204, 
-    G__276206, G__276207, G__276205, G__276209, G__276208, G__276210, G__276212, G__276213, G__276211, G__276214, G__276152, G__276163, G__276162, G__276166, G__276165, G__276164, G__276168, G__276167, G__276172, G__276171, G__276174, G__276175, G__276215, G__276216, G__276217, G__276218, G__276173, G__276170, G__276177, G__276179, G__276178, G__276220, G__276221, G__276223, G__276222, G__276224, G__276225, G__276231, G__276240, G__276232, G__276230, G__276234, G__276241), new cljs.core.Keyword(null, 
-    "id", "id", 1013907597), "bmi-wt", new cljs.core.Keyword(null, "class", "class", 1108647146), "form-control", new cljs.core.Keyword(null, "type", "type", 1017479852), "range", new cljs.core.Keyword(null, "min", "min", 1014012356), 0, new cljs.core.Keyword(null, "max", "max", 1014012118), 1500, new cljs.core.Keyword(null, "value", "value", 1125876963), G__276241);
-    var G__276233 = tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "form-group", G__276234, G__276235);
-    var G__276237 = tailrecursion.hoplon.label.call(null, function() {
+    }(G__282374, G__282375, G__282377, G__282376, G__282373, G__282372, G__282381, G__282382, G__282380, G__282384, G__282385, G__282383, G__282387, G__282388, G__282386, G__282379, G__282389, G__282393, G__282392, G__282394, G__282396, G__282395, G__282398, G__282399, G__282426, G__282397, G__282425, G__282424, G__282427, G__282429, G__282428, G__282431, G__282430, G__282432, G__282433, G__282434, G__282435, G__282437, G__282436, G__282438, G__282439, G__282441, G__282440, G__282442, G__282443, 
+    G__282445, G__282446, G__282444, G__282448, G__282447, G__282449, G__282451, G__282452, G__282450, G__282453, G__282391, G__282402, G__282401, G__282405, G__282404, G__282403, G__282407, G__282406, G__282411, G__282410, G__282413, G__282414, G__282454, G__282455, G__282456, G__282457, G__282412, G__282409, G__282416, G__282418, G__282417, G__282459, G__282460, G__282462, G__282461, G__282463, G__282464, G__282470, G__282479, G__282471, G__282469, G__282473, G__282480), new cljs.core.Keyword(null, 
+    "id", "id", 1013907597), "bmi-wt", new cljs.core.Keyword(null, "class", "class", 1108647146), "form-control", new cljs.core.Keyword(null, "type", "type", 1017479852), "range", new cljs.core.Keyword(null, "min", "min", 1014012356), 0, new cljs.core.Keyword(null, "max", "max", 1014012118), 1500, new cljs.core.Keyword(null, "value", "value", 1125876963), G__282480);
+    var G__282472 = tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "form-group", G__282473, G__282474);
+    var G__282476 = tailrecursion.hoplon.label.call(null, function() {
       var t__7976__auto__ = document.createTextNode("");
-      tailrecursion.javelin.lift.call(null, function(t__7976__auto__, G__276135, G__276136, G__276138, G__276137, G__276134, G__276133, G__276142, G__276143, G__276141, G__276145, G__276146, G__276144, G__276148, G__276149, G__276147, G__276140, G__276150, G__276154, G__276153, G__276155, G__276157, G__276156, G__276159, G__276160, G__276187, G__276158, G__276186, G__276185, G__276188, G__276190, G__276189, G__276192, G__276191, G__276193, G__276194, G__276195, G__276196, G__276198, G__276197, G__276199, 
-      G__276200, G__276202, G__276201, G__276203, G__276204, G__276206, G__276207, G__276205, G__276209, G__276208, G__276210, G__276212, G__276213, G__276211, G__276214, G__276152, G__276163, G__276162, G__276166, G__276165, G__276164, G__276168, G__276167, G__276172, G__276171, G__276174, G__276175, G__276215, G__276216, G__276217, G__276218, G__276173, G__276170, G__276177, G__276179, G__276178, G__276220, G__276221, G__276223, G__276222, G__276224, G__276225, G__276231, G__276240, G__276232, 
-      G__276230, G__276234, G__276241, G__276235, G__276233) {
-        return function(G__276278, G__276277, G__276279, G__276280) {
-          return G__276277.nodeValue = [cljs.core.str("BMI "), cljs.core.str(G__276278.toFixed(1)), cljs.core.str(" ("), cljs.core.str(G__276279.call(null, G__276280)), cljs.core.str(")")].join("")
+      tailrecursion.javelin.lift.call(null, function(t__7976__auto__, G__282374, G__282375, G__282377, G__282376, G__282373, G__282372, G__282381, G__282382, G__282380, G__282384, G__282385, G__282383, G__282387, G__282388, G__282386, G__282379, G__282389, G__282393, G__282392, G__282394, G__282396, G__282395, G__282398, G__282399, G__282426, G__282397, G__282425, G__282424, G__282427, G__282429, G__282428, G__282431, G__282430, G__282432, G__282433, G__282434, G__282435, G__282437, G__282436, G__282438, 
+      G__282439, G__282441, G__282440, G__282442, G__282443, G__282445, G__282446, G__282444, G__282448, G__282447, G__282449, G__282451, G__282452, G__282450, G__282453, G__282391, G__282402, G__282401, G__282405, G__282404, G__282403, G__282407, G__282406, G__282411, G__282410, G__282413, G__282414, G__282454, G__282455, G__282456, G__282457, G__282412, G__282409, G__282416, G__282418, G__282417, G__282459, G__282460, G__282462, G__282461, G__282463, G__282464, G__282470, G__282479, G__282471, 
+      G__282469, G__282473, G__282480, G__282474, G__282472) {
+        return function(G__282517, G__282516, G__282518, G__282519) {
+          return G__282516.nodeValue = [cljs.core.str("BMI "), cljs.core.str(G__282517.toFixed(1)), cljs.core.str(" ("), cljs.core.str(G__282518.call(null, G__282519)), cljs.core.str(")")].join("")
         }
-      }(t__7976__auto__, G__276135, G__276136, G__276138, G__276137, G__276134, G__276133, G__276142, G__276143, G__276141, G__276145, G__276146, G__276144, G__276148, G__276149, G__276147, G__276140, G__276150, G__276154, G__276153, G__276155, G__276157, G__276156, G__276159, G__276160, G__276187, G__276158, G__276186, G__276185, G__276188, G__276190, G__276189, G__276192, G__276191, G__276193, G__276194, G__276195, G__276196, G__276198, G__276197, G__276199, G__276200, G__276202, G__276201, G__276203, 
-      G__276204, G__276206, G__276207, G__276205, G__276209, G__276208, G__276210, G__276212, G__276213, G__276211, G__276214, G__276152, G__276163, G__276162, G__276166, G__276165, G__276164, G__276168, G__276167, G__276172, G__276171, G__276174, G__276175, G__276215, G__276216, G__276217, G__276218, G__276173, G__276170, G__276177, G__276179, G__276178, G__276220, G__276221, G__276223, G__276222, G__276224, G__276225, G__276231, G__276240, G__276232, G__276230, G__276234, G__276241, G__276235, 
-      G__276233)).call(null, tailrecursion.hoplon.app_pages.G__274439.bmi, t__7976__auto__, cljs.core.first, tailrecursion.hoplon.app_pages.G__274439.bmi_msg);
+      }(t__7976__auto__, G__282374, G__282375, G__282377, G__282376, G__282373, G__282372, G__282381, G__282382, G__282380, G__282384, G__282385, G__282383, G__282387, G__282388, G__282386, G__282379, G__282389, G__282393, G__282392, G__282394, G__282396, G__282395, G__282398, G__282399, G__282426, G__282397, G__282425, G__282424, G__282427, G__282429, G__282428, G__282431, G__282430, G__282432, G__282433, G__282434, G__282435, G__282437, G__282436, G__282438, G__282439, G__282441, G__282440, G__282442, 
+      G__282443, G__282445, G__282446, G__282444, G__282448, G__282447, G__282449, G__282451, G__282452, G__282450, G__282453, G__282391, G__282402, G__282401, G__282405, G__282404, G__282403, G__282407, G__282406, G__282411, G__282410, G__282413, G__282414, G__282454, G__282455, G__282456, G__282457, G__282412, G__282409, G__282416, G__282418, G__282417, G__282459, G__282460, G__282462, G__282461, G__282463, G__282464, G__282470, G__282479, G__282471, G__282469, G__282473, G__282480, G__282474, 
+      G__282472)).call(null, tailrecursion.hoplon.app_pages.G__280675.bmi, t__7976__auto__, cljs.core.first, tailrecursion.hoplon.app_pages.G__280675.bmi_msg);
       return t__7976__auto__
     }());
-    var G__276238 = tailrecursion.hoplon.input.call(null, new cljs.core.Keyword(null, "do-css", "do-css", 3980769587), tailrecursion.javelin.lift.call(null, function(G__276135, G__276136, G__276138, G__276137, G__276134, G__276133, G__276142, G__276143, G__276141, G__276145, G__276146, G__276144, G__276148, G__276149, G__276147, G__276140, G__276150, G__276154, G__276153, G__276155, G__276157, G__276156, G__276159, G__276160, G__276187, G__276158, G__276186, G__276185, G__276188, G__276190, G__276189, 
-    G__276192, G__276191, G__276193, G__276194, G__276195, G__276196, G__276198, G__276197, G__276199, G__276200, G__276202, G__276201, G__276203, G__276204, G__276206, G__276207, G__276205, G__276209, G__276208, G__276210, G__276212, G__276213, G__276211, G__276214, G__276152, G__276163, G__276162, G__276166, G__276165, G__276164, G__276168, G__276167, G__276172, G__276171, G__276174, G__276175, G__276215, G__276216, G__276217, G__276218, G__276173, G__276170, G__276177, G__276179, G__276178, G__276220, 
-    G__276221, G__276223, G__276222, G__276224, G__276225, G__276231, G__276240, G__276232, G__276230, G__276234, G__276241, G__276235, G__276233, G__276237) {
-      return function(G__276281, G__276282) {
-        return cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "background-color", "background-color", 1619226998), G__276281.call(null, G__276282)], true)
+    var G__282477 = tailrecursion.hoplon.input.call(null, new cljs.core.Keyword(null, "do-css", "do-css", 3980769587), tailrecursion.javelin.lift.call(null, function(G__282374, G__282375, G__282377, G__282376, G__282373, G__282372, G__282381, G__282382, G__282380, G__282384, G__282385, G__282383, G__282387, G__282388, G__282386, G__282379, G__282389, G__282393, G__282392, G__282394, G__282396, G__282395, G__282398, G__282399, G__282426, G__282397, G__282425, G__282424, G__282427, G__282429, G__282428, 
+    G__282431, G__282430, G__282432, G__282433, G__282434, G__282435, G__282437, G__282436, G__282438, G__282439, G__282441, G__282440, G__282442, G__282443, G__282445, G__282446, G__282444, G__282448, G__282447, G__282449, G__282451, G__282452, G__282450, G__282453, G__282391, G__282402, G__282401, G__282405, G__282404, G__282403, G__282407, G__282406, G__282411, G__282410, G__282413, G__282414, G__282454, G__282455, G__282456, G__282457, G__282412, G__282409, G__282416, G__282418, G__282417, G__282459, 
+    G__282460, G__282462, G__282461, G__282463, G__282464, G__282470, G__282479, G__282471, G__282469, G__282473, G__282480, G__282474, G__282472, G__282476) {
+      return function(G__282520, G__282521) {
+        return cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "background-color", "background-color", 1619226998), G__282520.call(null, G__282521)], true)
       }
-    }(G__276135, G__276136, G__276138, G__276137, G__276134, G__276133, G__276142, G__276143, G__276141, G__276145, G__276146, G__276144, G__276148, G__276149, G__276147, G__276140, G__276150, G__276154, G__276153, G__276155, G__276157, G__276156, G__276159, G__276160, G__276187, G__276158, G__276186, G__276185, G__276188, G__276190, G__276189, G__276192, G__276191, G__276193, G__276194, G__276195, G__276196, G__276198, G__276197, G__276199, G__276200, G__276202, G__276201, G__276203, G__276204, 
-    G__276206, G__276207, G__276205, G__276209, G__276208, G__276210, G__276212, G__276213, G__276211, G__276214, G__276152, G__276163, G__276162, G__276166, G__276165, G__276164, G__276168, G__276167, G__276172, G__276171, G__276174, G__276175, G__276215, G__276216, G__276217, G__276218, G__276173, G__276170, G__276177, G__276179, G__276178, G__276220, G__276221, G__276223, G__276222, G__276224, G__276225, G__276231, G__276240, G__276232, G__276230, G__276234, G__276241, G__276235, G__276233, G__276237)).call(null, 
-    cljs.core.second, tailrecursion.hoplon.app_pages.G__274439.bmi_msg), new cljs.core.Keyword(null, "readonly", "readonly", 4442141108), true, new cljs.core.Keyword(null, "class", "class", 1108647146), "form-control", new cljs.core.Keyword(null, "type", "type", 1017479852), "range", new cljs.core.Keyword(null, "min", "min", 1014012356), 0, new cljs.core.Keyword(null, "max", "max", 1014012118), 500, new cljs.core.Keyword(null, "do-value", "do-value", 4625191201), tailrecursion.javelin.lift.call(null, 
-    function(G__276135, G__276136, G__276138, G__276137, G__276134, G__276133, G__276142, G__276143, G__276141, G__276145, G__276146, G__276144, G__276148, G__276149, G__276147, G__276140, G__276150, G__276154, G__276153, G__276155, G__276157, G__276156, G__276159, G__276160, G__276187, G__276158, G__276186, G__276185, G__276188, G__276190, G__276189, G__276192, G__276191, G__276193, G__276194, G__276195, G__276196, G__276198, G__276197, G__276199, G__276200, G__276202, G__276201, G__276203, G__276204, 
-    G__276206, G__276207, G__276205, G__276209, G__276208, G__276210, G__276212, G__276213, G__276211, G__276214, G__276152, G__276163, G__276162, G__276166, G__276165, G__276164, G__276168, G__276167, G__276172, G__276171, G__276174, G__276175, G__276215, G__276216, G__276217, G__276218, G__276173, G__276170, G__276177, G__276179, G__276178, G__276220, G__276221, G__276223, G__276222, G__276224, G__276225, G__276231, G__276240, G__276232, G__276230, G__276234, G__276241, G__276235, G__276233, G__276237) {
-      return function(G__276283) {
-        return G__276283 * 10
+    }(G__282374, G__282375, G__282377, G__282376, G__282373, G__282372, G__282381, G__282382, G__282380, G__282384, G__282385, G__282383, G__282387, G__282388, G__282386, G__282379, G__282389, G__282393, G__282392, G__282394, G__282396, G__282395, G__282398, G__282399, G__282426, G__282397, G__282425, G__282424, G__282427, G__282429, G__282428, G__282431, G__282430, G__282432, G__282433, G__282434, G__282435, G__282437, G__282436, G__282438, G__282439, G__282441, G__282440, G__282442, G__282443, 
+    G__282445, G__282446, G__282444, G__282448, G__282447, G__282449, G__282451, G__282452, G__282450, G__282453, G__282391, G__282402, G__282401, G__282405, G__282404, G__282403, G__282407, G__282406, G__282411, G__282410, G__282413, G__282414, G__282454, G__282455, G__282456, G__282457, G__282412, G__282409, G__282416, G__282418, G__282417, G__282459, G__282460, G__282462, G__282461, G__282463, G__282464, G__282470, G__282479, G__282471, G__282469, G__282473, G__282480, G__282474, G__282472, G__282476)).call(null, 
+    cljs.core.second, tailrecursion.hoplon.app_pages.G__280675.bmi_msg), new cljs.core.Keyword(null, "readonly", "readonly", 4442141108), true, new cljs.core.Keyword(null, "class", "class", 1108647146), "form-control", new cljs.core.Keyword(null, "type", "type", 1017479852), "range", new cljs.core.Keyword(null, "min", "min", 1014012356), 0, new cljs.core.Keyword(null, "max", "max", 1014012118), 500, new cljs.core.Keyword(null, "do-value", "do-value", 4625191201), tailrecursion.javelin.lift.call(null, 
+    function(G__282374, G__282375, G__282377, G__282376, G__282373, G__282372, G__282381, G__282382, G__282380, G__282384, G__282385, G__282383, G__282387, G__282388, G__282386, G__282379, G__282389, G__282393, G__282392, G__282394, G__282396, G__282395, G__282398, G__282399, G__282426, G__282397, G__282425, G__282424, G__282427, G__282429, G__282428, G__282431, G__282430, G__282432, G__282433, G__282434, G__282435, G__282437, G__282436, G__282438, G__282439, G__282441, G__282440, G__282442, G__282443, 
+    G__282445, G__282446, G__282444, G__282448, G__282447, G__282449, G__282451, G__282452, G__282450, G__282453, G__282391, G__282402, G__282401, G__282405, G__282404, G__282403, G__282407, G__282406, G__282411, G__282410, G__282413, G__282414, G__282454, G__282455, G__282456, G__282457, G__282412, G__282409, G__282416, G__282418, G__282417, G__282459, G__282460, G__282462, G__282461, G__282463, G__282464, G__282470, G__282479, G__282471, G__282469, G__282473, G__282480, G__282474, G__282472, G__282476) {
+      return function(G__282522) {
+        return G__282522 * 10
       }
-    }(G__276135, G__276136, G__276138, G__276137, G__276134, G__276133, G__276142, G__276143, G__276141, G__276145, G__276146, G__276144, G__276148, G__276149, G__276147, G__276140, G__276150, G__276154, G__276153, G__276155, G__276157, G__276156, G__276159, G__276160, G__276187, G__276158, G__276186, G__276185, G__276188, G__276190, G__276189, G__276192, G__276191, G__276193, G__276194, G__276195, G__276196, G__276198, G__276197, G__276199, G__276200, G__276202, G__276201, G__276203, G__276204, 
-    G__276206, G__276207, G__276205, G__276209, G__276208, G__276210, G__276212, G__276213, G__276211, G__276214, G__276152, G__276163, G__276162, G__276166, G__276165, G__276164, G__276168, G__276167, G__276172, G__276171, G__276174, G__276175, G__276215, G__276216, G__276217, G__276218, G__276173, G__276170, G__276177, G__276179, G__276178, G__276220, G__276221, G__276223, G__276222, G__276224, G__276225, G__276231, G__276240, G__276232, G__276230, G__276234, G__276241, G__276235, G__276233, G__276237)).call(null, 
-    tailrecursion.hoplon.app_pages.G__274439.bmi));
-    var G__276236 = tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "form-group", G__276237, G__276238);
-    var G__276229 = tailrecursion.hoplon.form.call(null, G__276230, G__276233, G__276236);
-    var G__276228 = tailrecursion.hoplon.div.call(null, G__276229);
-    var G__276227 = bootstrap.panel.body.call(null, G__276228);
-    var G__276226 = bootstrap.panel.default$.call(null, G__276227);
-    var G__276239 = tailrecursion.hoplon.p.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "text-muted", "The cells:");
-    var G__276242 = tailrecursion.hoplon.p.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "text-muted", "The user interface:");
-    var G__276219 = tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "do-toggle", "do-toggle", 1250159176), tailrecursion.javelin.lift.call(null, function(G__276135, G__276136, G__276138, G__276137, G__276134, G__276133, G__276142, G__276143, G__276141, G__276145, G__276146, G__276144, G__276148, G__276149, G__276147, G__276140, G__276150, G__276154, G__276153, G__276155, G__276157, G__276156, G__276159, G__276160, G__276187, G__276158, G__276186, G__276185, G__276188, G__276190, G__276189, 
-    G__276192, G__276191, G__276193, G__276194, G__276195, G__276196, G__276198, G__276197, G__276199, G__276200, G__276202, G__276201, G__276203, G__276204, G__276206, G__276207, G__276205, G__276209, G__276208, G__276210, G__276212, G__276213, G__276211, G__276214, G__276152, G__276163, G__276162, G__276166, G__276165, G__276164, G__276168, G__276167, G__276172, G__276171, G__276174, G__276175, G__276215, G__276216, G__276217, G__276218, G__276173, G__276170, G__276177, G__276179, G__276178, G__276220, 
-    G__276221, G__276223, G__276222, G__276224, G__276225, G__276231, G__276240, G__276232, G__276230, G__276234, G__276241, G__276235, G__276233, G__276237, G__276238, G__276236, G__276229, G__276228, G__276227, G__276226, G__276239, G__276242) {
-      return function(G__276284, G__276285) {
-        return G__276284.call(null, G__276285, 2)
+    }(G__282374, G__282375, G__282377, G__282376, G__282373, G__282372, G__282381, G__282382, G__282380, G__282384, G__282385, G__282383, G__282387, G__282388, G__282386, G__282379, G__282389, G__282393, G__282392, G__282394, G__282396, G__282395, G__282398, G__282399, G__282426, G__282397, G__282425, G__282424, G__282427, G__282429, G__282428, G__282431, G__282430, G__282432, G__282433, G__282434, G__282435, G__282437, G__282436, G__282438, G__282439, G__282441, G__282440, G__282442, G__282443, 
+    G__282445, G__282446, G__282444, G__282448, G__282447, G__282449, G__282451, G__282452, G__282450, G__282453, G__282391, G__282402, G__282401, G__282405, G__282404, G__282403, G__282407, G__282406, G__282411, G__282410, G__282413, G__282414, G__282454, G__282455, G__282456, G__282457, G__282412, G__282409, G__282416, G__282418, G__282417, G__282459, G__282460, G__282462, G__282461, G__282463, G__282464, G__282470, G__282479, G__282471, G__282469, G__282473, G__282480, G__282474, G__282472, G__282476)).call(null, 
+    tailrecursion.hoplon.app_pages.G__280675.bmi));
+    var G__282475 = tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "form-group", G__282476, G__282477);
+    var G__282468 = tailrecursion.hoplon.form.call(null, G__282469, G__282472, G__282475);
+    var G__282467 = tailrecursion.hoplon.div.call(null, G__282468);
+    var G__282466 = bootstrap.panel.body.call(null, G__282467);
+    var G__282465 = bootstrap.panel.default$.call(null, G__282466);
+    var G__282478 = tailrecursion.hoplon.p.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "text-muted", "The cells:");
+    var G__282481 = tailrecursion.hoplon.p.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "text-muted", "The user interface:");
+    var G__282458 = tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "do-toggle", "do-toggle", 1250159176), tailrecursion.javelin.lift.call(null, function(G__282374, G__282375, G__282377, G__282376, G__282373, G__282372, G__282381, G__282382, G__282380, G__282384, G__282385, G__282383, G__282387, G__282388, G__282386, G__282379, G__282389, G__282393, G__282392, G__282394, G__282396, G__282395, G__282398, G__282399, G__282426, G__282397, G__282425, G__282424, G__282427, G__282429, G__282428, 
+    G__282431, G__282430, G__282432, G__282433, G__282434, G__282435, G__282437, G__282436, G__282438, G__282439, G__282441, G__282440, G__282442, G__282443, G__282445, G__282446, G__282444, G__282448, G__282447, G__282449, G__282451, G__282452, G__282450, G__282453, G__282391, G__282402, G__282401, G__282405, G__282404, G__282403, G__282407, G__282406, G__282411, G__282410, G__282413, G__282414, G__282454, G__282455, G__282456, G__282457, G__282412, G__282409, G__282416, G__282418, G__282417, G__282459, 
+    G__282460, G__282462, G__282461, G__282463, G__282464, G__282470, G__282479, G__282471, G__282469, G__282473, G__282480, G__282474, G__282472, G__282476, G__282477, G__282475, G__282468, G__282467, G__282466, G__282465, G__282478, G__282481) {
+      return function(G__282523, G__282524) {
+        return G__282523.call(null, G__282524, 2)
       }
-    }(G__276135, G__276136, G__276138, G__276137, G__276134, G__276133, G__276142, G__276143, G__276141, G__276145, G__276146, G__276144, G__276148, G__276149, G__276147, G__276140, G__276150, G__276154, G__276153, G__276155, G__276157, G__276156, G__276159, G__276160, G__276187, G__276158, G__276186, G__276185, G__276188, G__276190, G__276189, G__276192, G__276191, G__276193, G__276194, G__276195, G__276196, G__276198, G__276197, G__276199, G__276200, G__276202, G__276201, G__276203, G__276204, 
-    G__276206, G__276207, G__276205, G__276209, G__276208, G__276210, G__276212, G__276213, G__276211, G__276214, G__276152, G__276163, G__276162, G__276166, G__276165, G__276164, G__276168, G__276167, G__276172, G__276171, G__276174, G__276175, G__276215, G__276216, G__276217, G__276218, G__276173, G__276170, G__276177, G__276179, G__276178, G__276220, G__276221, G__276223, G__276222, G__276224, G__276225, G__276231, G__276240, G__276232, G__276230, G__276234, G__276241, G__276235, G__276233, G__276237, 
-    G__276238, G__276236, G__276229, G__276228, G__276227, G__276226, G__276239, G__276242)).call(null, cljs.core._EQ_, tailrecursion.hoplon.app_pages.G__274439.example), G__276220, G__276221, G__276222, G__276224, G__276225, G__276226, G__276239, tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "highlight"], true), tailrecursion.hoplon.pre.call(null, tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
+    }(G__282374, G__282375, G__282377, G__282376, G__282373, G__282372, G__282381, G__282382, G__282380, G__282384, G__282385, G__282383, G__282387, G__282388, G__282386, G__282379, G__282389, G__282393, G__282392, G__282394, G__282396, G__282395, G__282398, G__282399, G__282426, G__282397, G__282425, G__282424, G__282427, G__282429, G__282428, G__282431, G__282430, G__282432, G__282433, G__282434, G__282435, G__282437, G__282436, G__282438, G__282439, G__282441, G__282440, G__282442, G__282443, 
+    G__282445, G__282446, G__282444, G__282448, G__282447, G__282449, G__282451, G__282452, G__282450, G__282453, G__282391, G__282402, G__282401, G__282405, G__282404, G__282403, G__282407, G__282406, G__282411, G__282410, G__282413, G__282414, G__282454, G__282455, G__282456, G__282457, G__282412, G__282409, G__282416, G__282418, G__282417, G__282459, G__282460, G__282462, G__282461, G__282463, G__282464, G__282470, G__282479, G__282471, G__282469, G__282473, G__282480, G__282474, G__282472, G__282476, 
+    G__282477, G__282475, G__282468, G__282467, G__282466, G__282465, G__282478, G__282481)).call(null, cljs.core._EQ_, tailrecursion.hoplon.app_pages.G__280675.example), G__282459, G__282460, G__282461, G__282463, G__282464, G__282465, G__282478, tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "highlight"], true), tailrecursion.hoplon.pre.call(null, tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
     "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "k"], true), "def "), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nv"], true), "height"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 
     1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nf"], true), "cell"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "mi"], true), "180"), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), 
     "))"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "c1"], true), "; height in cm"), "\n", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "k"], true), "def "), 
@@ -31833,7 +31833,7 @@ tailrecursion.hoplon.app_pages.G__274439.hoploninit = function hoploninit() {
     tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), ")"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "["), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nv"], true), "bmi"), " ", tailrecursion.hoplon.span.call(null, 
     cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "s"], true), '"overweight"'), "   ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "s"], true), '"orange"'), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "]"), "\n            ", tailrecursion.hoplon.span.call(null, 
     cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "ss"], true), ":else"), "        ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "["), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nv"], true), "bmi"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
-    "class", "class", 1108647146), "s"], true), '"obese"'), "           ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "s"], true), '"red"'), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "]))))"), "\n")), G__276242, tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
+    "class", "class", 1108647146), "s"], true), '"obese"'), "           ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "s"], true), '"red"'), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "]))))"), "\n")), G__282481, tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
     "class", "class", 1108647146), "highlight"], true), tailrecursion.hoplon.pre.call(null, tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "c1"], true), ';; Some details related to \x3cinput type\x3d"range"\x3e'), "\n", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "c1"], true), ";; have been omitted for clarity."), "\n", 
     tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nf"], true), "form"), "\n  ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, 
     cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nf"], true), "label"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nf"], true), "text"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
@@ -31858,63 +31858,63 @@ tailrecursion.hoplon.app_pages.G__274439.hoploninit = function hoploninit() {
     true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nf"], true), "cell\x3d"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "{"), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "ss"], true), ":background-color"), 
     " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nb"], true), "nth "), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nv"], true), "bmi"), " ", tailrecursion.hoplon.span.call(null, 
     cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "mi"], true), "2"), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), ")})))"), "\n")));
-    var G__276176 = bootstrap.list.divitem.call(null, new cljs.core.Keyword(null, "on-click", "on-click", 1416542092), function(G__276135, G__276136, G__276138, G__276137, G__276134, G__276133, G__276142, G__276143, G__276141, G__276145, G__276146, G__276144, G__276148, G__276149, G__276147, G__276140, G__276150, G__276154, G__276153, G__276155, G__276157, G__276156, G__276159, G__276160, G__276187, G__276158, G__276186, G__276185, G__276188, G__276190, G__276189, G__276192, G__276191, G__276193, 
-    G__276194, G__276195, G__276196, G__276198, G__276197, G__276199, G__276200, G__276202, G__276201, G__276203, G__276204, G__276206, G__276207, G__276205, G__276209, G__276208, G__276210, G__276212, G__276213, G__276211, G__276214, G__276152, G__276163, G__276162, G__276166, G__276165, G__276164, G__276168, G__276167, G__276172, G__276171, G__276174, G__276175, G__276215, G__276216, G__276217, G__276218, G__276173, G__276170, G__276177, G__276179, G__276178, G__276220, G__276221, G__276223, G__276222, 
-    G__276224, G__276225, G__276231, G__276240, G__276232, G__276230, G__276234, G__276241, G__276235, G__276233, G__276237, G__276238, G__276236, G__276229, G__276228, G__276227, G__276226, G__276239, G__276242, G__276219) {
+    var G__282415 = bootstrap.list.divitem.call(null, new cljs.core.Keyword(null, "on-click", "on-click", 1416542092), function(G__282374, G__282375, G__282377, G__282376, G__282373, G__282372, G__282381, G__282382, G__282380, G__282384, G__282385, G__282383, G__282387, G__282388, G__282386, G__282379, G__282389, G__282393, G__282392, G__282394, G__282396, G__282395, G__282398, G__282399, G__282426, G__282397, G__282425, G__282424, G__282427, G__282429, G__282428, G__282431, G__282430, G__282432, 
+    G__282433, G__282434, G__282435, G__282437, G__282436, G__282438, G__282439, G__282441, G__282440, G__282442, G__282443, G__282445, G__282446, G__282444, G__282448, G__282447, G__282449, G__282451, G__282452, G__282450, G__282453, G__282391, G__282402, G__282401, G__282405, G__282404, G__282403, G__282407, G__282406, G__282411, G__282410, G__282413, G__282414, G__282454, G__282455, G__282456, G__282457, G__282412, G__282409, G__282416, G__282418, G__282417, G__282459, G__282460, G__282462, G__282461, 
+    G__282463, G__282464, G__282470, G__282479, G__282471, G__282469, G__282473, G__282480, G__282474, G__282472, G__282476, G__282477, G__282475, G__282468, G__282467, G__282466, G__282465, G__282478, G__282481, G__282458) {
       return function() {
-        return cljs.core.reset_BANG_.call(null, tailrecursion.hoplon.app_pages.G__274439.example, 2)
+        return cljs.core.reset_BANG_.call(null, tailrecursion.hoplon.app_pages.G__280675.example, 2)
       }
-    }(G__276135, G__276136, G__276138, G__276137, G__276134, G__276133, G__276142, G__276143, G__276141, G__276145, G__276146, G__276144, G__276148, G__276149, G__276147, G__276140, G__276150, G__276154, G__276153, G__276155, G__276157, G__276156, G__276159, G__276160, G__276187, G__276158, G__276186, G__276185, G__276188, G__276190, G__276189, G__276192, G__276191, G__276193, G__276194, G__276195, G__276196, G__276198, G__276197, G__276199, G__276200, G__276202, G__276201, G__276203, G__276204, 
-    G__276206, G__276207, G__276205, G__276209, G__276208, G__276210, G__276212, G__276213, G__276211, G__276214, G__276152, G__276163, G__276162, G__276166, G__276165, G__276164, G__276168, G__276167, G__276172, G__276171, G__276174, G__276175, G__276215, G__276216, G__276217, G__276218, G__276173, G__276170, G__276177, G__276179, G__276178, G__276220, G__276221, G__276223, G__276222, G__276224, G__276225, G__276231, G__276240, G__276232, G__276230, G__276234, G__276241, G__276235, G__276233, G__276237, 
-    G__276238, G__276236, G__276229, G__276228, G__276227, G__276226, G__276239, G__276242, G__276219), G__276177, G__276178, G__276219);
-    var G__276181 = tailrecursion.hoplon.a.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "topfix", new cljs.core.Keyword(null, "do-scroll-to", "do-scroll-to", 3603706411), tailrecursion.javelin.lift.call(null, function(G__276135, G__276136, G__276138, G__276137, G__276134, G__276133, G__276142, G__276143, G__276141, G__276145, G__276146, G__276144, G__276148, G__276149, G__276147, G__276140, G__276150, G__276154, G__276153, G__276155, G__276157, G__276156, G__276159, G__276160, 
-    G__276187, G__276158, G__276186, G__276185, G__276188, G__276190, G__276189, G__276192, G__276191, G__276193, G__276194, G__276195, G__276196, G__276198, G__276197, G__276199, G__276200, G__276202, G__276201, G__276203, G__276204, G__276206, G__276207, G__276205, G__276209, G__276208, G__276210, G__276212, G__276213, G__276211, G__276214, G__276152, G__276163, G__276162, G__276166, G__276165, G__276164, G__276168, G__276167, G__276172, G__276171, G__276174, G__276175, G__276215, G__276216, G__276217, 
-    G__276218, G__276173, G__276170, G__276177, G__276179, G__276178, G__276220, G__276221, G__276223, G__276222, G__276224, G__276225, G__276231, G__276240, G__276232, G__276230, G__276234, G__276241, G__276235, G__276233, G__276237, G__276238, G__276236, G__276229, G__276228, G__276227, G__276226, G__276239, G__276242, G__276219, G__276176) {
-      return function(G__276286, G__276287) {
-        return G__276286.call(null, G__276287, 3)
+    }(G__282374, G__282375, G__282377, G__282376, G__282373, G__282372, G__282381, G__282382, G__282380, G__282384, G__282385, G__282383, G__282387, G__282388, G__282386, G__282379, G__282389, G__282393, G__282392, G__282394, G__282396, G__282395, G__282398, G__282399, G__282426, G__282397, G__282425, G__282424, G__282427, G__282429, G__282428, G__282431, G__282430, G__282432, G__282433, G__282434, G__282435, G__282437, G__282436, G__282438, G__282439, G__282441, G__282440, G__282442, G__282443, 
+    G__282445, G__282446, G__282444, G__282448, G__282447, G__282449, G__282451, G__282452, G__282450, G__282453, G__282391, G__282402, G__282401, G__282405, G__282404, G__282403, G__282407, G__282406, G__282411, G__282410, G__282413, G__282414, G__282454, G__282455, G__282456, G__282457, G__282412, G__282409, G__282416, G__282418, G__282417, G__282459, G__282460, G__282462, G__282461, G__282463, G__282464, G__282470, G__282479, G__282471, G__282469, G__282473, G__282480, G__282474, G__282472, G__282476, 
+    G__282477, G__282475, G__282468, G__282467, G__282466, G__282465, G__282478, G__282481, G__282458), G__282416, G__282417, G__282458);
+    var G__282420 = tailrecursion.hoplon.a.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "topfix", new cljs.core.Keyword(null, "do-scroll-to", "do-scroll-to", 3603706411), tailrecursion.javelin.lift.call(null, function(G__282374, G__282375, G__282377, G__282376, G__282373, G__282372, G__282381, G__282382, G__282380, G__282384, G__282385, G__282383, G__282387, G__282388, G__282386, G__282379, G__282389, G__282393, G__282392, G__282394, G__282396, G__282395, G__282398, G__282399, 
+    G__282426, G__282397, G__282425, G__282424, G__282427, G__282429, G__282428, G__282431, G__282430, G__282432, G__282433, G__282434, G__282435, G__282437, G__282436, G__282438, G__282439, G__282441, G__282440, G__282442, G__282443, G__282445, G__282446, G__282444, G__282448, G__282447, G__282449, G__282451, G__282452, G__282450, G__282453, G__282391, G__282402, G__282401, G__282405, G__282404, G__282403, G__282407, G__282406, G__282411, G__282410, G__282413, G__282414, G__282454, G__282455, G__282456, 
+    G__282457, G__282412, G__282409, G__282416, G__282418, G__282417, G__282459, G__282460, G__282462, G__282461, G__282463, G__282464, G__282470, G__282479, G__282471, G__282469, G__282473, G__282480, G__282474, G__282472, G__282476, G__282477, G__282475, G__282468, G__282467, G__282466, G__282465, G__282478, G__282481, G__282458, G__282415) {
+      return function(G__282525, G__282526) {
+        return G__282525.call(null, G__282526, 3)
       }
-    }(G__276135, G__276136, G__276138, G__276137, G__276134, G__276133, G__276142, G__276143, G__276141, G__276145, G__276146, G__276144, G__276148, G__276149, G__276147, G__276140, G__276150, G__276154, G__276153, G__276155, G__276157, G__276156, G__276159, G__276160, G__276187, G__276158, G__276186, G__276185, G__276188, G__276190, G__276189, G__276192, G__276191, G__276193, G__276194, G__276195, G__276196, G__276198, G__276197, G__276199, G__276200, G__276202, G__276201, G__276203, G__276204, 
-    G__276206, G__276207, G__276205, G__276209, G__276208, G__276210, G__276212, G__276213, G__276211, G__276214, G__276152, G__276163, G__276162, G__276166, G__276165, G__276164, G__276168, G__276167, G__276172, G__276171, G__276174, G__276175, G__276215, G__276216, G__276217, G__276218, G__276173, G__276170, G__276177, G__276179, G__276178, G__276220, G__276221, G__276223, G__276222, G__276224, G__276225, G__276231, G__276240, G__276232, G__276230, G__276234, G__276241, G__276235, G__276233, G__276237, 
-    G__276238, G__276236, G__276229, G__276228, G__276227, G__276226, G__276239, G__276242, G__276219, G__276176)).call(null, cljs.core._EQ_, tailrecursion.hoplon.app_pages.G__274439.example));
-    var G__276183 = bootstrap.panel.title.call(null, "List Component");
-    var G__276182 = tailrecursion.hoplon.a.call(null, new cljs.core.Keyword(null, "do-toggle", "do-toggle", 1250159176), tailrecursion.javelin.lift.call(null, function(G__276135, G__276136, G__276138, G__276137, G__276134, G__276133, G__276142, G__276143, G__276141, G__276145, G__276146, G__276144, G__276148, G__276149, G__276147, G__276140, G__276150, G__276154, G__276153, G__276155, G__276157, G__276156, G__276159, G__276160, G__276187, G__276158, G__276186, G__276185, G__276188, G__276190, G__276189, 
-    G__276192, G__276191, G__276193, G__276194, G__276195, G__276196, G__276198, G__276197, G__276199, G__276200, G__276202, G__276201, G__276203, G__276204, G__276206, G__276207, G__276205, G__276209, G__276208, G__276210, G__276212, G__276213, G__276211, G__276214, G__276152, G__276163, G__276162, G__276166, G__276165, G__276164, G__276168, G__276167, G__276172, G__276171, G__276174, G__276175, G__276215, G__276216, G__276217, G__276218, G__276173, G__276170, G__276177, G__276179, G__276178, G__276220, 
-    G__276221, G__276223, G__276222, G__276224, G__276225, G__276231, G__276240, G__276232, G__276230, G__276234, G__276241, G__276235, G__276233, G__276237, G__276238, G__276236, G__276229, G__276228, G__276227, G__276226, G__276239, G__276242, G__276219, G__276176, G__276181, G__276183) {
-      return function(G__276288, G__276289) {
-        return G__276288.call(null, G__276289, 3)
+    }(G__282374, G__282375, G__282377, G__282376, G__282373, G__282372, G__282381, G__282382, G__282380, G__282384, G__282385, G__282383, G__282387, G__282388, G__282386, G__282379, G__282389, G__282393, G__282392, G__282394, G__282396, G__282395, G__282398, G__282399, G__282426, G__282397, G__282425, G__282424, G__282427, G__282429, G__282428, G__282431, G__282430, G__282432, G__282433, G__282434, G__282435, G__282437, G__282436, G__282438, G__282439, G__282441, G__282440, G__282442, G__282443, 
+    G__282445, G__282446, G__282444, G__282448, G__282447, G__282449, G__282451, G__282452, G__282450, G__282453, G__282391, G__282402, G__282401, G__282405, G__282404, G__282403, G__282407, G__282406, G__282411, G__282410, G__282413, G__282414, G__282454, G__282455, G__282456, G__282457, G__282412, G__282409, G__282416, G__282418, G__282417, G__282459, G__282460, G__282462, G__282461, G__282463, G__282464, G__282470, G__282479, G__282471, G__282469, G__282473, G__282480, G__282474, G__282472, G__282476, 
+    G__282477, G__282475, G__282468, G__282467, G__282466, G__282465, G__282478, G__282481, G__282458, G__282415)).call(null, cljs.core._EQ_, tailrecursion.hoplon.app_pages.G__280675.example));
+    var G__282422 = bootstrap.panel.title.call(null, "List Component");
+    var G__282421 = tailrecursion.hoplon.a.call(null, new cljs.core.Keyword(null, "do-toggle", "do-toggle", 1250159176), tailrecursion.javelin.lift.call(null, function(G__282374, G__282375, G__282377, G__282376, G__282373, G__282372, G__282381, G__282382, G__282380, G__282384, G__282385, G__282383, G__282387, G__282388, G__282386, G__282379, G__282389, G__282393, G__282392, G__282394, G__282396, G__282395, G__282398, G__282399, G__282426, G__282397, G__282425, G__282424, G__282427, G__282429, G__282428, 
+    G__282431, G__282430, G__282432, G__282433, G__282434, G__282435, G__282437, G__282436, G__282438, G__282439, G__282441, G__282440, G__282442, G__282443, G__282445, G__282446, G__282444, G__282448, G__282447, G__282449, G__282451, G__282452, G__282450, G__282453, G__282391, G__282402, G__282401, G__282405, G__282404, G__282403, G__282407, G__282406, G__282411, G__282410, G__282413, G__282414, G__282454, G__282455, G__282456, G__282457, G__282412, G__282409, G__282416, G__282418, G__282417, G__282459, 
+    G__282460, G__282462, G__282461, G__282463, G__282464, G__282470, G__282479, G__282471, G__282469, G__282473, G__282480, G__282474, G__282472, G__282476, G__282477, G__282475, G__282468, G__282467, G__282466, G__282465, G__282478, G__282481, G__282458, G__282415, G__282420, G__282422) {
+      return function(G__282527, G__282528) {
+        return G__282527.call(null, G__282528, 3)
       }
-    }(G__276135, G__276136, G__276138, G__276137, G__276134, G__276133, G__276142, G__276143, G__276141, G__276145, G__276146, G__276144, G__276148, G__276149, G__276147, G__276140, G__276150, G__276154, G__276153, G__276155, G__276157, G__276156, G__276159, G__276160, G__276187, G__276158, G__276186, G__276185, G__276188, G__276190, G__276189, G__276192, G__276191, G__276193, G__276194, G__276195, G__276196, G__276198, G__276197, G__276199, G__276200, G__276202, G__276201, G__276203, G__276204, 
-    G__276206, G__276207, G__276205, G__276209, G__276208, G__276210, G__276212, G__276213, G__276211, G__276214, G__276152, G__276163, G__276162, G__276166, G__276165, G__276164, G__276168, G__276167, G__276172, G__276171, G__276174, G__276175, G__276215, G__276216, G__276217, G__276218, G__276173, G__276170, G__276177, G__276179, G__276178, G__276220, G__276221, G__276223, G__276222, G__276224, G__276225, G__276231, G__276240, G__276232, G__276230, G__276234, G__276241, G__276235, G__276233, G__276237, 
-    G__276238, G__276236, G__276229, G__276228, G__276227, G__276226, G__276239, G__276242, G__276219, G__276176, G__276181, G__276183)).call(null, cljs.core.not_EQ_, tailrecursion.hoplon.app_pages.G__274439.example), G__276183);
-    var G__276244 = bootstrap.panel.title.call(null, "List Component");
-    var G__276245 = tailrecursion.hoplon.hr.call(null);
-    var G__276247 = tailrecursion.hoplon.em.call(null, "on-append!");
-    var G__276248 = tailrecursion.hoplon.em.call(null, "title");
-    var G__276246 = tailrecursion.hoplon.p.call(null, "This is an example of a custom element, or component. The ", G__276247, " function is used to provide the implementation for\n                     appending children and setting attributes. This ensures \n                     that children are, in this case, properly wrapped in list\n                     item elements and appended to the inner unordered list\n                     instead of to the outermost element. A special ", G__276248, " attribute is also implemented here that sets the text of\n                     the inner bold element.");
-    var G__276249 = tailrecursion.hoplon.p.call(null, "By implementing the HTML semantic this component becomes\n                     a first-class DOM element. It can be used in page markup\n                     and it can be passed around without any need for the\n                     recipient to understand its internal structure. It can be\n                     combined with other elements at any level to create more\n                     complex components.");
-    var G__276250 = tailrecursion.hoplon.hr.call(null);
-    var G__276251 = tailrecursion.hoplon.p.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "text-muted", "The demo:");
-    var G__276255 = tailrecursion.hoplon.p.call(null, "See the list component below.");
-    var G__276256 = tailrecursion.hoplon.hr.call(null);
-    var G__276258 = tailrecursion.hoplon.span.call(null, "item one");
-    var G__276259 = tailrecursion.hoplon.span.call(null, "item two");
-    var G__276261 = tailrecursion.hoplon.span.call(null, "item three");
-    var G__276257 = tailrecursion.hoplon.app_pages.G__274439.my_list.call(null, new cljs.core.Keyword(null, "title", "title", 1124275658), "Items:", G__276258, G__276259, G__276261);
-    var G__276254 = tailrecursion.hoplon.div.call(null, G__276255, G__276256, G__276257);
-    var G__276253 = bootstrap.panel.body.call(null, G__276254);
-    var G__276252 = bootstrap.panel.default$.call(null, G__276253);
-    var G__276260 = tailrecursion.hoplon.p.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "text-muted", "The component constructor:");
-    var G__276262 = tailrecursion.hoplon.p.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "text-muted", "The page markup:");
-    var G__276243 = tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "do-toggle", "do-toggle", 1250159176), tailrecursion.javelin.lift.call(null, function(G__276135, G__276136, G__276138, G__276137, G__276134, G__276133, G__276142, G__276143, G__276141, G__276145, G__276146, G__276144, G__276148, G__276149, G__276147, G__276140, G__276150, G__276154, G__276153, G__276155, G__276157, G__276156, G__276159, G__276160, G__276187, G__276158, G__276186, G__276185, G__276188, G__276190, G__276189, 
-    G__276192, G__276191, G__276193, G__276194, G__276195, G__276196, G__276198, G__276197, G__276199, G__276200, G__276202, G__276201, G__276203, G__276204, G__276206, G__276207, G__276205, G__276209, G__276208, G__276210, G__276212, G__276213, G__276211, G__276214, G__276152, G__276163, G__276162, G__276166, G__276165, G__276164, G__276168, G__276167, G__276172, G__276171, G__276174, G__276175, G__276215, G__276216, G__276217, G__276218, G__276173, G__276170, G__276177, G__276179, G__276178, G__276220, 
-    G__276221, G__276223, G__276222, G__276224, G__276225, G__276231, G__276240, G__276232, G__276230, G__276234, G__276241, G__276235, G__276233, G__276237, G__276238, G__276236, G__276229, G__276228, G__276227, G__276226, G__276239, G__276242, G__276219, G__276176, G__276181, G__276183, G__276182, G__276244, G__276245, G__276247, G__276248, G__276246, G__276249, G__276250, G__276251, G__276255, G__276256, G__276258, G__276259, G__276261, G__276257, G__276254, G__276253, G__276252, G__276260, G__276262) {
-      return function(G__276290, G__276291) {
-        return G__276290.call(null, G__276291, 3)
+    }(G__282374, G__282375, G__282377, G__282376, G__282373, G__282372, G__282381, G__282382, G__282380, G__282384, G__282385, G__282383, G__282387, G__282388, G__282386, G__282379, G__282389, G__282393, G__282392, G__282394, G__282396, G__282395, G__282398, G__282399, G__282426, G__282397, G__282425, G__282424, G__282427, G__282429, G__282428, G__282431, G__282430, G__282432, G__282433, G__282434, G__282435, G__282437, G__282436, G__282438, G__282439, G__282441, G__282440, G__282442, G__282443, 
+    G__282445, G__282446, G__282444, G__282448, G__282447, G__282449, G__282451, G__282452, G__282450, G__282453, G__282391, G__282402, G__282401, G__282405, G__282404, G__282403, G__282407, G__282406, G__282411, G__282410, G__282413, G__282414, G__282454, G__282455, G__282456, G__282457, G__282412, G__282409, G__282416, G__282418, G__282417, G__282459, G__282460, G__282462, G__282461, G__282463, G__282464, G__282470, G__282479, G__282471, G__282469, G__282473, G__282480, G__282474, G__282472, G__282476, 
+    G__282477, G__282475, G__282468, G__282467, G__282466, G__282465, G__282478, G__282481, G__282458, G__282415, G__282420, G__282422)).call(null, cljs.core.not_EQ_, tailrecursion.hoplon.app_pages.G__280675.example), G__282422);
+    var G__282483 = bootstrap.panel.title.call(null, "List Component");
+    var G__282484 = tailrecursion.hoplon.hr.call(null);
+    var G__282486 = tailrecursion.hoplon.em.call(null, "on-append!");
+    var G__282487 = tailrecursion.hoplon.em.call(null, "title");
+    var G__282485 = tailrecursion.hoplon.p.call(null, "This is an example of a custom element, or component. The ", G__282486, " function is used to provide the implementation for\n                     appending children and setting attributes. This ensures \n                     that children are, in this case, properly wrapped in list\n                     item elements and appended to the inner unordered list\n                     instead of to the outermost element. A special ", G__282487, " attribute is also implemented here that sets the text of\n                     the inner bold element.");
+    var G__282488 = tailrecursion.hoplon.p.call(null, "By implementing the HTML semantic this component becomes\n                     a first-class DOM element. It can be used in page markup\n                     and it can be passed around without any need for the\n                     recipient to understand its internal structure. It can be\n                     combined with other elements at any level to create more\n                     complex components.");
+    var G__282489 = tailrecursion.hoplon.hr.call(null);
+    var G__282490 = tailrecursion.hoplon.p.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "text-muted", "The demo:");
+    var G__282494 = tailrecursion.hoplon.p.call(null, "See the list component below.");
+    var G__282495 = tailrecursion.hoplon.hr.call(null);
+    var G__282497 = tailrecursion.hoplon.span.call(null, "item one");
+    var G__282498 = tailrecursion.hoplon.span.call(null, "item two");
+    var G__282500 = tailrecursion.hoplon.span.call(null, "item three");
+    var G__282496 = tailrecursion.hoplon.app_pages.G__280675.my_list.call(null, new cljs.core.Keyword(null, "title", "title", 1124275658), "Items:", G__282497, G__282498, G__282500);
+    var G__282493 = tailrecursion.hoplon.div.call(null, G__282494, G__282495, G__282496);
+    var G__282492 = bootstrap.panel.body.call(null, G__282493);
+    var G__282491 = bootstrap.panel.default$.call(null, G__282492);
+    var G__282499 = tailrecursion.hoplon.p.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "text-muted", "The component constructor:");
+    var G__282501 = tailrecursion.hoplon.p.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "text-muted", "The page markup:");
+    var G__282482 = tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "do-toggle", "do-toggle", 1250159176), tailrecursion.javelin.lift.call(null, function(G__282374, G__282375, G__282377, G__282376, G__282373, G__282372, G__282381, G__282382, G__282380, G__282384, G__282385, G__282383, G__282387, G__282388, G__282386, G__282379, G__282389, G__282393, G__282392, G__282394, G__282396, G__282395, G__282398, G__282399, G__282426, G__282397, G__282425, G__282424, G__282427, G__282429, G__282428, 
+    G__282431, G__282430, G__282432, G__282433, G__282434, G__282435, G__282437, G__282436, G__282438, G__282439, G__282441, G__282440, G__282442, G__282443, G__282445, G__282446, G__282444, G__282448, G__282447, G__282449, G__282451, G__282452, G__282450, G__282453, G__282391, G__282402, G__282401, G__282405, G__282404, G__282403, G__282407, G__282406, G__282411, G__282410, G__282413, G__282414, G__282454, G__282455, G__282456, G__282457, G__282412, G__282409, G__282416, G__282418, G__282417, G__282459, 
+    G__282460, G__282462, G__282461, G__282463, G__282464, G__282470, G__282479, G__282471, G__282469, G__282473, G__282480, G__282474, G__282472, G__282476, G__282477, G__282475, G__282468, G__282467, G__282466, G__282465, G__282478, G__282481, G__282458, G__282415, G__282420, G__282422, G__282421, G__282483, G__282484, G__282486, G__282487, G__282485, G__282488, G__282489, G__282490, G__282494, G__282495, G__282497, G__282498, G__282500, G__282496, G__282493, G__282492, G__282491, G__282499, G__282501) {
+      return function(G__282529, G__282530) {
+        return G__282529.call(null, G__282530, 3)
       }
-    }(G__276135, G__276136, G__276138, G__276137, G__276134, G__276133, G__276142, G__276143, G__276141, G__276145, G__276146, G__276144, G__276148, G__276149, G__276147, G__276140, G__276150, G__276154, G__276153, G__276155, G__276157, G__276156, G__276159, G__276160, G__276187, G__276158, G__276186, G__276185, G__276188, G__276190, G__276189, G__276192, G__276191, G__276193, G__276194, G__276195, G__276196, G__276198, G__276197, G__276199, G__276200, G__276202, G__276201, G__276203, G__276204, 
-    G__276206, G__276207, G__276205, G__276209, G__276208, G__276210, G__276212, G__276213, G__276211, G__276214, G__276152, G__276163, G__276162, G__276166, G__276165, G__276164, G__276168, G__276167, G__276172, G__276171, G__276174, G__276175, G__276215, G__276216, G__276217, G__276218, G__276173, G__276170, G__276177, G__276179, G__276178, G__276220, G__276221, G__276223, G__276222, G__276224, G__276225, G__276231, G__276240, G__276232, G__276230, G__276234, G__276241, G__276235, G__276233, G__276237, 
-    G__276238, G__276236, G__276229, G__276228, G__276227, G__276226, G__276239, G__276242, G__276219, G__276176, G__276181, G__276183, G__276182, G__276244, G__276245, G__276247, G__276248, G__276246, G__276249, G__276250, G__276251, G__276255, G__276256, G__276258, G__276259, G__276261, G__276257, G__276254, G__276253, G__276252, G__276260, G__276262)).call(null, cljs.core._EQ_, tailrecursion.hoplon.app_pages.G__274439.example), G__276244, G__276245, G__276246, G__276249, G__276250, G__276251, 
-    G__276252, G__276260, tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "highlight"], true), tailrecursion.hoplon.pre.call(null, tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "c1"], true), ";; Define custom element \x3cmy-list\x3e."), "\n", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
+    }(G__282374, G__282375, G__282377, G__282376, G__282373, G__282372, G__282381, G__282382, G__282380, G__282384, G__282385, G__282383, G__282387, G__282388, G__282386, G__282379, G__282389, G__282393, G__282392, G__282394, G__282396, G__282395, G__282398, G__282399, G__282426, G__282397, G__282425, G__282424, G__282427, G__282429, G__282428, G__282431, G__282430, G__282432, G__282433, G__282434, G__282435, G__282437, G__282436, G__282438, G__282439, G__282441, G__282440, G__282442, G__282443, 
+    G__282445, G__282446, G__282444, G__282448, G__282447, G__282449, G__282451, G__282452, G__282450, G__282453, G__282391, G__282402, G__282401, G__282405, G__282404, G__282403, G__282407, G__282406, G__282411, G__282410, G__282413, G__282414, G__282454, G__282455, G__282456, G__282457, G__282412, G__282409, G__282416, G__282418, G__282417, G__282459, G__282460, G__282462, G__282461, G__282463, G__282464, G__282470, G__282479, G__282471, G__282469, G__282473, G__282480, G__282474, G__282472, G__282476, 
+    G__282477, G__282475, G__282468, G__282467, G__282466, G__282465, G__282478, G__282481, G__282458, G__282415, G__282420, G__282422, G__282421, G__282483, G__282484, G__282486, G__282487, G__282485, G__282488, G__282489, G__282490, G__282494, G__282495, G__282497, G__282498, G__282500, G__282496, G__282493, G__282492, G__282491, G__282499, G__282501)).call(null, cljs.core._EQ_, tailrecursion.hoplon.app_pages.G__280675.example), G__282483, G__282484, G__282485, G__282488, G__282489, G__282490, 
+    G__282491, G__282499, tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "highlight"], true), tailrecursion.hoplon.pre.call(null, tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "c1"], true), ";; Define custom element \x3cmy-list\x3e."), "\n", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
     "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nf"], true), "defelem"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nv"], true), "my-list"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", 
     "class", 1108647146), "p"], true), "["), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nv"], true), "attrs"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nv"], true), "children"), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), 
     "p"], true), "]"), "\n  ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "k"], true), "let "), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "["), tailrecursion.hoplon.span.call(null, 
@@ -31941,7 +31941,7 @@ tailrecursion.hoplon.app_pages.G__274439.hoploninit = function hoploninit() {
     1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nb"], true), "map "), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nv"], true), "li"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nv"], true), 
     "children"), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "))))"), "\n    ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "c1"], true), ";; Initialize element."), "\n    ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), 
     "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nb"], true), "apply "), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nv"], true), "this"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nv"], true), "attrs"), 
-    " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nv"], true), "children"), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), ")))"), "\n")), G__276262, tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "highlight"], true), 
+    " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nv"], true), "children"), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), ")))"), "\n")), G__282501, tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "highlight"], true), 
     tailrecursion.hoplon.pre.call(null, tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nf"], true), "div"), "\n  ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], 
     true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nf"], true), "p"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "s"], true), '"See the list component below."'), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], 
     true), ")"), "\n  ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nf"], true), "hr"), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), ")"), "\n  ", tailrecursion.hoplon.span.call(null, 
@@ -31951,48 +31951,48 @@ tailrecursion.hoplon.app_pages.G__274439.hoploninit = function hoploninit() {
     "nf"], true), "span"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "s"], true), '"item two"'), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), ")"), "\n    ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], 
     true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nf"], true), "span"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "s"], true), '"item three"'), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), ")))"), 
     "\n")));
-    var G__276180 = bootstrap.list.divitem.call(null, new cljs.core.Keyword(null, "on-click", "on-click", 1416542092), function(G__276135, G__276136, G__276138, G__276137, G__276134, G__276133, G__276142, G__276143, G__276141, G__276145, G__276146, G__276144, G__276148, G__276149, G__276147, G__276140, G__276150, G__276154, G__276153, G__276155, G__276157, G__276156, G__276159, G__276160, G__276187, G__276158, G__276186, G__276185, G__276188, G__276190, G__276189, G__276192, G__276191, G__276193, 
-    G__276194, G__276195, G__276196, G__276198, G__276197, G__276199, G__276200, G__276202, G__276201, G__276203, G__276204, G__276206, G__276207, G__276205, G__276209, G__276208, G__276210, G__276212, G__276213, G__276211, G__276214, G__276152, G__276163, G__276162, G__276166, G__276165, G__276164, G__276168, G__276167, G__276172, G__276171, G__276174, G__276175, G__276215, G__276216, G__276217, G__276218, G__276173, G__276170, G__276177, G__276179, G__276178, G__276220, G__276221, G__276223, G__276222, 
-    G__276224, G__276225, G__276231, G__276240, G__276232, G__276230, G__276234, G__276241, G__276235, G__276233, G__276237, G__276238, G__276236, G__276229, G__276228, G__276227, G__276226, G__276239, G__276242, G__276219, G__276176, G__276181, G__276183, G__276182, G__276244, G__276245, G__276247, G__276248, G__276246, G__276249, G__276250, G__276251, G__276255, G__276256, G__276258, G__276259, G__276261, G__276257, G__276254, G__276253, G__276252, G__276260, G__276262, G__276243) {
+    var G__282419 = bootstrap.list.divitem.call(null, new cljs.core.Keyword(null, "on-click", "on-click", 1416542092), function(G__282374, G__282375, G__282377, G__282376, G__282373, G__282372, G__282381, G__282382, G__282380, G__282384, G__282385, G__282383, G__282387, G__282388, G__282386, G__282379, G__282389, G__282393, G__282392, G__282394, G__282396, G__282395, G__282398, G__282399, G__282426, G__282397, G__282425, G__282424, G__282427, G__282429, G__282428, G__282431, G__282430, G__282432, 
+    G__282433, G__282434, G__282435, G__282437, G__282436, G__282438, G__282439, G__282441, G__282440, G__282442, G__282443, G__282445, G__282446, G__282444, G__282448, G__282447, G__282449, G__282451, G__282452, G__282450, G__282453, G__282391, G__282402, G__282401, G__282405, G__282404, G__282403, G__282407, G__282406, G__282411, G__282410, G__282413, G__282414, G__282454, G__282455, G__282456, G__282457, G__282412, G__282409, G__282416, G__282418, G__282417, G__282459, G__282460, G__282462, G__282461, 
+    G__282463, G__282464, G__282470, G__282479, G__282471, G__282469, G__282473, G__282480, G__282474, G__282472, G__282476, G__282477, G__282475, G__282468, G__282467, G__282466, G__282465, G__282478, G__282481, G__282458, G__282415, G__282420, G__282422, G__282421, G__282483, G__282484, G__282486, G__282487, G__282485, G__282488, G__282489, G__282490, G__282494, G__282495, G__282497, G__282498, G__282500, G__282496, G__282493, G__282492, G__282491, G__282499, G__282501, G__282482) {
       return function() {
-        return cljs.core.reset_BANG_.call(null, tailrecursion.hoplon.app_pages.G__274439.example, 3)
+        return cljs.core.reset_BANG_.call(null, tailrecursion.hoplon.app_pages.G__280675.example, 3)
       }
-    }(G__276135, G__276136, G__276138, G__276137, G__276134, G__276133, G__276142, G__276143, G__276141, G__276145, G__276146, G__276144, G__276148, G__276149, G__276147, G__276140, G__276150, G__276154, G__276153, G__276155, G__276157, G__276156, G__276159, G__276160, G__276187, G__276158, G__276186, G__276185, G__276188, G__276190, G__276189, G__276192, G__276191, G__276193, G__276194, G__276195, G__276196, G__276198, G__276197, G__276199, G__276200, G__276202, G__276201, G__276203, G__276204, 
-    G__276206, G__276207, G__276205, G__276209, G__276208, G__276210, G__276212, G__276213, G__276211, G__276214, G__276152, G__276163, G__276162, G__276166, G__276165, G__276164, G__276168, G__276167, G__276172, G__276171, G__276174, G__276175, G__276215, G__276216, G__276217, G__276218, G__276173, G__276170, G__276177, G__276179, G__276178, G__276220, G__276221, G__276223, G__276222, G__276224, G__276225, G__276231, G__276240, G__276232, G__276230, G__276234, G__276241, G__276235, G__276233, G__276237, 
-    G__276238, G__276236, G__276229, G__276228, G__276227, G__276226, G__276239, G__276242, G__276219, G__276176, G__276181, G__276183, G__276182, G__276244, G__276245, G__276247, G__276248, G__276246, G__276249, G__276250, G__276251, G__276255, G__276256, G__276258, G__276259, G__276261, G__276257, G__276254, G__276253, G__276252, G__276260, G__276262, G__276243), G__276181, G__276182, G__276243);
-    var G__276169 = bootstrap.list.divgroup.call(null, G__276170, G__276176, G__276180);
-    var G__276161 = bootstrap.grid.col6.call(null, G__276162, G__276164, G__276167, G__276169);
-    var G__276151 = bootstrap.grid.row.call(null, G__276152, G__276161);
-    var G__276184 = tailrecursion.hoplon.hr.call(null);
-    var G__276264 = tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "style", "style", 1123684643), "text-align:center;", "Copyright \u00a9 Alan Dipert and Micha Niskin. All rights reserved.");
-    var G__276263 = tailrecursion.hoplon.footer.call(null, new cljs.core.Keyword(null, "style", "style", 1123684643), "padding:30px 0px;", G__276264);
-    var G__276139 = bootstrap.core.container.call(null, G__276140, G__276150, G__276151, G__276184, G__276263);
-    var G__276132 = tailrecursion.hoplon.app_pages.G__274439.content_home.call(null, G__276133, G__276139);
-    return G__276132
+    }(G__282374, G__282375, G__282377, G__282376, G__282373, G__282372, G__282381, G__282382, G__282380, G__282384, G__282385, G__282383, G__282387, G__282388, G__282386, G__282379, G__282389, G__282393, G__282392, G__282394, G__282396, G__282395, G__282398, G__282399, G__282426, G__282397, G__282425, G__282424, G__282427, G__282429, G__282428, G__282431, G__282430, G__282432, G__282433, G__282434, G__282435, G__282437, G__282436, G__282438, G__282439, G__282441, G__282440, G__282442, G__282443, 
+    G__282445, G__282446, G__282444, G__282448, G__282447, G__282449, G__282451, G__282452, G__282450, G__282453, G__282391, G__282402, G__282401, G__282405, G__282404, G__282403, G__282407, G__282406, G__282411, G__282410, G__282413, G__282414, G__282454, G__282455, G__282456, G__282457, G__282412, G__282409, G__282416, G__282418, G__282417, G__282459, G__282460, G__282462, G__282461, G__282463, G__282464, G__282470, G__282479, G__282471, G__282469, G__282473, G__282480, G__282474, G__282472, G__282476, 
+    G__282477, G__282475, G__282468, G__282467, G__282466, G__282465, G__282478, G__282481, G__282458, G__282415, G__282420, G__282422, G__282421, G__282483, G__282484, G__282486, G__282487, G__282485, G__282488, G__282489, G__282490, G__282494, G__282495, G__282497, G__282498, G__282500, G__282496, G__282493, G__282492, G__282491, G__282499, G__282501, G__282482), G__282420, G__282421, G__282482);
+    var G__282408 = bootstrap.list.divgroup.call(null, G__282409, G__282415, G__282419);
+    var G__282400 = bootstrap.grid.col6.call(null, G__282401, G__282403, G__282406, G__282408);
+    var G__282390 = bootstrap.grid.row.call(null, G__282391, G__282400);
+    var G__282423 = tailrecursion.hoplon.hr.call(null);
+    var G__282503 = tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "style", "style", 1123684643), "text-align:center;", "Copyright \u00a9 Alan Dipert and Micha Niskin. All rights reserved.");
+    var G__282502 = tailrecursion.hoplon.footer.call(null, new cljs.core.Keyword(null, "style", "style", 1123684643), "padding:30px 0px;", G__282503);
+    var G__282378 = bootstrap.core.container.call(null, G__282379, G__282389, G__282390, G__282423, G__282502);
+    var G__282371 = tailrecursion.hoplon.app_pages.G__280675.content_home.call(null, G__282372, G__282378);
+    return G__282371
   }(), function() {
-    var G__276296 = tailrecursion.hoplon.br.call(null);
-    var G__276297 = tailrecursion.hoplon.small.call(null, "Build a Hoplon application from scratch.");
-    var G__276295 = tailrecursion.hoplon.h1.call(null, "Getting Started", G__276296, G__276297);
-    var G__276298 = tailrecursion.hoplon.hr.call(null);
-    var G__276299 = tailrecursion.hoplon.p.call(null, "This article will demonstrate how to build Hoplon applications.\n             A simple application will be developed incrementally. New features\n             will be added at each step, showing how different parts of Hoplon\n             are used.");
-    var G__276300 = tailrecursion.hoplon.br.call(null);
-    var G__276325 = bootstrap.panel.title.call(null, "System requirements.");
-    var G__276324 = bootstrap.panel.heading.call(null, G__276325);
-    var G__276328 = tailrecursion.hoplon.li.call(null, "Java 6+");
-    var G__276330 = tailrecursion.hoplon.a.call(null, new cljs.core.Keyword(null, "href", "href", 1017115293), tailrecursion.hoplon.app_pages.G__274439.boot_url, new cljs.core.Keyword(null, "target", "target", 4427965699), "_blank", "boot");
-    var G__276329 = tailrecursion.hoplon.li.call(null, "The ", G__276330, " build tool.");
-    var G__276327 = tailrecursion.hoplon.ul.call(null, G__276328, G__276329);
-    var G__276326 = bootstrap.panel.body.call(null, G__276327);
-    var G__276323 = bootstrap.panel.default$.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "panel-info", G__276324, G__276326);
-    var G__276331 = tailrecursion.hoplon.br.call(null);
-    var G__276334 = bootstrap.panel.title.call(null, "Task 1: Create empty project.");
-    var G__276333 = bootstrap.panel.heading.call(null, G__276334);
-    var G__276336 = tailrecursion.hoplon.p.call(null, "A typical project might have a directory structure that looks\n                 something like this:");
-    var G__276338 = tailrecursion.hoplon.code.call(null, ".\n\u251c\u2500\u2500 boot.edn\n\u251c\u2500\u2500 resources\n\u2502\u00a0\u00a0 \u2514\u2500\u2500 assets\n\u2502\u00a0\u00a0     \u2514\u2500\u2500 css\n\u2502\u00a0\u00a0         \u2514\u2500\u2500 main.css\n\u2514\u2500\u2500 src\n    \u2514\u2500\u2500 index.cljs.hl");
-    var G__276337 = tailrecursion.hoplon.pre.call(null, G__276338);
-    var G__276340 = tailrecursion.hoplon.code.call(null, "boot.edn");
-    var G__276339 = tailrecursion.hoplon.p.call(null, "To create a minimal Hoplon project just create a directory\n                 for the project, and in this new directory create a ", G__276340, " file with the following contents:");
-    var G__276335 = bootstrap.panel.body.call(null, G__276336, G__276337, G__276339, tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "highlight"], true), tailrecursion.hoplon.pre.call(null, tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "{"), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
+    var G__282535 = tailrecursion.hoplon.br.call(null);
+    var G__282536 = tailrecursion.hoplon.small.call(null, "Build a Hoplon application from scratch.");
+    var G__282534 = tailrecursion.hoplon.h1.call(null, "Getting Started", G__282535, G__282536);
+    var G__282537 = tailrecursion.hoplon.hr.call(null);
+    var G__282538 = tailrecursion.hoplon.p.call(null, "This article will demonstrate how to build Hoplon applications.\n             A simple application will be developed incrementally. New features\n             will be added at each step, showing how different parts of Hoplon\n             are used.");
+    var G__282539 = tailrecursion.hoplon.br.call(null);
+    var G__282565 = bootstrap.panel.title.call(null, "System requirements.");
+    var G__282564 = bootstrap.panel.heading.call(null, G__282565);
+    var G__282568 = tailrecursion.hoplon.li.call(null, "Java 6+");
+    var G__282570 = tailrecursion.hoplon.a.call(null, new cljs.core.Keyword(null, "href", "href", 1017115293), tailrecursion.hoplon.app_pages.G__280675.boot_url, new cljs.core.Keyword(null, "target", "target", 4427965699), "_blank", "boot");
+    var G__282569 = tailrecursion.hoplon.li.call(null, "The ", G__282570, " build tool.");
+    var G__282567 = tailrecursion.hoplon.ul.call(null, G__282568, G__282569);
+    var G__282566 = bootstrap.panel.body.call(null, G__282567);
+    var G__282563 = bootstrap.panel.default$.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "panel-info", G__282564, G__282566);
+    var G__282571 = tailrecursion.hoplon.br.call(null);
+    var G__282574 = bootstrap.panel.title.call(null, "Task 1: Create empty project.");
+    var G__282573 = bootstrap.panel.heading.call(null, G__282574);
+    var G__282576 = tailrecursion.hoplon.p.call(null, "A typical project might have a directory structure that looks\n                 something like this:");
+    var G__282578 = tailrecursion.hoplon.code.call(null, ".\n\u251c\u2500\u2500 boot.edn\n\u251c\u2500\u2500 resources\n\u2502\u00a0\u00a0 \u2514\u2500\u2500 assets\n\u2502\u00a0\u00a0     \u2514\u2500\u2500 css\n\u2502\u00a0\u00a0         \u2514\u2500\u2500 main.css\n\u2514\u2500\u2500 src\n    \u2514\u2500\u2500 index.cljs.hl");
+    var G__282577 = tailrecursion.hoplon.pre.call(null, G__282578);
+    var G__282580 = tailrecursion.hoplon.code.call(null, "boot.edn");
+    var G__282579 = tailrecursion.hoplon.p.call(null, "To create a minimal Hoplon project just create a directory\n                 for the project, and in this new directory create a ", G__282580, " file with the following contents:");
+    var G__282575 = bootstrap.panel.body.call(null, G__282576, G__282577, G__282579, tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "highlight"], true), tailrecursion.hoplon.pre.call(null, tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "{"), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
     "class", "class", 1108647146), "ss"], true), ":project"), "       ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nv"], true), "hello-hoplon"), "\n ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "ss"], true), ":version"), "       ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
     "class", "class", 1108647146), "s"], true), '"0.1.0-SNAPSHOT"'), "\n ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "ss"], true), ":dependencies"), "  ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "[["), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
     "class", "class", 1108647146), "nv"], true), "tailrecursion/boot.core"), "   ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "s"], true), '"1.0.0"'), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "]"), "\n                 ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
@@ -32009,42 +32009,42 @@ tailrecursion.hoplon.app_pages.G__274439.hoploninit = function hoploninit() {
     true), "#"), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "{"), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "s"], true), '"resources/assets"'), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "}"), "\n ", 
     tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "ss"], true), ":public"), "        ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "s"], true), '"resources/public"'), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "}"), 
     "\n")));
-    var G__276332 = bootstrap.panel.default$.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "panel-primary", G__276333, G__276335);
-    var G__276341 = tailrecursion.hoplon.br.call(null);
-    var G__276344 = bootstrap.panel.title.call(null, "Task 2: Create \u201cHello World\u201d page.");
-    var G__276343 = bootstrap.panel.heading.call(null, G__276344);
-    var G__276347 = tailrecursion.hoplon.code.call(null, "src/index.cljs.hl");
-    var G__276346 = tailrecursion.hoplon.p.call(null, "Create a ", G__276347, " file with the following contents:");
-    var G__276348 = tailrecursion.hoplon.p.call(null, "Your project directory should now look like this:");
-    var G__276350 = tailrecursion.hoplon.code.call(null, ".\n\u251c\u2500\u2500 boot.edn\n\u2514\u2500\u2500 src\n    \u2514\u2500\u2500 index.cljs.hl");
-    var G__276349 = tailrecursion.hoplon.pre.call(null, G__276350);
-    var G__276345 = bootstrap.panel.body.call(null, G__276346, tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "highlight"], true), tailrecursion.hoplon.pre.call(null, tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
+    var G__282572 = bootstrap.panel.default$.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "panel-primary", G__282573, G__282575);
+    var G__282581 = tailrecursion.hoplon.br.call(null);
+    var G__282584 = bootstrap.panel.title.call(null, "Task 2: Create \u201cHello World\u201d page.");
+    var G__282583 = bootstrap.panel.heading.call(null, G__282584);
+    var G__282587 = tailrecursion.hoplon.code.call(null, "src/index.cljs.hl");
+    var G__282586 = tailrecursion.hoplon.p.call(null, "Create a ", G__282587, " file with the following contents:");
+    var G__282588 = tailrecursion.hoplon.p.call(null, "Your project directory should now look like this:");
+    var G__282590 = tailrecursion.hoplon.code.call(null, ".\n\u251c\u2500\u2500 boot.edn\n\u2514\u2500\u2500 src\n    \u2514\u2500\u2500 index.cljs.hl");
+    var G__282589 = tailrecursion.hoplon.pre.call(null, G__282590);
+    var G__282585 = bootstrap.panel.body.call(null, G__282586, tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "highlight"], true), tailrecursion.hoplon.pre.call(null, tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
     "class", "class", 1108647146), "nf"], true), "page"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "s"], true), '"index.html"'), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), ")"), "\n\n", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", 
     "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nf"], true), "html"), "\n  ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), 
     "nf"], true), "head"), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), ")"), "\n  ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nf"], true), "body"), 
     "\n    ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nf"], true), "h1"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "s"], true), '"Hello, world!"'), tailrecursion.hoplon.span.call(null, 
-    cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), ")))"), "\n")), G__276348, G__276349);
-    var G__276342 = bootstrap.panel.default$.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "panel-primary", G__276343, G__276345);
-    var G__276351 = tailrecursion.hoplon.br.call(null);
-    var G__276354 = bootstrap.panel.title.call(null, "Task 3: Compile the project.");
-    var G__276353 = bootstrap.panel.heading.call(null, G__276354);
-    var G__276356 = tailrecursion.hoplon.p.call(null, "In another terminal do the following in the project directory:");
-    var G__276357 = tailrecursion.hoplon.p.call(null, "This starts the Hoplon compiler in \u201cwatcher\u201d mode\u2013source\n                 directories are monitored for changes and recompiled when\n                 necessary. When it's finished compiling the project directory\n                 should look something like this:");
-    var G__276359 = tailrecursion.hoplon.code.call(null, ".\n\u251c\u2500\u2500 boot.edn\n\u251c\u2500\u2500 resources\n\u2502\u00a0\u00a0 \u2514\u2500\u2500 public\n\u2502\u00a0\u00a0     \u251c\u2500\u2500 main.js\n\u2502\u00a0\u00a0     \u2514\u2500\u2500 index.html\n\u2514\u2500\u2500 src\n    \u2514\u2500\u2500 index.cljs.hl");
-    var G__276358 = tailrecursion.hoplon.pre.call(null, G__276359);
-    var G__276362 = tailrecursion.hoplon.code.call(null, "index.html");
-    var G__276361 = tailrecursion.hoplon.p.call(null, "Load ", G__276362, " in a browser and enjoy a friendly greeting.");
-    var G__276355 = bootstrap.panel.body.call(null, G__276356, tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "highlight"], true), tailrecursion.hoplon.pre.call(null, tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nv"], true), "$ JVM_OPTS"), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
-    "class", "class", 1108647146), "o"], true), "\x3d"), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "s2"], true), '"-Xmx1g"'), " boot watch hoplon\n")), G__276357, G__276358, G__276361);
-    var G__276352 = bootstrap.panel.default$.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "panel-primary", G__276353, G__276355);
-    var G__276360 = tailrecursion.hoplon.br.call(null);
-    var G__276365 = bootstrap.panel.title.call(null, "Task 4: Add a counter.");
-    var G__276364 = bootstrap.panel.heading.call(null, G__276365);
-    var G__276367 = tailrecursion.hoplon.p.call(null, "Now we add a counter to the page that will keep track of how\n                 many times a button was clicked. To do this we add an input\n                 cell containing the click count to the environment, and link\n                 it to UI elements for input and output interactions with the\n                 user. Input will be click events on the button. Output will\n                 be the contents of a text node displaying the current count.");
-    var G__276369 = tailrecursion.hoplon.code.call(null, "index.cljs.hl");
-    var G__276368 = tailrecursion.hoplon.p.call(null, "Modify the ", G__276369, " page such that it contains the following:");
-    var G__276370 = tailrecursion.hoplon.p.call(null, "If the compiler is still running in another terminal the\n                 application will be recompiled. Reload the page and click the\n                 button a few times. Every click accounted for!");
-    var G__276366 = bootstrap.panel.body.call(null, G__276367, G__276368, tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "highlight"], true), tailrecursion.hoplon.pre.call(null, tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
+    cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), ")))"), "\n")), G__282588, G__282589);
+    var G__282582 = bootstrap.panel.default$.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "panel-primary", G__282583, G__282585);
+    var G__282591 = tailrecursion.hoplon.br.call(null);
+    var G__282594 = bootstrap.panel.title.call(null, "Task 3: Compile the project.");
+    var G__282593 = bootstrap.panel.heading.call(null, G__282594);
+    var G__282596 = tailrecursion.hoplon.p.call(null, "In another terminal do the following in the project directory:");
+    var G__282597 = tailrecursion.hoplon.p.call(null, "This starts the Hoplon compiler in \u201cwatcher\u201d mode\u2013source\n                 directories are monitored for changes and recompiled when\n                 necessary. When it's finished compiling the project directory\n                 should look something like this:");
+    var G__282599 = tailrecursion.hoplon.code.call(null, ".\n\u251c\u2500\u2500 boot.edn\n\u251c\u2500\u2500 resources\n\u2502\u00a0\u00a0 \u2514\u2500\u2500 public\n\u2502\u00a0\u00a0     \u251c\u2500\u2500 main.js\n\u2502\u00a0\u00a0     \u2514\u2500\u2500 index.html\n\u2514\u2500\u2500 src\n    \u2514\u2500\u2500 index.cljs.hl");
+    var G__282598 = tailrecursion.hoplon.pre.call(null, G__282599);
+    var G__282602 = tailrecursion.hoplon.code.call(null, "index.html");
+    var G__282601 = tailrecursion.hoplon.p.call(null, "Load ", G__282602, " in a browser and enjoy a friendly greeting.");
+    var G__282595 = bootstrap.panel.body.call(null, G__282596, tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "highlight"], true), tailrecursion.hoplon.pre.call(null, tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nv"], true), "$ JVM_OPTS"), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
+    "class", "class", 1108647146), "o"], true), "\x3d"), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "s2"], true), '"-Xmx1g"'), " boot watch hoplon\n")), G__282597, G__282598, G__282601);
+    var G__282592 = bootstrap.panel.default$.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "panel-primary", G__282593, G__282595);
+    var G__282600 = tailrecursion.hoplon.br.call(null);
+    var G__282605 = bootstrap.panel.title.call(null, "Task 4: Add a counter.");
+    var G__282604 = bootstrap.panel.heading.call(null, G__282605);
+    var G__282607 = tailrecursion.hoplon.p.call(null, "Now we add a counter to the page that will keep track of how\n                 many times a button was clicked. To do this we add an input\n                 cell containing the click count to the environment, and link\n                 it to UI elements for input and output interactions with the\n                 user. Input will be click events on the button. Output will\n                 be the contents of a text node displaying the current count.");
+    var G__282609 = tailrecursion.hoplon.code.call(null, "index.cljs.hl");
+    var G__282608 = tailrecursion.hoplon.p.call(null, "Modify the ", G__282609, " page such that it contains the following:");
+    var G__282610 = tailrecursion.hoplon.p.call(null, "If the compiler is still running in another terminal the\n                 application will be recompiled. Reload the page and click the\n                 button a few times. Every click accounted for!");
+    var G__282606 = bootstrap.panel.body.call(null, G__282607, G__282608, tailrecursion.hoplon.div.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "highlight"], true), tailrecursion.hoplon.pre.call(null, tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
     "class", "class", 1108647146), "nf"], true), "page"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "s"], true), '"index.html"'), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), ")"), "\n\n", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", 
     "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nf"], true), "defc"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nv"], true), "clicks"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), 
     "mi"], true), "0"), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), ")"), "\n\n", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nf"], true), "html"), 
@@ -32056,41 +32056,44 @@ tailrecursion.hoplon.app_pages.G__274439.hoploninit = function hoploninit() {
     "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nf"], true), "button"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "ss"], true), ":on-click"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "o"], true), 
     "#"), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), "("), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nf"], true), "swap!"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nv"], true), "clicks"), " ", tailrecursion.hoplon.span.call(null, 
     cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "nv"], true), "inc"), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "p"], true), ")"), " ", tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, "class", "class", 1108647146), "s"], true), '"click me!"'), tailrecursion.hoplon.span.call(null, cljs.core.PersistentArrayMap.fromArray([new cljs.core.Keyword(null, 
-    "class", "class", 1108647146), "p"], true), ")))"), "\n")), G__276370);
-    var G__276363 = bootstrap.panel.default$.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "panel-primary", G__276364, G__276366);
-    var G__276294 = bootstrap.grid.col6.call(null, G__276295, G__276298, G__276299, G__276300, G__276323, G__276331, G__276332, G__276341, G__276342, G__276351, G__276352, G__276360, G__276363);
-    var G__276302 = tailrecursion.hoplon.h2.call(null, new cljs.core.Keyword(null, "style", "style", 1123684643), "color:transparent;", "asdf");
-    var G__276305 = bootstrap.panel.title.call(null, "Fig. 1: Boot configuration.");
-    var G__276304 = bootstrap.panel.heading.call(null, G__276305);
-    var G__276308 = tailrecursion.hoplon.code.call(null, "boot.edn");
-    var G__276307 = tailrecursion.hoplon.p.call(null, "There are a few keys in the ", G__276308, " configuration file that are important when building Hoplon\n                 applications. Understanding how these keys work will help you\n                 to organize your Hoplon project in a way that works best for\n                 your workflow and deployment situation.");
-    var G__276311 = tailrecursion.hoplon.tt.call(null, ":public");
-    var G__276310 = tailrecursion.hoplon.dt.call(null, G__276311);
-    var G__276312 = tailrecursion.hoplon.dd.call(null, "The output directory for the Hoplon compiler. HTML and\n                    static content ends up here. This is where you point your\n                    webserver's document root.");
-    var G__276372 = tailrecursion.hoplon.tt.call(null, ":src-paths");
-    var G__276371 = tailrecursion.hoplon.dt.call(null, G__276372);
-    var G__276373 = tailrecursion.hoplon.dd.call(null, "A set of paths in which the build process looks for source\n                    files to compile. These directories can contain Hoplon,\n                    Clojure, ClojureScript, JavaScript, or any other type of\n                    source file. The various compilers generally dispatch on\n                    filename extension, so the directory structure is pretty\n                    much up to you. The file watcher monitors these directories\n                    for changes and recompiles the project when necessary.");
-    var G__276375 = tailrecursion.hoplon.tt.call(null, ":src-static");
-    var G__276374 = tailrecursion.hoplon.dt.call(null, G__276375);
-    var G__276377 = tailrecursion.hoplon.tt.call(null, ":public");
-    var G__276376 = tailrecursion.hoplon.dd.call(null, "A set of paths containing the static content for the\n                    project. This may include external JavaScript files, CSS\n                    stylesheets, images, etc. The contents of these directories\n                    are merged into the ", G__276377, " directory after compilation, and any subdirectory structure\n                    is overlayed.");
-    var G__276309 = tailrecursion.hoplon.dl.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "dl-horizontal", G__276310, G__276312, G__276371, G__276373, G__276374, G__276376);
-    var G__276314 = tailrecursion.hoplon.code.call(null, ".gitignore");
-    var G__276315 = tailrecursion.hoplon.tt.call(null, "git(1)");
-    var G__276313 = tailrecursion.hoplon.p.call(null, "It's a good idea to set up your ", G__276314, " file correctly, because the boot watch task uses your ", G__276315, " configuration to determine which files will trigger\n                 recompiling and which will be ignored.");
-    var G__276306 = bootstrap.panel.body.call(null, G__276307, G__276309, G__276313);
-    var G__276303 = bootstrap.panel.default$.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "panel-warning", G__276304, G__276306);
-    var G__276318 = bootstrap.panel.title.call(null, "Fig. 2: Anatomy of a Hoplon page.");
-    var G__276317 = bootstrap.panel.heading.call(null, G__276318);
-    var G__276319 = bootstrap.panel.body.call(null);
-    var G__276316 = bootstrap.panel.default$.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "panel-warning", G__276317, G__276319);
-    var G__276301 = bootstrap.grid.col6.call(null, G__276302, G__276303, G__276316);
-    var G__276293 = bootstrap.grid.row.call(null, G__276294, G__276301);
-    var G__276320 = tailrecursion.hoplon.hr.call(null);
-    var G__276322 = tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "style", "style", 1123684643), "text-align:center;", "Copyright \u00a9 Alan Dipert and Micha Niskin. All rights reserved.");
-    var G__276321 = tailrecursion.hoplon.footer.call(null, new cljs.core.Keyword(null, "style", "style", 1123684643), "padding:30px 0px;", G__276322);
-    var G__276292 = tailrecursion.hoplon.app_pages.G__274439.content_getting_started.call(null, G__276293, G__276320, G__276321);
-    return G__276292
+    "class", "class", 1108647146), "p"], true), ")))"), "\n")), G__282610);
+    var G__282603 = bootstrap.panel.default$.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "panel-primary", G__282604, G__282606);
+    var G__282533 = bootstrap.grid.col6.call(null, G__282534, G__282537, G__282538, G__282539, G__282563, G__282571, G__282572, G__282581, G__282582, G__282591, G__282592, G__282600, G__282603);
+    var G__282541 = tailrecursion.hoplon.h2.call(null, new cljs.core.Keyword(null, "style", "style", 1123684643), "color:transparent;", "asdf");
+    var G__282544 = bootstrap.panel.title.call(null, "Fig. 1: Boot configuration.");
+    var G__282543 = bootstrap.panel.heading.call(null, G__282544);
+    var G__282547 = tailrecursion.hoplon.code.call(null, "boot.edn");
+    var G__282546 = tailrecursion.hoplon.p.call(null, "There are a few keys in the ", G__282547, " configuration file that are important when building Hoplon\n                 applications. Understanding how these keys work will help you\n                 to organize your Hoplon project in a way that works best for\n                 your workflow and deployment situation.");
+    var G__282550 = tailrecursion.hoplon.tt.call(null, ":public");
+    var G__282549 = tailrecursion.hoplon.dt.call(null, G__282550);
+    var G__282552 = tailrecursion.hoplon.p.call(null, "The output directory for the Hoplon compiler. HTML and\n                     static content ends up here. This is where you point your\n                     webserver's document root.");
+    var G__282551 = tailrecursion.hoplon.dd.call(null, G__282552);
+    var G__282612 = tailrecursion.hoplon.tt.call(null, ":src-paths");
+    var G__282611 = tailrecursion.hoplon.dt.call(null, G__282612);
+    var G__282614 = tailrecursion.hoplon.p.call(null, "A set of paths in which the build process looks for source\n                     files to compile. These directories can contain Hoplon,\n                     Clojure, ClojureScript, JavaScript, or any other type of\n                     source file. The various compilers generally dispatch on\n                     filename extension, so the directory structure is pretty\n                     much up to you. The file watcher monitors these directories\n                     for changes and recompiles the project when necessary.");
+    var G__282613 = tailrecursion.hoplon.dd.call(null, G__282614);
+    var G__282616 = tailrecursion.hoplon.tt.call(null, ":src-static");
+    var G__282615 = tailrecursion.hoplon.dt.call(null, G__282616);
+    var G__282619 = tailrecursion.hoplon.tt.call(null, ":public");
+    var G__282618 = tailrecursion.hoplon.p.call(null, "A set of paths containing the static content for the\n                     project. This may include external JavaScript files, CSS\n                     stylesheets, images, etc. The contents of these directories\n                     are merged into the ", G__282619, " directory after compilation, and any subdirectory structure\n                     is overlayed.");
+    var G__282617 = tailrecursion.hoplon.dd.call(null, G__282618);
+    var G__282548 = tailrecursion.hoplon.dl.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "dl-horizontal", G__282549, G__282551, G__282611, G__282613, G__282615, G__282617);
+    var G__282554 = tailrecursion.hoplon.code.call(null, ".gitignore");
+    var G__282555 = tailrecursion.hoplon.tt.call(null, "git(1)");
+    var G__282553 = tailrecursion.hoplon.p.call(null, "It's a good idea to set up your ", G__282554, " file correctly, because the boot watch task uses your ", G__282555, " configuration to determine which files will trigger\n                 recompiling and which will be ignored.");
+    var G__282545 = bootstrap.panel.body.call(null, G__282546, G__282548, G__282553);
+    var G__282542 = bootstrap.panel.default$.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "panel-warning", G__282543, G__282545);
+    var G__282558 = bootstrap.panel.title.call(null, "Fig. 2: Anatomy of a Hoplon page.");
+    var G__282557 = bootstrap.panel.heading.call(null, G__282558);
+    var G__282559 = bootstrap.panel.body.call(null);
+    var G__282556 = bootstrap.panel.default$.call(null, new cljs.core.Keyword(null, "class", "class", 1108647146), "panel-warning", G__282557, G__282559);
+    var G__282540 = bootstrap.grid.col6.call(null, G__282541, G__282542, G__282556);
+    var G__282532 = bootstrap.grid.row.call(null, G__282533, G__282540);
+    var G__282560 = tailrecursion.hoplon.hr.call(null);
+    var G__282562 = tailrecursion.hoplon.div.call(null, new cljs.core.Keyword(null, "style", "style", 1123684643), "text-align:center;", "Copyright \u00a9 Alan Dipert and Micha Niskin. All rights reserved.");
+    var G__282561 = tailrecursion.hoplon.footer.call(null, new cljs.core.Keyword(null, "style", "style", 1123684643), "padding:30px 0px;", G__282562);
+    var G__282531 = tailrecursion.hoplon.app_pages.G__280675.content_getting_started.call(null, G__282532, G__282560, G__282561);
+    return G__282531
   }()], true))
 };
-goog.exportSymbol("tailrecursion.hoplon.app_pages.G__274439.hoploninit", tailrecursion.hoplon.app_pages.G__274439.hoploninit);
+goog.exportSymbol("tailrecursion.hoplon.app_pages.G__280675.hoploninit", tailrecursion.hoplon.app_pages.G__280675.hoploninit);
