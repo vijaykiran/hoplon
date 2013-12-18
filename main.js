@@ -2853,11 +2853,11 @@ function Na(d) {
   return null == d ? null : d.constructor
 }
 function Ta(d, e) {
-  var f = Na(e), f = c(c(f) ? f.jc : f) ? f.hc : b(e);
+  var f = Na(e), f = c(c(f) ? f.lc : f) ? f.jc : b(e);
   return Error(["No protocol method ", d, " defined for type ", f, ": ", e].join(""))
 }
 function hb(d) {
-  var e = d.hc;
+  var e = d.jc;
   return c(e) ? e : "" + t(d)
 }
 function mb(d) {
@@ -2887,7 +2887,7 @@ function ub(d, e) {
   }
   return f.call(null, d, e)
 }
-var wb = {}, Ab = function() {
+var vb = {}, Ab = function() {
   function d(d, e, f) {
     if(d ? d.K : d) {
       return d.K(d, e, f)
@@ -3040,8 +3040,8 @@ function Xb(d) {
 }
 var Yb = {};
 function Zb(d, e) {
-  if(d ? d.fc : d) {
-    return d.fc(0, e)
+  if(d ? d.hc : d) {
+    return d.hc(0, e)
   }
   var f;
   f = Zb[b(null == d ? null : d)];
@@ -3202,8 +3202,8 @@ function uc(d) {
   return e.call(null, d)
 }
 function vc(d, e) {
-  if(d ? d.Ob : d) {
-    return d.Ob(d, e)
+  if(d ? d.Qb : d) {
+    return d.Qb(d, e)
   }
   var f;
   f = vc[b(null == d ? null : d)];
@@ -3213,8 +3213,8 @@ function vc(d, e) {
   return f.call(null, d, e)
 }
 function wc(d, e, f) {
-  if(d ? d.Pb : d) {
-    return d.Pb(d, e, f)
+  if(d ? d.Rb : d) {
+    return d.Rb(d, e, f)
   }
   var g;
   g = wc[b(null == d ? null : d)];
@@ -3224,8 +3224,8 @@ function wc(d, e, f) {
   return g.call(null, d, e, f)
 }
 function xc(d, e) {
-  if(d ? d.Nb : d) {
-    return d.Nb(d, e)
+  if(d ? d.Pb : d) {
+    return d.Pb(d, e)
   }
   var f;
   f = xc[b(null == d ? null : d)];
@@ -3235,8 +3235,8 @@ function xc(d, e) {
   return f.call(null, d, e)
 }
 function yc(d) {
-  if(d ? d.Mb : d) {
-    return d.Mb(d)
+  if(d ? d.Ob : d) {
+    return d.Ob(d)
   }
   var e;
   e = yc[b(null == d ? null : d)];
@@ -3246,8 +3246,8 @@ function yc(d) {
   return e.call(null, d)
 }
 function zc(d, e) {
-  if(d ? d.gc : d) {
-    return d.gc(0, e)
+  if(d ? d.ic : d) {
+    return d.ic(0, e)
   }
   var f;
   f = zc[b(null == d ? null : d)];
@@ -3257,7 +3257,7 @@ function zc(d, e) {
   return f.call(null, d, e)
 }
 function Ac(d) {
-  if(d ? d.tc : d) {
+  if(d ? d.vc : d) {
     return null
   }
   var e;
@@ -3268,20 +3268,20 @@ function Ac(d) {
   return e.call(null, d)
 }
 var Bc = {};
-function Cc(d, e, f) {
+function Ec(d, e, f) {
   if(d ? d.r : d) {
     return d.r(d, e, f)
   }
   var g;
-  g = Cc[b(null == d ? null : d)];
-  if(!g && (g = Cc._, !g)) {
+  g = Ec[b(null == d ? null : d)];
+  if(!g && (g = Ec._, !g)) {
     throw Ta("IPrintWithWriter.-pr-writer", d);
   }
   return g.call(null, d, e, f)
 }
 function Fc(d, e, f) {
-  if(d ? d.Rb : d) {
-    return d.Rb(d, e, f)
+  if(d ? d.Tb : d) {
+    return d.Tb(d, e, f)
   }
   var g;
   g = Fc[b(null == d ? null : d)];
@@ -3291,8 +3291,8 @@ function Fc(d, e, f) {
   return g.call(null, d, e, f)
 }
 function Gc(d, e, f) {
-  if(d ? d.Qb : d) {
-    return d.Qb(d, e, f)
+  if(d ? d.Sb : d) {
+    return d.Sb(d, e, f)
   }
   var g;
   g = Gc[b(null == d ? null : d)];
@@ -3301,13 +3301,13 @@ function Gc(d, e, f) {
   }
   return g.call(null, d, e, f)
 }
-function Hc(d) {
+function Mc(d) {
   if(d ? d.Za : d) {
     return d.Za(d)
   }
   var e;
-  e = Hc[b(null == d ? null : d)];
-  if(!e && (e = Hc._, !e)) {
+  e = Mc[b(null == d ? null : d)];
+  if(!e && (e = Mc._, !e)) {
     throw Ta("IEditableCollection.-as-transient", d);
   }
   return e.call(null, d)
@@ -3346,8 +3346,8 @@ function Pc(d, e, f) {
   return g.call(null, d, e, f)
 }
 function Qc(d) {
-  if(d ? d.Yb : d) {
-    return d.Yb()
+  if(d ? d.$b : d) {
+    return d.$b()
   }
   var e;
   e = Qc[b(null == d ? null : d)];
@@ -3379,15 +3379,15 @@ function Sc(d) {
   return e.call(null, d)
 }
 function Tc(d) {
-  this.Ac = d;
+  this.Cc = d;
   this.q = 0;
   this.j = 1073741824
 }
-Tc.prototype.gc = function(d, e) {
-  return this.Ac.append(e)
+Tc.prototype.ic = function(d, e) {
+  return this.Cc.append(e)
 };
-Tc.prototype.tc = ea(null);
-function Uc(d) {
+Tc.prototype.vc = ea(null);
+function Vc(d) {
   var e = new ka, f = new Tc(e);
   d.r(d, f, v([Wc, !0, Xc, !0, Yc, !1, Zc, !1], !0));
   Ac(f);
@@ -3460,7 +3460,7 @@ function w(d) {
     return null
   }
   var e;
-  e = d ? ((e = d.j & 8388608) ? e : d.Jc) ? !0 : !1 : !1;
+  e = d ? ((e = d.j & 8388608) ? e : d.Lc) ? !0 : !1 : !1;
   if(e) {
     return d.t(d)
   }
@@ -3504,7 +3504,7 @@ function A(d) {
     d = null
   }else {
     var e;
-    e = d ? ((e = d.j & 128) ? e : d.ec) ? !0 : !1 : !1;
+    e = d ? ((e = d.j & 128) ? e : d.gc) ? !0 : !1 : !1;
     d = e ? d.ba(d) : w(z(d))
   }
   return d
@@ -3695,10 +3695,10 @@ var gd = function() {
   g.k = d;
   return g
 }();
-function jd(d) {
+function id(d) {
   if(d) {
     var e = d.j & 2;
-    d = (e ? e : d.nc) ? !0 : d.j ? !1 : n(ob, d)
+    d = (e ? e : d.pc) ? !0 : d.j ? !1 : n(ob, d)
   }else {
     d = n(ob, d)
   }
@@ -3707,9 +3707,9 @@ function jd(d) {
 function kd(d) {
   if(d) {
     var e = d.j & 16;
-    d = (e ? e : d.bc) ? !0 : d.j ? !1 : n(wb, d)
+    d = (e ? e : d.dc) ? !0 : d.j ? !1 : n(vb, d)
   }else {
-    d = n(wb, d)
+    d = n(vb, d)
   }
   return d
 }
@@ -3734,7 +3734,7 @@ a.cb = function(d) {
   return 0 < e ? new md(d, e - 1, null) : ed
 };
 a.toString = function() {
-  return Uc(this)
+  return Vc(this)
 };
 a.M = function(d, e) {
   return hd.k(this.e, e, this.e[this.o], this.o + 1)
@@ -3820,7 +3820,7 @@ a.A = function(d, e) {
   return E.a ? E.a(e, d) : E.call(null, e, d)
 };
 a.toString = function() {
-  return Uc(this)
+  return Vc(this)
 };
 a.M = function(d, e) {
   return qd.a ? qd.a(e, d) : qd.call(null, e, d)
@@ -3901,7 +3901,7 @@ var td = function() {
 function F(d) {
   if(null != d) {
     var e;
-    e = d ? ((e = d.j & 2) ? e : d.nc) ? !0 : !1 : !1;
+    e = d ? ((e = d.j & 2) ? e : d.pc) ? !0 : !1 : !1;
     if(e) {
       d = d.B(d)
     }else {
@@ -3918,7 +3918,7 @@ function F(d) {
               a: {
                 d = w(d);
                 for(e = 0;;) {
-                  if(jd(d)) {
+                  if(id(d)) {
                     d = e + qb(d);
                     break a
                   }
@@ -4001,7 +4001,7 @@ var vd = function() {
     if(null != d) {
       if(function() {
         var e;
-        e = d ? ((e = d.j & 16) ? e : d.bc) ? !0 : !1 : !1;
+        e = d ? ((e = d.j & 16) ? e : d.dc) ? !0 : !1 : !1;
         return e
       }()) {
         return d.K(d, Math.floor(e), f)
@@ -4009,7 +4009,7 @@ var vd = function() {
       if(d instanceof Array || "string" === typeof d) {
         return e < d.length ? d[e] : f
       }
-      if(n(wb, d)) {
+      if(n(vb, d)) {
         return Ab.a(d, e)
       }
       if(q) {
@@ -4032,7 +4032,7 @@ var vd = function() {
     }
     if(function() {
       var e;
-      e = d ? ((e = d.j & 16) ? e : d.bc) ? !0 : !1 : !1;
+      e = d ? ((e = d.j & 16) ? e : d.dc) ? !0 : !1 : !1;
       return e
     }()) {
       return d.p(d, Math.floor(e))
@@ -4040,7 +4040,7 @@ var vd = function() {
     if(d instanceof Array || "string" === typeof d) {
       return e < d.length ? d[e] : null
     }
-    if(n(wb, d)) {
+    if(n(vb, d)) {
       return Ab.a(d, e)
     }
     if(q) {
@@ -4071,7 +4071,7 @@ var vd = function() {
   function d(d, e, f) {
     if(null != d) {
       var k;
-      k = d ? ((k = d.j & 256) ? k : d.Lb) ? !0 : !1 : !1;
+      k = d ? ((k = d.j & 256) ? k : d.Nb) ? !0 : !1 : !1;
       d = k ? d.w(d, e, f) : d instanceof Array ? e < d.length ? d[e] : f : "string" === typeof d ? e < d.length ? d[e] : f : n(Lb, d) ? Ob.c(d, e, f) : q ? f : null
     }else {
       d = f
@@ -4080,7 +4080,7 @@ var vd = function() {
   }
   function e(d, e) {
     var f;
-    null == d ? f = null : (f = d ? ((f = d.j & 256) ? f : d.Lb) ? !0 : !1 : !1, f = f ? d.J(d, e) : d instanceof Array ? e < d.length ? d[e] : null : "string" === typeof d ? e < d.length ? d[e] : null : n(Lb, d) ? Ob.a(d, e) : null);
+    null == d ? f = null : (f = d ? ((f = d.j & 256) ? f : d.Nb) ? !0 : !1 : !1, f = f ? d.J(d, e) : d instanceof Array ? e < d.length ? d[e] : null : "string" === typeof d ? e < d.length ? d[e] : null : n(Lb, d) ? Ob.a(d, e) : null);
     return f
   }
   var f = null, f = function(f, h, l) {
@@ -4188,23 +4188,23 @@ var vd = function() {
 }();
 function Ad(d) {
   var e = "function" == b(d);
-  return e ? e : d ? c(c(null) ? null : d.mc) ? !0 : d.ic ? !1 : n(nb, d) : n(nb, d)
+  return e ? e : d ? c(c(null) ? null : d.oc) ? !0 : d.kc ? !1 : n(nb, d) : n(nb, d)
 }
 var rd = function Bd(e, f) {
   return function() {
     var f = Ad(e);
-    f && (f = e ? ((f = e.j & 262144) ? f : e.Nc) ? !0 : e.j ? !1 : n(jc, e) : n(jc, e), f = !f);
+    f && (f = e ? ((f = e.j & 262144) ? f : e.Pc) ? !0 : e.j ? !1 : n(jc, e) : n(jc, e), f = !f);
     return f
   }() ? Bd(function() {
     "undefined" === typeof la && (la = {}, la = function(e, f, l, k) {
       this.h = e;
-      this.Sb = f;
-      this.Cc = l;
-      this.yc = k;
+      this.Ub = f;
+      this.Ec = l;
+      this.Ac = k;
       this.q = 0;
       this.j = 393217
-    }, la.jc = !0, la.hc = "cljs.core/t9193", la.uc = function(e) {
-      return zc(e, "cljs.core/t9193")
+    }, la.lc = !0, la.jc = "cljs.core/t15018", la.wc = function(e) {
+      return zc(e, "cljs.core/t15018")
     }, la.prototype.call = function() {
       function e(g, k) {
         g = this;
@@ -4213,7 +4213,7 @@ var rd = function Bd(e, f) {
         return f.call(this, g, m)
       }
       function f(e, g) {
-        return K.a ? K.a(e.Sb, g) : K.call(null, e.Sb, g)
+        return K.a ? K.a(e.Ub, g) : K.call(null, e.Ub, g)
       }
       e.g = 1;
       e.f = function(e) {
@@ -4226,15 +4226,15 @@ var rd = function Bd(e, f) {
     }(), la.prototype.apply = function(e, f) {
       e = this;
       return e.call.apply(e, [e].concat(f.slice()))
-    }, la.prototype.mc = !0, la.prototype.C = da("yc"), la.prototype.D = function(e, f) {
-      return new la(this.h, this.Sb, this.Cc, f)
+    }, la.prototype.oc = !0, la.prototype.C = da("Ac"), la.prototype.D = function(e, f) {
+      return new la(this.h, this.Ub, this.Ec, f)
     });
     return new la(f, e, Bd, null)
   }(), f) : kc(e, f)
 };
 function Cd(d) {
   var e;
-  e = d ? ((e = d.j & 131072) ? e : d.rc) ? !0 : d.j ? !1 : n(fc, d) : n(fc, d);
+  e = d ? ((e = d.j & 131072) ? e : d.tc) ? !0 : d.j ? !1 : n(fc, d) : n(fc, d);
   return e ? ic(d) : null
 }
 var Dd = function() {
@@ -4314,7 +4314,7 @@ function Hd(d) {
   }else {
     if(d) {
       var e = d.j & 4096;
-      d = (e ? e : d.Lc) ? !0 : d.j ? !1 : n(Yb, d)
+      d = (e ? e : d.Nc) ? !0 : d.j ? !1 : n(Yb, d)
     }else {
       d = n(Yb, d)
     }
@@ -4324,7 +4324,7 @@ function Hd(d) {
 function Id(d) {
   if(d) {
     var e = d.j & 16777216;
-    d = (e ? e : d.Kc) ? !0 : d.j ? !1 : n(sc, d)
+    d = (e ? e : d.Mc) ? !0 : d.j ? !1 : n(sc, d)
   }else {
     d = n(sc, d)
   }
@@ -4336,7 +4336,7 @@ function Kd(d) {
   }else {
     if(d) {
       var e = d.j & 1024;
-      d = (e ? e : d.Gc) ? !0 : d.j ? !1 : n(Rb, d)
+      d = (e ? e : d.Ic) ? !0 : d.j ? !1 : n(Rb, d)
     }else {
       d = n(Rb, d)
     }
@@ -4346,7 +4346,7 @@ function Kd(d) {
 function Ld(d) {
   if(d) {
     var e = d.j & 16384;
-    d = (e ? e : d.Mc) ? !0 : d.j ? !1 : n(dc, d)
+    d = (e ? e : d.Oc) ? !0 : d.j ? !1 : n(dc, d)
   }else {
     d = n(dc, d)
   }
@@ -4355,7 +4355,7 @@ function Ld(d) {
 function Md(d) {
   if(d) {
     var e = d.q & 512;
-    d = (e ? e : d.Dc) ? !0 : !1
+    d = (e ? e : d.Fc) ? !0 : !1
   }else {
     d = !1
   }
@@ -4398,8 +4398,8 @@ function Sd(d, e) {
   }
   if(Na(d) === Na(e)) {
     var f;
-    f = d ? ((f = d.q & 2048) ? f : d.$b) ? !0 : !1 : !1;
-    return f ? d.ac(d, e) : d > e ? 1 : d < e ? -1 : 0
+    f = d ? ((f = d.q & 2048) ? f : d.bc) ? !0 : !1 : !1;
+    return f ? d.cc(d, e) : d > e ? 1 : d < e ? -1 : 0
   }
   if(q) {
     throw Error("compare on non-nil objects of different types");
@@ -4462,12 +4462,12 @@ var Td = function() {
 }(), Ud = function() {
   function d(d, e, f) {
     var k;
-    k = f ? ((k = f.j & 524288) ? k : f.sc) ? !0 : !1 : !1;
+    k = f ? ((k = f.j & 524288) ? k : f.uc) ? !0 : !1 : !1;
     return k ? f.N(f, d, e) : f instanceof Array ? hd.c(f, d, e) : "string" === typeof f ? hd.c(f, d, e) : n(lc, f) ? mc.c(f, d, e) : q ? qd.c(d, e, f) : null
   }
   function e(d, e) {
     var f;
-    f = e ? ((f = e.j & 524288) ? f : e.sc) ? !0 : !1 : !1;
+    f = e ? ((f = e.j & 524288) ? f : e.uc) ? !0 : !1 : !1;
     return f ? e.M(e, d) : e instanceof Array ? hd.a(e, d) : "string" === typeof e ? hd.a(e, d) : n(lc, e) ? mc.a(e, d) : q ? qd.a(d, e) : null
   }
   var f = null, f = function(f, h, l) {
@@ -4988,7 +4988,7 @@ a.A = function(d, e) {
   return new we(this.h, e, d, this.count + 1, null)
 };
 a.toString = function() {
-  return Uc(this)
+  return Vc(this)
 };
 a.M = function(d, e) {
   return qd.a(e, d)
@@ -5028,7 +5028,7 @@ a.A = function(d, e) {
   return new we(this.h, e, null, 1, null)
 };
 a.toString = function() {
-  return Uc(this)
+  return Vc(this)
 };
 a.M = function(d, e) {
   return qd.a(e, d)
@@ -5060,7 +5060,7 @@ function ye(d) {
 }
 function ze(d) {
   var e;
-  e = d ? ((e = d.j & 134217728) ? e : d.Ic) ? !0 : d.j ? !1 : n(tc, d) : n(tc, d);
+  e = d ? ((e = d.j & 134217728) ? e : d.Kc) ? !0 : d.j ? !1 : n(tc, d) : n(tc, d);
   return e ? uc(d) : Ud.c(td, ed, d)
 }
 var nd = function() {
@@ -5123,7 +5123,7 @@ a.A = function(d, e) {
   return new Ae(null, e, d, this.m)
 };
 a.toString = function() {
-  return Uc(this)
+  return Vc(this)
 };
 a.M = function(d, e) {
   return qd.a(e, d)
@@ -5176,10 +5176,10 @@ a.call = function() {
     switch(arguments.length) {
       case 2:
         var h;
-        null == f ? h = null : (h = f ? ((h = f.j & 256) ? h : f.Lb) ? !0 : f.j ? !1 : n(Lb, f) : n(Lb, f), h = h ? Ob.c(f, this, null) : null);
+        null == f ? h = null : (h = f ? ((h = f.j & 256) ? h : f.Nb) ? !0 : f.j ? !1 : n(Lb, f) : n(Lb, f), h = h ? Ob.c(f, this, null) : null);
         return h;
       case 3:
-        return null == f ? h = g : (h = f ? ((h = f.j & 256) ? h : f.Lb) ? !0 : f.j ? !1 : n(Lb, f) : n(Lb, f), h = h ? Ob.c(f, this, g) : g), h
+        return null == f ? h = g : (h = f ? ((h = f.j & 256) ? h : f.Nb) ? !0 : f.j ? !1 : n(Lb, f) : n(Lb, f), h = h ? Ob.c(f, this, g) : g), h
     }
     throw Error("Invalid arity: " + arguments.length);
   }
@@ -5238,7 +5238,7 @@ a.A = function(d, e) {
   return E(e, d)
 };
 a.toString = function() {
-  return Uc(this)
+  return Vc(this)
 };
 function Fe(d) {
   null != d.fn && (d.I = d.fn.l ? d.fn.l() : d.fn.call(null), d.fn = null);
@@ -5314,7 +5314,7 @@ a.M = function(d, e) {
 a.N = function(d, e, f) {
   return hd.k(this.e, e, f, this.off)
 };
-a.Yb = function() {
+a.$b = function() {
   if(this.off === this.end) {
     throw Error("-drop-first of empty chunk");
   }
@@ -5379,7 +5379,7 @@ a.A = function(d, e) {
   return E(e, d)
 };
 a.toString = function() {
-  return Uc(this)
+  return Vc(this)
 };
 a.t = aa();
 a.O = function() {
@@ -5388,7 +5388,7 @@ a.O = function() {
 a.R = function() {
   return 1 < qb(this.T) ? new Qe(Qc(this.T), this.pa, this.h, null) : null == this.pa ? ed : this.pa
 };
-a.Zb = function() {
+a.ac = function() {
   return null == this.pa ? null : this.pa
 };
 a.s = function(d, e) {
@@ -5418,7 +5418,7 @@ function Se(d) {
   }
 }
 function Te(d, e) {
-  if(jd(d)) {
+  if(id(d)) {
     return F(d)
   }
   for(var f = d, g = e, h = 0;;) {
@@ -6330,7 +6330,7 @@ var pf = function() {
 };
 function sf(d, e) {
   var f;
-  null != d ? (f = d ? ((f = d.q & 4) ? f : d.Fc) ? !0 : !1 : !1, f = f ? Ye(Ud.c(Nc, Hc(d), e)) : Ud.c(ub, d, e)) : f = Ud.c(td, ed, e);
+  null != d ? (f = d ? ((f = d.q & 4) ? f : d.Hc) ? !0 : !1 : !1, f = f ? Ye(Ud.c(Nc, Mc(d), e)) : Ud.c(ub, d, e)) : f = Ud.c(td, ed, e);
   return f
 }
 var uf = function() {
@@ -6344,7 +6344,7 @@ var uf = function() {
     return Ye(Ud.c(function(e, f) {
       var g = d.b ? d.b(f) : d.call(null, f);
       return Nc(e, g)
-    }, Hc(tf), e))
+    }, Mc(tf), e))
   }
   var g = null, h = function() {
     function d(f, g, h, l, x) {
@@ -6652,7 +6652,7 @@ a.pb = function(d) {
   return d.p(d, 1)
 };
 a.toString = function() {
-  return Uc(this)
+  return Vc(this)
 };
 a.M = function(d, e) {
   return gd.a(d, e)
@@ -6712,7 +6712,7 @@ function M(d) {
   if(32 > e) {
     return new Lf(null, e, 5, Qf, d, null)
   }
-  for(var f = d.slice(0, 32), g = 32, h = Hc(new Lf(null, 32, 5, Qf, f, null));;) {
+  for(var f = d.slice(0, 32), g = 32, h = Mc(new Lf(null, 32, 5, Qf, f, null));;) {
     if(g < e) {
       f = g + 1, h = Nc(h, d[g]), g = f
     }else {
@@ -6721,7 +6721,7 @@ function M(d) {
   }
 }
 function Rf(d) {
-  return Oc(Ud.c(Nc, Hc(tf), d))
+  return Oc(Ud.c(Nc, Mc(tf), d))
 }
 var Sf = function() {
   function d(d) {
@@ -6755,13 +6755,13 @@ a.v = function(d) {
   return null != e ? e : this.m = d = ld(d)
 };
 a.ba = function(d) {
-  return this.off + 1 < this.ea.length ? (d = Pf.k ? Pf.k(this.P, this.ea, this.o, this.off + 1) : Pf.call(null, this.P, this.ea, this.o, this.off + 1), null == d ? null : d) : d.Zb(d)
+  return this.off + 1 < this.ea.length ? (d = Pf.k ? Pf.k(this.P, this.ea, this.o, this.off + 1) : Pf.call(null, this.P, this.ea, this.o, this.off + 1), null == d ? null : d) : d.ac(d)
 };
 a.A = function(d, e) {
   return E(e, d)
 };
 a.toString = function() {
-  return Uc(this)
+  return Vc(this)
 };
 a.M = function(d, e) {
   return gd.a(Uf.c ? Uf.c(this.P, this.o + this.off, F(this.P)) : Uf.call(null, this.P, this.o + this.off, F(this.P)), e)
@@ -6776,7 +6776,7 @@ a.O = function() {
 a.R = function(d) {
   return this.off + 1 < this.ea.length ? (d = Pf.k ? Pf.k(this.P, this.ea, this.o, this.off + 1) : Pf.call(null, this.P, this.ea, this.o, this.off + 1), null == d ? ed : d) : d.ob(d)
 };
-a.Zb = function() {
+a.ac = function() {
   var d = this.ea.length, d = this.o + d < qb(this.P) ? Pf.c ? Pf.c(this.P, this.o + d, 0) : Pf.call(null, this.P, this.o + d, 0) : null;
   return null == d ? null : d
 };
@@ -6872,7 +6872,7 @@ a.A = function(d, e) {
   return Wf.n ? Wf.n(this.h, ec(this.da, this.end, e), this.start, this.end + 1, null) : Wf.call(null, this.h, ec(this.da, this.end, e), this.start, this.end + 1, null)
 };
 a.toString = function() {
-  return Uc(this)
+  return Vc(this)
 };
 a.M = function(d, e) {
   return gd.a(d, e)
@@ -7112,7 +7112,7 @@ a.A = function(d, e) {
   return E(e, d)
 };
 a.toString = function() {
-  return Uc(this)
+  return Vc(this)
 };
 a.t = aa();
 a.O = function() {
@@ -7152,7 +7152,7 @@ a.A = function(d, e) {
   return f
 };
 a.toString = function() {
-  return Uc(this)
+  return Vc(this)
 };
 a.t = function() {
   var d = w(this.ra), e = this.$;
@@ -7333,7 +7333,7 @@ a.A = function(d, e) {
   return E(e, d)
 };
 a.toString = function() {
-  return Uc(this)
+  return Vc(this)
 };
 a.M = function(d, e) {
   return qd.a(e, d)
@@ -7428,7 +7428,7 @@ a.A = function(d, e) {
   return Ld(e) ? d.W(d, Ab.a(e, 0), Ab.a(e, 1)) : Ud.c(ub, d, e)
 };
 a.toString = function() {
-  return Uc(this)
+  return Vc(this)
 };
 a.t = function() {
   return 0 <= this.e.length - 2 ? new hg(this.e, 0, null) : null
@@ -7499,7 +7499,7 @@ a.Ua = function(d, e, f) {
 a.Va = function(d, e) {
   if(c(this.Wa)) {
     var f;
-    f = e ? ((f = e.j & 2048) ? f : e.qc) ? !0 : e.j ? !1 : n(Tb, e) : n(Tb, e);
+    f = e ? ((f = e.j & 2048) ? f : e.sc) ? !0 : e.j ? !1 : n(Tb, e) : n(Tb, e);
     if(f) {
       return d.Ua(d, ue.b ? ue.b(e) : ue.call(null, e), ve.b ? ve.b(e) : ve.call(null, e))
     }
@@ -7538,7 +7538,7 @@ a.B = function() {
   throw Error("count after persistent!");
 };
 function ng(d, e) {
-  for(var f = Hc(lg), g = 0;;) {
+  for(var f = Mc(lg), g = 0;;) {
     if(g < d) {
       f = Pc(f, e[g], e[g + 1]), g += 2
     }else {
@@ -7896,7 +7896,7 @@ a.A = function(d, e) {
   return E(e, d)
 };
 a.toString = function() {
-  return Uc(this)
+  return Vc(this)
 };
 a.M = function(d, e) {
   return qd.a(e, d)
@@ -7976,7 +7976,7 @@ a.A = function(d, e) {
   return E(e, d)
 };
 a.toString = function() {
-  return Uc(this)
+  return Vc(this)
 };
 a.M = function(d, e) {
   return qd.a(e, d)
@@ -8091,7 +8091,7 @@ a.A = function(d, e) {
   return Ld(e) ? d.W(d, Ab.a(e, 0), Ab.a(e, 1)) : Ud.c(ub, d, e)
 };
 a.toString = function() {
-  return Uc(this)
+  return Vc(this)
 };
 a.t = function() {
   if(0 < this.i) {
@@ -8142,7 +8142,7 @@ a.Va = function(d, e) {
   var f;
   a: {
     if(d.u) {
-      f = e ? ((f = e.j & 2048) ? f : e.qc) ? !0 : e.j ? !1 : n(Tb, e) : n(Tb, e);
+      f = e ? ((f = e.j & 2048) ? f : e.sc) ? !0 : e.j ? !1 : n(Tb, e) : n(Tb, e);
       if(f) {
         f = Fg(d, ue.b ? ue.b(e) : ue.call(null, e), ve.b ? ve.b(e) : ve.call(null, e));
         break a
@@ -8225,7 +8225,7 @@ a.A = function(d, e) {
   return E(e, d)
 };
 a.toString = function() {
-  return Uc(this)
+  return Vc(this)
 };
 a.M = function(d, e) {
   return qd.a(e, d)
@@ -8336,8 +8336,8 @@ a.A = function(d, e) {
 };
 a.bb = da("key");
 a.pb = da("val");
-a.Vb = function(d) {
-  return d.Xb(this)
+a.Xb = function(d) {
+  return d.Zb(this)
 };
 a.kb = function() {
   return new N(this.key, this.val, this.left, this.right, null)
@@ -8345,13 +8345,13 @@ a.kb = function() {
 a.replace = function(d, e, f, g) {
   return new Jg(d, e, f, g, null)
 };
-a.Ub = function(d) {
-  return d.Wb(this)
-};
 a.Wb = function(d) {
+  return d.Yb(this)
+};
+a.Yb = function(d) {
   return new Jg(d.key, d.val, this, d.right, null)
 };
-a.Xb = function(d) {
+a.Zb = function(d) {
   return new Jg(d.key, d.val, d.left, this, null)
 };
 a.sa = function() {
@@ -8434,7 +8434,7 @@ a.A = function(d, e) {
 };
 a.bb = da("key");
 a.pb = da("val");
-a.Vb = function(d) {
+a.Xb = function(d) {
   return new N(this.key, this.val, this.left, d, null)
 };
 a.kb = function() {
@@ -8443,13 +8443,13 @@ a.kb = function() {
 a.replace = function(d, e, f, g) {
   return new N(d, e, f, g, null)
 };
-a.Ub = function(d) {
+a.Wb = function(d) {
   return new N(this.key, this.val, d, this.right, null)
 };
-a.Wb = function(d) {
+a.Yb = function(d) {
   return this.left instanceof N ? new N(this.key, this.val, this.left.sa(), new Jg(d.key, d.val, this.right, d.right, null), null) : this.right instanceof N ? new N(this.right.key, this.right.val, new Jg(this.key, this.val, this.left, this.right.left, null), new Jg(d.key, d.val, this.right.right, d.right, null), null) : q ? new Jg(d.key, d.val, this, d.right, null) : null
 };
-a.Xb = function(d) {
+a.Zb = function(d) {
   return this.right instanceof N ? new N(this.key, this.val, new Jg(d.key, d.val, d.left, this.left, null), this.right.sa(), null) : this.left instanceof N ? new N(this.left.key, this.left.val, new Jg(d.key, d.val, d.left, this.left.left, null), new Jg(this.key, this.val, this.left.right, this.right, null), null) : q ? new Jg(d.key, d.val, d.left, this, null) : null
 };
 a.sa = function() {
@@ -8493,7 +8493,7 @@ var Og = function Ng(e, f, g, h, l) {
     return new N(g, h, null, null, null)
   }
   var k = e.a ? e.a(g, f.key) : e.call(null, g, f.key);
-  return 0 === k ? (l[0] = f, null) : 0 > k ? (e = Ng(e, f.left, g, h, l), null != e ? f.Ub(e) : null) : q ? (e = Ng(e, f.right, g, h, l), null != e ? f.Vb(e) : null) : null
+  return 0 === k ? (l[0] = f, null) : 0 > k ? (e = Ng(e, f.left, g, h, l), null != e ? f.Wb(e) : null) : q ? (e = Ng(e, f.right, g, h, l), null != e ? f.Xb(e) : null) : null
 }, Qg = function Pg(e, f) {
   if(null == e) {
     return f
@@ -8605,10 +8605,10 @@ function Wg(d, e) {
     }
   }
 }
-a.Ob = function(d, e) {
+a.Qb = function(d, e) {
   return 0 < this.i ? new Hg(null, Gg(this.Aa, null, e), e, this.i, null) : null
 };
-a.Pb = function(d, e, f) {
+a.Rb = function(d, e, f) {
   if(0 < this.i) {
     d = null;
     for(var g = this.Aa;;) {
@@ -8634,10 +8634,10 @@ a.Pb = function(d, e, f) {
     return null
   }
 };
-a.Nb = function(d, e) {
+a.Pb = function(d, e) {
   return ue.b ? ue.b(e) : ue.call(null, e)
 };
-a.Mb = da("Y");
+a.Ob = da("Y");
 a.t = function() {
   return 0 < this.i ? new Hg(null, Gg(this.Aa, null, !0), !0, this.i, null) : null
 };
@@ -8663,7 +8663,7 @@ var Xg = new Vg(Sd, null, 0, null, 0), xd = function() {
     return e.call(this, g)
   }
   function e(d) {
-    for(var e = w(d), h = Hc(lg);;) {
+    for(var e = w(d), h = Mc(lg);;) {
       if(e) {
         d = A(A(e));
         var l = y(e), e = sd(e), h = Pc(h, l, e), e = d
@@ -8717,7 +8717,7 @@ a.v = function(d) {
 a.ba = function() {
   var d = this.ma;
   if(d) {
-    var e = d.j & 128, d = (e ? e : d.ec) ? !0 : d.j ? !1 : n(Jb, d)
+    var e = d.j & 128, d = (e ? e : d.gc) ? !0 : d.j ? !1 : n(Jb, d)
   }else {
     d = n(Jb, d)
   }
@@ -8728,7 +8728,7 @@ a.A = function(d, e) {
   return E(e, d)
 };
 a.toString = function() {
-  return Uc(this)
+  return Vc(this)
 };
 a.M = function(d, e) {
   return qd.a(e, d)
@@ -8744,7 +8744,7 @@ a.O = function() {
 a.R = function() {
   var d = this.ma;
   if(d) {
-    var e = d.j & 128, d = (e ? e : d.ec) ? !0 : d.j ? !1 : n(Jb, d)
+    var e = d.j & 128, d = (e ? e : d.gc) ? !0 : d.j ? !1 : n(Jb, d)
   }else {
     d = n(Jb, d)
   }
@@ -8776,7 +8776,7 @@ function $g(d, e, f) {
 }
 a = $g.prototype;
 a.Za = function() {
-  return new ah(Hc(this.Pa))
+  return new ah(Mc(this.Pa))
 };
 a.v = function(d) {
   var e = this.m;
@@ -8823,13 +8823,13 @@ a.A = function(d, e) {
   return new $g(this.h, yd.c(this.Pa, e, null), null)
 };
 a.toString = function() {
-  return Uc(this)
+  return Vc(this)
 };
 a.t = function() {
   var d = w(this.Pa);
   return d ? new Zg(d, null) : null
 };
-a.fc = function(d, e) {
+a.hc = function(d, e) {
   return new $g(this.h, Sb(this.Pa, e), null)
 };
 a.B = function() {
@@ -8854,7 +8854,7 @@ function ch(d) {
   if(e / 2 <= kg) {
     return new $g(null, v.a ? v.a(d, !0) : v.call(null, d, !0), null)
   }
-  for(var f = 0, g = Hc(bh);;) {
+  for(var f = 0, g = Mc(bh);;) {
     if(f < e) {
       var h = f + 2, g = Nc(g, d[f]), f = h
     }else {
@@ -8902,7 +8902,7 @@ a.fb = function() {
 };
 function Ce(d) {
   var e;
-  e = d ? ((e = d.q & 4096) ? e : d.Hc) ? !0 : !1 : !1;
+  e = d ? ((e = d.q & 4096) ? e : d.Jc) ? !0 : !1 : !1;
   if(e) {
     return d.name
   }
@@ -8923,7 +8923,7 @@ function fh(d, e, f) {
     return e.a ? e.a(h.a ? h.a(xc(d, g), f) : h.call(null, xc(d, g), f), 0) : e.call(null, h.a ? h.a(xc(d, g), f) : h.call(null, xc(d, g), f), 0)
   }
 }
-var lh = function() {
+var gh = function() {
   function d(d, e, f, k, m) {
     var p = wc(d, f, !0);
     if(c(p)) {
@@ -8995,7 +8995,7 @@ a.A = function(d, e) {
   return E(e, d)
 };
 a.toString = function() {
-  return Uc(this)
+  return Vc(this)
 };
 a.M = function(d, e) {
   return gd.a(d, e)
@@ -9149,13 +9149,13 @@ var yh = function xh(e, f, g) {
   if(q) {
     c(function() {
       var f = wd.a(g, Yc);
-      return c(f) ? (f = e ? ((f = e.j & 131072) ? f : e.rc) ? !0 : e.j ? !1 : n(fc, e) : n(fc, e), c(f) ? Cd(e) : f) : f
+      return c(f) ? (f = e ? ((f = e.j & 131072) ? f : e.tc) ? !0 : e.j ? !1 : n(fc, e) : n(fc, e), c(f) ? Cd(e) : f) : f
     }()) && (zc(f, "^"), xh(Cd(e), f, g), zc(f, " "));
     if(null == e) {
       return zc(f, "nil")
     }
-    if(e.jc) {
-      return e.uc(f)
+    if(e.lc) {
+      return e.wc(f)
     }
     if(function() {
       var f;
@@ -9195,7 +9195,7 @@ var yh = function xh(e, f, g) {
       var f;
       f = e ? ((f = e.j & 2147483648) ? f : e.H) ? !0 : e.j ? !1 : n(Bc, e) : n(Bc, e);
       return f
-    }() ? Cc(e, f, g) : q ? uh.d(f, C(["#\x3c", "" + t(e), "\x3e"], 0)) : null
+    }() ? Ec(e, f, g) : q ? uh.d(f, C(["#\x3c", "" + t(e), "\x3e"], 0)) : null
   }
   return null
 }, zh = function() {
@@ -9339,18 +9339,18 @@ Hg.prototype.H = !0;
 Hg.prototype.r = function(d, e, f) {
   return th(e, yh, "(", " ", ")", f, d)
 };
-Lf.prototype.$b = !0;
-Lf.prototype.ac = function(d, e) {
+Lf.prototype.bc = !0;
+Lf.prototype.cc = function(d, e) {
   return Td.a(d, e)
 };
-Vf.prototype.$b = !0;
-Vf.prototype.ac = function(d, e) {
+Vf.prototype.bc = !0;
+Vf.prototype.cc = function(d, e) {
   return Td.a(d, e)
 };
 function Ah(d, e, f, g) {
   this.state = d;
   this.h = e;
-  this.Bc = f;
+  this.Dc = f;
   this.Da = g;
   this.j = 2153938944;
   this.q = 2
@@ -9359,7 +9359,7 @@ a = Ah.prototype;
 a.v = function(d) {
   return d[ga] || (d[ga] = ++ha)
 };
-a.Rb = function(d, e, f) {
+a.Tb = function(d, e, f) {
   for(var g = w(this.Da), h = null, l = 0, k = 0;;) {
     if(k < l) {
       var m = h.p(h, k), p = J.c(m, 0, null), m = J.c(m, 1, null);
@@ -9374,7 +9374,7 @@ a.Rb = function(d, e, f) {
     }
   }
 };
-a.Qb = function(d, e, f) {
+a.Sb = function(d, e, f) {
   return d.Da = yd.c(this.Da, e, f)
 };
 a.r = function(d, e, f) {
@@ -9425,7 +9425,7 @@ var Ch = function() {
   return e
 }();
 function Dh(d, e) {
-  var f = d.Bc;
+  var f = d.Dc;
   if(c(f) && !c(f.b ? f.b(e) : f.call(null, e))) {
     throw Error([t("Assert failed: "), t("Validator rejected reference state"), t("\n"), t(zh.d(C([nd(new $c(null, "validate", "validate", 1233162959, null), new $c(null, "new-value", "new-value", 972165309, null))], 0)))].join(""));
   }
@@ -9525,8 +9525,8 @@ var Ih = null, Jh = function() {
   return f
 }(), Kh = {};
 function Lh(d) {
-  if(d ? d.pc : d) {
-    return d.pc(d)
+  if(d ? d.rc : d) {
+    return d.rc(d)
   }
   var e;
   e = Lh[b(null == d ? null : d)];
@@ -9536,7 +9536,7 @@ function Lh(d) {
   return e.call(null, d)
 }
 function Mh(d) {
-  return(d ? c(c(null) ? null : d.oc) || (d.ic ? 0 : n(Kh, d)) : n(Kh, d)) ? Lh(d) : function() {
+  return(d ? c(c(null) ? null : d.qc) || (d.kc ? 0 : n(Kh, d)) : n(Kh, d)) ? Lh(d) : function() {
     var e = "string" === typeof d;
     return e || (e = "number" === typeof d) ? e : (e = d instanceof L) ? e : d instanceof $c
   }() ? Nh.b ? Nh.b(d) : Nh.call(null, d) : zh.d(C([d], 0))
@@ -9545,7 +9545,7 @@ var Nh = function Oh(e) {
   if(null == e) {
     return null
   }
-  if(e ? c(c(null) ? null : e.oc) || (e.ic ? 0 : n(Kh, e)) : n(Kh, e)) {
+  if(e ? c(c(null) ? null : e.qc) || (e.kc ? 0 : n(Kh, e)) : n(Kh, e)) {
     return Lh(e)
   }
   if(e instanceof L) {
@@ -9572,7 +9572,7 @@ var Nh = function Oh(e) {
     }
     return f
   }
-  f = null == e ? !1 : e ? ((f = e.j & 8) ? f : e.Ec) ? !0 : e.j ? !1 : n(rb, e) : n(rb, e);
+  f = null == e ? !1 : e ? ((f = e.j & 8) ? f : e.Gc) ? !0 : e.j ? !1 : n(rb, e) : n(rb, e);
   return f ? K.a(mb, hf.a(Oh, e)) : q ? e : null
 }, Ph = null;
 function Gh() {
@@ -9700,8 +9700,8 @@ var $h = function Zh(e, f, g, h, l, k, m) {
   return null
 };
 function ai(d, e) {
-  if(d ? d.dc : d) {
-    return d.dc(0, e)
+  if(d ? d.fc : d) {
+    return d.fc(0, e)
   }
   var f;
   f = ai[b(null == d ? null : d)];
@@ -9711,8 +9711,8 @@ function ai(d, e) {
   return f.call(null, d, e)
 }
 function bi(d, e) {
-  if(d ? d.cc : d) {
-    return d.cc(d, e)
+  if(d ? d.ec : d) {
+    return d.ec(d, e)
   }
   var f;
   f = bi[b(null == d ? null : d)];
@@ -9723,11 +9723,11 @@ function bi(d, e) {
 }
 function ci(d, e, f, g, h, l, k, m) {
   this.name = d;
-  this.wc = e;
-  this.vc = f;
+  this.yc = e;
+  this.xc = f;
   this.qb = g;
   this.jb = h;
-  this.zc = l;
+  this.Bc = l;
   this.rb = k;
   this.nb = m;
   this.j = 4194304;
@@ -9742,17 +9742,17 @@ function di(d, e) {
   Eh.k(f.jb, yd, d, e);
   Vh(f.rb, f.jb, f.nb, f.qb)
 }
-a.dc = function(d, e) {
+a.fc = function(d, e) {
   D.a(u(this.nb), u(this.qb)) || Vh(this.rb, this.jb, this.nb, this.qb);
   var f = u(this.rb).call(null, e);
   if(c(f)) {
     return f
   }
-  f = $h(this.name, e, this.qb, this.jb, this.zc, this.rb, this.nb);
-  return c(f) ? f : u(this.jb).call(null, this.vc)
+  f = $h(this.name, e, this.qb, this.jb, this.Bc, this.rb, this.nb);
+  return c(f) ? f : u(this.jb).call(null, this.xc)
 };
-a.cc = function(d, e) {
-  var f = this.name, g = K.a(this.wc, e), h = ai(d, g);
+a.ec = function(d, e) {
+  var f = this.name, g = K.a(this.yc, e), h = ai(d, g);
   if(!c(h)) {
     throw Error([t("No method in multimethod '"), t(f), t("' for dispatch value: "), t(g)].join(""));
   }
@@ -9780,7 +9780,7 @@ a.apply = function(d, e) {
   return bi(this, e)
 };
 function fi(d) {
-  this.Tb = d;
+  this.Vb = d;
   this.q = 0;
   this.j = 2153775104
 }
@@ -9788,14 +9788,14 @@ fi.prototype.v = function(d) {
   return ia(zh.d(C([d], 0)))
 };
 fi.prototype.r = function(d, e) {
-  return zc(e, [t('#uuid "'), t(this.Tb), t('"')].join(""))
+  return zc(e, [t('#uuid "'), t(this.Vb), t('"')].join(""))
 };
 fi.prototype.s = function(d, e) {
   var f = e instanceof fi;
-  return f ? this.Tb === e.Tb : f
+  return f ? this.Vb === e.Vb : f
 };
 var Zc = new L(null, "dup", "dup"), gi = new L(null, "do-css", "do-css"), hi = new L(null, "href", "href"), Rh = new L(null, "descendants", "descendants"), ii = new L(null, "default", "default"), ji = new L(null, "text", "text"), ki = new L(null, "readonly", "readonly"), li = new L(null, "tab", "tab"), mi = new L(null, "do-value", "do-value"), ni = new L(null, "width", "width"), oi = new L(null, "state", "state"), pi = new L(null, "target", "target"), qi = new L(null, "focus-select", "focus-select"), 
-ri = new L(null, "scroll-to", "scroll-to"), si = new L("tailrecursion.javelin", "none", "tailrecursion.javelin/none"), ti = new L(null, "allowfullscreen", "allowfullscreen"), ui = new L(null, "on-change", "on-change"), vi = new L(null, "content", "content"), O = new L(null, "class", "class"), yi = new L(null, "fade-toggle", "fade-toggle"), zi = new L(null, "do-class", "do-class"), Ai = new L(null, "name", "name"), Qh = new L(null, "parents", "parents"), Wc = new L(null, "flush-on-newline", "flush-on-newline"), 
+ri = new L(null, "scroll-to", "scroll-to"), si = new L("tailrecursion.javelin", "none", "tailrecursion.javelin/none"), ti = new L(null, "allowfullscreen", "allowfullscreen"), ui = new L(null, "on-change", "on-change"), vi = new L(null, "content", "content"), O = new L(null, "class", "class"), wi = new L(null, "fade-toggle", "fade-toggle"), zi = new L(null, "do-class", "do-class"), Ai = new L(null, "name", "name"), Qh = new L(null, "parents", "parents"), Wc = new L(null, "flush-on-newline", "flush-on-newline"), 
 Bi = new L(null, "hierarchy", "hierarchy"), Ci = new L(null, "style", "style"), Di = new L(null, "src", "src"), Ei = new L(null, "media", "media"), Fi = new L(null, "max", "max"), Gi = new L(null, "frameborder", "frameborder"), Hi = new L(null, "focus", "focus"), Ii = new L(null, "title", "title"), Ji = new L(null, "do-toggle", "do-toggle"), Sh = new L(null, "ancestors", "ancestors"), Ki = new L(null, "toggle", "toggle"), Li = new L(null, "css", "css"), Mi = new L(null, "active", "active"), Ni = 
 new L(null, "type", "type"), q = new L(null, "else", "else"), Xc = new L(null, "readably", "readably"), Oi = new L(null, "background-color", "background-color"), Pi = new L(null, "do-scroll-to", "do-scroll-to"), Bh = new L(null, "validator", "validator"), Yc = new L(null, "meta", "meta"), Qi = new L(null, "min", "min"), Ri = new L("tailrecursion.hoplon.util", "none", "tailrecursion.hoplon.util/none"), Si = new L("tailrecursion.javelin", "cell", "tailrecursion.javelin/cell"), Ti = new L("tailrecursion.priority-map", 
 "not-found", "tailrecursion.priority-map/not-found"), Ui = new L(null, "for", "for"), Vi = new L(null, "scrollTop", "scrollTop"), Wi = new L(null, "id", "id"), Xi = new L(null, "value", "value"), Yi = new L(null, "selected", "selected"), Zi = new L(null, "select", "select"), $i = new L(null, "attr", "attr"), aj = new L(null, "height", "height"), bj = new L(null, "slide-toggle", "slide-toggle"), cj = new L(null, "on-click", "on-click"), dj = new L(null, "rel", "rel"), ej = new L(null, "tabs", "tabs");
@@ -10027,11 +10027,11 @@ a.cb = function() {
     }(uc(d.L))
   }())
 };
-a.Ob = function(d, e) {
+a.Qb = function(d, e) {
   return(c(e) ? w : ye).call(null, d)
 };
-a.Pb = function(d, e, f) {
-  var g = c(f) ? lh.c(this.L, oe, e) : mh.c(this.L, me, e);
+a.Rb = function(d, e, f) {
+  var g = c(f) ? gh.c(this.L, oe, e) : mh.c(this.L, me, e);
   return w(function() {
     return function l(d) {
       return new Ee(null, function() {
@@ -10083,10 +10083,10 @@ a.Pb = function(d, e, f) {
     }(g)
   }())
 };
-a.Nb = function(d, e) {
+a.Pb = function(d, e) {
   return Xb(e)
 };
-a.Mb = function() {
+a.Ob = function() {
   return Sd
 };
 a.t = function() {
@@ -10227,7 +10227,7 @@ function wj(d) {
   for(var e = qj.d(C([d, d.qa], 0));;) {
     if(w(e)) {
       d = ue(ac(e));
-      var f = d.lc.call(null), g = $e.a(f, d.prev), h = function() {
+      var f = d.nc.call(null), g = $e.a(f, d.prev), h = function() {
         return function(d, e) {
           return yd.c(d, e, e.qa)
         }
@@ -10348,8 +10348,8 @@ var yj = function() {
     } : function(d, e) {
       return wj(e)
     });
-    d.xc = c(h) ? !1 : !0;
-    d.lc = c(h) ? l : function() {
+    d.zc = c(h) ? !1 : !0;
+    d.nc = c(h) ? l : function() {
       return u(d)
     };
     wj(d);
@@ -10371,14 +10371,14 @@ function zj(d, e, f, g, h, l, k, m, p) {
   this.prev = g;
   this.lb = h;
   this.oa = l;
-  this.lc = k;
+  this.nc = k;
   this.Da = m;
-  this.xc = p;
+  this.zc = p;
   this.q = 2;
   this.j = 2147647488
 }
 a = zj.prototype;
-a.Rb = function(d, e, f) {
+a.Tb = function(d, e, f) {
   for(var g = w(this.Da), h = null, l = 0, k = 0;;) {
     if(k < l) {
       var m = h.p(h, k), p = J.c(m, 0, null), m = J.c(m, 1, null);
@@ -10393,7 +10393,7 @@ a.Rb = function(d, e, f) {
     }
   }
 };
-a.Qb = function(d, e, f) {
+a.Sb = function(d, e, f) {
   return d.Da = yd.c(this.Da, e, f)
 };
 a.vb = function(d) {
@@ -10613,7 +10613,19 @@ var ck = ma(window.Node), dk = ma(ck) ? function(d) {
     }
     return null
   }
-}, fk = function() {
+}, fk = ma(ck) ? Pd : function(d) {
+  try {
+    return Pd(d)
+  }catch(e) {
+    if(e instanceof Error) {
+      return null
+    }
+    if(q) {
+      throw e;
+    }
+    return null
+  }
+}, gk = function() {
   function d(d, g, h) {
     var l = null;
     2 < arguments.length && (l = C(Array.prototype.slice.call(arguments, 2), 0));
@@ -10635,7 +10647,7 @@ var ck = ma(window.Node), dk = ma(ck) ? function(d) {
   };
   d.d = e;
   return d
-}(), gk = function() {
+}(), hk = function() {
   function d(d, e) {
     return window.setTimeout(d, e)
   }
@@ -10654,17 +10666,20 @@ var ck = ma(window.Node), dk = ma(ck) ? function(d) {
   f.b = e;
   f.a = d;
   return f
-}(), ik = function hk(e) {
+}(), jk = function ik(e) {
   return pf.a(function(e) {
-    return c(ek.b ? ek.b(e) : ek.call(null, e)) ? hk(e) : M([e])
+    var g;
+    g = fk.b ? fk.b(e) : fk.call(null, e);
+    g = c(g) ? g : ek.b ? ek.b(e) : ek.call(null, e);
+    return c(g) ? ik(e) : M([e])
   }, e)
 };
-function jk(d, e) {
-  return gk.b(function g() {
-    return c(document.documentElement.contains(d)) ? e.l ? e.l() : e.call(null) : gk.a(g, 20)
+function kk(d, e) {
+  return hk.b(function g() {
+    return c(document.documentElement.contains(d)) ? e.l ? e.l() : e.call(null) : hk.a(g, 20)
   })
 }
-function kk(d) {
+function lk(d) {
   var e = J.c(d, 0, null), f = re(d), g = cf.a(Be, y), h = function(d) {
     return function(e) {
       return hf.a(Rf, eh(d, vf.a(2, e)))
@@ -10676,7 +10691,7 @@ function kk(d) {
   }(g, h);
   return Kd(e) ? M([e, f]) : e instanceof L ? M([sf(mg, h(d)), g(d)]) : q ? M([mg, d]) : null
 }
-function lk(d, e) {
+function mk(d, e) {
   function f(d) {
     return d.substr(0, 3)
   }
@@ -10740,22 +10755,22 @@ function lk(d, e) {
       }
     }
   }
-  w(u(l)) && gk.b(function() {
+  w(u(l)) && hk.b(function() {
     for(var e = w(u(l)), f = null, g = 0, h = 0;;) {
       if(h < g) {
         var k = f.p(f, h), m = J.c(k, 0, null), k = J.c(k, 1, null);
-        mk.c ? mk.c(d, m, k) : mk.call(null, d, m, k);
+        nk.c ? nk.c(d, m, k) : nk.call(null, d, m, k);
         h += 1
       }else {
         if(e = w(e)) {
-          Md(e) ? (f = Rc(e), e = Sc(e), m = f, g = F(f), f = m) : (f = y(e), m = J.c(f, 0, null), k = J.c(f, 1, null), mk.c ? mk.c(d, m, k) : mk.call(null, d, m, k), e = A(e), f = null, g = 0), h = 0
+          Md(e) ? (f = Rc(e), e = Sc(e), m = f, g = F(f), f = m) : (f = y(e), m = J.c(f, 0, null), k = J.c(f, 1, null), nk.c ? nk.c(d, m, k) : nk.call(null, d, m, k), e = A(e), f = null, g = 0), h = 0
         }else {
           return null
         }
       }
     }
   });
-  w(u(h)) && gk.b(function() {
+  w(u(h)) && hk.b(function() {
     for(var e = w(u(h)), f = null, g = 0, l = 0;;) {
       if(l < g) {
         var k = f.p(f, l), m = J.c(k, 0, null), p = J.c(k, 1, null);
@@ -10792,7 +10807,7 @@ function lk(d, e) {
     }
   })
 }
-var nk = ma(ck) ? function(d, e) {
+var ok = ma(ck) ? function(d, e) {
   return d.appendChild(e)
 } : function(d, e) {
   try {
@@ -10807,17 +10822,17 @@ var nk = ma(ck) ? function(d, e) {
     return null
   }
 };
-function ok(d, e) {
+function pk(d, e) {
   for(var f = w(gf(function(d) {
-    return"string" === typeof d ? pk.b ? pk.b(d) : pk.call(null, d) : c(dk.b ? dk.b(d) : dk.call(null, d)) ? d : null
-  }, ik(e))), g = null, h = 0, l = 0;;) {
+    return"string" === typeof d ? qk.b ? qk.b(d) : qk.call(null, d) : c(dk.b ? dk.b(d) : dk.call(null, d)) ? d : null
+  }, jk(e))), g = null, h = 0, l = 0;;) {
     if(l < h) {
       var k = g.p(g, l);
-      nk.a ? nk.a(d, k) : nk.call(null, d, k);
+      ok.a ? ok.a(d, k) : ok.call(null, d, k);
       l += 1
     }else {
       if(f = w(f)) {
-        g = f, Md(g) ? (f = Rc(g), l = Sc(g), g = f, h = F(f), f = l) : (f = y(g), nk.a ? nk.a(d, f) : nk.call(null, d, f), f = A(g), g = null, h = 0), l = 0
+        g = f, Md(g) ? (f = Rc(g), l = Sc(g), g = f, h = F(f), f = l) : (f = y(g), ok.a ? ok.a(d, f) : ok.call(null, d, f), f = A(g), g = null, h = 0), l = 0
       }else {
         break
       }
@@ -10831,8 +10846,8 @@ Element.prototype.call = function() {
     return e.call(this, 0, h)
   }
   function e(d, e) {
-    var h = kk(e), l = J.c(h, 0, null), h = J.c(h, 1, null);
-    c(this.kc) ? this.kc(l, h) : (lk(this, l), ok(this, h));
+    var h = lk(e), l = J.c(h, 0, null), h = J.c(h, 1, null);
+    c(this.mc) ? this.mc(l, h) : (mk(this, l), pk(this, h));
     return this
   }
   d.g = 1;
@@ -10851,7 +10866,7 @@ Element.prototype.H = !0;
 Element.prototype.r = function(d, e) {
   return uh.d(e, C(["#\x3cElement: ", d.tagName, "\x3e"], 0))
 };
-function qk(d) {
+function rk(d) {
   return function() {
     function e(d) {
       var e = null;
@@ -10870,14 +10885,14 @@ function qk(d) {
     return e
   }()
 }
-var Q = qk("a"), rk = qk("b"), sk = qk("br"), tk = qk("button"), S = qk("code"), uk = qk("dd"), T = qk("div"), vk = qk("dl"), wk = qk("dt"), xk = qk("em"), Xk = qk("footer"), Yk = qk("form"), Zk = qk("h1"), $k = qk("h2"), al = qk("h3"), bl = qk("h4"), cl = qk("hr"), dl = qk("iframe"), el = qk("input"), fl = qk("label"), U = qk("li"), gl = qk("link"), hl = qk("meta"), il = qk("noscript"), jl = qk("option"), W = qk("p"), Y = qk("pre"), kl = qk("select"), ll = qk("small"), Z = qk("span"), ml = qk("strike"), 
-nl = qk("title"), ol = qk("tt"), pl = qk("ul");
-function pk(d) {
+var Q = rk("a"), sk = rk("b"), tk = rk("br"), uk = rk("button"), S = rk("code"), vk = rk("dd"), T = rk("div"), wk = rk("dl"), xk = rk("dt"), yk = rk("em"), Zk = rk("footer"), $k = rk("form"), al = rk("h1"), bl = rk("h2"), cl = rk("h3"), dl = rk("h4"), el = rk("hr"), fl = rk("iframe"), gl = rk("input"), hl = rk("label"), U = rk("li"), il = rk("link"), jl = rk("meta"), kl = rk("noscript"), ll = rk("option"), W = rk("p"), Y = rk("pre"), ml = rk("select"), nl = rk("small"), Z = rk("span"), ol = rk("strike"), 
+pl = rk("title"), ql = rk("tt"), rl = rk("ul");
+function qk(d) {
   return document.createTextNode(d)
 }
-var ql = Ch.b(tf), rl = df.c(Eh, ql, td);
-function sl(d) {
-  return gk.b(function() {
+var sl = Ch.b(tf), tl = df.c(Eh, sl, td);
+function ul(d) {
+  return hk.b(function() {
     var e = jQuery("body");
     e.empty();
     for(var f = w(d), g = null, h = 0, l = 0;;) {
@@ -10896,7 +10911,7 @@ function sl(d) {
     e.on("submit", function(d) {
       return d.preventDefault()
     });
-    e = w(u(ql));
+    e = w(u(sl));
     f = null;
     for(l = h = 0;;) {
       if(l < h) {
@@ -10911,10 +10926,10 @@ function sl(d) {
     }
   })
 }
-function tl(d) {
+function vl(d) {
   return ei.a ? ei.a(document.getElementById(Ce(d)), Xi) : ei.call(null, document.getElementById(Ce(d)), Xi)
 }
-var ul = function() {
+var wl = function() {
   function d(d, e) {
     return d.val("" + t(e)).trigger("change")
   }
@@ -10933,7 +10948,7 @@ var ul = function() {
   f.b = e;
   f.a = d;
   return f
-}(), vl = function() {
+}(), xl = function() {
   function d(d, e) {
     return d.prop("checked", Qd(e)).trigger("change")
   }
@@ -10981,7 +10996,7 @@ di(Xi, function() {
   }
   function e(d, e, h) {
     d = jQuery(d);
-    return K.c(D.a("checkbox", d.attr("type")) ? vl : ul, d, h)
+    return K.c(D.a("checkbox", d.attr("type")) ? xl : wl, d, h)
   }
   d.g = 2;
   d.f = function(d) {
@@ -11041,13 +11056,13 @@ di(Ki, function(d, e, f) {
 di(bj, function(d, e, f) {
   return c(f) ? jQuery(d).hide().slideDown("fast") : jQuery(d).slideUp("fast")
 });
-di(yi, function(d, e, f) {
+di(wi, function(d, e, f) {
   return c(f) ? jQuery(d).hide().fadeIn("fast") : jQuery(d).fadeOut("fast")
 });
 di(Hi, function(d, e, f) {
-  return c(f) ? gk.b(function() {
+  return c(f) ? hk.b(function() {
     return jQuery(d).focus()
-  }) : gk.b(function() {
+  }) : hk.b(function() {
     return jQuery(d).focusout()
   })
 });
@@ -11063,19 +11078,19 @@ di(ji, function(d, e, f) {
 di(ri, function(d, e, f) {
   return c(f) ? (e = jQuery("body"), d = jQuery(d), e.animate(Nh(v([Vi, d.offset().top], !0)))) : null
 });
-function mk(d, e, f) {
-  return jk(d, function() {
+function nk(d, e, f) {
+  return kk(d, function() {
     return jQuery(d).on(Ce(e), f)
   })
 }
-;var wl = function() {
+;var yl = function() {
   function d(d) {
     var g = null;
     0 < arguments.length && (g = C(Array.prototype.slice.call(arguments, 0), 0));
     return e.call(this, g)
   }
   function e(d) {
-    var e = kk(d);
+    var e = lk(d);
     d = J.c(e, 0, null);
     e = J.c(e, 1, null);
     return K.c(T.a ? T.a(O, "row") : T.call(null, O, "row"), d, e)
@@ -11087,56 +11102,17 @@ function mk(d, e, f) {
   };
   d.d = e;
   return d
-}(), xl = function() {
+}(), zl = function() {
   function d(d) {
     var g = null;
     0 < arguments.length && (g = C(Array.prototype.slice.call(arguments, 0), 0));
     return e.call(this, g)
   }
   function e(d) {
-    var e = kk(d);
+    var e = lk(d);
     d = J.c(e, 0, null);
     e = J.c(e, 1, null);
     return K.c(T.a ? T.a(O, "col-md-4") : T.call(null, O, "col-md-4"), d, e)
-  }
-  d.g = 0;
-  d.f = function(d) {
-    d = w(d);
-    return e(d)
-  };
-  d.d = e;
-  return d
-}(), yl = function() {
-  function d(d) {
-    var g = null;
-    0 < arguments.length && (g = C(Array.prototype.slice.call(arguments, 0), 0));
-    return e.call(this, g)
-  }
-  function e(d) {
-    var e = kk(d);
-    d = J.c(e, 0, null);
-    e = J.c(e, 1, null);
-    return K.c(T.a ? T.a(O, "col-md-6") : T.call(null, O, "col-md-6"), d, e)
-  }
-  d.g = 0;
-  d.f = function(d) {
-    d = w(d);
-    return e(d)
-  };
-  d.d = e;
-  return d
-}();
-var zl = function() {
-  function d(d) {
-    var g = null;
-    0 < arguments.length && (g = C(Array.prototype.slice.call(arguments, 0), 0));
-    return e.call(this, g)
-  }
-  function e(d) {
-    d = kk(d);
-    J.c(d, 0, null);
-    d = J.c(d, 1, null);
-    return hl.k ? hl.k(Ai, "viewport", vi, y(d)) : hl.call(null, Ai, "viewport", vi, y(d))
   }
   d.g = 0;
   d.f = function(d) {
@@ -11152,10 +11128,10 @@ var zl = function() {
     return e.call(this, g)
   }
   function e(d) {
-    d = kk(d);
-    J.c(d, 0, null);
-    d = J.c(d, 1, null);
-    return hl.k ? hl.k(Ai, "description", vi, y(d)) : hl.call(null, Ai, "description", vi, y(d))
+    var e = lk(d);
+    d = J.c(e, 0, null);
+    e = J.c(e, 1, null);
+    return K.c(T.a ? T.a(O, "col-md-6") : T.call(null, O, "col-md-6"), d, e)
   }
   d.g = 0;
   d.f = function(d) {
@@ -11165,18 +11141,57 @@ var zl = function() {
   d.d = e;
   return d
 }();
-function Bl() {
-  return Sf.c ? Sf.c(zl.b ? zl.b("width\x3ddevice-width, initial-scale\x3d1.0") : zl.call(null, "width\x3ddevice-width, initial-scale\x3d1.0"), gl.Q ? gl.Q(hi, "css/bootstrap.min.css", dj, "stylesheet", Ei, "screen") : gl.call(null, hi, "css/bootstrap.min.css", dj, "stylesheet", Ei, "screen"), gl.Q ? gl.Q(hi, "css/starter-template.css", dj, "stylesheet", Ei, "screen") : gl.call(null, hi, "css/starter-template.css", dj, "stylesheet", Ei, "screen")) : Sf.call(null, zl.b ? zl.b("width\x3ddevice-width, initial-scale\x3d1.0") : 
-  zl.call(null, "width\x3ddevice-width, initial-scale\x3d1.0"), gl.Q ? gl.Q(hi, "css/bootstrap.min.css", dj, "stylesheet", Ei, "screen") : gl.call(null, hi, "css/bootstrap.min.css", dj, "stylesheet", Ei, "screen"), gl.Q ? gl.Q(hi, "css/starter-template.css", dj, "stylesheet", Ei, "screen") : gl.call(null, hi, "css/starter-template.css", dj, "stylesheet", Ei, "screen"))
-}
-var Cl = function() {
+var Bl = function() {
   function d(d) {
     var g = null;
     0 < arguments.length && (g = C(Array.prototype.slice.call(arguments, 0), 0));
     return e.call(this, g)
   }
   function e(d) {
-    var e = kk(d);
+    d = lk(d);
+    J.c(d, 0, null);
+    d = J.c(d, 1, null);
+    return jl.k ? jl.k(Ai, "viewport", vi, y(d)) : jl.call(null, Ai, "viewport", vi, y(d))
+  }
+  d.g = 0;
+  d.f = function(d) {
+    d = w(d);
+    return e(d)
+  };
+  d.d = e;
+  return d
+}(), Cl = function() {
+  function d(d) {
+    var g = null;
+    0 < arguments.length && (g = C(Array.prototype.slice.call(arguments, 0), 0));
+    return e.call(this, g)
+  }
+  function e(d) {
+    d = lk(d);
+    J.c(d, 0, null);
+    d = J.c(d, 1, null);
+    return jl.k ? jl.k(Ai, "description", vi, y(d)) : jl.call(null, Ai, "description", vi, y(d))
+  }
+  d.g = 0;
+  d.f = function(d) {
+    d = w(d);
+    return e(d)
+  };
+  d.d = e;
+  return d
+}();
+function Dl() {
+  return Sf.c ? Sf.c(Bl.b ? Bl.b("width\x3ddevice-width, initial-scale\x3d1.0") : Bl.call(null, "width\x3ddevice-width, initial-scale\x3d1.0"), il.Q ? il.Q(hi, "css/bootstrap.min.css", dj, "stylesheet", Ei, "screen") : il.call(null, hi, "css/bootstrap.min.css", dj, "stylesheet", Ei, "screen"), il.Q ? il.Q(hi, "css/starter-template.css", dj, "stylesheet", Ei, "screen") : il.call(null, hi, "css/starter-template.css", dj, "stylesheet", Ei, "screen")) : Sf.call(null, Bl.b ? Bl.b("width\x3ddevice-width, initial-scale\x3d1.0") : 
+  Bl.call(null, "width\x3ddevice-width, initial-scale\x3d1.0"), il.Q ? il.Q(hi, "css/bootstrap.min.css", dj, "stylesheet", Ei, "screen") : il.call(null, hi, "css/bootstrap.min.css", dj, "stylesheet", Ei, "screen"), il.Q ? il.Q(hi, "css/starter-template.css", dj, "stylesheet", Ei, "screen") : il.call(null, hi, "css/starter-template.css", dj, "stylesheet", Ei, "screen"))
+}
+var El = function() {
+  function d(d) {
+    var g = null;
+    0 < arguments.length && (g = C(Array.prototype.slice.call(arguments, 0), 0));
+    return e.call(this, g)
+  }
+  function e(d) {
+    var e = lk(d);
     d = J.c(e, 0, null);
     e = J.c(e, 1, null);
     return K.c(T.a ? T.a(O, "container") : T.call(null, O, "container"), d, e)
@@ -11188,14 +11203,14 @@ var Cl = function() {
   };
   d.d = e;
   return d
-}(), Dl = function() {
+}(), Fl = function() {
   function d(d) {
     var g = null;
     0 < arguments.length && (g = C(Array.prototype.slice.call(arguments, 0), 0));
     return e.call(this, g)
   }
   function e(d) {
-    var e = kk(d);
+    var e = lk(d);
     d = J.c(e, 0, null);
     e = J.c(e, 1, null);
     return K.c(T.k ? T.k(O, "jumbotron", Ci, "background-color:#ffcc33") : T.call(null, O, "jumbotron", Ci, "background-color:#ffcc33"), d, e)
@@ -11208,62 +11223,24 @@ var Cl = function() {
   d.d = e;
   return d
 }();
-function El(d) {
+function Gl(d) {
   return se.a(d.href, d.href.indexOf("#"))
 }
-function Fl(d, e) {
-  var f = El(d);
+function Hl(d, e) {
+  var f = Gl(d);
   return D.a(f, se.c(e, 0, F(f)))
 }
-var Gl = function() {
+var Il = function() {
   function d(d) {
     var g = null;
     0 < arguments.length && (g = C(Array.prototype.slice.call(arguments, 0), 0));
     return e.call(this, g)
   }
   function e(d) {
-    var e = kk(d);
+    var e = lk(d);
     d = J.c(e, 0, null);
     e = J.c(e, 1, null);
     return K.c(T.a ? T.a(O, "navbar navbar-inverse") : T.call(null, O, "navbar navbar-inverse"), d, e)
-  }
-  d.g = 0;
-  d.f = function(d) {
-    d = w(d);
-    return e(d)
-  };
-  d.d = e;
-  return d
-}(), Hl = function() {
-  function d(d) {
-    var g = null;
-    0 < arguments.length && (g = C(Array.prototype.slice.call(arguments, 0), 0));
-    return e.call(this, g)
-  }
-  function e(d) {
-    var e = kk(d);
-    d = J.c(e, 0, null);
-    e = J.c(e, 1, null);
-    return K.c(T.a ? T.a(O, "navbar-header") : T.call(null, O, "navbar-header"), d, e)
-  }
-  d.g = 0;
-  d.f = function(d) {
-    d = w(d);
-    return e(d)
-  };
-  d.d = e;
-  return d
-}(), Il = function() {
-  function d(d) {
-    var g = null;
-    0 < arguments.length && (g = C(Array.prototype.slice.call(arguments, 0), 0));
-    return e.call(this, g)
-  }
-  function e(d) {
-    var e = kk(d);
-    d = J.c(e, 0, null);
-    e = J.c(e, 1, null);
-    return K.c(T.a ? T.a(O, "collapse navbar-collapse") : T.call(null, O, "collapse navbar-collapse"), d, e)
   }
   d.g = 0;
   d.f = function(d) {
@@ -11279,10 +11256,10 @@ var Gl = function() {
     return e.call(this, g)
   }
   function e(d) {
-    var e = kk(d);
+    var e = lk(d);
     d = J.c(e, 0, null);
     e = J.c(e, 1, null);
-    return K.c(pl.a ? pl.a(O, "nav navbar-nav") : pl.call(null, O, "nav navbar-nav"), d, e)
+    return K.c(T.a ? T.a(O, "navbar-header") : T.call(null, O, "navbar-header"), d, e)
   }
   d.g = 0;
   d.f = function(d) {
@@ -11298,7 +11275,45 @@ var Gl = function() {
     return e.call(this, g)
   }
   function e(d) {
-    var e = kk(d);
+    var e = lk(d);
+    d = J.c(e, 0, null);
+    e = J.c(e, 1, null);
+    return K.c(T.a ? T.a(O, "collapse navbar-collapse") : T.call(null, O, "collapse navbar-collapse"), d, e)
+  }
+  d.g = 0;
+  d.f = function(d) {
+    d = w(d);
+    return e(d)
+  };
+  d.d = e;
+  return d
+}(), Ll = function() {
+  function d(d) {
+    var g = null;
+    0 < arguments.length && (g = C(Array.prototype.slice.call(arguments, 0), 0));
+    return e.call(this, g)
+  }
+  function e(d) {
+    var e = lk(d);
+    d = J.c(e, 0, null);
+    e = J.c(e, 1, null);
+    return K.c(rl.a ? rl.a(O, "nav navbar-nav") : rl.call(null, O, "nav navbar-nav"), d, e)
+  }
+  d.g = 0;
+  d.f = function(d) {
+    d = w(d);
+    return e(d)
+  };
+  d.d = e;
+  return d
+}(), Ml = function() {
+  function d(d) {
+    var g = null;
+    0 < arguments.length && (g = C(Array.prototype.slice.call(arguments, 0), 0));
+    return e.call(this, g)
+  }
+  function e(d) {
+    var e = lk(d);
     d = J.c(e, 0, null);
     e = J.c(e, 1, null);
     return K.c(Q.a ? Q.a(O, "navbar-brand") : Q.call(null, O, "navbar-brand"), d, e)
@@ -11310,19 +11325,19 @@ var Gl = function() {
   };
   d.d = e;
   return d
-}(), Ll = function() {
+}(), Nl = function() {
   function d(d, g, h) {
     var l = null;
     2 < arguments.length && (l = C(Array.prototype.slice.call(arguments, 2), 0));
     return e.call(this, d, g, l)
   }
   function e(d, e, h) {
-    return Gl.d(C([O, "navbar-fixed-top"], 0)).call(null, Cl.d(C([Hl.d(C([Kl.d(C([hi, El(y(h)), e], 0))], 0)), Il.d(C([K.a(Jl(), hf.a(function(e) {
+    return Il.d(C([O, "navbar-fixed-top"], 0)).call(null, El.d(C([Jl.d(C([Ml.d(C([hi, Gl(y(h)), e], 0))], 0)), Kl.d(C([K.a(Ll(), hf.a(function(e) {
       return U.c ? U.c(zi, P(function(d, e, f) {
         return v([Mi, e.a ? e.a(f, d) : e.call(null, f, d)], !0)
-      }).call(null, d, Fl, e), e) : U.call(null, zi, P(function(d, e, f) {
+      }).call(null, d, Hl, e), e) : U.call(null, zi, P(function(d, e, f) {
         return v([Mi, e.a ? e.a(f, d) : e.call(null, f, d)], !0)
-      }).call(null, d, Fl, e), e)
+      }).call(null, d, Hl, e), e)
     }, h))], 0))], 0)))
   }
   d.g = 2;
@@ -11336,7 +11351,7 @@ var Gl = function() {
   d.d = e;
   return d
 }();
-var Ml = function() {
+var Ol = function() {
   function d(d, g, h, l) {
     var k = null;
     3 < arguments.length && (k = C(Array.prototype.slice.call(arguments, 3), 0));
@@ -11344,15 +11359,15 @@ var Ml = function() {
   }
   function e(d, e, h, l) {
     return sf(M([function() {
-      return Sf.c ? Sf.c(Bl(), nl.b ? nl.b(e) : nl.call(null, e), Al.d(C([h], 0))) : Sf.call(null, Bl(), nl.b ? nl.b(e) : nl.call(null, e), Al.d(C([h], 0)))
-    }, K.k(Ll, d, e, hf.a(y, l))]), hf.a(function(e) {
+      return Sf.c ? Sf.c(Dl(), pl.b ? pl.b(e) : pl.call(null, e), Cl.d(C([h], 0))) : Sf.call(null, Dl(), pl.b ? pl.b(e) : pl.call(null, e), Cl.d(C([h], 0)))
+    }, K.k(Nl, d, e, hf.a(y, l))]), hf.a(function(e) {
       var g = J.c(e, 0, null);
       e = J.c(e, 1, null);
       return e.a ? e.a(Ji, P(function(d, e, f) {
         return f.a ? f.a(e, d) : f.call(null, e, d)
-      }).call(null, d, g, Fl)) : e.call(null, Ji, P(function(d, e, f) {
+      }).call(null, d, g, Hl)) : e.call(null, Ji, P(function(d, e, f) {
         return f.a ? f.a(e, d) : f.call(null, e, d)
-      }).call(null, d, g, Fl))
+      }).call(null, d, g, Hl))
     }, l))
   }
   d.g = 3;
@@ -11368,7 +11383,7 @@ var Ml = function() {
   d.d = e;
   return d
 }();
-function Nl() {
+function Pl() {
   var d = Aj(window.location.hash);
   window.setInterval(function() {
     var e = window.location.hash;
@@ -11377,56 +11392,17 @@ function Nl() {
   return d
 }
 Ch.b(Ri);
-var Ol = function() {
+var Ql = function() {
   function d(d) {
     var g = null;
     0 < arguments.length && (g = C(Array.prototype.slice.call(arguments, 0), 0));
     return e.call(this, g)
   }
   function e(d) {
-    var e = kk(d);
+    var e = lk(d);
     d = J.c(e, 0, null);
     e = J.c(e, 1, null);
     return K.c(Q.a ? Q.a(O, "btn btn-large btn-primary") : Q.call(null, O, "btn btn-large btn-primary"), d, e)
-  }
-  d.g = 0;
-  d.f = function(d) {
-    d = w(d);
-    return e(d)
-  };
-  d.d = e;
-  return d
-}();
-var Pl = function() {
-  function d(d) {
-    var g = null;
-    0 < arguments.length && (g = C(Array.prototype.slice.call(arguments, 0), 0));
-    return e.call(this, g)
-  }
-  function e(d) {
-    var e = kk(d);
-    d = J.c(e, 0, null);
-    e = J.c(e, 1, null);
-    return K.c(T.a ? T.a(O, "list-group") : T.call(null, O, "list-group"), d, e)
-  }
-  d.g = 0;
-  d.f = function(d) {
-    d = w(d);
-    return e(d)
-  };
-  d.d = e;
-  return d
-}(), Ql = function() {
-  function d(d) {
-    var g = null;
-    0 < arguments.length && (g = C(Array.prototype.slice.call(arguments, 0), 0));
-    return e.call(this, g)
-  }
-  function e(d) {
-    var e = kk(d);
-    d = J.c(e, 0, null);
-    e = J.c(e, 1, null);
-    return K.c(T.a ? T.a(O, "list-group-item") : T.call(null, O, "list-group-item"), d, e)
   }
   d.g = 0;
   d.f = function(d) {
@@ -11443,10 +11419,10 @@ var Rl = function() {
     return e.call(this, g)
   }
   function e(d) {
-    var e = kk(d);
+    var e = lk(d);
     d = J.c(e, 0, null);
     e = J.c(e, 1, null);
-    return K.c(T.a ? T.a(O, "panel panel-default") : T.call(null, O, "panel panel-default"), d, e)
+    return K.c(T.a ? T.a(O, "list-group") : T.call(null, O, "list-group"), d, e)
   }
   d.g = 0;
   d.f = function(d) {
@@ -11462,10 +11438,10 @@ var Rl = function() {
     return e.call(this, g)
   }
   function e(d) {
-    var e = kk(d);
+    var e = lk(d);
     d = J.c(e, 0, null);
     e = J.c(e, 1, null);
-    return K.c(T.a ? T.a(O, "panel-body") : T.call(null, O, "panel-body"), d, e)
+    return K.c(T.a ? T.a(O, "list-group-item") : T.call(null, O, "list-group-item"), d, e)
   }
   d.g = 0;
   d.f = function(d) {
@@ -11474,17 +11450,18 @@ var Rl = function() {
   };
   d.d = e;
   return d
-}(), Tl = function() {
+}();
+var Tl = function() {
   function d(d) {
     var g = null;
     0 < arguments.length && (g = C(Array.prototype.slice.call(arguments, 0), 0));
     return e.call(this, g)
   }
   function e(d) {
-    var e = kk(d);
+    var e = lk(d);
     d = J.c(e, 0, null);
     e = J.c(e, 1, null);
-    return K.c(T.a ? T.a(O, "panel-heading") : T.call(null, O, "panel-heading"), d, e)
+    return K.c(T.a ? T.a(O, "panel panel-default") : T.call(null, O, "panel panel-default"), d, e)
   }
   d.g = 0;
   d.f = function(d) {
@@ -11500,10 +11477,48 @@ var Rl = function() {
     return e.call(this, g)
   }
   function e(d) {
-    var e = kk(d);
+    var e = lk(d);
     d = J.c(e, 0, null);
     e = J.c(e, 1, null);
-    return K.c(al.a ? al.a(O, "panel-title") : al.call(null, O, "panel-title"), d, e)
+    return K.c(T.a ? T.a(O, "panel-body") : T.call(null, O, "panel-body"), d, e)
+  }
+  d.g = 0;
+  d.f = function(d) {
+    d = w(d);
+    return e(d)
+  };
+  d.d = e;
+  return d
+}(), Vl = function() {
+  function d(d) {
+    var g = null;
+    0 < arguments.length && (g = C(Array.prototype.slice.call(arguments, 0), 0));
+    return e.call(this, g)
+  }
+  function e(d) {
+    var e = lk(d);
+    d = J.c(e, 0, null);
+    e = J.c(e, 1, null);
+    return K.c(T.a ? T.a(O, "panel-heading") : T.call(null, O, "panel-heading"), d, e)
+  }
+  d.g = 0;
+  d.f = function(d) {
+    d = w(d);
+    return e(d)
+  };
+  d.d = e;
+  return d
+}(), Wl = function() {
+  function d(d) {
+    var g = null;
+    0 < arguments.length && (g = C(Array.prototype.slice.call(arguments, 0), 0));
+    return e.call(this, g)
+  }
+  function e(d) {
+    var e = lk(d);
+    d = J.c(e, 0, null);
+    e = J.c(e, 1, null);
+    return K.c(cl.a ? cl.a(O, "panel-title") : cl.call(null, O, "panel-title"), d, e)
   }
   d.g = 0;
   d.f = function(d) {
@@ -11513,21 +11528,21 @@ var Rl = function() {
   d.d = e;
   return d
 }();
-var Vl, Wl, Xl, Yl, Zl, $l, am, bm, cm, dm, em, fm, gm, hm, im, jm, km, lm, mm, nm, om, pm, qm, rm, sm, tm, um, vm, wm, xm, ym, zm, Am, Bm, Cm;
-function Dm() {
-  Vl = Nl();
-  Wl = function() {
+var Xl, Yl, Zl, $l, am, bm, cm, dm, em, fm, gm, hm, im, jm, km, lm, mm, nm, om, pm, qm, rm, sm, tm, um, vm, wm, xm, ym, zm, Am, Bm, Cm, Dm, Em;
+function Fm() {
+  Xl = Pl();
+  Yl = function() {
     jQuery("p").addClass("hyphenate").css("text-align", "justify");
     return Hyphenator.run()
   };
-  Xl = function() {
+  Zl = function() {
     function d(d) {
       var g = null;
       0 < arguments.length && (g = C(Array.prototype.slice.call(arguments, 0), 0));
       return e.call(this, g)
     }
     function e(d) {
-      d = kk(d);
+      d = lk(d);
       var e = J.c(d, 0, null), e = Pd(e) ? K.a(xd, e) : e, e = wd.a(e, oi);
       d = J.c(d, 1, null);
       d = J.c(d, 0, null);
@@ -11545,18 +11560,18 @@ function Dm() {
     d.d = e;
     return d
   }();
-  Yl = function() {
+  $l = function() {
     function d(d) {
       var g = null;
       0 < arguments.length && (g = C(Array.prototype.slice.call(arguments, 0), 0));
       return e.call(this, g)
     }
     function e(d) {
-      d = kk(d);
+      d = lk(d);
       var e = J.c(d, 0, null), e = Pd(e) ? K.a(xd, e) : e, h = wd.a(e, li), l = wd.a(e, Ui);
       d = J.c(d, 1, null);
       d = J.c(d, 0, null);
-      return Xl.d(C([oi, P(function(d, e, f) {
+      return Zl.d(C([oi, P(function(d, e, f) {
         return f.a ? f.a(d, e) : f.call(null, d, e)
       }).call(null, l, h, D), d.a ? d.a(cj, function() {
         return Dh(l, h)
@@ -11572,21 +11587,21 @@ function Dm() {
     d.d = e;
     return d
   }();
-  Zl = function() {
+  am = function() {
     function d(d) {
       var g = null;
       0 < arguments.length && (g = C(Array.prototype.slice.call(arguments, 0), 0));
       return e.call(this, g)
     }
     function e(d) {
-      var e = kk(d);
+      var e = lk(d);
       d = J.c(e, 0, null);
       var h = Pd(d) ? K.a(xd, d) : d;
       d = wd.a(h, li);
       h = wd.a(h, Ui);
       e = J.c(e, 1, null);
       e = J.c(e, 0, null);
-      return Xl.d(C([oi, P(function(d, e, f) {
+      return Zl.d(C([oi, P(function(d, e, f) {
         return f.a ? f.a(d, e) : f.call(null, d, e)
       }).call(null, h, d, D), e], 0))
     }
@@ -11598,14 +11613,14 @@ function Dm() {
     d.d = e;
     return d
   }();
-  $l = function() {
+  bm = function() {
     function d(d) {
       var g = null;
       0 < arguments.length && (g = C(Array.prototype.slice.call(arguments, 0), 0));
       return e.call(this, g)
     }
     function e(d) {
-      var e = kk(d);
+      var e = lk(d);
       d = J.c(e, 0, null);
       d = Pd(d) ? K.a(xd, d) : d;
       var h = wd.c(d, Ni, ej), l = wd.c(d, oi, Aj(0)), e = J.c(e, 1, null), k = T.b ? T.b(zd.a(d, oi)) : T.call(null, zd.a(d, oi)), m = K.c(hf, nd, vf.a(2, e)), p = J.c(m, 0, null), e = J.c(m, 1, null), h = [t("nav nav-"), t(Ce(h))].join(""), r = function() {
@@ -11614,13 +11629,13 @@ function Dm() {
         }
       }(k, m, p, e, h), s = function(d, e, f, g, h, k) {
         return function(d, e) {
-          return Yl.d(C([Ui, l, li, d, U.b ? U.b(k(e)) : U.call(null, k(e))], 0))
+          return $l.d(C([Ui, l, li, d, U.b ? U.b(k(e)) : U.call(null, k(e))], 0))
         }
       }(k, m, p, e, h, r), k = function() {
         return function(d, e) {
-          return Zl.d(C([Ui, l, li, d, e.a ? e.a(O, "tab-pane") : e.call(null, O, "tab-pane")], 0))
+          return am.d(C([Ui, l, li, d, e.a ? e.a(O, "tab-pane") : e.call(null, O, "tab-pane")], 0))
         }
-      }(k, m, p, e, h, r, s), p = pl.c ? pl.c(O, h, Rf(ef(s, p))) : pl.call(null, O, h, Rf(ef(s, p))), e = T.c ? T.c(O, "tab-content", Rf(ef(k, e))) : T.call(null, O, "tab-content", Rf(ef(k, e)));
+      }(k, m, p, e, h, r, s), p = rl.c ? rl.c(O, h, ef(s, p)) : rl.call(null, O, h, ef(s, p)), e = T.c ? T.c(O, "tab-content", ef(k, e)) : T.call(null, O, "tab-content", ef(k, e));
       return T.c ? T.c(zd.a(d, oi), p, e) : T.call(null, zd.a(d, oi), p, e)
     }
     d.g = 0;
@@ -11631,53 +11646,13 @@ function Dm() {
     d.d = e;
     return d
   }();
-  am = Ml.d(Vl, "Hoplon", "Hoplon", C([M([Q.c ? Q.c(hi, "#/home/", "Home") : Q.call(null, hi, "#/home/", "Home"), T.l ? T.l() : T.call(null)]), M([Q.c ? Q.c(hi, "#/getting-started/", "Getting Started") : Q.call(null, hi, "#/getting-started/", "Getting Started"), Cl()]), M([Q.n ? Q.n(hi, "https://github.com/tailrecursion/hoplon", pi, "_blank", "GitHub") : Q.call(null, hi, "https://github.com/tailrecursion/hoplon", pi, "_blank", "GitHub"), Cl()])], 0));
-  J.c(am, 0, null);
-  bm = J.c(am, 1, null);
-  cm = J.c(am, 2, null);
-  dm = J.c(am, 3, null);
-  J.c(am, 4, null);
-  J.c(am, 5, null);
-  em = function() {
-    function d(d) {
-      var g = null;
-      0 < arguments.length && (g = C(Array.prototype.slice.call(arguments, 0), 0));
-      return e.call(this, g)
-    }
-    function e(d) {
-      var e = kk(d);
-      d = J.c(e, 0, null);
-      e = J.c(e, 1, null);
-      return Rl.d(C([O, "panel-primary", Tl.d(C([Ul.d(C([Ii.call(null, d)], 0))], 0)), K.a(Sl, e)], 0))
-    }
-    d.g = 0;
-    d.f = function(d) {
-      d = w(d);
-      return e(d)
-    };
-    d.d = e;
-    return d
-  }();
-  fm = function() {
-    function d(d) {
-      var g = null;
-      0 < arguments.length && (g = C(Array.prototype.slice.call(arguments, 0), 0));
-      return e.call(this, g)
-    }
-    function e(d) {
-      var e = kk(d);
-      d = J.c(e, 0, null);
-      e = J.c(e, 1, null);
-      return Rl.d(C([O, "panel-warning", Tl.d(C([Ul.d(C([Ii.call(null, d)], 0))], 0)), K.a(Sl, e)], 0))
-    }
-    d.g = 0;
-    d.f = function(d) {
-      d = w(d);
-      return e(d)
-    };
-    d.d = e;
-    return d
-  }();
+  cm = Ol.d(Xl, "Hoplon", "Hoplon", C([M([Q.c ? Q.c(hi, "#/home/", "Home") : Q.call(null, hi, "#/home/", "Home"), T.l ? T.l() : T.call(null)]), M([Q.c ? Q.c(hi, "#/getting-started/", "Getting Started") : Q.call(null, hi, "#/getting-started/", "Getting Started"), El()]), M([Q.n ? Q.n(hi, "https://github.com/tailrecursion/hoplon", pi, "_blank", "GitHub") : Q.call(null, hi, "https://github.com/tailrecursion/hoplon", pi, "_blank", "GitHub"), El()])], 0));
+  J.c(cm, 0, null);
+  dm = J.c(cm, 1, null);
+  em = J.c(cm, 2, null);
+  fm = J.c(cm, 3, null);
+  J.c(cm, 4, null);
+  J.c(cm, 5, null);
   gm = function() {
     function d(d) {
       var g = null;
@@ -11685,10 +11660,10 @@ function Dm() {
       return e.call(this, g)
     }
     function e(d) {
-      var e = kk(d);
+      var e = lk(d);
       d = J.c(e, 0, null);
       e = J.c(e, 1, null);
-      return Rl.d(C([O, "panel-info", Tl.d(C([Ul.d(C([Ii.call(null, d)], 0))], 0)), K.a(Sl, e)], 0))
+      return Tl.d(C([O, "panel-primary", Vl.d(C([Wl.d(C([Ii.call(null, d)], 0))], 0)), K.a(Ul, e)], 0))
     }
     d.g = 0;
     d.f = function(d) {
@@ -11698,24 +11673,64 @@ function Dm() {
     d.d = e;
     return d
   }();
-  hm = Aj(1);
-  im = Aj(180);
-  jm = Aj(800);
-  km = Aj(0);
-  lm = function() {
+  hm = function() {
     function d(d) {
       var g = null;
       0 < arguments.length && (g = C(Array.prototype.slice.call(arguments, 0), 0));
       return e.call(this, g)
     }
     function e(d) {
-      var e = kk(d);
+      var e = lk(d);
       d = J.c(e, 0, null);
-      var e = J.c(e, 1, null), h = rk.l ? rk.l() : rk.call(null), l = pl.l ? pl.l() : pl.call(null), k = T.k ? T.k(O, "my-list", h.l ? h.l() : h.call(null), l.l ? l.l() : l.call(null)) : T.call(null, O, "my-list", h.l ? h.l() : h.call(null), l.l ? l.l() : l.call(null));
-      k.kc = function(d, e) {
+      e = J.c(e, 1, null);
+      return Tl.d(C([O, "panel-warning", Vl.d(C([Wl.d(C([Ii.call(null, d)], 0))], 0)), K.a(Ul, e)], 0))
+    }
+    d.g = 0;
+    d.f = function(d) {
+      d = w(d);
+      return e(d)
+    };
+    d.d = e;
+    return d
+  }();
+  im = function() {
+    function d(d) {
+      var g = null;
+      0 < arguments.length && (g = C(Array.prototype.slice.call(arguments, 0), 0));
+      return e.call(this, g)
+    }
+    function e(d) {
+      var e = lk(d);
+      d = J.c(e, 0, null);
+      e = J.c(e, 1, null);
+      return Tl.d(C([O, "panel-info", Vl.d(C([Wl.d(C([Ii.call(null, d)], 0))], 0)), K.a(Ul, e)], 0))
+    }
+    d.g = 0;
+    d.f = function(d) {
+      d = w(d);
+      return e(d)
+    };
+    d.d = e;
+    return d
+  }();
+  jm = Aj(1);
+  km = Aj(180);
+  lm = Aj(800);
+  mm = Aj(0);
+  nm = function() {
+    function d(d) {
+      var g = null;
+      0 < arguments.length && (g = C(Array.prototype.slice.call(arguments, 0), 0));
+      return e.call(this, g)
+    }
+    function e(d) {
+      var e = lk(d);
+      d = J.c(e, 0, null);
+      var e = J.c(e, 1, null), h = sk.l ? sk.l() : sk.call(null), l = rl.l ? rl.l() : rl.call(null), k = T.k ? T.k(O, "my-list", h.l ? h.l() : h.call(null), l.l ? l.l() : l.call(null)) : T.call(null, O, "my-list", h.l ? h.l() : h.call(null), l.l ? l.l() : l.call(null));
+      k.mc = function(d, e) {
         var f = Pd(d) ? K.a(xd, d) : d, g = wd.a(f, Ii);
         c(g) && (ei.c ? ei.c(h, ji, g) : ei.call(null, h, ji, g));
-        lk(k, zd.a(f, Ii));
+        mk(k, zd.a(f, Ii));
         return K.a(l, hf.a(U, e))
       };
       return K.c(k, d, e)
@@ -11728,20 +11743,20 @@ function Dm() {
     d.d = e;
     return d
   }();
-  mm = P(function(d, e) {
+  om = P(function(d, e) {
     var f = e / 100;
     return d / 10 / (f * f)
-  }).call(null, jm, im);
-  nm = P(function(d) {
+  }).call(null, lm, km);
+  pm = P(function(d) {
     return c(18.5 > d) ? M(["underweight", "orange"]) : c(25 > d) ? M(["normal", "inherit"]) : c(30 > d) ? M(["overweight", "orange"]) : q ? M(["obese", "red"]) : null
-  }).call(null, mm);
-  om = parseInt;
+  }).call(null, om);
+  qm = parseInt;
   v(["+", Vd, "-", Wd, "*", Xd, "/", ke], !0);
   Aj(0);
   Aj(0);
   Aj(Vd);
-  pm = function() {
-    return T.a ? T.a(v([O, "highlight"], !0), Y.Fb ? Y.Fb(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "page") : Z.call(null, v([O, "nf"], !0), "page"), " ", Z.a ? Z.a(v([O, "s"], !0), '"index.html"') : Z.call(null, v([O, "s"], !0), '"index.html"'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n\n", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "defc") : Z.call(null, 
+  rm = function() {
+    return T.a ? T.a(v([O, "highlight"], !0), Y.Hb ? Y.Hb(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "page") : Z.call(null, v([O, "nf"], !0), "page"), " ", Z.a ? Z.a(v([O, "s"], !0), '"index.html"') : Z.call(null, v([O, "s"], !0), '"index.html"'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n\n", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "defc") : Z.call(null, 
     v([O, "nf"], !0), "defc"), " ", Z.a ? Z.a(v([O, "nv"], !0), "clicks") : Z.call(null, v([O, "nv"], !0), "clicks"), " ", Z.a ? Z.a(v([O, "mi"], !0), "0") : Z.call(null, v([O, "mi"], !0), "0"), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n\n", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "html") : Z.call(null, v([O, "nf"], !0), "html"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? 
     Z.a(v([O, "nf"], !0), "head") : Z.call(null, v([O, "nf"], !0), "head"), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "body") : Z.call(null, v([O, "nf"], !0), "body"), "\n    ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "text") : Z.call(null, v([O, "nf"], !0), "text"), " ", Z.a ? Z.a(v([O, "s"], !0), '"Clicks so far: ~{clicks} "') : 
     Z.call(null, v([O, "s"], !0), '"Clicks so far: ~{clicks} "'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n    ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "button") : Z.call(null, v([O, "nf"], !0), "button"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":on-click") : Z.call(null, v([O, "ss"], !0), ":on-click"), " ", Z.a ? Z.a(v([O, "o"], !0), "#") : Z.call(null, v([O, "o"], !0), "#"), Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, 
@@ -11751,7 +11766,7 @@ function Dm() {
     Z.call(null, v([O, "nf"], !0), "head"), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "body") : Z.call(null, v([O, "nf"], !0), "body"), "\n    ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "text") : Z.call(null, v([O, "nf"], !0), "text"), " ", Z.a ? Z.a(v([O, "s"], !0), '"Clicks so far: ~{clicks} "') : Z.call(null, 
     v([O, "s"], !0), '"Clicks so far: ~{clicks} "'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n    ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "button") : Z.call(null, v([O, "nf"], !0), "button"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":on-click") : Z.call(null, v([O, "ss"], !0), ":on-click"), " ", Z.a ? Z.a(v([O, "o"], !0), "#") : Z.call(null, v([O, "o"], !0), "#"), Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, 
     "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "swap!") : Z.call(null, v([O, "nf"], !0), "swap!"), " ", Z.a ? Z.a(v([O, "nv"], !0), "clicks") : Z.call(null, v([O, "nv"], !0), "clicks"), " ", Z.a ? Z.a(v([O, "nv"], !0), "inc") : Z.call(null, v([O, "nv"], !0), "inc"), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), " ", Z.a ? Z.a(v([O, "s"], !0), '"click me!"') : Z.call(null, v([O, "s"], !0), '"click me!"'), Z.a ? Z.a(v([O, "p"], !0), ")))") : Z.call(null, v([O, "p"], !0), ")))"), 
-    "\n")) : T.call(null, v([O, "highlight"], !0), Y.Fb ? Y.Fb(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "page") : Z.call(null, v([O, "nf"], !0), "page"), " ", Z.a ? Z.a(v([O, "s"], !0), '"index.html"') : Z.call(null, v([O, "s"], !0), '"index.html"'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n\n", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "defc") : Z.call(null, 
+    "\n")) : T.call(null, v([O, "highlight"], !0), Y.Hb ? Y.Hb(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "page") : Z.call(null, v([O, "nf"], !0), "page"), " ", Z.a ? Z.a(v([O, "s"], !0), '"index.html"') : Z.call(null, v([O, "s"], !0), '"index.html"'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n\n", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "defc") : Z.call(null, 
     v([O, "nf"], !0), "defc"), " ", Z.a ? Z.a(v([O, "nv"], !0), "clicks") : Z.call(null, v([O, "nv"], !0), "clicks"), " ", Z.a ? Z.a(v([O, "mi"], !0), "0") : Z.call(null, v([O, "mi"], !0), "0"), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n\n", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "html") : Z.call(null, v([O, "nf"], !0), "html"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? 
     Z.a(v([O, "nf"], !0), "head") : Z.call(null, v([O, "nf"], !0), "head"), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "body") : Z.call(null, v([O, "nf"], !0), "body"), "\n    ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "text") : Z.call(null, v([O, "nf"], !0), "text"), " ", Z.a ? Z.a(v([O, "s"], !0), '"Clicks so far: ~{clicks} "') : 
     Z.call(null, v([O, "s"], !0), '"Clicks so far: ~{clicks} "'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n    ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "button") : Z.call(null, v([O, "nf"], !0), "button"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":on-click") : Z.call(null, v([O, "ss"], !0), ":on-click"), " ", Z.a ? Z.a(v([O, "o"], !0), "#") : Z.call(null, v([O, "o"], !0), "#"), Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, 
@@ -11763,21 +11778,21 @@ function Dm() {
     "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "swap!") : Z.call(null, v([O, "nf"], !0), "swap!"), " ", Z.a ? Z.a(v([O, "nv"], !0), "clicks") : Z.call(null, v([O, "nv"], !0), "clicks"), " ", Z.a ? Z.a(v([O, "nv"], !0), "inc") : Z.call(null, v([O, "nv"], !0), "inc"), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), " ", Z.a ? Z.a(v([O, "s"], !0), '"click me!"') : Z.call(null, v([O, "s"], !0), '"click me!"'), Z.a ? Z.a(v([O, "p"], !0), ")))") : Z.call(null, v([O, "p"], !0), ")))"), 
     "\n"))
   };
-  qm = function() {
+  sm = function() {
     var d = Aj(0);
-    return Rl.d(C([Sl.d(C([function() {
+    return Tl.d(C([Ul.d(C([function() {
       var e = document.createTextNode("");
       P(function(d, e) {
         return d.nodeValue = [t("Clicks so far: "), t(e), t(" ")].join("")
       }).call(null, e, d);
       return e
-    }(), tk.c ? tk.c(cj, function() {
+    }(), uk.c ? uk.c(cj, function() {
       return Eh.a(d, fd)
-    }, "click me!") : tk.call(null, cj, function() {
+    }, "click me!") : uk.call(null, cj, function() {
       return Eh.a(d, fd)
     }, "click me!")], 0))], 0))
   };
-  rm = function() {
+  tm = function() {
     return T.a ? T.a(v([O, "highlight"], !0), Y.Ab ? Y.Ab(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "page") : Z.call(null, v([O, "nf"], !0), "page"), " ", Z.a ? Z.a(v([O, "s"], !0), '"index.html"') : Z.call(null, v([O, "s"], !0), '"index.html"'), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "ss"], !0), ":refer-clojure") : Z.call(null, v([O, "ss"], !0), ":refer-clojure"), " ", Z.a ? Z.a(v([O, "ss"], 
     !0), ":exclude") : Z.call(null, v([O, "ss"], !0), ":exclude"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "int") : Z.call(null, v([O, "nv"], !0), "int"), Z.a ? Z.a(v([O, "p"], !0), "]))") : Z.call(null, v([O, "p"], !0), "]))"), "\n\n", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "k"], !0), "def ") : Z.call(null, v([O, "k"], !0), "def "), Z.a ? Z.a(v([O, "nb"], !0), "int ") : Z.call(null, v([O, 
     "nb"], !0), "int "), Z.a ? Z.a(v([O, "nv"], !0), "js/parseInt") : Z.call(null, v([O, "nv"], !0), "js/parseInt"), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "k"], !0), "def ") : Z.call(null, v([O, "k"], !0), "def "), Z.a ? Z.a(v([O, "nv"], !0), "ops") : Z.call(null, v([O, "nv"], !0), "ops"), " ", Z.a ? Z.a(v([O, "p"], !0), "{") : Z.call(null, v([O, "p"], !0), "{"), Z.a ? Z.a(v([O, 
@@ -11869,30 +11884,30 @@ function Dm() {
     Z.a ? Z.a(v([O, "nb"], !0), "int ") : Z.call(null, v([O, "nb"], !0), "int "), Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "val-id") : Z.call(null, v([O, "nf"], !0), "val-id"), " ", Z.a ? Z.a(v([O, "s"], !0), '"y"') : Z.call(null, v([O, "s"], !0), '"y"'), Z.a ? Z.a(v([O, "p"], !0), "))))") : Z.call(null, v([O, "p"], !0), "))))"), "\n    ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "text") : 
     Z.call(null, v([O, "nf"], !0), "text"), " ", Z.a ? Z.a(v([O, "s"], !0), '" \x3d ~{result}"') : Z.call(null, v([O, "s"], !0), '" \x3d ~{result}"'), Z.a ? Z.a(v([O, "p"], !0), ")))") : Z.call(null, v([O, "p"], !0), ")))"), "\n"))
   };
-  sm = function() {
+  um = function() {
     var d = Aj(0), e = Aj(0), f = Aj(Vd), g = v(["+", Vd, "-", Wd, "*", Xd, "/", ke], !0);
-    return Rl.d(C([Sl.d(C([el.ua ? el.ua(Wi, "calc-x", Ni, "text", Xi, u(d), ui, function() {
-      return Dh(d, om.b ? om.b(tl("calc-x")) : om.call(null, tl("calc-x")))
-    }) : el.call(null, Wi, "calc-x", Ni, "text", Xi, u(d), ui, function() {
-      return Dh(d, om.b ? om.b(tl("calc-x")) : om.call(null, tl("calc-x")))
-    }), kl.Fa ? kl.Fa(Wi, "calc-op", Ci, "margin-left:15px;margin-right:15px;", ui, function() {
-      return Dh(f, g.b ? g.b(tl("calc-op")) : g.call(null, tl("calc-op")))
-    }, jl.n ? jl.n(Xi, "+", Yi, !0, "+") : jl.call(null, Xi, "+", Yi, !0, "+"), jl.c ? jl.c(Xi, "-", "-") : jl.call(null, Xi, "-", "-"), jl.c ? jl.c(Xi, "*", "*") : jl.call(null, Xi, "*", "*"), jl.c ? jl.c(Xi, "/", "/") : jl.call(null, Xi, "/", "/")) : kl.call(null, Wi, "calc-op", Ci, "margin-left:15px;margin-right:15px;", ui, function() {
-      return Dh(f, g.b ? g.b(tl("calc-op")) : g.call(null, tl("calc-op")))
-    }, jl.n ? jl.n(Xi, "+", Yi, !0, "+") : jl.call(null, Xi, "+", Yi, !0, "+"), jl.c ? jl.c(Xi, "-", "-") : jl.call(null, Xi, "-", "-"), jl.c ? jl.c(Xi, "*", "*") : jl.call(null, Xi, "*", "*"), jl.c ? jl.c(Xi, "/", "/") : jl.call(null, Xi, "/", "/")), el.ua ? el.ua(Wi, "calc-y", Ni, "text", Xi, u(e), ui, function() {
-      return Dh(e, om.b ? om.b(tl("calc-y")) : om.call(null, tl("calc-y")))
-    }) : el.call(null, Wi, "calc-y", Ni, "text", Xi, u(e), ui, function() {
-      return Dh(e, om.b ? om.b(tl("calc-y")) : om.call(null, tl("calc-y")))
+    return Tl.d(C([Ul.d(C([gl.ua ? gl.ua(Wi, "calc-x", Ni, "text", Xi, u(d), ui, function() {
+      return Dh(d, qm.b ? qm.b(vl("calc-x")) : qm.call(null, vl("calc-x")))
+    }) : gl.call(null, Wi, "calc-x", Ni, "text", Xi, u(d), ui, function() {
+      return Dh(d, qm.b ? qm.b(vl("calc-x")) : qm.call(null, vl("calc-x")))
+    }), ml.Fa ? ml.Fa(Wi, "calc-op", Ci, "margin-left:15px;margin-right:15px;", ui, function() {
+      return Dh(f, g.b ? g.b(vl("calc-op")) : g.call(null, vl("calc-op")))
+    }, ll.n ? ll.n(Xi, "+", Yi, !0, "+") : ll.call(null, Xi, "+", Yi, !0, "+"), ll.c ? ll.c(Xi, "-", "-") : ll.call(null, Xi, "-", "-"), ll.c ? ll.c(Xi, "*", "*") : ll.call(null, Xi, "*", "*"), ll.c ? ll.c(Xi, "/", "/") : ll.call(null, Xi, "/", "/")) : ml.call(null, Wi, "calc-op", Ci, "margin-left:15px;margin-right:15px;", ui, function() {
+      return Dh(f, g.b ? g.b(vl("calc-op")) : g.call(null, vl("calc-op")))
+    }, ll.n ? ll.n(Xi, "+", Yi, !0, "+") : ll.call(null, Xi, "+", Yi, !0, "+"), ll.c ? ll.c(Xi, "-", "-") : ll.call(null, Xi, "-", "-"), ll.c ? ll.c(Xi, "*", "*") : ll.call(null, Xi, "*", "*"), ll.c ? ll.c(Xi, "/", "/") : ll.call(null, Xi, "/", "/")), gl.ua ? gl.ua(Wi, "calc-y", Ni, "text", Xi, u(e), ui, function() {
+      return Dh(e, qm.b ? qm.b(vl("calc-y")) : qm.call(null, vl("calc-y")))
+    }) : gl.call(null, Wi, "calc-y", Ni, "text", Xi, u(e), ui, function() {
+      return Dh(e, qm.b ? qm.b(vl("calc-y")) : qm.call(null, vl("calc-y")))
     }), function() {
       var g = document.createTextNode("");
       P(function(d, e, f, g) {
-        return g.nodeValue = [t(" \x3d "), t(f.a ? f.a(e, d) : f.call(null, e, d))].join("")
-      }).call(null, e, d, f, g);
+        return e.nodeValue = [t(" \x3d "), t(g.a ? g.a(f, d) : g.call(null, f, d))].join("")
+      }).call(null, e, g, d, f);
       return g
     }()], 0))], 0))
   };
-  tm = function() {
-    return T.a ? T.a(v([O, "highlight"], !0), Y.Gb ? Y.Gb(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "page") : Z.call(null, v([O, "nf"], !0), "page"), " ", Z.a ? Z.a(v([O, "s"], !0), '"index.html"') : Z.call(null, v([O, "s"], !0), '"index.html"'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n\n", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "defc") : Z.call(null, 
+  vm = function() {
+    return T.a ? T.a(v([O, "highlight"], !0), Y.Ib ? Y.Ib(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "page") : Z.call(null, v([O, "nf"], !0), "page"), " ", Z.a ? Z.a(v([O, "s"], !0), '"index.html"') : Z.call(null, v([O, "s"], !0), '"index.html"'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n\n", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "defc") : Z.call(null, 
     v([O, "nf"], !0), "defc"), " ", Z.a ? Z.a(v([O, "nv"], !0), "things") : Z.call(null, v([O, "nv"], !0), "things"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "s"], !0), '"one"') : Z.call(null, v([O, "s"], !0), '"one"'), " ", Z.a ? Z.a(v([O, "s"], !0), '"two"') : Z.call(null, v([O, "s"], !0), '"two"'), " ", Z.a ? Z.a(v([O, "s"], !0), '"three"') : Z.call(null, v([O, "s"], !0), '"three"'), Z.a ? Z.a(v([O, "p"], !0), "])") : Z.call(null, v([O, "p"], 
     !0), "])"), "\n\n", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "html") : Z.call(null, v([O, "nf"], !0), "html"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "head") : Z.call(null, v([O, "nf"], !0), "head"), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), 
     "body") : Z.call(null, v([O, "nf"], !0), "body"), "\n    ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "ul") : Z.call(null, v([O, "nf"], !0), "ul"), "\n      ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "loop-tpl") : Z.call(null, v([O, "nf"], !0), "loop-tpl"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":bindings") : Z.call(null, v([O, "ss"], !0), ":bindings"), " ", Z.a ? Z.a(v([O, "p"], !0), 
@@ -11902,7 +11917,7 @@ function Dm() {
     !0), '"three"') : Z.call(null, v([O, "s"], !0), '"three"'), Z.a ? Z.a(v([O, "p"], !0), "])") : Z.call(null, v([O, "p"], !0), "])"), "\n\n", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "html") : Z.call(null, v([O, "nf"], !0), "html"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "head") : Z.call(null, v([O, "nf"], !0), "head"), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, 
     "p"], !0), ")"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "body") : Z.call(null, v([O, "nf"], !0), "body"), "\n    ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "ul") : Z.call(null, v([O, "nf"], !0), "ul"), "\n      ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "loop-tpl") : Z.call(null, v([O, "nf"], !0), "loop-tpl"), " ", 
     Z.a ? Z.a(v([O, "ss"], !0), ":bindings") : Z.call(null, v([O, "ss"], !0), ":bindings"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "x") : Z.call(null, v([O, "nv"], !0), "x"), " ", Z.a ? Z.a(v([O, "nv"], !0), "things") : Z.call(null, v([O, "nv"], !0), "things"), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), "\n        ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], 
-    !0), "li") : Z.call(null, v([O, "nf"], !0), "li"), " ", Z.a ? Z.a(v([O, "o"], !0), "@") : Z.call(null, v([O, "o"], !0), "@"), Z.a ? Z.a(v([O, "nv"], !0), "x") : Z.call(null, v([O, "nv"], !0), "x"), Z.a ? Z.a(v([O, "p"], !0), ")))))") : Z.call(null, v([O, "p"], !0), ")))))"), "\n")) : T.call(null, v([O, "highlight"], !0), Y.Gb ? Y.Gb(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "page") : Z.call(null, v([O, "nf"], !0), "page"), " ", Z.a ? Z.a(v([O, 
+    !0), "li") : Z.call(null, v([O, "nf"], !0), "li"), " ", Z.a ? Z.a(v([O, "o"], !0), "@") : Z.call(null, v([O, "o"], !0), "@"), Z.a ? Z.a(v([O, "nv"], !0), "x") : Z.call(null, v([O, "nv"], !0), "x"), Z.a ? Z.a(v([O, "p"], !0), ")))))") : Z.call(null, v([O, "p"], !0), ")))))"), "\n")) : T.call(null, v([O, "highlight"], !0), Y.Ib ? Y.Ib(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "page") : Z.call(null, v([O, "nf"], !0), "page"), " ", Z.a ? Z.a(v([O, 
     "s"], !0), '"index.html"') : Z.call(null, v([O, "s"], !0), '"index.html"'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n\n", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "defc") : Z.call(null, v([O, "nf"], !0), "defc"), " ", Z.a ? Z.a(v([O, "nv"], !0), "things") : Z.call(null, v([O, "nv"], !0), "things"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "s"], !0), '"one"') : 
     Z.call(null, v([O, "s"], !0), '"one"'), " ", Z.a ? Z.a(v([O, "s"], !0), '"two"') : Z.call(null, v([O, "s"], !0), '"two"'), " ", Z.a ? Z.a(v([O, "s"], !0), '"three"') : Z.call(null, v([O, "s"], !0), '"three"'), Z.a ? Z.a(v([O, "p"], !0), "])") : Z.call(null, v([O, "p"], !0), "])"), "\n\n", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "html") : Z.call(null, v([O, "nf"], !0), "html"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, 
     "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "head") : Z.call(null, v([O, "nf"], !0), "head"), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "body") : Z.call(null, v([O, "nf"], !0), "body"), "\n    ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "ul") : Z.call(null, v([O, "nf"], !0), "ul"), "\n      ", Z.a ? Z.a(v([O, 
@@ -11915,14 +11930,14 @@ function Dm() {
     Z.a ? Z.a(v([O, "nv"], !0), "things") : Z.call(null, v([O, "nv"], !0), "things"), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), "\n        ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "li") : Z.call(null, v([O, "nf"], !0), "li"), " ", Z.a ? Z.a(v([O, "o"], !0), "@") : Z.call(null, v([O, "o"], !0), "@"), Z.a ? Z.a(v([O, "nv"], !0), "x") : Z.call(null, v([O, "nv"], !0), "x"), Z.a ? Z.a(v([O, "p"], !0), ")))))") : Z.call(null, 
     v([O, "p"], !0), ")))))"), "\n"))
   };
-  um = function() {
+  wm = function() {
     var d = Aj(M(["one", "two", "three"]));
-    return Rl.d(C([Sl.d(C([pl.b ? pl.b(function() {
+    return Tl.d(C([Ul.d(C([rl.b ? rl.b(function() {
       var e = P(function(d, e) {
         return d.a ? d.a(3, e) : d.call(null, 3, e)
-      }).call(null, fk, d), f = document.createDocumentFragment(), g = document.createElement("SPAN");
+      }).call(null, gk, d), f = document.createDocumentFragment(), g = document.createElement("SPAN");
       c(c(null) ? u(null) : null) && Dh(null, !1);
-      rl.b ? rl.b(function() {
+      tl.b ? tl.b(function() {
         for(var d = w(hf.a(function(d) {
           return Bj(bf, d)
         }, Bj(function(d) {
@@ -11930,7 +11945,7 @@ function Dm() {
         }, e))), l = null, k = 0, m = 0;;) {
           if(m < k) {
             var p = l.p(l, m), r = p, s = J.c(r, 0, null);
-            gk.b(function(d, e, g, h, l, k) {
+            hk.b(function(d, e, g, h, l, k) {
               return function() {
                 return ma(null) ? f.appendChild(U.b ? U.b(u(k)) : U.call(null, u(k))) : f.insertBefore(U.b ? U.b(u(k)) : U.call(null, u(k)), f.firstChild)
               }
@@ -11943,7 +11958,7 @@ function Dm() {
                 d = Rc(p), m = Sc(p), l = d, k = F(d), d = m
               }else {
                 var x = s = y(p), B = J.c(x, 0, null);
-                gk.b(function(d, e, g, h, l, k) {
+                hk.b(function(d, e, g, h, l, k) {
                   return function() {
                     return ma(null) ? f.appendChild(U.b ? U.b(u(k)) : U.call(null, u(k))) : f.insertBefore(U.b ? U.b(u(k)) : U.call(null, u(k)), f.firstChild)
                   }
@@ -11958,11 +11973,11 @@ function Dm() {
             }
           }
         }
-        gk.b(function() {
+        hk.b(function() {
           return g.parentNode.replaceChild(f, g)
         });
-        return gk.b(ea(null))
-      }) : rl.call(null, function() {
+        return hk.b(ea(null))
+      }) : tl.call(null, function() {
         for(var d = w(hf.a(function(d) {
           return Bj(bf, d)
         }, Bj(function(d) {
@@ -11970,7 +11985,7 @@ function Dm() {
         }, e))), l = null, k = 0, m = 0;;) {
           if(m < k) {
             var p = l.p(l, m), r = p, s = J.c(r, 0, null);
-            gk.b(function(d, e, g, h, l, k) {
+            hk.b(function(d, e, g, h, l, k) {
               return function() {
                 return ma(null) ? f.appendChild(U.b ? U.b(u(k)) : U.call(null, u(k))) : f.insertBefore(U.b ? U.b(u(k)) : U.call(null, u(k)), f.firstChild)
               }
@@ -11983,7 +11998,7 @@ function Dm() {
                 d = Rc(p), m = Sc(p), l = d, k = F(d), d = m
               }else {
                 var x = s = y(p), B = J.c(x, 0, null);
-                gk.b(function(d, e, g, h, l, k) {
+                hk.b(function(d, e, g, h, l, k) {
                   return function() {
                     return ma(null) ? f.appendChild(U.b ? U.b(u(k)) : U.call(null, u(k))) : f.insertBefore(U.b ? U.b(u(k)) : U.call(null, u(k)), f.firstChild)
                   }
@@ -11998,18 +12013,18 @@ function Dm() {
             }
           }
         }
-        gk.b(function() {
+        hk.b(function() {
           return g.parentNode.replaceChild(f, g)
         });
-        return gk.b(ea(null))
+        return hk.b(ea(null))
       });
       return g
-    }()) : pl.call(null, function() {
+    }()) : rl.call(null, function() {
       var e = P(function(d, e) {
         return d.a ? d.a(3, e) : d.call(null, 3, e)
-      }).call(null, fk, d), f = document.createDocumentFragment(), g = document.createElement("SPAN");
+      }).call(null, gk, d), f = document.createDocumentFragment(), g = document.createElement("SPAN");
       c(c(null) ? u(null) : null) && Dh(null, !1);
-      rl.b ? rl.b(function() {
+      tl.b ? tl.b(function() {
         for(var d = w(hf.a(function(d) {
           return Bj(bf, d)
         }, Bj(function(d) {
@@ -12017,7 +12032,7 @@ function Dm() {
         }, e))), l = null, k = 0, m = 0;;) {
           if(m < k) {
             var p = l.p(l, m), r = p, s = J.c(r, 0, null);
-            gk.b(function(d, e, g, h, l, k) {
+            hk.b(function(d, e, g, h, l, k) {
               return function() {
                 return ma(null) ? f.appendChild(U.b ? U.b(u(k)) : U.call(null, u(k))) : f.insertBefore(U.b ? U.b(u(k)) : U.call(null, u(k)), f.firstChild)
               }
@@ -12030,7 +12045,7 @@ function Dm() {
                 d = Rc(p), m = Sc(p), l = d, k = F(d), d = m
               }else {
                 var x = s = y(p), B = J.c(x, 0, null);
-                gk.b(function(d, e, g, h, l, k) {
+                hk.b(function(d, e, g, h, l, k) {
                   return function() {
                     return ma(null) ? f.appendChild(U.b ? U.b(u(k)) : U.call(null, u(k))) : f.insertBefore(U.b ? U.b(u(k)) : U.call(null, u(k)), f.firstChild)
                   }
@@ -12045,11 +12060,11 @@ function Dm() {
             }
           }
         }
-        gk.b(function() {
+        hk.b(function() {
           return g.parentNode.replaceChild(f, g)
         });
-        return gk.b(ea(null))
-      }) : rl.call(null, function() {
+        return hk.b(ea(null))
+      }) : tl.call(null, function() {
         for(var d = w(hf.a(function(d) {
           return Bj(bf, d)
         }, Bj(function(d) {
@@ -12057,7 +12072,7 @@ function Dm() {
         }, e))), l = null, k = 0, m = 0;;) {
           if(m < k) {
             var p = l.p(l, m), r = p, s = J.c(r, 0, null);
-            gk.b(function(d, e, g, h, l, k) {
+            hk.b(function(d, e, g, h, l, k) {
               return function() {
                 return ma(null) ? f.appendChild(U.b ? U.b(u(k)) : U.call(null, u(k))) : f.insertBefore(U.b ? U.b(u(k)) : U.call(null, u(k)), f.firstChild)
               }
@@ -12070,7 +12085,7 @@ function Dm() {
                 d = Rc(p), m = Sc(p), l = d, k = F(d), d = m
               }else {
                 var x = s = y(p), B = J.c(x, 0, null);
-                gk.b(function(d, e, g, h, l, k) {
+                hk.b(function(d, e, g, h, l, k) {
                   return function() {
                     return ma(null) ? f.appendChild(U.b ? U.b(u(k)) : U.call(null, u(k))) : f.insertBefore(U.b ? U.b(u(k)) : U.call(null, u(k)), f.firstChild)
                   }
@@ -12085,15 +12100,15 @@ function Dm() {
             }
           }
         }
-        gk.b(function() {
+        hk.b(function() {
           return g.parentNode.replaceChild(f, g)
         });
-        return gk.b(ea(null))
+        return hk.b(ea(null))
       });
       return g
     }())], 0))], 0))
   };
-  vm = function() {
+  xm = function() {
     return T.a ? T.a(v([O, "highlight"], !0), Y.xb ? Y.xb(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "page") : Z.call(null, v([O, "nf"], !0), "page"), " ", Z.a ? Z.a(v([O, "s"], !0), '"index.html"') : Z.call(null, v([O, "s"], !0), '"index.html"'), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "ss"], !0), ":require") : Z.call(null, v([O, "ss"], !0), ":require"), "\n   ", Z.a ? Z.a(v([O, "p"], !0), 
     "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "clojure.string") : Z.call(null, v([O, "nv"], !0), "clojure.string"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":refer") : Z.call(null, v([O, "ss"], !0), ":refer"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "upper-case") : Z.call(null, v([O, "nv"], !0), "upper-case"), " ", Z.a ? Z.a(v([O, "nv"], !0), "lower-case") : Z.call(null, v([O, "nv"], !0), "lower-case"), Z.a ? Z.a(v([O, 
     "p"], !0), "]]))") : Z.call(null, v([O, "p"], !0), "]]))"), "\n\n", Z.a ? Z.a(v([O, "c1"], !0), ";; State machine private") : Z.call(null, v([O, "c1"], !0), ";; State machine private"), "\n", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "defc") : Z.call(null, v([O, "nf"], !0), "defc"), "  ", Z.a ? Z.a(v([O, "nv"], !0), "uc?") : Z.call(null, v([O, "nv"], !0), "uc?"), "    ", Z.a ? Z.a(v([O, "nv"], !0), "false") : Z.call(null, v([O, "nv"], !0), 
@@ -12162,7 +12177,7 @@ function Dm() {
     Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "button") : Z.call(null, v([O, "nf"], !0), "button"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":on-click") : Z.call(null, v([O, "ss"], !0), ":on-click"), " ", Z.a ? Z.a(v([O, "nv"], !0), "toggle-case!") : Z.call(null, v([O, "nv"], !0), "toggle-case!"), " ", Z.a ? Z.a(v([O, "s"], !0), '"toggle case"') : Z.call(null, v([O, "s"], !0), '"toggle case"'), Z.a ? Z.a(v([O, "p"], !0), ")))") : Z.call(null, v([O, 
     "p"], !0), ")))"), "\n"))
   };
-  wm = function() {
+  ym = function() {
     var d = Aj(!1), e = P(function() {
       return function(d, e, f) {
         return c(f) ? d : e
@@ -12180,12 +12195,12 @@ function Dm() {
         }(d, e, f), r)
       }
     }(d, e, f)).call(null, uf, wf, f, e);
-    return Rl.d(C([Sl.d(C([pl.b ? pl.b(function() {
+    return Tl.d(C([Ul.d(C([rl.b ? rl.b(function() {
       var d = P(function(d, e) {
         return d.a ? d.a(3, e) : d.call(null, 3, e)
-      }).call(null, fk, g), e = document.createDocumentFragment(), f = document.createElement("SPAN");
+      }).call(null, gk, g), e = document.createDocumentFragment(), f = document.createElement("SPAN");
       c(c(null) ? u(null) : null) && Dh(null, !1);
-      rl.b ? rl.b(function() {
+      tl.b ? tl.b(function() {
         for(var g = w(hf.a(function(d) {
           return Bj(bf, d)
         }, Bj(function(d) {
@@ -12195,39 +12210,39 @@ function Dm() {
         }, d))), p = null, r = 0, s = 0;;) {
           if(s < r) {
             var x = p.p(p, s), B = x, H = J.c(B, 0, null);
-            gk.b(function(d, f, g, h, k, m, p) {
+            hk.b(function(d, f, g, h, k, m, p) {
               return function() {
                 return ma(null) ? e.appendChild(U.b ? U.b(function() {
                   var e = document.createTextNode("");
                   P(function() {
                     return function(d, e) {
-                      return e.nodeValue = "" + t(d)
+                      return d.nodeValue = "" + t(e)
                     }
-                  }(d, f, g, h, e, k, m, p)).call(null, m, e);
+                  }(d, f, g, h, e, k, m, p)).call(null, e, m);
                   return e
                 }()) : U.call(null, function() {
                   var e = document.createTextNode("");
                   P(function() {
                     return function(d, e) {
-                      return e.nodeValue = "" + t(d)
+                      return d.nodeValue = "" + t(e)
                     }
-                  }(d, f, g, h, e, k, m, p)).call(null, m, e);
+                  }(d, f, g, h, e, k, m, p)).call(null, e, m);
                   return e
                 }())) : e.insertBefore(U.b ? U.b(function() {
                   var e = document.createTextNode("");
                   P(function() {
                     return function(d, e) {
-                      return e.nodeValue = "" + t(d)
+                      return d.nodeValue = "" + t(e)
                     }
-                  }(d, f, g, h, e, k, m, p)).call(null, m, e);
+                  }(d, f, g, h, e, k, m, p)).call(null, e, m);
                   return e
                 }()) : U.call(null, function() {
                   var e = document.createTextNode("");
                   P(function() {
                     return function(d, e) {
-                      return e.nodeValue = "" + t(d)
+                      return d.nodeValue = "" + t(e)
                     }
-                  }(d, f, g, h, e, k, m, p)).call(null, m, e);
+                  }(d, f, g, h, e, k, m, p)).call(null, e, m);
                   return e
                 }()), e.firstChild)
               }
@@ -12240,39 +12255,39 @@ function Dm() {
                 g = Rc(x), s = Sc(x), p = g, r = F(g), g = s
               }else {
                 var G = H = y(x), I = J.c(G, 0, null);
-                gk.b(function(d, f, g, h, k, m, p, r, s) {
+                hk.b(function(d, f, g, h, k, m, p, r, s) {
                   return function() {
                     return ma(null) ? e.appendChild(U.b ? U.b(function() {
                       var e = document.createTextNode("");
                       P(function() {
                         return function(d, e) {
-                          return e.nodeValue = "" + t(d)
+                          return d.nodeValue = "" + t(e)
                         }
-                      }(d, f, g, h, e, k, m, p, r, s)).call(null, m, e);
+                      }(d, f, g, h, e, k, m, p, r, s)).call(null, e, m);
                       return e
                     }()) : U.call(null, function() {
                       var e = document.createTextNode("");
                       P(function() {
                         return function(d, e) {
-                          return e.nodeValue = "" + t(d)
+                          return d.nodeValue = "" + t(e)
                         }
-                      }(d, f, g, h, e, k, m, p, r, s)).call(null, m, e);
+                      }(d, f, g, h, e, k, m, p, r, s)).call(null, e, m);
                       return e
                     }())) : e.insertBefore(U.b ? U.b(function() {
                       var e = document.createTextNode("");
                       P(function() {
                         return function(d, e) {
-                          return e.nodeValue = "" + t(d)
+                          return d.nodeValue = "" + t(e)
                         }
-                      }(d, f, g, h, e, k, m, p, r, s)).call(null, m, e);
+                      }(d, f, g, h, e, k, m, p, r, s)).call(null, e, m);
                       return e
                     }()) : U.call(null, function() {
                       var e = document.createTextNode("");
                       P(function() {
                         return function(d, e) {
-                          return e.nodeValue = "" + t(d)
+                          return d.nodeValue = "" + t(e)
                         }
-                      }(d, f, g, h, e, k, m, p, r, s)).call(null, m, e);
+                      }(d, f, g, h, e, k, m, p, r, s)).call(null, e, m);
                       return e
                     }()), e.firstChild)
                   }
@@ -12287,11 +12302,11 @@ function Dm() {
             }
           }
         }
-        gk.b(function() {
+        hk.b(function() {
           return f.parentNode.replaceChild(e, f)
         });
-        return gk.b(ea(null))
-      }) : rl.call(null, function() {
+        return hk.b(ea(null))
+      }) : tl.call(null, function() {
         for(var g = w(hf.a(function(d) {
           return Bj(bf, d)
         }, Bj(function(d) {
@@ -12301,39 +12316,39 @@ function Dm() {
         }, d))), p = null, r = 0, s = 0;;) {
           if(s < r) {
             var x = p.p(p, s), B = x, H = J.c(B, 0, null);
-            gk.b(function(d, f, g, h, k, m, p) {
+            hk.b(function(d, f, g, h, k, m, p) {
               return function() {
                 return ma(null) ? e.appendChild(U.b ? U.b(function() {
                   var e = document.createTextNode("");
                   P(function() {
                     return function(d, e) {
-                      return e.nodeValue = "" + t(d)
+                      return d.nodeValue = "" + t(e)
                     }
-                  }(d, f, g, h, e, k, m, p)).call(null, m, e);
+                  }(d, f, g, h, e, k, m, p)).call(null, e, m);
                   return e
                 }()) : U.call(null, function() {
                   var e = document.createTextNode("");
                   P(function() {
                     return function(d, e) {
-                      return e.nodeValue = "" + t(d)
+                      return d.nodeValue = "" + t(e)
                     }
-                  }(d, f, g, h, e, k, m, p)).call(null, m, e);
+                  }(d, f, g, h, e, k, m, p)).call(null, e, m);
                   return e
                 }())) : e.insertBefore(U.b ? U.b(function() {
                   var e = document.createTextNode("");
                   P(function() {
                     return function(d, e) {
-                      return e.nodeValue = "" + t(d)
+                      return d.nodeValue = "" + t(e)
                     }
-                  }(d, f, g, h, e, k, m, p)).call(null, m, e);
+                  }(d, f, g, h, e, k, m, p)).call(null, e, m);
                   return e
                 }()) : U.call(null, function() {
                   var e = document.createTextNode("");
                   P(function() {
                     return function(d, e) {
-                      return e.nodeValue = "" + t(d)
+                      return d.nodeValue = "" + t(e)
                     }
-                  }(d, f, g, h, e, k, m, p)).call(null, m, e);
+                  }(d, f, g, h, e, k, m, p)).call(null, e, m);
                   return e
                 }()), e.firstChild)
               }
@@ -12346,39 +12361,39 @@ function Dm() {
                 g = Rc(x), s = Sc(x), p = g, r = F(g), g = s
               }else {
                 var G = H = y(x), I = J.c(G, 0, null);
-                gk.b(function(d, f, g, h, k, m, p, r, s) {
+                hk.b(function(d, f, g, h, k, m, p, r, s) {
                   return function() {
                     return ma(null) ? e.appendChild(U.b ? U.b(function() {
                       var e = document.createTextNode("");
                       P(function() {
                         return function(d, e) {
-                          return e.nodeValue = "" + t(d)
+                          return d.nodeValue = "" + t(e)
                         }
-                      }(d, f, g, h, e, k, m, p, r, s)).call(null, m, e);
+                      }(d, f, g, h, e, k, m, p, r, s)).call(null, e, m);
                       return e
                     }()) : U.call(null, function() {
                       var e = document.createTextNode("");
                       P(function() {
                         return function(d, e) {
-                          return e.nodeValue = "" + t(d)
+                          return d.nodeValue = "" + t(e)
                         }
-                      }(d, f, g, h, e, k, m, p, r, s)).call(null, m, e);
+                      }(d, f, g, h, e, k, m, p, r, s)).call(null, e, m);
                       return e
                     }())) : e.insertBefore(U.b ? U.b(function() {
                       var e = document.createTextNode("");
                       P(function() {
                         return function(d, e) {
-                          return e.nodeValue = "" + t(d)
+                          return d.nodeValue = "" + t(e)
                         }
-                      }(d, f, g, h, e, k, m, p, r, s)).call(null, m, e);
+                      }(d, f, g, h, e, k, m, p, r, s)).call(null, e, m);
                       return e
                     }()) : U.call(null, function() {
                       var e = document.createTextNode("");
                       P(function() {
                         return function(d, e) {
-                          return e.nodeValue = "" + t(d)
+                          return d.nodeValue = "" + t(e)
                         }
-                      }(d, f, g, h, e, k, m, p, r, s)).call(null, m, e);
+                      }(d, f, g, h, e, k, m, p, r, s)).call(null, e, m);
                       return e
                     }()), e.firstChild)
                   }
@@ -12393,18 +12408,18 @@ function Dm() {
             }
           }
         }
-        gk.b(function() {
+        hk.b(function() {
           return f.parentNode.replaceChild(e, f)
         });
-        return gk.b(ea(null))
+        return hk.b(ea(null))
       });
       return f
-    }()) : pl.call(null, function() {
+    }()) : rl.call(null, function() {
       var d = P(function(d, e) {
         return d.a ? d.a(3, e) : d.call(null, 3, e)
-      }).call(null, fk, g), e = document.createDocumentFragment(), f = document.createElement("SPAN");
+      }).call(null, gk, g), e = document.createDocumentFragment(), f = document.createElement("SPAN");
       c(c(null) ? u(null) : null) && Dh(null, !1);
-      rl.b ? rl.b(function() {
+      tl.b ? tl.b(function() {
         for(var g = w(hf.a(function(d) {
           return Bj(bf, d)
         }, Bj(function(d) {
@@ -12414,39 +12429,39 @@ function Dm() {
         }, d))), p = null, r = 0, s = 0;;) {
           if(s < r) {
             var x = p.p(p, s), B = x, H = J.c(B, 0, null);
-            gk.b(function(d, f, g, h, k, m, p) {
+            hk.b(function(d, f, g, h, k, m, p) {
               return function() {
                 return ma(null) ? e.appendChild(U.b ? U.b(function() {
                   var e = document.createTextNode("");
                   P(function() {
                     return function(d, e) {
-                      return e.nodeValue = "" + t(d)
+                      return d.nodeValue = "" + t(e)
                     }
-                  }(d, f, g, h, e, k, m, p)).call(null, m, e);
+                  }(d, f, g, h, e, k, m, p)).call(null, e, m);
                   return e
                 }()) : U.call(null, function() {
                   var e = document.createTextNode("");
                   P(function() {
                     return function(d, e) {
-                      return e.nodeValue = "" + t(d)
+                      return d.nodeValue = "" + t(e)
                     }
-                  }(d, f, g, h, e, k, m, p)).call(null, m, e);
+                  }(d, f, g, h, e, k, m, p)).call(null, e, m);
                   return e
                 }())) : e.insertBefore(U.b ? U.b(function() {
                   var e = document.createTextNode("");
                   P(function() {
                     return function(d, e) {
-                      return e.nodeValue = "" + t(d)
+                      return d.nodeValue = "" + t(e)
                     }
-                  }(d, f, g, h, e, k, m, p)).call(null, m, e);
+                  }(d, f, g, h, e, k, m, p)).call(null, e, m);
                   return e
                 }()) : U.call(null, function() {
                   var e = document.createTextNode("");
                   P(function() {
                     return function(d, e) {
-                      return e.nodeValue = "" + t(d)
+                      return d.nodeValue = "" + t(e)
                     }
-                  }(d, f, g, h, e, k, m, p)).call(null, m, e);
+                  }(d, f, g, h, e, k, m, p)).call(null, e, m);
                   return e
                 }()), e.firstChild)
               }
@@ -12459,39 +12474,39 @@ function Dm() {
                 g = Rc(x), s = Sc(x), p = g, r = F(g), g = s
               }else {
                 var G = H = y(x), I = J.c(G, 0, null);
-                gk.b(function(d, f, g, h, k, m, p, r, s) {
+                hk.b(function(d, f, g, h, k, m, p, r, s) {
                   return function() {
                     return ma(null) ? e.appendChild(U.b ? U.b(function() {
                       var e = document.createTextNode("");
                       P(function() {
                         return function(d, e) {
-                          return e.nodeValue = "" + t(d)
+                          return d.nodeValue = "" + t(e)
                         }
-                      }(d, f, g, h, e, k, m, p, r, s)).call(null, m, e);
+                      }(d, f, g, h, e, k, m, p, r, s)).call(null, e, m);
                       return e
                     }()) : U.call(null, function() {
                       var e = document.createTextNode("");
                       P(function() {
                         return function(d, e) {
-                          return e.nodeValue = "" + t(d)
+                          return d.nodeValue = "" + t(e)
                         }
-                      }(d, f, g, h, e, k, m, p, r, s)).call(null, m, e);
+                      }(d, f, g, h, e, k, m, p, r, s)).call(null, e, m);
                       return e
                     }())) : e.insertBefore(U.b ? U.b(function() {
                       var e = document.createTextNode("");
                       P(function() {
                         return function(d, e) {
-                          return e.nodeValue = "" + t(d)
+                          return d.nodeValue = "" + t(e)
                         }
-                      }(d, f, g, h, e, k, m, p, r, s)).call(null, m, e);
+                      }(d, f, g, h, e, k, m, p, r, s)).call(null, e, m);
                       return e
                     }()) : U.call(null, function() {
                       var e = document.createTextNode("");
                       P(function() {
                         return function(d, e) {
-                          return e.nodeValue = "" + t(d)
+                          return d.nodeValue = "" + t(e)
                         }
-                      }(d, f, g, h, e, k, m, p, r, s)).call(null, m, e);
+                      }(d, f, g, h, e, k, m, p, r, s)).call(null, e, m);
                       return e
                     }()), e.firstChild)
                   }
@@ -12506,11 +12521,11 @@ function Dm() {
             }
           }
         }
-        gk.b(function() {
+        hk.b(function() {
           return f.parentNode.replaceChild(e, f)
         });
-        return gk.b(ea(null))
-      }) : rl.call(null, function() {
+        return hk.b(ea(null))
+      }) : tl.call(null, function() {
         for(var g = w(hf.a(function(d) {
           return Bj(bf, d)
         }, Bj(function(d) {
@@ -12520,39 +12535,39 @@ function Dm() {
         }, d))), p = null, r = 0, s = 0;;) {
           if(s < r) {
             var x = p.p(p, s), B = x, H = J.c(B, 0, null);
-            gk.b(function(d, f, g, h, k, m, p) {
+            hk.b(function(d, f, g, h, k, m, p) {
               return function() {
                 return ma(null) ? e.appendChild(U.b ? U.b(function() {
                   var e = document.createTextNode("");
                   P(function() {
                     return function(d, e) {
-                      return e.nodeValue = "" + t(d)
+                      return d.nodeValue = "" + t(e)
                     }
-                  }(d, f, g, h, e, k, m, p)).call(null, m, e);
+                  }(d, f, g, h, e, k, m, p)).call(null, e, m);
                   return e
                 }()) : U.call(null, function() {
                   var e = document.createTextNode("");
                   P(function() {
                     return function(d, e) {
-                      return e.nodeValue = "" + t(d)
+                      return d.nodeValue = "" + t(e)
                     }
-                  }(d, f, g, h, e, k, m, p)).call(null, m, e);
+                  }(d, f, g, h, e, k, m, p)).call(null, e, m);
                   return e
                 }())) : e.insertBefore(U.b ? U.b(function() {
                   var e = document.createTextNode("");
                   P(function() {
                     return function(d, e) {
-                      return e.nodeValue = "" + t(d)
+                      return d.nodeValue = "" + t(e)
                     }
-                  }(d, f, g, h, e, k, m, p)).call(null, m, e);
+                  }(d, f, g, h, e, k, m, p)).call(null, e, m);
                   return e
                 }()) : U.call(null, function() {
                   var e = document.createTextNode("");
                   P(function() {
                     return function(d, e) {
-                      return e.nodeValue = "" + t(d)
+                      return d.nodeValue = "" + t(e)
                     }
-                  }(d, f, g, h, e, k, m, p)).call(null, m, e);
+                  }(d, f, g, h, e, k, m, p)).call(null, e, m);
                   return e
                 }()), e.firstChild)
               }
@@ -12565,39 +12580,39 @@ function Dm() {
                 g = Rc(x), s = Sc(x), p = g, r = F(g), g = s
               }else {
                 var G = H = y(x), I = J.c(G, 0, null);
-                gk.b(function(d, f, g, h, k, m, p, r, s) {
+                hk.b(function(d, f, g, h, k, m, p, r, s) {
                   return function() {
                     return ma(null) ? e.appendChild(U.b ? U.b(function() {
                       var e = document.createTextNode("");
                       P(function() {
                         return function(d, e) {
-                          return e.nodeValue = "" + t(d)
+                          return d.nodeValue = "" + t(e)
                         }
-                      }(d, f, g, h, e, k, m, p, r, s)).call(null, m, e);
+                      }(d, f, g, h, e, k, m, p, r, s)).call(null, e, m);
                       return e
                     }()) : U.call(null, function() {
                       var e = document.createTextNode("");
                       P(function() {
                         return function(d, e) {
-                          return e.nodeValue = "" + t(d)
+                          return d.nodeValue = "" + t(e)
                         }
-                      }(d, f, g, h, e, k, m, p, r, s)).call(null, m, e);
+                      }(d, f, g, h, e, k, m, p, r, s)).call(null, e, m);
                       return e
                     }())) : e.insertBefore(U.b ? U.b(function() {
                       var e = document.createTextNode("");
                       P(function() {
                         return function(d, e) {
-                          return e.nodeValue = "" + t(d)
+                          return d.nodeValue = "" + t(e)
                         }
-                      }(d, f, g, h, e, k, m, p, r, s)).call(null, m, e);
+                      }(d, f, g, h, e, k, m, p, r, s)).call(null, e, m);
                       return e
                     }()) : U.call(null, function() {
                       var e = document.createTextNode("");
                       P(function() {
                         return function(d, e) {
-                          return e.nodeValue = "" + t(d)
+                          return d.nodeValue = "" + t(e)
                         }
-                      }(d, f, g, h, e, k, m, p, r, s)).call(null, m, e);
+                      }(d, f, g, h, e, k, m, p, r, s)).call(null, e, m);
                       return e
                     }()), e.firstChild)
                   }
@@ -12612,20 +12627,20 @@ function Dm() {
             }
           }
         }
-        gk.b(function() {
+        hk.b(function() {
           return f.parentNode.replaceChild(e, f)
         });
-        return gk.b(ea(null))
+        return hk.b(ea(null))
       });
       return f
-    }()), tk.c ? tk.c(cj, function() {
+    }()), uk.c ? uk.c(cj, function() {
       return Eh.a(d, ma)
-    }, "toggle case") : tk.call(null, cj, function() {
+    }, "toggle case") : uk.call(null, cj, function() {
       return Eh.a(d, ma)
     }, "toggle case")], 0))], 0))
   };
-  xm = function() {
-    return T.a ? T.a(v([O, "highlight"], !0), Y.Db ? Y.Db(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "kd"], !0), "ns ") : Z.call(null, v([O, "kd"], !0), "ns "), Z.a ? Z.a(v([O, "nv"], !0), "ui.tabs") : Z.call(null, v([O, "nv"], !0), "ui.tabs"), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n\n", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "defelem") : Z.call(null, v([O, "nf"], 
+  zm = function() {
+    return T.a ? T.a(v([O, "highlight"], !0), Y.Eb ? Y.Eb(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "kd"], !0), "ns ") : Z.call(null, v([O, "kd"], !0), "ns "), Z.a ? Z.a(v([O, "nv"], !0), "ui.tabs") : Z.call(null, v([O, "nv"], !0), "ui.tabs"), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n\n", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "defelem") : Z.call(null, v([O, "nf"], 
     !0), "defelem"), " ", Z.a ? Z.a(v([O, "nv"], !0), "active") : Z.call(null, v([O, "nv"], !0), "active"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "[{") : Z.call(null, v([O, "p"], !0), "[{"), Z.a ? Z.a(v([O, "ss"], !0), ":keys") : Z.call(null, v([O, "ss"], !0), ":keys"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "state") : Z.call(null, v([O, "nv"], !0), "state"), Z.a ? Z.a(v([O, "p"], !0), "]}") : Z.call(null, v([O, "p"], !0), "]}"), " ", Z.a ? 
     Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "elem") : Z.call(null, v([O, "nv"], !0), "elem"), Z.a ? Z.a(v([O, "p"], !0), "]]") : Z.call(null, v([O, "p"], !0), "]]"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "elem") : Z.call(null, v([O, "nf"], !0), "elem"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":do-class") : Z.call(null, v([O, "ss"], !0), ":do-class"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : 
     Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "cell\x3d") : Z.call(null, v([O, "nf"], !0), "cell\x3d"), " ", Z.a ? Z.a(v([O, "p"], !0), "{") : Z.call(null, v([O, "p"], !0), "{"), Z.a ? Z.a(v([O, "ss"], !0), ":active") : Z.call(null, v([O, "ss"], !0), ":active"), " ", Z.a ? Z.a(v([O, "nv"], !0), "state") : Z.call(null, v([O, "nv"], !0), "state"), Z.a ? Z.a(v([O, "p"], !0), "})))") : Z.call(null, v([O, "p"], !0), "})))"), "\n\n", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, 
@@ -12683,7 +12698,7 @@ function Dm() {
     "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nb"], !0), "dissoc ") : Z.call(null, v([O, "nb"], !0), "dissoc "), Z.a ? Z.a(v([O, "nv"], !0), "attr") : Z.call(null, v([O, "nv"], !0), "attr"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":state") : Z.call(null, v([O, "ss"], !0), ":state"), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n      ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "ul") : Z.call(null, 
     v([O, "nf"], !0), "ul"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":class") : Z.call(null, v([O, "ss"], !0), ":class"), " ", Z.a ? Z.a(v([O, "s"], !0), '"nav nav-tabs"') : Z.call(null, v([O, "s"], !0), '"nav nav-tabs"'), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "map-indexed") : Z.call(null, v([O, "nf"], !0), "map-indexed"), " ", Z.a ? Z.a(v([O, "nv"], !0), "mktrig") : Z.call(null, v([O, "nv"], !0), "mktrig"), " ", Z.a ? Z.a(v([O, "nv"], !0), 
     "trigs") : Z.call(null, v([O, "nv"], !0), "trigs"), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n      ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "div") : Z.call(null, v([O, "nf"], !0), "div"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":class") : Z.call(null, v([O, "ss"], !0), ":class"), " ", Z.a ? Z.a(v([O, "s"], !0), '"tab-content"') : Z.call(null, v([O, "s"], !0), '"tab-content"'), " ", Z.a ? Z.a(v([O, "p"], !0), 
-    "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "map-indexed") : Z.call(null, v([O, "nf"], !0), "map-indexed"), " ", Z.a ? Z.a(v([O, "nv"], !0), "mkcont") : Z.call(null, v([O, "nv"], !0), "mkcont"), " ", Z.a ? Z.a(v([O, "nv"], !0), "conts") : Z.call(null, v([O, "nv"], !0), "conts"), Z.a ? Z.a(v([O, "p"], !0), ")))))") : Z.call(null, v([O, "p"], !0), ")))))"), "\n")) : T.call(null, v([O, "highlight"], !0), Y.Db ? Y.Db(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, 
+    "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "map-indexed") : Z.call(null, v([O, "nf"], !0), "map-indexed"), " ", Z.a ? Z.a(v([O, "nv"], !0), "mkcont") : Z.call(null, v([O, "nv"], !0), "mkcont"), " ", Z.a ? Z.a(v([O, "nv"], !0), "conts") : Z.call(null, v([O, "nv"], !0), "conts"), Z.a ? Z.a(v([O, "p"], !0), ")))))") : Z.call(null, v([O, "p"], !0), ")))))"), "\n")) : T.call(null, v([O, "highlight"], !0), Y.Eb ? Y.Eb(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, 
     "p"], !0), "("), Z.a ? Z.a(v([O, "kd"], !0), "ns ") : Z.call(null, v([O, "kd"], !0), "ns "), Z.a ? Z.a(v([O, "nv"], !0), "ui.tabs") : Z.call(null, v([O, "nv"], !0), "ui.tabs"), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n\n", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "defelem") : Z.call(null, v([O, "nf"], !0), "defelem"), " ", Z.a ? Z.a(v([O, "nv"], !0), "active") : Z.call(null, v([O, "nv"], !0), "active"), "\n  ", 
     Z.a ? Z.a(v([O, "p"], !0), "[{") : Z.call(null, v([O, "p"], !0), "[{"), Z.a ? Z.a(v([O, "ss"], !0), ":keys") : Z.call(null, v([O, "ss"], !0), ":keys"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "state") : Z.call(null, v([O, "nv"], !0), "state"), Z.a ? Z.a(v([O, "p"], !0), "]}") : Z.call(null, v([O, "p"], !0), "]}"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "elem") : Z.call(null, 
     v([O, "nv"], !0), "elem"), Z.a ? Z.a(v([O, "p"], !0), "]]") : Z.call(null, v([O, "p"], !0), "]]"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "elem") : Z.call(null, v([O, "nf"], !0), "elem"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":do-class") : Z.call(null, v([O, "ss"], !0), ":do-class"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "cell\x3d") : Z.call(null, v([O, "nf"], !0), "cell\x3d"), 
@@ -12744,7 +12759,7 @@ function Dm() {
     "\n      ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "div") : Z.call(null, v([O, "nf"], !0), "div"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":class") : Z.call(null, v([O, "ss"], !0), ":class"), " ", Z.a ? Z.a(v([O, "s"], !0), '"tab-content"') : Z.call(null, v([O, "s"], !0), '"tab-content"'), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "map-indexed") : Z.call(null, v([O, "nf"], !0), "map-indexed"), 
     " ", Z.a ? Z.a(v([O, "nv"], !0), "mkcont") : Z.call(null, v([O, "nv"], !0), "mkcont"), " ", Z.a ? Z.a(v([O, "nv"], !0), "conts") : Z.call(null, v([O, "nv"], !0), "conts"), Z.a ? Z.a(v([O, "p"], !0), ")))))") : Z.call(null, v([O, "p"], !0), ")))))"), "\n"))
   };
-  ym = function() {
+  Am = function() {
     return T.a ? T.a(v([O, "highlight"], !0), Y.wb ? Y.wb(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "page") : Z.call(null, v([O, "nf"], !0), "page"), " ", Z.a ? Z.a(v([O, "s"], !0), '"index.html"') : Z.call(null, v([O, "s"], !0), '"index.html"'), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "ss"], !0), ":require") : Z.call(null, v([O, "ss"], !0), ":require"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : 
     Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "ui.tabs") : Z.call(null, v([O, "nv"], !0), "ui.tabs"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":as") : Z.call(null, v([O, "ss"], !0), ":as"), " ", Z.a ? Z.a(v([O, "nv"], !0), "tabs") : Z.call(null, v([O, "nv"], !0), "tabs"), Z.a ? Z.a(v([O, "p"], !0), "]))") : Z.call(null, v([O, "p"], !0), "]))"), "\n\n", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "html") : Z.call(null, v([O, "nf"], 
     !0), "html"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "head") : Z.call(null, v([O, "nf"], !0), "head"), "\n    ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "link") : Z.call(null, v([O, "nf"], !0), "link"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":rel") : Z.call(null, v([O, "ss"], !0), ":rel"), " ", Z.a ? Z.a(v([O, "s"], !0), '"stylesheet"') : Z.call(null, v([O, "s"], !0), '"stylesheet"'), 
@@ -12790,8 +12805,8 @@ function Dm() {
     ")"), "\n      ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "div") : Z.call(null, v([O, "nf"], !0), "div"), "\n        ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "h4") : Z.call(null, v([O, "nf"], !0), "h4"), " ", Z.a ? Z.a(v([O, "s"], !0), '"Baz"') : Z.call(null, v([O, "s"], !0), '"Baz"'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n        ", Z.a ? Z.a(v([O, 
     "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "p") : Z.call(null, v([O, "nf"], !0), "p"), " ", Z.a ? Z.a(v([O, "s"], !0), '"Content for tab 2."') : Z.call(null, v([O, "s"], !0), '"Content for tab 2."'), Z.a ? Z.a(v([O, "p"], !0), ")))))") : Z.call(null, v([O, "p"], !0), ")))))"), "\n"))
   };
-  zm = function() {
-    return T.a ? T.a(v([O, "highlight"], !0), Y.Kb ? Y.Kb(Z.a ? Z.a(v([O, "nt"], !0), "\x3cscript") : Z.call(null, v([O, "nt"], !0), "\x3cscript"), " ", Z.a ? Z.a(v([O, "na"], !0), "type\x3d") : Z.call(null, v([O, "na"], !0), "type\x3d"), Z.a ? Z.a(v([O, "s"], !0), '"text/hoplon"') : Z.call(null, v([O, "s"], !0), '"text/hoplon"'), Z.a ? Z.a(v([O, "nt"], !0), "\x3e") : Z.call(null, v([O, "nt"], !0), "\x3e"), '\n  (page "index.html"\n    (:require [ui.tabs :as tabs]))\n', Z.a ? Z.a(v([O, "nt"], !0), 
+  Bm = function() {
+    return T.a ? T.a(v([O, "highlight"], !0), Y.Mb ? Y.Mb(Z.a ? Z.a(v([O, "nt"], !0), "\x3cscript") : Z.call(null, v([O, "nt"], !0), "\x3cscript"), " ", Z.a ? Z.a(v([O, "na"], !0), "type\x3d") : Z.call(null, v([O, "na"], !0), "type\x3d"), Z.a ? Z.a(v([O, "s"], !0), '"text/hoplon"') : Z.call(null, v([O, "s"], !0), '"text/hoplon"'), Z.a ? Z.a(v([O, "nt"], !0), "\x3e") : Z.call(null, v([O, "nt"], !0), "\x3e"), '\n  (page "index.html"\n    (:require [ui.tabs :as tabs]))\n', Z.a ? Z.a(v([O, "nt"], !0), 
     "\x3c/script\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/script\x3e"), "\n\n", Z.a ? Z.a(v([O, "nt"], !0), "\x3chtml\x3e") : Z.call(null, v([O, "nt"], !0), "\x3chtml\x3e"), "\n  ", Z.a ? Z.a(v([O, "nt"], !0), "\x3chead\x3e") : Z.call(null, v([O, "nt"], !0), "\x3chead\x3e"), "\n    ", Z.a ? Z.a(v([O, "nt"], !0), "\x3clink") : Z.call(null, v([O, "nt"], !0), "\x3clink"), " ", Z.a ? Z.a(v([O, "na"], !0), "rel\x3d") : Z.call(null, v([O, "na"], !0), "rel\x3d"), Z.a ? Z.a(v([O, "s"], !0), '"stylesheet"') : 
     Z.call(null, v([O, "s"], !0), '"stylesheet"'), " ", Z.a ? Z.a(v([O, "na"], !0), "href\x3d") : Z.call(null, v([O, "na"], !0), "href\x3d"), Z.a ? Z.a(v([O, "s"], !0), '"css/bootstrap.css"') : Z.call(null, v([O, "s"], !0), '"css/bootstrap.css"'), Z.a ? Z.a(v([O, "nt"], !0), "\x3e") : Z.call(null, v([O, "nt"], !0), "\x3e"), "\n  ", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/head\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/head\x3e"), "\n  ", Z.a ? Z.a(v([O, "nt"], !0), "\x3cbody\x3e") : Z.call(null, v([O, 
     "nt"], !0), "\x3cbody\x3e"), "\n    ", Z.a ? Z.a(v([O, "nt"], !0), "\x3ctabs.tabs\x3e") : Z.call(null, v([O, "nt"], !0), "\x3ctabs.tabs\x3e"), "\n      ", Z.a ? Z.a(v([O, "nt"], !0), "\x3cspan\x3e") : Z.call(null, v([O, "nt"], !0), "\x3cspan\x3e"), "Zero", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/span\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/span\x3e"), "\n      ", Z.a ? Z.a(v([O, "nt"], !0), "\x3cdiv\x3e") : Z.call(null, v([O, "nt"], !0), "\x3cdiv\x3e"), "\n        ", Z.a ? Z.a(v([O, "nt"], !0), 
@@ -12808,7 +12823,7 @@ function Dm() {
     "\x3cspan\x3e"), "One", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/span\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/span\x3e"), "\n      ", Z.a ? Z.a(v([O, "nt"], !0), "\x3cdiv\x3e") : Z.call(null, v([O, "nt"], !0), "\x3cdiv\x3e"), "\n        ", Z.a ? Z.a(v([O, "nt"], !0), "\x3ch4\x3e") : Z.call(null, v([O, "nt"], !0), "\x3ch4\x3e"), "Bar", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/h4\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/h4\x3e"), "\n        ", Z.a ? Z.a(v([O, "nt"], !0), "\x3cp\x3e") : Z.call(null, 
     v([O, "nt"], !0), "\x3cp\x3e"), "Content for tab 1.", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/p\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/p\x3e"), "\n      ", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/div\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/div\x3e"), "\n      ", Z.a ? Z.a(v([O, "nt"], !0), "\x3cspan\x3e") : Z.call(null, v([O, "nt"], !0), "\x3cspan\x3e"), "Two", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/span\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/span\x3e"), "\n      ", Z.a ? Z.a(v([O, "nt"], !0), 
     "\x3cdiv\x3e") : Z.call(null, v([O, "nt"], !0), "\x3cdiv\x3e"), "\n        ", Z.a ? Z.a(v([O, "nt"], !0), "\x3ch4\x3e") : Z.call(null, v([O, "nt"], !0), "\x3ch4\x3e"), "Baz", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/h4\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/h4\x3e"), "\n        ", Z.a ? Z.a(v([O, "nt"], !0), "\x3cp\x3e") : Z.call(null, v([O, "nt"], !0), "\x3cp\x3e"), "Content for tab 2.", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/p\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/p\x3e"), "\n      ", Z.a ? 
-    Z.a(v([O, "nt"], !0), "\x3c/div\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/div\x3e"), "\n    ", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/tabs.tabs\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/tabs.tabs\x3e"), "\n  ", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/body\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/body\x3e"), "\n", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/html\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/html\x3e"), "\n")) : T.call(null, v([O, "highlight"], !0), Y.Kb ? Y.Kb(Z.a ? Z.a(v([O, "nt"], !0), 
+    Z.a(v([O, "nt"], !0), "\x3c/div\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/div\x3e"), "\n    ", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/tabs.tabs\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/tabs.tabs\x3e"), "\n  ", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/body\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/body\x3e"), "\n", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/html\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/html\x3e"), "\n")) : T.call(null, v([O, "highlight"], !0), Y.Mb ? Y.Mb(Z.a ? Z.a(v([O, "nt"], !0), 
     "\x3cscript") : Z.call(null, v([O, "nt"], !0), "\x3cscript"), " ", Z.a ? Z.a(v([O, "na"], !0), "type\x3d") : Z.call(null, v([O, "na"], !0), "type\x3d"), Z.a ? Z.a(v([O, "s"], !0), '"text/hoplon"') : Z.call(null, v([O, "s"], !0), '"text/hoplon"'), Z.a ? Z.a(v([O, "nt"], !0), "\x3e") : Z.call(null, v([O, "nt"], !0), "\x3e"), '\n  (page "index.html"\n    (:require [ui.tabs :as tabs]))\n', Z.a ? Z.a(v([O, "nt"], !0), "\x3c/script\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/script\x3e"), "\n\n", 
     Z.a ? Z.a(v([O, "nt"], !0), "\x3chtml\x3e") : Z.call(null, v([O, "nt"], !0), "\x3chtml\x3e"), "\n  ", Z.a ? Z.a(v([O, "nt"], !0), "\x3chead\x3e") : Z.call(null, v([O, "nt"], !0), "\x3chead\x3e"), "\n    ", Z.a ? Z.a(v([O, "nt"], !0), "\x3clink") : Z.call(null, v([O, "nt"], !0), "\x3clink"), " ", Z.a ? Z.a(v([O, "na"], !0), "rel\x3d") : Z.call(null, v([O, "na"], !0), "rel\x3d"), Z.a ? Z.a(v([O, "s"], !0), '"stylesheet"') : Z.call(null, v([O, "s"], !0), '"stylesheet"'), " ", Z.a ? Z.a(v([O, "na"], 
     !0), "href\x3d") : Z.call(null, v([O, "na"], !0), "href\x3d"), Z.a ? Z.a(v([O, "s"], !0), '"css/bootstrap.css"') : Z.call(null, v([O, "s"], !0), '"css/bootstrap.css"'), Z.a ? Z.a(v([O, "nt"], !0), "\x3e") : Z.call(null, v([O, "nt"], !0), "\x3e"), "\n  ", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/head\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/head\x3e"), "\n  ", Z.a ? Z.a(v([O, "nt"], !0), "\x3cbody\x3e") : Z.call(null, v([O, "nt"], !0), "\x3cbody\x3e"), "\n    ", Z.a ? Z.a(v([O, "nt"], !0), "\x3ctabs.tabs\x3e") : 
@@ -12828,71 +12843,71 @@ function Dm() {
     Z.call(null, v([O, "nt"], !0), "\x3ch4\x3e"), "Baz", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/h4\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/h4\x3e"), "\n        ", Z.a ? Z.a(v([O, "nt"], !0), "\x3cp\x3e") : Z.call(null, v([O, "nt"], !0), "\x3cp\x3e"), "Content for tab 2.", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/p\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/p\x3e"), "\n      ", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/div\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/div\x3e"), "\n    ", Z.a ? Z.a(v([O, "nt"], 
     !0), "\x3c/tabs.tabs\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/tabs.tabs\x3e"), "\n  ", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/body\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/body\x3e"), "\n", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/html\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/html\x3e"), "\n"))
   };
-  Am = function() {
-    return Rl.d(C([Sl.d(C([$l.d(C([Z.b ? Z.b("Zero") : Z.call(null, "Zero"), T.a ? T.a(bl.b ? bl.b("Foo") : bl.call(null, "Foo"), W.b ? W.b("Content for tab 0.") : W.call(null, "Content for tab 0.")) : T.call(null, bl.b ? bl.b("Foo") : bl.call(null, "Foo"), W.b ? W.b("Content for tab 0.") : W.call(null, "Content for tab 0.")), Z.b ? Z.b("One") : Z.call(null, "One"), T.a ? T.a(bl.b ? bl.b("Bar") : bl.call(null, "Bar"), W.b ? W.b("Content for tab 1.") : W.call(null, "Content for tab 1.")) : T.call(null, 
-    bl.b ? bl.b("Bar") : bl.call(null, "Bar"), W.b ? W.b("Content for tab 1.") : W.call(null, "Content for tab 1.")), Z.b ? Z.b("Two") : Z.call(null, "Two"), T.a ? T.a(bl.b ? bl.b("Baz") : bl.call(null, "Baz"), W.b ? W.b("Content for tab 2.") : W.call(null, "Content for tab 2.")) : T.call(null, bl.b ? bl.b("Baz") : bl.call(null, "Baz"), W.b ? W.b("Content for tab 2.") : W.call(null, "Content for tab 2."))], 0))], 0))], 0))
-  };
-  Bm = v([ni, 523, aj, 392], !0);
   Cm = function() {
-    return Xk.c ? Xk.c(Ci, "padding:30px 0px;", T.c ? T.c(Ci, "text-align:center;", "Copyright \u00a9 Alan Dipert and Micha Niskin. All rights reserved.") : T.call(null, Ci, "text-align:center;", "Copyright \u00a9 Alan Dipert and Micha Niskin. All rights reserved.")) : Xk.call(null, Ci, "padding:30px 0px;", T.c ? T.c(Ci, "text-align:center;", "Copyright \u00a9 Alan Dipert and Micha Niskin. All rights reserved.") : T.call(null, Ci, "text-align:center;", "Copyright \u00a9 Alan Dipert and Micha Niskin. All rights reserved."))
+    return Tl.d(C([Ul.d(C([bm.d(C([Z.b ? Z.b("Zero") : Z.call(null, "Zero"), T.a ? T.a(dl.b ? dl.b("Foo") : dl.call(null, "Foo"), W.b ? W.b("Content for tab 0.") : W.call(null, "Content for tab 0.")) : T.call(null, dl.b ? dl.b("Foo") : dl.call(null, "Foo"), W.b ? W.b("Content for tab 0.") : W.call(null, "Content for tab 0.")), Z.b ? Z.b("One") : Z.call(null, "One"), T.a ? T.a(dl.b ? dl.b("Bar") : dl.call(null, "Bar"), W.b ? W.b("Content for tab 1.") : W.call(null, "Content for tab 1.")) : T.call(null, 
+    dl.b ? dl.b("Bar") : dl.call(null, "Bar"), W.b ? W.b("Content for tab 1.") : W.call(null, "Content for tab 1.")), Z.b ? Z.b("Two") : Z.call(null, "Two"), T.a ? T.a(dl.b ? dl.b("Baz") : dl.call(null, "Baz"), W.b ? W.b("Content for tab 2.") : W.call(null, "Content for tab 2.")) : T.call(null, dl.b ? dl.b("Baz") : dl.call(null, "Baz"), W.b ? W.b("Content for tab 2.") : W.call(null, "Content for tab 2."))], 0))], 0))], 0))
   };
-  rl.b ? rl.b(function() {
-    return Wl()
-  }) : rl.call(null, function() {
-    return Wl()
+  Dm = v([ni, 523, aj, 392], !0);
+  Em = function() {
+    return Zk.c ? Zk.c(Ci, "padding:30px 0px;", T.c ? T.c(Ci, "text-align:center;", "Copyright \u00a9 Alan Dipert and Micha Niskin. All rights reserved.") : T.call(null, Ci, "text-align:center;", "Copyright \u00a9 Alan Dipert and Micha Niskin. All rights reserved.")) : Zk.call(null, Ci, "padding:30px 0px;", T.c ? T.c(Ci, "text-align:center;", "Copyright \u00a9 Alan Dipert and Micha Niskin. All rights reserved.") : T.call(null, Ci, "text-align:center;", "Copyright \u00a9 Alan Dipert and Micha Niskin. All rights reserved."))
+  };
+  tl.b ? tl.b(function() {
+    return Yl()
+  }) : tl.call(null, function() {
+    return Yl()
   });
-  return sl(M([bm.l ? bm.l() : bm.call(null), function() {
-    return Q.k ? Q.k(O, "topfix", Pi, P(aa()).call(null, Vl)) : Q.call(null, O, "topfix", Pi, P(aa()).call(null, Vl))
+  return ul(M([dm.l ? dm.l() : dm.call(null), function() {
+    return Q.k ? Q.k(O, "topfix", Pi, P(aa()).call(null, Xl)) : Q.call(null, O, "topfix", Pi, P(aa()).call(null, Xl))
   }(), function() {
     var d = T.c ? T.c(O, "nojs-error", "This page uses JavaScript but it looks like you have it turned off.") : T.call(null, O, "nojs-error", "This page uses JavaScript but it looks like you have it turned off.");
-    return il.b ? il.b(d) : il.call(null, d)
+    return kl.b ? kl.b(d) : kl.call(null, d)
   }(), function() {
-    var d = Zk.b ? Zk.b("Hoplon") : Zk.call(null, "Hoplon"), e = W.b ? W.b("A simpler way to program the web.") : W.call(null, "A simpler way to program the web."), f = Ol.d(C([hi, "#/getting-started/", "Get started \u00bb"], 0)), g = W.b ? W.b(f) : W.call(null, f), h = Cl.d(C([d, e, g], 0)), l = Dl.d(C([h], 0)), k = $k.b ? $k.b("Clojure, everywhere.") : $k.call(null, "Clojure, everywhere."), m = W.b ? W.b("Write everything in Clojure and ClojureScript, clientside and\n               serverside. Even the page markup is ClojureScript that is\n               evaluated to produce the DOM. Pages can still be written using\n               the familiar HTML syntax if desired.") : 
-    W.call(null, "Write everything in Clojure and ClojureScript, clientside and\n               serverside. Even the page markup is ClojureScript that is\n               evaluated to produce the DOM. Pages can still be written using\n               the familiar HTML syntax if desired."), p = xl.d(C([k, m], 0)), r = $k.b ? $k.b("Simplicity on the client.") : $k.call(null, "Simplicity on the client."), s = W.b ? W.b("Use a spreadsheet-like dataflow programming environment to manage\n               client state. Develop basic content-oriented pages and complex\n               thick-client applications without descending into \u201ccallback\n               hell\u201d.") : 
-    W.call(null, "Use a spreadsheet-like dataflow programming environment to manage\n               client state. Develop basic content-oriented pages and complex\n               thick-client applications without descending into \u201ccallback\n               hell\u201d."), x = xl.d(C([r, s], 0)), B = $k.b ? $k.b("Simplicity on the server.") : $k.call(null, "Simplicity on the server."), H = W.b ? W.b("Decouple business logic from HTTP-related concerns while\n               satisfying complex, fine-grained authorization requirements with\n               transparent, performant transfer of Clojure data between server\n               and client.") : 
-    W.call(null, "Decouple business logic from HTTP-related concerns while\n               satisfying complex, fine-grained authorization requirements with\n               transparent, performant transfer of Clojure data between server\n               and client."), G = xl.d(C([B, H], 0)), I = wl.d(C([p, x, G], 0)), V = cl.l ? cl.l() : cl.call(null), R = ll.b ? ll.b("Hoplon in a nutshell.") : ll.call(null, "Hoplon in a nutshell."), X = $k.a ? $k.a("Overview ", R) : $k.call(null, "Overview ", R), 
+    var d = al.b ? al.b("Hoplon") : al.call(null, "Hoplon"), e = W.b ? W.b("A simpler way to program the web.") : W.call(null, "A simpler way to program the web."), f = Ql.d(C([hi, "#/getting-started/", "Get started \u00bb"], 0)), g = W.b ? W.b(f) : W.call(null, f), h = El.d(C([d, e, g], 0)), l = Fl.d(C([h], 0)), k = bl.b ? bl.b("Clojure, everywhere.") : bl.call(null, "Clojure, everywhere."), m = W.b ? W.b("Write everything in Clojure and ClojureScript, clientside and\n               serverside. Even the page markup is ClojureScript that is\n               evaluated to produce the DOM. Pages can still be written using\n               the familiar HTML syntax if desired.") : 
+    W.call(null, "Write everything in Clojure and ClojureScript, clientside and\n               serverside. Even the page markup is ClojureScript that is\n               evaluated to produce the DOM. Pages can still be written using\n               the familiar HTML syntax if desired."), p = zl.d(C([k, m], 0)), r = bl.b ? bl.b("Simplicity on the client.") : bl.call(null, "Simplicity on the client."), s = W.b ? W.b("Use a spreadsheet-like dataflow programming environment to manage\n               client state. Develop basic content-oriented pages and complex\n               thick-client applications without descending into \u201ccallback\n               hell\u201d.") : 
+    W.call(null, "Use a spreadsheet-like dataflow programming environment to manage\n               client state. Develop basic content-oriented pages and complex\n               thick-client applications without descending into \u201ccallback\n               hell\u201d."), x = zl.d(C([r, s], 0)), B = bl.b ? bl.b("Simplicity on the server.") : bl.call(null, "Simplicity on the server."), H = W.b ? W.b("Decouple business logic from HTTP-related concerns while\n               satisfying complex, fine-grained authorization requirements with\n               transparent, performant transfer of Clojure data between server\n               and client.") : 
+    W.call(null, "Decouple business logic from HTTP-related concerns while\n               satisfying complex, fine-grained authorization requirements with\n               transparent, performant transfer of Clojure data between server\n               and client."), G = zl.d(C([B, H], 0)), I = yl.d(C([p, x, G], 0)), V = el.l ? el.l() : el.call(null), R = nl.b ? nl.b("Hoplon in a nutshell.") : nl.call(null, "Hoplon in a nutshell."), X = bl.a ? bl.a("Overview ", R) : bl.call(null, "Overview ", R), 
     ba = W.b ? W.b("Hoplon provides a number of libraries promoting a simpler model\n               for web applications. The project can be divided into three main\n               components: the HTML evaluator, the clientside state machine, and\n               serverside RPC middleware. These components can be used together\n               as a full stack, or individually as a part of another stack.") : W.call(null, "Hoplon provides a number of libraries promoting a simpler model\n               for web applications. The project can be divided into three main\n               components: the HTML evaluator, the clientside state machine, and\n               serverside RPC middleware. These components can be used together\n               as a full stack, or individually as a part of another stack."), 
     ca = Q.n ? Q.n(hi, "https://github.com/tailrecursion/boot", pi, "_blank", "boot") : Q.call(null, hi, "https://github.com/tailrecursion/boot", pi, "_blank", "boot"), ja = W.c ? W.c("More concretely, Hoplon ships with a compiler for compiling\n               Hoplon pages into HTML and JavaScript (implemented as a build \n               task for the ", ca, " build tool), ClojureScript libraries for creating\n               spreadsheet-like dataflow programs and wiring them to the DOM,\n               and ClojureScript and Clojure libraries for RPC interaction\n               between client and server.") : 
     W.call(null, "More concretely, Hoplon ships with a compiler for compiling\n               Hoplon pages into HTML and JavaScript (implemented as a build \n               task for the ", ca, " build tool), ClojureScript libraries for creating\n               spreadsheet-like dataflow programs and wiring them to the DOM,\n               and ClojureScript and Clojure libraries for RPC interaction\n               between client and server."), na = Q.n ? Q.n(hi, "https://github.com/tailrecursion/hoplon", 
-    pi, "_blank", "GitHub") : Q.call(null, hi, "https://github.com/tailrecursion/hoplon", pi, "_blank", "GitHub"), oa = Q.n ? Q.n(hi, "https://clojars.org/tailrecursion/hoplon", pi, "_blank", "Clojars") : Q.call(null, hi, "https://clojars.org/tailrecursion/hoplon", pi, "_blank", "Clojars"), sa = Q.c ? Q.c(hi, "javascript:void(0)", "Contributors") : Q.call(null, hi, "javascript:void(0)", "Contributors"), ta = ml.b ? ml.b(sa) : ml.call(null, sa), Oa = W.Z ? W.Z("The source code for Hoplon is hosted on ", 
-    na, " and Maven artifacts are deployed to ", oa, ". Contributions of code, feedback, feature requests, etc. are\n                welcome. Please read the ", ta, " page for more information.") : W.call(null, "The source code for Hoplon is hosted on ", na, " and Maven artifacts are deployed to ", oa, ". Contributions of code, feedback, feature requests, etc. are\n                welcome. Please read the ", ta, " page for more information."), ua = ll.b ? ll.b("Single-page applications, not documents.") : 
-    ll.call(null, "Single-page applications, not documents."), Pa = $k.a ? $k.a("Web Apps ", ua) : $k.call(null, "Web Apps ", ua), va = W.b ? W.b("Web applications are not documents. Users need to be able to\n               interact with them. They contain state. Through them the user\n               communicates with backend systems to have some effect on the\n               real world.") : W.call(null, "Web applications are not documents. Users need to be able to\n               interact with them. They contain state. Through them the user\n               communicates with backend systems to have some effect on the\n               real world."), 
+    pi, "_blank", "GitHub") : Q.call(null, hi, "https://github.com/tailrecursion/hoplon", pi, "_blank", "GitHub"), oa = Q.n ? Q.n(hi, "https://clojars.org/tailrecursion/hoplon", pi, "_blank", "Clojars") : Q.call(null, hi, "https://clojars.org/tailrecursion/hoplon", pi, "_blank", "Clojars"), sa = Q.c ? Q.c(hi, "javascript:void(0)", "Contributors") : Q.call(null, hi, "javascript:void(0)", "Contributors"), ta = ol.b ? ol.b(sa) : ol.call(null, sa), Oa = W.Z ? W.Z("The source code for Hoplon is hosted on ", 
+    na, " and Maven artifacts are deployed to ", oa, ". Contributions of code, feedback, feature requests, etc. are\n                welcome. Please read the ", ta, " page for more information.") : W.call(null, "The source code for Hoplon is hosted on ", na, " and Maven artifacts are deployed to ", oa, ". Contributions of code, feedback, feature requests, etc. are\n                welcome. Please read the ", ta, " page for more information."), ua = nl.b ? nl.b("Single-page applications, not documents.") : 
+    nl.call(null, "Single-page applications, not documents."), Pa = bl.a ? bl.a("Web Apps ", ua) : bl.call(null, "Web Apps ", ua), va = W.b ? W.b("Web applications are not documents. Users need to be able to\n               interact with them. They contain state. Through them the user\n               communicates with backend systems to have some effect on the\n               real world.") : W.call(null, "Web applications are not documents. Users need to be able to\n               interact with them. They contain state. Through them the user\n               communicates with backend systems to have some effect on the\n               real world."), 
     wa = W.b ? W.b("Hoplon web apps are organized like applications. The Hoplon\n               compiler produces artifacts, not documents. These artifacts are\n               equivalent to JAR files in Maven\u2013their coordinates being the\n               URL on which they're deployed. The compilation unit is the \u201cpage\u201d,\n               which is compiled to produce an HTML file\u2013a single-page app.") : W.call(null, "Hoplon web apps are organized like applications. The Hoplon\n               compiler produces artifacts, not documents. These artifacts are\n               equivalent to JAR files in Maven\u2013their coordinates being the\n               URL on which they're deployed. The compilation unit is the \u201cpage\u201d,\n               which is compiled to produce an HTML file\u2013a single-page app."), 
     Qa = W.b ? W.b("Hoplon does not perform any serverside HTML rendering; it is\n               completely unnecessary, even for SEO purposes. (Reload this\n               page with JavaScript disabled and see how the content was\n               \u201cprerendered\u201d at compile time.)") : W.call(null, "Hoplon does not perform any serverside HTML rendering; it is\n               completely unnecessary, even for SEO purposes. (Reload this\n               page with JavaScript disabled and see how the content was\n               \u201cprerendered\u201d at compile time.)"), 
-    xa = ll.b ? ll.b("Page markup is a program.") : ll.call(null, "Page markup is a program."), Ra = $k.a ? $k.a("HTML Evaluator ", xa) : $k.call(null, "HTML Evaluator ", xa), Sa = W.b ? W.b("Web application user interfaces are specified as trees of\n               nested elements in HTML markup, but this document-like\n               appearance is misleading. Without JavaScript this markup cannot\n               provide the dynamic behavior that web applications require.") : W.call(null, "Web application user interfaces are specified as trees of\n               nested elements in HTML markup, but this document-like\n               appearance is misleading. Without JavaScript this markup cannot\n               provide the dynamic behavior that web applications require."), 
+    xa = nl.b ? nl.b("Page markup is a program.") : nl.call(null, "Page markup is a program."), Ra = bl.a ? bl.a("HTML Evaluator ", xa) : bl.call(null, "HTML Evaluator ", xa), Sa = W.b ? W.b("Web application user interfaces are specified as trees of\n               nested elements in HTML markup, but this document-like\n               appearance is misleading. Without JavaScript this markup cannot\n               provide the dynamic behavior that web applications require.") : W.call(null, "Web application user interfaces are specified as trees of\n               nested elements in HTML markup, but this document-like\n               appearance is misleading. Without JavaScript this markup cannot\n               provide the dynamic behavior that web applications require."), 
     ya = W.b ? W.b("It is at the boundary between the DOM and the JavaScript\n               environment that the incindental complexities of web application\n               UI development are found. There is a fundamental disconnect\n               between the literal representation of the DOM (the HTML markup)\n               and the dynamic environment (the JavaScript VM). The page markup\n               is evaluated by the browser and the resulting DOM is then\n               accessible from JavaScript, but it's a one-way linkage\u2013there is\n               no way to refer to objects created dynamically in the JavaScript\n               environment from the markup. The browser's HTML evaluation model\n               lacks a means of abstraction, preventing the development of new\n               elements by composition.") : 
     W.call(null, "It is at the boundary between the DOM and the JavaScript\n               environment that the incindental complexities of web application\n               UI development are found. There is a fundamental disconnect\n               between the literal representation of the DOM (the HTML markup)\n               and the dynamic environment (the JavaScript VM). The page markup\n               is evaluated by the browser and the resulting DOM is then\n               accessible from JavaScript, but it's a one-way linkage\u2013there is\n               no way to refer to objects created dynamically in the JavaScript\n               environment from the markup. The browser's HTML evaluation model\n               lacks a means of abstraction, preventing the development of new\n               elements by composition."), 
     Ua = W.b ? W.b("Hoplon provides an HTML evaluator that closes the loop, unifying\n               the page markup and the JavaScript environment. Page markup,\n               expressed in either the standard HTML5 syntax or Clojure sexps,\n               is evaluated as ClojureScript and the result becomes the DOM for\n               the page. HTML tags are simply ClojureScript vars. Of course,\n               Hoplon ships with all of the standard HTML5 primitives but the\n               evaluation model now facilitates the use of custom compound\n               elements defined in the environment, too.") : 
     W.call(null, "Hoplon provides an HTML evaluator that closes the loop, unifying\n               the page markup and the JavaScript environment. Page markup,\n               expressed in either the standard HTML5 syntax or Clojure sexps,\n               is evaluated as ClojureScript and the result becomes the DOM for\n               the page. HTML tags are simply ClojureScript vars. Of course,\n               Hoplon ships with all of the standard HTML5 primitives but the\n               evaluation model now facilitates the use of custom compound\n               elements defined in the environment, too."), 
     Va = W.b ? W.b("Additionally, the unification of HTML and ClojureScript syntax,\n               semantics, and namespace in the HTML evaluator facilitates the\n               use of macros in markup.  This makes it possible to write\n               powerful looping and control structures for use in the page's\n               HTML markup itself, bringing the power and expressiveness of\n               Lisp to HTML.") : W.call(null, "Additionally, the unification of HTML and ClojureScript syntax,\n               semantics, and namespace in the HTML evaluator facilitates the\n               use of macros in markup.  This makes it possible to write\n               powerful looping and control structures for use in the page's\n               HTML markup itself, bringing the power and expressiveness of\n               Lisp to HTML."), 
-    za = ll.b ? ll.b("First-class custom DOM elements.") : ll.call(null, "First-class custom DOM elements."), Aa = $k.a ? $k.a("Components ", za) : $k.call(null, "Components ", za), Ba = W.b ? W.b("While there is no shortage of templating systems to create\n               blobs of DOM elements, there is no mechanism to create custom\n               elements that are composable in any meaningful way. Consider\n               the situation where a template engine binds a DOM template to\n               some data and returns the filled-in DOM subtree. What happens\n               when you append a child to, or set an attribute on that DOM\n               element? The child gets appended to, or attribute set on the\n               outermost element of the filled template, generally not what is\n               required for the composition semantic.") : 
+    za = nl.b ? nl.b("First-class custom DOM elements.") : nl.call(null, "First-class custom DOM elements."), Aa = bl.a ? bl.a("Components ", za) : bl.call(null, "Components ", za), Ba = W.b ? W.b("While there is no shortage of templating systems to create\n               blobs of DOM elements, there is no mechanism to create custom\n               elements that are composable in any meaningful way. Consider\n               the situation where a template engine binds a DOM template to\n               some data and returns the filled-in DOM subtree. What happens\n               when you append a child to, or set an attribute on that DOM\n               element? The child gets appended to, or attribute set on the\n               outermost element of the filled template, generally not what is\n               required for the composition semantic.") : 
     W.call(null, "While there is no shortage of templating systems to create\n               blobs of DOM elements, there is no mechanism to create custom\n               elements that are composable in any meaningful way. Consider\n               the situation where a template engine binds a DOM template to\n               some data and returns the filled-in DOM subtree. What happens\n               when you append a child to, or set an attribute on that DOM\n               element? The child gets appended to, or attribute set on the\n               outermost element of the filled template, generally not what is\n               required for the composition semantic."), 
     Wa = W.b ? W.b("Hoplon provides facilities for creating real, first-class\n               components. That is to say, Hoplon components are first-class\n               citizens in the DOM world\u2013they are, essentially, user-defined\n               custom DOM elements. They have a literal representation in the\n               page markup and they implement the semantics of HTML: setting\n               attributes and appending children. When a child is appended to\n               a Hoplon component or an attribute is set, either in HTML markup\n               or programmatically, the component's implementation is used\n               instead of the built-in DOM one. In this way components can be\n               built by composing simpler components and those may be used as\n               a basis for even more complex components, without running into\n               the limitations of template composition.") : 
     W.call(null, "Hoplon provides facilities for creating real, first-class\n               components. That is to say, Hoplon components are first-class\n               citizens in the DOM world\u2013they are, essentially, user-defined\n               custom DOM elements. They have a literal representation in the\n               page markup and they implement the semantics of HTML: setting\n               attributes and appending children. When a child is appended to\n               a Hoplon component or an attribute is set, either in HTML markup\n               or programmatically, the component's implementation is used\n               instead of the built-in DOM one. In this way components can be\n               built by composing simpler components and those may be used as\n               a basis for even more complex components, without running into\n               the limitations of template composition."), 
-    pa = ll.b ? ll.b("Client state made simple.") : ll.call(null, "Client state made simple."), Xa = $k.a ? $k.a("Spreadsheets ", pa) : $k.call(null, "Spreadsheets ", pa), Ya = W.b ? W.b("Remember how awesome spreadsheets are? You never think about\n               state when you\u2019re programming a spreadsheet. Instead, you focus\n               on values and the formulas that define the relationships between\n               them. When a new value is entered into a cell the rest of the \n               spreadsheet updates itself as necessary to maintain the\n               correctness of the formulas.") : 
+    pa = nl.b ? nl.b("Client state made simple.") : nl.call(null, "Client state made simple."), Xa = bl.a ? bl.a("Spreadsheets ", pa) : bl.call(null, "Spreadsheets ", pa), Ya = W.b ? W.b("Remember how awesome spreadsheets are? You never think about\n               state when you\u2019re programming a spreadsheet. Instead, you focus\n               on values and the formulas that define the relationships between\n               them. When a new value is entered into a cell the rest of the \n               spreadsheet updates itself as necessary to maintain the\n               correctness of the formulas.") : 
     W.call(null, "Remember how awesome spreadsheets are? You never think about\n               state when you\u2019re programming a spreadsheet. Instead, you focus\n               on values and the formulas that define the relationships between\n               them. When a new value is entered into a cell the rest of the \n               spreadsheet updates itself as necessary to maintain the\n               correctness of the formulas."), Za = W.b ? W.b("After a spreadsheet is set up you can link its cells to charts\n               and forms to create a user interface that manages its own state,\n               automatically. User input flows from forms to input cells.\n               Formulas then recompute their values as necessary. These values\n               then flow to charts and graphs for the user to view.") : 
-    W.call(null, "After a spreadsheet is set up you can link its cells to charts\n               and forms to create a user interface that manages its own state,\n               automatically. User input flows from forms to input cells.\n               Formulas then recompute their values as necessary. These values\n               then flow to charts and graphs for the user to view."), Ca = xk.b ? xk.b("A1") : xk.call(null, "A1"), Da = xk.b ? xk.b("B27") : xk.call(null, "B27"), Ea = W.n ? W.n("Hoplon applies this crazy, futuristic technology to frontend\n              web development. Forgoing the clunky grid metaphor and names\n              like ", 
+    W.call(null, "After a spreadsheet is set up you can link its cells to charts\n               and forms to create a user interface that manages its own state,\n               automatically. User input flows from forms to input cells.\n               Formulas then recompute their values as necessary. These values\n               then flow to charts and graphs for the user to view."), Ca = yk.b ? yk.b("A1") : yk.call(null, "A1"), Da = yk.b ? yk.b("B27") : yk.call(null, "B27"), Ea = W.n ? W.n("Hoplon applies this crazy, futuristic technology to frontend\n              web development. Forgoing the clunky grid metaphor and names\n              like ", 
     Ca, " and ", Da, ", Hoplon provides a cell\n              reference type. These cells, like cells in a spreadsheet, are\n              either updated directly (input cells), or automatically in\n              accordance with a formula.") : W.call(null, "Hoplon applies this crazy, futuristic technology to frontend\n              web development. Forgoing the clunky grid metaphor and names\n              like ", Ca, " and ", Da, ", Hoplon provides a cell\n              reference type. These cells, like cells in a spreadsheet, are\n              either updated directly (input cells), or automatically in\n              accordance with a formula."), 
-    Fa = ll.b ? ll.b("Stateless, automatic UI.") : ll.call(null, "Stateless, automatic UI."), $a = $k.a ? $k.a("Charts and Forms ", Fa) : $k.call(null, "Charts and Forms ", Fa), ab = W.b ? W.b("The purpose of a program's user interface is to transmit input\n              from the user to the underlying state model and to present output\n              derived from the underlying state model to the user for viewing.") : W.call(null, "The purpose of a program's user interface is to transmit input\n              from the user to the underlying state model and to present output\n              derived from the underlying state model to the user for viewing."), 
-    Ga = xk.b ? xk.b("click") : xk.call(null, "click"), Ha = xk.b ? xk.b("change") : xk.call(null, "change"), bb = W.n ? W.n("In a web application the user interface is derived from the page\n              markup. User input consists entirely of DOM events: ", Ga, ", ", Ha, ", etc. Output is presented to\n              the user by manipulating the properties of DOM elements: adding\n              or removing CSS classes, changing the content of text nodes, \n              etc.") : W.call(null, "In a web application the user interface is derived from the page\n              markup. User input consists entirely of DOM events: ", 
+    Fa = nl.b ? nl.b("Stateless, automatic UI.") : nl.call(null, "Stateless, automatic UI."), $a = bl.a ? bl.a("Charts and Forms ", Fa) : bl.call(null, "Charts and Forms ", Fa), ab = W.b ? W.b("The purpose of a program's user interface is to transmit input\n              from the user to the underlying state model and to present output\n              derived from the underlying state model to the user for viewing.") : W.call(null, "The purpose of a program's user interface is to transmit input\n              from the user to the underlying state model and to present output\n              derived from the underlying state model to the user for viewing."), 
+    Ga = yk.b ? yk.b("click") : yk.call(null, "click"), Ha = yk.b ? yk.b("change") : yk.call(null, "change"), bb = W.n ? W.n("In a web application the user interface is derived from the page\n              markup. User input consists entirely of DOM events: ", Ga, ", ", Ha, ", etc. Output is presented to\n              the user by manipulating the properties of DOM elements: adding\n              or removing CSS classes, changing the content of text nodes, \n              etc.") : W.call(null, "In a web application the user interface is derived from the page\n              markup. User input consists entirely of DOM events: ", 
     Ga, ", ", Ha, ", etc. Output is presented to\n              the user by manipulating the properties of DOM elements: adding\n              or removing CSS classes, changing the content of text nodes, \n              etc."), Ia = W.b ? W.b("Hoplon provides bindings that can be used to link DOM elements\n              to the underlying state model in the same way that charts and\n              forms are linked to cells in a spreadsheet. Once the structure\n              of the DOM and the linkages between the DOM and cells are\n              defined, the user interface manages itself.") : 
-    W.call(null, "Hoplon provides bindings that can be used to link DOM elements\n              to the underlying state model in the same way that charts and\n              forms are linked to cells in a spreadsheet. Once the structure\n              of the DOM and the linkages between the DOM and cells are\n              defined, the user interface manages itself."), cb = yl.d(C([X, ba, ja, Oa, Pa, va, wa, Qa, Ra, Sa, ya, Ua, Va, Aa, Ba, Wa, Xa, Ya, Za, Ea, $a, ab, bb, Ia], 0)), Ja = ll.b ? ll.b("Screencast") : 
-    ll.call(null, "Screencast"), db = $k.b ? $k.b(Ja) : $k.call(null, Ja), eb = dl.Ia ? dl.Ia(O, "center-block", ni, ni.call(null, Bm), aj, aj.call(null, Bm), Di, "//www.youtube-nocookie.com/embed/XQu8TTBmGhA", Gi, "0", ti, !0) : dl.call(null, O, "center-block", ni, ni.call(null, Bm), aj, aj.call(null, Bm), Di, "//www.youtube-nocookie.com/embed/XQu8TTBmGhA", Gi, "0", ti, !0), Ka = Sl.d(C([eb], 0)), La = Rl.d(C([Ka], 0)), qa = ll.b ? ll.b("Examples") : ll.call(null, "Examples"), Ma = $k.b ? $k.b(qa) : 
-    $k.call(null, qa), ra = Ul.d(C(["Typical Page"], 0)), pb = Q.c ? Q.c(Ji, P(function() {
+    W.call(null, "Hoplon provides bindings that can be used to link DOM elements\n              to the underlying state model in the same way that charts and\n              forms are linked to cells in a spreadsheet. Once the structure\n              of the DOM and the linkages between the DOM and cells are\n              defined, the user interface manages itself."), cb = Al.d(C([X, ba, ja, Oa, Pa, va, wa, Qa, Ra, Sa, ya, Ua, Va, Aa, Ba, Wa, Xa, Ya, Za, Ea, $a, ab, bb, Ia], 0)), Ja = nl.b ? nl.b("Screencast") : 
+    nl.call(null, "Screencast"), db = bl.b ? bl.b(Ja) : bl.call(null, Ja), eb = fl.Ia ? fl.Ia(O, "center-block", ni, ni.call(null, Dm), aj, aj.call(null, Dm), Di, "//www.youtube-nocookie.com/embed/XQu8TTBmGhA", Gi, "0", ti, !0) : fl.call(null, O, "center-block", ni, ni.call(null, Dm), aj, aj.call(null, Dm), Di, "//www.youtube-nocookie.com/embed/XQu8TTBmGhA", Gi, "0", ti, !0), Ka = Ul.d(C([eb], 0)), La = Tl.d(C([Ka], 0)), qa = nl.b ? nl.b("Examples") : nl.call(null, "Examples"), Ma = bl.b ? bl.b(qa) : 
+    bl.call(null, qa), ra = Wl.d(C(["Typical Page"], 0)), pb = Q.c ? Q.c(Ji, P(function() {
       return function(d, e) {
         return d.a ? d.a(e, 1) : d.call(null, e, 1)
       }
-    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra)).call(null, $e, hm), ra) : Q.call(null, Ji, P(function() {
+    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra)).call(null, $e, jm), ra) : Q.call(null, Ji, P(function() {
       return function(d, e) {
         return d.a ? d.a(e, 1) : d.call(null, e, 1)
       }
-    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra)).call(null, $e, hm), ra), fb = Ul.d(C(["Typical Page"], 0)), ib = cl.l ? cl.l() : cl.call(null), jb = W.b ? W.b("The page can be coded in either ClojureScript or HTML\n                     syntax. The compiler can parse either one. It's easy to add\n                     a preprocessing step to parse HAML, etc. if desired.  HTML\n                     is usually more verbose and noisy than ClojureScript, so\n                     most examples in this document will be using the latter\n                     syntax.") : 
-    W.call(null, "The page can be coded in either ClojureScript or HTML\n                     syntax. The compiler can parse either one. It's easy to add\n                     a preprocessing step to parse HAML, etc. if desired.  HTML\n                     is usually more verbose and noisy than ClojureScript, so\n                     most examples in this document will be using the latter\n                     syntax."), kb = cl.l ? cl.l() : cl.call(null), lb = W.c ? W.c(O, "text-muted", "Using ClojureScript syntax:") : 
+    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra)).call(null, $e, jm), ra), fb = Wl.d(C(["Typical Page"], 0)), ib = el.l ? el.l() : el.call(null), jb = W.b ? W.b("The page can be coded in either ClojureScript or HTML\n                     syntax. The compiler can parse either one. It's easy to add\n                     a preprocessing step to parse HAML, etc. if desired.  HTML\n                     is usually more verbose and noisy than ClojureScript, so\n                     most examples in this document will be using the latter\n                     syntax.") : 
+    W.call(null, "The page can be coded in either ClojureScript or HTML\n                     syntax. The compiler can parse either one. It's easy to add\n                     a preprocessing step to parse HAML, etc. if desired.  HTML\n                     is usually more verbose and noisy than ClojureScript, so\n                     most examples in this document will be using the latter\n                     syntax."), kb = el.l ? el.l() : el.call(null), lb = W.c ? W.c(O, "text-muted", "Using ClojureScript syntax:") : 
     W.call(null, O, "text-muted", "Using ClojureScript syntax:"), gb = W.c ? W.c(O, "text-muted", "Using HTML syntax:") : W.call(null, O, "text-muted", "Using HTML syntax:"), sb = T.Fa ? T.Fa(Ji, P(function() {
       return function(d, e) {
         return d.a ? d.a(e, 1) : d.call(null, e, 1)
       }
-    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb)).call(null, D, hm), fb, ib, jb, kb, lb, T.a ? T.a(v([O, "highlight"], !0), Y.Oa ? Y.Oa(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "page") : Z.call(null, v([O, "nf"], !0), 
+    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb)).call(null, D, jm), fb, ib, jb, kb, lb, T.a ? T.a(v([O, "highlight"], !0), Y.Oa ? Y.Oa(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "page") : Z.call(null, v([O, "nf"], !0), 
     "page"), " ", Z.a ? Z.a(v([O, "s"], !0), '"foo/bar.html"') : Z.call(null, v([O, "s"], !0), '"foo/bar.html"'), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "ss"], !0), ":require") : Z.call(null, v([O, "ss"], !0), ":require"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "my.lib") : Z.call(null, v([O, "nv"], !0), "my.lib"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":as") : Z.call(null, v([O, "ss"], 
     !0), ":as"), " ", Z.a ? Z.a(v([O, "nv"], !0), "lib") : Z.call(null, v([O, "nv"], !0), "lib"), Z.a ? Z.a(v([O, "p"], !0), "]))") : Z.call(null, v([O, "p"], !0), "]))"), "\n\n", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "defc") : Z.call(null, v([O, "nf"], !0), "defc"), " ", Z.a ? Z.a(v([O, "nv"], !0), "clicks") : Z.call(null, v([O, "nv"], !0), "clicks"), " ", Z.a ? Z.a(v([O, "mi"], !0), "0") : Z.call(null, v([O, "mi"], !0), "0"), Z.a ? Z.a(v([O, 
     "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n\n", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "html") : Z.call(null, v([O, "nf"], !0), "html"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "head") : Z.call(null, v([O, "nf"], !0), "head"), "\n    ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "title") : Z.call(null, 
@@ -12955,7 +12970,7 @@ function Dm() {
       return function(d, e) {
         return d.a ? d.a(e, 1) : d.call(null, e, 1)
       }
-    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb)).call(null, D, hm), fb, ib, jb, kb, lb, T.a ? T.a(v([O, "highlight"], !0), Y.Oa ? Y.Oa(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "page") : Z.call(null, v([O, "nf"], !0), 
+    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb)).call(null, D, jm), fb, ib, jb, kb, lb, T.a ? T.a(v([O, "highlight"], !0), Y.Oa ? Y.Oa(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "page") : Z.call(null, v([O, "nf"], !0), 
     "page"), " ", Z.a ? Z.a(v([O, "s"], !0), '"foo/bar.html"') : Z.call(null, v([O, "s"], !0), '"foo/bar.html"'), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "ss"], !0), ":require") : Z.call(null, v([O, "ss"], !0), ":require"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "my.lib") : Z.call(null, v([O, "nv"], !0), "my.lib"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":as") : Z.call(null, v([O, "ss"], 
     !0), ":as"), " ", Z.a ? Z.a(v([O, "nv"], !0), "lib") : Z.call(null, v([O, "nv"], !0), "lib"), Z.a ? Z.a(v([O, "p"], !0), "]))") : Z.call(null, v([O, "p"], !0), "]))"), "\n\n", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "defc") : Z.call(null, v([O, "nf"], !0), "defc"), " ", Z.a ? Z.a(v([O, "nv"], !0), "clicks") : Z.call(null, v([O, "nv"], !0), "clicks"), " ", Z.a ? Z.a(v([O, "mi"], !0), "0") : Z.call(null, v([O, "mi"], !0), "0"), Z.a ? Z.a(v([O, 
     "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n\n", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "html") : Z.call(null, v([O, "nf"], !0), "html"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "head") : Z.call(null, v([O, "nf"], !0), "head"), "\n    ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "title") : Z.call(null, 
@@ -13014,115 +13029,115 @@ function Dm() {
     Z.a ? Z.a(v([O, "s"], !0), '"stylesheet"') : Z.call(null, v([O, "s"], !0), '"stylesheet"'), " ", Z.a ? Z.a(v([O, "na"], !0), "href\x3d") : Z.call(null, v([O, "na"], !0), "href\x3d"), Z.a ? Z.a(v([O, "s"], !0), '"css/main.css"') : Z.call(null, v([O, "s"], !0), '"css/main.css"'), Z.a ? Z.a(v([O, "nt"], !0), "\x3e") : Z.call(null, v([O, "nt"], !0), "\x3e"), "\n  ", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/head\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/head\x3e"), "\n  ", Z.a ? Z.a(v([O, "nt"], !0), 
     "\x3cbody\x3e") : Z.call(null, v([O, "nt"], !0), "\x3cbody\x3e"), "\n    ", Z.a ? Z.a(v([O, "nt"], !0), "\x3clib.heading-large\x3e") : Z.call(null, v([O, "nt"], !0), "\x3clib.heading-large\x3e"), "Hello, world!", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/lib.heading-large\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/lib.heading-large\x3e"), "\n    ", Z.a ? Z.a(v([O, "nt"], !0), "\x3cp\x3e\x3ctext\x3e") : Z.call(null, v([O, "nt"], !0), "\x3cp\x3e\x3ctext\x3e"), "You've clicked ~{clicks} times.", Z.a ? 
     Z.a(v([O, "nt"], !0), "\x3c/text\x3e\x3c/p\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/text\x3e\x3c/p\x3e"), "\n    ", Z.a ? Z.a(v([O, "nt"], !0), "\x3cbutton") : Z.call(null, v([O, "nt"], !0), "\x3cbutton"), " ", Z.a ? Z.a(v([O, "na"], !0), "on-click\x3d") : Z.call(null, v([O, "na"], !0), "on-click\x3d"), Z.a ? Z.a(v([O, "s"], !0), '"{{ #(swap! clicks inc) }}"') : Z.call(null, v([O, "s"], !0), '"{{ #(swap! clicks inc) }}"'), Z.a ? Z.a(v([O, "nt"], !0), "\x3e") : Z.call(null, v([O, "nt"], !0), 
-    "\x3e"), "\n      Click me!\n    ", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/button\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/button\x3e"), "\n  ", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/body\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/body\x3e"), "\n", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/html\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/html\x3e"), "\n"))), tb = Ql.d(C([cj, function() {
+    "\x3e"), "\n      Click me!\n    ", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/button\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/button\x3e"), "\n  ", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/body\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/body\x3e"), "\n", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/html\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/html\x3e"), "\n"))), tb = Sl.d(C([cj, function() {
       return function() {
-        return Dh(hm, 1)
+        return Dh(jm, 1)
       }
     }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb), pb, sb], 0)), xb = Q.k ? Q.k(O, "topfix", Pi, P(function() {
       return function(d, e) {
         return d.a ? d.a(e, 2) : d.call(null, e, 2)
       }
-    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb)).call(null, D, hm)) : Q.call(null, O, "topfix", Pi, P(function() {
+    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb)).call(null, D, jm)) : Q.call(null, O, "topfix", Pi, P(function() {
       return function(d, e) {
         return d.a ? d.a(e, 2) : d.call(null, e, 2)
       }
-    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb)).call(null, D, hm)), vb = Ul.d(C(["BMI Calculator"], 0)), Cb = Q.c ? Q.c(Ji, P(function() {
+    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb)).call(null, D, jm)), wb = Wl.d(C(["BMI Calculator"], 0)), Cb = Q.c ? Q.c(Ji, P(function() {
       return function(d, e) {
         return d.a ? d.a(e, 2) : d.call(null, e, 2)
       }
-    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, vb)).call(null, $e, hm), vb) : Q.call(null, Ji, P(function() {
+    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, wb)).call(null, $e, jm), wb) : Q.call(null, Ji, P(function() {
       return function(d, e) {
         return d.a ? d.a(e, 2) : d.call(null, e, 2)
       }
-    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, vb)).call(null, $e, hm), vb), yb = Ul.d(C(["BMI Calculator"], 0)), Db = cl.l ? cl.l() : cl.call(null), Eb = xk.b ? xk.b("cells") : xk.call(null, "cells"), zb = W.c ? W.c("This is an example of a spreadsheet-like application.\n                    The application's state is contained in ", 
+    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, wb)).call(null, $e, jm), wb), yb = Wl.d(C(["BMI Calculator"], 0)), Db = el.l ? el.l() : el.call(null), Eb = yk.b ? yk.b("cells") : yk.call(null, "cells"), zb = W.c ? W.c("This is an example of a spreadsheet-like application.\n                    The application's state is contained in ", 
     Eb, " which are wired up to the DOM. DOM events cause changes\n                    to the underlying cells and formula cells in turn cause\n                    changes to the DOM.") : W.call(null, "This is an example of a spreadsheet-like application.\n                    The application's state is contained in ", Eb, " which are wired up to the DOM. DOM events cause changes\n                    to the underlying cells and formula cells in turn cause\n                    changes to the DOM."), 
-    Fb = cl.l ? cl.l() : cl.call(null), Gb = W.c ? W.c(O, "text-muted", "The demo:") : W.call(null, O, "text-muted", "The demo:"), Nb = fl.b ? fl.b(function() {
+    Fb = el.l ? el.l() : el.call(null), Gb = W.c ? W.c(O, "text-muted", "The demo:") : W.call(null, O, "text-muted", "The demo:"), Nb = hl.b ? hl.b(function() {
       var Mb = document.createTextNode("");
       P(function() {
         return function(d, e) {
           return d.nodeValue = [t("Height ("), t(e), t(" cm)")].join("")
         }
-      }(Mb, d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, vb, Cb, yb, Db, Eb, zb, Fb, Gb)).call(null, Mb, im);
+      }(Mb, d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, wb, Cb, yb, Db, Eb, zb, Fb, Gb)).call(null, Mb, km);
       return Mb
-    }()) : fl.call(null, function() {
+    }()) : hl.call(null, function() {
       var Mb = document.createTextNode("");
       P(function() {
         return function(d, e) {
           return d.nodeValue = [t("Height ("), t(e), t(" cm)")].join("")
         }
-      }(Mb, d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, vb, Cb, yb, Db, Eb, zb, Fb, Gb)).call(null, Mb, im);
+      }(Mb, d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, wb, Cb, yb, Db, Eb, zb, Fb, Gb)).call(null, Mb, km);
       return Mb
-    }()), Kb = u(im), Ub = el.aa ? el.aa(ui, function() {
+    }()), Kb = u(km), Ub = gl.aa ? gl.aa(ui, function() {
       return function() {
-        return Dh(im, tl("bmi-ht"))
+        return Dh(km, vl("bmi-ht"))
       }
-    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, vb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb), Wi, "bmi-ht", O, "form-control", Ni, "range", Qi, 0, Fi, 250, Xi, Kb) : el.call(null, ui, function() {
+    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, wb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb), Wi, "bmi-ht", O, "form-control", Ni, "range", Qi, 0, Fi, 250, Xi, Kb) : gl.call(null, ui, function() {
       return function() {
-        return Dh(im, tl("bmi-ht"))
+        return Dh(km, vl("bmi-ht"))
       }
-    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, vb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb), Wi, "bmi-ht", O, "form-control", Ni, "range", Qi, 0, Fi, 250, Xi, Kb), Vb = T.k ? T.k(O, "form-group", Nb, Ub) : T.call(null, O, "form-group", Nb, Ub), $b = fl.b ? fl.b(function() {
+    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, wb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb), Wi, "bmi-ht", O, "form-control", Ni, "range", Qi, 0, Fi, 250, Xi, Kb), Vb = T.k ? T.k(O, "form-group", Nb, Ub) : T.call(null, O, "form-group", Nb, Ub), $b = hl.b ? hl.b(function() {
       var Mb = document.createTextNode("");
       P(function() {
         return function(d, e) {
           return e.nodeValue = [t("Weight ("), t((d / 10).toFixed(1)), t(" kg)")].join("")
         }
-      }(Mb, d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, vb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb, Ub, Vb)).call(null, jm, Mb);
+      }(Mb, d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, wb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb, Ub, Vb)).call(null, lm, Mb);
       return Mb
-    }()) : fl.call(null, function() {
+    }()) : hl.call(null, function() {
       var Mb = document.createTextNode("");
       P(function() {
         return function(d, e) {
           return e.nodeValue = [t("Weight ("), t((d / 10).toFixed(1)), t(" kg)")].join("")
         }
-      }(Mb, d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, vb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb, Ub, Vb)).call(null, jm, Mb);
+      }(Mb, d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, wb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb, Ub, Vb)).call(null, lm, Mb);
       return Mb
-    }()), bc = u(jm), gc = el.aa ? el.aa(ui, function() {
+    }()), bc = u(lm), gc = gl.aa ? gl.aa(ui, function() {
       return function() {
-        return Dh(jm, tl("bmi-wt"))
+        return Dh(lm, vl("bmi-wt"))
       }
-    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, vb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb, Ub, Vb, $b, bc), Wi, "bmi-wt", O, "form-control", Ni, "range", Qi, 0, Fi, 1500, Xi, bc) : el.call(null, ui, function() {
+    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, wb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb, Ub, Vb, $b, bc), Wi, "bmi-wt", O, "form-control", Ni, "range", Qi, 0, Fi, 1500, Xi, bc) : gl.call(null, ui, function() {
       return function() {
-        return Dh(jm, tl("bmi-wt"))
+        return Dh(lm, vl("bmi-wt"))
       }
-    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, vb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb, Ub, Vb, $b, bc), Wi, "bmi-wt", O, "form-control", Ni, "range", Qi, 0, Fi, 1500, Xi, bc), hc = T.k ? T.k(O, "form-group", $b, gc) : T.call(null, O, "form-group", $b, gc), nc = 
-    fl.b ? fl.b(function() {
+    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, wb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb, Ub, Vb, $b, bc), Wi, "bmi-wt", O, "form-control", Ni, "range", Qi, 0, Fi, 1500, Xi, bc), hc = T.k ? T.k(O, "form-group", $b, gc) : T.call(null, O, "form-group", $b, gc), nc = 
+    hl.b ? hl.b(function() {
       var Mb = document.createTextNode("");
       P(function() {
         return function(d, e, f, g) {
           return e.nodeValue = [t("BMI "), t(d.toFixed(1)), t(" ("), t(f.b ? f.b(g) : f.call(null, g)), t(")")].join("")
         }
-      }(Mb, d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, vb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb, Ub, Vb, $b, bc, gc, hc)).call(null, mm, Mb, y, nm);
+      }(Mb, d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, wb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb, Ub, Vb, $b, bc, gc, hc)).call(null, om, Mb, y, pm);
       return Mb
-    }()) : fl.call(null, function() {
+    }()) : hl.call(null, function() {
       var Mb = document.createTextNode("");
       P(function() {
         return function(d, e, f, g) {
           return e.nodeValue = [t("BMI "), t(d.toFixed(1)), t(" ("), t(f.b ? f.b(g) : f.call(null, g)), t(")")].join("")
         }
-      }(Mb, d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, vb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb, Ub, Vb, $b, bc, gc, hc)).call(null, mm, Mb, y, nm);
+      }(Mb, d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, wb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb, Ub, Vb, $b, bc, gc, hc)).call(null, om, Mb, y, pm);
       return Mb
-    }()), Dc = el.aa ? el.aa(gi, P(function() {
+    }()), Cc = gl.aa ? gl.aa(gi, P(function() {
       return function(d, e) {
         return v([Oi, d.b ? d.b(e) : d.call(null, e)], !0)
       }
-    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, vb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb, Ub, Vb, $b, bc, gc, hc, nc)).call(null, sd, nm), ki, !0, O, "form-control", Ni, "range", Qi, 0, Fi, 500, mi, P(function() {
+    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, wb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb, Ub, Vb, $b, bc, gc, hc, nc)).call(null, sd, pm), ki, !0, O, "form-control", Ni, "range", Qi, 0, Fi, 500, mi, P(function() {
       return function(d) {
         return 10 * d
       }
-    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, vb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb, Ub, Vb, $b, bc, gc, hc, nc)).call(null, mm)) : el.call(null, gi, P(function() {
+    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, wb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb, Ub, Vb, $b, bc, gc, hc, nc)).call(null, om)) : gl.call(null, gi, P(function() {
       return function(d, e) {
         return v([Oi, d.b ? d.b(e) : d.call(null, e)], !0)
       }
-    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, vb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb, Ub, Vb, $b, bc, gc, hc, nc)).call(null, sd, nm), ki, !0, O, "form-control", Ni, "range", Qi, 0, Fi, 500, mi, P(function() {
+    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, wb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb, Ub, Vb, $b, bc, gc, hc, nc)).call(null, sd, pm), ki, !0, O, "form-control", Ni, "range", Qi, 0, Fi, 500, mi, P(function() {
       return function(d) {
         return 10 * d
       }
-    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, vb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb, Ub, Vb, $b, bc, gc, hc, nc)).call(null, mm)), Ic = T.k ? T.k(O, "form-group", nc, Dc) : T.call(null, O, "form-group", nc, Dc), Ec = Yk.c ? Yk.c(Vb, hc, Ic) : Yk.call(null, Vb, 
-    hc, Ic), Jc = T.b ? T.b(Ec) : T.call(null, Ec), Vc = Sl.d(C([Jc], 0)), Kc = Rl.d(C([Vc], 0)), Lc = W.c ? W.c(O, "text-muted", "The cells:") : W.call(null, O, "text-muted", "The cells:"), Mc = W.c ? W.c(O, "text-muted", "The user interface:") : W.call(null, O, "text-muted", "The user interface:"), id = T.Ia ? T.Ia(Ji, P(function() {
+    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, wb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb, Ub, Vb, $b, bc, gc, hc, nc)).call(null, om)), Hc = T.k ? T.k(O, "form-group", nc, Cc) : T.call(null, O, "form-group", nc, Cc), Dc = $k.c ? $k.c(Vb, hc, Hc) : $k.call(null, Vb, 
+    hc, Hc), Ic = T.b ? T.b(Dc) : T.call(null, Dc), Uc = Ul.d(C([Ic], 0)), Jc = Tl.d(C([Uc], 0)), Kc = W.c ? W.c(O, "text-muted", "The cells:") : W.call(null, O, "text-muted", "The cells:"), Lc = W.c ? W.c(O, "text-muted", "The user interface:") : W.call(null, O, "text-muted", "The user interface:"), jd = T.Ia ? T.Ia(Ji, P(function() {
       return function(d, e) {
         return d.a ? d.a(e, 2) : d.call(null, e, 2)
       }
-    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, vb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb, Ub, Vb, $b, bc, gc, hc, nc, Dc, Ic, Ec, Jc, Vc, Kc, Lc, Mc)).call(null, D, hm), yb, Db, zb, Fb, Gb, Kc, Lc, T.a ? T.a(v([O, "highlight"], !0), Y.Ha ? Y.Ha(Z.a ? Z.a(v([O, "p"], 
+    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, wb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb, Ub, Vb, $b, bc, gc, hc, nc, Cc, Hc, Dc, Ic, Uc, Jc, Kc, Lc)).call(null, D, jm), yb, Db, zb, Fb, Gb, Jc, Kc, T.a ? T.a(v([O, "highlight"], !0), Y.Ha ? Y.Ha(Z.a ? Z.a(v([O, "p"], 
     !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "k"], !0), "def ") : Z.call(null, v([O, "k"], !0), "def "), Z.a ? Z.a(v([O, "nv"], !0), "height") : Z.call(null, v([O, "nv"], !0), "height"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "cell") : Z.call(null, v([O, "nf"], !0), "cell"), " ", Z.a ? Z.a(v([O, "mi"], !0), "180") : Z.call(null, v([O, "mi"], !0), "180"), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], 
     !0), "))"), " ", Z.a ? Z.a(v([O, "c1"], !0), "; height in cm") : Z.call(null, v([O, "c1"], !0), "; height in cm"), "\n", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "k"], !0), "def ") : Z.call(null, v([O, "k"], !0), "def "), Z.a ? Z.a(v([O, "nv"], !0), "weight") : Z.call(null, v([O, "nv"], !0), "weight"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "cell") : Z.call(null, v([O, "nf"], !0), "cell"), 
     "  ", Z.a ? Z.a(v([O, "mi"], !0), "80") : Z.call(null, v([O, "mi"], !0), "80"), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), " ", Z.a ? Z.a(v([O, "c1"], !0), "; weight in kg") : Z.call(null, v([O, "c1"], !0), "; weight in kg"), "\n\n", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "k"], !0), "def ") : Z.call(null, v([O, "k"], !0), "def "), Z.a ? Z.a(v([O, "nv"], !0), "bmi") : Z.call(null, v([O, "nv"], !0), "bmi"), " ", Z.a ? Z.a(v([O, 
@@ -13174,7 +13189,7 @@ function Dm() {
     Z.call(null, v([O, "nv"], !0), "bmi"), " ", Z.a ? Z.a(v([O, "s"], !0), '"normal"') : Z.call(null, v([O, "s"], !0), '"normal"'), "      ", Z.a ? Z.a(v([O, "s"], !0), '"inherit"') : Z.call(null, v([O, "s"], !0), '"inherit"'), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), "\n        ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nb"], !0), "\x3c ") : Z.call(null, v([O, "nb"], !0), "\x3c "), Z.a ? Z.a(v([O, "nv"], !0), "bmi") : Z.call(null, 
     v([O, "nv"], !0), "bmi"), " ", Z.a ? Z.a(v([O, "mf"], !0), "30.0") : Z.call(null, v([O, "mf"], !0), "30.0"), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "bmi") : Z.call(null, v([O, "nv"], !0), "bmi"), " ", Z.a ? Z.a(v([O, "s"], !0), '"overweight"') : Z.call(null, v([O, "s"], !0), '"overweight"'), "   ", Z.a ? Z.a(v([O, "s"], !0), '"orange"') : Z.call(null, v([O, "s"], 
     !0), '"orange"'), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), "\n        ", Z.a ? Z.a(v([O, "ss"], !0), ":else") : Z.call(null, v([O, "ss"], !0), ":else"), "        ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "bmi") : Z.call(null, v([O, "nv"], !0), "bmi"), " ", Z.a ? Z.a(v([O, "s"], !0), '"obese"') : Z.call(null, v([O, "s"], !0), '"obese"'), "           ", Z.a ? Z.a(v([O, "s"], !0), '"red"') : Z.call(null, v([O, 
-    "s"], !0), '"red"'), Z.a ? Z.a(v([O, "p"], !0), "]))))") : Z.call(null, v([O, "p"], !0), "]))))"), "\n")), Mc, T.a ? T.a(v([O, "highlight"], !0), Y.Ga ? Y.Ga(Z.a ? Z.a(v([O, "c1"], !0), ';; Some details related to \x3cinput type\x3d"range"\x3e') : Z.call(null, v([O, "c1"], !0), ';; Some details related to \x3cinput type\x3d"range"\x3e'), "\n", Z.a ? Z.a(v([O, "c1"], !0), ";; have been omitted for clarity.") : Z.call(null, v([O, "c1"], !0), ";; have been omitted for clarity."), "\n", Z.a ? Z.a(v([O, 
+    "s"], !0), '"red"'), Z.a ? Z.a(v([O, "p"], !0), "]))))") : Z.call(null, v([O, "p"], !0), "]))))"), "\n")), Lc, T.a ? T.a(v([O, "highlight"], !0), Y.Ga ? Y.Ga(Z.a ? Z.a(v([O, "c1"], !0), ';; Some details related to \x3cinput type\x3d"range"\x3e') : Z.call(null, v([O, "c1"], !0), ';; Some details related to \x3cinput type\x3d"range"\x3e'), "\n", Z.a ? Z.a(v([O, "c1"], !0), ";; have been omitted for clarity.") : Z.call(null, v([O, "c1"], !0), ";; have been omitted for clarity."), "\n", Z.a ? Z.a(v([O, 
     "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "form") : Z.call(null, v([O, "nf"], !0), "form"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "label") : Z.call(null, v([O, "nf"], !0), "label"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "text") : Z.call(null, v([O, "nf"], !0), "text"), " ", Z.a ? Z.a(v([O, "s"], !0), '"Height (~{height} cm)"') : 
     Z.call(null, v([O, "s"], !0), '"Height (~{height} cm)"'), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "input") : Z.call(null, v([O, "nf"], !0), "input"), "\n    ", Z.a ? Z.a(v([O, "ss"], !0), ":id") : Z.call(null, v([O, "ss"], !0), ":id"), " ", Z.a ? Z.a(v([O, "s"], !0), '"bmi-h"') : Z.call(null, v([O, "s"], !0), '"bmi-h"'), "\n    ", Z.a ? Z.a(v([O, "ss"], !0), 
     ":value") : Z.call(null, v([O, "ss"], !0), ":value"), " ", Z.a ? Z.a(v([O, "o"], !0), "@") : Z.call(null, v([O, "o"], !0), "@"), Z.a ? Z.a(v([O, "nv"], !0), "height") : Z.call(null, v([O, "nv"], !0), "height"), "\n    ", Z.a ? Z.a(v([O, "ss"], !0), ":on-change") : Z.call(null, v([O, "ss"], !0), ":on-change"), " ", Z.a ? Z.a(v([O, "o"], !0), "#") : Z.call(null, v([O, "o"], !0), "#"), Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "reset!") : Z.call(null, 
@@ -13227,7 +13242,7 @@ function Dm() {
       return function(d, e) {
         return d.a ? d.a(e, 2) : d.call(null, e, 2)
       }
-    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, vb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb, Ub, Vb, $b, bc, gc, hc, nc, Dc, Ic, Ec, Jc, Vc, Kc, Lc, Mc)).call(null, D, hm), yb, Db, zb, Fb, Gb, Kc, Lc, T.a ? T.a(v([O, "highlight"], !0), Y.Ha ? Y.Ha(Z.a ? Z.a(v([O, "p"], 
+    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, wb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb, Ub, Vb, $b, bc, gc, hc, nc, Cc, Hc, Dc, Ic, Uc, Jc, Kc, Lc)).call(null, D, jm), yb, Db, zb, Fb, Gb, Jc, Kc, T.a ? T.a(v([O, "highlight"], !0), Y.Ha ? Y.Ha(Z.a ? Z.a(v([O, "p"], 
     !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "k"], !0), "def ") : Z.call(null, v([O, "k"], !0), "def "), Z.a ? Z.a(v([O, "nv"], !0), "height") : Z.call(null, v([O, "nv"], !0), "height"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "cell") : Z.call(null, v([O, "nf"], !0), "cell"), " ", Z.a ? Z.a(v([O, "mi"], !0), "180") : Z.call(null, v([O, "mi"], !0), "180"), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], 
     !0), "))"), " ", Z.a ? Z.a(v([O, "c1"], !0), "; height in cm") : Z.call(null, v([O, "c1"], !0), "; height in cm"), "\n", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "k"], !0), "def ") : Z.call(null, v([O, "k"], !0), "def "), Z.a ? Z.a(v([O, "nv"], !0), "weight") : Z.call(null, v([O, "nv"], !0), "weight"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "cell") : Z.call(null, v([O, "nf"], !0), "cell"), 
     "  ", Z.a ? Z.a(v([O, "mi"], !0), "80") : Z.call(null, v([O, "mi"], !0), "80"), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), " ", Z.a ? Z.a(v([O, "c1"], !0), "; weight in kg") : Z.call(null, v([O, "c1"], !0), "; weight in kg"), "\n\n", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "k"], !0), "def ") : Z.call(null, v([O, "k"], !0), "def "), Z.a ? Z.a(v([O, "nv"], !0), "bmi") : Z.call(null, v([O, "nv"], !0), "bmi"), " ", Z.a ? Z.a(v([O, 
@@ -13279,7 +13294,7 @@ function Dm() {
     Z.call(null, v([O, "nv"], !0), "bmi"), " ", Z.a ? Z.a(v([O, "s"], !0), '"normal"') : Z.call(null, v([O, "s"], !0), '"normal"'), "      ", Z.a ? Z.a(v([O, "s"], !0), '"inherit"') : Z.call(null, v([O, "s"], !0), '"inherit"'), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), "\n        ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nb"], !0), "\x3c ") : Z.call(null, v([O, "nb"], !0), "\x3c "), Z.a ? Z.a(v([O, "nv"], !0), "bmi") : Z.call(null, 
     v([O, "nv"], !0), "bmi"), " ", Z.a ? Z.a(v([O, "mf"], !0), "30.0") : Z.call(null, v([O, "mf"], !0), "30.0"), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "bmi") : Z.call(null, v([O, "nv"], !0), "bmi"), " ", Z.a ? Z.a(v([O, "s"], !0), '"overweight"') : Z.call(null, v([O, "s"], !0), '"overweight"'), "   ", Z.a ? Z.a(v([O, "s"], !0), '"orange"') : Z.call(null, v([O, "s"], 
     !0), '"orange"'), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), "\n        ", Z.a ? Z.a(v([O, "ss"], !0), ":else") : Z.call(null, v([O, "ss"], !0), ":else"), "        ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "bmi") : Z.call(null, v([O, "nv"], !0), "bmi"), " ", Z.a ? Z.a(v([O, "s"], !0), '"obese"') : Z.call(null, v([O, "s"], !0), '"obese"'), "           ", Z.a ? Z.a(v([O, "s"], !0), '"red"') : Z.call(null, v([O, 
-    "s"], !0), '"red"'), Z.a ? Z.a(v([O, "p"], !0), "]))))") : Z.call(null, v([O, "p"], !0), "]))))"), "\n")), Mc, T.a ? T.a(v([O, "highlight"], !0), Y.Ga ? Y.Ga(Z.a ? Z.a(v([O, "c1"], !0), ';; Some details related to \x3cinput type\x3d"range"\x3e') : Z.call(null, v([O, "c1"], !0), ';; Some details related to \x3cinput type\x3d"range"\x3e'), "\n", Z.a ? Z.a(v([O, "c1"], !0), ";; have been omitted for clarity.") : Z.call(null, v([O, "c1"], !0), ";; have been omitted for clarity."), "\n", Z.a ? Z.a(v([O, 
+    "s"], !0), '"red"'), Z.a ? Z.a(v([O, "p"], !0), "]))))") : Z.call(null, v([O, "p"], !0), "]))))"), "\n")), Lc, T.a ? T.a(v([O, "highlight"], !0), Y.Ga ? Y.Ga(Z.a ? Z.a(v([O, "c1"], !0), ';; Some details related to \x3cinput type\x3d"range"\x3e') : Z.call(null, v([O, "c1"], !0), ';; Some details related to \x3cinput type\x3d"range"\x3e'), "\n", Z.a ? Z.a(v([O, "c1"], !0), ";; have been omitted for clarity.") : Z.call(null, v([O, "c1"], !0), ";; have been omitted for clarity."), "\n", Z.a ? Z.a(v([O, 
     "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "form") : Z.call(null, v([O, "nf"], !0), "form"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "label") : Z.call(null, v([O, "nf"], !0), "label"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "text") : Z.call(null, v([O, "nf"], !0), "text"), " ", Z.a ? Z.a(v([O, "s"], !0), '"Height (~{height} cm)"') : 
     Z.call(null, v([O, "s"], !0), '"Height (~{height} cm)"'), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "input") : Z.call(null, v([O, "nf"], !0), "input"), "\n    ", Z.a ? Z.a(v([O, "ss"], !0), ":id") : Z.call(null, v([O, "ss"], !0), ":id"), " ", Z.a ? Z.a(v([O, "s"], !0), '"bmi-h"') : Z.call(null, v([O, "s"], !0), '"bmi-h"'), "\n    ", Z.a ? Z.a(v([O, "ss"], !0), 
     ":value") : Z.call(null, v([O, "ss"], !0), ":value"), " ", Z.a ? Z.a(v([O, "o"], !0), "@") : Z.call(null, v([O, "o"], !0), "@"), Z.a ? Z.a(v([O, "nv"], !0), "height") : Z.call(null, v([O, "nv"], !0), "height"), "\n    ", Z.a ? Z.a(v([O, "ss"], !0), ":on-change") : Z.call(null, v([O, "ss"], !0), ":on-change"), " ", Z.a ? Z.a(v([O, "o"], !0), "#") : Z.call(null, v([O, "o"], !0), "#"), Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "reset!") : Z.call(null, 
@@ -13328,37 +13343,37 @@ function Dm() {
     v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "text") : Z.call(null, v([O, "nf"], !0), "text"), " ", Z.a ? Z.a(v([O, "s"], !0), '"BMI ~(first bmi) (~(second bmi))"') : Z.call(null, v([O, "s"], !0), '"BMI ~(first bmi) (~(second bmi))"'), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "input") : Z.call(null, v([O, "nf"], !0), "input"), "\n    ", Z.a ? Z.a(v([O, 
     "ss"], !0), ":do-value") : Z.call(null, v([O, "ss"], !0), ":do-value"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "cell\x3d") : Z.call(null, v([O, "nf"], !0), "cell\x3d"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nb"], !0), "first ") : Z.call(null, v([O, "nb"], !0), "first "), Z.a ? Z.a(v([O, "nv"], !0), "bmi") : Z.call(null, v([O, "nv"], !0), "bmi"), Z.a ? Z.a(v([O, "p"], !0), "))") : 
     Z.call(null, v([O, "p"], !0), "))"), "\n    ", Z.a ? Z.a(v([O, "ss"], !0), ":do-css") : Z.call(null, v([O, "ss"], !0), ":do-css"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "cell\x3d") : Z.call(null, v([O, "nf"], !0), "cell\x3d"), " ", Z.a ? Z.a(v([O, "p"], !0), "{") : Z.call(null, v([O, "p"], !0), "{"), Z.a ? Z.a(v([O, "ss"], !0), ":background-color") : Z.call(null, v([O, "ss"], !0), ":background-color"), " ", Z.a ? Z.a(v([O, "p"], 
-    !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nb"], !0), "nth ") : Z.call(null, v([O, "nb"], !0), "nth "), Z.a ? Z.a(v([O, "nv"], !0), "bmi") : Z.call(null, v([O, "nv"], !0), "bmi"), " ", Z.a ? Z.a(v([O, "mi"], !0), "2") : Z.call(null, v([O, "mi"], !0), "2"), Z.a ? Z.a(v([O, "p"], !0), ")})))") : Z.call(null, v([O, "p"], !0), ")})))"), "\n"))), ud = Ql.d(C([cj, function() {
+    !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nb"], !0), "nth ") : Z.call(null, v([O, "nb"], !0), "nth "), Z.a ? Z.a(v([O, "nv"], !0), "bmi") : Z.call(null, v([O, "nv"], !0), "bmi"), " ", Z.a ? Z.a(v([O, "mi"], !0), "2") : Z.call(null, v([O, "mi"], !0), "2"), Z.a ? Z.a(v([O, "p"], !0), ")})))") : Z.call(null, v([O, "p"], !0), ")})))"), "\n"))), ud = Sl.d(C([cj, function() {
       return function() {
-        return Dh(hm, 2)
+        return Dh(jm, 2)
       }
-    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, vb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb, Ub, Vb, $b, bc, gc, hc, nc, Dc, Ic, Ec, Jc, Vc, Kc, Lc, Mc, id), xb, Cb, id], 0)), Yd = Q.k ? Q.k(O, "topfix", Pi, P(function() {
+    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, wb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb, Ub, Vb, $b, bc, gc, hc, nc, Cc, Hc, Dc, Ic, Uc, Jc, Kc, Lc, jd), xb, Cb, jd], 0)), Yd = Q.k ? Q.k(O, "topfix", Pi, P(function() {
       return function(d, e) {
         return d.a ? d.a(e, 3) : d.call(null, e, 3)
       }
-    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, vb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb, Ub, Vb, $b, bc, gc, hc, nc, Dc, Ic, Ec, Jc, Vc, Kc, Lc, Mc, id, ud)).call(null, D, hm)) : Q.call(null, O, "topfix", Pi, P(function() {
+    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, wb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb, Ub, Vb, $b, bc, gc, hc, nc, Cc, Hc, Dc, Ic, Uc, Jc, Kc, Lc, jd, ud)).call(null, D, jm)) : Q.call(null, O, "topfix", Pi, P(function() {
       return function(d, e) {
         return d.a ? d.a(e, 3) : d.call(null, e, 3)
       }
-    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, vb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb, Ub, Vb, $b, bc, gc, hc, nc, Dc, Ic, Ec, Jc, Vc, Kc, Lc, Mc, id, ud)).call(null, D, hm)), Jd = Ul.d(C(["List Component"], 0)), Ef = Q.c ? Q.c(Ji, P(function() {
+    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, wb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb, Ub, Vb, $b, bc, gc, hc, nc, Cc, Hc, Dc, Ic, Uc, Jc, Kc, Lc, jd, ud)).call(null, D, jm)), Jd = Wl.d(C(["List Component"], 0)), Ef = Q.c ? Q.c(Ji, P(function() {
       return function(d, e) {
         return d.a ? d.a(e, 3) : d.call(null, e, 3)
       }
-    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, vb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb, Ub, Vb, $b, bc, gc, hc, nc, Dc, Ic, Ec, Jc, Vc, Kc, Lc, Mc, id, ud, Yd, Jd)).call(null, $e, hm), Jd) : Q.call(null, Ji, P(function() {
+    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, wb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb, Ub, Vb, $b, bc, gc, hc, nc, Cc, Hc, Dc, Ic, Uc, Jc, Kc, Lc, jd, ud, Yd, Jd)).call(null, $e, jm), Jd) : Q.call(null, Ji, P(function() {
       return function(d, e) {
         return d.a ? d.a(e, 3) : d.call(null, e, 3)
       }
-    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, vb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb, Ub, Vb, $b, bc, gc, hc, nc, Dc, Ic, Ec, Jc, Vc, Kc, Lc, Mc, id, ud, Yd, Jd)).call(null, $e, hm), Jd), Zd = Ul.d(C(["List Component"], 0)), Ie = cl.l ? cl.l() : cl.call(null), 
-    $d = xk.b ? xk.b("on-append!") : xk.call(null, "on-append!"), ae = xk.b ? xk.b("title") : xk.call(null, "title"), be = W.n ? W.n("This is an example of a custom element, or component. The ", $d, " function is used to provide the implementation for\n                    appending children and setting attributes. This ensures \n                    that children are, in this case, properly wrapped in list\n                    item elements and appended to the inner unordered list\n                    instead of to the outermost element. A special ", 
+    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, wb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb, Ub, Vb, $b, bc, gc, hc, nc, Cc, Hc, Dc, Ic, Uc, Jc, Kc, Lc, jd, ud, Yd, Jd)).call(null, $e, jm), Jd), Zd = Wl.d(C(["List Component"], 0)), Ie = el.l ? el.l() : el.call(null), 
+    $d = yk.b ? yk.b("on-append!") : yk.call(null, "on-append!"), ae = yk.b ? yk.b("title") : yk.call(null, "title"), be = W.n ? W.n("This is an example of a custom element, or component. The ", $d, " function is used to provide the implementation for\n                    appending children and setting attributes. This ensures \n                    that children are, in this case, properly wrapped in list\n                    item elements and appended to the inner unordered list\n                    instead of to the outermost element. A special ", 
     ae, " attribute is also implemented here that sets the text of\n                    the inner bold element.") : W.call(null, "This is an example of a custom element, or component. The ", $d, " function is used to provide the implementation for\n                    appending children and setting attributes. This ensures \n                    that children are, in this case, properly wrapped in list\n                    item elements and appended to the inner unordered list\n                    instead of to the outermost element. A special ", 
     ae, " attribute is also implemented here that sets the text of\n                    the inner bold element."), ce = W.b ? W.b("By implementing the HTML semantic this component becomes\n                    a first-class DOM element. It can be used in page markup\n                    and it can be passed around without any need for the\n                    recipient to understand its internal structure. It can be\n                    combined with other elements at any level to create more\n                    complex components.") : 
-    W.call(null, "By implementing the HTML semantic this component becomes\n                    a first-class DOM element. It can be used in page markup\n                    and it can be passed around without any need for the\n                    recipient to understand its internal structure. It can be\n                    combined with other elements at any level to create more\n                    complex components."), de = cl.l ? cl.l() : cl.call(null), ee = W.c ? W.c(O, "text-muted", "The demo:") : 
-    W.call(null, O, "text-muted", "The demo:"), fe = W.b ? W.b("See the list component below.") : W.call(null, "See the list component below."), ge = cl.l ? cl.l() : cl.call(null), Je = Z.b ? Z.b("item one") : Z.call(null, "item one"), Ke = Z.b ? Z.b("item two") : Z.call(null, "item two"), Le = Z.b ? Z.b("item three") : Z.call(null, "item three"), he = lm.d(C([Ii, "Items:", Je, Ke, Le], 0)), Me = T.c ? T.c(fe, ge, he) : T.call(null, fe, ge, he), Ff = Sl.d(C([Me], 0)), ie = Rl.d(C([Ff], 0)), je = 
-    W.c ? W.c(O, "text-muted", "The component constructor:") : W.call(null, O, "text-muted", "The component constructor:"), Ne = W.c ? W.c(O, "text-muted", "The page markup:") : W.call(null, O, "text-muted", "The page markup:"), gh = T.ta ? T.ta(Ji, P(function() {
+    W.call(null, "By implementing the HTML semantic this component becomes\n                    a first-class DOM element. It can be used in page markup\n                    and it can be passed around without any need for the\n                    recipient to understand its internal structure. It can be\n                    combined with other elements at any level to create more\n                    complex components."), de = el.l ? el.l() : el.call(null), ee = W.c ? W.c(O, "text-muted", "The demo:") : 
+    W.call(null, O, "text-muted", "The demo:"), fe = W.b ? W.b("See the list component below.") : W.call(null, "See the list component below."), ge = el.l ? el.l() : el.call(null), Je = Z.b ? Z.b("item one") : Z.call(null, "item one"), Ke = Z.b ? Z.b("item two") : Z.call(null, "item two"), Le = Z.b ? Z.b("item three") : Z.call(null, "item three"), he = nm.d(C([Ii, "Items:", Je, Ke, Le], 0)), Me = T.c ? T.c(fe, ge, he) : T.call(null, fe, ge, he), Ff = Ul.d(C([Me], 0)), ie = Tl.d(C([Ff], 0)), je = 
+    W.c ? W.c(O, "text-muted", "The component constructor:") : W.call(null, O, "text-muted", "The component constructor:"), Ne = W.c ? W.c(O, "text-muted", "The page markup:") : W.call(null, O, "text-muted", "The page markup:"), hh = T.ta ? T.ta(Ji, P(function() {
       return function(d, e) {
         return d.a ? d.a(e, 3) : d.call(null, e, 3)
       }
-    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, vb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb, Ub, Vb, $b, bc, gc, hc, nc, Dc, Ic, Ec, Jc, Vc, Kc, Lc, Mc, id, ud, Yd, Jd, Ef, Zd, Ie, $d, ae, be, ce, de, ee, fe, ge, Je, Ke, Le, he, Me, Ff, ie, je, Ne)).call(null, D, hm), 
+    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, wb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb, Ub, Vb, $b, bc, gc, hc, nc, Cc, Hc, Dc, Ic, Uc, Jc, Kc, Lc, jd, ud, Yd, Jd, Ef, Zd, Ie, $d, ae, be, ce, de, ee, fe, ge, Je, Ke, Le, he, Me, Ff, ie, je, Ne)).call(null, D, jm), 
     Zd, Ie, be, ce, de, ee, ie, je, T.a ? T.a(v([O, "highlight"], !0), Y.Ja ? Y.Ja(Z.a ? Z.a(v([O, "c1"], !0), ";; Define custom element \x3cmy-list\x3e.") : Z.call(null, v([O, "c1"], !0), ";; Define custom element \x3cmy-list\x3e."), "\n", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "defelem") : Z.call(null, v([O, "nf"], !0), "defelem"), " ", Z.a ? Z.a(v([O, "nv"], !0), "my-list") : Z.call(null, v([O, "nv"], !0), "my-list"), " ", Z.a ? Z.a(v([O, 
     "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "attrs") : Z.call(null, v([O, "nv"], !0), "attrs"), " ", Z.a ? Z.a(v([O, "nv"], !0), "children") : Z.call(null, v([O, "nv"], !0), "children"), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "k"], !0), "let ") : Z.call(null, v([O, "k"], !0), "let "), Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, 
     "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "head") : Z.call(null, v([O, "nv"], !0), "head"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "b") : Z.call(null, v([O, "nf"], !0), "b"), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "    ", Z.a ? Z.a(v([O, "c1"], !0), "; Obtain references to inner") : Z.call(null, v([O, "c1"], !0), "; Obtain references to inner"), "\n        ", Z.a ? Z.a(v([O, "nv"], !0), "body") : 
@@ -13438,7 +13453,7 @@ function Dm() {
       return function(d, e) {
         return d.a ? d.a(e, 3) : d.call(null, e, 3)
       }
-    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, vb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb, Ub, Vb, $b, bc, gc, hc, nc, Dc, Ic, Ec, Jc, Vc, Kc, Lc, Mc, id, ud, Yd, Jd, Ef, Zd, Ie, $d, ae, be, ce, de, ee, fe, ge, Je, Ke, Le, he, Me, Ff, ie, je, Ne)).call(null, D, hm), 
+    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, wb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb, Ub, Vb, $b, bc, gc, hc, nc, Cc, Hc, Dc, Ic, Uc, Jc, Kc, Lc, jd, ud, Yd, Jd, Ef, Zd, Ie, $d, ae, be, ce, de, ee, fe, ge, Je, Ke, Le, he, Me, Ff, ie, je, Ne)).call(null, D, jm), 
     Zd, Ie, be, ce, de, ee, ie, je, T.a ? T.a(v([O, "highlight"], !0), Y.Ja ? Y.Ja(Z.a ? Z.a(v([O, "c1"], !0), ";; Define custom element \x3cmy-list\x3e.") : Z.call(null, v([O, "c1"], !0), ";; Define custom element \x3cmy-list\x3e."), "\n", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "defelem") : Z.call(null, v([O, "nf"], !0), "defelem"), " ", Z.a ? Z.a(v([O, "nv"], !0), "my-list") : Z.call(null, v([O, "nv"], !0), "my-list"), " ", Z.a ? Z.a(v([O, 
     "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "attrs") : Z.call(null, v([O, "nv"], !0), "attrs"), " ", Z.a ? Z.a(v([O, "nv"], !0), "children") : Z.call(null, v([O, "nv"], !0), "children"), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "k"], !0), "let ") : Z.call(null, v([O, "k"], !0), "let "), Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, 
     "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "head") : Z.call(null, v([O, "nv"], !0), "head"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "b") : Z.call(null, v([O, "nf"], !0), "b"), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "    ", Z.a ? Z.a(v([O, "c1"], !0), "; Obtain references to inner") : Z.call(null, v([O, "c1"], !0), "; Obtain references to inner"), "\n        ", Z.a ? Z.a(v([O, "nv"], !0), "body") : 
@@ -13514,49 +13529,49 @@ function Dm() {
     "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "hr") : Z.call(null, v([O, "nf"], !0), "hr"), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "my-list") : Z.call(null, v([O, "nf"], !0), "my-list"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":title") : Z.call(null, v([O, 
     "ss"], !0), ":title"), " ", Z.a ? Z.a(v([O, "s"], !0), '"Items:"') : Z.call(null, v([O, "s"], !0), '"Items:"'), "\n    ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "span") : Z.call(null, v([O, "nf"], !0), "span"), " ", Z.a ? Z.a(v([O, "s"], !0), '"item one"') : Z.call(null, v([O, "s"], !0), '"item one"'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n    ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], 
     !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "span") : Z.call(null, v([O, "nf"], !0), "span"), " ", Z.a ? Z.a(v([O, "s"], !0), '"item two"') : Z.call(null, v([O, "s"], !0), '"item two"'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n    ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "span") : Z.call(null, v([O, "nf"], !0), "span"), " ", Z.a ? Z.a(v([O, "s"], !0), '"item three"') : Z.call(null, v([O, "s"], !0), '"item three"'), 
-    Z.a ? Z.a(v([O, "p"], !0), ")))") : Z.call(null, v([O, "p"], !0), ")))"), "\n"))), hh = Ql.d(C([cj, function() {
+    Z.a ? Z.a(v([O, "p"], !0), ")))") : Z.call(null, v([O, "p"], !0), ")))"), "\n"))), ih = Sl.d(C([cj, function() {
       return function() {
-        return Dh(hm, 3)
+        return Dh(jm, 3)
       }
-    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, vb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb, Ub, Vb, $b, bc, gc, hc, nc, Dc, Ic, Ec, Jc, Vc, Kc, Lc, Mc, id, ud, Yd, Jd, Ef, Zd, Ie, $d, ae, be, ce, de, ee, fe, ge, Je, Ke, Le, he, Me, Ff, ie, je, Ne, gh), Yd, Ef, gh], 
-    0)), wi = Pl.d(C([tb, ud, hh], 0)), ih = yl.d(C([db, La, Ma, wi], 0)), jh = wl.d(C([cb, ih], 0)), xi = cl.l ? cl.l() : cl.call(null), kh = Cm(), eg = Cl.d(C([I, V, jh, xi, kh], 0));
-    return cm.a ? cm.a(l, eg) : cm.call(null, l, eg)
+    }(d, e, f, g, h, l, k, m, p, r, s, x, B, H, G, I, V, R, X, ba, ca, ja, na, oa, sa, ta, Oa, ua, Pa, va, wa, Qa, xa, Ra, Sa, ya, Ua, Va, za, Aa, Ba, Wa, pa, Xa, Ya, Za, Ca, Da, Ea, Fa, $a, ab, Ga, Ha, bb, Ia, cb, Ja, db, eb, Ka, La, qa, Ma, ra, pb, fb, ib, jb, kb, lb, gb, sb, tb, xb, wb, Cb, yb, Db, Eb, zb, Fb, Gb, Nb, Kb, Ub, Vb, $b, bc, gc, hc, nc, Cc, Hc, Dc, Ic, Uc, Jc, Kc, Lc, jd, ud, Yd, Jd, Ef, Zd, Ie, $d, ae, be, ce, de, ee, fe, ge, Je, Ke, Le, he, Me, Ff, ie, je, Ne, hh), Yd, Ef, hh], 
+    0)), xi = Rl.d(C([tb, ud, ih], 0)), jh = Al.d(C([db, La, Ma, xi], 0)), kh = yl.d(C([cb, jh], 0)), yi = el.l ? el.l() : el.call(null), lh = Em(), eg = El.d(C([I, V, kh, yi, lh], 0));
+    return em.a ? em.a(l, eg) : em.call(null, l, eg)
   }(), function() {
-    var d = sk.l ? sk.l() : sk.call(null), e = ll.b ? ll.b("Build a Hoplon application from scratch.") : ll.call(null, "Build a Hoplon application from scratch."), f = Zk.c ? Zk.c("Getting Started", d, e) : Zk.call(null, "Getting Started", d, e), g = cl.l ? cl.l() : cl.call(null), h = Q.n ? Q.n(hi, "https://github.com/tailrecursion/hoplon-demos", pi, "_blank", "hoplon demos") : Q.call(null, hi, "https://github.com/tailrecursion/hoplon-demos", pi, "_blank", "hoplon demos"), l = W.c ? W.c("This article will demonstrate how to build Hoplon applications.\n            A simple application will be developed incrementally. New features\n            will be added at each step, showing how different parts of Hoplon\n            are used. After running through the basics here, check out the ", 
+    var d = tk.l ? tk.l() : tk.call(null), e = nl.b ? nl.b("Build a Hoplon application from scratch.") : nl.call(null, "Build a Hoplon application from scratch."), f = al.c ? al.c("Getting Started", d, e) : al.call(null, "Getting Started", d, e), g = el.l ? el.l() : el.call(null), h = Q.n ? Q.n(hi, "https://github.com/tailrecursion/hoplon-demos", pi, "_blank", "hoplon demos") : Q.call(null, hi, "https://github.com/tailrecursion/hoplon-demos", pi, "_blank", "hoplon demos"), l = W.c ? W.c("This article will demonstrate how to build Hoplon applications.\n            A simple application will be developed incrementally. New features\n            will be added at each step, showing how different parts of Hoplon\n            are used. After running through the basics here, check out the ", 
     h, " repository to see some complete, self-contained example\n            applications.") : W.call(null, "This article will demonstrate how to build Hoplon applications.\n            A simple application will be developed incrementally. New features\n            will be added at each step, showing how different parts of Hoplon\n            are used. After running through the basics here, check out the ", h, " repository to see some complete, self-contained example\n            applications."), 
-    k = sk.l ? sk.l() : sk.call(null), m = U.b ? U.b("Java 7+") : U.call(null, "Java 7+"), p = Q.n ? Q.n(hi, "https://github.com/tailrecursion/boot", pi, "_blank", "boot") : Q.call(null, hi, "https://github.com/tailrecursion/boot", pi, "_blank", "boot"), r = U.c ? U.c("The ", p, " build tool.") : U.call(null, "The ", p, " build tool."), s = pl.a ? pl.a(m, r) : pl.call(null, m, r), x = gm.d(C([Ii, "System Requirements (Compiler)", s], 0)), B = U.b ? U.b("Chrome") : U.call(null, "Chrome"), H = U.b ? 
-    U.b("Safari") : U.call(null, "Safari"), G = U.b ? U.b("Firefox") : U.call(null, "Firefox"), I = U.b ? U.b("Internet Explorer 8+") : U.call(null, "Internet Explorer 8+"), V = pl.k ? pl.k(B, H, G, I) : pl.call(null, B, H, G, I), R = gm.d(C([Ii, "Browser Compatibility", V], 0)), X = W.b ? W.b("A typical project might have a directory structure that looks\n              something like this:") : W.call(null, "A typical project might have a directory structure that looks\n              something like this:"), 
-    ba = S.b ? S.b("boot.edn") : S.call(null, "boot.edn"), ca = W.c ? W.c("To create a minimal Hoplon project just create a directory\n              for the project, and in this new directory create a ", ba, " file with the following contents:") : W.call(null, "To create a minimal Hoplon project just create a directory\n              for the project, and in this new directory create a ", ba, " file with the following contents:"), ja = em.d(C([Ii, "Task 1: Create empty project.", X, Y.b ? Y.b(S.b ? 
+    k = tk.l ? tk.l() : tk.call(null), m = U.b ? U.b("Java 7+") : U.call(null, "Java 7+"), p = Q.n ? Q.n(hi, "https://github.com/tailrecursion/boot", pi, "_blank", "boot") : Q.call(null, hi, "https://github.com/tailrecursion/boot", pi, "_blank", "boot"), r = U.c ? U.c("The ", p, " build tool.") : U.call(null, "The ", p, " build tool."), s = rl.a ? rl.a(m, r) : rl.call(null, m, r), x = im.d(C([Ii, "System Requirements (Compiler)", s], 0)), B = U.b ? U.b("Chrome") : U.call(null, "Chrome"), H = U.b ? 
+    U.b("Safari") : U.call(null, "Safari"), G = U.b ? U.b("Firefox") : U.call(null, "Firefox"), I = U.b ? U.b("Internet Explorer 8+") : U.call(null, "Internet Explorer 8+"), V = rl.k ? rl.k(B, H, G, I) : rl.call(null, B, H, G, I), R = im.d(C([Ii, "Browser Compatibility", V], 0)), X = W.b ? W.b("A typical project might have a directory structure that looks\n              something like this:") : W.call(null, "A typical project might have a directory structure that looks\n              something like this:"), 
+    ba = S.b ? S.b("boot.edn") : S.call(null, "boot.edn"), ca = W.c ? W.c("To create a minimal Hoplon project just create a directory\n              for the project, and in this new directory create a ", ba, " file with the following contents:") : W.call(null, "To create a minimal Hoplon project just create a directory\n              for the project, and in this new directory create a ", ba, " file with the following contents:"), ja = gm.d(C([Ii, "Task 1: Create empty project.", X, Y.b ? Y.b(S.b ? 
     S.b(".\n\u251c\u2500\u2500 boot.edn\n\u251c\u2500\u2500 resources\n\u2502\u00a0\u00a0 \u2514\u2500\u2500 assets\n\u2502\u00a0\u00a0     \u2514\u2500\u2500 css\n\u2502\u00a0\u00a0         \u2514\u2500\u2500 main.css\n\u2514\u2500\u2500 src\n    \u2514\u2500\u2500 index.cljs.hl") : S.call(null, ".\n\u251c\u2500\u2500 boot.edn\n\u251c\u2500\u2500 resources\n\u2502\u00a0\u00a0 \u2514\u2500\u2500 assets\n\u2502\u00a0\u00a0     \u2514\u2500\u2500 css\n\u2502\u00a0\u00a0         \u2514\u2500\u2500 main.css\n\u2514\u2500\u2500 src\n    \u2514\u2500\u2500 index.cljs.hl")) : 
     Y.call(null, S.b ? S.b(".\n\u251c\u2500\u2500 boot.edn\n\u251c\u2500\u2500 resources\n\u2502\u00a0\u00a0 \u2514\u2500\u2500 assets\n\u2502\u00a0\u00a0     \u2514\u2500\u2500 css\n\u2502\u00a0\u00a0         \u2514\u2500\u2500 main.css\n\u2514\u2500\u2500 src\n    \u2514\u2500\u2500 index.cljs.hl") : S.call(null, ".\n\u251c\u2500\u2500 boot.edn\n\u251c\u2500\u2500 resources\n\u2502\u00a0\u00a0 \u2514\u2500\u2500 assets\n\u2502\u00a0\u00a0     \u2514\u2500\u2500 css\n\u2502\u00a0\u00a0         \u2514\u2500\u2500 main.css\n\u2514\u2500\u2500 src\n    \u2514\u2500\u2500 index.cljs.hl")), 
-    ca, T.a ? T.a(v([O, "highlight"], !0), Y.Hb ? Y.Hb(Z.a ? Z.a(v([O, "p"], !0), "{") : Z.call(null, v([O, "p"], !0), "{"), Z.a ? Z.a(v([O, "ss"], !0), ":dependencies") : Z.call(null, v([O, "ss"], !0), ":dependencies"), "  ", Z.a ? Z.a(v([O, "p"], !0), "[[") : Z.call(null, v([O, "p"], !0), "[["), Z.a ? Z.a(v([O, "nv"], !0), "tailrecursion/boot.core") : Z.call(null, v([O, "nv"], !0), "tailrecursion/boot.core"), "   ", Z.a ? Z.a(v([O, "s"], !0), '"1.0.0"') : Z.call(null, v([O, "s"], !0), '"1.0.0"'), 
+    ca, T.a ? T.a(v([O, "highlight"], !0), Y.Jb ? Y.Jb(Z.a ? Z.a(v([O, "p"], !0), "{") : Z.call(null, v([O, "p"], !0), "{"), Z.a ? Z.a(v([O, "ss"], !0), ":dependencies") : Z.call(null, v([O, "ss"], !0), ":dependencies"), "  ", Z.a ? Z.a(v([O, "p"], !0), "[[") : Z.call(null, v([O, "p"], !0), "[["), Z.a ? Z.a(v([O, "nv"], !0), "tailrecursion/boot.core") : Z.call(null, v([O, "nv"], !0), "tailrecursion/boot.core"), "   ", Z.a ? Z.a(v([O, "s"], !0), '"1.1.0"') : Z.call(null, v([O, "s"], !0), '"1.1.0"'), 
     Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), "\n                 ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "tailrecursion/boot.task") : Z.call(null, v([O, "nv"], !0), "tailrecursion/boot.task"), "   ", Z.a ? Z.a(v([O, "s"], !0), '"1.0.0"') : Z.call(null, v([O, "s"], !0), '"1.0.0"'), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), "\n                 ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, 
-    v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "tailrecursion/hoplon") : Z.call(null, v([O, "nv"], !0), "tailrecursion/hoplon"), "      ", Z.a ? Z.a(v([O, "s"], !0), '"4.0.6"') : Z.call(null, v([O, "s"], !0), '"4.0.6"'), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), "\n                 ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "org.clojure/clojurescript") : Z.call(null, v([O, "nv"], !0), "org.clojure/clojurescript"), 
+    v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "tailrecursion/hoplon") : Z.call(null, v([O, "nv"], !0), "tailrecursion/hoplon"), "      ", Z.a ? Z.a(v([O, "s"], !0), '"4.0.7"') : Z.call(null, v([O, "s"], !0), '"4.0.7"'), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), "\n                 ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "org.clojure/clojurescript") : Z.call(null, v([O, "nv"], !0), "org.clojure/clojurescript"), 
     " ", Z.a ? Z.a(v([O, "s"], !0), '"0.0-1934"') : Z.call(null, v([O, "s"], !0), '"0.0-1934"'), Z.a ? Z.a(v([O, "p"], !0), "]]") : Z.call(null, v([O, "p"], !0), "]]"), "\n ", Z.a ? Z.a(v([O, "ss"], !0), ":require-tasks") : Z.call(null, v([O, "ss"], !0), ":require-tasks"), " ", Z.a ? Z.a(v([O, "o"], !0), "#") : Z.call(null, v([O, "o"], !0), "#"), Z.a ? Z.a(v([O, "p"], !0), "{[") : Z.call(null, v([O, "p"], !0), "{["), Z.a ? Z.a(v([O, "nv"], !0), "tailrecursion.boot.task") : Z.call(null, v([O, "nv"], 
     !0), "tailrecursion.boot.task"), "    ", Z.a ? Z.a(v([O, "ss"], !0), ":refer") : Z.call(null, v([O, "ss"], !0), ":refer"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":all") : Z.call(null, v([O, "ss"], !0), ":all"), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), "\n                  ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "tailrecursion.hoplon.boot") : Z.call(null, v([O, "nv"], !0), "tailrecursion.hoplon.boot"), "  ", Z.a ? 
     Z.a(v([O, "ss"], !0), ":refer") : Z.call(null, v([O, "ss"], !0), ":refer"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":all") : Z.call(null, v([O, "ss"], !0), ":all"), Z.a ? Z.a(v([O, "p"], !0), "]}") : Z.call(null, v([O, "p"], !0), "]}"), "\n ", Z.a ? Z.a(v([O, "ss"], !0), ":public") : Z.call(null, v([O, "ss"], !0), ":public"), "        ", Z.a ? Z.a(v([O, "s"], !0), '"resources/public"') : Z.call(null, v([O, "s"], !0), '"resources/public"'), "\n ", Z.a ? Z.a(v([O, "ss"], !0), ":src-paths") : Z.call(null, 
     v([O, "ss"], !0), ":src-paths"), "     ", Z.a ? Z.a(v([O, "o"], !0), "#") : Z.call(null, v([O, "o"], !0), "#"), Z.a ? Z.a(v([O, "p"], !0), "{") : Z.call(null, v([O, "p"], !0), "{"), Z.a ? Z.a(v([O, "s"], !0), '"src"') : Z.call(null, v([O, "s"], !0), '"src"'), Z.a ? Z.a(v([O, "p"], !0), "}}") : Z.call(null, v([O, "p"], !0), "}}"), "\n") : Y.call(null, Z.a ? Z.a(v([O, "p"], !0), "{") : Z.call(null, v([O, "p"], !0), "{"), Z.a ? Z.a(v([O, "ss"], !0), ":dependencies") : Z.call(null, v([O, "ss"], !0), 
-    ":dependencies"), "  ", Z.a ? Z.a(v([O, "p"], !0), "[[") : Z.call(null, v([O, "p"], !0), "[["), Z.a ? Z.a(v([O, "nv"], !0), "tailrecursion/boot.core") : Z.call(null, v([O, "nv"], !0), "tailrecursion/boot.core"), "   ", Z.a ? Z.a(v([O, "s"], !0), '"1.0.0"') : Z.call(null, v([O, "s"], !0), '"1.0.0"'), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), "\n                 ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "tailrecursion/boot.task") : 
-    Z.call(null, v([O, "nv"], !0), "tailrecursion/boot.task"), "   ", Z.a ? Z.a(v([O, "s"], !0), '"1.0.0"') : Z.call(null, v([O, "s"], !0), '"1.0.0"'), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), "\n                 ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "tailrecursion/hoplon") : Z.call(null, v([O, "nv"], !0), "tailrecursion/hoplon"), "      ", Z.a ? Z.a(v([O, "s"], !0), '"4.0.6"') : Z.call(null, v([O, "s"], !0), 
-    '"4.0.6"'), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), "\n                 ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "org.clojure/clojurescript") : Z.call(null, v([O, "nv"], !0), "org.clojure/clojurescript"), " ", Z.a ? Z.a(v([O, "s"], !0), '"0.0-1934"') : Z.call(null, v([O, "s"], !0), '"0.0-1934"'), Z.a ? Z.a(v([O, "p"], !0), "]]") : Z.call(null, v([O, "p"], !0), "]]"), "\n ", Z.a ? Z.a(v([O, "ss"], !0), ":require-tasks") : 
+    ":dependencies"), "  ", Z.a ? Z.a(v([O, "p"], !0), "[[") : Z.call(null, v([O, "p"], !0), "[["), Z.a ? Z.a(v([O, "nv"], !0), "tailrecursion/boot.core") : Z.call(null, v([O, "nv"], !0), "tailrecursion/boot.core"), "   ", Z.a ? Z.a(v([O, "s"], !0), '"1.1.0"') : Z.call(null, v([O, "s"], !0), '"1.1.0"'), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), "\n                 ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "tailrecursion/boot.task") : 
+    Z.call(null, v([O, "nv"], !0), "tailrecursion/boot.task"), "   ", Z.a ? Z.a(v([O, "s"], !0), '"1.0.0"') : Z.call(null, v([O, "s"], !0), '"1.0.0"'), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), "\n                 ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "tailrecursion/hoplon") : Z.call(null, v([O, "nv"], !0), "tailrecursion/hoplon"), "      ", Z.a ? Z.a(v([O, "s"], !0), '"4.0.7"') : Z.call(null, v([O, "s"], !0), 
+    '"4.0.7"'), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), "\n                 ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "org.clojure/clojurescript") : Z.call(null, v([O, "nv"], !0), "org.clojure/clojurescript"), " ", Z.a ? Z.a(v([O, "s"], !0), '"0.0-1934"') : Z.call(null, v([O, "s"], !0), '"0.0-1934"'), Z.a ? Z.a(v([O, "p"], !0), "]]") : Z.call(null, v([O, "p"], !0), "]]"), "\n ", Z.a ? Z.a(v([O, "ss"], !0), ":require-tasks") : 
     Z.call(null, v([O, "ss"], !0), ":require-tasks"), " ", Z.a ? Z.a(v([O, "o"], !0), "#") : Z.call(null, v([O, "o"], !0), "#"), Z.a ? Z.a(v([O, "p"], !0), "{[") : Z.call(null, v([O, "p"], !0), "{["), Z.a ? Z.a(v([O, "nv"], !0), "tailrecursion.boot.task") : Z.call(null, v([O, "nv"], !0), "tailrecursion.boot.task"), "    ", Z.a ? Z.a(v([O, "ss"], !0), ":refer") : Z.call(null, v([O, "ss"], !0), ":refer"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":all") : Z.call(null, v([O, "ss"], !0), ":all"), Z.a ? Z.a(v([O, 
     "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), "\n                  ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "tailrecursion.hoplon.boot") : Z.call(null, v([O, "nv"], !0), "tailrecursion.hoplon.boot"), "  ", Z.a ? Z.a(v([O, "ss"], !0), ":refer") : Z.call(null, v([O, "ss"], !0), ":refer"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":all") : Z.call(null, v([O, "ss"], !0), ":all"), Z.a ? Z.a(v([O, "p"], !0), "]}") : Z.call(null, v([O, "p"], 
     !0), "]}"), "\n ", Z.a ? Z.a(v([O, "ss"], !0), ":public") : Z.call(null, v([O, "ss"], !0), ":public"), "        ", Z.a ? Z.a(v([O, "s"], !0), '"resources/public"') : Z.call(null, v([O, "s"], !0), '"resources/public"'), "\n ", Z.a ? Z.a(v([O, "ss"], !0), ":src-paths") : Z.call(null, v([O, "ss"], !0), ":src-paths"), "     ", Z.a ? Z.a(v([O, "o"], !0), "#") : Z.call(null, v([O, "o"], !0), "#"), Z.a ? Z.a(v([O, "p"], !0), "{") : Z.call(null, v([O, "p"], !0), "{"), Z.a ? Z.a(v([O, "s"], !0), '"src"') : 
-    Z.call(null, v([O, "s"], !0), '"src"'), Z.a ? Z.a(v([O, "p"], !0), "}}") : Z.call(null, v([O, "p"], !0), "}}"), "\n")) : T.call(null, v([O, "highlight"], !0), Y.Hb ? Y.Hb(Z.a ? Z.a(v([O, "p"], !0), "{") : Z.call(null, v([O, "p"], !0), "{"), Z.a ? Z.a(v([O, "ss"], !0), ":dependencies") : Z.call(null, v([O, "ss"], !0), ":dependencies"), "  ", Z.a ? Z.a(v([O, "p"], !0), "[[") : Z.call(null, v([O, "p"], !0), "[["), Z.a ? Z.a(v([O, "nv"], !0), "tailrecursion/boot.core") : Z.call(null, v([O, "nv"], 
-    !0), "tailrecursion/boot.core"), "   ", Z.a ? Z.a(v([O, "s"], !0), '"1.0.0"') : Z.call(null, v([O, "s"], !0), '"1.0.0"'), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), "\n                 ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "tailrecursion/boot.task") : Z.call(null, v([O, "nv"], !0), "tailrecursion/boot.task"), "   ", Z.a ? Z.a(v([O, "s"], !0), '"1.0.0"') : Z.call(null, v([O, "s"], !0), '"1.0.0"'), Z.a ? Z.a(v([O, 
-    "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), "\n                 ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "tailrecursion/hoplon") : Z.call(null, v([O, "nv"], !0), "tailrecursion/hoplon"), "      ", Z.a ? Z.a(v([O, "s"], !0), '"4.0.6"') : Z.call(null, v([O, "s"], !0), '"4.0.6"'), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), "\n                 ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], 
+    Z.call(null, v([O, "s"], !0), '"src"'), Z.a ? Z.a(v([O, "p"], !0), "}}") : Z.call(null, v([O, "p"], !0), "}}"), "\n")) : T.call(null, v([O, "highlight"], !0), Y.Jb ? Y.Jb(Z.a ? Z.a(v([O, "p"], !0), "{") : Z.call(null, v([O, "p"], !0), "{"), Z.a ? Z.a(v([O, "ss"], !0), ":dependencies") : Z.call(null, v([O, "ss"], !0), ":dependencies"), "  ", Z.a ? Z.a(v([O, "p"], !0), "[[") : Z.call(null, v([O, "p"], !0), "[["), Z.a ? Z.a(v([O, "nv"], !0), "tailrecursion/boot.core") : Z.call(null, v([O, "nv"], 
+    !0), "tailrecursion/boot.core"), "   ", Z.a ? Z.a(v([O, "s"], !0), '"1.1.0"') : Z.call(null, v([O, "s"], !0), '"1.1.0"'), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), "\n                 ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "tailrecursion/boot.task") : Z.call(null, v([O, "nv"], !0), "tailrecursion/boot.task"), "   ", Z.a ? Z.a(v([O, "s"], !0), '"1.0.0"') : Z.call(null, v([O, "s"], !0), '"1.0.0"'), Z.a ? Z.a(v([O, 
+    "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), "\n                 ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "tailrecursion/hoplon") : Z.call(null, v([O, "nv"], !0), "tailrecursion/hoplon"), "      ", Z.a ? Z.a(v([O, "s"], !0), '"4.0.7"') : Z.call(null, v([O, "s"], !0), '"4.0.7"'), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), "\n                 ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], 
     !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "org.clojure/clojurescript") : Z.call(null, v([O, "nv"], !0), "org.clojure/clojurescript"), " ", Z.a ? Z.a(v([O, "s"], !0), '"0.0-1934"') : Z.call(null, v([O, "s"], !0), '"0.0-1934"'), Z.a ? Z.a(v([O, "p"], !0), "]]") : Z.call(null, v([O, "p"], !0), "]]"), "\n ", Z.a ? Z.a(v([O, "ss"], !0), ":require-tasks") : Z.call(null, v([O, "ss"], !0), ":require-tasks"), " ", Z.a ? Z.a(v([O, "o"], !0), "#") : Z.call(null, v([O, "o"], !0), "#"), Z.a ? Z.a(v([O, "p"], 
     !0), "{[") : Z.call(null, v([O, "p"], !0), "{["), Z.a ? Z.a(v([O, "nv"], !0), "tailrecursion.boot.task") : Z.call(null, v([O, "nv"], !0), "tailrecursion.boot.task"), "    ", Z.a ? Z.a(v([O, "ss"], !0), ":refer") : Z.call(null, v([O, "ss"], !0), ":refer"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":all") : Z.call(null, v([O, "ss"], !0), ":all"), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), "\n                  ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), 
     "["), Z.a ? Z.a(v([O, "nv"], !0), "tailrecursion.hoplon.boot") : Z.call(null, v([O, "nv"], !0), "tailrecursion.hoplon.boot"), "  ", Z.a ? Z.a(v([O, "ss"], !0), ":refer") : Z.call(null, v([O, "ss"], !0), ":refer"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":all") : Z.call(null, v([O, "ss"], !0), ":all"), Z.a ? Z.a(v([O, "p"], !0), "]}") : Z.call(null, v([O, "p"], !0), "]}"), "\n ", Z.a ? Z.a(v([O, "ss"], !0), ":public") : Z.call(null, v([O, "ss"], !0), ":public"), "        ", Z.a ? Z.a(v([O, "s"], !0), 
     '"resources/public"') : Z.call(null, v([O, "s"], !0), '"resources/public"'), "\n ", Z.a ? Z.a(v([O, "ss"], !0), ":src-paths") : Z.call(null, v([O, "ss"], !0), ":src-paths"), "     ", Z.a ? Z.a(v([O, "o"], !0), "#") : Z.call(null, v([O, "o"], !0), "#"), Z.a ? Z.a(v([O, "p"], !0), "{") : Z.call(null, v([O, "p"], !0), "{"), Z.a ? Z.a(v([O, "s"], !0), '"src"') : Z.call(null, v([O, "s"], !0), '"src"'), Z.a ? Z.a(v([O, "p"], !0), "}}") : Z.call(null, v([O, "p"], !0), "}}"), "\n") : Y.call(null, Z.a ? 
-    Z.a(v([O, "p"], !0), "{") : Z.call(null, v([O, "p"], !0), "{"), Z.a ? Z.a(v([O, "ss"], !0), ":dependencies") : Z.call(null, v([O, "ss"], !0), ":dependencies"), "  ", Z.a ? Z.a(v([O, "p"], !0), "[[") : Z.call(null, v([O, "p"], !0), "[["), Z.a ? Z.a(v([O, "nv"], !0), "tailrecursion/boot.core") : Z.call(null, v([O, "nv"], !0), "tailrecursion/boot.core"), "   ", Z.a ? Z.a(v([O, "s"], !0), '"1.0.0"') : Z.call(null, v([O, "s"], !0), '"1.0.0"'), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], 
+    Z.a(v([O, "p"], !0), "{") : Z.call(null, v([O, "p"], !0), "{"), Z.a ? Z.a(v([O, "ss"], !0), ":dependencies") : Z.call(null, v([O, "ss"], !0), ":dependencies"), "  ", Z.a ? Z.a(v([O, "p"], !0), "[[") : Z.call(null, v([O, "p"], !0), "[["), Z.a ? Z.a(v([O, "nv"], !0), "tailrecursion/boot.core") : Z.call(null, v([O, "nv"], !0), "tailrecursion/boot.core"), "   ", Z.a ? Z.a(v([O, "s"], !0), '"1.1.0"') : Z.call(null, v([O, "s"], !0), '"1.1.0"'), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], 
     !0), "]"), "\n                 ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "tailrecursion/boot.task") : Z.call(null, v([O, "nv"], !0), "tailrecursion/boot.task"), "   ", Z.a ? Z.a(v([O, "s"], !0), '"1.0.0"') : Z.call(null, v([O, "s"], !0), '"1.0.0"'), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), "\n                 ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), 
-    "tailrecursion/hoplon") : Z.call(null, v([O, "nv"], !0), "tailrecursion/hoplon"), "      ", Z.a ? Z.a(v([O, "s"], !0), '"4.0.6"') : Z.call(null, v([O, "s"], !0), '"4.0.6"'), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), "\n                 ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "org.clojure/clojurescript") : Z.call(null, v([O, "nv"], !0), "org.clojure/clojurescript"), " ", Z.a ? Z.a(v([O, "s"], !0), '"0.0-1934"') : 
+    "tailrecursion/hoplon") : Z.call(null, v([O, "nv"], !0), "tailrecursion/hoplon"), "      ", Z.a ? Z.a(v([O, "s"], !0), '"4.0.7"') : Z.call(null, v([O, "s"], !0), '"4.0.7"'), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), "\n                 ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "org.clojure/clojurescript") : Z.call(null, v([O, "nv"], !0), "org.clojure/clojurescript"), " ", Z.a ? Z.a(v([O, "s"], !0), '"0.0-1934"') : 
     Z.call(null, v([O, "s"], !0), '"0.0-1934"'), Z.a ? Z.a(v([O, "p"], !0), "]]") : Z.call(null, v([O, "p"], !0), "]]"), "\n ", Z.a ? Z.a(v([O, "ss"], !0), ":require-tasks") : Z.call(null, v([O, "ss"], !0), ":require-tasks"), " ", Z.a ? Z.a(v([O, "o"], !0), "#") : Z.call(null, v([O, "o"], !0), "#"), Z.a ? Z.a(v([O, "p"], !0), "{[") : Z.call(null, v([O, "p"], !0), "{["), Z.a ? Z.a(v([O, "nv"], !0), "tailrecursion.boot.task") : Z.call(null, v([O, "nv"], !0), "tailrecursion.boot.task"), "    ", Z.a ? 
     Z.a(v([O, "ss"], !0), ":refer") : Z.call(null, v([O, "ss"], !0), ":refer"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":all") : Z.call(null, v([O, "ss"], !0), ":all"), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), "\n                  ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "tailrecursion.hoplon.boot") : Z.call(null, v([O, "nv"], !0), "tailrecursion.hoplon.boot"), "  ", Z.a ? Z.a(v([O, "ss"], !0), ":refer") : Z.call(null, 
     v([O, "ss"], !0), ":refer"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":all") : Z.call(null, v([O, "ss"], !0), ":all"), Z.a ? Z.a(v([O, "p"], !0), "]}") : Z.call(null, v([O, "p"], !0), "]}"), "\n ", Z.a ? Z.a(v([O, "ss"], !0), ":public") : Z.call(null, v([O, "ss"], !0), ":public"), "        ", Z.a ? Z.a(v([O, "s"], !0), '"resources/public"') : Z.call(null, v([O, "s"], !0), '"resources/public"'), "\n ", Z.a ? Z.a(v([O, "ss"], !0), ":src-paths") : Z.call(null, v([O, "ss"], !0), ":src-paths"), "     ", 
     Z.a ? Z.a(v([O, "o"], !0), "#") : Z.call(null, v([O, "o"], !0), "#"), Z.a ? Z.a(v([O, "p"], !0), "{") : Z.call(null, v([O, "p"], !0), "{"), Z.a ? Z.a(v([O, "s"], !0), '"src"') : Z.call(null, v([O, "s"], !0), '"src"'), Z.a ? Z.a(v([O, "p"], !0), "}}") : Z.call(null, v([O, "p"], !0), "}}"), "\n"))], 0)), na = S.b ? S.b("src/index.cljs.hl") : S.call(null, "src/index.cljs.hl"), oa = S.b ? S.b("src/index.html.hl") : S.call(null, "src/index.html.hl"), sa = W.n ? W.n("Create a ", na, " or ", oa, " file with the following contents:") : 
-    W.call(null, "Create a ", na, " or ", oa, " file with the following contents:"), ta = $l.d(C([oi, km, "index.cljs.hl", T.a ? T.a(v([O, "highlight"], !0), Y.La ? Y.La(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "page") : Z.call(null, v([O, "nf"], !0), "page"), " ", Z.a ? Z.a(v([O, "s"], !0), '"index.html"') : Z.call(null, v([O, "s"], !0), '"index.html"'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n\n", Z.a ? Z.a(v([O, 
+    W.call(null, "Create a ", na, " or ", oa, " file with the following contents:"), ta = bm.d(C([oi, mm, "index.cljs.hl", T.a ? T.a(v([O, "highlight"], !0), Y.La ? Y.La(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "page") : Z.call(null, v([O, "nf"], !0), "page"), " ", Z.a ? Z.a(v([O, "s"], !0), '"index.html"') : Z.call(null, v([O, "s"], !0), '"index.html"'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n\n", Z.a ? Z.a(v([O, 
     "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "html") : Z.call(null, v([O, "nf"], !0), "html"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "head") : Z.call(null, v([O, "nf"], !0), "head"), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "body") : Z.call(null, v([O, "nf"], 
     !0), "body"), "\n    ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "h1") : Z.call(null, v([O, "nf"], !0), "h1"), " ", Z.a ? Z.a(v([O, "s"], !0), '"Hello, world!"') : Z.call(null, v([O, "s"], !0), '"Hello, world!"'), Z.a ? Z.a(v([O, "p"], !0), ")))") : Z.call(null, v([O, "p"], !0), ")))"), "\n") : Y.call(null, Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "page") : Z.call(null, v([O, "nf"], 
     !0), "page"), " ", Z.a ? Z.a(v([O, "s"], !0), '"index.html"') : Z.call(null, v([O, "s"], !0), '"index.html"'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n\n", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "html") : Z.call(null, v([O, "nf"], !0), "html"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "head") : Z.call(null, v([O, "nf"], !0), "head"), Z.a ? 
@@ -13576,33 +13591,33 @@ function Dm() {
     "\x3ch1\x3e"), "Hello, world!", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/h1\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/h1\x3e"), "\n  ", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/body\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/body\x3e"), "\n", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/html\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/html\x3e"), "\n") : Y.call(null, Z.a ? Z.a(v([O, "nt"], !0), "\x3cscript") : Z.call(null, v([O, "nt"], !0), "\x3cscript"), " ", Z.a ? Z.a(v([O, "na"], !0), "type\x3d") : Z.call(null, 
     v([O, "na"], !0), "type\x3d"), Z.a ? Z.a(v([O, "s"], !0), '"text/hoplon"') : Z.call(null, v([O, "s"], !0), '"text/hoplon"'), Z.a ? Z.a(v([O, "nt"], !0), "\x3e") : Z.call(null, v([O, "nt"], !0), "\x3e"), '\n  (page "index.html")\n', Z.a ? Z.a(v([O, "nt"], !0), "\x3c/script\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/script\x3e"), "\n\n", Z.a ? Z.a(v([O, "nt"], !0), "\x3chtml\x3e") : Z.call(null, v([O, "nt"], !0), "\x3chtml\x3e"), "\n  ", Z.a ? Z.a(v([O, "nt"], !0), "\x3chead\x3e\x3c/head\x3e") : 
     Z.call(null, v([O, "nt"], !0), "\x3chead\x3e\x3c/head\x3e"), "\n  ", Z.a ? Z.a(v([O, "nt"], !0), "\x3cbody\x3e") : Z.call(null, v([O, "nt"], !0), "\x3cbody\x3e"), "\n    ", Z.a ? Z.a(v([O, "nt"], !0), "\x3ch1\x3e") : Z.call(null, v([O, "nt"], !0), "\x3ch1\x3e"), "Hello, world!", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/h1\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/h1\x3e"), "\n  ", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/body\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/body\x3e"), "\n", Z.a ? Z.a(v([O, 
-    "nt"], !0), "\x3c/html\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/html\x3e"), "\n"))], 0)), Oa = W.b ? W.b("Your project directory should now look like this:") : W.call(null, "Your project directory should now look like this:"), ua = $l.d(C([oi, km, "index.cljs.hl", Y.b ? Y.b(S.b ? S.b(".\n\u251c\u2500\u2500 boot.edn\n\u2514\u2500\u2500 src\n    \u2514\u2500\u2500 index.cljs.hl") : S.call(null, ".\n\u251c\u2500\u2500 boot.edn\n\u2514\u2500\u2500 src\n    \u2514\u2500\u2500 index.cljs.hl")) : 
+    "nt"], !0), "\x3c/html\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/html\x3e"), "\n"))], 0)), Oa = W.b ? W.b("Your project directory should now look like this:") : W.call(null, "Your project directory should now look like this:"), ua = bm.d(C([oi, mm, "index.cljs.hl", Y.b ? Y.b(S.b ? S.b(".\n\u251c\u2500\u2500 boot.edn\n\u2514\u2500\u2500 src\n    \u2514\u2500\u2500 index.cljs.hl") : S.call(null, ".\n\u251c\u2500\u2500 boot.edn\n\u2514\u2500\u2500 src\n    \u2514\u2500\u2500 index.cljs.hl")) : 
     Y.call(null, S.b ? S.b(".\n\u251c\u2500\u2500 boot.edn\n\u2514\u2500\u2500 src\n    \u2514\u2500\u2500 index.cljs.hl") : S.call(null, ".\n\u251c\u2500\u2500 boot.edn\n\u2514\u2500\u2500 src\n    \u2514\u2500\u2500 index.cljs.hl")), "index.html.hl", Y.b ? Y.b(S.b ? S.b(".\n\u251c\u2500\u2500 boot.edn\n\u2514\u2500\u2500 src\n    \u2514\u2500\u2500 index.html.hl") : S.call(null, ".\n\u251c\u2500\u2500 boot.edn\n\u2514\u2500\u2500 src\n    \u2514\u2500\u2500 index.html.hl")) : Y.call(null, S.b ? 
-    S.b(".\n\u251c\u2500\u2500 boot.edn\n\u2514\u2500\u2500 src\n    \u2514\u2500\u2500 index.html.hl") : S.call(null, ".\n\u251c\u2500\u2500 boot.edn\n\u2514\u2500\u2500 src\n    \u2514\u2500\u2500 index.html.hl"))], 0)), Pa = em.d(C([Ii, "Task 2: Create \u201cHello World\u201d page.", sa, ta, Oa, ua], 0)), va = S.b ? S.b("index.cljs.hl") : S.call(null, "index.cljs.hl"), wa = S.b ? S.b("index.html.hl") : S.call(null, "index.html.hl"), Qa = W.n ? W.n("To simplify things we will use ", va, " and ", 
+    S.b(".\n\u251c\u2500\u2500 boot.edn\n\u2514\u2500\u2500 src\n    \u2514\u2500\u2500 index.html.hl") : S.call(null, ".\n\u251c\u2500\u2500 boot.edn\n\u2514\u2500\u2500 src\n    \u2514\u2500\u2500 index.html.hl"))], 0)), Pa = gm.d(C([Ii, "Task 2: Create \u201cHello World\u201d page.", sa, ta, Oa, ua], 0)), va = S.b ? S.b("index.cljs.hl") : S.call(null, "index.cljs.hl"), wa = S.b ? S.b("index.html.hl") : S.call(null, "index.html.hl"), Qa = W.n ? W.n("To simplify things we will use ", va, " and ", 
     wa, " interchangably in the examples below.\n              It should be understood that HTML and CLJS syntaxes are\n              equivalent\u2013examples in CLJS syntax can be easily rewritten in\n              HTML syntax and vice versa.") : W.call(null, "To simplify things we will use ", va, " and ", wa, " interchangably in the examples below.\n              It should be understood that HTML and CLJS syntaxes are\n              equivalent\u2013examples in CLJS syntax can be easily rewritten in\n              HTML syntax and vice versa."), 
-    xa = gm.d(C([Ii, "Note", Qa], 0)), Ra = W.b ? W.b("In another terminal do the following in the project directory:") : W.call(null, "In another terminal do the following in the project directory:"), Sa = W.b ? W.b("This starts the Hoplon compiler in \u201cwatcher\u201d mode\u2013source\n              directories are monitored for changes and recompiled when\n              necessary. When it's finished compiling the project directory\n              should look something like this:") : W.call(null, 
+    xa = im.d(C([Ii, "Note", Qa], 0)), Ra = W.b ? W.b("In another terminal do the following in the project directory:") : W.call(null, "In another terminal do the following in the project directory:"), Sa = W.b ? W.b("This starts the Hoplon compiler in \u201cwatcher\u201d mode\u2013source\n              directories are monitored for changes and recompiled when\n              necessary. When it's finished compiling the project directory\n              should look something like this:") : W.call(null, 
     "This starts the Hoplon compiler in \u201cwatcher\u201d mode\u2013source\n              directories are monitored for changes and recompiled when\n              necessary. When it's finished compiling the project directory\n              should look something like this:"), ya = S.b ? S.b("index.html") : S.call(null, "index.html"), Ua = W.c ? W.c("Load ", ya, " in a browser and enjoy a friendly\n              greeting.") : W.call(null, "Load ", ya, " in a browser and enjoy a friendly\n              greeting."), 
-    Va = em.d(C([Ii, "Task 3: Compile the project.", Ra, T.a ? T.a(v([O, "highlight"], !0), Y.a ? Y.a(Z.a ? Z.a(v([O, "nv"], !0), "$ ") : Z.call(null, v([O, "nv"], !0), "$ "), "boot watch hoplon\n") : Y.call(null, Z.a ? Z.a(v([O, "nv"], !0), "$ ") : Z.call(null, v([O, "nv"], !0), "$ "), "boot watch hoplon\n")) : T.call(null, v([O, "highlight"], !0), Y.a ? Y.a(Z.a ? Z.a(v([O, "nv"], !0), "$ ") : Z.call(null, v([O, "nv"], !0), "$ "), "boot watch hoplon\n") : Y.call(null, Z.a ? Z.a(v([O, "nv"], !0), 
+    Va = gm.d(C([Ii, "Task 3: Compile the project.", Ra, T.a ? T.a(v([O, "highlight"], !0), Y.a ? Y.a(Z.a ? Z.a(v([O, "nv"], !0), "$ ") : Z.call(null, v([O, "nv"], !0), "$ "), "boot watch hoplon\n") : Y.call(null, Z.a ? Z.a(v([O, "nv"], !0), "$ ") : Z.call(null, v([O, "nv"], !0), "$ "), "boot watch hoplon\n")) : T.call(null, v([O, "highlight"], !0), Y.a ? Y.a(Z.a ? Z.a(v([O, "nv"], !0), "$ ") : Z.call(null, v([O, "nv"], !0), "$ "), "boot watch hoplon\n") : Y.call(null, Z.a ? Z.a(v([O, "nv"], !0), 
     "$ ") : Z.call(null, v([O, "nv"], !0), "$ "), "boot watch hoplon\n")), Sa, Y.b ? Y.b(S.b ? S.b(".\n\u251c\u2500\u2500 boot.edn\n\u251c\u2500\u2500 resources\n\u2502   \u2514\u2500\u2500 public\n\u2502       \u251c\u2500\u2500 main.js\n\u2502       \u2514\u2500\u2500 index.html\n\u2514\u2500\u2500 src\n    \u2514\u2500\u2500 index.cljs.hl") : S.call(null, ".\n\u251c\u2500\u2500 boot.edn\n\u251c\u2500\u2500 resources\n\u2502   \u2514\u2500\u2500 public\n\u2502       \u251c\u2500\u2500 main.js\n\u2502       \u2514\u2500\u2500 index.html\n\u2514\u2500\u2500 src\n    \u2514\u2500\u2500 index.cljs.hl")) : 
     Y.call(null, S.b ? S.b(".\n\u251c\u2500\u2500 boot.edn\n\u251c\u2500\u2500 resources\n\u2502   \u2514\u2500\u2500 public\n\u2502       \u251c\u2500\u2500 main.js\n\u2502       \u2514\u2500\u2500 index.html\n\u2514\u2500\u2500 src\n    \u2514\u2500\u2500 index.cljs.hl") : S.call(null, ".\n\u251c\u2500\u2500 boot.edn\n\u251c\u2500\u2500 resources\n\u2502   \u2514\u2500\u2500 public\n\u2502       \u251c\u2500\u2500 main.js\n\u2502       \u2514\u2500\u2500 index.html\n\u2514\u2500\u2500 src\n    \u2514\u2500\u2500 index.cljs.hl")), 
     Ua], 0)), za = W.b ? W.b("Now we add a counter to the page that will keep track of how\n              many times a button was clicked. To do this we add an input\n              cell containing the click count to the environment, and link\n              it to UI elements for input and output interactions with the\n              user. Input will be click events on the button. Output will\n              be the contents of a text node displaying the current count.") : W.call(null, "Now we add a counter to the page that will keep track of how\n              many times a button was clicked. To do this we add an input\n              cell containing the click count to the environment, and link\n              it to UI elements for input and output interactions with the\n              user. Input will be click events on the button. Output will\n              be the contents of a text node displaying the current count."), 
     Aa = S.b ? S.b(":on-click") : S.call(null, ":on-click"), Ba = S.b ? S.b("text") : S.call(null, "text"), Wa = W.n ? W.n("Button click events are wired up to the input cell with the ", Aa, " attribute. The ", Ba, " macro does\n              some string interpolation and wires the input cell to the value\n              of a text node such that it\u2019s updated whenever the cell\u2019s value\n              changes.") : W.call(null, "Button click events are wired up to the input cell with the ", 
     Aa, " attribute. The ", Ba, " macro does\n              some string interpolation and wires the input cell to the value\n              of a text node such that it\u2019s updated whenever the cell\u2019s value\n              changes."), pa = S.b ? S.b("index.cljs.hl") : S.call(null, "index.cljs.hl"), Xa = W.c ? W.c("Modify the ", pa, " page such that it contains\n              the following:") : W.call(null, "Modify the ", pa, " page such that it contains\n              the following:"), Ya = 
-    pm(), Za = W.b ? W.b("If the compiler is still running in another terminal the\n              application will be recompiled. Reload the page and click the\n              button a few times. You should see something like this:") : W.call(null, "If the compiler is still running in another terminal the\n              application will be recompiled. Reload the page and click the\n              button a few times. You should see something like this:"), Ca = qm(), Da = em.d(C([Ii, "Task 4: Add a counter.", 
-    za, Wa, Xa, Ya, Za, Ca], 0)), Ea = S.b ? S.b("index.cljs.hl") : S.call(null, "index.cljs.hl"), Fa = W.c ? W.c("The next task is to build a simple calculator that can add,\n              subtract, multiply, or divide two integers. Modify the ", Ea, " file to contain the following:") : W.call(null, "The next task is to build a simple calculator that can add,\n              subtract, multiply, or divide two integers. Modify the ", Ea, " file to contain the following:"), $a = rm(), ab = W.b ? W.b("Compile and reload the page. You should see something like this:") : 
-    W.call(null, "Compile and reload the page. You should see something like this:"), Ga = sm(), Ha = W.b ? W.b("Notice how the presentation (the page markup) is effectively\n              decoupled from the application state (the cells). The four cells\n              that contain the application's state could be defined in a\n              different namespace, distributed in a jar file, deployed to a Maven\n              repository, and used in a number of different pages. They form a\n              well-defined API for the frontend dev to hook into when developing \n              the page markup. This decoupling of presentation and state is a\n              key component of the Hoplon model.") : 
+    rm(), Za = W.b ? W.b("If the compiler is still running in another terminal the\n              application will be recompiled. Reload the page and click the\n              button a few times. You should see something like this:") : W.call(null, "If the compiler is still running in another terminal the\n              application will be recompiled. Reload the page and click the\n              button a few times. You should see something like this:"), Ca = sm(), Da = gm.d(C([Ii, "Task 4: Add a counter.", 
+    za, Wa, Xa, Ya, Za, Ca], 0)), Ea = S.b ? S.b("index.cljs.hl") : S.call(null, "index.cljs.hl"), Fa = W.c ? W.c("The next task is to build a simple calculator that can add,\n              subtract, multiply, or divide two integers. Modify the ", Ea, " file to contain the following:") : W.call(null, "The next task is to build a simple calculator that can add,\n              subtract, multiply, or divide two integers. Modify the ", Ea, " file to contain the following:"), $a = tm(), ab = W.b ? W.b("Compile and reload the page. You should see something like this:") : 
+    W.call(null, "Compile and reload the page. You should see something like this:"), Ga = um(), Ha = W.b ? W.b("Notice how the presentation (the page markup) is effectively\n              decoupled from the application state (the cells). The four cells\n              that contain the application's state could be defined in a\n              different namespace, distributed in a jar file, deployed to a Maven\n              repository, and used in a number of different pages. They form a\n              well-defined API for the frontend dev to hook into when developing \n              the page markup. This decoupling of presentation and state is a\n              key component of the Hoplon model.") : 
     W.call(null, "Notice how the presentation (the page markup) is effectively\n              decoupled from the application state (the cells). The four cells\n              that contain the application's state could be defined in a\n              different namespace, distributed in a jar file, deployed to a Maven\n              repository, and used in a number of different pages. They form a\n              well-defined API for the frontend dev to hook into when developing \n              the page markup. This decoupling of presentation and state is a\n              key component of the Hoplon model."), 
-    bb = em.d(C([Ii, "Task 5: A simple calculator.", Fa, $a, ab, Ga, Ha], 0)), Ia = S.b ? S.b("loop-tpl") : S.call(null, "loop-tpl"), cb = W.c ? W.c("Most applications have sequential collections that need to be\n              displayed to the user in some kind of template. Hoplon provides\n              the ", Ia, " macro that can be used in the page\n              markup to iterate over the collection.") : W.call(null, "Most applications have sequential collections that need to be\n              displayed to the user in some kind of template. Hoplon provides\n              the ", 
-    Ia, " macro that can be used in the page\n              markup to iterate over the collection."), Ja = tm(), db = W.b ? W.b("Compile and reload the page. You should see something like this:") : W.call(null, "Compile and reload the page. You should see something like this:"), eb = um(), Ka = S.b ? S.b("loop-tpl") : S.call(null, "loop-tpl"), La = S.b ? S.b("things") : S.call(null, "things"), qa = S.b ? S.b("x") : S.call(null, "x"), Ma = S.b ? S.b("x") : S.call(null, "x"), ra = S.b ? S.b("x") : 
+    bb = gm.d(C([Ii, "Task 5: A simple calculator.", Fa, $a, ab, Ga, Ha], 0)), Ia = S.b ? S.b("loop-tpl") : S.call(null, "loop-tpl"), cb = W.c ? W.c("Most applications have sequential collections that need to be\n              displayed to the user in some kind of template. Hoplon provides\n              the ", Ia, " macro that can be used in the page\n              markup to iterate over the collection.") : W.call(null, "Most applications have sequential collections that need to be\n              displayed to the user in some kind of template. Hoplon provides\n              the ", 
+    Ia, " macro that can be used in the page\n              markup to iterate over the collection."), Ja = vm(), db = W.b ? W.b("Compile and reload the page. You should see something like this:") : W.call(null, "Compile and reload the page. You should see something like this:"), eb = wm(), Ka = S.b ? S.b("loop-tpl") : S.call(null, "loop-tpl"), La = S.b ? S.b("things") : S.call(null, "things"), qa = S.b ? S.b("x") : S.call(null, "x"), Ma = S.b ? S.b("x") : S.call(null, "x"), ra = S.b ? S.b("x") : 
     S.call(null, "x"), pb = W.$a ? W.$a("Note how ", Ka, " iterates over the ", La, " cell, binding each item to ", qa, ", in turn. However,\n              notice that ", Ma, " needs to be dereferenced to be used in\n              the template. This is because ", ra, " is actually bound to\n              a cell that always contains the nth item of the collection cell\n              and not to the item itself.") : W.call(null, "Note how ", Ka, " iterates over the ", La, " cell, binding each item to ", 
     qa, ", in turn. However,\n              notice that ", Ma, " needs to be dereferenced to be used in\n              the template. This is because ", ra, " is actually bound to\n              a cell that always contains the nth item of the collection cell\n              and not to the item itself."), fb = S.b ? S.b(":bindings") : S.call(null, ":bindings"), ib = W.c ? W.c("Here is a more interesting example that uses destructuring in\n              the ", fb, " attribute:") : W.call(null, "Here is a more interesting example that uses destructuring in\n              the ", 
-    fb, " attribute:"), jb = vm(), kb = W.b ? W.b("Now when you reload the page you should see something like this:") : W.call(null, "Now when you reload the page you should see something like this:"), lb = wm(), gb = Q.n ? Q.n(hi, "http://martinfowler.com/bliki/CQRS.html", pi, "_blank", "CQRS pattern") : Q.call(null, hi, "http://martinfowler.com/bliki/CQRS.html", pi, "_blank", "CQRS pattern"), sb = W.c ? W.c("Notice the organiztion of the public API for the page\u2019s\n              underlying state machine: it consists of read-only formula cells\n              and state transition functions that modify the underlying input\n              cells as a side effect. This is known as the ", 
+    fb, " attribute:"), jb = xm(), kb = W.b ? W.b("Now when you reload the page you should see something like this:") : W.call(null, "Now when you reload the page you should see something like this:"), lb = ym(), gb = Q.n ? Q.n(hi, "http://martinfowler.com/bliki/CQRS.html", pi, "_blank", "CQRS pattern") : Q.call(null, hi, "http://martinfowler.com/bliki/CQRS.html", pi, "_blank", "CQRS pattern"), sb = W.c ? W.c("Notice the organiztion of the public API for the page\u2019s\n              underlying state machine: it consists of read-only formula cells\n              and state transition functions that modify the underlying input\n              cells as a side effect. This is known as the ", 
     gb, " and forms the\n              basic architecture of a Hoplon single-page app.") : W.call(null, "Notice the organiztion of the public API for the page\u2019s\n              underlying state machine: it consists of read-only formula cells\n              and state transition functions that modify the underlying input\n              cells as a side effect. This is known as the ", gb, " and forms the\n              basic architecture of a Hoplon single-page app."), tb = S.b ? S.b("loop-tpl") : 
     S.call(null, "loop-tpl"), xb = W.c ? W.c("Since ", tb, " is a macro that generates markup/code\n              at compile time, it is essentially performing static allocation of\n              DOM elements. This is a key concept in the Hoplon model. In Hoplon\n              the DOM is strictly an I/O mechanism. As always, it turns out that\n              static allocation of I/O resources provides great advantages by\n              reducing the complexity of the application's state, eliminating\n              the need to manage these resources explicitly. (DOM elements, like\n              file descriptors, are not subject to garbage collection and must\n              be explicitly removed from the DOM when no longer needed.)") : 
     W.call(null, "Since ", tb, " is a macro that generates markup/code\n              at compile time, it is essentially performing static allocation of\n              DOM elements. This is a key concept in the Hoplon model. In Hoplon\n              the DOM is strictly an I/O mechanism. As always, it turns out that\n              static allocation of I/O resources provides great advantages by\n              reducing the complexity of the application's state, eliminating\n              the need to manage these resources explicitly. (DOM elements, like\n              file descriptors, are not subject to garbage collection and must\n              be explicitly removed from the DOM when no longer needed.)"), 
-    vb = em.d(C([Ii, "Task 6: Using the looping macro.", cb, Ja, db, eb, pb, ib, jb, kb, lb, sb, xb], 0)), Cb = Q.n ? Q.n(hi, "http://getbootstrap.com/getting-started/", pi, "_blank", "Twitter Bootstrap") : Q.call(null, hi, "http://getbootstrap.com/getting-started/", pi, "_blank", "Twitter Bootstrap"), yb = S.b ? S.b("boot.edn") : S.call(null, "boot.edn"), Db = W.n ? W.n("Now it\u2019s time to add some static resources to the project. For\n              example, adding the ", Cb, " CSS stylesheets might help to get things looking fancy. Modify\n              the ", 
+    wb = gm.d(C([Ii, "Task 6: Using the looping macro.", cb, Ja, db, eb, pb, ib, jb, kb, lb, sb, xb], 0)), Cb = Q.n ? Q.n(hi, "http://getbootstrap.com/getting-started/", pi, "_blank", "Twitter Bootstrap") : Q.call(null, hi, "http://getbootstrap.com/getting-started/", pi, "_blank", "Twitter Bootstrap"), yb = S.b ? S.b("boot.edn") : S.call(null, "boot.edn"), Db = W.n ? W.n("Now it\u2019s time to add some static resources to the project. For\n              example, adding the ", Cb, " CSS stylesheets might help to get things looking fancy. Modify\n              the ", 
     yb, " file such that it contains the following:") : W.call(null, "Now it\u2019s time to add some static resources to the project. For\n              example, adding the ", Cb, " CSS stylesheets might help to get things looking fancy. Modify\n              the ", yb, " file such that it contains the following:"), Eb = W.b ? W.b("Download Bootstrap and copy the CSS files into the directory. The\n              project directory should be organized something like this now:") : W.call(null, "Download Bootstrap and copy the CSS files into the directory. The\n              project directory should be organized something like this now:"), 
-    zb = S.b ? S.b("css") : S.call(null, "css"), Fb = W.c ? W.c("Restart the compiler and see how the ", zb, " directory\n              is copied over into the output directory automatically (and\n              whenever anything in there changes).") : W.call(null, "Restart the compiler and see how the ", zb, " directory\n              is copied over into the output directory automatically (and\n              whenever anything in there changes)."), Gb = em.d(C([Ii, "Task 7: Add static resources.", 
+    zb = S.b ? S.b("css") : S.call(null, "css"), Fb = W.c ? W.c("Restart the compiler and see how the ", zb, " directory\n              is copied over into the output directory automatically (and\n              whenever anything in there changes).") : W.call(null, "Restart the compiler and see how the ", zb, " directory\n              is copied over into the output directory automatically (and\n              whenever anything in there changes)."), Gb = gm.d(C([Ii, "Task 7: Add static resources.", 
     Db, T.a ? T.a(v([O, "highlight"], !0), Y.Z ? Y.Z(Z.a ? Z.a(v([O, "ss"], !0), ":src-static") : Z.call(null, v([O, "ss"], !0), ":src-static"), " ", Z.a ? Z.a(v([O, "o"], !0), "#") : Z.call(null, v([O, "o"], !0), "#"), Z.a ? Z.a(v([O, "p"], !0), "{") : Z.call(null, v([O, "p"], !0), "{"), Z.a ? Z.a(v([O, "s"], !0), '"resources/assets"') : Z.call(null, v([O, "s"], !0), '"resources/assets"'), Z.a ? Z.a(v([O, "p"], !0), "}") : Z.call(null, v([O, "p"], !0), "}"), "\n") : Y.call(null, Z.a ? Z.a(v([O, 
     "ss"], !0), ":src-static") : Z.call(null, v([O, "ss"], !0), ":src-static"), " ", Z.a ? Z.a(v([O, "o"], !0), "#") : Z.call(null, v([O, "o"], !0), "#"), Z.a ? Z.a(v([O, "p"], !0), "{") : Z.call(null, v([O, "p"], !0), "{"), Z.a ? Z.a(v([O, "s"], !0), '"resources/assets"') : Z.call(null, v([O, "s"], !0), '"resources/assets"'), Z.a ? Z.a(v([O, "p"], !0), "}") : Z.call(null, v([O, "p"], !0), "}"), "\n")) : T.call(null, v([O, "highlight"], !0), Y.Z ? Y.Z(Z.a ? Z.a(v([O, "ss"], !0), ":src-static") : 
     Z.call(null, v([O, "ss"], !0), ":src-static"), " ", Z.a ? Z.a(v([O, "o"], !0), "#") : Z.call(null, v([O, "o"], !0), "#"), Z.a ? Z.a(v([O, "p"], !0), "{") : Z.call(null, v([O, "p"], !0), "{"), Z.a ? Z.a(v([O, "s"], !0), '"resources/assets"') : Z.call(null, v([O, "s"], !0), '"resources/assets"'), Z.a ? Z.a(v([O, "p"], !0), "}") : Z.call(null, v([O, "p"], !0), "}"), "\n") : Y.call(null, Z.a ? Z.a(v([O, "ss"], !0), ":src-static") : Z.call(null, v([O, "ss"], !0), ":src-static"), " ", Z.a ? Z.a(v([O, 
@@ -13612,24 +13627,24 @@ function Dm() {
     S.call(null, ".\n\u251c\u2500\u2500 boot.edn\n\u251c\u2500\u2500 resources\n\u2502\u00a0\u00a0 \u251c\u2500\u2500 assets\n\u2502\u00a0\u00a0 \u2502\u00a0\u00a0 \u2514\u2500\u2500 css\n\u2502\u00a0\u00a0 \u2502\u00a0\u00a0     \u251c\u2500\u2500 bootstrap-theme.css\n\u2502\u00a0\u00a0 \u2502\u00a0\u00a0     \u2514\u2500\u2500 bootstrap.css\n\u2502\u00a0\u00a0 \u2514\u2500\u2500 public\n\u2502\u00a0\u00a0     \u251c\u2500\u2500 index.html\n\u2502\u00a0\u00a0     \u2514\u2500\u2500 main.js\n\u2514\u2500\u2500 src\n    \u2514\u2500\u2500 index.cljs.hl")), 
     Fb], 0)), Nb = W.b ? W.b("This task demonstrates how to create a UI kit library that can be\n              used in multiple pages. UI kits contain custom tags representing\n              user interface abstractions. One commonly used abstraction is the\n              \u201ctabs\u201d metaphor that everyone is familiar with.") : W.call(null, "This task demonstrates how to create a UI kit library that can be\n              used in multiple pages. UI kits contain custom tags representing\n              user interface abstractions. One commonly used abstraction is the\n              \u201ctabs\u201d metaphor that everyone is familiar with."), 
     Kb = S.b ? S.b("src/ui/tabs.cljs.hl") : S.call(null, "src/ui/tabs.cljs.hl"), Ub = W.c ? W.c("The new UI library should live in a separate namespace and\n              contain custom DOM elements to use in the application pages.\n              Create a new Hoplon source file, ", Kb, " with the following contents:") : W.call(null, "The new UI library should live in a separate namespace and\n              contain custom DOM elements to use in the application pages.\n              Create a new Hoplon source file, ", 
-    Kb, " with the following contents:"), Vb = xm(), $b = S.b ? S.b("defelem") : S.call(null, "defelem"), bc = W.c ? W.c("The ", $b, " macro defines a function whose arguments\n              are \u201cnormalized\u201d for the HTML markup semantic. It takes a vector\n              if bindings and a number of body expressions. The bindings vector\n              should bind the attribute map as the first argument and a sequence\n              of children as the second. This removes the need to explicitly\n              parse the arguments when the function is called in the page markup\n              with key/value args as attributes, etc.") : 
+    Kb, " with the following contents:"), Vb = zm(), $b = S.b ? S.b("defelem") : S.call(null, "defelem"), bc = W.c ? W.c("The ", $b, " macro defines a function whose arguments\n              are \u201cnormalized\u201d for the HTML markup semantic. It takes a vector\n              if bindings and a number of body expressions. The bindings vector\n              should bind the attribute map as the first argument and a sequence\n              of children as the second. This removes the need to explicitly\n              parse the arguments when the function is called in the page markup\n              with key/value args as attributes, etc.") : 
     W.call(null, "The ", $b, " macro defines a function whose arguments\n              are \u201cnormalized\u201d for the HTML markup semantic. It takes a vector\n              if bindings and a number of body expressions. The bindings vector\n              should bind the attribute map as the first argument and a sequence\n              of children as the second. This removes the need to explicitly\n              parse the arguments when the function is called in the page markup\n              with key/value args as attributes, etc."), 
-    gc = S.b ? S.b(":refer") : S.call(null, ":refer"), hc = S.b ? S.b("defelem") : S.call(null, "defelem"), nc = S.b ? S.b("div") : S.call(null, "div"), Dc = S.b ? S.b("span") : S.call(null, "span"), Ic = W.X ? W.X("Notice how there is no need to ", gc, " any of the\n              Hoplon or Javelin vars in the namespace declaration. The Hoplon\n              compiler does that automatically so you can just use ", hc, ", ", nc, ", ", Dc, ", etc. in\n              the namespace without explicitly requiring them.") : 
-    W.call(null, "Notice how there is no need to ", gc, " any of the\n              Hoplon or Javelin vars in the namespace declaration. The Hoplon\n              compiler does that automatically so you can just use ", hc, ", ", nc, ", ", Dc, ", etc. in\n              the namespace without explicitly requiring them."), Ec = S.b ? S.b("index.cljs.hl") : S.call(null, "index.cljs.hl"), Jc = S.b ? S.b("tabs") : S.call(null, "tabs"), Vc = W.n ? W.n("Then modify ", Ec, " such that it looks like\n              this, using the newly created ", 
-    Jc, " custom tag:") : W.call(null, "Then modify ", Ec, " such that it looks like\n              this, using the newly created ", Jc, " custom tag:"), Kc = ym(), Lc = zm(), Mc = $l.d(C(["index.cljs.hl", Kc, "index.html.hl", Lc], 0)), id = W.b ? W.b("Compile and reload the page. You should see something like this:") : W.call(null, "Compile and reload the page. You should see something like this:"), ud = Am(), Yd = em.d(C([Ii, "Task 8: Create a \u201ctabs\u201d abstraction.", Nb, Ub, Vb, bc, Ic, 
-    Vc, Mc, id, ud], 0)), Jd = yl.d(C([f, g, l, k, x, R, ja, Pa, xa, Va, Da, bb, vb, Gb, Yd], 0)), Ef = $k.c ? $k.c(Ci, "color:transparent;", "asdf") : $k.call(null, Ci, "color:transparent;", "asdf"), Zd = S.b ? S.b("boot.edn") : S.call(null, "boot.edn"), Ie = W.c ? W.c("There are a few keys in the ", Zd, " configuration\n              file that are important when building Hoplon applications.\n              Understanding how these keys work will help you to organize your\n              Hoplon project in a way that works best for your workflow and\n              deployment situation.") : 
-    W.call(null, "There are a few keys in the ", Zd, " configuration\n              file that are important when building Hoplon applications.\n              Understanding how these keys work will help you to organize your\n              Hoplon project in a way that works best for your workflow and\n              deployment situation."), $d = ol.b ? ol.b(":public") : ol.call(null, ":public"), ae = wk.b ? wk.b($d) : wk.call(null, $d), be = W.b ? W.b("The output directory for the Hoplon compiler. HTML and\n                  static content ends up here. This is where you point your\n                  webserver's document root.") : 
-    W.call(null, "The output directory for the Hoplon compiler. HTML and\n                  static content ends up here. This is where you point your\n                  webserver's document root."), ce = uk.b ? uk.b(be) : uk.call(null, be), de = ol.b ? ol.b(":src-paths") : ol.call(null, ":src-paths"), ee = wk.b ? wk.b(de) : wk.call(null, de), fe = W.b ? W.b("A set of paths in which the build process looks for source\n                  files to compile. These directories can contain Hoplon,\n                  Clojure, ClojureScript, JavaScript, or any other type of\n                  source file. The various compilers generally dispatch on\n                  filename extension, so the directory structure is pretty\n                  much up to you. The file watcher monitors these directories\n                  for changes and recompiles the project when necessary.") : 
+    gc = S.b ? S.b(":refer") : S.call(null, ":refer"), hc = S.b ? S.b("defelem") : S.call(null, "defelem"), nc = S.b ? S.b("div") : S.call(null, "div"), Cc = S.b ? S.b("span") : S.call(null, "span"), Hc = W.X ? W.X("Notice how there is no need to ", gc, " any of the\n              Hoplon or Javelin vars in the namespace declaration. The Hoplon\n              compiler does that automatically so you can just use ", hc, ", ", nc, ", ", Cc, ", etc. in\n              the namespace without explicitly requiring them.") : 
+    W.call(null, "Notice how there is no need to ", gc, " any of the\n              Hoplon or Javelin vars in the namespace declaration. The Hoplon\n              compiler does that automatically so you can just use ", hc, ", ", nc, ", ", Cc, ", etc. in\n              the namespace without explicitly requiring them."), Dc = S.b ? S.b("index.cljs.hl") : S.call(null, "index.cljs.hl"), Ic = S.b ? S.b("tabs") : S.call(null, "tabs"), Uc = W.n ? W.n("Then modify ", Dc, " such that it looks like\n              this, using the newly created ", 
+    Ic, " custom tag:") : W.call(null, "Then modify ", Dc, " such that it looks like\n              this, using the newly created ", Ic, " custom tag:"), Jc = Am(), Kc = Bm(), Lc = bm.d(C(["index.cljs.hl", Jc, "index.html.hl", Kc], 0)), jd = W.b ? W.b("Compile and reload the page. You should see something like this:") : W.call(null, "Compile and reload the page. You should see something like this:"), ud = Cm(), Yd = gm.d(C([Ii, "Task 8: Create a \u201ctabs\u201d abstraction.", Nb, Ub, Vb, bc, Hc, 
+    Uc, Lc, jd, ud], 0)), Jd = Al.d(C([f, g, l, k, x, R, ja, Pa, xa, Va, Da, bb, wb, Gb, Yd], 0)), Ef = bl.c ? bl.c(Ci, "color:transparent;", "asdf") : bl.call(null, Ci, "color:transparent;", "asdf"), Zd = S.b ? S.b("boot.edn") : S.call(null, "boot.edn"), Ie = W.c ? W.c("There are a few keys in the ", Zd, " configuration\n              file that are important when building Hoplon applications.\n              Understanding how these keys work will help you to organize your\n              Hoplon project in a way that works best for your workflow and\n              deployment situation.") : 
+    W.call(null, "There are a few keys in the ", Zd, " configuration\n              file that are important when building Hoplon applications.\n              Understanding how these keys work will help you to organize your\n              Hoplon project in a way that works best for your workflow and\n              deployment situation."), $d = ql.b ? ql.b(":public") : ql.call(null, ":public"), ae = xk.b ? xk.b($d) : xk.call(null, $d), be = W.b ? W.b("The output directory for the Hoplon compiler. HTML and\n                  static content ends up here. This is where you point your\n                  webserver's document root.") : 
+    W.call(null, "The output directory for the Hoplon compiler. HTML and\n                  static content ends up here. This is where you point your\n                  webserver's document root."), ce = vk.b ? vk.b(be) : vk.call(null, be), de = ql.b ? ql.b(":src-paths") : ql.call(null, ":src-paths"), ee = xk.b ? xk.b(de) : xk.call(null, de), fe = W.b ? W.b("A set of paths in which the build process looks for source\n                  files to compile. These directories can contain Hoplon,\n                  Clojure, ClojureScript, JavaScript, or any other type of\n                  source file. The various compilers generally dispatch on\n                  filename extension, so the directory structure is pretty\n                  much up to you. The file watcher monitors these directories\n                  for changes and recompiles the project when necessary.") : 
     W.call(null, "A set of paths in which the build process looks for source\n                  files to compile. These directories can contain Hoplon,\n                  Clojure, ClojureScript, JavaScript, or any other type of\n                  source file. The various compilers generally dispatch on\n                  filename extension, so the directory structure is pretty\n                  much up to you. The file watcher monitors these directories\n                  for changes and recompiles the project when necessary."), 
-    ge = uk.b ? uk.b(fe) : uk.call(null, fe), Je = ol.b ? ol.b(":src-static") : ol.call(null, ":src-static"), Ke = wk.b ? wk.b(Je) : wk.call(null, Je), Le = ol.b ? ol.b(":public") : ol.call(null, ":public"), he = W.c ? W.c("A set of paths containing the static content for the\n                  project. This may include external JavaScript files, CSS\n                  stylesheets, images, etc. The contents of these directories\n                  are merged into the ", Le, " directory after\n                  compilation, and any subdirectory structure is overlayed.") : 
-    W.call(null, "A set of paths containing the static content for the\n                  project. This may include external JavaScript files, CSS\n                  stylesheets, images, etc. The contents of these directories\n                  are merged into the ", Le, " directory after\n                  compilation, and any subdirectory structure is overlayed."), Me = uk.b ? uk.b(he) : uk.call(null, he), Ff = vk.ua ? vk.ua(O, "dl-horizontal", ae, ce, ee, ge, Ke, Me) : vk.call(null, O, "dl-horizontal", 
-    ae, ce, ee, ge, Ke, Me), ie = S.b ? S.b(".gitignore") : S.call(null, ".gitignore"), je = ol.b ? ol.b("git(1)") : ol.call(null, "git(1)"), Ne = W.n ? W.n("Also, it's a good idea to set up your ", ie, " file correctly, because the boot watch task uses your ", je, " configuration to determine which files will \n              trigger recompiling and which will be ignored.") : W.call(null, "Also, it's a good idea to set up your ", ie, " file correctly, because the boot watch task uses your ", je, 
-    " configuration to determine which files will \n              trigger recompiling and which will be ignored."), gh = fm.d(C([Ii, "Boot Configuration", Ie, Ff, Ne], 0)), hh = S.b ? S.b(".hl") : S.call(null, ".hl"), wi = W.c ? W.c("Hoplon compiles files having the ", hh, " filename\n              extension. These files may be Hoplon pages, which will be compiled\n              to single-page apps, or ClojureScript namespaces.") : W.call(null, "Hoplon compiles files having the ", hh, " filename\n              extension. These files may be Hoplon pages, which will be compiled\n              to single-page apps, or ClojureScript namespaces."), 
-    ih = S.b ? S.b(":public") : S.call(null, ":public"), jh = S.b ? S.b("boot.edn") : S.call(null, "boot.edn"), xi = W.n ? W.n("The first form in the file must be a page or namespace\n               declaration. Page declarations specify the output HTML file\n               path relative to the ", ih, " directory configured in\n               the project ", jh, " file. Namespace declarations are\n               the same as in ClojureScript.") : W.call(null, "The first form in the file must be a page or namespace\n               declaration. Page declarations specify the output HTML file\n               path relative to the ", 
-    ih, " directory configured in\n               the project ", jh, " file. Namespace declarations are\n               the same as in ClojureScript."), kh = S.b ? S.b(":refer") : S.call(null, ":refer"), eg = S.b ? S.b("div") : S.call(null, "div"), Mb = S.b ? S.b("span") : S.call(null, "span"), yk = S.b ? S.b(":refer-hoplon") : S.call(null, ":refer-hoplon"), Hm = W.X ? W.X("In both cases, however, the Hoplon compiler refers vars and\n               macros from the Hoplon and Javelin namespaces into the file\n               namespace so that adding ", 
-    kh, " clauses for things\n               like ", eg, ", ", Mb, ", etc. are not\n               necessary. A special ", yk, " clause can be\n               used to selectively exclude vars that are to be redefined in the\n               file.") : W.call(null, "In both cases, however, the Hoplon compiler refers vars and\n               macros from the Hoplon and Javelin namespaces into the file\n               namespace so that adding ", kh, " clauses for things\n               like ", eg, ", ", 
-    Mb, ", etc. are not\n               necessary. A special ", yk, " clause can be\n               used to selectively exclude vars that are to be redefined in the\n               file."), Im = W.c ? W.c(O, "text-muted", "Example page declaration:") : W.call(null, O, "text-muted", "Example page declaration:"), Jm = W.c ? W.c(O, "text-muted", "Example namespace declaration:") : W.call(null, O, "text-muted", "Example namespace declaration:"), Km = fm.d(C([Ii, "Hoplon Source Files", wi, xi, Hm, Im, 
-    T.a ? T.a(v([O, "highlight"], !0), Y.Jb ? Y.Jb(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "page") : Z.call(null, v([O, "nf"], !0), "page"), " ", Z.a ? Z.a(v([O, "s"], !0), '"foo/bar.html"') : Z.call(null, v([O, "s"], !0), '"foo/bar.html"'), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "ss"], !0), ":refer-hoplon") : Z.call(null, v([O, "ss"], !0), ":refer-hoplon"), " ", Z.a ? Z.a(v([O, "ss"], 
+    ge = vk.b ? vk.b(fe) : vk.call(null, fe), Je = ql.b ? ql.b(":src-static") : ql.call(null, ":src-static"), Ke = xk.b ? xk.b(Je) : xk.call(null, Je), Le = ql.b ? ql.b(":public") : ql.call(null, ":public"), he = W.c ? W.c("A set of paths containing the static content for the\n                  project. This may include external JavaScript files, CSS\n                  stylesheets, images, etc. The contents of these directories\n                  are merged into the ", Le, " directory after\n                  compilation, and any subdirectory structure is overlayed.") : 
+    W.call(null, "A set of paths containing the static content for the\n                  project. This may include external JavaScript files, CSS\n                  stylesheets, images, etc. The contents of these directories\n                  are merged into the ", Le, " directory after\n                  compilation, and any subdirectory structure is overlayed."), Me = vk.b ? vk.b(he) : vk.call(null, he), Ff = wk.ua ? wk.ua(O, "dl-horizontal", ae, ce, ee, ge, Ke, Me) : wk.call(null, O, "dl-horizontal", 
+    ae, ce, ee, ge, Ke, Me), ie = S.b ? S.b(".gitignore") : S.call(null, ".gitignore"), je = ql.b ? ql.b("git(1)") : ql.call(null, "git(1)"), Ne = W.n ? W.n("Also, it's a good idea to set up your ", ie, " file correctly, because the boot watch task uses your ", je, " configuration to determine which files will \n              trigger recompiling and which will be ignored.") : W.call(null, "Also, it's a good idea to set up your ", ie, " file correctly, because the boot watch task uses your ", je, 
+    " configuration to determine which files will \n              trigger recompiling and which will be ignored."), hh = hm.d(C([Ii, "Boot Configuration", Ie, Ff, Ne], 0)), ih = S.b ? S.b(".hl") : S.call(null, ".hl"), xi = W.c ? W.c("Hoplon compiles files having the ", ih, " filename\n              extension. These files may be Hoplon pages, which will be compiled\n              to single-page apps, or ClojureScript namespaces.") : W.call(null, "Hoplon compiles files having the ", ih, " filename\n              extension. These files may be Hoplon pages, which will be compiled\n              to single-page apps, or ClojureScript namespaces."), 
+    jh = S.b ? S.b(":public") : S.call(null, ":public"), kh = S.b ? S.b("boot.edn") : S.call(null, "boot.edn"), yi = W.n ? W.n("The first form in the file must be a page or namespace\n               declaration. Page declarations specify the output HTML file\n               path relative to the ", jh, " directory configured in\n               the project ", kh, " file. Namespace declarations are\n               the same as in ClojureScript.") : W.call(null, "The first form in the file must be a page or namespace\n               declaration. Page declarations specify the output HTML file\n               path relative to the ", 
+    jh, " directory configured in\n               the project ", kh, " file. Namespace declarations are\n               the same as in ClojureScript."), lh = S.b ? S.b(":refer") : S.call(null, ":refer"), eg = S.b ? S.b("div") : S.call(null, "div"), Mb = S.b ? S.b("span") : S.call(null, "span"), zk = S.b ? S.b(":refer-hoplon") : S.call(null, ":refer-hoplon"), Jm = W.X ? W.X("In both cases, however, the Hoplon compiler refers vars and\n               macros from the Hoplon and Javelin namespaces into the file\n               namespace so that adding ", 
+    lh, " clauses for things\n               like ", eg, ", ", Mb, ", etc. are not\n               necessary. A special ", zk, " clause can be\n               used to selectively exclude vars that are to be redefined in the\n               file.") : W.call(null, "In both cases, however, the Hoplon compiler refers vars and\n               macros from the Hoplon and Javelin namespaces into the file\n               namespace so that adding ", lh, " clauses for things\n               like ", eg, ", ", 
+    Mb, ", etc. are not\n               necessary. A special ", zk, " clause can be\n               used to selectively exclude vars that are to be redefined in the\n               file."), Km = W.c ? W.c(O, "text-muted", "Example page declaration:") : W.call(null, O, "text-muted", "Example page declaration:"), Lm = W.c ? W.c(O, "text-muted", "Example namespace declaration:") : W.call(null, O, "text-muted", "Example namespace declaration:"), Mm = hm.d(C([Ii, "Hoplon Source Files", xi, yi, Jm, Km, 
+    T.a ? T.a(v([O, "highlight"], !0), Y.Lb ? Y.Lb(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "page") : Z.call(null, v([O, "nf"], !0), "page"), " ", Z.a ? Z.a(v([O, "s"], !0), '"foo/bar.html"') : Z.call(null, v([O, "s"], !0), '"foo/bar.html"'), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "ss"], !0), ":refer-hoplon") : Z.call(null, v([O, "ss"], !0), ":refer-hoplon"), " ", Z.a ? Z.a(v([O, "ss"], 
     !0), ":exclude") : Z.call(null, v([O, "ss"], !0), ":exclude"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "div") : Z.call(null, v([O, "nv"], !0), "div"), " ", Z.a ? Z.a(v([O, "nv"], !0), "span") : Z.call(null, v([O, "nv"], !0), "span"), Z.a ? Z.a(v([O, "p"], !0), "])") : Z.call(null, v([O, "p"], !0), "])"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "ss"], !0), ":refer-clojure") : Z.call(null, 
     v([O, "ss"], !0), ":refer-clojure"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":exclude") : Z.call(null, v([O, "ss"], !0), ":exclude"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "int") : Z.call(null, v([O, "nv"], !0), "int"), Z.a ? Z.a(v([O, "p"], !0), "])") : Z.call(null, v([O, "p"], !0), "])"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "ss"], !0), ":require") : Z.call(null, v([O, "ss"], 
     !0), ":require"), "\n   ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "clojure.set") : Z.call(null, v([O, "nv"], !0), "clojure.set"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":as") : Z.call(null, v([O, "ss"], !0), ":as"), " ", Z.a ? Z.a(v([O, "nv"], !0), "set") : Z.call(null, v([O, "nv"], !0), "set"), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), "\n   ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), 
@@ -13641,7 +13656,7 @@ function Dm() {
     "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "ss"], !0), ":require") : Z.call(null, v([O, "ss"], !0), ":require"), "\n   ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "clojure.set") : Z.call(null, v([O, "nv"], !0), "clojure.set"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":as") : Z.call(null, v([O, "ss"], !0), ":as"), " ", Z.a ? Z.a(v([O, "nv"], !0), "set") : Z.call(null, v([O, "nv"], !0), "set"), Z.a ? Z.a(v([O, "p"], !0), 
     "]") : Z.call(null, v([O, "p"], !0), "]"), "\n   ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "clojure.string") : Z.call(null, v([O, "nv"], !0), "clojure.string"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":as") : Z.call(null, v([O, "ss"], !0), ":as"), " ", Z.a ? Z.a(v([O, "nv"], !0), "string") : Z.call(null, v([O, "nv"], !0), "string"), Z.a ? Z.a(v([O, "p"], !0), "])") : Z.call(null, v([O, "p"], !0), "])"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : 
     Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "ss"], !0), ":require-macros") : Z.call(null, v([O, "ss"], !0), ":require-macros"), "\n   ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "foo.bar.baz") : Z.call(null, v([O, "nv"], !0), "foo.bar.baz"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":as") : Z.call(null, v([O, "ss"], !0), ":as"), " ", Z.a ? Z.a(v([O, "nv"], !0), "baz") : Z.call(null, v([O, "nv"], !0), "baz"), " ", Z.a ? Z.a(v([O, "ss"], 
-    !0), ":refer") : Z.call(null, v([O, "ss"], !0), ":refer"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "quux") : Z.call(null, v([O, "nv"], !0), "quux"), Z.a ? Z.a(v([O, "p"], !0), "]]))") : Z.call(null, v([O, "p"], !0), "]]))"), "\n")) : T.call(null, v([O, "highlight"], !0), Y.Jb ? Y.Jb(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "page") : Z.call(null, v([O, "nf"], !0), "page"), " ", 
+    !0), ":refer") : Z.call(null, v([O, "ss"], !0), ":refer"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "quux") : Z.call(null, v([O, "nv"], !0), "quux"), Z.a ? Z.a(v([O, "p"], !0), "]]))") : Z.call(null, v([O, "p"], !0), "]]))"), "\n")) : T.call(null, v([O, "highlight"], !0), Y.Lb ? Y.Lb(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "page") : Z.call(null, v([O, "nf"], !0), "page"), " ", 
     Z.a ? Z.a(v([O, "s"], !0), '"foo/bar.html"') : Z.call(null, v([O, "s"], !0), '"foo/bar.html"'), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "ss"], !0), ":refer-hoplon") : Z.call(null, v([O, "ss"], !0), ":refer-hoplon"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":exclude") : Z.call(null, v([O, "ss"], !0), ":exclude"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "div") : Z.call(null, v([O, "nv"], 
     !0), "div"), " ", Z.a ? Z.a(v([O, "nv"], !0), "span") : Z.call(null, v([O, "nv"], !0), "span"), Z.a ? Z.a(v([O, "p"], !0), "])") : Z.call(null, v([O, "p"], !0), "])"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "ss"], !0), ":refer-clojure") : Z.call(null, v([O, "ss"], !0), ":refer-clojure"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":exclude") : Z.call(null, v([O, "ss"], !0), ":exclude"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], 
     !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "int") : Z.call(null, v([O, "nv"], !0), "int"), Z.a ? Z.a(v([O, "p"], !0), "])") : Z.call(null, v([O, "p"], !0), "])"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "ss"], !0), ":require") : Z.call(null, v([O, "ss"], !0), ":require"), "\n   ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "clojure.set") : Z.call(null, v([O, "nv"], !0), "clojure.set"), " ", 
@@ -13654,7 +13669,7 @@ function Dm() {
     Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "clojure.set") : Z.call(null, v([O, "nv"], !0), "clojure.set"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":as") : Z.call(null, v([O, "ss"], !0), ":as"), " ", Z.a ? Z.a(v([O, "nv"], !0), "set") : Z.call(null, v([O, "nv"], !0), "set"), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), "\n   ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "clojure.string") : Z.call(null, 
     v([O, "nv"], !0), "clojure.string"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":as") : Z.call(null, v([O, "ss"], !0), ":as"), " ", Z.a ? Z.a(v([O, "nv"], !0), "string") : Z.call(null, v([O, "nv"], !0), "string"), Z.a ? Z.a(v([O, "p"], !0), "])") : Z.call(null, v([O, "p"], !0), "])"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "ss"], !0), ":require-macros") : Z.call(null, v([O, "ss"], !0), ":require-macros"), "\n   ", Z.a ? Z.a(v([O, "p"], !0), "[") : 
     Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "foo.bar.baz") : Z.call(null, v([O, "nv"], !0), "foo.bar.baz"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":as") : Z.call(null, v([O, "ss"], !0), ":as"), " ", Z.a ? Z.a(v([O, "nv"], !0), "baz") : Z.call(null, v([O, "nv"], !0), "baz"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":refer") : Z.call(null, v([O, "ss"], !0), ":refer"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "quux") : Z.call(null, 
-    v([O, "nv"], !0), "quux"), Z.a ? Z.a(v([O, "p"], !0), "]]))") : Z.call(null, v([O, "p"], !0), "]]))"), "\n")), Jm, T.a ? T.a(v([O, "highlight"], !0), Y.Ib ? Y.Ib(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "kd"], !0), "ns ") : Z.call(null, v([O, "kd"], !0), "ns "), Z.a ? Z.a(v([O, "nv"], !0), "foo.bar") : Z.call(null, v([O, "nv"], !0), "foo.bar"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "ss"], !0), 
+    v([O, "nv"], !0), "quux"), Z.a ? Z.a(v([O, "p"], !0), "]]))") : Z.call(null, v([O, "p"], !0), "]]))"), "\n")), Lm, T.a ? T.a(v([O, "highlight"], !0), Y.Kb ? Y.Kb(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "kd"], !0), "ns ") : Z.call(null, v([O, "kd"], !0), "ns "), Z.a ? Z.a(v([O, "nv"], !0), "foo.bar") : Z.call(null, v([O, "nv"], !0), "foo.bar"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "ss"], !0), 
     ":refer-hoplon") : Z.call(null, v([O, "ss"], !0), ":refer-hoplon"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":exclude") : Z.call(null, v([O, "ss"], !0), ":exclude"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "div") : Z.call(null, v([O, "nv"], !0), "div"), " ", Z.a ? Z.a(v([O, "nv"], !0), "span") : Z.call(null, v([O, "nv"], !0), "span"), Z.a ? Z.a(v([O, "p"], !0), "])") : Z.call(null, v([O, "p"], !0), "])"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), 
     "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "ss"], !0), ":refer-clojure") : Z.call(null, v([O, "ss"], !0), ":refer-clojure"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":exclude") : Z.call(null, v([O, "ss"], !0), ":exclude"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "int") : Z.call(null, v([O, "nv"], !0), "int"), Z.a ? Z.a(v([O, "p"], !0), "])") : Z.call(null, v([O, "p"], !0), "])"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : 
     Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "ss"], !0), ":require") : Z.call(null, v([O, "ss"], !0), ":require"), "\n   ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "clojure.set") : Z.call(null, v([O, "nv"], !0), "clojure.set"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":as") : Z.call(null, v([O, "ss"], !0), ":as"), " ", Z.a ? Z.a(v([O, "nv"], !0), "set") : Z.call(null, v([O, "nv"], !0), "set"), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, 
@@ -13666,7 +13681,7 @@ function Dm() {
     Z.a ? Z.a(v([O, "p"], !0), "])") : Z.call(null, v([O, "p"], !0), "])"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "ss"], !0), ":require") : Z.call(null, v([O, "ss"], !0), ":require"), "\n   ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "clojure.set") : Z.call(null, v([O, "nv"], !0), "clojure.set"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":as") : Z.call(null, v([O, "ss"], !0), ":as"), " ", Z.a ? 
     Z.a(v([O, "nv"], !0), "set") : Z.call(null, v([O, "nv"], !0), "set"), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), "\n   ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "clojure.string") : Z.call(null, v([O, "nv"], !0), "clojure.string"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":as") : Z.call(null, v([O, "ss"], !0), ":as"), " ", Z.a ? Z.a(v([O, "nv"], !0), "string") : Z.call(null, v([O, "nv"], !0), "string"), Z.a ? Z.a(v([O, 
     "p"], !0), "])") : Z.call(null, v([O, "p"], !0), "])"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "ss"], !0), ":require-macros") : Z.call(null, v([O, "ss"], !0), ":require-macros"), "\n   ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "foo.bar.baz") : Z.call(null, v([O, "nv"], !0), "foo.bar.baz"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":as") : Z.call(null, v([O, "ss"], !0), ":as"), " ", Z.a ? 
-    Z.a(v([O, "nv"], !0), "baz") : Z.call(null, v([O, "nv"], !0), "baz"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":refer") : Z.call(null, v([O, "ss"], !0), ":refer"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "quux") : Z.call(null, v([O, "nv"], !0), "quux"), Z.a ? Z.a(v([O, "p"], !0), "]]))") : Z.call(null, v([O, "p"], !0), "]]))"), "\n")) : T.call(null, v([O, "highlight"], !0), Y.Ib ? Y.Ib(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, 
+    Z.a(v([O, "nv"], !0), "baz") : Z.call(null, v([O, "nv"], !0), "baz"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":refer") : Z.call(null, v([O, "ss"], !0), ":refer"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "quux") : Z.call(null, v([O, "nv"], !0), "quux"), Z.a ? Z.a(v([O, "p"], !0), "]]))") : Z.call(null, v([O, "p"], !0), "]]))"), "\n")) : T.call(null, v([O, "highlight"], !0), Y.Kb ? Y.Kb(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, 
     "p"], !0), "("), Z.a ? Z.a(v([O, "kd"], !0), "ns ") : Z.call(null, v([O, "kd"], !0), "ns "), Z.a ? Z.a(v([O, "nv"], !0), "foo.bar") : Z.call(null, v([O, "nv"], !0), "foo.bar"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "ss"], !0), ":refer-hoplon") : Z.call(null, v([O, "ss"], !0), ":refer-hoplon"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":exclude") : Z.call(null, v([O, "ss"], !0), ":exclude"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, 
     "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "div") : Z.call(null, v([O, "nv"], !0), "div"), " ", Z.a ? Z.a(v([O, "nv"], !0), "span") : Z.call(null, v([O, "nv"], !0), "span"), Z.a ? Z.a(v([O, "p"], !0), "])") : Z.call(null, v([O, "p"], !0), "])"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "ss"], !0), ":refer-clojure") : Z.call(null, v([O, "ss"], !0), ":refer-clojure"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":exclude") : Z.call(null, v([O, "ss"], 
     !0), ":exclude"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "int") : Z.call(null, v([O, "nv"], !0), "int"), Z.a ? Z.a(v([O, "p"], !0), "])") : Z.call(null, v([O, "p"], !0), "])"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "ss"], !0), ":require") : Z.call(null, v([O, "ss"], !0), ":require"), "\n   ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, 
@@ -13679,22 +13694,22 @@ function Dm() {
     !0), ":require"), "\n   ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "clojure.set") : Z.call(null, v([O, "nv"], !0), "clojure.set"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":as") : Z.call(null, v([O, "ss"], !0), ":as"), " ", Z.a ? Z.a(v([O, "nv"], !0), "set") : Z.call(null, v([O, "nv"], !0), "set"), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), "\n   ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), 
     Z.a ? Z.a(v([O, "nv"], !0), "clojure.string") : Z.call(null, v([O, "nv"], !0), "clojure.string"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":as") : Z.call(null, v([O, "ss"], !0), ":as"), " ", Z.a ? Z.a(v([O, "nv"], !0), "string") : Z.call(null, v([O, "nv"], !0), "string"), Z.a ? Z.a(v([O, "p"], !0), "])") : Z.call(null, v([O, "p"], !0), "])"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "ss"], !0), ":require-macros") : Z.call(null, v([O, "ss"], !0), ":require-macros"), 
     "\n   ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "foo.bar.baz") : Z.call(null, v([O, "nv"], !0), "foo.bar.baz"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":as") : Z.call(null, v([O, "ss"], !0), ":as"), " ", Z.a ? Z.a(v([O, "nv"], !0), "baz") : Z.call(null, v([O, "nv"], !0), "baz"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":refer") : Z.call(null, v([O, "ss"], !0), ":refer"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? 
-    Z.a(v([O, "nv"], !0), "quux") : Z.call(null, v([O, "nv"], !0), "quux"), Z.a ? Z.a(v([O, "p"], !0), "]]))") : Z.call(null, v([O, "p"], !0), "]]))"), "\n"))], 0)), Lm = W.b ? W.b("Hoplon page source files have three parts: the page\n              declaration, optional definitions and top-level forms, and\n              the page markup.") : W.call(null, "Hoplon page source files have three parts: the page\n              declaration, optional definitions and top-level forms, and\n              the page markup."), 
-    Mm = W.c ? W.c(O, "text-muted", "The page declaration:") : W.call(null, O, "text-muted", "The page declaration:"), Nm = W.c ? W.c(O, "text-muted", "Optional top-level forms and definitions:") : W.call(null, O, "text-muted", "Optional top-level forms and definitions:"), Om = W.c ? W.c(O, "text-muted", "The page markup:") : W.call(null, O, "text-muted", "The page markup:"), Pm = fm.d(C([Ii, "Anatomy of a Hoplon Page", Lm, Mm, T.a ? T.a(v([O, "highlight"], !0), Y.ga ? Y.ga(Z.a ? Z.a(v([O, "p"], 
+    Z.a(v([O, "nv"], !0), "quux") : Z.call(null, v([O, "nv"], !0), "quux"), Z.a ? Z.a(v([O, "p"], !0), "]]))") : Z.call(null, v([O, "p"], !0), "]]))"), "\n"))], 0)), Nm = W.b ? W.b("Hoplon page source files have three parts: the page\n              declaration, optional definitions and top-level forms, and\n              the page markup.") : W.call(null, "Hoplon page source files have three parts: the page\n              declaration, optional definitions and top-level forms, and\n              the page markup."), 
+    Om = W.c ? W.c(O, "text-muted", "The page declaration:") : W.call(null, O, "text-muted", "The page declaration:"), Pm = W.c ? W.c(O, "text-muted", "Optional top-level forms and definitions:") : W.call(null, O, "text-muted", "Optional top-level forms and definitions:"), Qm = W.c ? W.c(O, "text-muted", "The page markup:") : W.call(null, O, "text-muted", "The page markup:"), Rm = hm.d(C([Ii, "Anatomy of a Hoplon Page", Nm, Om, T.a ? T.a(v([O, "highlight"], !0), Y.ga ? Y.ga(Z.a ? Z.a(v([O, "p"], 
     !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "page") : Z.call(null, v([O, "nf"], !0), "page"), " ", Z.a ? Z.a(v([O, "s"], !0), '"index.html"') : Z.call(null, v([O, "s"], !0), '"index.html"'), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "ss"], !0), ":require") : Z.call(null, v([O, "ss"], !0), ":require"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "clojure.string") : 
     Z.call(null, v([O, "nv"], !0), "clojure.string"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":as") : Z.call(null, v([O, "ss"], !0), ":as"), " ", Z.a ? Z.a(v([O, "nv"], !0), "string") : Z.call(null, v([O, "nv"], !0), "string"), Z.a ? Z.a(v([O, "p"], !0), "]))") : Z.call(null, v([O, "p"], !0), "]))"), "\n") : Y.call(null, Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "page") : Z.call(null, v([O, "nf"], !0), "page"), " ", Z.a ? Z.a(v([O, "s"], !0), '"index.html"') : 
     Z.call(null, v([O, "s"], !0), '"index.html"'), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "ss"], !0), ":require") : Z.call(null, v([O, "ss"], !0), ":require"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "clojure.string") : Z.call(null, v([O, "nv"], !0), "clojure.string"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":as") : Z.call(null, v([O, "ss"], !0), ":as"), " ", Z.a ? Z.a(v([O, "nv"], !0), 
     "string") : Z.call(null, v([O, "nv"], !0), "string"), Z.a ? Z.a(v([O, "p"], !0), "]))") : Z.call(null, v([O, "p"], !0), "]))"), "\n")) : T.call(null, v([O, "highlight"], !0), Y.ga ? Y.ga(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "page") : Z.call(null, v([O, "nf"], !0), "page"), " ", Z.a ? Z.a(v([O, "s"], !0), '"index.html"') : Z.call(null, v([O, "s"], !0), '"index.html"'), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], 
     !0), "("), Z.a ? Z.a(v([O, "ss"], !0), ":require") : Z.call(null, v([O, "ss"], !0), ":require"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "clojure.string") : Z.call(null, v([O, "nv"], !0), "clojure.string"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":as") : Z.call(null, v([O, "ss"], !0), ":as"), " ", Z.a ? Z.a(v([O, "nv"], !0), "string") : Z.call(null, v([O, "nv"], !0), "string"), Z.a ? Z.a(v([O, "p"], !0), "]))") : Z.call(null, v([O, "p"], 
     !0), "]))"), "\n") : Y.call(null, Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "page") : Z.call(null, v([O, "nf"], !0), "page"), " ", Z.a ? Z.a(v([O, "s"], !0), '"index.html"') : Z.call(null, v([O, "s"], !0), '"index.html"'), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "ss"], !0), ":require") : Z.call(null, v([O, "ss"], !0), ":require"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, 
-    "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "clojure.string") : Z.call(null, v([O, "nv"], !0), "clojure.string"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":as") : Z.call(null, v([O, "ss"], !0), ":as"), " ", Z.a ? Z.a(v([O, "nv"], !0), "string") : Z.call(null, v([O, "nv"], !0), "string"), Z.a ? Z.a(v([O, "p"], !0), "]))") : Z.call(null, v([O, "p"], !0), "]))"), "\n")), Nm, T.a ? T.a(v([O, "highlight"], !0), Y.Ka ? Y.Ka(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, 
+    "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "clojure.string") : Z.call(null, v([O, "nv"], !0), "clojure.string"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":as") : Z.call(null, v([O, "ss"], !0), ":as"), " ", Z.a ? Z.a(v([O, "nv"], !0), "string") : Z.call(null, v([O, "nv"], !0), "string"), Z.a ? Z.a(v([O, "p"], !0), "]))") : Z.call(null, v([O, "p"], !0), "]))"), "\n")), Pm, T.a ? T.a(v([O, "highlight"], !0), Y.Ka ? Y.Ka(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, 
     "k"], !0), "def ") : Z.call(null, v([O, "k"], !0), "def "), Z.a ? Z.a(v([O, "nv"], !0), "add1") : Z.call(null, v([O, "nv"], !0), "add1"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "x") : Z.call(null, v([O, "nv"], !0), "x"), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nb"], !0), "+ ") : Z.call(null, v([O, "nb"], !0), 
     "+ "), Z.a ? Z.a(v([O, "mi"], !0), "1") : Z.call(null, v([O, "mi"], !0), "1"), " ", Z.a ? Z.a(v([O, "nv"], !0), "x") : Z.call(null, v([O, "nv"], !0), "x"), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n") : Y.call(null, Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "k"], !0), "def ") : Z.call(null, v([O, "k"], !0), "def "), Z.a ? Z.a(v([O, "nv"], !0), "add1") : Z.call(null, v([O, "nv"], !0), "add1"), " ", Z.a ? Z.a(v([O, "p"], 
     !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "x") : Z.call(null, v([O, "nv"], !0), "x"), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nb"], !0), "+ ") : Z.call(null, v([O, "nb"], !0), "+ "), Z.a ? Z.a(v([O, "mi"], !0), "1") : Z.call(null, v([O, "mi"], !0), "1"), " ", Z.a ? Z.a(v([O, "nv"], !0), "x") : Z.call(null, v([O, "nv"], !0), "x"), Z.a ? Z.a(v([O, 
     "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n")) : T.call(null, v([O, "highlight"], !0), Y.Ka ? Y.Ka(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "k"], !0), "def ") : Z.call(null, v([O, "k"], !0), "def "), Z.a ? Z.a(v([O, "nv"], !0), "add1") : Z.call(null, v([O, "nv"], !0), "add1"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "x") : Z.call(null, v([O, "nv"], !0), "x"), Z.a ? Z.a(v([O, 
     "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nb"], !0), "+ ") : Z.call(null, v([O, "nb"], !0), "+ "), Z.a ? Z.a(v([O, "mi"], !0), "1") : Z.call(null, v([O, "mi"], !0), "1"), " ", Z.a ? Z.a(v([O, "nv"], !0), "x") : Z.call(null, v([O, "nv"], !0), "x"), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n") : Y.call(null, Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, 
     "p"], !0), "("), Z.a ? Z.a(v([O, "k"], !0), "def ") : Z.call(null, v([O, "k"], !0), "def "), Z.a ? Z.a(v([O, "nv"], !0), "add1") : Z.call(null, v([O, "nv"], !0), "add1"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "x") : Z.call(null, v([O, "nv"], !0), "x"), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nb"], !0), "+ ") : 
-    Z.call(null, v([O, "nb"], !0), "+ "), Z.a ? Z.a(v([O, "mi"], !0), "1") : Z.call(null, v([O, "mi"], !0), "1"), " ", Z.a ? Z.a(v([O, "nv"], !0), "x") : Z.call(null, v([O, "nv"], !0), "x"), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n")), Om, T.a ? T.a(v([O, "highlight"], !0), Y.ja ? Y.ja(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "html") : Z.call(null, v([O, "nf"], !0), "html"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), 
+    Z.call(null, v([O, "nb"], !0), "+ "), Z.a ? Z.a(v([O, "mi"], !0), "1") : Z.call(null, v([O, "mi"], !0), "1"), " ", Z.a ? Z.a(v([O, "nv"], !0), "x") : Z.call(null, v([O, "nv"], !0), "x"), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n")), Qm, T.a ? T.a(v([O, "highlight"], !0), Y.ja ? Y.ja(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "html") : Z.call(null, v([O, "nf"], !0), "html"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), 
     "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "head") : Z.call(null, v([O, "nf"], !0), "head"), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "body") : Z.call(null, v([O, "nf"], !0), "body"), "\n    ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "h1") : Z.call(null, v([O, "nf"], !0), "h1"), 
     " ", Z.a ? Z.a(v([O, "s"], !0), '"hello, number "') : Z.call(null, v([O, "s"], !0), '"hello, number "'), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nb"], !0), "str ") : Z.call(null, v([O, "nb"], !0), "str "), Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "add1") : Z.call(null, v([O, "nf"], !0), "add1"), " ", Z.a ? Z.a(v([O, "mi"], !0), "41") : Z.call(null, v([O, "mi"], !0), "41"), Z.a ? Z.a(v([O, 
     "p"], !0), ")))))") : Z.call(null, v([O, "p"], !0), ")))))"), "\n") : Y.call(null, Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "html") : Z.call(null, v([O, "nf"], !0), "html"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "head") : Z.call(null, v([O, "nf"], !0), "head"), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : 
@@ -13704,14 +13719,15 @@ function Dm() {
     Z.a ? Z.a(v([O, "nf"], !0), "h1") : Z.call(null, v([O, "nf"], !0), "h1"), " ", Z.a ? Z.a(v([O, "s"], !0), '"hello, number "') : Z.call(null, v([O, "s"], !0), '"hello, number "'), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nb"], !0), "str ") : Z.call(null, v([O, "nb"], !0), "str "), Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "add1") : Z.call(null, v([O, "nf"], !0), "add1"), " ", Z.a ? Z.a(v([O, 
     "mi"], !0), "41") : Z.call(null, v([O, "mi"], !0), "41"), Z.a ? Z.a(v([O, "p"], !0), ")))))") : Z.call(null, v([O, "p"], !0), ")))))"), "\n") : Y.call(null, Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "html") : Z.call(null, v([O, "nf"], !0), "html"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "head") : Z.call(null, v([O, "nf"], !0), "head"), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, 
     v([O, "p"], !0), ")"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "body") : Z.call(null, v([O, "nf"], !0), "body"), "\n    ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "h1") : Z.call(null, v([O, "nf"], !0), "h1"), " ", Z.a ? Z.a(v([O, "s"], !0), '"hello, number "') : Z.call(null, v([O, "s"], !0), '"hello, number "'), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], 
-    !0), "("), Z.a ? Z.a(v([O, "nb"], !0), "str ") : Z.call(null, v([O, "nb"], !0), "str "), Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "add1") : Z.call(null, v([O, "nf"], !0), "add1"), " ", Z.a ? Z.a(v([O, "mi"], !0), "41") : Z.call(null, v([O, "mi"], !0), "41"), Z.a ? Z.a(v([O, "p"], !0), ")))))") : Z.call(null, v([O, "p"], !0), ")))))"), "\n"))], 0)), Qm = W.b ? W.b("Hoplon's HTML evaluator provides a sexp-based HTML syntax and\n              semantic. Elements in sexp markup are parenthesized lists, the\n              same as Lisp expressions. The form in function position is the\n              element\u2019s HTML tag. Hoplon adds semantics for setting attributes\n              and appending children. Consider a typical snippet of HTML markup:") : 
-    W.call(null, "Hoplon's HTML evaluator provides a sexp-based HTML syntax and\n              semantic. Elements in sexp markup are parenthesized lists, the\n              same as Lisp expressions. The form in function position is the\n              element\u2019s HTML tag. Hoplon adds semantics for setting attributes\n              and appending children. Consider a typical snippet of HTML markup:"), Rm = W.b ? W.b("This snippet can be expressed in sexp markup like this:") : W.call(null, "This snippet can be expressed in sexp markup like this:"), 
-    Sm = W.b ? W.b("Notice how attributes can be set by passing them in first as\n              alternating keyword/string pairs. The rest of the arguments are\n              appended to the element (the div in this case) as children.") : W.call(null, "Notice how attributes can be set by passing them in first as\n              alternating keyword/string pairs. The rest of the arguments are\n              appended to the element (the div in this case) as children."), Tm = W.b ? W.b("Sometimes it\u2019s more convenient to specify the attributes as a\n               map, like this:") : 
-    W.call(null, "Sometimes it\u2019s more convenient to specify the attributes as a\n               map, like this:"), Um = W.b ? W.b("Additionally, Hoplon provides semantics for anonymous tags in\n              sexp markup. There is, of course, no such thing in HTML markup.\n              The same snippet can be expressed using an anonymous tag:") : W.call(null, "Additionally, Hoplon provides semantics for anonymous tags in\n              sexp markup. There is, of course, no such thing in HTML markup.\n              The same snippet can be expressed using an anonymous tag:"), 
-    zk = S.b ? S.b("div") : S.call(null, "div"), Ak = S.b ? S.b("h1") : S.call(null, "h1"), Bk = S.b ? S.b("p") : S.call(null, "p"), Ck = S.b ? S.b("IFn") : S.call(null, "IFn"), Vm = W.X ? W.X("It\u2019s important to understand that the ", zk, ", ", Ak, ", and ", Bk, " forms are ClojureScript\n              functions that return DOM elements. DOM elements implement the ", Ck, " protocol to achieve the HTML semantic. This means\n              that they can be used to form abstractions:") : W.call(null, 
-    "It\u2019s important to understand that the ", zk, ", ", Ak, ", and ", Bk, " forms are ClojureScript\n              functions that return DOM elements. DOM elements implement the ", Ck, " protocol to achieve the HTML semantic. This means\n              that they can be used to form abstractions:"), Wm = W.b ? W.b("And then, in the page markup or in a function:") : W.call(null, "And then, in the page markup or in a function:"), Xm = W.b ? W.b("Or in HTML markup in the page, even:") : W.call(null, 
-    "Or in HTML markup in the page, even:"), Ym = W.b ? W.b("The result is equivalent to the previous snippets, but more\n              general. These \u201ccustom tags\u201d can be used in the page markup like \n              any of the built-in tags.") : W.call(null, "The result is equivalent to the previous snippets, but more\n              general. These \u201ccustom tags\u201d can be used in the page markup like \n              any of the built-in tags."), Zm = fm.d(C([Ii, "Sexp Markup Syntax", 
-    Qm, T.a ? T.a(v([O, "highlight"], !0), Y.ha ? Y.ha(Z.a ? Z.a(v([O, "nt"], !0), "\x3cdiv") : Z.call(null, v([O, "nt"], !0), "\x3cdiv"), " ", Z.a ? Z.a(v([O, "na"], !0), "id\x3d") : Z.call(null, v([O, "na"], !0), "id\x3d"), Z.a ? Z.a(v([O, "s"], !0), '"greet"') : Z.call(null, v([O, "s"], !0), '"greet"'), " ", Z.a ? Z.a(v([O, "na"], !0), "class\x3d") : Z.call(null, v([O, "na"], !0), "class\x3d"), Z.a ? Z.a(v([O, "s"], !0), '"active"') : Z.call(null, v([O, "s"], !0), '"active"'), Z.a ? Z.a(v([O, 
+    !0), "("), Z.a ? Z.a(v([O, "nb"], !0), "str ") : Z.call(null, v([O, "nb"], !0), "str "), Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "add1") : Z.call(null, v([O, "nf"], !0), "add1"), " ", Z.a ? Z.a(v([O, "mi"], !0), "41") : Z.call(null, v([O, "mi"], !0), "41"), Z.a ? Z.a(v([O, "p"], !0), ")))))") : Z.call(null, v([O, "p"], !0), ")))))"), "\n"))], 0)), Sm = W.b ? W.b("Hoplon's HTML evaluator provides a sexp-based HTML syntax and\n              semantic. Elements in sexp markup are parenthesized lists, the\n              same as Lisp expressions. The form in function position is the\n              element\u2019s HTML tag. Hoplon adds semantics for setting attributes\n              and appending children. Consider a typical snippet of HTML markup:") : 
+    W.call(null, "Hoplon's HTML evaluator provides a sexp-based HTML syntax and\n              semantic. Elements in sexp markup are parenthesized lists, the\n              same as Lisp expressions. The form in function position is the\n              element\u2019s HTML tag. Hoplon adds semantics for setting attributes\n              and appending children. Consider a typical snippet of HTML markup:"), Tm = W.b ? W.b("This snippet can be expressed in sexp markup like this:") : W.call(null, "This snippet can be expressed in sexp markup like this:"), 
+    Um = W.b ? W.b("Notice how attributes can be set by passing them in first as\n              alternating keyword/string pairs. The rest of the arguments are\n              appended to the element (the div in this case) as children.") : W.call(null, "Notice how attributes can be set by passing them in first as\n              alternating keyword/string pairs. The rest of the arguments are\n              appended to the element (the div in this case) as children."), Vm = W.b ? W.b("Sometimes it\u2019s more convenient to specify the attributes as a\n               map, like this:") : 
+    W.call(null, "Sometimes it\u2019s more convenient to specify the attributes as a\n               map, like this:"), Wm = W.b ? W.b("Additionally, Hoplon provides semantics for anonymous tags in\n              sexp markup. There is, of course, no such thing in HTML markup.\n              The same snippet can be expressed using an anonymous tag:") : W.call(null, "Additionally, Hoplon provides semantics for anonymous tags in\n              sexp markup. There is, of course, no such thing in HTML markup.\n              The same snippet can be expressed using an anonymous tag:"), 
+    Ak = S.b ? S.b("div") : S.call(null, "div"), Bk = S.b ? S.b("h1") : S.call(null, "h1"), Ck = S.b ? S.b("p") : S.call(null, "p"), Dk = S.b ? S.b("IFn") : S.call(null, "IFn"), Xm = W.X ? W.X("It\u2019s important to understand that the ", Ak, ", ", Bk, ", and ", Ck, " forms are ClojureScript\n              functions that return DOM elements. DOM elements implement the ", Dk, " protocol to achieve the HTML semantic. This means\n              that they can be used to form abstractions:") : W.call(null, 
+    "It\u2019s important to understand that the ", Ak, ", ", Bk, ", and ", Ck, " forms are ClojureScript\n              functions that return DOM elements. DOM elements implement the ", Dk, " protocol to achieve the HTML semantic. This means\n              that they can be used to form abstractions:"), Ym = W.b ? W.b("And then, in the page markup or in a function:") : W.call(null, "And then, in the page markup or in a function:"), Zm = W.b ? W.b("Or in HTML markup in the page, even:") : W.call(null, 
+    "Or in HTML markup in the page, even:"), $m = W.b ? W.b("The result is equivalent to the previous snippets, but more\n              general. These \u201ccustom tags\u201d can be used in the page markup like \n              any of the built-in tags.") : W.call(null, "The result is equivalent to the previous snippets, but more\n              general. These \u201ccustom tags\u201d can be used in the page markup like \n              any of the built-in tags."), Ek = S.b ? S.b("unquote-splicing") : 
+    S.call(null, "unquote-splicing"), an = W.c ? W.c("Finally, sequences or vectors can be used to splice children\n              into the parent similar to how the ", Ek, " form works in Clojure. For instance this,") : W.call(null, "Finally, sequences or vectors can be used to splice children\n              into the parent similar to how the ", Ek, " form works in Clojure. For instance this,"), bn = W.b ? W.b("is equivalent to this:") : W.call(null, "is equivalent to this:"), cn = hm.d(C([Ii, "Sexp Markup Syntax", 
+    Sm, T.a ? T.a(v([O, "highlight"], !0), Y.ha ? Y.ha(Z.a ? Z.a(v([O, "nt"], !0), "\x3cdiv") : Z.call(null, v([O, "nt"], !0), "\x3cdiv"), " ", Z.a ? Z.a(v([O, "na"], !0), "id\x3d") : Z.call(null, v([O, "na"], !0), "id\x3d"), Z.a ? Z.a(v([O, "s"], !0), '"greet"') : Z.call(null, v([O, "s"], !0), '"greet"'), " ", Z.a ? Z.a(v([O, "na"], !0), "class\x3d") : Z.call(null, v([O, "na"], !0), "class\x3d"), Z.a ? Z.a(v([O, "s"], !0), '"active"') : Z.call(null, v([O, "s"], !0), '"active"'), Z.a ? Z.a(v([O, 
     "nt"], !0), "\x3e") : Z.call(null, v([O, "nt"], !0), "\x3e"), "\n  ", Z.a ? Z.a(v([O, "nt"], !0), "\x3ch1\x3e") : Z.call(null, v([O, "nt"], !0), "\x3ch1\x3e"), "Hello, world!", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/h1\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/h1\x3e"), "\n  ", Z.a ? Z.a(v([O, "nt"], !0), "\x3cp\x3e") : Z.call(null, v([O, "nt"], !0), "\x3cp\x3e"), "I'm new here.", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/p\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/p\x3e"), "\n", Z.a ? Z.a(v([O, "nt"], 
     !0), "\x3c/div\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/div\x3e"), "\n") : Y.call(null, Z.a ? Z.a(v([O, "nt"], !0), "\x3cdiv") : Z.call(null, v([O, "nt"], !0), "\x3cdiv"), " ", Z.a ? Z.a(v([O, "na"], !0), "id\x3d") : Z.call(null, v([O, "na"], !0), "id\x3d"), Z.a ? Z.a(v([O, "s"], !0), '"greet"') : Z.call(null, v([O, "s"], !0), '"greet"'), " ", Z.a ? Z.a(v([O, "na"], !0), "class\x3d") : Z.call(null, v([O, "na"], !0), "class\x3d"), Z.a ? Z.a(v([O, "s"], !0), '"active"') : Z.call(null, v([O, 
     "s"], !0), '"active"'), Z.a ? Z.a(v([O, "nt"], !0), "\x3e") : Z.call(null, v([O, "nt"], !0), "\x3e"), "\n  ", Z.a ? Z.a(v([O, "nt"], !0), "\x3ch1\x3e") : Z.call(null, v([O, "nt"], !0), "\x3ch1\x3e"), "Hello, world!", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/h1\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/h1\x3e"), "\n  ", Z.a ? Z.a(v([O, "nt"], !0), "\x3cp\x3e") : Z.call(null, v([O, "nt"], !0), "\x3cp\x3e"), "I'm new here.", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/p\x3e") : Z.call(null, v([O, "nt"], !0), 
@@ -13719,7 +13735,7 @@ function Dm() {
     !0), "class\x3d"), Z.a ? Z.a(v([O, "s"], !0), '"active"') : Z.call(null, v([O, "s"], !0), '"active"'), Z.a ? Z.a(v([O, "nt"], !0), "\x3e") : Z.call(null, v([O, "nt"], !0), "\x3e"), "\n  ", Z.a ? Z.a(v([O, "nt"], !0), "\x3ch1\x3e") : Z.call(null, v([O, "nt"], !0), "\x3ch1\x3e"), "Hello, world!", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/h1\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/h1\x3e"), "\n  ", Z.a ? Z.a(v([O, "nt"], !0), "\x3cp\x3e") : Z.call(null, v([O, "nt"], !0), "\x3cp\x3e"), "I'm new here.", 
     Z.a ? Z.a(v([O, "nt"], !0), "\x3c/p\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/p\x3e"), "\n", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/div\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/div\x3e"), "\n") : Y.call(null, Z.a ? Z.a(v([O, "nt"], !0), "\x3cdiv") : Z.call(null, v([O, "nt"], !0), "\x3cdiv"), " ", Z.a ? Z.a(v([O, "na"], !0), "id\x3d") : Z.call(null, v([O, "na"], !0), "id\x3d"), Z.a ? Z.a(v([O, "s"], !0), '"greet"') : Z.call(null, v([O, "s"], !0), '"greet"'), " ", Z.a ? Z.a(v([O, "na"], !0), 
     "class\x3d") : Z.call(null, v([O, "na"], !0), "class\x3d"), Z.a ? Z.a(v([O, "s"], !0), '"active"') : Z.call(null, v([O, "s"], !0), '"active"'), Z.a ? Z.a(v([O, "nt"], !0), "\x3e") : Z.call(null, v([O, "nt"], !0), "\x3e"), "\n  ", Z.a ? Z.a(v([O, "nt"], !0), "\x3ch1\x3e") : Z.call(null, v([O, "nt"], !0), "\x3ch1\x3e"), "Hello, world!", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/h1\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/h1\x3e"), "\n  ", Z.a ? Z.a(v([O, "nt"], !0), "\x3cp\x3e") : Z.call(null, v([O, 
-    "nt"], !0), "\x3cp\x3e"), "I'm new here.", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/p\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/p\x3e"), "\n", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/div\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/div\x3e"), "\n")), Rm, T.a ? T.a(v([O, "highlight"], !0), Y.ja ? Y.ja(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "div") : Z.call(null, v([O, "nf"], !0), "div"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":id") : Z.call(null, v([O, 
+    "nt"], !0), "\x3cp\x3e"), "I'm new here.", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/p\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/p\x3e"), "\n", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/div\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/div\x3e"), "\n")), Tm, T.a ? T.a(v([O, "highlight"], !0), Y.ja ? Y.ja(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "div") : Z.call(null, v([O, "nf"], !0), "div"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":id") : Z.call(null, v([O, 
     "ss"], !0), ":id"), " ", Z.a ? Z.a(v([O, "s"], !0), '"greet"') : Z.call(null, v([O, "s"], !0), '"greet"'), " ", Z.a ? Z.a(v([O, "ss"], !0), ":class") : Z.call(null, v([O, "ss"], !0), ":class"), " ", Z.a ? Z.a(v([O, "s"], !0), '"active"') : Z.call(null, v([O, "s"], !0), '"active"'), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "h1") : Z.call(null, v([O, "nf"], !0), "h1"), " ", Z.a ? Z.a(v([O, "s"], !0), '"Hello, world!"') : Z.call(null, 
     v([O, "s"], !0), '"Hello, world!"'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "p") : Z.call(null, v([O, "nf"], !0), "p"), " ", Z.a ? Z.a(v([O, "s"], !0), '"I\'m new here."') : Z.call(null, v([O, "s"], !0), '"I\'m new here."'), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n") : Y.call(null, Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, 
     v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "div") : Z.call(null, v([O, "nf"], !0), "div"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":id") : Z.call(null, v([O, "ss"], !0), ":id"), " ", Z.a ? Z.a(v([O, "s"], !0), '"greet"') : Z.call(null, v([O, "s"], !0), '"greet"'), " ", Z.a ? Z.a(v([O, "ss"], !0), ":class") : Z.call(null, v([O, "ss"], !0), ":class"), " ", Z.a ? Z.a(v([O, "s"], !0), '"active"') : Z.call(null, v([O, "s"], !0), '"active"'), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, 
@@ -13728,7 +13744,7 @@ function Dm() {
     !0), ":class") : Z.call(null, v([O, "ss"], !0), ":class"), " ", Z.a ? Z.a(v([O, "s"], !0), '"active"') : Z.call(null, v([O, "s"], !0), '"active"'), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "h1") : Z.call(null, v([O, "nf"], !0), "h1"), " ", Z.a ? Z.a(v([O, "s"], !0), '"Hello, world!"') : Z.call(null, v([O, "s"], !0), '"Hello, world!"'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n  ", Z.a ? Z.a(v([O, 
     "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "p") : Z.call(null, v([O, "nf"], !0), "p"), " ", Z.a ? Z.a(v([O, "s"], !0), '"I\'m new here."') : Z.call(null, v([O, "s"], !0), '"I\'m new here."'), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n") : Y.call(null, Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "div") : Z.call(null, v([O, "nf"], !0), "div"), " ", Z.a ? Z.a(v([O, "ss"], 
     !0), ":id") : Z.call(null, v([O, "ss"], !0), ":id"), " ", Z.a ? Z.a(v([O, "s"], !0), '"greet"') : Z.call(null, v([O, "s"], !0), '"greet"'), " ", Z.a ? Z.a(v([O, "ss"], !0), ":class") : Z.call(null, v([O, "ss"], !0), ":class"), " ", Z.a ? Z.a(v([O, "s"], !0), '"active"') : Z.call(null, v([O, "s"], !0), '"active"'), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "h1") : Z.call(null, v([O, "nf"], !0), "h1"), " ", Z.a ? Z.a(v([O, "s"], !0), 
-    '"Hello, world!"') : Z.call(null, v([O, "s"], !0), '"Hello, world!"'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "p") : Z.call(null, v([O, "nf"], !0), "p"), " ", Z.a ? Z.a(v([O, "s"], !0), '"I\'m new here."') : Z.call(null, v([O, "s"], !0), '"I\'m new here."'), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n")), Sm, Tm, T.a ? T.a(v([O, 
+    '"Hello, world!"') : Z.call(null, v([O, "s"], !0), '"Hello, world!"'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "p") : Z.call(null, v([O, "nf"], !0), "p"), " ", Z.a ? Z.a(v([O, "s"], !0), '"I\'m new here."') : Z.call(null, v([O, "s"], !0), '"I\'m new here."'), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n")), Um, Vm, T.a ? T.a(v([O, 
     "highlight"], !0), Y.Cb ? Y.Cb(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "div") : Z.call(null, v([O, "nf"], !0), "div"), " ", Z.a ? Z.a(v([O, "p"], !0), "{") : Z.call(null, v([O, "p"], !0), "{"), Z.a ? Z.a(v([O, "ss"], !0), ":id") : Z.call(null, v([O, "ss"], !0), ":id"), " ", Z.a ? Z.a(v([O, "s"], !0), '"greet"') : Z.call(null, v([O, "s"], !0), '"greet"'), " ", Z.a ? Z.a(v([O, "ss"], !0), ":class") : Z.call(null, v([O, "ss"], !0), ":class"), 
     " ", Z.a ? Z.a(v([O, "s"], !0), '"active"') : Z.call(null, v([O, "s"], !0), '"active"'), Z.a ? Z.a(v([O, "p"], !0), "}") : Z.call(null, v([O, "p"], !0), "}"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "h1") : Z.call(null, v([O, "nf"], !0), "h1"), " ", Z.a ? Z.a(v([O, "s"], !0), '"Hello, world!"') : Z.call(null, v([O, "s"], !0), '"Hello, world!"'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n  ", Z.a ? 
     Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "p") : Z.call(null, v([O, "nf"], !0), "p"), " ", Z.a ? Z.a(v([O, "s"], !0), '"I\'m new here."') : Z.call(null, v([O, "s"], !0), '"I\'m new here."'), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n") : Y.call(null, Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "div") : Z.call(null, v([O, "nf"], !0), "div"), " ", Z.a ? Z.a(v([O, 
@@ -13739,7 +13755,7 @@ function Dm() {
     Z.call(null, v([O, "s"], !0), '"Hello, world!"'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "p") : Z.call(null, v([O, "nf"], !0), "p"), " ", Z.a ? Z.a(v([O, "s"], !0), '"I\'m new here."') : Z.call(null, v([O, "s"], !0), '"I\'m new here."'), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n") : Y.call(null, Z.a ? Z.a(v([O, "p"], !0), "(") : 
     Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "div") : Z.call(null, v([O, "nf"], !0), "div"), " ", Z.a ? Z.a(v([O, "p"], !0), "{") : Z.call(null, v([O, "p"], !0), "{"), Z.a ? Z.a(v([O, "ss"], !0), ":id") : Z.call(null, v([O, "ss"], !0), ":id"), " ", Z.a ? Z.a(v([O, "s"], !0), '"greet"') : Z.call(null, v([O, "s"], !0), '"greet"'), " ", Z.a ? Z.a(v([O, "ss"], !0), ":class") : Z.call(null, v([O, "ss"], !0), ":class"), " ", Z.a ? Z.a(v([O, "s"], !0), '"active"') : Z.call(null, v([O, 
     "s"], !0), '"active"'), Z.a ? Z.a(v([O, "p"], !0), "}") : Z.call(null, v([O, "p"], !0), "}"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "h1") : Z.call(null, v([O, "nf"], !0), "h1"), " ", Z.a ? Z.a(v([O, "s"], !0), '"Hello, world!"') : Z.call(null, v([O, "s"], !0), '"Hello, world!"'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), 
-    Z.a ? Z.a(v([O, "nf"], !0), "p") : Z.call(null, v([O, "nf"], !0), "p"), " ", Z.a ? Z.a(v([O, "s"], !0), '"I\'m new here."') : Z.call(null, v([O, "s"], !0), '"I\'m new here."'), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n")), Um, T.a ? T.a(v([O, "highlight"], !0), Y.Bb ? Y.Bb(Z.a ? Z.a(v([O, "p"], !0), "((") : Z.call(null, v([O, "p"], !0), "(("), Z.a ? Z.a(v([O, "nf"], !0), "div") : Z.call(null, v([O, "nf"], !0), "div"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":id") : 
+    Z.a ? Z.a(v([O, "nf"], !0), "p") : Z.call(null, v([O, "nf"], !0), "p"), " ", Z.a ? Z.a(v([O, "s"], !0), '"I\'m new here."') : Z.call(null, v([O, "s"], !0), '"I\'m new here."'), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n")), Wm, T.a ? T.a(v([O, "highlight"], !0), Y.Bb ? Y.Bb(Z.a ? Z.a(v([O, "p"], !0), "((") : Z.call(null, v([O, "p"], !0), "(("), Z.a ? Z.a(v([O, "nf"], !0), "div") : Z.call(null, v([O, "nf"], !0), "div"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":id") : 
     Z.call(null, v([O, "ss"], !0), ":id"), " ", Z.a ? Z.a(v([O, "s"], !0), '"greet"') : Z.call(null, v([O, "s"], !0), '"greet"'), " ", Z.a ? Z.a(v([O, "ss"], !0), ":class") : Z.call(null, v([O, "ss"], !0), ":class"), " ", Z.a ? Z.a(v([O, "s"], !0), '"active"') : Z.call(null, v([O, "s"], !0), '"active"'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "h1") : Z.call(null, 
     v([O, "nf"], !0), "h1"), " ", Z.a ? Z.a(v([O, "s"], !0), '"Hello, world!"') : Z.call(null, v([O, "s"], !0), '"Hello, world!"'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "p") : Z.call(null, v([O, "nf"], !0), "p"), " ", Z.a ? Z.a(v([O, "s"], !0), '"I\'m new here."') : Z.call(null, v([O, "s"], !0), '"I\'m new here."'), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, 
     v([O, "p"], !0), "))"), "\n") : Y.call(null, Z.a ? Z.a(v([O, "p"], !0), "((") : Z.call(null, v([O, "p"], !0), "(("), Z.a ? Z.a(v([O, "nf"], !0), "div") : Z.call(null, v([O, "nf"], !0), "div"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":id") : Z.call(null, v([O, "ss"], !0), ":id"), " ", Z.a ? Z.a(v([O, "s"], !0), '"greet"') : Z.call(null, v([O, "s"], !0), '"greet"'), " ", Z.a ? Z.a(v([O, "ss"], !0), ":class") : Z.call(null, v([O, "ss"], !0), ":class"), " ", Z.a ? Z.a(v([O, "s"], !0), '"active"') : Z.call(null, 
@@ -13749,7 +13765,7 @@ function Dm() {
     v([O, "nf"], !0), "h1"), " ", Z.a ? Z.a(v([O, "s"], !0), '"Hello, world!"') : Z.call(null, v([O, "s"], !0), '"Hello, world!"'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "p") : Z.call(null, v([O, "nf"], !0), "p"), " ", Z.a ? Z.a(v([O, "s"], !0), '"I\'m new here."') : Z.call(null, v([O, "s"], !0), '"I\'m new here."'), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, 
     v([O, "p"], !0), "))"), "\n") : Y.call(null, Z.a ? Z.a(v([O, "p"], !0), "((") : Z.call(null, v([O, "p"], !0), "(("), Z.a ? Z.a(v([O, "nf"], !0), "div") : Z.call(null, v([O, "nf"], !0), "div"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":id") : Z.call(null, v([O, "ss"], !0), ":id"), " ", Z.a ? Z.a(v([O, "s"], !0), '"greet"') : Z.call(null, v([O, "s"], !0), '"greet"'), " ", Z.a ? Z.a(v([O, "ss"], !0), ":class") : Z.call(null, v([O, "ss"], !0), ":class"), " ", Z.a ? Z.a(v([O, "s"], !0), '"active"') : Z.call(null, 
     v([O, "s"], !0), '"active"'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "h1") : Z.call(null, v([O, "nf"], !0), "h1"), " ", Z.a ? Z.a(v([O, "s"], !0), '"Hello, world!"') : Z.call(null, v([O, "s"], !0), '"Hello, world!"'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), 
-    Z.a ? Z.a(v([O, "nf"], !0), "p") : Z.call(null, v([O, "nf"], !0), "p"), " ", Z.a ? Z.a(v([O, "s"], !0), '"I\'m new here."') : Z.call(null, v([O, "s"], !0), '"I\'m new here."'), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n")), Vm, T.a ? T.a(v([O, "highlight"], !0), Y.ja ? Y.ja(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "kd"], !0), "defn ") : Z.call(null, v([O, "kd"], !0), "defn "), Z.a ? Z.a(v([O, "nv"], !0), "active") : 
+    Z.a ? Z.a(v([O, "nf"], !0), "p") : Z.call(null, v([O, "nf"], !0), "p"), " ", Z.a ? Z.a(v([O, "s"], !0), '"I\'m new here."') : Z.call(null, v([O, "s"], !0), '"I\'m new here."'), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n")), Xm, T.a ? T.a(v([O, "highlight"], !0), Y.ja ? Y.ja(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "kd"], !0), "defn ") : Z.call(null, v([O, "kd"], !0), "defn "), Z.a ? Z.a(v([O, "nv"], !0), "active") : 
     Z.call(null, v([O, "nv"], !0), "active"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "o"], !0), "\x26") : Z.call(null, v([O, "o"], !0), "\x26"), " ", Z.a ? Z.a(v([O, "nv"], !0), "kids") : Z.call(null, v([O, "nv"], !0), "kids"), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nb"], !0), "apply ") : Z.call(null, v([O, "nb"], !0), "apply "), 
     Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "div") : Z.call(null, v([O, "nf"], !0), "div"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":class") : Z.call(null, v([O, "ss"], !0), ":class"), " ", Z.a ? Z.a(v([O, "s"], !0), '"active"') : Z.call(null, v([O, "s"], !0), '"active"'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), " ", Z.a ? Z.a(v([O, "nv"], !0), "kids") : Z.call(null, v([O, "nv"], !0), "kids"), Z.a ? Z.a(v([O, "p"], 
     !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n") : Y.call(null, Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "kd"], !0), "defn ") : Z.call(null, v([O, "kd"], !0), "defn "), Z.a ? Z.a(v([O, "nv"], !0), "active") : Z.call(null, v([O, "nv"], !0), "active"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "o"], !0), "\x26") : Z.call(null, v([O, "o"], !0), "\x26"), " ", Z.a ? Z.a(v([O, "nv"], !0), "kids") : 
@@ -13759,7 +13775,7 @@ function Dm() {
     "nb"], !0), "apply ") : Z.call(null, v([O, "nb"], !0), "apply "), Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "div") : Z.call(null, v([O, "nf"], !0), "div"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":class") : Z.call(null, v([O, "ss"], !0), ":class"), " ", Z.a ? Z.a(v([O, "s"], !0), '"active"') : Z.call(null, v([O, "s"], !0), '"active"'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), " ", Z.a ? Z.a(v([O, "nv"], !0), "kids") : 
     Z.call(null, v([O, "nv"], !0), "kids"), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n") : Y.call(null, Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "kd"], !0), "defn ") : Z.call(null, v([O, "kd"], !0), "defn "), Z.a ? Z.a(v([O, "nv"], !0), "active") : Z.call(null, v([O, "nv"], !0), "active"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "o"], !0), "\x26") : Z.call(null, v([O, "o"], 
     !0), "\x26"), " ", Z.a ? Z.a(v([O, "nv"], !0), "kids") : Z.call(null, v([O, "nv"], !0), "kids"), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nb"], !0), "apply ") : Z.call(null, v([O, "nb"], !0), "apply "), Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "div") : Z.call(null, v([O, "nf"], !0), "div"), " ", Z.a ? Z.a(v([O, "ss"], 
-    !0), ":class") : Z.call(null, v([O, "ss"], !0), ":class"), " ", Z.a ? Z.a(v([O, "s"], !0), '"active"') : Z.call(null, v([O, "s"], !0), '"active"'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), " ", Z.a ? Z.a(v([O, "nv"], !0), "kids") : Z.call(null, v([O, "nv"], !0), "kids"), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n")), Wm, T.a ? T.a(v([O, "highlight"], !0), Y.ha ? Y.ha(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), 
+    !0), ":class") : Z.call(null, v([O, "ss"], !0), ":class"), " ", Z.a ? Z.a(v([O, "s"], !0), '"active"') : Z.call(null, v([O, "s"], !0), '"active"'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), " ", Z.a ? Z.a(v([O, "nv"], !0), "kids") : Z.call(null, v([O, "nv"], !0), "kids"), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n")), Ym, T.a ? T.a(v([O, "highlight"], !0), Y.ha ? Y.ha(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), 
     Z.a ? Z.a(v([O, "nf"], !0), "active") : Z.call(null, v([O, "nf"], !0), "active"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":id") : Z.call(null, v([O, "ss"], !0), ":id"), " ", Z.a ? Z.a(v([O, "s"], !0), '"greet"') : Z.call(null, v([O, "s"], !0), '"greet"'), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "h1") : Z.call(null, v([O, "nf"], !0), "h1"), " ", Z.a ? Z.a(v([O, "s"], !0), '"Hello, world!"') : Z.call(null, v([O, "s"], !0), '"Hello, world!"'), 
     Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "p") : Z.call(null, v([O, "nf"], !0), "p"), " ", Z.a ? Z.a(v([O, "s"], !0), '"I\'m new here."') : Z.call(null, v([O, "s"], !0), '"I\'m new here."'), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n") : Y.call(null, Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, 
     "nf"], !0), "active") : Z.call(null, v([O, "nf"], !0), "active"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":id") : Z.call(null, v([O, "ss"], !0), ":id"), " ", Z.a ? Z.a(v([O, "s"], !0), '"greet"') : Z.call(null, v([O, "s"], !0), '"greet"'), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "h1") : Z.call(null, v([O, "nf"], !0), "h1"), " ", Z.a ? Z.a(v([O, "s"], !0), '"Hello, world!"') : Z.call(null, v([O, "s"], !0), '"Hello, world!"'), Z.a ? Z.a(v([O, 
@@ -13767,26 +13783,49 @@ function Dm() {
     !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "active") : Z.call(null, v([O, "nf"], !0), "active"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":id") : Z.call(null, v([O, "ss"], !0), ":id"), " ", Z.a ? Z.a(v([O, "s"], !0), '"greet"') : Z.call(null, v([O, "s"], !0), '"greet"'), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "h1") : Z.call(null, v([O, "nf"], !0), "h1"), " ", Z.a ? Z.a(v([O, "s"], !0), '"Hello, world!"') : Z.call(null, v([O, "s"], !0), '"Hello, world!"'), 
     Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "p") : Z.call(null, v([O, "nf"], !0), "p"), " ", Z.a ? Z.a(v([O, "s"], !0), '"I\'m new here."') : Z.call(null, v([O, "s"], !0), '"I\'m new here."'), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n") : Y.call(null, Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, 
     "nf"], !0), "active") : Z.call(null, v([O, "nf"], !0), "active"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":id") : Z.call(null, v([O, "ss"], !0), ":id"), " ", Z.a ? Z.a(v([O, "s"], !0), '"greet"') : Z.call(null, v([O, "s"], !0), '"greet"'), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "h1") : Z.call(null, v([O, "nf"], !0), "h1"), " ", Z.a ? Z.a(v([O, "s"], !0), '"Hello, world!"') : Z.call(null, v([O, "s"], !0), '"Hello, world!"'), Z.a ? Z.a(v([O, 
-    "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "p") : Z.call(null, v([O, "nf"], !0), "p"), " ", Z.a ? Z.a(v([O, "s"], !0), '"I\'m new here."') : Z.call(null, v([O, "s"], !0), '"I\'m new here."'), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n")), Xm, T.a ? T.a(v([O, "highlight"], !0), Y.ga ? Y.ga(Z.a ? Z.a(v([O, "nt"], !0), "\x3cactive") : Z.call(null, 
+    "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "p") : Z.call(null, v([O, "nf"], !0), "p"), " ", Z.a ? Z.a(v([O, "s"], !0), '"I\'m new here."') : Z.call(null, v([O, "s"], !0), '"I\'m new here."'), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n")), Zm, T.a ? T.a(v([O, "highlight"], !0), Y.ga ? Y.ga(Z.a ? Z.a(v([O, "nt"], !0), "\x3cactive") : Z.call(null, 
     v([O, "nt"], !0), "\x3cactive"), " ", Z.a ? Z.a(v([O, "na"], !0), "id\x3d") : Z.call(null, v([O, "na"], !0), "id\x3d"), Z.a ? Z.a(v([O, "s"], !0), '"greet"') : Z.call(null, v([O, "s"], !0), '"greet"'), Z.a ? Z.a(v([O, "nt"], !0), "\x3e") : Z.call(null, v([O, "nt"], !0), "\x3e"), "\n  ", Z.a ? Z.a(v([O, "nt"], !0), "\x3ch1\x3e") : Z.call(null, v([O, "nt"], !0), "\x3ch1\x3e"), "Hello, world!", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/h1\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/h1\x3e"), "\n  ", Z.a ? 
     Z.a(v([O, "nt"], !0), "\x3cp\x3e") : Z.call(null, v([O, "nt"], !0), "\x3cp\x3e"), "I'm new here.", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/p\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/p\x3e"), "\n", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/active\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/active\x3e"), "\n") : Y.call(null, Z.a ? Z.a(v([O, "nt"], !0), "\x3cactive") : Z.call(null, v([O, "nt"], !0), "\x3cactive"), " ", Z.a ? Z.a(v([O, "na"], !0), "id\x3d") : Z.call(null, v([O, "na"], !0), "id\x3d"), Z.a ? 
     Z.a(v([O, "s"], !0), '"greet"') : Z.call(null, v([O, "s"], !0), '"greet"'), Z.a ? Z.a(v([O, "nt"], !0), "\x3e") : Z.call(null, v([O, "nt"], !0), "\x3e"), "\n  ", Z.a ? Z.a(v([O, "nt"], !0), "\x3ch1\x3e") : Z.call(null, v([O, "nt"], !0), "\x3ch1\x3e"), "Hello, world!", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/h1\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/h1\x3e"), "\n  ", Z.a ? Z.a(v([O, "nt"], !0), "\x3cp\x3e") : Z.call(null, v([O, "nt"], !0), "\x3cp\x3e"), "I'm new here.", Z.a ? Z.a(v([O, "nt"], 
     !0), "\x3c/p\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/p\x3e"), "\n", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/active\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/active\x3e"), "\n")) : T.call(null, v([O, "highlight"], !0), Y.ga ? Y.ga(Z.a ? Z.a(v([O, "nt"], !0), "\x3cactive") : Z.call(null, v([O, "nt"], !0), "\x3cactive"), " ", Z.a ? Z.a(v([O, "na"], !0), "id\x3d") : Z.call(null, v([O, "na"], !0), "id\x3d"), Z.a ? Z.a(v([O, "s"], !0), '"greet"') : Z.call(null, v([O, "s"], !0), '"greet"'), Z.a ? 
     Z.a(v([O, "nt"], !0), "\x3e") : Z.call(null, v([O, "nt"], !0), "\x3e"), "\n  ", Z.a ? Z.a(v([O, "nt"], !0), "\x3ch1\x3e") : Z.call(null, v([O, "nt"], !0), "\x3ch1\x3e"), "Hello, world!", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/h1\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/h1\x3e"), "\n  ", Z.a ? Z.a(v([O, "nt"], !0), "\x3cp\x3e") : Z.call(null, v([O, "nt"], !0), "\x3cp\x3e"), "I'm new here.", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/p\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/p\x3e"), "\n", Z.a ? Z.a(v([O, 
     "nt"], !0), "\x3c/active\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/active\x3e"), "\n") : Y.call(null, Z.a ? Z.a(v([O, "nt"], !0), "\x3cactive") : Z.call(null, v([O, "nt"], !0), "\x3cactive"), " ", Z.a ? Z.a(v([O, "na"], !0), "id\x3d") : Z.call(null, v([O, "na"], !0), "id\x3d"), Z.a ? Z.a(v([O, "s"], !0), '"greet"') : Z.call(null, v([O, "s"], !0), '"greet"'), Z.a ? Z.a(v([O, "nt"], !0), "\x3e") : Z.call(null, v([O, "nt"], !0), "\x3e"), "\n  ", Z.a ? Z.a(v([O, "nt"], !0), "\x3ch1\x3e") : Z.call(null, 
-    v([O, "nt"], !0), "\x3ch1\x3e"), "Hello, world!", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/h1\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/h1\x3e"), "\n  ", Z.a ? Z.a(v([O, "nt"], !0), "\x3cp\x3e") : Z.call(null, v([O, "nt"], !0), "\x3cp\x3e"), "I'm new here.", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/p\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/p\x3e"), "\n", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/active\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/active\x3e"), "\n")), Ym], 0)), Dk = xk.b ? xk.b("click") : 
-    xk.call(null, "click"), Ek = xk.b ? xk.b("change") : xk.call(null, "change"), $m = W.n ? W.n("DOM interactions can be can be divided into two categories:\n              input and output. Input is how the user initiates changes to the\n              state of the application, consisting of DOM events like ", Dk, ", ", Ek, ", etc. Output is how the state of\n              the application is conveyed to the user, consisting of setting\n              element attributes, properties, and the contents of text nodes.") : 
-    W.call(null, "DOM interactions can be can be divided into two categories:\n              input and output. Input is how the user initiates changes to the\n              state of the application, consisting of DOM events like ", Dk, ", ", Ek, ", etc. Output is how the state of\n              the application is conveyed to the user, consisting of setting\n              element attributes, properties, and the contents of text nodes."), Fk = xk.b ? xk.b("event") : xk.call(null, "event"), Gk = S.a ? 
-    S.a(":on-", Fk) : S.call(null, ":on-", Fk), an = W.c ? W.c("In a Hoplon page input is accepted via the special ", Gk, " attributes set on DOM elements. All\n              JQuery events are supported, including custom events. The value\n              of this attribute is the event handler. For example:") : W.call(null, "In a Hoplon page input is accepted via the special ", Gk, " attributes set on DOM elements. All\n              JQuery events are supported, including custom events. The value\n              of this attribute is the event handler. For example:"), 
-    Hk = xk.b ? xk.b("action") : xk.call(null, "action"), Ik = S.a ? S.a(":do-", Hk) : S.call(null, ":do-", Hk), bn = W.c ? W.c("Output is displayed via the special ", Ik, " attributes set on DOM elements. The value of these attributes is\n              a formula cell whose value forms the argument to the action. For\n              example:") : W.call(null, "Output is displayed via the special ", Ik, " attributes set on DOM elements. The value of these attributes is\n              a formula cell whose value forms the argument to the action. For\n              example:"), 
-    Jk = S.b ? S.b(":do-class") : S.call(null, ":do-class"), Kk = xk.b ? xk.b("\u201cactive\u201d") : xk.call(null, "\u201cactive\u201d"), Lk = S.b ? S.b("page") : S.call(null, "page"), cn = W.Z ? W.Z("The ", Jk, " example above adds or removes the ", Kk, " class, depending on whether the ", Lk, " cell\u2019s value is equal to 20 or not, respectively. This\n              relationship is maintained automatically, reactively keeping the\n              element\u2019s class in sync with the formula.") : 
-    W.call(null, "The ", Jk, " example above adds or removes the ", Kk, " class, depending on whether the ", Lk, " cell\u2019s value is equal to 20 or not, respectively. This\n              relationship is maintained automatically, reactively keeping the\n              element\u2019s class in sync with the formula."), Mk = S.b ? S.b("text") : S.call(null, "text"), dn = W.c ? W.c("The ", Mk, " macro creates DOM text nodes whose content\n              automatically updates itself, interpolating cell values and/or\n              formulas in the argument string. For example:") : 
-    W.call(null, "The ", Mk, " macro creates DOM text nodes whose content\n              automatically updates itself, interpolating cell values and/or\n              formulas in the argument string. For example:"), en = W.b ? W.b("This creates a pargraph whose text content is linked to the\n              interpolated string.") : W.call(null, "This creates a pargraph whose text content is linked to the\n              interpolated string."), Nk = S.b ? S.b("do!") : S.call(null, "do!"), Ok = S.b ? 
-    S.b("on!") : S.call(null, "on!"), Pk = xk.b ? xk.b("\u201cactive\u201d") : xk.call(null, "\u201cactive\u201d"), Qk = S.b ? S.b("elem") : S.call(null, "elem"), fn = W.X ? W.X("Output and input wiring can also be done programmatically using\n              the ", Nk, " and ", Ok, " multimethods. For\n              instance, to set the ", Pk, " class on element ", Qk, ", one would do:") : W.call(null, "Output and input wiring can also be done programmatically using\n              the ", Nk, " and ", 
-    Ok, " multimethods. For\n              instance, to set the ", Pk, " class on element ", Qk, ", one would do:"), Rk = xk.b ? xk.b("click") : xk.call(null, "click"), gn = W.c ? W.c("And to add a handler for the ", Rk, " event one would do:") : W.call(null, "And to add a handler for the ", Rk, " event one would do:"), Sk = S.b ? S.b(":do-class") : S.call(null, ":do-class"), hn = W.c ? W.c("It's important to note the these are not reactive. They're just\n              regular functions operating on regular data, not cells. To achieve\n              the reactive behavior of the ", 
-    Sk, " example above\n              the expression can be used as the formula of an anonymous cell\n              (anonymous because output is only for side-effects\u2013mutating the\n              DOM in this case):") : W.call(null, "It's important to note the these are not reactive. They're just\n              regular functions operating on regular data, not cells. To achieve\n              the reactive behavior of the ", Sk, " example above\n              the expression can be used as the formula of an anonymous cell\n              (anonymous because output is only for side-effects\u2013mutating the\n              DOM in this case):"), 
-    Tk = S.b ? S.b("on!") : S.call(null, "on!"), jn = W.c ? W.c("Event handlers are normally set just once, so formula cells don\u2019t\n              usually make sense in combination with the ", Tk, " method. This illustrates the I/O model in Hoplon: output \n              reactively updates the DOM in relation to the underlying state via\n              formula cells, while input updates the underlying state via events\n              emitted by the DOM.") : W.call(null, "Event handlers are normally set just once, so formula cells don\u2019t\n              usually make sense in combination with the ", 
-    Tk, " method. This illustrates the I/O model in Hoplon: output \n              reactively updates the DOM in relation to the underlying state via\n              formula cells, while input updates the underlying state via events\n              emitted by the DOM."), kn = fm.d(C([Ii, "Wiring Up The DOM", $m, an, T.a ? T.a(v([O, "highlight"], !0), Y.ia ? Y.ia(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "button") : Z.call(null, v([O, "nf"], !0), 
+    v([O, "nt"], !0), "\x3ch1\x3e"), "Hello, world!", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/h1\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/h1\x3e"), "\n  ", Z.a ? Z.a(v([O, "nt"], !0), "\x3cp\x3e") : Z.call(null, v([O, "nt"], !0), "\x3cp\x3e"), "I'm new here.", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/p\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/p\x3e"), "\n", Z.a ? Z.a(v([O, "nt"], !0), "\x3c/active\x3e") : Z.call(null, v([O, "nt"], !0), "\x3c/active\x3e"), "\n")), $m, an, T.a ? T.a(v([O, "highlight"], 
+    !0), Y.Db ? Y.Db(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "ul") : Z.call(null, v([O, "nf"], !0), "ul"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":class") : Z.call(null, v([O, "ss"], !0), ":class"), " ", Z.a ? Z.a(v([O, "s"], !0), '"my-list"') : Z.call(null, v([O, "s"], !0), '"my-list"'), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nb"], !0), "map ") : Z.call(null, v([O, "nb"], !0), "map "), Z.a ? 
+    Z.a(v([O, "o"], !0), "#") : Z.call(null, v([O, "o"], !0), "#"), Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "li") : Z.call(null, v([O, "nf"], !0), "li"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":class") : Z.call(null, v([O, "ss"], !0), ":class"), " ", Z.a ? Z.a(v([O, "s"], !0), '"my-item"') : Z.call(null, v([O, "s"], !0), '"my-item"'), " ", Z.a ? Z.a(v([O, "nv"], !0), "%") : Z.call(null, v([O, "nv"], !0), "%"), Z.a ? Z.a(v([O, "p"], !0), ")") : 
+    Z.call(null, v([O, "p"], !0), ")"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "s"], !0), '"item1"') : Z.call(null, v([O, "s"], !0), '"item1"'), " ", Z.a ? Z.a(v([O, "s"], !0), '"item2"') : Z.call(null, v([O, "s"], !0), '"item2"'), Z.a ? Z.a(v([O, "p"], !0), "]))") : Z.call(null, v([O, "p"], !0), "]))"), "\n") : Y.call(null, Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "ul") : Z.call(null, v([O, 
+    "nf"], !0), "ul"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":class") : Z.call(null, v([O, "ss"], !0), ":class"), " ", Z.a ? Z.a(v([O, "s"], !0), '"my-list"') : Z.call(null, v([O, "s"], !0), '"my-list"'), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nb"], !0), "map ") : Z.call(null, v([O, "nb"], !0), "map "), Z.a ? Z.a(v([O, "o"], !0), "#") : Z.call(null, v([O, "o"], !0), "#"), Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? 
+    Z.a(v([O, "nf"], !0), "li") : Z.call(null, v([O, "nf"], !0), "li"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":class") : Z.call(null, v([O, "ss"], !0), ":class"), " ", Z.a ? Z.a(v([O, "s"], !0), '"my-item"') : Z.call(null, v([O, "s"], !0), '"my-item"'), " ", Z.a ? Z.a(v([O, "nv"], !0), "%") : Z.call(null, v([O, "nv"], !0), "%"), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "s"], !0), '"item1"') : 
+    Z.call(null, v([O, "s"], !0), '"item1"'), " ", Z.a ? Z.a(v([O, "s"], !0), '"item2"') : Z.call(null, v([O, "s"], !0), '"item2"'), Z.a ? Z.a(v([O, "p"], !0), "]))") : Z.call(null, v([O, "p"], !0), "]))"), "\n")) : T.call(null, v([O, "highlight"], !0), Y.Db ? Y.Db(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "ul") : Z.call(null, v([O, "nf"], !0), "ul"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":class") : Z.call(null, v([O, "ss"], !0), ":class"), " ", 
+    Z.a ? Z.a(v([O, "s"], !0), '"my-list"') : Z.call(null, v([O, "s"], !0), '"my-list"'), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nb"], !0), "map ") : Z.call(null, v([O, "nb"], !0), "map "), Z.a ? Z.a(v([O, "o"], !0), "#") : Z.call(null, v([O, "o"], !0), "#"), Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "li") : Z.call(null, v([O, "nf"], !0), "li"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":class") : 
+    Z.call(null, v([O, "ss"], !0), ":class"), " ", Z.a ? Z.a(v([O, "s"], !0), '"my-item"') : Z.call(null, v([O, "s"], !0), '"my-item"'), " ", Z.a ? Z.a(v([O, "nv"], !0), "%") : Z.call(null, v([O, "nv"], !0), "%"), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "s"], !0), '"item1"') : Z.call(null, v([O, "s"], !0), '"item1"'), " ", Z.a ? Z.a(v([O, "s"], !0), '"item2"') : Z.call(null, v([O, 
+    "s"], !0), '"item2"'), Z.a ? Z.a(v([O, "p"], !0), "]))") : Z.call(null, v([O, "p"], !0), "]))"), "\n") : Y.call(null, Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "ul") : Z.call(null, v([O, "nf"], !0), "ul"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":class") : Z.call(null, v([O, "ss"], !0), ":class"), " ", Z.a ? Z.a(v([O, "s"], !0), '"my-list"') : Z.call(null, v([O, "s"], !0), '"my-list"'), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, 
+    "p"], !0), "("), Z.a ? Z.a(v([O, "nb"], !0), "map ") : Z.call(null, v([O, "nb"], !0), "map "), Z.a ? Z.a(v([O, "o"], !0), "#") : Z.call(null, v([O, "o"], !0), "#"), Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "li") : Z.call(null, v([O, "nf"], !0), "li"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":class") : Z.call(null, v([O, "ss"], !0), ":class"), " ", Z.a ? Z.a(v([O, "s"], !0), '"my-item"') : Z.call(null, v([O, "s"], !0), '"my-item"'), " ", Z.a ? 
+    Z.a(v([O, "nv"], !0), "%") : Z.call(null, v([O, "nv"], !0), "%"), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "s"], !0), '"item1"') : Z.call(null, v([O, "s"], !0), '"item1"'), " ", Z.a ? Z.a(v([O, "s"], !0), '"item2"') : Z.call(null, v([O, "s"], !0), '"item2"'), Z.a ? Z.a(v([O, "p"], !0), "]))") : Z.call(null, v([O, "p"], !0), "]))"), "\n")), bn, T.a ? T.a(v([O, "highlight"], !0), 
+    Y.Fb ? Y.Fb(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nb"], !0), "apply ") : Z.call(null, v([O, "nb"], !0), "apply "), Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "ul") : Z.call(null, v([O, "nf"], !0), "ul"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":class") : Z.call(null, v([O, "ss"], !0), ":class"), " ", Z.a ? Z.a(v([O, "s"], !0), '"my-list"') : Z.call(null, v([O, "s"], !0), '"my-list"'), Z.a ? Z.a(v([O, 
+    "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nb"], !0), "map ") : Z.call(null, v([O, "nb"], !0), "map "), Z.a ? Z.a(v([O, "o"], !0), "#") : Z.call(null, v([O, "o"], !0), "#"), Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "li") : Z.call(null, v([O, "nf"], !0), "li"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":class") : Z.call(null, v([O, "ss"], !0), 
+    ":class"), " ", Z.a ? Z.a(v([O, "s"], !0), '"my-item"') : Z.call(null, v([O, "s"], !0), '"my-item"'), " ", Z.a ? Z.a(v([O, "nv"], !0), "%") : Z.call(null, v([O, "nv"], !0), "%"), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "s"], !0), '"item1"') : Z.call(null, v([O, "s"], !0), '"item1"'), " ", Z.a ? Z.a(v([O, "s"], !0), '"item2"') : Z.call(null, v([O, "s"], !0), '"item2"'), Z.a ? 
+    Z.a(v([O, "p"], !0), "]))") : Z.call(null, v([O, "p"], !0), "]))"), "\n") : Y.call(null, Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nb"], !0), "apply ") : Z.call(null, v([O, "nb"], !0), "apply "), Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "ul") : Z.call(null, v([O, "nf"], !0), "ul"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":class") : Z.call(null, v([O, "ss"], !0), ":class"), " ", Z.a ? Z.a(v([O, "s"], 
+    !0), '"my-list"') : Z.call(null, v([O, "s"], !0), '"my-list"'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nb"], !0), "map ") : Z.call(null, v([O, "nb"], !0), "map "), Z.a ? Z.a(v([O, "o"], !0), "#") : Z.call(null, v([O, "o"], !0), "#"), Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "li") : Z.call(null, v([O, "nf"], !0), 
+    "li"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":class") : Z.call(null, v([O, "ss"], !0), ":class"), " ", Z.a ? Z.a(v([O, "s"], !0), '"my-item"') : Z.call(null, v([O, "s"], !0), '"my-item"'), " ", Z.a ? Z.a(v([O, "nv"], !0), "%") : Z.call(null, v([O, "nv"], !0), "%"), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "s"], !0), '"item1"') : Z.call(null, v([O, "s"], !0), '"item1"'), " ", Z.a ? 
+    Z.a(v([O, "s"], !0), '"item2"') : Z.call(null, v([O, "s"], !0), '"item2"'), Z.a ? Z.a(v([O, "p"], !0), "]))") : Z.call(null, v([O, "p"], !0), "]))"), "\n")) : T.call(null, v([O, "highlight"], !0), Y.Fb ? Y.Fb(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nb"], !0), "apply ") : Z.call(null, v([O, "nb"], !0), "apply "), Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "ul") : Z.call(null, v([O, "nf"], !0), 
+    "ul"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":class") : Z.call(null, v([O, "ss"], !0), ":class"), " ", Z.a ? Z.a(v([O, "s"], !0), '"my-list"') : Z.call(null, v([O, "s"], !0), '"my-list"'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nb"], !0), "map ") : Z.call(null, v([O, "nb"], !0), "map "), Z.a ? Z.a(v([O, "o"], !0), "#") : Z.call(null, v([O, "o"], !0), "#"), Z.a ? Z.a(v([O, 
+    "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "li") : Z.call(null, v([O, "nf"], !0), "li"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":class") : Z.call(null, v([O, "ss"], !0), ":class"), " ", Z.a ? Z.a(v([O, "s"], !0), '"my-item"') : Z.call(null, v([O, "s"], !0), '"my-item"'), " ", Z.a ? Z.a(v([O, "nv"], !0), "%") : Z.call(null, v([O, "nv"], !0), "%"), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, 
+    v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "s"], !0), '"item1"') : Z.call(null, v([O, "s"], !0), '"item1"'), " ", Z.a ? Z.a(v([O, "s"], !0), '"item2"') : Z.call(null, v([O, "s"], !0), '"item2"'), Z.a ? Z.a(v([O, "p"], !0), "]))") : Z.call(null, v([O, "p"], !0), "]))"), "\n") : Y.call(null, Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nb"], !0), "apply ") : Z.call(null, v([O, "nb"], !0), "apply "), Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], 
+    !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "ul") : Z.call(null, v([O, "nf"], !0), "ul"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":class") : Z.call(null, v([O, "ss"], !0), ":class"), " ", Z.a ? Z.a(v([O, "s"], !0), '"my-list"') : Z.call(null, v([O, "s"], !0), '"my-list"'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nb"], !0), "map ") : Z.call(null, v([O, "nb"], !0), "map "), Z.a ? Z.a(v([O, 
+    "o"], !0), "#") : Z.call(null, v([O, "o"], !0), "#"), Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "li") : Z.call(null, v([O, "nf"], !0), "li"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":class") : Z.call(null, v([O, "ss"], !0), ":class"), " ", Z.a ? Z.a(v([O, "s"], !0), '"my-item"') : Z.call(null, v([O, "s"], !0), '"my-item"'), " ", Z.a ? Z.a(v([O, "nv"], !0), "%") : Z.call(null, v([O, "nv"], !0), "%"), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, 
+    v([O, "p"], !0), ")"), " ", Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "s"], !0), '"item1"') : Z.call(null, v([O, "s"], !0), '"item1"'), " ", Z.a ? Z.a(v([O, "s"], !0), '"item2"') : Z.call(null, v([O, "s"], !0), '"item2"'), Z.a ? Z.a(v([O, "p"], !0), "]))") : Z.call(null, v([O, "p"], !0), "]))"), "\n"))], 0)), Fk = yk.b ? yk.b("click") : yk.call(null, "click"), Gk = yk.b ? yk.b("change") : yk.call(null, "change"), dn = W.n ? W.n("DOM interactions can be can be divided into two categories:\n              input and output. Input is how the user initiates changes to the\n              state of the application, consisting of DOM events like ", 
+    Fk, ", ", Gk, ", etc. Output is how the state of\n              the application is conveyed to the user, consisting of setting\n              element attributes, properties, and the contents of text nodes.") : W.call(null, "DOM interactions can be can be divided into two categories:\n              input and output. Input is how the user initiates changes to the\n              state of the application, consisting of DOM events like ", Fk, ", ", Gk, ", etc. Output is how the state of\n              the application is conveyed to the user, consisting of setting\n              element attributes, properties, and the contents of text nodes."), 
+    Hk = yk.b ? yk.b("event") : yk.call(null, "event"), Ik = S.a ? S.a(":on-", Hk) : S.call(null, ":on-", Hk), en = W.c ? W.c("In a Hoplon page input is accepted via the special ", Ik, " attributes set on DOM elements. All\n              JQuery events are supported, including custom events. The value\n              of this attribute is the event handler. For example:") : W.call(null, "In a Hoplon page input is accepted via the special ", Ik, " attributes set on DOM elements. All\n              JQuery events are supported, including custom events. The value\n              of this attribute is the event handler. For example:"), 
+    Jk = yk.b ? yk.b("action") : yk.call(null, "action"), Kk = S.a ? S.a(":do-", Jk) : S.call(null, ":do-", Jk), fn = W.c ? W.c("Output is displayed via the special ", Kk, " attributes set on DOM elements. The value of these attributes is\n              a formula cell whose value forms the argument to the action. For\n              example:") : W.call(null, "Output is displayed via the special ", Kk, " attributes set on DOM elements. The value of these attributes is\n              a formula cell whose value forms the argument to the action. For\n              example:"), 
+    Lk = S.b ? S.b(":do-class") : S.call(null, ":do-class"), Mk = yk.b ? yk.b("\u201cactive\u201d") : yk.call(null, "\u201cactive\u201d"), Nk = S.b ? S.b("page") : S.call(null, "page"), gn = W.Z ? W.Z("The ", Lk, " example above adds or removes the ", Mk, " class, depending on whether the ", Nk, " cell\u2019s value is equal to 20 or not, respectively. This\n              relationship is maintained automatically, reactively keeping the\n              element\u2019s class in sync with the formula.") : 
+    W.call(null, "The ", Lk, " example above adds or removes the ", Mk, " class, depending on whether the ", Nk, " cell\u2019s value is equal to 20 or not, respectively. This\n              relationship is maintained automatically, reactively keeping the\n              element\u2019s class in sync with the formula."), Ok = S.b ? S.b("text") : S.call(null, "text"), hn = W.c ? W.c("The ", Ok, " macro creates DOM text nodes whose content\n              automatically updates itself, interpolating cell values and/or\n              formulas in the argument string. For example:") : 
+    W.call(null, "The ", Ok, " macro creates DOM text nodes whose content\n              automatically updates itself, interpolating cell values and/or\n              formulas in the argument string. For example:"), jn = W.b ? W.b("This creates a pargraph whose text content is linked to the\n              interpolated string.") : W.call(null, "This creates a pargraph whose text content is linked to the\n              interpolated string."), Pk = S.b ? S.b("do!") : S.call(null, "do!"), Qk = S.b ? 
+    S.b("on!") : S.call(null, "on!"), Rk = yk.b ? yk.b("\u201cactive\u201d") : yk.call(null, "\u201cactive\u201d"), Sk = S.b ? S.b("elem") : S.call(null, "elem"), kn = W.X ? W.X("Output and input wiring can also be done programmatically using\n              the ", Pk, " and ", Qk, " multimethods. For\n              instance, to set the ", Rk, " class on element ", Sk, ", one would do:") : W.call(null, "Output and input wiring can also be done programmatically using\n              the ", Pk, " and ", 
+    Qk, " multimethods. For\n              instance, to set the ", Rk, " class on element ", Sk, ", one would do:"), Tk = yk.b ? yk.b("click") : yk.call(null, "click"), ln = W.c ? W.c("And to add a handler for the ", Tk, " event one would do:") : W.call(null, "And to add a handler for the ", Tk, " event one would do:"), Uk = S.b ? S.b(":do-class") : S.call(null, ":do-class"), mn = W.c ? W.c("It's important to note the these are not reactive. They're just\n              regular functions operating on regular data, not cells. To achieve\n              the reactive behavior of the ", 
+    Uk, " example above\n              the expression can be used as the formula of an anonymous cell\n              (anonymous because output is only for side-effects\u2013mutating the\n              DOM in this case):") : W.call(null, "It's important to note the these are not reactive. They're just\n              regular functions operating on regular data, not cells. To achieve\n              the reactive behavior of the ", Uk, " example above\n              the expression can be used as the formula of an anonymous cell\n              (anonymous because output is only for side-effects\u2013mutating the\n              DOM in this case):"), 
+    Vk = S.b ? S.b("on!") : S.call(null, "on!"), nn = W.c ? W.c("Event handlers are normally set just once, so formula cells don\u2019t\n              usually make sense in combination with the ", Vk, " method. This illustrates the I/O model in Hoplon: output \n              reactively updates the DOM in relation to the underlying state via\n              formula cells, while input updates the underlying state via events\n              emitted by the DOM.") : W.call(null, "Event handlers are normally set just once, so formula cells don\u2019t\n              usually make sense in combination with the ", 
+    Vk, " method. This illustrates the I/O model in Hoplon: output \n              reactively updates the DOM in relation to the underlying state via\n              formula cells, while input updates the underlying state via events\n              emitted by the DOM."), on = hm.d(C([Ii, "Wiring Up The DOM", dn, en, T.a ? T.a(v([O, "highlight"], !0), Y.ia ? Y.ia(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "button") : Z.call(null, v([O, "nf"], !0), 
     "button"), "\n  ", Z.a ? Z.a(v([O, "ss"], !0), ":on-click") : Z.call(null, v([O, "ss"], !0), ":on-click"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "k"], !0), "fn ") : Z.call(null, v([O, "k"], !0), "fn "), Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "event") : Z.call(null, v([O, "nv"], !0), "event"), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), " ", Z.a ? Z.a(v([O, 
     "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "handle!") : Z.call(null, v([O, "nf"], !0), "handle!"), " ", Z.a ? Z.a(v([O, "nv"], !0), "event") : Z.call(null, v([O, "nv"], !0), "event"), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n  ", Z.a ? Z.a(v([O, "s"], !0), '"click this button"') : Z.call(null, v([O, "s"], !0), '"click this button"'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n") : Y.call(null, 
     Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "button") : Z.call(null, v([O, "nf"], !0), "button"), "\n  ", Z.a ? Z.a(v([O, "ss"], !0), ":on-click") : Z.call(null, v([O, "ss"], !0), ":on-click"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "k"], !0), "fn ") : Z.call(null, v([O, "k"], !0), "fn "), Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "event") : 
@@ -13795,36 +13834,36 @@ function Dm() {
     Z.a(v([O, "k"], !0), "fn ") : Z.call(null, v([O, "k"], !0), "fn "), Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "event") : Z.call(null, v([O, "nv"], !0), "event"), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "handle!") : Z.call(null, v([O, "nf"], !0), "handle!"), " ", Z.a ? Z.a(v([O, "nv"], !0), "event") : Z.call(null, 
     v([O, "nv"], !0), "event"), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n  ", Z.a ? Z.a(v([O, "s"], !0), '"click this button"') : Z.call(null, v([O, "s"], !0), '"click this button"'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n") : Y.call(null, Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "button") : Z.call(null, v([O, "nf"], !0), "button"), "\n  ", Z.a ? Z.a(v([O, "ss"], !0), ":on-click") : 
     Z.call(null, v([O, "ss"], !0), ":on-click"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "k"], !0), "fn ") : Z.call(null, v([O, "k"], !0), "fn "), Z.a ? Z.a(v([O, "p"], !0), "[") : Z.call(null, v([O, "p"], !0), "["), Z.a ? Z.a(v([O, "nv"], !0), "event") : Z.call(null, v([O, "nv"], !0), "event"), Z.a ? Z.a(v([O, "p"], !0), "]") : Z.call(null, v([O, "p"], !0), "]"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, 
-    "nf"], !0), "handle!") : Z.call(null, v([O, "nf"], !0), "handle!"), " ", Z.a ? Z.a(v([O, "nv"], !0), "event") : Z.call(null, v([O, "nv"], !0), "event"), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n  ", Z.a ? Z.a(v([O, "s"], !0), '"click this button"') : Z.call(null, v([O, "s"], !0), '"click this button"'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n")), bn, T.a ? T.a(v([O, "highlight"], !0), Y.Eb ? Y.Eb(Z.a ? Z.a(v([O, "p"], !0), "(") : 
+    "nf"], !0), "handle!") : Z.call(null, v([O, "nf"], !0), "handle!"), " ", Z.a ? Z.a(v([O, "nv"], !0), "event") : Z.call(null, v([O, "nv"], !0), "event"), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n  ", Z.a ? Z.a(v([O, "s"], !0), '"click this button"') : Z.call(null, v([O, "s"], !0), '"click this button"'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n")), fn, T.a ? T.a(v([O, "highlight"], !0), Y.Gb ? Y.Gb(Z.a ? Z.a(v([O, "p"], !0), "(") : 
     Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "div") : Z.call(null, v([O, "nf"], !0), "div"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":do-class") : Z.call(null, v([O, "ss"], !0), ":do-class"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "cell\x3d") : Z.call(null, v([O, "nf"], !0), "cell\x3d"), " ", Z.a ? Z.a(v([O, "p"], !0), "{") : Z.call(null, v([O, "p"], !0), "{"), Z.a ? Z.a(v([O, "ss"], !0), ":active") : Z.call(null, v([O, 
     "ss"], !0), ":active"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nb"], !0), "\x3d ") : Z.call(null, v([O, "nb"], !0), "\x3d "), Z.a ? Z.a(v([O, "mi"], !0), "20") : Z.call(null, v([O, "mi"], !0), "20"), " ", Z.a ? Z.a(v([O, "nv"], !0), "page") : Z.call(null, v([O, "nv"], !0), "page"), Z.a ? Z.a(v([O, "p"], !0), ")})") : Z.call(null, v([O, "p"], !0), ")})"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, 
     "nf"], !0), "h2") : Z.call(null, v([O, "nf"], !0), "h2"), " ", Z.a ? Z.a(v([O, "s"], !0), '"Page 20"') : Z.call(null, v([O, "s"], !0), '"Page 20"'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "p") : Z.call(null, v([O, "nf"], !0), "p"), " ", Z.a ? Z.a(v([O, "s"], !0), '"This is the content for page 20."') : Z.call(null, v([O, "s"], !0), '"This is the content for page 20."'), 
     Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n") : Y.call(null, Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "div") : Z.call(null, v([O, "nf"], !0), "div"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":do-class") : Z.call(null, v([O, "ss"], !0), ":do-class"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "cell\x3d") : Z.call(null, v([O, "nf"], !0), "cell\x3d"), " ", 
     Z.a ? Z.a(v([O, "p"], !0), "{") : Z.call(null, v([O, "p"], !0), "{"), Z.a ? Z.a(v([O, "ss"], !0), ":active") : Z.call(null, v([O, "ss"], !0), ":active"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nb"], !0), "\x3d ") : Z.call(null, v([O, "nb"], !0), "\x3d "), Z.a ? Z.a(v([O, "mi"], !0), "20") : Z.call(null, v([O, "mi"], !0), "20"), " ", Z.a ? Z.a(v([O, "nv"], !0), "page") : Z.call(null, v([O, "nv"], !0), "page"), Z.a ? Z.a(v([O, "p"], !0), ")})") : 
     Z.call(null, v([O, "p"], !0), ")})"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "h2") : Z.call(null, v([O, "nf"], !0), "h2"), " ", Z.a ? Z.a(v([O, "s"], !0), '"Page 20"') : Z.call(null, v([O, "s"], !0), '"Page 20"'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "p") : Z.call(null, v([O, "nf"], !0), "p"), 
-    " ", Z.a ? Z.a(v([O, "s"], !0), '"This is the content for page 20."') : Z.call(null, v([O, "s"], !0), '"This is the content for page 20."'), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n")) : T.call(null, v([O, "highlight"], !0), Y.Eb ? Y.Eb(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "div") : Z.call(null, v([O, "nf"], !0), "div"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":do-class") : Z.call(null, v([O, "ss"], !0), 
+    " ", Z.a ? Z.a(v([O, "s"], !0), '"This is the content for page 20."') : Z.call(null, v([O, "s"], !0), '"This is the content for page 20."'), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n")) : T.call(null, v([O, "highlight"], !0), Y.Gb ? Y.Gb(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "div") : Z.call(null, v([O, "nf"], !0), "div"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":do-class") : Z.call(null, v([O, "ss"], !0), 
     ":do-class"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "cell\x3d") : Z.call(null, v([O, "nf"], !0), "cell\x3d"), " ", Z.a ? Z.a(v([O, "p"], !0), "{") : Z.call(null, v([O, "p"], !0), "{"), Z.a ? Z.a(v([O, "ss"], !0), ":active") : Z.call(null, v([O, "ss"], !0), ":active"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nb"], !0), "\x3d ") : Z.call(null, v([O, "nb"], !0), "\x3d "), Z.a ? Z.a(v([O, 
     "mi"], !0), "20") : Z.call(null, v([O, "mi"], !0), "20"), " ", Z.a ? Z.a(v([O, "nv"], !0), "page") : Z.call(null, v([O, "nv"], !0), "page"), Z.a ? Z.a(v([O, "p"], !0), ")})") : Z.call(null, v([O, "p"], !0), ")})"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "h2") : Z.call(null, v([O, "nf"], !0), "h2"), " ", Z.a ? Z.a(v([O, "s"], !0), '"Page 20"') : Z.call(null, v([O, "s"], !0), '"Page 20"'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, 
     v([O, "p"], !0), ")"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "p") : Z.call(null, v([O, "nf"], !0), "p"), " ", Z.a ? Z.a(v([O, "s"], !0), '"This is the content for page 20."') : Z.call(null, v([O, "s"], !0), '"This is the content for page 20."'), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n") : Y.call(null, Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], 
     !0), "div") : Z.call(null, v([O, "nf"], !0), "div"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":do-class") : Z.call(null, v([O, "ss"], !0), ":do-class"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "cell\x3d") : Z.call(null, v([O, "nf"], !0), "cell\x3d"), " ", Z.a ? Z.a(v([O, "p"], !0), "{") : Z.call(null, v([O, "p"], !0), "{"), Z.a ? Z.a(v([O, "ss"], !0), ":active") : Z.call(null, v([O, "ss"], !0), ":active"), " ", Z.a ? Z.a(v([O, "p"], !0), 
     "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nb"], !0), "\x3d ") : Z.call(null, v([O, "nb"], !0), "\x3d "), Z.a ? Z.a(v([O, "mi"], !0), "20") : Z.call(null, v([O, "mi"], !0), "20"), " ", Z.a ? Z.a(v([O, "nv"], !0), "page") : Z.call(null, v([O, "nv"], !0), "page"), Z.a ? Z.a(v([O, "p"], !0), ")})") : Z.call(null, v([O, "p"], !0), ")})"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "h2") : Z.call(null, v([O, "nf"], !0), 
     "h2"), " ", Z.a ? Z.a(v([O, "s"], !0), '"Page 20"') : Z.call(null, v([O, "s"], !0), '"Page 20"'), Z.a ? Z.a(v([O, "p"], !0), ")") : Z.call(null, v([O, "p"], !0), ")"), "\n  ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "p") : Z.call(null, v([O, "nf"], !0), "p"), " ", Z.a ? Z.a(v([O, "s"], !0), '"This is the content for page 20."') : Z.call(null, v([O, "s"], !0), '"This is the content for page 20."'), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, 
-    v([O, "p"], !0), "))"), "\n")), cn, dn, T.a ? T.a(v([O, "highlight"], !0), Y.X ? Y.X(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "p") : Z.call(null, v([O, "nf"], !0), "p"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "text") : Z.call(null, v([O, "nf"], !0), "text"), " ", Z.a ? Z.a(v([O, "s"], !0), '"the value of x is ~{x}"') : Z.call(null, v([O, "s"], !0), '"the value of x is ~{x}"'), 
+    v([O, "p"], !0), "))"), "\n")), gn, hn, T.a ? T.a(v([O, "highlight"], !0), Y.X ? Y.X(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "p") : Z.call(null, v([O, "nf"], !0), "p"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "text") : Z.call(null, v([O, "nf"], !0), "text"), " ", Z.a ? Z.a(v([O, "s"], !0), '"the value of x is ~{x}"') : Z.call(null, v([O, "s"], !0), '"the value of x is ~{x}"'), 
     Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n") : Y.call(null, Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "p") : Z.call(null, v([O, "nf"], !0), "p"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "text") : Z.call(null, v([O, "nf"], !0), "text"), " ", Z.a ? Z.a(v([O, "s"], !0), '"the value of x is ~{x}"') : Z.call(null, v([O, "s"], !0), '"the value of x is ~{x}"'), 
     Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n")) : T.call(null, v([O, "highlight"], !0), Y.X ? Y.X(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "p") : Z.call(null, v([O, "nf"], !0), "p"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "text") : Z.call(null, v([O, "nf"], !0), "text"), " ", Z.a ? Z.a(v([O, "s"], !0), '"the value of x is ~{x}"') : Z.call(null, 
     v([O, "s"], !0), '"the value of x is ~{x}"'), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n") : Y.call(null, Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "p") : Z.call(null, v([O, "nf"], !0), "p"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "text") : Z.call(null, v([O, "nf"], !0), "text"), " ", Z.a ? Z.a(v([O, "s"], !0), '"the value of x is ~{x}"') : Z.call(null, 
-    v([O, "s"], !0), '"the value of x is ~{x}"'), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n")), en, fn, T.a ? T.a(v([O, "highlight"], !0), Y.ta ? Y.ta(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "do!") : Z.call(null, v([O, "nf"], !0), "do!"), " ", Z.a ? Z.a(v([O, "nv"], !0), "elem") : Z.call(null, v([O, "nv"], !0), "elem"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":class") : Z.call(null, v([O, "ss"], !0), ":class"), 
+    v([O, "s"], !0), '"the value of x is ~{x}"'), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n")), jn, kn, T.a ? T.a(v([O, "highlight"], !0), Y.ta ? Y.ta(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "do!") : Z.call(null, v([O, "nf"], !0), "do!"), " ", Z.a ? Z.a(v([O, "nv"], !0), "elem") : Z.call(null, v([O, "nv"], !0), "elem"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":class") : Z.call(null, v([O, "ss"], !0), ":class"), 
     " ", Z.a ? Z.a(v([O, "p"], !0), "{") : Z.call(null, v([O, "p"], !0), "{"), Z.a ? Z.a(v([O, "ss"], !0), ":active") : Z.call(null, v([O, "ss"], !0), ":active"), " ", Z.a ? Z.a(v([O, "nv"], !0), "true") : Z.call(null, v([O, "nv"], !0), "true"), Z.a ? Z.a(v([O, "p"], !0), "})") : Z.call(null, v([O, "p"], !0), "})"), "\n") : Y.call(null, Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "do!") : Z.call(null, v([O, "nf"], !0), "do!"), " ", Z.a ? Z.a(v([O, 
     "nv"], !0), "elem") : Z.call(null, v([O, "nv"], !0), "elem"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":class") : Z.call(null, v([O, "ss"], !0), ":class"), " ", Z.a ? Z.a(v([O, "p"], !0), "{") : Z.call(null, v([O, "p"], !0), "{"), Z.a ? Z.a(v([O, "ss"], !0), ":active") : Z.call(null, v([O, "ss"], !0), ":active"), " ", Z.a ? Z.a(v([O, "nv"], !0), "true") : Z.call(null, v([O, "nv"], !0), "true"), Z.a ? Z.a(v([O, "p"], !0), "})") : Z.call(null, v([O, "p"], !0), "})"), "\n")) : T.call(null, v([O, "highlight"], 
     !0), Y.ta ? Y.ta(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "do!") : Z.call(null, v([O, "nf"], !0), "do!"), " ", Z.a ? Z.a(v([O, "nv"], !0), "elem") : Z.call(null, v([O, "nv"], !0), "elem"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":class") : Z.call(null, v([O, "ss"], !0), ":class"), " ", Z.a ? Z.a(v([O, "p"], !0), "{") : Z.call(null, v([O, "p"], !0), "{"), Z.a ? Z.a(v([O, "ss"], !0), ":active") : Z.call(null, v([O, "ss"], !0), ":active"), " ", 
     Z.a ? Z.a(v([O, "nv"], !0), "true") : Z.call(null, v([O, "nv"], !0), "true"), Z.a ? Z.a(v([O, "p"], !0), "})") : Z.call(null, v([O, "p"], !0), "})"), "\n") : Y.call(null, Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "do!") : Z.call(null, v([O, "nf"], !0), "do!"), " ", Z.a ? Z.a(v([O, "nv"], !0), "elem") : Z.call(null, v([O, "nv"], !0), "elem"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":class") : Z.call(null, v([O, "ss"], !0), ":class"), " ", Z.a ? 
-    Z.a(v([O, "p"], !0), "{") : Z.call(null, v([O, "p"], !0), "{"), Z.a ? Z.a(v([O, "ss"], !0), ":active") : Z.call(null, v([O, "ss"], !0), ":active"), " ", Z.a ? Z.a(v([O, "nv"], !0), "true") : Z.call(null, v([O, "nv"], !0), "true"), Z.a ? Z.a(v([O, "p"], !0), "})") : Z.call(null, v([O, "p"], !0), "})"), "\n")), gn, T.a ? T.a(v([O, "highlight"], !0), Y.aa ? Y.aa(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "on!") : Z.call(null, v([O, "nf"], !0), 
+    Z.a(v([O, "p"], !0), "{") : Z.call(null, v([O, "p"], !0), "{"), Z.a ? Z.a(v([O, "ss"], !0), ":active") : Z.call(null, v([O, "ss"], !0), ":active"), " ", Z.a ? Z.a(v([O, "nv"], !0), "true") : Z.call(null, v([O, "nv"], !0), "true"), Z.a ? Z.a(v([O, "p"], !0), "})") : Z.call(null, v([O, "p"], !0), "})"), "\n")), ln, T.a ? T.a(v([O, "highlight"], !0), Y.aa ? Y.aa(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "on!") : Z.call(null, v([O, "nf"], !0), 
     "on!"), " ", Z.a ? Z.a(v([O, "nv"], !0), "elem") : Z.call(null, v([O, "nv"], !0), "elem"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":click") : Z.call(null, v([O, "ss"], !0), ":click"), " ", Z.a ? Z.a(v([O, "o"], !0), "#") : Z.call(null, v([O, "o"], !0), "#"), Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "handle!") : Z.call(null, v([O, "nf"], !0), "handle!"), " ", Z.a ? Z.a(v([O, "nv"], !0), "%") : Z.call(null, v([O, "nv"], !0), "%"), Z.a ? Z.a(v([O, 
     "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n") : Y.call(null, Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "on!") : Z.call(null, v([O, "nf"], !0), "on!"), " ", Z.a ? Z.a(v([O, "nv"], !0), "elem") : Z.call(null, v([O, "nv"], !0), "elem"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":click") : Z.call(null, v([O, "ss"], !0), ":click"), " ", Z.a ? Z.a(v([O, "o"], !0), "#") : Z.call(null, v([O, "o"], !0), "#"), Z.a ? Z.a(v([O, "p"], !0), "(") : 
     Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "handle!") : Z.call(null, v([O, "nf"], !0), "handle!"), " ", Z.a ? Z.a(v([O, "nv"], !0), "%") : Z.call(null, v([O, "nv"], !0), "%"), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n")) : T.call(null, v([O, "highlight"], !0), Y.aa ? Y.aa(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "on!") : Z.call(null, v([O, "nf"], !0), "on!"), " ", Z.a ? Z.a(v([O, "nv"], 
     !0), "elem") : Z.call(null, v([O, "nv"], !0), "elem"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":click") : Z.call(null, v([O, "ss"], !0), ":click"), " ", Z.a ? Z.a(v([O, "o"], !0), "#") : Z.call(null, v([O, "o"], !0), "#"), Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "handle!") : Z.call(null, v([O, "nf"], !0), "handle!"), " ", Z.a ? Z.a(v([O, "nv"], !0), "%") : Z.call(null, v([O, "nv"], !0), "%"), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, 
     "p"], !0), "))"), "\n") : Y.call(null, Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "on!") : Z.call(null, v([O, "nf"], !0), "on!"), " ", Z.a ? Z.a(v([O, "nv"], !0), "elem") : Z.call(null, v([O, "nv"], !0), "elem"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":click") : Z.call(null, v([O, "ss"], !0), ":click"), " ", Z.a ? Z.a(v([O, "o"], !0), "#") : Z.call(null, v([O, "o"], !0), "#"), Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), 
-    Z.a ? Z.a(v([O, "nf"], !0), "handle!") : Z.call(null, v([O, "nf"], !0), "handle!"), " ", Z.a ? Z.a(v([O, "nv"], !0), "%") : Z.call(null, v([O, "nv"], !0), "%"), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n")), hn, T.a ? T.a(v([O, "highlight"], !0), Y.ia ? Y.ia(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "cell\x3d") : Z.call(null, v([O, "nf"], !0), "cell\x3d"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, 
+    Z.a ? Z.a(v([O, "nf"], !0), "handle!") : Z.call(null, v([O, "nf"], !0), "handle!"), " ", Z.a ? Z.a(v([O, "nv"], !0), "%") : Z.call(null, v([O, "nv"], !0), "%"), Z.a ? Z.a(v([O, "p"], !0), "))") : Z.call(null, v([O, "p"], !0), "))"), "\n")), mn, T.a ? T.a(v([O, "highlight"], !0), Y.ia ? Y.ia(Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "cell\x3d") : Z.call(null, v([O, "nf"], !0), "cell\x3d"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, 
     v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "do!") : Z.call(null, v([O, "nf"], !0), "do!"), " ", Z.a ? Z.a(v([O, "nv"], !0), "elem") : Z.call(null, v([O, "nv"], !0), "elem"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":class") : Z.call(null, v([O, "ss"], !0), ":class"), " ", Z.a ? Z.a(v([O, "p"], !0), "{") : Z.call(null, v([O, "p"], !0), "{"), Z.a ? Z.a(v([O, "ss"], !0), ":active") : Z.call(null, v([O, "ss"], !0), ":active"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), 
     "("), Z.a ? Z.a(v([O, "nb"], !0), "\x3d ") : Z.call(null, v([O, "nb"], !0), "\x3d "), Z.a ? Z.a(v([O, "mi"], !0), "20") : Z.call(null, v([O, "mi"], !0), "20"), " ", Z.a ? Z.a(v([O, "nv"], !0), "page") : Z.call(null, v([O, "nv"], !0), "page"), Z.a ? Z.a(v([O, "p"], !0), ")}))") : Z.call(null, v([O, "p"], !0), ")}))"), "\n") : Y.call(null, Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "cell\x3d") : Z.call(null, v([O, "nf"], !0), "cell\x3d"), " ", 
     Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "do!") : Z.call(null, v([O, "nf"], !0), "do!"), " ", Z.a ? Z.a(v([O, "nv"], !0), "elem") : Z.call(null, v([O, "nv"], !0), "elem"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":class") : Z.call(null, v([O, "ss"], !0), ":class"), " ", Z.a ? Z.a(v([O, "p"], !0), "{") : Z.call(null, v([O, "p"], !0), "{"), Z.a ? Z.a(v([O, "ss"], !0), ":active") : Z.call(null, v([O, "ss"], !0), ":active"), " ", Z.a ? Z.a(v([O, "p"], 
@@ -13832,14 +13871,14 @@ function Dm() {
     "nf"], !0), "cell\x3d") : Z.call(null, v([O, "nf"], !0), "cell\x3d"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "do!") : Z.call(null, v([O, "nf"], !0), "do!"), " ", Z.a ? Z.a(v([O, "nv"], !0), "elem") : Z.call(null, v([O, "nv"], !0), "elem"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":class") : Z.call(null, v([O, "ss"], !0), ":class"), " ", Z.a ? Z.a(v([O, "p"], !0), "{") : Z.call(null, v([O, "p"], !0), "{"), Z.a ? Z.a(v([O, "ss"], !0), ":active") : 
     Z.call(null, v([O, "ss"], !0), ":active"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nb"], !0), "\x3d ") : Z.call(null, v([O, "nb"], !0), "\x3d "), Z.a ? Z.a(v([O, "mi"], !0), "20") : Z.call(null, v([O, "mi"], !0), "20"), " ", Z.a ? Z.a(v([O, "nv"], !0), "page") : Z.call(null, v([O, "nv"], !0), "page"), Z.a ? Z.a(v([O, "p"], !0), ")}))") : Z.call(null, v([O, "p"], !0), ")}))"), "\n") : Y.call(null, Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, 
     v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "cell\x3d") : Z.call(null, v([O, "nf"], !0), "cell\x3d"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nf"], !0), "do!") : Z.call(null, v([O, "nf"], !0), "do!"), " ", Z.a ? Z.a(v([O, "nv"], !0), "elem") : Z.call(null, v([O, "nv"], !0), "elem"), " ", Z.a ? Z.a(v([O, "ss"], !0), ":class") : Z.call(null, v([O, "ss"], !0), ":class"), " ", Z.a ? Z.a(v([O, "p"], !0), "{") : Z.call(null, v([O, "p"], !0), 
-    "{"), Z.a ? Z.a(v([O, "ss"], !0), ":active") : Z.call(null, v([O, "ss"], !0), ":active"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nb"], !0), "\x3d ") : Z.call(null, v([O, "nb"], !0), "\x3d "), Z.a ? Z.a(v([O, "mi"], !0), "20") : Z.call(null, v([O, "mi"], !0), "20"), " ", Z.a ? Z.a(v([O, "nv"], !0), "page") : Z.call(null, v([O, "nv"], !0), "page"), Z.a ? Z.a(v([O, "p"], !0), ")}))") : Z.call(null, v([O, "p"], !0), ")}))"), "\n")), jn], 0)), ln = 
-    yl.d(C([Ef, gh, Km, Pm, Zm, kn], 0)), Uk = wl.d(C([Jd, ln], 0)), Vk = cl.l ? cl.l() : cl.call(null), Wk = Cm();
-    return dm.c ? dm.c(Uk, Vk, Wk) : dm.call(null, Uk, Vk, Wk)
+    "{"), Z.a ? Z.a(v([O, "ss"], !0), ":active") : Z.call(null, v([O, "ss"], !0), ":active"), " ", Z.a ? Z.a(v([O, "p"], !0), "(") : Z.call(null, v([O, "p"], !0), "("), Z.a ? Z.a(v([O, "nb"], !0), "\x3d ") : Z.call(null, v([O, "nb"], !0), "\x3d "), Z.a ? Z.a(v([O, "mi"], !0), "20") : Z.call(null, v([O, "mi"], !0), "20"), " ", Z.a ? Z.a(v([O, "nv"], !0), "page") : Z.call(null, v([O, "nv"], !0), "page"), Z.a ? Z.a(v([O, "p"], !0), ")}))") : Z.call(null, v([O, "p"], !0), ")}))"), "\n")), nn], 0)), pn = 
+    Al.d(C([Ef, hh, Mm, Rm, cn, on], 0)), Wk = yl.d(C([Jd, pn], 0)), Xk = el.l ? el.l() : el.call(null), Yk = Em();
+    return fm.c ? fm.c(Wk, Xk, Yk) : fm.call(null, Wk, Xk, Yk)
   }()]))
 }
-var Em = ["tailrecursion", "hoplon", "app_pages", "G__3223", "hoploninit"], Fm = fa;
-Em[0] in Fm || !Fm.execScript || Fm.execScript("var " + Em[0]);
-for(var Gm;Em.length && (Gm = Em.shift());) {
-  Em.length || void 0 === Dm ? Fm = Fm[Gm] ? Fm[Gm] : Fm[Gm] = {} : Fm[Gm] = Dm
+var Gm = ["tailrecursion", "hoplon", "app_pages", "G__9012", "hoploninit"], Hm = fa;
+Gm[0] in Hm || !Hm.execScript || Hm.execScript("var " + Gm[0]);
+for(var Im;Gm.length && (Im = Gm.shift());) {
+  Gm.length || void 0 === Fm ? Hm = Hm[Im] ? Hm[Im] : Hm[Im] = {} : Hm[Im] = Fm
 }
 ;
