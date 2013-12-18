@@ -4203,8 +4203,8 @@ var rd = function Bd(e, f) {
       this.Ac = k;
       this.q = 0;
       this.j = 393217
-    }, ka.lc = !0, ka.jc = "cljs.core/t15086", ka.wc = function(e) {
-      return zc(e, "cljs.core/t15086")
+    }, ka.lc = !0, ka.jc = "cljs.core/t9303", ka.wc = function(e) {
+      return zc(e, "cljs.core/t9303")
     }, ka.prototype.call = function() {
       function e(g, k) {
         g = this;
@@ -11921,8 +11921,8 @@ function Hm() {
     }), function() {
       var g = document.createTextNode("");
       P(function(d, e, f, g) {
-        return e.nodeValue = [t(" \x3d "), t(g.a ? g.a(f, d) : g.call(null, f, d))].join("")
-      }).call(null, e, g, d, f);
+        return g.nodeValue = [t(" \x3d "), t(f.a ? f.a(e, d) : f.call(null, e, d))].join("")
+      }).call(null, e, d, f, g);
       return g
     }()], 0))], 0))
   };
@@ -12236,33 +12236,33 @@ function Hm() {
                   var e = document.createTextNode("");
                   P(function() {
                     return function(d, e) {
-                      return d.nodeValue = "" + t(e)
+                      return e.nodeValue = "" + t(d)
                     }
-                  }(d, f, g, h, e, k, m, p)).call(null, e, m);
+                  }(d, f, g, h, e, k, m, p)).call(null, m, e);
                   return e
                 }()) : U.call(null, function() {
                   var e = document.createTextNode("");
                   P(function() {
                     return function(d, e) {
-                      return d.nodeValue = "" + t(e)
+                      return e.nodeValue = "" + t(d)
                     }
-                  }(d, f, g, h, e, k, m, p)).call(null, e, m);
+                  }(d, f, g, h, e, k, m, p)).call(null, m, e);
                   return e
                 }())) : e.insertBefore(U.b ? U.b(function() {
                   var e = document.createTextNode("");
                   P(function() {
                     return function(d, e) {
-                      return d.nodeValue = "" + t(e)
+                      return e.nodeValue = "" + t(d)
                     }
-                  }(d, f, g, h, e, k, m, p)).call(null, e, m);
+                  }(d, f, g, h, e, k, m, p)).call(null, m, e);
                   return e
                 }()) : U.call(null, function() {
                   var e = document.createTextNode("");
                   P(function() {
                     return function(d, e) {
-                      return d.nodeValue = "" + t(e)
+                      return e.nodeValue = "" + t(d)
                     }
-                  }(d, f, g, h, e, k, m, p)).call(null, e, m);
+                  }(d, f, g, h, e, k, m, p)).call(null, m, e);
                   return e
                 }()), e.firstChild)
               }
@@ -12281,33 +12281,33 @@ function Hm() {
                       var e = document.createTextNode("");
                       P(function() {
                         return function(d, e) {
-                          return d.nodeValue = "" + t(e)
+                          return e.nodeValue = "" + t(d)
                         }
-                      }(d, f, g, h, e, k, m, p, r, s)).call(null, e, m);
+                      }(d, f, g, h, e, k, m, p, r, s)).call(null, m, e);
                       return e
                     }()) : U.call(null, function() {
                       var e = document.createTextNode("");
                       P(function() {
                         return function(d, e) {
-                          return d.nodeValue = "" + t(e)
+                          return e.nodeValue = "" + t(d)
                         }
-                      }(d, f, g, h, e, k, m, p, r, s)).call(null, e, m);
+                      }(d, f, g, h, e, k, m, p, r, s)).call(null, m, e);
                       return e
                     }())) : e.insertBefore(U.b ? U.b(function() {
                       var e = document.createTextNode("");
                       P(function() {
                         return function(d, e) {
-                          return d.nodeValue = "" + t(e)
+                          return e.nodeValue = "" + t(d)
                         }
-                      }(d, f, g, h, e, k, m, p, r, s)).call(null, e, m);
+                      }(d, f, g, h, e, k, m, p, r, s)).call(null, m, e);
                       return e
                     }()) : U.call(null, function() {
                       var e = document.createTextNode("");
                       P(function() {
                         return function(d, e) {
-                          return d.nodeValue = "" + t(e)
+                          return e.nodeValue = "" + t(d)
                         }
-                      }(d, f, g, h, e, k, m, p, r, s)).call(null, e, m);
+                      }(d, f, g, h, e, k, m, p, r, s)).call(null, m, e);
                       return e
                     }()), e.firstChild)
                   }
@@ -12342,33 +12342,33 @@ function Hm() {
                   var e = document.createTextNode("");
                   P(function() {
                     return function(d, e) {
-                      return d.nodeValue = "" + t(e)
+                      return e.nodeValue = "" + t(d)
                     }
-                  }(d, f, g, h, e, k, m, p)).call(null, e, m);
+                  }(d, f, g, h, e, k, m, p)).call(null, m, e);
                   return e
                 }()) : U.call(null, function() {
                   var e = document.createTextNode("");
                   P(function() {
                     return function(d, e) {
-                      return d.nodeValue = "" + t(e)
+                      return e.nodeValue = "" + t(d)
                     }
-                  }(d, f, g, h, e, k, m, p)).call(null, e, m);
+                  }(d, f, g, h, e, k, m, p)).call(null, m, e);
                   return e
                 }())) : e.insertBefore(U.b ? U.b(function() {
                   var e = document.createTextNode("");
                   P(function() {
                     return function(d, e) {
-                      return d.nodeValue = "" + t(e)
+                      return e.nodeValue = "" + t(d)
                     }
-                  }(d, f, g, h, e, k, m, p)).call(null, e, m);
+                  }(d, f, g, h, e, k, m, p)).call(null, m, e);
                   return e
                 }()) : U.call(null, function() {
                   var e = document.createTextNode("");
                   P(function() {
                     return function(d, e) {
-                      return d.nodeValue = "" + t(e)
+                      return e.nodeValue = "" + t(d)
                     }
-                  }(d, f, g, h, e, k, m, p)).call(null, e, m);
+                  }(d, f, g, h, e, k, m, p)).call(null, m, e);
                   return e
                 }()), e.firstChild)
               }
@@ -12387,33 +12387,33 @@ function Hm() {
                       var e = document.createTextNode("");
                       P(function() {
                         return function(d, e) {
-                          return d.nodeValue = "" + t(e)
+                          return e.nodeValue = "" + t(d)
                         }
-                      }(d, f, g, h, e, k, m, p, r, s)).call(null, e, m);
+                      }(d, f, g, h, e, k, m, p, r, s)).call(null, m, e);
                       return e
                     }()) : U.call(null, function() {
                       var e = document.createTextNode("");
                       P(function() {
                         return function(d, e) {
-                          return d.nodeValue = "" + t(e)
+                          return e.nodeValue = "" + t(d)
                         }
-                      }(d, f, g, h, e, k, m, p, r, s)).call(null, e, m);
+                      }(d, f, g, h, e, k, m, p, r, s)).call(null, m, e);
                       return e
                     }())) : e.insertBefore(U.b ? U.b(function() {
                       var e = document.createTextNode("");
                       P(function() {
                         return function(d, e) {
-                          return d.nodeValue = "" + t(e)
+                          return e.nodeValue = "" + t(d)
                         }
-                      }(d, f, g, h, e, k, m, p, r, s)).call(null, e, m);
+                      }(d, f, g, h, e, k, m, p, r, s)).call(null, m, e);
                       return e
                     }()) : U.call(null, function() {
                       var e = document.createTextNode("");
                       P(function() {
                         return function(d, e) {
-                          return d.nodeValue = "" + t(e)
+                          return e.nodeValue = "" + t(d)
                         }
-                      }(d, f, g, h, e, k, m, p, r, s)).call(null, e, m);
+                      }(d, f, g, h, e, k, m, p, r, s)).call(null, m, e);
                       return e
                     }()), e.firstChild)
                   }
@@ -12455,33 +12455,33 @@ function Hm() {
                   var e = document.createTextNode("");
                   P(function() {
                     return function(d, e) {
-                      return d.nodeValue = "" + t(e)
+                      return e.nodeValue = "" + t(d)
                     }
-                  }(d, f, g, h, e, k, m, p)).call(null, e, m);
+                  }(d, f, g, h, e, k, m, p)).call(null, m, e);
                   return e
                 }()) : U.call(null, function() {
                   var e = document.createTextNode("");
                   P(function() {
                     return function(d, e) {
-                      return d.nodeValue = "" + t(e)
+                      return e.nodeValue = "" + t(d)
                     }
-                  }(d, f, g, h, e, k, m, p)).call(null, e, m);
+                  }(d, f, g, h, e, k, m, p)).call(null, m, e);
                   return e
                 }())) : e.insertBefore(U.b ? U.b(function() {
                   var e = document.createTextNode("");
                   P(function() {
                     return function(d, e) {
-                      return d.nodeValue = "" + t(e)
+                      return e.nodeValue = "" + t(d)
                     }
-                  }(d, f, g, h, e, k, m, p)).call(null, e, m);
+                  }(d, f, g, h, e, k, m, p)).call(null, m, e);
                   return e
                 }()) : U.call(null, function() {
                   var e = document.createTextNode("");
                   P(function() {
                     return function(d, e) {
-                      return d.nodeValue = "" + t(e)
+                      return e.nodeValue = "" + t(d)
                     }
-                  }(d, f, g, h, e, k, m, p)).call(null, e, m);
+                  }(d, f, g, h, e, k, m, p)).call(null, m, e);
                   return e
                 }()), e.firstChild)
               }
@@ -12500,33 +12500,33 @@ function Hm() {
                       var e = document.createTextNode("");
                       P(function() {
                         return function(d, e) {
-                          return d.nodeValue = "" + t(e)
+                          return e.nodeValue = "" + t(d)
                         }
-                      }(d, f, g, h, e, k, m, p, r, s)).call(null, e, m);
+                      }(d, f, g, h, e, k, m, p, r, s)).call(null, m, e);
                       return e
                     }()) : U.call(null, function() {
                       var e = document.createTextNode("");
                       P(function() {
                         return function(d, e) {
-                          return d.nodeValue = "" + t(e)
+                          return e.nodeValue = "" + t(d)
                         }
-                      }(d, f, g, h, e, k, m, p, r, s)).call(null, e, m);
+                      }(d, f, g, h, e, k, m, p, r, s)).call(null, m, e);
                       return e
                     }())) : e.insertBefore(U.b ? U.b(function() {
                       var e = document.createTextNode("");
                       P(function() {
                         return function(d, e) {
-                          return d.nodeValue = "" + t(e)
+                          return e.nodeValue = "" + t(d)
                         }
-                      }(d, f, g, h, e, k, m, p, r, s)).call(null, e, m);
+                      }(d, f, g, h, e, k, m, p, r, s)).call(null, m, e);
                       return e
                     }()) : U.call(null, function() {
                       var e = document.createTextNode("");
                       P(function() {
                         return function(d, e) {
-                          return d.nodeValue = "" + t(e)
+                          return e.nodeValue = "" + t(d)
                         }
-                      }(d, f, g, h, e, k, m, p, r, s)).call(null, e, m);
+                      }(d, f, g, h, e, k, m, p, r, s)).call(null, m, e);
                       return e
                     }()), e.firstChild)
                   }
@@ -12561,33 +12561,33 @@ function Hm() {
                   var e = document.createTextNode("");
                   P(function() {
                     return function(d, e) {
-                      return d.nodeValue = "" + t(e)
+                      return e.nodeValue = "" + t(d)
                     }
-                  }(d, f, g, h, e, k, m, p)).call(null, e, m);
+                  }(d, f, g, h, e, k, m, p)).call(null, m, e);
                   return e
                 }()) : U.call(null, function() {
                   var e = document.createTextNode("");
                   P(function() {
                     return function(d, e) {
-                      return d.nodeValue = "" + t(e)
+                      return e.nodeValue = "" + t(d)
                     }
-                  }(d, f, g, h, e, k, m, p)).call(null, e, m);
+                  }(d, f, g, h, e, k, m, p)).call(null, m, e);
                   return e
                 }())) : e.insertBefore(U.b ? U.b(function() {
                   var e = document.createTextNode("");
                   P(function() {
                     return function(d, e) {
-                      return d.nodeValue = "" + t(e)
+                      return e.nodeValue = "" + t(d)
                     }
-                  }(d, f, g, h, e, k, m, p)).call(null, e, m);
+                  }(d, f, g, h, e, k, m, p)).call(null, m, e);
                   return e
                 }()) : U.call(null, function() {
                   var e = document.createTextNode("");
                   P(function() {
                     return function(d, e) {
-                      return d.nodeValue = "" + t(e)
+                      return e.nodeValue = "" + t(d)
                     }
-                  }(d, f, g, h, e, k, m, p)).call(null, e, m);
+                  }(d, f, g, h, e, k, m, p)).call(null, m, e);
                   return e
                 }()), e.firstChild)
               }
@@ -12606,33 +12606,33 @@ function Hm() {
                       var e = document.createTextNode("");
                       P(function() {
                         return function(d, e) {
-                          return d.nodeValue = "" + t(e)
+                          return e.nodeValue = "" + t(d)
                         }
-                      }(d, f, g, h, e, k, m, p, r, s)).call(null, e, m);
+                      }(d, f, g, h, e, k, m, p, r, s)).call(null, m, e);
                       return e
                     }()) : U.call(null, function() {
                       var e = document.createTextNode("");
                       P(function() {
                         return function(d, e) {
-                          return d.nodeValue = "" + t(e)
+                          return e.nodeValue = "" + t(d)
                         }
-                      }(d, f, g, h, e, k, m, p, r, s)).call(null, e, m);
+                      }(d, f, g, h, e, k, m, p, r, s)).call(null, m, e);
                       return e
                     }())) : e.insertBefore(U.b ? U.b(function() {
                       var e = document.createTextNode("");
                       P(function() {
                         return function(d, e) {
-                          return d.nodeValue = "" + t(e)
+                          return e.nodeValue = "" + t(d)
                         }
-                      }(d, f, g, h, e, k, m, p, r, s)).call(null, e, m);
+                      }(d, f, g, h, e, k, m, p, r, s)).call(null, m, e);
                       return e
                     }()) : U.call(null, function() {
                       var e = document.createTextNode("");
                       P(function() {
                         return function(d, e) {
-                          return d.nodeValue = "" + t(e)
+                          return e.nodeValue = "" + t(d)
                         }
-                      }(d, f, g, h, e, k, m, p, r, s)).call(null, e, m);
+                      }(d, f, g, h, e, k, m, p, r, s)).call(null, m, e);
                       return e
                     }()), e.firstChild)
                   }
@@ -13895,16 +13895,16 @@ function Hm() {
     Bl.d(C([Hf, mh, Om, Tm, en, qn], 0)), Yk = yl.d(C([Ld, rn], 0)), Zk = el.l ? el.l() : el.call(null), $k = Gm();
     return gm.c ? gm.c(Yk, Zk, $k) : gm.call(null, Yk, Zk, $k)
   }(), function() {
-    var d = zl(), e = al.b ? al.b("Community") : al.call(null, "Community"), f = el.l ? el.l() : el.call(null), g = xk.b ? xk.b("Source Code") : xk.call(null, "Source Code"), h = Q.m ? Q.m(hi, "https://github.com/tailrecursion/hoplon", pi, "_blank", "https://github.com/tailrecursion/hoplon") : Q.call(null, hi, "https://github.com/tailrecursion/hoplon", pi, "_blank", "https://github.com/tailrecursion/hoplon"), h = vk.b ? vk.b(h) : vk.call(null, h), l = xk.b ? xk.b("Issues") : xk.call(null, "Issues"), 
-    k = Q.m ? Q.m(hi, "https://github.com/tailrecursion/hoplon/issues", pi, "_blank", "https://github.com/tailrecursion/hoplon/issues") : Q.call(null, hi, "https://github.com/tailrecursion/hoplon/issues", pi, "_blank", "https://github.com/tailrecursion/hoplon/issues"), k = vk.b ? vk.b(k) : vk.call(null, k), m = xk.b ? xk.b("Mailing List") : xk.call(null, "Mailing List"), p = Q.m ? Q.m(hi, "https://groups.google.com/forum/#!forum/hoplon", pi, "_blank", "https://groups.google.com/forum/#!forum/hoplon") : 
-    Q.call(null, hi, "https://groups.google.com/forum/#!forum/hoplon", pi, "_blank", "https://groups.google.com/forum/#!forum/hoplon"), p = vk.b ? vk.b(p) : vk.call(null, p), r = xk.b ? xk.b("Freenode IRC") : xk.call(null, "Freenode IRC"), s = ql.b ? ql.b("#hoplon") : ql.call(null, "#hoplon"), s = vk.b ? vk.b(s) : vk.call(null, s), g = wk.ua ? wk.ua(O, "dl-horizontal", g, h, l, k, m, p, r, s) : wk.call(null, O, "dl-horizontal", g, h, l, k, m, p, r, s), h = el.l ? el.l() : el.call(null), l = cl.b ? 
-    cl.b("Special Thanks To") : cl.call(null, "Special Thanks To"), k = xk.b ? xk.b("Ray Willig") : xk.call(null, "Ray Willig"), m = Q.m ? Q.m(hi, "https://github.com/rwillig", pi, "_blank", "https://github.com/rwillig") : Q.call(null, hi, "https://github.com/rwillig", pi, "_blank", "https://github.com/rwillig"), m = vk.b ? vk.b(m) : vk.call(null, m), p = xk.b ? xk.b("Alexander Solovyov") : xk.call(null, "Alexander Solovyov"), r = Q.m ? Q.m(hi, "https://github.com/piranha", pi, "_blank", "https://github.com/piranha") : 
-    Q.call(null, hi, "https://github.com/piranha", pi, "_blank", "https://github.com/piranha"), r = vk.b ? vk.b(r) : vk.call(null, r), s = xk.b ? xk.b("Kevin Lynagh") : xk.call(null, "Kevin Lynagh"), w = Q.m ? Q.m(hi, "http://github.com/lynaghk", pi, "_blank", "http://github.com/lynaghk") : Q.call(null, hi, "http://github.com/lynaghk", pi, "_blank", "http://github.com/lynaghk"), w = vk.b ? vk.b(w) : vk.call(null, w), k = wk.ka ? wk.ka(O, "dl-horizontal", k, m, p, r, s, w) : wk.call(null, O, "dl-horizontal", 
-    k, m, p, r, s, w), m = el.l ? el.l() : el.call(null), p = Gm(), e = Bl.d(C([e, f, g, h, l, k, m, p], 0)), f = zl(), d = yl.d(C([d, e, f], 0));
+    var d = zl(), e = al.b ? al.b("Community") : al.call(null, "Community"), f = el.l ? el.l() : el.call(null), g = xk.b ? xk.b("Source") : xk.call(null, "Source"), h = Q.m ? Q.m(hi, "https://github.com/tailrecursion/hoplon", pi, "_blank", "https://github.com/tailrecursion/hoplon") : Q.call(null, hi, "https://github.com/tailrecursion/hoplon", pi, "_blank", "https://github.com/tailrecursion/hoplon"), h = vk.b ? vk.b(h) : vk.call(null, h), l = xk.b ? xk.b("Issues") : xk.call(null, "Issues"), k = Q.m ? 
+    Q.m(hi, "https://github.com/tailrecursion/hoplon/issues", pi, "_blank", "https://github.com/tailrecursion/hoplon/issues") : Q.call(null, hi, "https://github.com/tailrecursion/hoplon/issues", pi, "_blank", "https://github.com/tailrecursion/hoplon/issues"), k = vk.b ? vk.b(k) : vk.call(null, k), m = xk.b ? xk.b("Mailing List") : xk.call(null, "Mailing List"), p = Q.m ? Q.m(hi, "https://groups.google.com/forum/#!forum/hoplon", pi, "_blank", "https://groups.google.com/forum/#!forum/hoplon") : Q.call(null, 
+    hi, "https://groups.google.com/forum/#!forum/hoplon", pi, "_blank", "https://groups.google.com/forum/#!forum/hoplon"), p = vk.b ? vk.b(p) : vk.call(null, p), r = xk.b ? xk.b("Freenode IRC") : xk.call(null, "Freenode IRC"), s = ql.b ? ql.b("#hoplon") : ql.call(null, "#hoplon"), s = vk.b ? vk.b(s) : vk.call(null, s), g = wk.ua ? wk.ua(O, "dl-horizontal", g, h, l, k, m, p, r, s) : wk.call(null, O, "dl-horizontal", g, h, l, k, m, p, r, s), h = el.l ? el.l() : el.call(null), l = cl.b ? cl.b("Special Thanks To") : 
+    cl.call(null, "Special Thanks To"), k = xk.b ? xk.b("Ray Willig") : xk.call(null, "Ray Willig"), m = Q.m ? Q.m(hi, "https://github.com/rwillig", pi, "_blank", "https://github.com/rwillig") : Q.call(null, hi, "https://github.com/rwillig", pi, "_blank", "https://github.com/rwillig"), m = vk.b ? vk.b(m) : vk.call(null, m), p = xk.b ? xk.b("Alexander Solovyov") : xk.call(null, "Alexander Solovyov"), r = Q.m ? Q.m(hi, "https://github.com/piranha", pi, "_blank", "https://github.com/piranha") : Q.call(null, 
+    hi, "https://github.com/piranha", pi, "_blank", "https://github.com/piranha"), r = vk.b ? vk.b(r) : vk.call(null, r), s = xk.b ? xk.b("Kevin Lynagh") : xk.call(null, "Kevin Lynagh"), w = Q.m ? Q.m(hi, "http://github.com/lynaghk", pi, "_blank", "http://github.com/lynaghk") : Q.call(null, hi, "http://github.com/lynaghk", pi, "_blank", "http://github.com/lynaghk"), w = vk.b ? vk.b(w) : vk.call(null, w), k = wk.ka ? wk.ka(O, "dl-horizontal", k, m, p, r, s, w) : wk.call(null, O, "dl-horizontal", k, 
+    m, p, r, s, w), m = el.l ? el.l() : el.call(null), p = Gm(), e = Bl.d(C([e, f, g, h, l, k, m, p], 0)), f = zl(), d = yl.d(C([d, e, f], 0));
     return hm.b ? hm.b(d) : hm.call(null, d)
   }()]))
 }
-var Im = ["tailrecursion", "hoplon", "app_pages", "G__9012", "hoploninit"], Jm = fa;
+var Im = ["tailrecursion", "hoplon", "app_pages", "G__3229", "hoploninit"], Jm = fa;
 Im[0] in Jm || !Jm.execScript || Jm.execScript("var " + Im[0]);
 for(var Km;Im.length && (Km = Im.shift());) {
   Im.length || void 0 === Hm ? Jm = Jm[Km] ? Jm[Km] : Jm[Km] = {} : Jm[Km] = Hm
